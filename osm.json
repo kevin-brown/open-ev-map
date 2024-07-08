@@ -1,0 +1,4724 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.1 084b4234",
+  "osm3s": {
+    "timestamp_osm_base": "2024-07-07T20:00:47Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3732553898,
+      "lat": 41.9463931,
+      "lon": -71.3507235,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "name": "EVgo",
+        "opening_hours": "24/7",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "socket:chademo": "1",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6040386533,
+      "lat": 42.5281991,
+      "lon": -71.2562216,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6615041292,
+      "lat": 42.3449194,
+      "lon": -71.0993783,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/bonstonfenwaysupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6615082487,
+      "lat": 42.3682639,
+      "lon": -71.0772071,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/cambridgemasupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6615117721,
+      "lat": 42.3036166,
+      "lon": -71.3941079,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "12",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/framinghammasupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6615164778,
+      "lat": 42.5296005,
+      "lon": -71.7441631,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla Motors",
+        "website": "https://www.tesla.com/findus/location/supercharger/leominstersupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6615176196,
+      "lat": 42.0136956,
+      "lon": -71.2317482,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q478214",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla Motors",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6615225609,
+      "lat": 41.7812145,
+      "lon": -70.5401283,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q478214",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "parking:fee": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6648161872,
+      "lat": 41.9196084,
+      "lon": -71.5397059,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7007151878,
+      "lat": 41.7335840,
+      "lon": -71.4363841,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7007193886,
+      "lat": 41.7356049,
+      "lon": -71.4347543,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "eVgo",
+        "brand:wikidata": "Q61803820",
+        "name": "eVgo",
+        "operator": "eVgo",
+        "operator:wikidata": "Q61803820"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7058865180,
+      "lat": 41.7612558,
+      "lon": -71.4569101,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "charge": "0",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7058865181,
+      "lat": 41.7612028,
+      "lon": -71.4569164,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7154146845,
+      "lat": 42.4577316,
+      "lon": -71.0650577,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7154146846,
+      "lat": 42.4585475,
+      "lon": -71.0700624,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "City of Melrose"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7656456861,
+      "lat": 42.5067947,
+      "lon": -71.0788735,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7656493682,
+      "lat": 42.4613937,
+      "lon": -71.0264468,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "eVgo",
+        "brand:wikidata": "Q61803820",
+        "description": "On ground level between Best Buy and Square One Mall Entrance",
+        "name": "eVgo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7657523801,
+      "lat": 42.3985274,
+      "lon": -71.0001492,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/reveremasupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7659257400,
+      "lat": 42.3927595,
+      "lon": -71.0363477,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7659937373,
+      "lat": 42.3862574,
+      "lon": -71.0784652,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7659937374,
+      "lat": 42.4043768,
+      "lon": -71.0815913,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7659937375,
+      "lat": 42.4026287,
+      "lon": -71.0809464,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7659994144,
+      "lat": 42.4324061,
+      "lon": -71.0233820,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7671355537,
+      "lat": 42.3112312,
+      "lon": -71.1150857,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "6",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "4 minutes",
+        "motorcar": "yes",
+        "name": "Jamaica Plain Municipal Lot",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "6",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6kW",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7689983007,
+      "lat": 42.3493544,
+      "lon": -71.0798429,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "covered": "no",
+        "fee": "yes",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/bostonmasupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7727890037,
+      "lat": 42.3490483,
+      "lon": -71.0793554,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "covered": "no",
+        "fee": "yes",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/bostonmasupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7748183171,
+      "lat": 42.3473778,
+      "lon": -71.0804562,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "covered": "yes",
+        "fee": "yes",
+        "name": "Tesla Supercharger",
+        "note": "Located in South Garage accessible via Huntington Avenue entrance",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/bostonmasupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7814651585,
+      "lat": 42.3612355,
+      "lon": -71.0617618,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Boston",
+        "addr:housenumber": "83",
+        "addr:postcode": "02114",
+        "addr:street": "Cambridge Street",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "no",
+        "generator:output:electricity": "6.6 kW",
+        "generator:source": "electricity_network",
+        "model": "SAE J1772",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "ref": "Cambridge 1",
+        "website": "https://na.chargepoint.com/charge_point"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7814651586,
+      "lat": 42.3611953,
+      "lon": -71.0616189,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Boston",
+        "addr:housenumber": "83",
+        "addr:postcode": "02114",
+        "addr:street": "Cambridge Street",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "no",
+        "generator:output:electricity": "6.6 kW",
+        "generator:source": "electricity_network",
+        "model": "SAE J1772",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "ref": "Cambridge 2",
+        "website": "https://na.chargepoint.com/charge_point"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7818394276,
+      "lat": 42.1626324,
+      "lon": -71.0596270,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1": "2",
+        "socket:type1:current": "32 A",
+        "socket:type1:output": "6.6 kW",
+        "socket:type1:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7824938353,
+      "lat": 42.3658422,
+      "lon": -71.0619745,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Boston",
+        "addr:housenumber": "1",
+        "addr:postcode": "02114",
+        "addr:state": "MA",
+        "addr:street": "Nashua Street",
+        "addr:unit": "P1;P3",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "7",
+        "covered": "yes",
+        "fee": "no",
+        "level": "-3;-1",
+        "location": "underground",
+        "name": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "parking_space": "charging",
+        "phone": "+1-888-758-4389",
+        "website": "https://www.chargepoint.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7828185845,
+      "lat": 42.2907677,
+      "lon": -71.6712515,
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "Volta",
+        "covered": "no",
+        "description": "J-1772",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7893027837,
+      "lat": 42.3561943,
+      "lon": -71.0555904,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "covered": "yes",
+        "fee": "no",
+        "layer": "-1",
+        "level": "-1",
+        "location": "underground",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8347474279,
+      "lat": 41.7563976,
+      "lon": -71.4563175,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "note": "CCS - 29.8kW 1x Stations",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8500362486,
+      "lat": 42.5381313,
+      "lon": -71.6241296,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "description": "J1772 6.6 kW",
+        "fee": "yes",
+        "name": "Devens Sherman Square",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8710873596,
+      "lat": 42.7442758,
+      "lon": -71.1559736,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8710873597,
+      "lat": 42.7442286,
+      "lon": -71.1559811,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8857512592,
+      "lat": 42.5029207,
+      "lon": -71.0693568,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8857512593,
+      "lat": 42.5013641,
+      "lon": -71.0700386,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8977209263,
+      "lat": 42.3327979,
+      "lon": -71.1038386,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "90 minutes",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6kW",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9101493817,
+      "lat": 41.9895085,
+      "lon": -71.2996997,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "no",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "Mo-Fr 07:00-17:00;PH off",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9112010867,
+      "lat": 42.2761886,
+      "lon": -71.0295081,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "4",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1": "4",
+        "socket:type1:current": "32 A",
+        "socket:type1:output": "6.6 kW",
+        "socket:type1:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9251871478,
+      "lat": 42.2764776,
+      "lon": -71.0300309,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "4",
+        "covered": "yes",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1": "4",
+        "socket:type1:current": "32 A",
+        "socket:type1:output": "6.6 kW",
+        "socket:type1:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9563499592,
+      "lat": 42.3938126,
+      "lon": -71.0328413,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9563499593,
+      "lat": 42.4078653,
+      "lon": -71.0126789,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "6",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9570069807,
+      "lat": 42.4074836,
+      "lon": -70.9954638,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9570069808,
+      "lat": 42.4105962,
+      "lon": -70.9969132,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9570069809,
+      "lat": 42.4112549,
+      "lon": -71.0005130,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "10",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9650196879,
+      "lat": 42.3905811,
+      "lon": -71.0859888,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q478214",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "Tesla Supercharging Station",
+        "network": "Tesla",
+        "not:brand:wikidata": "Q478214",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "parking:fee": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "website": "https://www.tesla.com/findus/location/supercharger/SomervilleMAsupercharger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9704386604,
+      "lat": 42.2841552,
+      "lon": -71.6552532,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Electrify America",
+        "capacity": "4",
+        "charge": "0.56 USD/kWh",
+        "fee": "yes",
+        "name": "Walmart 2158 - Northborough, MA",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "payment:app": "yes",
+        "payment:apple_pay": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "socket:chademo": "1",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "4",
+        "socket:type1_combo:output": "350 kW",
+        "website": "https://www.electrifyamerica.com/locate-charger/ma/northborough/200-otis-street/200003/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9723569699,
+      "lat": 42.3962469,
+      "lon": -71.1199394,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9980808872,
+      "lat": 42.4158291,
+      "lon": -71.1521257,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "operator:wikipedia": "en:ChargePoint",
+        "socket:type1": "2",
+        "socket:type1:output": "6.6"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10087776655,
+      "lat": 42.3698191,
+      "lon": -71.2386520,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "WattZilla",
+        "capacity": "2",
+        "fee": "no",
+        "maxstay": "2 hours",
+        "name": "Walnut Street Lot Charging Station",
+        "parking:fee": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10110406892,
+      "lat": 42.4617624,
+      "lon": -71.1668282,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10129339745,
+      "lat": 42.2846721,
+      "lon": -71.7667255,
+      "tags": {
+        "access": "unknown",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "1",
+        "covered": "yes",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "4",
+        "socket:type1:output": "6 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10152555977,
+      "lat": 42.3953750,
+      "lon": -71.1234511,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10157254422,
+      "lat": 42.4496527,
+      "lon": -71.0864062,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10157254423,
+      "lat": 42.4496510,
+      "lon": -71.0863481,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10157254640,
+      "lat": 42.4498382,
+      "lon": -71.0876929,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10157254641,
+      "lat": 42.4497917,
+      "lon": -71.0876865,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10157255011,
+      "lat": 42.4509389,
+      "lon": -71.0868999,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10157255012,
+      "lat": 42.4509330,
+      "lon": -71.0868401,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10272055208,
+      "lat": 41.8271665,
+      "lon": -71.3987636,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10601873010,
+      "lat": 42.4971615,
+      "lon": -71.5804789,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "charge": "$0.35/kWh",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10673798960,
+      "lat": 42.2262063,
+      "lon": -71.5234067,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10722375174,
+      "lat": 41.8227355,
+      "lon": -71.3998849,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "6",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "yes",
+        "payment:app": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10736006097,
+      "lat": 42.4588521,
+      "lon": -71.3506620,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "covered": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:type": "public",
+        "operator:wikidata": "Q5176149",
+        "payment:app": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10736006098,
+      "lat": 42.4603300,
+      "lon": -71.3512338,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "name": "Chargepoint",
+        "operator": "ChargePoint",
+        "operator:type": "public",
+        "operator:wikidata": "Q5176149",
+        "payment:app": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10736249212,
+      "lat": 42.4593331,
+      "lon": -71.3527489,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "covered": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10764654496,
+      "lat": 42.3425384,
+      "lon": -71.1239093,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10828123264,
+      "lat": 42.4163711,
+      "lon": -71.1540929,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Electrify America",
+        "capacity": "5",
+        "fee": "yes",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10906095726,
+      "lat": 42.3659046,
+      "lon": -71.1055873,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "covered": "no",
+        "level": "0",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10990256462,
+      "lat": 42.4568686,
+      "lon": -71.3942434,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "level": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10991334433,
+      "lat": 42.3469177,
+      "lon": -71.2070438,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "capacity": "2",
+        "fee": "yes",
+        "operator": "City of Newton",
+        "payment:app": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10991334434,
+      "lat": 42.3709709,
+      "lon": -71.2378915,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "WattZilla",
+        "capacity": "2",
+        "fee": "no",
+        "maxstay": "2 hours",
+        "name": "Crescent Street Lot Charging Station",
+        "parking:fee": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10991334435,
+      "lat": 42.3768789,
+      "lon": -71.2365688,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "WattZilla",
+        "capacity": "2",
+        "fee": "no",
+        "level": "1",
+        "maxstay": "2 hours",
+        "name": "Central Parking Lot Charging Station",
+        "parking:fee": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11103398296,
+      "lat": 41.7813687,
+      "lon": -70.7436791,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Nouria",
+        "brand:wikidata": "Q120637476",
+        "bus": "no",
+        "capacity": "4",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "Nouria",
+        "network": "EV Connect",
+        "opening_hours": "24/7",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:chademo": "4",
+        "socket:chademo:output": "100kW",
+        "socket:type1_combo": "4",
+        "socket:type1_combo:output": "100kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11113037046,
+      "lat": 42.1380393,
+      "lon": -71.0676409,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "3",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "10:00-21:00",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "3",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6kW",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11190329986,
+      "lat": 41.7632975,
+      "lon": -71.0956755,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "capacity": "8",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "250 kW",
+        "website": "https://www.tesla.com/findus/location/supercharger/FreetownMAQ322"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11262932492,
+      "lat": 42.1392256,
+      "lon": -71.2200589,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "no",
+        "level": "0",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11262957165,
+      "lat": 42.1571551,
+      "lon": -71.2419815,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "no",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "no",
+        "authentication:money_card": "no",
+        "authentication:nfc": "no",
+        "authentication:none": "yes",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "Volta",
+        "bus": "no",
+        "capacity": "1",
+        "covered": "no",
+        "fee": "no",
+        "hgv": "no",
+        "man_made": "charge_point",
+        "maxstay": "2 hours",
+        "motorcar": "yes",
+        "opening_hours": "24/7",
+        "operator": "Volta",
+        "operator:wikidata": "Q109307156",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1": "1",
+        "socket:type1:current": "40A",
+        "socket:type1:output": "8.3kW",
+        "socket:type1:voltage": "208V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11262957166,
+      "lat": 42.1571658,
+      "lon": -71.2419592,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "no",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "no",
+        "authentication:money_card": "no",
+        "authentication:nfc": "no",
+        "authentication:none": "yes",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "Volta",
+        "bus": "no",
+        "capacity": "1",
+        "covered": "no",
+        "fee": "no",
+        "hgv": "no",
+        "man_made": "charge_point",
+        "maxstay": "2 hours",
+        "motorcar": "yes",
+        "network": "Volta",
+        "opening_hours": "24/7",
+        "operator": "Volta",
+        "operator:wikidata": "Q109307156",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1": "1",
+        "socket:type1:current": "40A",
+        "socket:type1:output": "8.3kW",
+        "socket:type1:voltage": "208V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11264815608,
+      "lat": 42.0930452,
+      "lon": -71.2680663,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "yes",
+        "authentication:money_card": "no",
+        "authentication:nfc": "no",
+        "authentication:none": "no",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "no",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operational_status": "broken",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1_cable": "1",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6.48kW",
+        "socket:type1_cable:voltage": "208V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11292218603,
+      "lat": 42.3460201,
+      "lon": -71.0806161,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Blink",
+        "brand:wikidata": "Q62065645",
+        "name": "Blink",
+        "operator": "Blink",
+        "operator:wikidata": "Q62065645"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11295792645,
+      "lat": 42.1076471,
+      "lon": -71.3172152,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "covered": "no",
+        "fee": "yes",
+        "level": "2",
+        "name": "MassAudubon Stony Brook",
+        "network": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11339604242,
+      "lat": 42.1290384,
+      "lon": -71.1010801,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "1",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "1",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6kW",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11376062707,
+      "lat": 42.2467245,
+      "lon": -71.7233475,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "name": "EVgo",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11450848667,
+      "lat": 42.3438685,
+      "lon": -71.1226482,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "payment:app": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11781982939,
+      "lat": 42.7680132,
+      "lon": -71.2262082,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "8",
+        "fee": "no",
+        "name": "ChargePoint",
+        "not:operator:wikidata": "Q5176149",
+        "operator": "Mass General Brigham Integrated Care",
+        "socket:type1": "8",
+        "socket:type1:current": "30",
+        "socket:type1:output": "6",
+        "socket:type1:voltage": "200"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11826771123,
+      "lat": 42.4925028,
+      "lon": -71.2855208,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11826771124,
+      "lat": 42.4925151,
+      "lon": -71.2855934,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11826771129,
+      "lat": 42.4916080,
+      "lon": -71.2813595,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11826771130,
+      "lat": 42.4915615,
+      "lon": -71.2813839,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11895665325,
+      "lat": 42.2061895,
+      "lon": -71.1211514,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q478214",
+        "bus": "no",
+        "capacity": "20",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "no",
+        "payment:membership_card": "no",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "20",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "20",
+        "socket:type1_combo:output": "250kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11895687100,
+      "lat": 42.6871510,
+      "lon": -71.1458297,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11897881772,
+      "lat": 42.3677809,
+      "lon": -71.1860521,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "4",
+        "fee": "no",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "yes",
+        "scooter": "no",
+        "socket:type1": "4",
+        "socket:type1:output": "6.6 kW",
+        "socket:type1:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11899989951,
+      "lat": 42.3117484,
+      "lon": -71.3642355,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Autel",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "no:network": "yes",
+        "opening_hours": "24/7",
+        "operator": "Guardian Energy Management Solutions",
+        "owner": "MassDOT",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:contactless": "yes",
+        "scooter": "no",
+        "socket:type1_combo": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11899989952,
+      "lat": 42.3119045,
+      "lon": -71.4293257,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Autel",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "no:network": "yes",
+        "opening_hours": "24/7",
+        "operator": "Guardian Energy Management Solutions",
+        "owner": "MassDOT",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:contactless": "yes",
+        "scooter": "no",
+        "socket:type1_combo": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902579098,
+      "lat": 42.1528598,
+      "lon": -71.0735856,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q478214",
+        "bus": "no",
+        "capacity": "12",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "no",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "12",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902579099,
+      "lat": 42.1528305,
+      "lon": -71.0730811,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "4",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "scooter": "no",
+        "socket:type1_cable": "4",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902579102,
+      "lat": 42.1505042,
+      "lon": -71.0727383,
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6kW",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902579105,
+      "lat": 42.2570355,
+      "lon": -71.1227780,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "4 minutes",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "scooter": "no",
+        "socket:type1_cable": "8",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6kW",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902584503,
+      "lat": 42.2209183,
+      "lon": -71.0240474,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "bus": "no",
+        "capacity": "3",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "EVgo",
+        "network": "EVgo",
+        "opening_hours": "24/7",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "scooter": "no",
+        "socket:chademo": "2",
+        "socket:chademo:output": "50 kW",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "50kW",
+        "socket:type1": "1",
+        "socket:type1:current": "32 A",
+        "socket:type1:output": "6.6 kW",
+        "socket:type1:voltage": "200 V",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "50 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902584505,
+      "lat": 42.2232639,
+      "lon": -71.0227418,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q478214",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "yes",
+        "hgv": "no",
+        "level": "1",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "no",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "72kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604146,
+      "lat": 42.2010711,
+      "lon": -71.1889655,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "EVPassport",
+        "bus": "no",
+        "capacity": "4",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "network": "EVPassport",
+        "opening_hours": "24/7",
+        "operator": "EVPassport",
+        "parking:fee": "no",
+        "payment:app": "no",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "no",
+        "payment:qr_code": "yes",
+        "scooter": "no",
+        "socket:type1_combo": "4",
+        "socket:type1_combo:voltage": "400 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604147,
+      "lat": 42.3220071,
+      "lon": -71.1766154,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "3",
+        "fee": "yes",
+        "name": "EVgo",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604148,
+      "lat": 42.4060229,
+      "lon": -71.0831350,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "4",
+        "fee": "yes",
+        "name": "EVgo",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604149,
+      "lat": 42.4169451,
+      "lon": -71.1542391,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "scooter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604150,
+      "lat": 42.4161196,
+      "lon": -71.1595680,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "1",
+        "fee": "yes",
+        "name": "EVgo",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604151,
+      "lat": 42.4398763,
+      "lon": -71.2579807,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604152,
+      "lat": 42.4396868,
+      "lon": -71.2580023,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "fee": "yes",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604153,
+      "lat": 42.4828589,
+      "lon": -71.2126179,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "3",
+        "fee": "yes",
+        "name": "EVgo",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902604155,
+      "lat": 42.4836154,
+      "lon": -71.2166607,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "12",
+        "fee": "yes",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952490213,
+      "lat": 42.1695825,
+      "lon": -71.1964194,
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "authentication:app": "no",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "no",
+        "authentication:money_card": "no",
+        "authentication:nfc": "no",
+        "authentication:none": "yes",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "ABB",
+        "brand:wikidata": "Q52825",
+        "bus": "no",
+        "capacity": "1",
+        "covered": "no",
+        "fee": "no",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "no:network": "yes",
+        "opening_hours": "24/7",
+        "operator": "ABB",
+        "operator:wikidata": "Q52825",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:current": "60",
+        "socket:type1_combo:output": "24kW",
+        "socket:type1_combo:voltage": "400 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952490214,
+      "lat": 42.1691205,
+      "lon": -71.1960949,
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "no",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1_cable": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952490215,
+      "lat": 42.1690788,
+      "lon": -71.1960493,
+      "tags": {
+        "access": "private",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Clipper Creek",
+        "bus": "no",
+        "capacity": "1",
+        "covered": "no",
+        "fee": "no",
+        "hgv": "no",
+        "motorcar": "yes",
+        "no:network": "yes",
+        "opening_hours": "24/7",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1_cable": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952518225,
+      "lat": 42.1987740,
+      "lon": -71.1873262,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "no",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "no",
+        "authentication:money_card": "no",
+        "authentication:nfc": "no",
+        "authentication:none": "yes",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "AeroVironment",
+        "brand:wikidata": "Q919300",
+        "bus": "no",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "no",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "no:network": "yes",
+        "opening_hours": "24/7",
+        "operator": "AeroVironment",
+        "operator:wikidata": "Q919300",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952556531,
+      "lat": 42.1419968,
+      "lon": -71.2185178,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11954826464,
+      "lat": 42.0391405,
+      "lon": -71.2388815,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "yes",
+        "authentication:money_card": "no",
+        "authentication:none": "no",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "network:wikidata": "Q5176149",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11956071996,
+      "lat": 42.0400412,
+      "lon": -71.2369525,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "yes",
+        "authentication:money_card": "no",
+        "authentication:nfc": "yes",
+        "authentication:none": "no",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "1",
+        "fee": "no",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "network:wikidata": "Q5176149",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:current": "60A",
+        "socket:type1_combo:output": "24kW",
+        "socket:type1_combo:voltage": "400 V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11975428100,
+      "lat": 42.3828092,
+      "lon": -71.1091872,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "no",
+        "maxstay": "3 hours",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11976450688,
+      "lat": 42.2326062,
+      "lon": -70.9784169,
+      "tags": {
+        "access": "private",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "1",
+        "fee": "no",
+        "name": "Quick Chevrolet - Service Charger",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "socket:type1_combo": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11976450689,
+      "lat": 42.2341237,
+      "lon": -70.9774073,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "3",
+        "fee": "yes",
+        "name": "Quick Chevrolet - Public Charger",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "socket:chademo": "3",
+        "socket:type1_combo": "3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11976523722,
+      "lat": 42.2534448,
+      "lon": -70.9918830,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "1",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "socket:type1_combo": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11976523723,
+      "lat": 42.2523348,
+      "lon": -70.9962301,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "1",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "socket:chademo": "1",
+        "socket:type1_combo": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11976523724,
+      "lat": 42.2521893,
+      "lon": -70.9962742,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "1",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "socket:chademo": "1",
+        "socket:type1_combo": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063088876,
+      "bounds": {
+        "minlat": 42.5271641,
+        "minlon": -71.3485347,
+        "maxlat": 42.5273178,
+        "maxlon": -71.3484313
+      },
+      "nodes": [
+        9765785303,
+        9765785304,
+        9765785305,
+        9765785306,
+        11188348568,
+        9765785303
+      ],
+      "geometry": [
+        {
+          "lat": 42.5273178,
+          "lon": -71.3485012
+        },
+        {
+          "lat": 42.5273090,
+          "lon": -71.3484313
+        },
+        {
+          "lat": 42.5271641,
+          "lon": -71.3484647
+        },
+        {
+          "lat": 42.5271729,
+          "lon": -71.3485347
+        },
+        {
+          "lat": 42.5271816,
+          "lon": -71.3485327
+        },
+        {
+          "lat": 42.5273178,
+          "lon": -71.3485012
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "6",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188488551,
+      "bounds": {
+        "minlat": 42.3218319,
+        "minlon": -71.1725622,
+        "maxlat": 42.3221613,
+        "maxlon": -71.1722809
+      },
+      "nodes": [
+        11035966129,
+        11035966128,
+        11035966127,
+        11035966126,
+        11035966129
+      ],
+      "geometry": [
+        {
+          "lat": 42.3221337,
+          "lon": -71.1725622
+        },
+        {
+          "lat": 42.3218319,
+          "lon": -71.1723541
+        },
+        {
+          "lat": 42.3218595,
+          "lon": -71.1722809
+        },
+        {
+          "lat": 42.3221613,
+          "lon": -71.1724890
+        },
+        {
+          "lat": 42.3221337,
+          "lon": -71.1725622
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "fee": "yes",
+        "name": "Tesla Supercharger",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204555429,
+      "bounds": {
+        "minlat": 42.3697523,
+        "minlon": -71.1031995,
+        "maxlat": 42.3699957,
+        "maxlon": -71.1030131
+      },
+      "nodes": [
+        11164099226,
+        11164099227,
+        11164099228,
+        11164099229,
+        11164099226
+      ],
+      "geometry": [
+        {
+          "lat": 42.3699957,
+          "lon": -71.1030380
+        },
+        {
+          "lat": 42.3699861,
+          "lon": -71.1030131
+        },
+        {
+          "lat": 42.3697523,
+          "lon": -71.1031696
+        },
+        {
+          "lat": 42.3697608,
+          "lon": -71.1031995
+        },
+        {
+          "lat": 42.3699957,
+          "lon": -71.1030380
+        }
+      ],
+      "tags": {
+        "access": "permissive",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "5",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1224875634,
+      "bounds": {
+        "minlat": 42.3952788,
+        "minlon": -71.5951079,
+        "maxlat": 42.3954996,
+        "maxlon": -71.5949593
+      },
+      "nodes": [
+        6615146784,
+        11359093749,
+        11359093750,
+        11359093751,
+        6615146784
+      ],
+      "geometry": [
+        {
+          "lat": 42.3954996,
+          "lon": -71.5950328
+        },
+        {
+          "lat": 42.3954850,
+          "lon": -71.5949593
+        },
+        {
+          "lat": 42.3952788,
+          "lon": -71.5950343
+        },
+        {
+          "lat": 42.3952934,
+          "lon": -71.5951079
+        },
+        {
+          "lat": 42.3954996,
+          "lon": -71.5950328
+        }
+      ],
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/hudsonmasupercharger"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1282317453,
+      "bounds": {
+        "minlat": 42.3307045,
+        "minlon": -71.2548301,
+        "maxlat": 42.3307851,
+        "maxlon": -71.2547228
+      },
+      "nodes": [
+        11899737759,
+        11899737760,
+        3189285918,
+        11574986690,
+        11574986687,
+        11574986686,
+        11899737759
+      ],
+      "geometry": [
+        {
+          "lat": 42.3307851,
+          "lon": -71.2547743
+        },
+        {
+          "lat": 42.3307521,
+          "lon": -71.2547228
+        },
+        {
+          "lat": 42.3307416,
+          "lon": -71.2547351
+        },
+        {
+          "lat": 42.3307045,
+          "lon": -71.2547783
+        },
+        {
+          "lat": 42.3307384,
+          "lon": -71.2548301
+        },
+        {
+          "lat": 42.3307748,
+          "lon": -71.2547867
+        },
+        {
+          "lat": 42.3307851,
+          "lon": -71.2547743
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "2",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:contactless": "yes",
+        "scooter": "no",
+        "socket:chademo": "2",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo:output": "62.5 kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1282317454,
+      "bounds": {
+        "minlat": 42.3307384,
+        "minlon": -71.2550693,
+        "maxlat": 42.3309412,
+        "maxlon": -71.2547743
+      },
+      "nodes": [
+        11574986687,
+        11574986686,
+        11899737759,
+        11899737761,
+        11899737762,
+        11574986671,
+        11574986687
+      ],
+      "geometry": [
+        {
+          "lat": 42.3307384,
+          "lon": -71.2548301
+        },
+        {
+          "lat": 42.3307748,
+          "lon": -71.2547867
+        },
+        {
+          "lat": 42.3307851,
+          "lon": -71.2547743
+        },
+        {
+          "lat": 42.3309412,
+          "lon": -71.2550136
+        },
+        {
+          "lat": 42.3308946,
+          "lon": -71.2550693
+        },
+        {
+          "lat": 42.3308824,
+          "lon": -71.2550507
+        },
+        {
+          "lat": 42.3307384,
+          "lon": -71.2548301
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q478214",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "no",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1282661454,
+      "bounds": {
+        "minlat": 42.2362608,
+        "minlon": -71.1784363,
+        "maxlat": 42.2365225,
+        "maxlon": -71.1780669
+      },
+      "nodes": [
+        3769886358,
+        11902571833,
+        11902571834,
+        11902571835,
+        3769886358
+      ],
+      "geometry": [
+        {
+          "lat": 42.2365225,
+          "lon": -71.1783859
+        },
+        {
+          "lat": 42.2363034,
+          "lon": -71.1780669
+        },
+        {
+          "lat": 42.2362608,
+          "lon": -71.1781200
+        },
+        {
+          "lat": 42.2364816,
+          "lon": -71.1784363
+        },
+        {
+          "lat": 42.2365225,
+          "lon": -71.1783859
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:housenumber": "840",
+        "addr:state": "MA",
+        "addr:street": "Boston Providence Turnpike",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "no",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "120 kW",
+        "website": "https://www.teslamotors.com/findus/location/supercharger/dedham"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1288971321,
+      "bounds": {
+        "minlat": 42.1617983,
+        "minlon": -71.0469921,
+        "maxlat": 42.1620214,
+        "maxlon": -71.0468779
+      },
+      "nodes": [
+        11952406398,
+        11952406399,
+        11952406400,
+        11952406401,
+        11952406398
+      ],
+      "geometry": [
+        {
+          "lat": 42.1618047,
+          "lon": -71.0468779
+        },
+        {
+          "lat": 42.1620214,
+          "lon": -71.0469077
+        },
+        {
+          "lat": 42.1620151,
+          "lon": -71.0469921
+        },
+        {
+          "lat": 42.1617983,
+          "lon": -71.0469623
+        },
+        {
+          "lat": 42.1618047,
+          "lon": -71.0468779
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "yes",
+        "authentication:money_card": "no",
+        "authentication:nfc": "no",
+        "authentication:none": "no",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "no",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1": "8",
+        "socket:type1:current": "32",
+        "socket:type1:output": "6 kW",
+        "socket:type1:voltage": "208"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1288991876,
+      "bounds": {
+        "minlat": 42.2037631,
+        "minlon": -71.1582830,
+        "maxlat": 42.2039189,
+        "maxlon": -71.1581519
+      },
+      "nodes": [
+        11902579103,
+        11952593898,
+        11952593899,
+        11952593900,
+        11902579103
+      ],
+      "geometry": [
+        {
+          "lat": 42.2037631,
+          "lon": -71.1581786
+        },
+        {
+          "lat": 42.2037736,
+          "lon": -71.1582830
+        },
+        {
+          "lat": 42.2039189,
+          "lon": -71.1582563
+        },
+        {
+          "lat": 42.2039083,
+          "lon": -71.1581519
+        },
+        {
+          "lat": 42.2037631,
+          "lon": -71.1581786
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:debit_card": "no",
+        "authentication:membership_card": "yes",
+        "authentication:money_card": "no",
+        "authentication:nfc": "no",
+        "authentication:none": "no",
+        "authentication:phone_call": "no",
+        "authentication:short_message": "no",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "8",
+        "covered": "yes",
+        "fee": "no",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "scooter": "no",
+        "socket:type1:output": "6 kW",
+        "socket:type1_cable": "8",
+        "socket:type1_cable:current": "32",
+        "socket:type1_cable:output": "6.6kW",
+        "socket:type1_cable:voltage": "208"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1288991877,
+      "bounds": {
+        "minlat": 42.2055807,
+        "minlon": -71.1567639,
+        "maxlat": 42.2057344,
+        "maxlon": -71.1566246
+      },
+      "nodes": [
+        11902579104,
+        11952593907,
+        11952593904,
+        11952593917,
+        11952593915,
+        11952593913,
+        11952593911,
+        11952593909,
+        11952593905,
+        8722968438,
+        11952593906,
+        11902579104
+      ],
+      "geometry": [
+        {
+          "lat": 42.2055807,
+          "lon": -71.1566863
+        },
+        {
+          "lat": 42.2055830,
+          "lon": -71.1566956
+        },
+        {
+          "lat": 42.2056003,
+          "lon": -71.1567639
+        },
+        {
+          "lat": 42.2056226,
+          "lon": -71.1567536
+        },
+        {
+          "lat": 42.2056447,
+          "lon": -71.1567434
+        },
+        {
+          "lat": 42.2056670,
+          "lon": -71.1567332
+        },
+        {
+          "lat": 42.2056887,
+          "lon": -71.1567231
+        },
+        {
+          "lat": 42.2057105,
+          "lon": -71.1567131
+        },
+        {
+          "lat": 42.2057344,
+          "lon": -71.1567021
+        },
+        {
+          "lat": 42.2057180,
+          "lon": -71.1566372
+        },
+        {
+          "lat": 42.2057148,
+          "lon": -71.1566246
+        },
+        {
+          "lat": 42.2055807,
+          "lon": -71.1566863
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:none": "no",
+        "bicycle": "no",
+        "brand": "AmpUp",
+        "bus": "no",
+        "capacity": "6",
+        "fee": "no",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "opening_hours": "24/7",
+        "operator": "AmpUp",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "6",
+        "socket:type1_cable:output": "6.6 kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1289237106,
+      "bounds": {
+        "minlat": 42.0386702,
+        "minlon": -71.2404161,
+        "maxlat": 42.0388885,
+        "maxlon": -71.2401156
+      },
+      "nodes": [
+        11954863182,
+        11954863183,
+        11954863184,
+        11954863185,
+        11954863182
+      ],
+      "geometry": [
+        {
+          "lat": 42.0388885,
+          "lon": -71.2401808
+        },
+        {
+          "lat": 42.0387223,
+          "lon": -71.2401156
+        },
+        {
+          "lat": 42.0386702,
+          "lon": -71.2403642
+        },
+        {
+          "lat": 42.0388413,
+          "lon": -71.2404161
+        },
+        {
+          "lat": 42.0388885,
+          "lon": -71.2401808
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "bus": "no",
+        "capacity": "12",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "parking:fee": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "12",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "12",
+        "socket:type1_combo:output": "250kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1291893912,
+      "bounds": {
+        "minlat": 42.2334314,
+        "minlon": -70.9663753,
+        "maxlat": 42.2335120,
+        "maxlon": -70.9662173
+      },
+      "nodes": [
+        11976450223,
+        11976450224,
+        11976450228,
+        11976450229,
+        11976450231,
+        11976450233,
+        11976450234,
+        11976450235,
+        11976450236,
+        11976450232,
+        11976450230,
+        11976450227,
+        11976450225,
+        11976450226,
+        11976450223
+      ],
+      "geometry": [
+        {
+          "lat": 42.2335120,
+          "lon": -70.9663537
+        },
+        {
+          "lat": 42.2335047,
+          "lon": -70.9663264
+        },
+        {
+          "lat": 42.2335015,
+          "lon": -70.9663146
+        },
+        {
+          "lat": 42.2334937,
+          "lon": -70.9662855
+        },
+        {
+          "lat": 42.2334863,
+          "lon": -70.9662582
+        },
+        {
+          "lat": 42.2334825,
+          "lon": -70.9662440
+        },
+        {
+          "lat": 42.2334754,
+          "lon": -70.9662173
+        },
+        {
+          "lat": 42.2334314,
+          "lon": -70.9662389
+        },
+        {
+          "lat": 42.2334386,
+          "lon": -70.9662654
+        },
+        {
+          "lat": 42.2334426,
+          "lon": -70.9662802
+        },
+        {
+          "lat": 42.2334499,
+          "lon": -70.9663077
+        },
+        {
+          "lat": 42.2334577,
+          "lon": -70.9663368
+        },
+        {
+          "lat": 42.2334606,
+          "lon": -70.9663476
+        },
+        {
+          "lat": 42.2334681,
+          "lon": -70.9663753
+        },
+        {
+          "lat": 42.2335120,
+          "lon": -70.9663537
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "socket:type1_cable": "4"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16859657,
+      "bounds": {
+        "minlat": 41.8283126,
+        "minlon": -71.4268437,
+        "maxlat": 41.8285192,
+        "maxlon": -71.4266968
+      },
+      "members": [
+        {
+          "type": "node",
+          "ref": 11443698679,
+          "role": "",
+          "lat": 41.8283276,
+          "lon": -71.4266968
+        },
+        {
+          "type": "node",
+          "ref": 11443698678,
+          "role": "",
+          "lat": 41.8283519,
+          "lon": -71.4267055
+        },
+        {
+          "type": "node",
+          "ref": 11443698677,
+          "role": "",
+          "lat": 41.8283750,
+          "lon": -71.4267166
+        },
+        {
+          "type": "node",
+          "ref": 11443698676,
+          "role": "",
+          "lat": 41.8283976,
+          "lon": -71.4267260
+        },
+        {
+          "type": "node",
+          "ref": 11443698675,
+          "role": "",
+          "lat": 41.8284220,
+          "lon": -71.4267353
+        },
+        {
+          "type": "node",
+          "ref": 11443698674,
+          "role": "",
+          "lat": 41.8284476,
+          "lon": -71.4267464
+        },
+        {
+          "type": "node",
+          "ref": 11443698673,
+          "role": "",
+          "lat": 41.8284716,
+          "lon": -71.4267575
+        },
+        {
+          "type": "node",
+          "ref": 11443698672,
+          "role": "",
+          "lat": 41.8285156,
+          "lon": -71.4268299
+        },
+        {
+          "type": "way",
+          "ref": 1233317290,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 41.8285049,
+              "lon": -71.4268437
+            },
+            {
+              "lat": 41.8284798,
+              "lon": -71.4268332
+            },
+            {
+              "lat": 41.8284941,
+              "lon": -71.4267714
+            },
+            {
+              "lat": 41.8285192,
+              "lon": -71.4267819
+            },
+            {
+              "lat": 41.8285049,
+              "lon": -71.4268437
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233317291,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 41.8284798,
+              "lon": -71.4268332
+            },
+            {
+              "lat": 41.8284554,
+              "lon": -71.4268230
+            },
+            {
+              "lat": 41.8284697,
+              "lon": -71.4267612
+            },
+            {
+              "lat": 41.8284941,
+              "lon": -71.4267714
+            },
+            {
+              "lat": 41.8284798,
+              "lon": -71.4268332
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233317292,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 41.8284554,
+              "lon": -71.4268230
+            },
+            {
+              "lat": 41.8284318,
+              "lon": -71.4268131
+            },
+            {
+              "lat": 41.8284461,
+              "lon": -71.4267514
+            },
+            {
+              "lat": 41.8284697,
+              "lon": -71.4267612
+            },
+            {
+              "lat": 41.8284554,
+              "lon": -71.4268230
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233317293,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 41.8284318,
+              "lon": -71.4268131
+            },
+            {
+              "lat": 41.8284081,
+              "lon": -71.4268032
+            },
+            {
+              "lat": 41.8284224,
+              "lon": -71.4267415
+            },
+            {
+              "lat": 41.8284461,
+              "lon": -71.4267514
+            },
+            {
+              "lat": 41.8284318,
+              "lon": -71.4268131
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233317294,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 41.8284081,
+              "lon": -71.4268032
+            },
+            {
+              "lat": 41.8283836,
+              "lon": -71.4267930
+            },
+            {
+              "lat": 41.8283980,
+              "lon": -71.4267313
+            },
+            {
+              "lat": 41.8284224,
+              "lon": -71.4267415
+            },
+            {
+              "lat": 41.8284081,
+              "lon": -71.4268032
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233317295,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 41.8283836,
+              "lon": -71.4267930
+            },
+            {
+              "lat": 41.8283583,
+              "lon": -71.4267824
+            },
+            {
+              "lat": 41.8283727,
+              "lon": -71.4267207
+            },
+            {
+              "lat": 41.8283980,
+              "lon": -71.4267313
+            },
+            {
+              "lat": 41.8283836,
+              "lon": -71.4267930
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233317296,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 41.8283583,
+              "lon": -71.4267824
+            },
+            {
+              "lat": 41.8283353,
+              "lon": -71.4267728
+            },
+            {
+              "lat": 41.8283498,
+              "lon": -71.4267111
+            },
+            {
+              "lat": 41.8283727,
+              "lon": -71.4267207
+            },
+            {
+              "lat": 41.8283583,
+              "lon": -71.4267824
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233317297,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 41.8283353,
+              "lon": -71.4267728
+            },
+            {
+              "lat": 41.8283126,
+              "lon": -71.4267633
+            },
+            {
+              "lat": 41.8283271,
+              "lon": -71.4267017
+            },
+            {
+              "lat": 41.8283498,
+              "lon": -71.4267111
+            },
+            {
+              "lat": 41.8283353,
+              "lon": -71.4267728
+            }
+          ]
+        }
+      ],
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "fee": "yes",
+        "motor_vehicle": "yes",
+        "name": "Providence, RI Supercharger",
+        "network": "Tesla Supercharger",
+        "network:wikidata": "Q17089620",
+        "not:brand:wikidata": "Q478214",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "site": "parking",
+        "type": "site",
+        "website": "https://www.tesla.com/findus/location/supercharger/ProvidenceRIQ322"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17135490,
+      "bounds": {
+        "minlat": 42.3307535,
+        "minlon": -71.2550507,
+        "maxlat": 42.3309182,
+        "maxlon": -71.2548124
+      },
+      "members": [
+        {
+          "type": "node",
+          "ref": 11574986691,
+          "role": "",
+          "lat": 42.3308917,
+          "lon": -71.2550500
+        },
+        {
+          "type": "node",
+          "ref": 11574986692,
+          "role": "",
+          "lat": 42.3308942,
+          "lon": -71.2549615
+        },
+        {
+          "type": "node",
+          "ref": 11574986693,
+          "role": "",
+          "lat": 42.3308793,
+          "lon": -71.2549360
+        },
+        {
+          "type": "node",
+          "ref": 11574986694,
+          "role": "",
+          "lat": 42.3308625,
+          "lon": -71.2549112
+        },
+        {
+          "type": "node",
+          "ref": 11574986695,
+          "role": "",
+          "lat": 42.3308441,
+          "lon": -71.2548851
+        },
+        {
+          "type": "node",
+          "ref": 11574986696,
+          "role": "",
+          "lat": 42.3308303,
+          "lon": -71.2548596
+        },
+        {
+          "type": "node",
+          "ref": 11574986697,
+          "role": "",
+          "lat": 42.3308134,
+          "lon": -71.2548368
+        },
+        {
+          "type": "node",
+          "ref": 11574986698,
+          "role": "",
+          "lat": 42.3307985,
+          "lon": -71.2548126
+        },
+        {
+          "type": "way",
+          "ref": 1245093493,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.3308069,
+              "lon": -71.2548365
+            },
+            {
+              "lat": 42.3307914,
+              "lon": -71.2548124
+            },
+            {
+              "lat": 42.3307535,
+              "lon": -71.2548547
+            },
+            {
+              "lat": 42.3307695,
+              "lon": -71.2548796
+            },
+            {
+              "lat": 42.3308069,
+              "lon": -71.2548365
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245093492,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.3308227,
+              "lon": -71.2548611
+            },
+            {
+              "lat": 42.3308069,
+              "lon": -71.2548365
+            },
+            {
+              "lat": 42.3307695,
+              "lon": -71.2548796
+            },
+            {
+              "lat": 42.3307853,
+              "lon": -71.2549041
+            },
+            {
+              "lat": 42.3308227,
+              "lon": -71.2548611
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245093491,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.3308390,
+              "lon": -71.2548864
+            },
+            {
+              "lat": 42.3308227,
+              "lon": -71.2548611
+            },
+            {
+              "lat": 42.3307853,
+              "lon": -71.2549041
+            },
+            {
+              "lat": 42.3308015,
+              "lon": -71.2549294
+            },
+            {
+              "lat": 42.3308390,
+              "lon": -71.2548864
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245093490,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.3308559,
+              "lon": -71.2549127
+            },
+            {
+              "lat": 42.3308390,
+              "lon": -71.2548864
+            },
+            {
+              "lat": 42.3308015,
+              "lon": -71.2549294
+            },
+            {
+              "lat": 42.3308188,
+              "lon": -71.2549563
+            },
+            {
+              "lat": 42.3308559,
+              "lon": -71.2549127
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245093489,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.3308729,
+              "lon": -71.2549391
+            },
+            {
+              "lat": 42.3308559,
+              "lon": -71.2549127
+            },
+            {
+              "lat": 42.3308188,
+              "lon": -71.2549563
+            },
+            {
+              "lat": 42.3308356,
+              "lon": -71.2549824
+            },
+            {
+              "lat": 42.3308729,
+              "lon": -71.2549391
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245093488,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.3308886,
+              "lon": -71.2549635
+            },
+            {
+              "lat": 42.3308729,
+              "lon": -71.2549391
+            },
+            {
+              "lat": 42.3308356,
+              "lon": -71.2549824
+            },
+            {
+              "lat": 42.3308512,
+              "lon": -71.2550067
+            },
+            {
+              "lat": 42.3308886,
+              "lon": -71.2549635
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245093487,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.3309034,
+              "lon": -71.2549866
+            },
+            {
+              "lat": 42.3308886,
+              "lon": -71.2549635
+            },
+            {
+              "lat": 42.3308512,
+              "lon": -71.2550067
+            },
+            {
+              "lat": 42.3308660,
+              "lon": -71.2550297
+            },
+            {
+              "lat": 42.3309034,
+              "lon": -71.2549866
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245093486,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.3309182,
+              "lon": -71.2550095
+            },
+            {
+              "lat": 42.3309034,
+              "lon": -71.2549866
+            },
+            {
+              "lat": 42.3308660,
+              "lon": -71.2550297
+            },
+            {
+              "lat": 42.3308824,
+              "lon": -71.2550507
+            },
+            {
+              "lat": 42.3309182,
+              "lon": -71.2550095
+            }
+          ]
+        }
+      ],
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "Tesla, Inc.",
+        "brand:wikidata": "Q478214",
+        "capacity": "8",
+        "covered": "no",
+        "fee": "yes",
+        "motor_vehicle": "yes",
+        "name": "Newton, MA Supercharger",
+        "network": "Tesla Supercharger",
+        "network:wikidata": "Q17089620",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "payment:contactless": "yes",
+        "short_name": "Tesla",
+        "site": "parking",
+        "type": "site"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17135542,
+      "bounds": {
+        "minlat": 42.4834801,
+        "minlon": -71.2168433,
+        "maxlat": 42.4836646,
+        "maxlon": -71.2164512
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1245099036,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4835219,
+              "lon": -71.2168433
+            },
+            {
+              "lat": 42.4834801,
+              "lon": -71.2168142
+            },
+            {
+              "lat": 42.4834926,
+              "lon": -71.2167818
+            },
+            {
+              "lat": 42.4835343,
+              "lon": -71.2168104
+            },
+            {
+              "lat": 42.4835219,
+              "lon": -71.2168433
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099037,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4835343,
+              "lon": -71.2168104
+            },
+            {
+              "lat": 42.4834926,
+              "lon": -71.2167818
+            },
+            {
+              "lat": 42.4835041,
+              "lon": -71.2167520
+            },
+            {
+              "lat": 42.4835456,
+              "lon": -71.2167806
+            },
+            {
+              "lat": 42.4835343,
+              "lon": -71.2168104
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099038,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4835456,
+              "lon": -71.2167806
+            },
+            {
+              "lat": 42.4835041,
+              "lon": -71.2167520
+            },
+            {
+              "lat": 42.4835151,
+              "lon": -71.2167234
+            },
+            {
+              "lat": 42.4835564,
+              "lon": -71.2167522
+            },
+            {
+              "lat": 42.4835456,
+              "lon": -71.2167806
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099039,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4835564,
+              "lon": -71.2167522
+            },
+            {
+              "lat": 42.4835151,
+              "lon": -71.2167234
+            },
+            {
+              "lat": 42.4835259,
+              "lon": -71.2166952
+            },
+            {
+              "lat": 42.4835671,
+              "lon": -71.2167240
+            },
+            {
+              "lat": 42.4835564,
+              "lon": -71.2167522
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099040,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4835671,
+              "lon": -71.2167240
+            },
+            {
+              "lat": 42.4835259,
+              "lon": -71.2166952
+            },
+            {
+              "lat": 42.4835371,
+              "lon": -71.2166662
+            },
+            {
+              "lat": 42.4835782,
+              "lon": -71.2166947
+            },
+            {
+              "lat": 42.4835671,
+              "lon": -71.2167240
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099041,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4835782,
+              "lon": -71.2166947
+            },
+            {
+              "lat": 42.4835371,
+              "lon": -71.2166662
+            },
+            {
+              "lat": 42.4835486,
+              "lon": -71.2166361
+            },
+            {
+              "lat": 42.4835897,
+              "lon": -71.2166644
+            },
+            {
+              "lat": 42.4835782,
+              "lon": -71.2166947
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099042,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4835897,
+              "lon": -71.2166644
+            },
+            {
+              "lat": 42.4835486,
+              "lon": -71.2166361
+            },
+            {
+              "lat": 42.4835604,
+              "lon": -71.2166056
+            },
+            {
+              "lat": 42.4836012,
+              "lon": -71.2166339
+            },
+            {
+              "lat": 42.4835897,
+              "lon": -71.2166644
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099043,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4836012,
+              "lon": -71.2166339
+            },
+            {
+              "lat": 42.4835604,
+              "lon": -71.2166056
+            },
+            {
+              "lat": 42.4835719,
+              "lon": -71.2165757
+            },
+            {
+              "lat": 42.4836126,
+              "lon": -71.2166038
+            },
+            {
+              "lat": 42.4836012,
+              "lon": -71.2166339
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099044,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4836126,
+              "lon": -71.2166038
+            },
+            {
+              "lat": 42.4835719,
+              "lon": -71.2165757
+            },
+            {
+              "lat": 42.4835831,
+              "lon": -71.2165464
+            },
+            {
+              "lat": 42.4836237,
+              "lon": -71.2165746
+            },
+            {
+              "lat": 42.4836126,
+              "lon": -71.2166038
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099045,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4836237,
+              "lon": -71.2165746
+            },
+            {
+              "lat": 42.4835831,
+              "lon": -71.2165464
+            },
+            {
+              "lat": 42.4835946,
+              "lon": -71.2165165
+            },
+            {
+              "lat": 42.4836353,
+              "lon": -71.2165440
+            },
+            {
+              "lat": 42.4836237,
+              "lon": -71.2165746
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099046,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4836353,
+              "lon": -71.2165440
+            },
+            {
+              "lat": 42.4835946,
+              "lon": -71.2165165
+            },
+            {
+              "lat": 42.4836068,
+              "lon": -71.2164848
+            },
+            {
+              "lat": 42.4836471,
+              "lon": -71.2165129
+            },
+            {
+              "lat": 42.4836353,
+              "lon": -71.2165440
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1245099047,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.4836471,
+              "lon": -71.2165129
+            },
+            {
+              "lat": 42.4836068,
+              "lon": -71.2164848
+            },
+            {
+              "lat": 42.4836197,
+              "lon": -71.2164512
+            },
+            {
+              "lat": 42.4836600,
+              "lon": -71.2164788
+            },
+            {
+              "lat": 42.4836471,
+              "lon": -71.2165129
+            }
+          ]
+        },
+        {
+          "type": "node",
+          "ref": 11575034984,
+          "role": "",
+          "lat": 42.4835393,
+          "lon": -71.2168121
+        },
+        {
+          "type": "node",
+          "ref": 11575034985,
+          "role": "",
+          "lat": 42.4835515,
+          "lon": -71.2167806
+        },
+        {
+          "type": "node",
+          "ref": 11575034986,
+          "role": "",
+          "lat": 42.4835610,
+          "lon": -71.2167516
+        },
+        {
+          "type": "node",
+          "ref": 11575034987,
+          "role": "",
+          "lat": 42.4835713,
+          "lon": -71.2167258
+        },
+        {
+          "type": "node",
+          "ref": 11575034988,
+          "role": "",
+          "lat": 42.4835827,
+          "lon": -71.2166913
+        },
+        {
+          "type": "node",
+          "ref": 11575034989,
+          "role": "",
+          "lat": 42.4835939,
+          "lon": -71.2166617
+        },
+        {
+          "type": "node",
+          "ref": 11575034990,
+          "role": "",
+          "lat": 42.4836054,
+          "lon": -71.2166335
+        },
+        {
+          "type": "node",
+          "ref": 11575034991,
+          "role": "",
+          "lat": 42.4836148,
+          "lon": -71.2166048
+        },
+        {
+          "type": "node",
+          "ref": 11575034992,
+          "role": "",
+          "lat": 42.4836293,
+          "lon": -71.2165739
+        },
+        {
+          "type": "node",
+          "ref": 11575034993,
+          "role": "",
+          "lat": 42.4836406,
+          "lon": -71.2165439
+        },
+        {
+          "type": "node",
+          "ref": 11575034994,
+          "role": "",
+          "lat": 42.4836507,
+          "lon": -71.2165159
+        },
+        {
+          "type": "node",
+          "ref": 11575034995,
+          "role": "",
+          "lat": 42.4836646,
+          "lon": -71.2164788
+        }
+      ],
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "Tesla, Inc.",
+        "brand:wikidata": "Q478214",
+        "capacity": "12",
+        "fee": "yes",
+        "motor_vehicle": "yes",
+        "name": "Burlington, MA Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "payment:contactless": "yes",
+        "short_name": "Tesla",
+        "site": "parking",
+        "type": "site",
+        "website": "https://www.tesla.com/findus/location/supercharger/BurlingtonMAsupercharger"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17669586,
+      "bounds": {
+        "minlat": 42.1458785,
+        "minlon": -71.2120463,
+        "maxlat": 42.1462945,
+        "maxlon": -71.2114258
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1288986013,
+          "role": "outer",
+          "geometry": [
+            {
+              "lat": 42.1462363,
+              "lon": -71.2114884
+            },
+            {
+              "lat": 42.1462461,
+              "lon": -71.2114258
+            },
+            {
+              "lat": 42.1462945,
+              "lon": -71.2114397
+            },
+            {
+              "lat": 42.1462846,
+              "lon": -71.2115023
+            },
+            {
+              "lat": 42.1462363,
+              "lon": -71.2114884
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1288986012,
+          "role": "outer",
+          "geometry": [
+            {
+              "lat": 42.1459262,
+              "lon": -71.2120463
+            },
+            {
+              "lat": 42.1459397,
+              "lon": -71.2119573
+            },
+            {
+              "lat": 42.1458920,
+              "lon": -71.2119441
+            },
+            {
+              "lat": 42.1458785,
+              "lon": -71.2120332
+            },
+            {
+              "lat": 42.1459262,
+              "lon": -71.2120463
+            }
+          ]
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "bus": "no",
+        "capacity": "4",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "no",
+        "maxstay": "unlimited",
+        "motorcar": "yes",
+        "name": "Audobon Easterly ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "no",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:membership_card": "yes",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "socket:type1_cable": "4",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:voltage": "200 V",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

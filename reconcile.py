@@ -1,6 +1,7 @@
 from collections import defaultdict
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from geopy import distance
+import dataclasses
 import enum
 import json
 
@@ -24,26 +25,27 @@ class ChargingPort:
 
 @dataclass
 class ChargingPortGroup:
-    charging_ports: list[ChargingPort] = field(default_factory=list)
+    charging_ports: list[ChargingPort] = dataclasses.field(default_factory=list)
 
     network_id: str = ""
 
 
 @dataclass
 class ChargingPoint:
-    charging_port_groups: list[ChargingPortGroup] = field(default_factory=list)
+    charging_port_groups: list[ChargingPortGroup] = dataclasses.field(default_factory=list)
 
     name: str = ""
     latitude: int = None
     longitude: int = None
 
     osm_id: int = None
+    nrel_id: int = None
     network_id: str = ""
 
 
 @dataclass
 class Station:
-    charging_points: list[ChargingPoint] = field(default_factory=list)
+    charging_points: list[ChargingPoint] = dataclasses.field(default_factory=list)
 
     name: str = ""
     network: ChargingNetwork = None
@@ -97,15 +99,7 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
 
             combined_charging_points = [*station.charging_points, *other_station.charging_points]
 
-            combined_station = Station(
-                name="",
-                network=ChargingNetwork.CHARGEPOINT,
-                charging_points=combined_charging_points,
-                nrel_id=station.nrel_id,
-                street_address=station.street_address,
-                latitude=station.latitude,
-                longitude=station.longitude,
-            )
+            combined_station = dataclasses.replace(station, charging_points=combined_charging_points, name="", network_id="")
 
             station = combined_station
 
@@ -172,6 +166,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 
             charging_point = ChargingPoint(
                 network_id=station.network_id,
+                nrel_id=station.nrel_id,
                 name=station.name,
                 charging_port_groups=charging_port_groups,
                 latitude=nrel_station["latitude"],

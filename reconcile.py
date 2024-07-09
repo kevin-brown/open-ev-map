@@ -15,7 +15,15 @@ class PlugType(enum.Enum):
 
 
 class ChargingNetwork(enum.Enum):
+    AMPUP = enum.auto()
+    BLINK = enum.auto()
     CHARGEPOINT = enum.auto()
+    ELECTRIFY_AMERICA = enum.auto()
+    EV_CONNECT = enum.auto()
+    EVGO = enum.auto()
+    EVPASSPORT = enum.auto()
+    TESLA = enum.auto()
+    VOLTA = enum.auto()
 
 
 @dataclass
@@ -131,7 +139,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
             name=nrel_station["station_name"],
             network=NREL_NETWORK_MAP[nrel_station["ev_network"]],
             nrel_id=nrel_station["id"],
-            
+
             latitude=nrel_station["latitude"],
             longitude=nrel_station["longitude"],
 
@@ -180,12 +188,76 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         stations.append(station)
 
     stations = nrel_group_chargepoint(stations)
-    
+
     return stations
 
 
+def osm_parse_charging_station(osm_element) -> Station:
+    OSM_NETWORK_NAME_MAP = {
+        "AmpUp": ChargingNetwork.AMPUP,
+        "ChargePoint": ChargingNetwork.CHARGEPOINT,
+        "EV Connect": ChargingNetwork.EV_CONNECT,
+        "EVPassport": ChargingNetwork.EVPASSPORT,
+        "Tesla, Inc.": ChargingNetwork.TESLA,
+        "Tesla Supercharger": ChargingNetwork.TESLA,
+        "Volta": ChargingNetwork.VOLTA,
+    }
+
+    OSM_NETWORK_WIKIDATA_MAP = {
+        "Q478214": ChargingNetwork.TESLA,
+        "Q5176149": ChargingNetwork.CHARGEPOINT,
+        "Q59773555": ChargingNetwork.ELECTRIFY_AMERICA,
+        "Q61803820": ChargingNetwork.EVGO,
+        "Q62065645": ChargingNetwork.BLINK,
+        "Q109307156": ChargingNetwork.VOLTA,
+    }
+
+    station = Station(
+        osm_id=osm_element["id"],
+    )
+
+    if osm_element["type"] == "node":
+        station.latitude = osm_element["lat"]
+        station.longitude = osm_element["lon"]
+
+    if osm_element["type"] in ["way", "relation"]:
+        station.latitude = (osm_element["bounds"]["minlat"] + osm_element["bounds"]["maxlat"]) / 2
+        station.longitude = (osm_element["bounds"]["minlon"] + osm_element["bounds"]["maxlon"]) / 2
+
+    tags = osm_element["tags"]
+
+    if "name" in tags:
+        station.name = tags["name"]
+
+    if station.network is None and "network:wikidata" in tags:
+        station.network = OSM_NETWORK_WIKIDATA_MAP.get(tags["network:wikidata"])
+
+    if station.network is None and "network" in tags:
+        station.network = OSM_NETWORK_NAME_MAP.get(tags["network"])
+
+    if station.network is None and "operator:wikidata" in tags:
+        station.network = OSM_NETWORK_WIKIDATA_MAP.get(tags["operator:wikidata"])
+
+    if station.network is None and "operator" in tags:
+        station.network = OSM_NETWORK_NAME_MAP.get(tags["operator"])
+
+    if station.network is None and "brand:wikidata" in tags:
+        station.network = OSM_NETWORK_WIKIDATA_MAP.get(tags["brand:wikidata"])
+
+    if station.network is None and "brand" in tags:
+        station.network = OSM_NETWORK_NAME_MAP.get(tags["brand"])
+
+    return station
+
+
 def normalize_osm_data(osm_raw_data) -> list[Station]:
-    pass
+    stations = []
+
+    for osm_element in osm_raw_data["elements"]:
+        if osm_element["tags"].get("amenity") == "charging_station":
+            stations.append(osm_parse_charging_station(osm_element))
+
+    return stations
 
 
 with open("nrel.json", "r") as nrel_fh:
@@ -197,6 +269,5 @@ with open("osm.json", "r") as osm_fh:
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 
-for nrel_site in nrel_data:
-    if len(nrel_site.charging_points) > 1:
-        print(nrel_site)
+for osm_site in osm_data:
+    print(osm_site)

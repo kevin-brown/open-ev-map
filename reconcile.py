@@ -130,6 +130,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 
     NREL_NETWORK_MAP = {
         "ChargePoint Network": ChargingNetwork.CHARGEPOINT,
+        "Non-Networked": None,
     }
 
     stations = []
@@ -159,6 +160,9 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
                 charging_ports = []
 
                 for nrel_plug_type in nrel_station["ev_connector_types"]:
+                    if nrel_plug_type not in NREL_PLUG_MAP:
+                        continue
+
                     charging_port = ChargingPort(
                         plug=NREL_PLUG_MAP[nrel_plug_type],
                     )
@@ -260,6 +264,71 @@ def normalize_osm_data(osm_raw_data) -> list[Station]:
     return stations
 
 
+def combine_stations(first_data: list[Station], second_data: list[Station]) -> list[Station]:
+    combined_stations = []
+
+    all_stations = [*first_data, *second_data]
+
+    for first_station in all_stations:
+        if getattr(first_station, "duplicated", False):
+            continue
+
+        first_location = (first_station.latitude, first_station.longitude)
+
+        combined = False
+
+        for second_station in all_stations:
+            if getattr(second_station, "duplicated", False):
+                continue
+
+            if first_station.nrel_id == second_station.nrel_id:
+                continue
+
+            if first_station.osm_id == second_station.osm_id:
+                continue
+
+            if first_station.network is None:
+                continue
+
+            if second_station.network is None:
+                continue
+
+            if first_station.network != second_station.network:
+                continue
+
+            second_location = (second_station.latitude, second_station.longitude)
+
+            station_distance = distance.great_circle(first_location, second_location)
+
+            if station_distance.miles > 0.05:
+                continue
+
+            if first_station.osm_id is not None and second_station.osm_id is not None:
+                continue
+
+            combined_station = dataclasses.replace(first_station)
+
+            CLONED_ATTRS = ['osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+
+            for attr in CLONED_ATTRS:
+                second_value = getattr(second_station, attr)
+                if second_value:
+                    setattr(combined_station, attr, second_value)
+
+            first_station.duplicated = True
+            second_station.duplicated = True
+
+            combined = True
+            combined_stations.append(combined_station)
+
+            break
+
+        if not combined:
+            combined_stations.append(first_station)
+
+    return combined_stations
+
+
 with open("nrel.json", "r") as nrel_fh:
     nrel_raw_data = json.load(nrel_fh)
 
@@ -269,5 +338,8 @@ with open("osm.json", "r") as osm_fh:
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 
-for osm_site in osm_data:
-    print(osm_site)
+combined_data = combine_stations(nrel_data, osm_data)
+
+for station in combined_data:
+    if station.osm_id and not station.nrel_id:
+        print(station)

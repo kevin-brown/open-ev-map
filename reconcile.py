@@ -15,14 +15,25 @@ class PlugType(enum.Enum):
 
 
 class ChargingNetwork(enum.Enum):
+    ABM = enum.auto()
+    AMPED_UP = enum.auto()
     AMPUP = enum.auto()
     BLINK = enum.auto()
     CHARGEPOINT = enum.auto()
+    ELECTRIC_ERA = enum.auto()
     ELECTRIFY_AMERICA = enum.auto()
     EV_CONNECT = enum.auto()
+    EV_GATEWAY = enum.auto()
     EVGO = enum.auto()
     EVPASSPORT = enum.auto()
+    FLO = enum.auto()
+    NOODOE = enum.auto()
+    RED_E = enum.auto()
+    RIVIAN_ADVENTURE = enum.auto()
+    SEVEN_CHARGE = enum.auto()
+    SHELL_RECHARGE = enum.auto()
     TESLA = enum.auto()
+    TURN_ON_GREEN = enum.auto()
     VOLTA = enum.auto()
 
 
@@ -129,8 +140,31 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
     }
 
     NREL_NETWORK_MAP = {
+        "7CHARGE": ChargingNetwork.SEVEN_CHARGE,
+        "ABM": ChargingNetwork.ABM,
+        "AMPED_UP": ChargingNetwork.AMPED_UP,
+        "AMPUP": ChargingNetwork.AMPUP,
+        "Blink Network": ChargingNetwork.BLINK,
         "ChargePoint Network": ChargingNetwork.CHARGEPOINT,
+        "CHARGESMART_EV": None,
+        "Electrify America": ChargingNetwork.ELECTRIFY_AMERICA,
+        "EV Connect": ChargingNetwork.EV_CONNECT,
+        "EVGATEWAY": ChargingNetwork.EV_GATEWAY,
+        "eVgo Network": ChargingNetwork.EVGO,
+        "FLO": ChargingNetwork.FLO,
+        "LIVINGSTON": None,
+        "LOOP": None,
+        "NOODOE": ChargingNetwork.NOODOE,
         "Non-Networked": None,
+        "POWER_NODE": ChargingNetwork.ELECTRIC_ERA,
+        "RED_E": ChargingNetwork.RED_E,
+        "RIVIAN_ADVENTURE": ChargingNetwork.RIVIAN_ADVENTURE,
+        "SHELL_RECHARGE": ChargingNetwork.SHELL_RECHARGE,
+        "SWTCH": None,
+        "Tesla": ChargingNetwork.TESLA,
+        "Tesla Destination": ChargingNetwork.TESLA,
+        "TURNONGREEN": ChargingNetwork.TURN_ON_GREEN,
+        "Volta": ChargingNetwork.VOLTA,
     }
 
     stations = []
@@ -150,13 +184,14 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
             zip_code=nrel_station["zip"],
         )
 
-        if "ev_network_ids" in nrel_station:
-            station.network_id = nrel_station["ev_network_ids"]["station"][0]
+        charging_points = []
 
-            charging_points = []
+        if "ev_network_ids" in nrel_station:
+            station.network_id = nrel_station["ev_network_ids"].get("station", [None])[0]
+
             charging_port_groups = []
 
-            for nrel_post_id in nrel_station["ev_network_ids"]["posts"]:
+            for nrel_post_id in nrel_station["ev_network_ids"].get("posts", []):
                 charging_ports = []
 
                 for nrel_plug_type in nrel_station["ev_connector_types"]:
@@ -264,10 +299,8 @@ def normalize_osm_data(osm_raw_data) -> list[Station]:
     return stations
 
 
-def combine_stations(first_data: list[Station], second_data: list[Station]) -> list[Station]:
+def combine_stations(all_stations: list[Station]) -> list[Station]:
     combined_stations = []
-
-    all_stations = [*first_data, *second_data]
 
     for first_station in all_stations:
         if getattr(first_station, "duplicated", False):
@@ -338,7 +371,7 @@ with open("osm.json", "r") as osm_fh:
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 
-combined_data = combine_stations(nrel_data, osm_data)
+combined_data = combine_stations([*nrel_data, *osm_data])
 
 for station in combined_data:
     if station.osm_id and not station.nrel_id:

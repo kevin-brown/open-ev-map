@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "93ad7f1d986e9bf95bad76fe97a5f9ef2200cec8249a617acc03e23f91c6f7c9"
+            "sha256": "369726f8f8b034821fe0b6b6c1d7d6cdf7abd600e1a62323070c44caf482a694"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -24,13 +24,20 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.0"
         },
+        "geojson": {
+            "hashes": [
+                "sha256:58a7fa40727ea058efc28b0e9ff0099eadf6d0965e04690830208d3ef571adac",
+                "sha256:68a9771827237adb8c0c71f8527509c8f5bef61733aa434cefc9c9d4f0ebe8f3"
+            ],
+            "index": "pypi",
+            "version": "==3.1.0"
+        },
         "geopy": {
             "hashes": [
                 "sha256:50283d8e7ad07d89be5cb027338c6365a32044df3ae2556ad3f52f4840b3d0d1",
                 "sha256:ae8b4bc5c1131820f4d75fce9d4aaaca0c85189b3aa5d64c3dcaf5e3b7b882a7"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
             "version": "==2.4.1"
         }
     },

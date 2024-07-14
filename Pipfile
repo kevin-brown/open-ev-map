@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 geopy = "*"
+geojson = "*"
 
 [dev-packages]
 

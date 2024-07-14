@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from geopy import distance
 import dataclasses
 import enum
+import geojson
 import json
 
 
@@ -32,7 +33,8 @@ class ChargingNetwork(enum.Enum):
     RIVIAN_ADVENTURE = enum.auto()
     SEVEN_CHARGE = enum.auto()
     SHELL_RECHARGE = enum.auto()
-    TESLA = enum.auto()
+    TESLA_DESTINATION = enum.auto()
+    TESLA_SUPERCHARGER = enum.auto()
     TURN_ON_GREEN = enum.auto()
     VOLTA = enum.auto()
 
@@ -109,7 +111,7 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
             if station.street_address != other_station.street_address:
                 continue
 
-            other_location = (station.latitude, station.longitude)
+            other_location = (other_station.latitude, other_station.longitude)
 
             station_distance = distance.great_circle(station_location, other_location)
 
@@ -118,7 +120,7 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
 
             combined_charging_points = [*station.charging_points, *other_station.charging_points]
 
-            combined_station = dataclasses.replace(station, charging_points=combined_charging_points, name="", network_id="")
+            combined_station = dataclasses.replace(station, charging_points=combined_charging_points, name=f"{station.name};{other_station.name}", network_id=f"{station.network_id};{other_station.network_id}")
 
             station = combined_station
 
@@ -161,8 +163,8 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         "RIVIAN_ADVENTURE": ChargingNetwork.RIVIAN_ADVENTURE,
         "SHELL_RECHARGE": ChargingNetwork.SHELL_RECHARGE,
         "SWTCH": None,
-        "Tesla": ChargingNetwork.TESLA,
-        "Tesla Destination": ChargingNetwork.TESLA,
+        "Tesla": ChargingNetwork.TESLA_SUPERCHARGER,
+        "Tesla Destination": ChargingNetwork.TESLA_DESTINATION,
         "TURNONGREEN": ChargingNetwork.TURN_ON_GREEN,
         "Volta": ChargingNetwork.VOLTA,
     }
@@ -237,13 +239,13 @@ def osm_parse_charging_station(osm_element) -> Station:
         "ChargePoint": ChargingNetwork.CHARGEPOINT,
         "EV Connect": ChargingNetwork.EV_CONNECT,
         "EVPassport": ChargingNetwork.EVPASSPORT,
-        "Tesla, Inc.": ChargingNetwork.TESLA,
-        "Tesla Supercharger": ChargingNetwork.TESLA,
+        "Tesla, Inc.": ChargingNetwork.TESLA_SUPERCHARGER,
+        "Tesla Supercharger": ChargingNetwork.TESLA_SUPERCHARGER,
         "Volta": ChargingNetwork.VOLTA,
     }
 
     OSM_NETWORK_WIKIDATA_MAP = {
-        "Q478214": ChargingNetwork.TESLA,
+        "Q478214": ChargingNetwork.TESLA_SUPERCHARGER,
         "Q5176149": ChargingNetwork.CHARGEPOINT,
         "Q59773555": ChargingNetwork.ELECTRIFY_AMERICA,
         "Q61803820": ChargingNetwork.EVGO,
@@ -299,7 +301,64 @@ def normalize_osm_data(osm_raw_data) -> list[Station]:
     return stations
 
 
+def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
+    combined_stations = []
+    tesla_stations = []
+
+    for station in all_stations:
+        if station.network != ChargingNetwork.TESLA_SUPERCHARGER:
+            combined_stations.append(station)
+        else:
+            tesla_stations.append(station)
+
+    for first_station in tesla_stations:
+        if getattr(first_station, "duplicated", False):
+            continue
+
+        first_location = (first_station.latitude, first_station.longitude)
+
+        combined = False
+
+        for second_station in tesla_stations:
+            if first_station == second_station:
+                continue
+
+            if getattr(second_station, "duplicated", False):
+                continue
+
+            second_location = (second_station.latitude, second_station.longitude)
+
+            station_distance = distance.great_circle(first_location, second_location)
+
+            if station_distance.miles > 0.1:
+                continue
+
+            combined_station = dataclasses.replace(first_station)
+
+            CLONED_ATTRS = ['name', 'osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+
+            for attr in CLONED_ATTRS:
+                second_value = getattr(second_station, attr)
+                if second_value:
+                    setattr(combined_station, attr, second_value)
+
+            combined_stations.append(combined_station)
+        
+            first_station.duplicated = True
+            second_station.duplicated = True
+
+            combined = True
+
+            break
+
+        if not combined:
+            combined_stations.append(first_station)
+
+    return combined_stations
+
+
 def combine_stations(all_stations: list[Station]) -> list[Station]:
+    all_stations = combine_tesla_superchargers(all_stations)
     combined_stations = []
 
     for first_station in all_stations:
@@ -341,7 +400,7 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
 
             combined_station = dataclasses.replace(first_station)
 
-            CLONED_ATTRS = ['osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            CLONED_ATTRS = ['name', 'osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
 
             for attr in CLONED_ATTRS:
                 second_value = getattr(second_station, attr)
@@ -373,6 +432,29 @@ osm_data = normalize_osm_data(osm_raw_data)
 
 combined_data = combine_stations([*nrel_data, *osm_data])
 
+station_features = geojson.FeatureCollection([])
 for station in combined_data:
-    if station.osm_id and not station.nrel_id:
-        print(station)
+    station_point = geojson.Point(
+        coordinates=(station.longitude, station.latitude)
+    )
+
+    station_properties = {
+        "name": station.name,
+    }
+    if station.network:
+        station_properties["network"] = station.network.name
+    if station.osm_id:
+        station_properties["osm_id"] = station.osm_id
+    if station.nrel_id:
+        station_properties["nrel_id"] = station.nrel_id
+    if station.network_id:
+        station_properties["network_id"] = station.network_id
+
+    station_feature = geojson.Feature(
+        geometry=station_point,
+        properties=station_properties,
+    )
+    station_features["features"].append(station_feature)
+
+with open("stations.geojson", "w") as stations_fh:
+    geojson.dump(station_features, stations_fh)

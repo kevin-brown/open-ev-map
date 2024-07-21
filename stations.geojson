@@ -3268,6 +3268,7 @@
             "properties": {
                 "name": "The Lenox Hotel - Tesla Destination",
                 "network": "TESLA_DESTINATION",
+                "osm_id": 7689983007,
                 "nrel_id": 114326,
                 "network_id": "506862",
                 "street_address": "61 Exeter St",
@@ -4242,6 +4243,7 @@
             "properties": {
                 "name": "PB Boulangerie Bistro - Tesla Destination",
                 "network": "TESLA_DESTINATION",
+                "osm_id": 8215409191,
                 "nrel_id": 122445,
                 "network_id": "513210",
                 "street_address": "15 Lecount Hollow Rd",
@@ -43474,6 +43476,20 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -69.989725,
+                    41.91679
+                ]
+            },
+            "properties": {
+                "network": "TESLA_DESTINATION",
+                "osm_id": 8215409192
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.13279,
                     42.389204
                 ]
@@ -45745,36 +45761,6 @@
                 "city": "Canton",
                 "state": "MA",
                 "zip_code": "02021"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.079843,
-                    42.349354
-                ]
-            },
-            "properties": {
-                "name": "Tesla Destination Charger",
-                "network": "TESLA_SUPERCHARGER",
-                "osm_id": 7689983007
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -69.989699,
-                    41.916807
-                ]
-            },
-            "properties": {
-                "name": "Tesla Destination Charger",
-                "network": "TESLA_SUPERCHARGER",
-                "osm_id": 8215409192
             }
         }
     ]

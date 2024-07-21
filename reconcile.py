@@ -288,18 +288,51 @@ def osm_parse_charging_station(osm_element) -> Station:
         "ChargePoint": ChargingNetwork.CHARGEPOINT,
         "EV Connect": ChargingNetwork.EV_CONNECT,
         "EVPassport": ChargingNetwork.EVPASSPORT,
-        "Tesla, Inc.": ChargingNetwork.TESLA_SUPERCHARGER,
+        "Tesla, Inc.": None, # Ambiguous
         "Tesla Supercharger": ChargingNetwork.TESLA_SUPERCHARGER,
         "Volta": ChargingNetwork.VOLTA,
     }
 
     OSM_NETWORK_WIKIDATA_MAP = {
-        "Q478214": ChargingNetwork.TESLA_SUPERCHARGER,
+        # Tesla, Inc., currently ambiguous
+        "Q478214": None,
+
+        "Q17089620": ChargingNetwork.TESLA_SUPERCHARGER,
         "Q5176149": ChargingNetwork.CHARGEPOINT,
         "Q59773555": ChargingNetwork.ELECTRIFY_AMERICA,
         "Q61803820": ChargingNetwork.EVGO,
         "Q62065645": ChargingNetwork.BLINK,
         "Q109307156": ChargingNetwork.VOLTA,
+    }
+
+    OSM_OPERATOR_WIKIDATA_NETWORK_MAP = {
+        # ABB Group
+        "Q52825": None,
+        # Tesla, Inc., currently ambiguous
+        "Q478214": None,
+        # AeroVironment
+        "Q919300": None,
+        # NRG Energy, most likely EVgo
+        "Q6955139": ChargingNetwork.EVGO,
+
+        "Q5176149": ChargingNetwork.CHARGEPOINT,
+        "Q59773555": ChargingNetwork.ELECTRIFY_AMERICA,
+        "Q61803820": ChargingNetwork.EVGO,
+        "Q62065645": ChargingNetwork.BLINK,
+        "Q109307156": ChargingNetwork.VOLTA,
+    }
+
+    OSM_BRAND_WIKIDATA_NETWORK_MAP = {
+        # ABB Group
+        "Q52825": None,
+        # Tesla, Inc., currently ambiguous
+        "Q478214": None,
+        # AeroVironment
+        "Q919300": None,
+
+        "Q5176149": ChargingNetwork.CHARGEPOINT,
+        "Q17089620": ChargingNetwork.TESLA_SUPERCHARGER,
+        "Q61803820": ChargingNetwork.EVGO,
     }
 
     station = Station(
@@ -319,26 +352,36 @@ def osm_parse_charging_station(osm_element) -> Station:
     if "name" in tags:
         station_name = tags["name"]
 
-        if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station"]:
+        if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
             station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_name))
 
     if station.network is None and "network:wikidata" in tags:
-        station.network = OSM_NETWORK_WIKIDATA_MAP.get(tags["network:wikidata"])
+        station.network = OSM_NETWORK_WIKIDATA_MAP[tags["network:wikidata"]]
 
     if station.network is None and "network" in tags:
         station.network = OSM_NETWORK_NAME_MAP.get(tags["network"])
 
     if station.network is None and "operator:wikidata" in tags:
-        station.network = OSM_NETWORK_WIKIDATA_MAP.get(tags["operator:wikidata"])
+        station.network = OSM_OPERATOR_WIKIDATA_NETWORK_MAP[tags["operator:wikidata"]]
 
     if station.network is None and "operator" in tags:
         station.network = OSM_NETWORK_NAME_MAP.get(tags["operator"])
 
     if station.network is None and "brand:wikidata" in tags:
-        station.network = OSM_NETWORK_WIKIDATA_MAP.get(tags["brand:wikidata"])
+        station.network = OSM_BRAND_WIKIDATA_NETWORK_MAP[tags["brand:wikidata"]]
 
     if station.network is None and "brand" in tags:
         station.network = OSM_NETWORK_NAME_MAP.get(tags["brand"])
+
+    if station.network is None and "name" in tags:
+        station_name = tags["name"].lower()
+
+        if "supercharger" in station_name or "super charger" in station_name:
+            station.network = ChargingNetwork.TESLA_SUPERCHARGER
+
+        if station.network is None and "tesla" in station_name:
+            if "destination" in station_name:
+                station.network = ChargingNetwork.TESLA_DESTINATION
 
     return station
 
@@ -525,4 +568,4 @@ for station in combined_data:
     station_features["features"].append(station_feature)
 
 with open("stations.geojson", "w") as stations_fh:
-    geojson.dump(station_features, stations_fh)
+    geojson.dump(station_features, stations_fh, indent=4)

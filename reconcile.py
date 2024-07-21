@@ -20,6 +20,7 @@ class ChargingNetwork(enum.Enum):
     ABM = enum.auto()
     AMPED_UP = enum.auto()
     AMPUP = enum.auto()
+    AUTEL = enum.auto()
     BLINK = enum.auto()
     CHARGEPOINT = enum.auto()
     ELECTRIC_ERA = enum.auto()
@@ -283,6 +284,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 def osm_parse_charging_station(osm_element) -> Station:
     OSM_NETWORK_NAME_MAP = {
         "AmpUp": ChargingNetwork.AMPUP,
+        "Autel": ChargingNetwork.AUTEL,
         "ChargePoint": ChargingNetwork.CHARGEPOINT,
         "EV Connect": ChargingNetwork.EV_CONNECT,
         "EVPassport": ChargingNetwork.EVPASSPORT,

@@ -22723,7 +22723,7 @@
                 ]
             },
             "properties": {
-                "name": "CONCORD LIGHT KEYES RD LOT;Chargepoint",
+                "name": "CONCORD LIGHT KEYES RD LOT",
                 "network": "CHARGEPOINT",
                 "osm_id": 10736006098,
                 "nrel_id": 211730,
@@ -43223,6 +43223,7 @@
                 ]
             },
             "properties": {
+                "network": "AUTEL",
                 "osm_id": 5254161513
             }
         },
@@ -43236,6 +43237,7 @@
                 ]
             },
             "properties": {
+                "network": "AUTEL",
                 "osm_id": 5254161514
             }
         },
@@ -44427,6 +44429,7 @@
             },
             "properties": {
                 "name": "I-90 Westbound Charlton",
+                "network": "AUTEL",
                 "osm_id": 11899479952
             }
         },
@@ -44441,6 +44444,7 @@
             },
             "properties": {
                 "name": "I-90 Eastbound Charlton",
+                "network": "AUTEL",
                 "osm_id": 11899494210
             }
         },
@@ -44454,6 +44458,7 @@
                 ]
             },
             "properties": {
+                "network": "AUTEL",
                 "osm_id": 11899989951
             }
         },
@@ -44467,6 +44472,7 @@
                 ]
             },
             "properties": {
+                "network": "AUTEL",
                 "osm_id": 11899989952
             }
         },
@@ -45347,7 +45353,7 @@
                 ]
             },
             "properties": {
-                "name": "Stop & Shop - Tesla Supercharger;Tesla Supercharging Station",
+                "name": "Stop & Shop - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "osm_id": 9650196879,
                 "nrel_id": 214071,

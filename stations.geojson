@@ -4203,6 +4203,7 @@
             "properties": {
                 "name": "Alltown Fresh Convenience Market",
                 "network": "ELECTRIFY_AMERICA",
+                "osm_id": 6364729345,
                 "nrel_id": 121730,
                 "network_id": "100053",
                 "street_address": "24 Long Pond Road",
@@ -22850,6 +22851,7 @@
             "properties": {
                 "name": "BOA Medfield MA6-277 (Medfield, MA)",
                 "network": "ELECTRIFY_AMERICA",
+                "osm_id": 11221771872,
                 "nrel_id": 211862,
                 "network_id": "210119",
                 "street_address": "478 Main St",
@@ -43327,19 +43329,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.657321,
-                    41.933049
-                ]
-            },
-            "properties": {
-                "osm_id": 6364729345
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.270953,
                     41.666153
                 ]
@@ -44100,6 +44089,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 10671569288
             }
         },
@@ -44113,6 +44103,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 10671581330
             }
         },
@@ -44126,6 +44117,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 10671581331
             }
         },
@@ -44139,6 +44131,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 10671581332
             }
         },
@@ -44152,6 +44145,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 10671581333
             }
         },
@@ -44165,6 +44159,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 10671581334
             }
         },
@@ -44234,19 +44229,6 @@
             },
             "properties": {
                 "osm_id": 11048226590
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.305165,
-                    42.186222
-                ]
-            },
-            "properties": {
-                "osm_id": 11221771872
             }
         },
         {

@@ -25,6 +25,7 @@ class ChargingNetwork(enum.Enum):
     CHARGEPOINT = enum.auto()
     ELECTRIC_ERA = enum.auto()
     ELECTRIFY_AMERICA = enum.auto()
+    ENEL_X = enum.auto()
     EV_CONNECT = enum.auto()
     EV_GATEWAY = enum.auto()
     EVGO = enum.auto()
@@ -286,8 +287,12 @@ def osm_parse_charging_station(osm_element) -> Station:
         "AmpUp": ChargingNetwork.AMPUP,
         "Autel": ChargingNetwork.AUTEL,
         "ChargePoint": ChargingNetwork.CHARGEPOINT,
+        "Electrify America": ChargingNetwork.ELECTRIFY_AMERICA,
+        "Enel X": ChargingNetwork.ENEL_X,
         "EV Connect": ChargingNetwork.EV_CONNECT,
+        "EVgo": ChargingNetwork.EVGO,
         "EVPassport": ChargingNetwork.EVPASSPORT,
+        "Tesla": None, # Ambiguous
         "Tesla, Inc.": None, # Ambiguous
         "Tesla Supercharger": ChargingNetwork.TESLA_SUPERCHARGER,
         "Volta": ChargingNetwork.VOLTA,
@@ -359,7 +364,7 @@ def osm_parse_charging_station(osm_element) -> Station:
         station.network = OSM_NETWORK_WIKIDATA_MAP[tags["network:wikidata"]]
 
     if station.network is None and "network" in tags:
-        station.network = OSM_NETWORK_NAME_MAP.get(tags["network"])
+        station.network = OSM_NETWORK_NAME_MAP[tags["network"]]
 
     if station.network is None and "operator:wikidata" in tags:
         station.network = OSM_OPERATOR_WIKIDATA_NETWORK_MAP[tags["operator:wikidata"]]

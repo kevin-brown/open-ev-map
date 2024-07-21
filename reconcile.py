@@ -450,6 +450,15 @@ for station in combined_data:
     if station.network_id:
         station_properties["network_id"] = station.network_id
 
+    if station.street_address:
+        station_properties["street_address"] = station.street_address
+    if station.city:
+        station_properties["city"] = station.city
+    if station.state:
+        station_properties["state"] = station.state
+    if station.zip_code:
+        station_properties["zip_code"] = station.zip_code
+
     station_feature = geojson.Feature(
         geometry=station_point,
         properties=station_properties,

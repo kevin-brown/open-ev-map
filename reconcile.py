@@ -1,6 +1,7 @@
 from collections import defaultdict
 from dataclasses import dataclass
 from geopy import distance
+from typing import NamedTuple, Self, reveal_type
 import dataclasses
 import enum
 import geojson
@@ -39,6 +40,50 @@ class ChargingNetwork(enum.Enum):
     VOLTA = enum.auto()
 
 
+class SourceLocation(enum.Enum):
+    ALTERNATIVE_FUELS_DATA_CENTER = enum.auto()
+    OPEN_STREET_MAP = enum.auto()
+
+
+class SourceData(NamedTuple):
+    location: SourceLocation
+    reference: str
+
+
+class SourcedValue[T](NamedTuple):
+    source: SourceData
+    value: T
+
+
+class SourcedAttribute[T]:
+    values: set[SourcedValue[T]]
+
+    def __init__(self):
+        self.values = set()
+
+    def set(self, value: SourcedValue[T]):
+        if not value.value:
+            return
+
+        self.values.add(value)
+
+    def get(self) -> T:
+        if not self.values:
+            return None
+
+        first_value = next(iter(self.values)).value
+
+        if not isinstance(first_value, str):
+            return first_value
+
+        raw_values = sorted(set(val.value for val in self.values))
+
+        return ";".join(raw_values)
+
+    def extend(self, other: Self):
+        self.values.update(other.values)
+
+
 @dataclass
 class ChargingPort:
     plug: PlugType
@@ -68,7 +113,7 @@ class ChargingPoint:
 class Station:
     charging_points: list[ChargingPoint] = dataclasses.field(default_factory=list)
 
-    name: str = ""
+    name: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
     network: ChargingNetwork = None
 
     latitude: int = None
@@ -120,7 +165,9 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
 
             combined_charging_points = [*station.charging_points, *other_station.charging_points]
 
-            combined_station = dataclasses.replace(station, charging_points=combined_charging_points, name=f"{station.name};{other_station.name}", network_id=f"{station.network_id};{other_station.network_id}")
+            combined_station = dataclasses.replace(station, charging_points=combined_charging_points, network_id=f"{station.network_id};{other_station.network_id}")
+            combined_station.name.extend(station.name)
+            combined_station.name.extend(other_station.name)
 
             station = combined_station
 
@@ -173,7 +220,6 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 
     for nrel_station in nrel_raw_data["fuel_stations"]:
         station = Station(
-            name=nrel_station["station_name"],
             network=NREL_NETWORK_MAP[nrel_station["ev_network"]],
             nrel_id=nrel_station["id"],
 
@@ -185,6 +231,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
             state=nrel_station["state"],
             zip_code=nrel_station["zip"],
         )
+        station.name.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["station_name"]))
 
         charging_points = []
 
@@ -216,7 +263,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
             charging_point = ChargingPoint(
                 network_id=station.network_id,
                 nrel_id=station.nrel_id,
-                name=station.name,
+                name=station.name.get(),
                 charging_port_groups=charging_port_groups,
                 latitude=nrel_station["latitude"],
                 longitude=nrel_station["longitude"],
@@ -268,7 +315,10 @@ def osm_parse_charging_station(osm_element) -> Station:
     tags = osm_element["tags"]
 
     if "name" in tags:
-        station.name = tags["name"]
+        station_name = tags["name"]
+
+        if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station"]:
+            station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_name))
 
     if station.network is None and "network:wikidata" in tags:
         station.network = OSM_NETWORK_WIKIDATA_MAP.get(tags["network:wikidata"])
@@ -335,12 +385,15 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
 
             combined_station = dataclasses.replace(first_station)
 
-            CLONED_ATTRS = ['name', 'osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            CLONED_ATTRS = ['osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
 
             for attr in CLONED_ATTRS:
                 second_value = getattr(second_station, attr)
                 if second_value:
                     setattr(combined_station, attr, second_value)
+
+            combined_station.name.extend(first_station.name)
+            combined_station.name.extend(second_station.name)
 
             combined_stations.append(combined_station)
         
@@ -400,12 +453,15 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
 
             combined_station = dataclasses.replace(first_station)
 
-            CLONED_ATTRS = ['name', 'osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            CLONED_ATTRS = ['osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
 
             for attr in CLONED_ATTRS:
                 second_value = getattr(second_station, attr)
                 if second_value:
                     setattr(combined_station, attr, second_value)
+
+            combined_station.name.extend(first_station.name)
+            combined_station.name.extend(second_station.name)
 
             first_station.duplicated = True
             second_station.duplicated = True
@@ -438,9 +494,10 @@ for station in combined_data:
         coordinates=(station.longitude, station.latitude)
     )
 
-    station_properties = {
-        "name": station.name,
-    }
+    station_properties = {}
+
+    if station.name.get():
+        station_properties["name"] = station.name.get()
     if station.network:
         station_properties["network"] = station.network.name
     if station.osm_id:

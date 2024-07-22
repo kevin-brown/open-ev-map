@@ -346,6 +346,15 @@ def osm_parse_charging_station(osm_element) -> Station:
         "Q109307156": ChargingNetwork.VOLTA,
     }
 
+    OSM_BRAND_NAME_NETWORK_MAP = {
+        "ChargePoint": ChargingNetwork.CHARGEPOINT,
+        "Enel": ChargingNetwork.ENEL_X,
+        "Tesla, Inc.": None, # Ambiguous
+        "Tesla Supercharger": ChargingNetwork.TESLA_SUPERCHARGER,
+        "Volta": ChargingNetwork.VOLTA,
+        "WattZilla": None, # Non-networked
+    }
+
     OSM_BRAND_WIKIDATA_NETWORK_MAP = {
         # ABB Group
         "Q52825": None,
@@ -396,7 +405,7 @@ def osm_parse_charging_station(osm_element) -> Station:
             station.network = OSM_BRAND_WIKIDATA_NETWORK_MAP[tags["brand:wikidata"]]
 
         if station.network is None and "brand" in tags:
-            station.network = OSM_NETWORK_NAME_MAP.get(tags["brand"])
+            station.network = OSM_BRAND_NAME_NETWORK_MAP[tags["brand"]]
 
         if station.network is None and "name" in tags:
             station_name = tags["name"].lower()

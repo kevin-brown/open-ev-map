@@ -44218,6 +44218,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351252999
             }
         },
@@ -44231,6 +44232,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253000
             }
         },
@@ -44244,6 +44246,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253001
             }
         },
@@ -44257,6 +44260,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253002
             }
         },
@@ -44270,6 +44274,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253003
             }
         },
@@ -44283,6 +44288,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253004
             }
         },
@@ -44296,6 +44302,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253005
             }
         },
@@ -44309,6 +44316,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253006
             }
         },
@@ -44322,6 +44330,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253007
             }
         },
@@ -44335,6 +44344,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253008
             }
         },
@@ -44348,6 +44358,7 @@
                 ]
             },
             "properties": {
+                "network": "ENEL_X",
                 "osm_id": 11351253009
             }
         },
@@ -44611,6 +44622,7 @@
                 ]
             },
             "properties": {
+                "network": "AMPUP",
                 "osm_id": 1247446183
             }
         },

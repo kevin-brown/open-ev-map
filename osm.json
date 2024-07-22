@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-22T00:18:58Z",
+    "timestamp_osm_base": "2024-07-22T00:36:15Z",
     "timestamp_areas_base": "2024-07-21T20:34:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -7513,9 +7513,13 @@
     { "lat": 42.1180147, "lon": -72.0620382 }
   ],
   "tags": {
+    "access": "yes",
     "amenity": "charging_station",
-    "brand": "Noble +EV",
+    "brand": "JuiceBar",
     "building": "roof",
+    "capacity": "8",
+    "network": "AmpUp",
+    "operator": "Noble +EV",
     "website": "https://noblemarketsusa.com/"
   }
 },

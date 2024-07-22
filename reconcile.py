@@ -186,26 +186,49 @@ def normalize_address_street_address(street_address: str) -> str:
         "ave": "Avenue",
         "blvd": "Boulevard",
         "dr": "Drive",
+        "expy": "Expressway",
         "hwy": "Highway",
+        "pl": "Place",
         "rd": "Road",
         "st": "Street",
         "sq": "Square",
+        "tpke": "Turnpike",
+    }
+
+    PREFIX_NUMBER_MAP = {
+        "One": "1",
     }
 
     if " " in street_address:
         address_parts = street_address.split(" ")
         street_type = address_parts[-1]
+        is_extension = False
 
-        if street_type.endswith("."):
+        if street_type.lower().startswith("ext"):
+            street_type = address_parts[-2]
+            del address_parts[-1]
+            is_extension = True
+
+        if street_type.endswith(".") or street_type.endswith(","):
             street_type = street_type[:-1]
 
         street_type = street_type.lower()
 
         if street_type in STREET_TYPE_MAP:
             street_type_full = STREET_TYPE_MAP[street_type]
-            street_address = " ".join(address_parts[:-1]) + " " + street_type_full
 
-    if street_address.endswith("."):
+            street_address = " ".join(address_parts[:-1]) + " " + street_type_full
+            if is_extension:
+                street_address += " Extension"
+
+            address_parts = street_address.split(" ")
+
+        if address_parts[0] in PREFIX_NUMBER_MAP:
+            address_prefix = PREFIX_NUMBER_MAP[address_parts[0]]
+            street_address = address_prefix + " " + " ".join(address_parts[1:])
+            address_parts = street_address.split(" ")
+
+    if street_address.endswith(".") or street_address.endswith(","):
         street_address = street_address[:-1]
 
     return street_address

@@ -5696,7 +5696,7 @@
                 "network": "BLINK",
                 "nrel_id": 148121,
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000000960",
-                "street_address": "One Marina Park Drive",
+                "street_address": "1 Marina Park Drive",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "2110"
@@ -10096,7 +10096,7 @@
                 "osm_id": 7907324046,
                 "nrel_id": 161925,
                 "network_id": "USCPIL124443;USCPIL124429",
-                "street_address": "Ryder St Ext",
+                "street_address": "Ryder Street Extension",
                 "city": "Provincetown",
                 "state": "MA",
                 "zip_code": "02657"
@@ -10438,7 +10438,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 161947,
                 "network_id": "USCPIL121193",
-                "street_address": "25 Technology Pl",
+                "street_address": "25 Technology Place",
                 "city": "Hingham",
                 "state": "MA",
                 "zip_code": "02043"
@@ -14021,11 +14021,11 @@
                 ]
             },
             "properties": {
-                "name": "IP GARAGE IP STATION #1;IP GARAGE IP STATION #2",
+                "name": "IP GARAGE IP P3 #2;IP GARAGE IP P3 #3;IP GARAGE IP P3 STATION 1;IP GARAGE IP STATION #1;IP GARAGE IP STATION #2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 170466,
-                "network_id": "USCPIL5556261;USCPIL5556211",
-                "street_address": "1 International Pl",
+                "network_id": "USCPIL5556261;USCPIL5556211;USCPIL15367121;USCPIL15367311;USCPIL15367451",
+                "street_address": "1 International Place",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02110"
@@ -17531,7 +17531,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 190700,
                 "network_id": "USCPIL5399751",
-                "street_address": "14 Bailey Pl",
+                "street_address": "14 Bailey Place",
                 "city": "Newton",
                 "state": "MA",
                 "zip_code": "02460"
@@ -17551,7 +17551,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 190701,
                 "network_id": "USCPIL5494731",
-                "street_address": "21 Bailey Pl",
+                "street_address": "21 Bailey Place",
                 "city": "Newton",
                 "state": "MA",
                 "zip_code": "02460"
@@ -17912,7 +17912,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 192729,
                 "network_id": "USCPIL8416671",
-                "street_address": "One Westinghouse Plaza BLDG. D",
+                "street_address": "1 Westinghouse Plaza BLDG. D",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02136"
@@ -19642,7 +19642,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 198155,
                 "network_id": "USCPIL10323011;USCPIL10323561",
-                "street_address": "Fall River Expy,",
+                "street_address": "Fall River Expressway",
                 "city": "Bridgewater",
                 "state": "MA",
                 "zip_code": "02324"
@@ -19658,31 +19658,11 @@
                 ]
             },
             "properties": {
-                "name": "MASSDOT SBBRIDGEWATER L",
+                "name": "MASSDOT SBBRIDGEWATER L;MASSDOT SBBRIDGEWATER R",
                 "network": "CHARGEPOINT",
                 "nrel_id": 198157,
-                "network_id": "USCPIL10325541",
+                "network_id": "USCPIL10325541;USCPIL10326351",
                 "street_address": "MA-24",
-                "city": "Bridgewater",
-                "state": "MA",
-                "zip_code": "02324"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.027687,
-                    41.956399
-                ]
-            },
-            "properties": {
-                "name": "MASSDOT SBBRIDGEWATER R",
-                "network": "CHARGEPOINT",
-                "nrel_id": 198158,
-                "network_id": "USCPIL10326351",
-                "street_address": "MA-24,",
                 "city": "Bridgewater",
                 "state": "MA",
                 "zip_code": "02324"
@@ -21809,7 +21789,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 205743,
                 "network_id": "USCPIL12400571",
-                "street_address": "1 Community Pl",
+                "street_address": "1 Community Place",
                 "city": "Deerfield",
                 "state": "MA",
                 "zip_code": "01373"
@@ -22556,7 +22536,7 @@
                 "network": "BLINK",
                 "nrel_id": 211943,
                 "network_id": "465ba1dd-d734-8158-93cc-330000689898",
-                "street_address": "4 Emerson Pl",
+                "street_address": "4 Emerson Place",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "2114"
@@ -22936,7 +22916,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 214353,
                 "network_id": "USCPIL12731081",
-                "street_address": "100 Colony Pl",
+                "street_address": "100 Colony Place",
                 "city": "Plymouth",
                 "state": "MA",
                 "zip_code": "02360"
@@ -23308,7 +23288,7 @@
                 "network": "VOLTA",
                 "nrel_id": 216381,
                 "network_id": "3391fdd6-bb80-41a9-91be-689a795c4deb",
-                "street_address": "100 Cambridgeside Pl",
+                "street_address": "100 Cambridgeside Place",
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02141"
@@ -24882,7 +24862,7 @@
                 "network": "BLINK",
                 "nrel_id": 225280,
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000000345",
-                "street_address": "One Technology Place",
+                "street_address": "1 Technology Place",
                 "city": "Rockland",
                 "state": "MA",
                 "zip_code": "02370"
@@ -25659,7 +25639,7 @@
                 "osm_id": 11902604153,
                 "nrel_id": 228407,
                 "network_id": "493",
-                "street_address": "75 Middlesex Tpke",
+                "street_address": "75 Middlesex Turnpike",
                 "city": "Burlington",
                 "state": "MA",
                 "zip_code": "01803"
@@ -26482,7 +26462,7 @@
                 "name": "Monarch Place - Sheraton",
                 "network": "AMPUP",
                 "nrel_id": 229721,
-                "street_address": "One Monarch Pl",
+                "street_address": "1 Monarch Place",
                 "city": "Springfield",
                 "state": "MA",
                 "zip_code": "01144"
@@ -29731,7 +29711,7 @@
                 "network": "VOLTA",
                 "nrel_id": 253529,
                 "network_id": "40b47b68-3e7e-4159-8c76-de8118285c11",
-                "street_address": "100 Cambridgeside Pl",
+                "street_address": "100 Cambridgeside Place",
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02141"
@@ -29751,7 +29731,7 @@
                 "network": "VOLTA",
                 "nrel_id": 253530,
                 "network_id": "40eb6e81-18d2-4620-8eac-bbd4e811e76a",
-                "street_address": "100 Cambridgeside Pl",
+                "street_address": "100 Cambridgeside Place",
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02141"
@@ -30210,7 +30190,7 @@
                 "network": "BLINK",
                 "nrel_id": 255653,
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000007124",
-                "street_address": "One Boston Way\nNewburyport, MA 01950",
+                "street_address": "1 Boston Way\nNewburyport, MA 01950",
                 "city": "Newburyport",
                 "state": "MA",
                 "zip_code": "1950"
@@ -30330,7 +30310,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 256692,
                 "network_id": "USCPIL13436621;USCPIL13437051",
-                "street_address": "3 Eaton Pl",
+                "street_address": "3 Eaton Place",
                 "city": "Worcester",
                 "state": "MA",
                 "zip_code": "01608"
@@ -30531,7 +30511,7 @@
                 "osm_id": 11376062707,
                 "nrel_id": 257317,
                 "network_id": "52756",
-                "street_address": "200 Hartford Tpke",
+                "street_address": "200 Hartford Turnpike",
                 "city": "Shrewsbury",
                 "state": "MA",
                 "zip_code": "01545"
@@ -31102,7 +31082,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 260611,
                 "network_id": "USCPIL376631;USCPIL376811;USCPIL376891;USCPIL376961;USCPIL377011",
-                "street_address": "One Upland Road",
+                "street_address": "1 Upland Road",
                 "city": "Norwood",
                 "state": "MA",
                 "zip_code": "02062"
@@ -31142,7 +31122,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 260619,
                 "network_id": "USCPIL376931;USCPIL376811;USCPIL376961;USCPIL377011",
-                "street_address": "One Upland Road",
+                "street_address": "1 Upland Road",
                 "city": "Norwood",
                 "state": "MA",
                 "zip_code": "02062"
@@ -36184,7 +36164,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 322790,
                 "network_id": "USCPIL15256391;USCPIL15256411;USCPIL15256461;USCPIL15256511;USCPIL15256531;USCPIL15256791",
-                "street_address": "2 W Service Rd Ext",
+                "street_address": "2 W Service Road Extension",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02210"
@@ -36224,7 +36204,7 @@
                 "network": "CHARGEPOINT",
                 "nrel_id": 322795,
                 "network_id": "USCPIL15256481;USCPIL15256491",
-                "street_address": "27 W Service Rd Ext",
+                "street_address": "27 W Service Road Extension",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02210"
@@ -37231,7 +37211,7 @@
             "properties": {
                 "name": "DCAMM McCormack Building",
                 "nrel_id": 325229,
-                "street_address": "1 Ashburton Pl",
+                "street_address": "1 Ashburton Place",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02108"
@@ -37751,26 +37731,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02128"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.052454,
-                    42.355778
-                ]
-            },
-            "properties": {
-                "name": "IP GARAGE IP P3 #2;IP GARAGE IP P3 #3;IP GARAGE IP P3 STATION 1",
-                "network": "CHARGEPOINT",
-                "nrel_id": 325397,
-                "network_id": "USCPIL15367121;USCPIL15367311;USCPIL15367451",
-                "street_address": "1 International Place",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02110"
             }
         },
         {
@@ -39728,7 +39688,7 @@
             "properties": {
                 "name": "Autel - Lee Service Plaza Westbound",
                 "nrel_id": 333462,
-                "street_address": "Massachusetts Tpke",
+                "street_address": "Massachusetts Turnpike",
                 "city": "Lee",
                 "state": "MA",
                 "zip_code": "01238"
@@ -39746,7 +39706,7 @@
             "properties": {
                 "name": "Autel - Framingham Rest Stop Westbound",
                 "nrel_id": 333463,
-                "street_address": "114 Massachusetts Tpke",
+                "street_address": "114 Massachusetts Turnpike",
                 "city": "Framingham",
                 "state": "MA",
                 "zip_code": "01701"
@@ -41604,7 +41564,7 @@
             "properties": {
                 "name": "Residence Inn by Marriott Boston Concord",
                 "nrel_id": 348876,
-                "street_address": "320 Baker Ave Extension",
+                "street_address": "320 Baker Avenue Extension",
                 "city": "Concord",
                 "state": "MA",
                 "zip_code": "01742"

@@ -181,6 +181,36 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
     return cleaned_stations
 
 
+def normalize_address_street_address(street_address: str) -> str:
+    STREET_TYPE_MAP = {
+        "ave": "Avenue",
+        "blvd": "Boulevard",
+        "dr": "Drive",
+        "hwy": "Highway",
+        "rd": "Road",
+        "st": "Street",
+        "sq": "Square",
+    }
+
+    if " " in street_address:
+        address_parts = street_address.split(" ")
+        street_type = address_parts[-1]
+
+        if street_type.endswith("."):
+            street_type = street_type[:-1]
+
+        street_type = street_type.lower()
+
+        if street_type in STREET_TYPE_MAP:
+            street_type_full = STREET_TYPE_MAP[street_type]
+            street_address = " ".join(address_parts[:-1]) + " " + street_type_full
+
+    if street_address.endswith("."):
+        street_address = street_address[:-1]
+
+    return street_address
+
+
 def normalize_nrel_data(nrel_raw_data) -> list[Station]:
     NREL_PLUG_MAP = {
         "CHADEMO": PlugType.CHADEMO,
@@ -228,7 +258,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
             latitude=nrel_station["latitude"],
             longitude=nrel_station["longitude"],
 
-            street_address=nrel_station["street_address"],
+            street_address=normalize_address_street_address(nrel_station["street_address"]),
             city=nrel_station["city"],
             state=nrel_station["state"],
             zip_code=nrel_station["zip"],

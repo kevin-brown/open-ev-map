@@ -5950,6 +5950,7 @@
             "properties": {
                 "name": "CONCORD LIGHT RAIL TRAIL PARK",
                 "network": "CHARGEPOINT",
+                "osm_id": 7076351009,
                 "nrel_id": 149541,
                 "network_id": "USCPIL2012501",
                 "street_address": "407 Commonwealth Ave",
@@ -17968,6 +17969,7 @@
             "properties": {
                 "name": "DPW PUBLIC SAFETY",
                 "network": "CHARGEPOINT",
+                "osm_id": 9319353076,
                 "nrel_id": 191440,
                 "network_id": "USCPIL8072521",
                 "street_address": "15 Wattaquadock Hill Rd",
@@ -43343,19 +43345,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.954622,
-                    42.167113
-                ]
-            },
-            "properties": {
-                "osm_id": 6715059601
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.324555,
                     42.649801
                 ]
@@ -43375,19 +43364,6 @@
             },
             "properties": {
                 "osm_id": 6967179356
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.398153,
-                    42.464911
-                ]
-            },
-            "properties": {
-                "osm_id": 7076351009
             }
         },
         {
@@ -43704,20 +43680,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.611432,
-                    42.433286
-                ]
-            },
-            "properties": {
-                "name": "EV Charging Station",
-                "osm_id": 9319353076
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.63446,
                     42.448816
                 ]
@@ -43751,6 +43713,7 @@
                 ]
             },
             "properties": {
+                "network": "SHELL_RECHARGE",
                 "osm_id": 9374531074
             }
         },
@@ -44621,6 +44584,7 @@
                 ]
             },
             "properties": {
+                "network": "EV_CONNECT",
                 "osm_id": 954423391
             }
         },

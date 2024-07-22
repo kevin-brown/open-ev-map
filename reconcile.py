@@ -310,6 +310,24 @@ def osm_parse_charging_station(osm_element) -> Station:
         "Q109307156": ChargingNetwork.VOLTA,
     }
 
+    OSM_OPERATOR_NAME_MAP = {
+        "Bread Euphoria": None, # Non-networked
+        "City of Melrose": None, # ChargePoint via Brand
+        "City of Newton": None, # ChargePoint via Brand
+        "National Grid": None, # Non-networked
+        "Regus": None,  # Non-networked
+        "Town of Bolton": None,
+        "Whole Foods": None,
+        "Mass Audubon": None,
+
+        "Tesla, Inc.": None, # Ambiguous
+        "Tesla Motors": None, # Ambiguous
+
+        "AmpUp": ChargingNetwork.AMPUP,
+        "ChargePoint": ChargingNetwork.CHARGEPOINT,
+        "Shell Recharge Solutions": ChargingNetwork.SHELL_RECHARGE,
+    }
+
     OSM_OPERATOR_WIKIDATA_NETWORK_MAP = {
         # ABB Group
         "Q52825": None,
@@ -324,6 +342,7 @@ def osm_parse_charging_station(osm_element) -> Station:
         "Q59773555": ChargingNetwork.ELECTRIFY_AMERICA,
         "Q61803820": ChargingNetwork.EVGO,
         "Q62065645": ChargingNetwork.BLINK,
+        "Q105883058": ChargingNetwork.SHELL_RECHARGE,
         "Q109307156": ChargingNetwork.VOLTA,
     }
 
@@ -360,33 +379,34 @@ def osm_parse_charging_station(osm_element) -> Station:
         if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
             station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_name))
 
-    if station.network is None and "network:wikidata" in tags:
-        station.network = OSM_NETWORK_WIKIDATA_MAP[tags["network:wikidata"]]
+    if "no:network" not in tags:
+        if station.network is None and "network:wikidata" in tags:
+            station.network = OSM_NETWORK_WIKIDATA_MAP[tags["network:wikidata"]]
 
-    if station.network is None and "network" in tags:
-        station.network = OSM_NETWORK_NAME_MAP[tags["network"]]
+        if station.network is None and "network" in tags:
+            station.network = OSM_NETWORK_NAME_MAP[tags["network"]]
 
-    if station.network is None and "operator:wikidata" in tags:
-        station.network = OSM_OPERATOR_WIKIDATA_NETWORK_MAP[tags["operator:wikidata"]]
+        if station.network is None and "operator:wikidata" in tags:
+            station.network = OSM_OPERATOR_WIKIDATA_NETWORK_MAP[tags["operator:wikidata"]]
 
-    if station.network is None and "operator" in tags:
-        station.network = OSM_NETWORK_NAME_MAP.get(tags["operator"])
+        if station.network is None and "operator" in tags:
+            station.network = OSM_OPERATOR_NAME_MAP[tags["operator"]]
 
-    if station.network is None and "brand:wikidata" in tags:
-        station.network = OSM_BRAND_WIKIDATA_NETWORK_MAP[tags["brand:wikidata"]]
+        if station.network is None and "brand:wikidata" in tags:
+            station.network = OSM_BRAND_WIKIDATA_NETWORK_MAP[tags["brand:wikidata"]]
 
-    if station.network is None and "brand" in tags:
-        station.network = OSM_NETWORK_NAME_MAP.get(tags["brand"])
+        if station.network is None and "brand" in tags:
+            station.network = OSM_NETWORK_NAME_MAP.get(tags["brand"])
 
-    if station.network is None and "name" in tags:
-        station_name = tags["name"].lower()
+        if station.network is None and "name" in tags:
+            station_name = tags["name"].lower()
 
-        if "supercharger" in station_name or "super charger" in station_name:
-            station.network = ChargingNetwork.TESLA_SUPERCHARGER
+            if "supercharger" in station_name or "super charger" in station_name:
+                station.network = ChargingNetwork.TESLA_SUPERCHARGER
 
-        if station.network is None and "tesla" in station_name:
-            if "destination" in station_name:
-                station.network = ChargingNetwork.TESLA_DESTINATION
+            if station.network is None and "tesla" in station_name:
+                if "destination" in station_name:
+                    station.network = ChargingNetwork.TESLA_DESTINATION
 
     return station
 

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-21T21:23:15Z",
-    "timestamp_areas_base": "2024-07-21T15:37:36Z",
+    "timestamp_osm_base": "2024-07-22T00:18:58Z",
+    "timestamp_areas_base": "2024-07-21T20:34:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -632,19 +632,6 @@
 },
 {
   "type": "node",
-  "id": 6715059601,
-  "lat": 42.1671134,
-  "lon": -70.9546216,
-  "tags": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "fee": "yes",
-    "operator": "99 Restaurant",
-    "payment:credit_cards": "yes"
-  }
-},
-{
-  "type": "node",
   "id": 6715060628,
   "lat": 42.1671134,
   "lon": -70.9545857,
@@ -723,13 +710,18 @@
 {
   "type": "node",
   "id": 7076351009,
-  "lat": 42.4649109,
-  "lon": -71.3981529,
+  "lat": 42.4648936,
+  "lon": -71.3981015,
   "tags": {
+    "access": "yes",
     "amenity": "charging_station",
+    "brand": "ChargePoint",
+    "brand:wikidata": "Q5176149",
     "capacity": "2",
     "fee": "yes",
-    "operator": "Leviton"
+    "name": "ChargePoint",
+    "operator": "ChargePoint",
+    "operator:wikidata": "Q5176149"
   }
 },
 {
@@ -1822,15 +1814,18 @@
 {
   "type": "node",
   "id": 9319353076,
-  "lat": 42.4332857,
-  "lon": -71.6114317,
+  "lat": 42.4335595,
+  "lon": -71.6115829,
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
+    "brand": "ChargePoint",
+    "brand:wikidata": "Q5176149",
     "capacity": "2",
     "fee": "yes",
-    "name": "EV Charging Station",
-    "operator": "Town of Bolton"
+    "name": "ChargePoint",
+    "operator": "ChargePoint",
+    "operator:wikidata": "Q5176149"
   }
 },
 {
@@ -1870,9 +1865,13 @@
   "lat": 42.3644807,
   "lon": -71.1617611,
   "tags": {
+    "access": "yes",
     "amenity": "charging_station",
+    "brand": "BTC Power",
     "capacity": "6",
-    "operator": "BTCPower"
+    "fee": "no",
+    "operator": "Shell Recharge Solutions",
+    "operator:wikidata": "Q105883058"
   }
 },
 {
@@ -5356,7 +5355,7 @@
     "hgv": "no",
     "motorcar": "yes",
     "name": "I-90 Westbound Charlton",
-    "no:network": "yes",
+    "network": "Autel",
     "opening_hours": "24/7",
     "operator": "Guardian Energy Management Solutions",
     "owner": "MassDOT",
@@ -5381,7 +5380,7 @@
     "hgv": "no",
     "motorcar": "yes",
     "name": "I-90 Eastbound Charlton",
-    "no:network": "yes",
+    "network": "Autel",
     "opening_hours": "24/7",
     "operator": "Guardian Energy Management Solutions",
     "owner": "MassDOT",
@@ -5407,7 +5406,7 @@
     "fee": "yes",
     "hgv": "no",
     "motorcar": "yes",
-    "no:network": "yes",
+    "network": "Autel",
     "opening_hours": "24/7",
     "operator": "Guardian Energy Management Solutions",
     "owner": "MassDOT",
@@ -5433,7 +5432,7 @@
     "fee": "yes",
     "hgv": "no",
     "motorcar": "yes",
-    "no:network": "yes",
+    "network": "Autel",
     "opening_hours": "24/7",
     "operator": "Guardian Energy Management Solutions",
     "owner": "MassDOT",
@@ -7212,7 +7211,11 @@
   ],
   "tags": {
     "amenity": "charging_station",
+    "brand": "EV Connect",
+    "capacity": "2",
+    "fee": "yes",
     "motorcar": "yes",
+    "network": "EV Connect",
     "operator": "Gordon College"
   }
 },

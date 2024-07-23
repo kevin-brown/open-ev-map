@@ -8256,11 +8256,11 @@
                 ]
             },
             "properties": {
-                "name": "SHBH CENTRE #3",
+                "name": "SHBH CENTRE #1;SHBH CENTRE #2;SHBH CENTRE #3;SHBH CENTRE #4;SHBH CENTRE #5;SHBH CENTRE #6;SHBH CENTRE #7;SHBH CENTRE #8",
                 "network": "CHARGEPOINT",
                 "nrel_id": 156379,
-                "network_id": "USCPIL4336801",
-                "street_address": "680  Centre Street",
+                "network_id": "USCPIL4336801;USCPIL4336781;USCPIL4336771;USCPIL4336751;USCPIL4336731;USCPIL4336701;USCPIL4336681;USCPIL4336831",
+                "street_address": "680 Centre Street",
                 "city": "Brockton",
                 "state": "MA",
                 "zip_code": "02302"
@@ -14938,26 +14938,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.989823,
-                    42.086463
-                ]
-            },
-            "properties": {
-                "name": "SHBH CENTRE #1;SHBH CENTRE #2;SHBH CENTRE #4;SHBH CENTRE #5;SHBH CENTRE #6;SHBH CENTRE #7;SHBH CENTRE #8",
-                "network": "CHARGEPOINT",
-                "nrel_id": 175699,
-                "network_id": "USCPIL4336781;USCPIL4336771;USCPIL4336751;USCPIL4336731;USCPIL4336701;USCPIL4336681;USCPIL4336831",
-                "street_address": "680 Centre Street",
-                "city": "Brockton",
-                "state": "MA",
-                "zip_code": "02302"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.262293,
                     42.295993
                 ]
@@ -17868,31 +17848,11 @@
                 ]
             },
             "properties": {
-                "name": "BULFINCH EV 1;BULFINCH EV 3;BULFINCH EV 4;BULFINCH EV 5",
+                "name": "BULFINCH EV 1;BULFINCH EV 2;BULFINCH EV 3;BULFINCH EV 4;BULFINCH EV 5",
                 "network": "CHARGEPOINT",
                 "nrel_id": 192642,
-                "network_id": "USCPIL8526451;USCPIL8526471;USCPIL8526491;USCPIL8526541",
+                "network_id": "USCPIL8526451;USCPIL8526471;USCPIL8526491;USCPIL8526511;USCPIL8526541",
                 "street_address": "50 New Sudbury Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02114"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.05902,
-                    42.362423
-                ]
-            },
-            "properties": {
-                "name": "BULFINCH EV 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 192645,
-                "network_id": "USCPIL8526511",
-                "street_address": "50 New  Sudbury Street",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02114"
@@ -17908,31 +17868,11 @@
                 ]
             },
             "properties": {
-                "name": "MAVERICK MAV HQ 2",
+                "name": "MAVERICK MAV HQ 1;MAVERICK MAV HQ 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 192729,
-                "network_id": "USCPIL8416671",
+                "network_id": "USCPIL8416671;USCPIL8417201",
                 "street_address": "1 Westinghouse Plaza BLDG. D",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02136"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.131325,
-                    42.24582
-                ]
-            },
-            "properties": {
-                "name": "MAVERICK MAV HQ 1",
-                "network": "CHARGEPOINT",
-                "nrel_id": 192730,
-                "network_id": "USCPIL8417201",
-                "street_address": "1 Westinghouse Plaza  BLDG. D",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02136"
@@ -22246,33 +22186,12 @@
                 ]
             },
             "properties": {
-                "name": "PEQUITSIDE PEQUITSIDE-1;PEQUITSIDE PEQUITSIDE-2;PEQUITSIDE PEQUITSIDE-4;Pequitside Farm",
+                "name": "PEQUITSIDE PEQUITSIDE-1;PEQUITSIDE PEQUITSIDE-2;PEQUITSIDE PEQUITSIDE-3;PEQUITSIDE PEQUITSIDE-4;Pequitside Farm",
                 "network": "CHARGEPOINT",
                 "osm_id": 12048335044,
                 "nrel_id": 207937,
-                "network_id": "USCPIL12012091;USCPIL12012421;USCPIL12012661",
+                "network_id": "USCPIL12012091;USCPIL12012291;USCPIL12012421;USCPIL12012661",
                 "street_address": "79 Pleasant Street",
-                "city": "Canton",
-                "state": "MA",
-                "zip_code": "02021"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.135117,
-                    42.17179
-                ]
-            },
-            "properties": {
-                "name": "PEQUITSIDE PEQUITSIDE-3;Pequitside Farm - Armando",
-                "network": "CHARGEPOINT",
-                "osm_id": 12048335045,
-                "nrel_id": 207938,
-                "network_id": "USCPIL12012291",
-                "street_address": "79  Pleasant Street",
                 "city": "Canton",
                 "state": "MA",
                 "zip_code": "02021"
@@ -23684,8 +23603,9 @@
                 ]
             },
             "properties": {
-                "name": "PEQUITSIDE ARMANDO-1;PEQUITSIDE ARMANDO-2;PEQUITSIDE ARMANDO-3;PEQUITSIDE ARMANDO-4",
+                "name": "PEQUITSIDE ARMANDO-1;PEQUITSIDE ARMANDO-2;PEQUITSIDE ARMANDO-3;PEQUITSIDE ARMANDO-4;Pequitside Farm - Armando",
                 "network": "CHARGEPOINT",
+                "osm_id": 12048335045,
                 "nrel_id": 220245,
                 "network_id": "USCPIL12776271;USCPIL12776291;USCPIL12776311;USCPIL12776341",
                 "street_address": "92 Pleasant Street",
@@ -28914,7 +28834,7 @@
                 "network": "TESLA_DESTINATION",
                 "nrel_id": 250973,
                 "network_id": "1122542",
-                "street_address": "1  Community Place",
+                "street_address": "1 Community Place",
                 "city": "South Deerfield",
                 "state": "MA",
                 "zip_code": "01373"
@@ -33867,7 +33787,7 @@
                 "network": "BLINK",
                 "nrel_id": 310433,
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000005966",
-                "street_address": "83 Ward Street  Revere, MA 02151",
+                "street_address": "83 Ward Street Revere, MA 02151",
                 "city": "Revere",
                 "state": "MA",
                 "zip_code": "02151"
@@ -44531,7 +44451,7 @@
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": 200863,
                 "network_id": "17297",
-                "street_address": "650  Memorial Drive",
+                "street_address": "650 Memorial Drive",
                 "city": "Chicopee",
                 "state": "MA",
                 "zip_code": "01020"
@@ -44571,7 +44491,7 @@
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": 205808,
                 "network_id": "17294",
-                "street_address": "965  Fall River Avenue",
+                "street_address": "965 Fall River Avenue",
                 "city": "Seekonk",
                 "state": "MA",
                 "zip_code": "02771"
@@ -44613,7 +44533,7 @@
                 "osm_id": 11763760615,
                 "nrel_id": 218658,
                 "network_id": "19560",
-                "street_address": "83  Faunce Corner Mall Road",
+                "street_address": "83 Faunce Corner Mall Road",
                 "city": "Dartmouth",
                 "state": "MA",
                 "zip_code": "02747"
@@ -44734,7 +44654,7 @@
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": 237645,
                 "network_id": "19566",
-                "street_address": "55  Pittsfield Road",
+                "street_address": "55 Pittsfield Road",
                 "city": "Lenox",
                 "state": "MA",
                 "zip_code": "01240"

@@ -200,7 +200,7 @@ def normalize_address_street_address(street_address: str) -> str:
     }
 
     if " " in street_address:
-        address_parts = street_address.split(" ")
+        address_parts = list(filter(None, street_address.split(" ")))
         street_type = address_parts[-1]
         is_extension = False
 
@@ -215,18 +215,15 @@ def normalize_address_street_address(street_address: str) -> str:
         street_type = street_type.lower()
 
         if street_type in STREET_TYPE_MAP:
-            street_type_full = STREET_TYPE_MAP[street_type]
-
-            street_address = " ".join(address_parts[:-1]) + " " + street_type_full
-            if is_extension:
-                street_address += " Extension"
-
-            address_parts = street_address.split(" ")
+            address_parts[-1] = STREET_TYPE_MAP[street_type]
 
         if address_parts[0] in PREFIX_NUMBER_MAP:
-            address_prefix = PREFIX_NUMBER_MAP[address_parts[0]]
-            street_address = address_prefix + " " + " ".join(address_parts[1:])
-            address_parts = street_address.split(" ")
+            address_parts[0] = PREFIX_NUMBER_MAP[address_parts[0]]
+
+        if is_extension:
+            address_parts.append("Extension")
+
+        street_address = " ".join(address_parts)
 
     if street_address.endswith(".") or street_address.endswith(","):
         street_address = street_address[:-1]

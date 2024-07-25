@@ -18327,15 +18327,15 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.140417,
-                    41.721099
+                    -71.140362,
+                    41.721115
                 ]
             },
             "properties": {
-                "name": "KFG CHARGEPOINT 1;KFG CHARGEPOINT 2",
+                "name": "KFG OFF NETWORK 1",
                 "network": "CHARGEPOINT",
-                "nrel_id": 193709,
-                "network_id": "USCPIL8304211;USCPIL8305391",
+                "nrel_id": 193710,
+                "network_id": "USCPIL8305391",
                 "street_address": "1168 Highland Avenue",
                 "city": "Fall River",
                 "state": "MA",
@@ -19142,6 +19142,26 @@
                 "city": "Revere",
                 "state": "MA",
                 "zip_code": "02151"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.346072,
+                    42.302002
+                ]
+            },
+            "properties": {
+                "name": "Audi Natick",
+                "network": "BLINK",
+                "nrel_id": 196419,
+                "network_id": "465ba1dd-d734-8158-93cc-330000609335",
+                "street_address": "549 Worcester Road",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760"
             }
         },
         {
@@ -22337,26 +22357,6 @@
                 "city": "Concord",
                 "state": "MA",
                 "zip_code": "01742"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.125724,
-                    42.284761
-                ]
-            },
-            "properties": {
-                "name": "BASEMENT CHARGE REAR WALL",
-                "network": "CHARGEPOINT",
-                "nrel_id": 211748,
-                "network_id": "USCPIL12612351",
-                "street_address": "69 Cummins Highway",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02131"
             }
         },
         {
@@ -32095,26 +32095,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.93932,
-                    42.562493
-                ]
-            },
-            "properties": {
-                "name": "DANVERS ELECTRI 1 SYLVAN ST;DANVERS ELECTRI TH PUBLIC",
-                "network": "CHARGEPOINT",
-                "nrel_id": 284140,
-                "network_id": "USCPIL2129801;USCPIL14092721",
-                "street_address": "1 Sylvan Street",
-                "city": "Danvers",
-                "state": "MA",
-                "zip_code": "01923"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.943994,
                     42.549501
                 ]
@@ -33887,6 +33867,26 @@
                 "nrel_id": 311099,
                 "network_id": "USCPIL14089101;USCPIL14089041",
                 "street_address": "1 Ferncroft Road",
+                "city": "Danvers",
+                "state": "MA",
+                "zip_code": "01923"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.939534,
+                    42.562612
+                ]
+            },
+            "properties": {
+                "name": "DANVERS ELECTRI TH PUBLIC",
+                "network": "CHARGEPOINT",
+                "nrel_id": 311109,
+                "network_id": "USCPIL14092721",
+                "street_address": "1 Sylvan Street",
                 "city": "Danvers",
                 "state": "MA",
                 "zip_code": "01923"
@@ -35908,6 +35908,106 @@
                 "city": "Yarmouth",
                 "state": "MA",
                 "zip_code": "02664"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.006814,
+                    42.245573
+                ]
+            },
+            "properties": {
+                "name": "151G CPF-11-PORT1;151G CPF-11-PORT2;151G CPF-12-PORT1;151G CPF-12-PORT2;151G CPF-13-PORT1;151G CPF-13-PORT2;151G CPF-14-PORT1;151G CPF-14-PORT2;151G CPF-15-PORT1;151G CPF-15-PORT2;151G CPF-16-PORT1;151G CPF-16-PORT2;151G CPF-17-PORT1;151G CPF-17-PORT2;151G CPF-18-PORT1;151G CPF-18-PORT2;151G CPF-19-PORT1;151G CPF-19-PORT2;151G CPF-20-PORT1;151G CPF-21-PORT1;151G CPF-22-PORT1;151G CPF-22-PORT2;151G CPF-23-PORT1;151G CPF-23-PORT2;151G CPF-3-PORT2;151G CPF-4-PORT1;151G CPF-4-PORT2;151G CPF-5-PORT1;151G CPF-5-PORT2;151G CPF-6-PORT1;151G CPF-6-PORT2;151G CPF-7-PORT1;151G CPF-7-PORT2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 322335,
+                "network_id": "USCPIL15230331;USCPIL15230361;USCPIL15230461;USCPIL15230471;USCPIL15230491;USCPIL15230581;USCPIL15230611;USCPIL15230731;USCPIL15230771;USCPIL15230941;USCPIL15230991;USCPIL15230451;USCPIL15230601;USCPIL15230621;USCPIL15230641;USCPIL15232151;USCPIL15232231;USCPIL15232261;USCPIL15232351;USCPIL15232431;USCPIL15232451;USCPIL15232461;USCPIL15232481;USCPIL15232501;USCPIL15232541;USCPIL15232581;USCPIL15232601;USCPIL15230541;USCPIL15230571;USCPIL15230831;USCPIL15230911;USCPIL15232531;USCPIL15232561",
+                "street_address": "151 Granite Street",
+                "city": "Quincy",
+                "state": "MA",
+                "zip_code": "02169"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.007134,
+                    42.2455
+                ]
+            },
+            "properties": {
+                "name": "151G CPF-1-PORT2;151G CPF-2-PORT1;151G CPF-2-PORT2;151G CPF-3-PORT1",
+                "network": "CHARGEPOINT",
+                "nrel_id": 322337,
+                "network_id": "USCPIL15230421;USCPIL15230431;USCPIL15230441;USCPIL15230391",
+                "street_address": "13 Parker Street",
+                "city": "Quincy",
+                "state": "MA",
+                "zip_code": "02169"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.00692,
+                    42.245516
+                ]
+            },
+            "properties": {
+                "name": "151G CPF-10-PORT1;151G CPF-10-PORT2;151G CPF-20-PORT2;151G CPF-8-PORT1;151G CPF-8-PORT2;151G CPF-9-PORT1;151G CPF-9-PORT2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 322410,
+                "network_id": "USCPIL15230651;USCPIL15230671;USCPIL15230701;USCPIL15230741;USCPIL15230751;USCPIL15230681;USCPIL15232521",
+                "street_address": "7 Parker Street",
+                "city": "Quincy",
+                "state": "MA",
+                "zip_code": "02169"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.006644,
+                    42.245673
+                ]
+            },
+            "properties": {
+                "name": "151G CPF-21-PORT2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 322419,
+                "network_id": "USCPIL15232391",
+                "street_address": "139 Granite Street",
+                "city": "Quincy",
+                "state": "MA",
+                "zip_code": "02169"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.007242,
+                    42.245563
+                ]
+            },
+            "properties": {
+                "name": "151G CPF-1-PORT1",
+                "network": "CHARGEPOINT",
+                "nrel_id": 322465,
+                "network_id": "USCPIL15230371",
+                "street_address": "11 Parker Street",
+                "city": "Quincy",
+                "state": "MA",
+                "zip_code": "02169"
             }
         },
         {
@@ -41089,10 +41189,10 @@
                 ]
             },
             "properties": {
-                "name": "HHYANNIS STATION 5;HHYANNIS STATION 6",
+                "name": "HHYANNIS STATION 3;HHYANNIS STATION 4;HHYANNIS STATION 5;HHYANNIS STATION 6",
                 "network": "CHARGEPOINT",
                 "nrel_id": 347321,
-                "network_id": "USCPIL15803021;USCPIL15803031",
+                "network_id": "USCPIL15803021;USCPIL15803031;USCPIL16103761;USCPIL16103791",
                 "street_address": "99 Wilkens Lane",
                 "city": "Hyannis",
                 "state": "MA",
@@ -41370,10 +41470,10 @@
                 ]
             },
             "properties": {
-                "name": "3VDG EEJ3;3VDG EEJ4;3VDG EEJ5;3VDG EEJ7",
+                "name": "3VDG EEJ3;3VDG EEJ4;3VDG EEJ5;3VDG EEJ6;3VDG EEJ7",
                 "network": "CHARGEPOINT",
                 "nrel_id": 348107,
-                "network_id": "USCPIL125233;USCPIL127555;USCPIL127587;USCPIL15760181",
+                "network_id": "USCPIL125233;USCPIL127555;USCPIL127587;USCPIL15760181;USCPIL15760211",
                 "street_address": "3 Van de Graaff Drive",
                 "city": "Burlington",
                 "state": "MA",
@@ -42263,6 +42363,224 @@
                 "city": "Billerica",
                 "state": "MA",
                 "zip_code": "01821"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.062885,
+                    42.158782
+                ]
+            },
+            "properties": {
+                "name": "Sonesta Select Boston Stoughton",
+                "network": "RED_E",
+                "nrel_id": 351278,
+                "street_address": "200 Technology Canter Drive",
+                "city": "Stoughton",
+                "state": "MA",
+                "zip_code": "02072"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.071835,
+                    42.255028
+                ]
+            },
+            "properties": {
+                "name": "MILTON ACADEMY PRITZKER LOT1;MILTON ACADEMY PRITZKER LOT2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351393,
+                "network_id": "USCPIL16134681;USCPIL16134701",
+                "street_address": "129 Centre Street",
+                "city": "Milton",
+                "state": "MA",
+                "zip_code": "02186"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.147161,
+                    42.357049
+                ]
+            },
+            "properties": {
+                "name": "BL CONDO TRUST ROOF STATION 1;BL CONDO TRUST ROOF STATION 2;BL CONDO TRUST ROOF STATION 3;BL CONDO TRUST ROOF STATION 4;BL CONDO TRUST STATION 1;BL CONDO TRUST STATION 5",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351395,
+                "network_id": "USCPIL16135371;USCPIL16135781;USCPIL16136181;USCPIL16136231;USCPIL16136251;USCPIL16136371",
+                "street_address": "15 Guest Street",
+                "city": "Brighton",
+                "state": "MA",
+                "zip_code": "02135"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.884662,
+                    42.049125
+                ]
+            },
+            "properties": {
+                "name": "MARTYS OF DUDLEY",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": 351409,
+                "network_id": "2580",
+                "street_address": "119 Main Street",
+                "city": "Dudley",
+                "state": "MA",
+                "zip_code": "01571"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.41398,
+                    42.08827
+                ]
+            },
+            "properties": {
+                "name": "Vendetti Motors",
+                "nrel_id": 351421,
+                "network_id": "loc_c46ce452ab29f9543588eb8dfc00fbea",
+                "street_address": "411 W Central Street",
+                "city": "Franklin",
+                "state": "MA",
+                "zip_code": "20380"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.220709,
+                    42.227955
+                ]
+            },
+            "properties": {
+                "name": "Town of Westwood Police Department",
+                "network": "BLINK",
+                "nrel_id": 351443,
+                "network_id": "e3cd8002-25d8-4678-b0b9-ce67bbcba7e0",
+                "street_address": "588 High Street",
+                "city": "Westwood",
+                "state": "MA",
+                "zip_code": "02090"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.927829,
+                    42.525235
+                ]
+            },
+            "properties": {
+                "name": "PMLP FOSTER 1;PMLP FOSTER 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351464,
+                "network_id": "USCPIL15881171;USCPIL15881201",
+                "street_address": "27 Foster Street",
+                "city": "Peabody",
+                "state": "MA",
+                "zip_code": "01960"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.929656,
+                    42.528205
+                ]
+            },
+            "properties": {
+                "name": "PMLP RAILROAD 1;PMLP RAILROAD 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351466,
+                "network_id": "USCPIL15905071;USCPIL15905101",
+                "street_address": "3 Railroad Avenue",
+                "city": "Peabody",
+                "state": "MA",
+                "zip_code": "01960"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.924897,
+                    42.52591
+                ]
+            },
+            "properties": {
+                "name": "PMLP MILL 1;PMLP MILL 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351468,
+                "network_id": "USCPIL15932921;USCPIL15932961",
+                "street_address": "0 Mill Street",
+                "city": "Peabody",
+                "state": "MA",
+                "zip_code": "01960"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.82524,
+                    42.24998
+                ]
+            },
+            "properties": {
+                "name": "CLARK U 15 MAYWOOD",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351471,
+                "network_id": "USCPIL16037391",
+                "street_address": "21 Maywood Street",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01603"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.303156,
+                    41.679937
+                ]
+            },
+            "properties": {
+                "name": "HHYANNIS STATION 1;HHYANNIS STATION 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351478,
+                "network_id": "USCPIL16103831;USCPIL16103881",
+                "street_address": "99 Wilkens Lane",
+                "city": "Barnstable",
+                "state": "MA",
+                "zip_code": "02630"
             }
         },
         {
@@ -43330,6 +43648,7 @@
                 ]
             },
             "properties": {
+                "network": "AMPUP",
                 "osm_id": 10991298174
             }
         },

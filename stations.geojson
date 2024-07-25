@@ -2240,10 +2240,10 @@
                 ]
             },
             "properties": {
-                "name": "UMASS AMHERST LOT 71 L2 LEFT",
+                "name": "UMASS AMHERST LOT 71 L2 LEFT;UMASS AMHERST LOT 71 L2 RIGHT",
                 "network": "CHARGEPOINT",
                 "nrel_id": 88785,
-                "network_id": "USCPIL422561",
+                "network_id": "USCPIL422561;USCPIL122587",
                 "street_address": "300 Massachusetts Ave Lot 71",
                 "city": "Amherst",
                 "state": "MA",
@@ -6309,10 +6309,10 @@
                 ]
             },
             "properties": {
-                "name": "BIG Y FOODS PITTSFIELD 1",
+                "name": "BIG Y FOODS PITTSFIELD 1;BIG Y FOODS PITTSFIELD 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 150374,
-                "network_id": "USCPIL2042581",
+                "network_id": "USCPIL2042581;USCPIL2042571",
                 "street_address": "Big Y Market Pittsfield (in) 200 West Street",
                 "city": "Pittsfield",
                 "state": "MA",
@@ -7372,10 +7372,10 @@
                 ]
             },
             "properties": {
-                "name": "ATLANTIC TOYOTA ATLANTIC LOT 2",
+                "name": "ATLANTIC TOYOTA ATLANTIC LOT;ATLANTIC TOYOTA ATLANTIC LOT 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 153720,
-                "network_id": "USCPIL2049211",
+                "network_id": "USCPIL2049211;USCPIL2049191",
                 "street_address": "671 Lynnway",
                 "city": "Lynn",
                 "state": "MA",
@@ -11319,10 +11319,10 @@
                 ]
             },
             "properties": {
-                "name": "MIT CAMPUS BLDG62 P1-1;MIT CAMPUS BLDG62 P1-2;MIT CAMPUS BLDG62 P1-3;MIT CAMPUS BLDG62 P1-4;MIT CAMPUS BLDG62 P1-5;MIT CAMPUS BLDG62 P1-6;MIT CAMPUS BLDG62 P1-7",
+                "name": "MIT CAMPUS BLDG62 P1-1;MIT CAMPUS BLDG62 P1-2;MIT CAMPUS BLDG62 P1-3;MIT CAMPUS BLDG62 P1-4;MIT CAMPUS BLDG62 P1-5;MIT CAMPUS BLDG62 P1-6;MIT CAMPUS BLDG62 P1-7;MIT CAMPUS BLDG62 P1-8",
                 "network": "CHARGEPOINT",
                 "nrel_id": 162022,
-                "network_id": "USCPIL98169;USCPIL96735;USCPIL95957;USCPIL95875;USCPIL12897991;USCPIL12898001;USCPIL12898011",
+                "network_id": "USCPIL98169;USCPIL96735;USCPIL95957;USCPIL95875;USCPIL12712431;USCPIL12897991;USCPIL12898001;USCPIL12898011",
                 "street_address": "100 Main Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -14162,10 +14162,10 @@
                 ]
             },
             "properties": {
-                "name": "YMCA EV 3",
+                "name": "YMCA EV 3;YMCA EV 4",
                 "network": "CHARGEPOINT",
                 "nrel_id": 170681,
-                "network_id": "USCPIL5577431",
+                "network_id": "USCPIL5577431;USCPIL5577421",
                 "street_address": "4 School Street",
                 "city": "Gloucester",
                 "state": "MA",
@@ -14658,26 +14658,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.528257,
-                    42.385103
-                ]
-            },
-            "properties": {
-                "name": "UMASS AMHERST LOT 71 L2 RIGHT",
-                "network": "CHARGEPOINT",
-                "nrel_id": 172889,
-                "network_id": "USCPIL122587",
-                "street_address": "300 Massachusetts Ave LOT 71",
-                "city": "Amherst",
-                "state": "MA",
-                "zip_code": "01003"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.561687,
                     42.36238
                 ]
@@ -14751,26 +14731,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02116"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.2597,
-                    42.447865
-                ]
-            },
-            "properties": {
-                "name": "BIG Y FOODS PITTSFIELD 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 174864,
-                "network_id": "USCPIL2042571",
-                "street_address": "Big Y Market Pittsfield (in) 200 west Street",
-                "city": "Pittsfield",
-                "state": "MA",
-                "zip_code": "01201"
             }
         },
         {
@@ -14878,26 +14838,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.96304,
-                    42.452114
-                ]
-            },
-            "properties": {
-                "name": "ATLANTIC TOYOTA ATLANTIC LOT",
-                "network": "CHARGEPOINT",
-                "nrel_id": 175177,
-                "network_id": "USCPIL2049191",
-                "street_address": "671 lynnway",
-                "city": "Lynn",
-                "state": "MA",
-                "zip_code": "01905"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.279968,
                     41.657094
                 ]
@@ -14983,10 +14923,10 @@
                 ]
             },
             "properties": {
-                "name": "GTI PROPERTIES STATION #2-RGT",
+                "name": "GTI PROPERTIES STATION #1-LFT;GTI PROPERTIES STATION #2-RGT",
                 "network": "CHARGEPOINT",
                 "nrel_id": 179969,
-                "network_id": "USCPIL160487",
+                "network_id": "USCPIL160487;USCPIL162389",
                 "street_address": "324 Albany Street",
                 "city": "Boston",
                 "state": "MA",
@@ -15188,26 +15128,6 @@
                 "nrel_id": 182155,
                 "network_id": "USCPIL5577411",
                 "street_address": "4 school House Road",
-                "city": "Gloucester",
-                "state": "MA",
-                "zip_code": "01930"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.658489,
-                    42.624326
-                ]
-            },
-            "properties": {
-                "name": "YMCA EV 4",
-                "network": "CHARGEPOINT",
-                "nrel_id": 182156,
-                "network_id": "USCPIL5577421",
-                "street_address": "4 School street",
                 "city": "Gloucester",
                 "state": "MA",
                 "zip_code": "01930"
@@ -23993,26 +23913,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.082983,
-                    42.361246
-                ]
-            },
-            "properties": {
-                "name": "MIT CAMPUS BLDG62 P1-8",
-                "network": "CHARGEPOINT",
-                "nrel_id": 221554,
-                "network_id": "USCPIL12712431",
-                "street_address": "100 main Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.61626,
                     42.60293
                 ]
@@ -24466,26 +24366,6 @@
                 "city": "Somerville",
                 "state": "MA",
                 "zip_code": "02144"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.062869,
-                    42.34132
-                ]
-            },
-            "properties": {
-                "name": "GTI PROPERTIES STATION #1-LFT",
-                "network": "CHARGEPOINT",
-                "nrel_id": 223585,
-                "network_id": "USCPIL162389",
-                "street_address": "324 albany Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02118"
             }
         },
         {
@@ -28333,10 +28213,10 @@
                 ]
             },
             "properties": {
-                "name": "CITY WORCESTER PEARL 2;CITY WORCESTER PEARL 3",
+                "name": "CITY WORCESTER PEARL 1;CITY WORCESTER PEARL 2;CITY WORCESTER PEARL 3",
                 "network": "CHARGEPOINT",
                 "nrel_id": 237753,
-                "network_id": "USCPIL13117261;USCPIL13281791",
+                "network_id": "USCPIL13117261;USCPIL13281791;USCPIL13282131",
                 "street_address": "20 Pearl Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -28662,26 +28542,6 @@
                 "city": "Wakefield",
                 "state": "MA",
                 "zip_code": "01880"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.803219,
-                    42.264448
-                ]
-            },
-            "properties": {
-                "name": "CITY WORCESTER PEARL 1",
-                "network": "CHARGEPOINT",
-                "nrel_id": 238882,
-                "network_id": "USCPIL13282131",
-                "street_address": "20 Pearl street",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01608"
             }
         },
         {
@@ -41511,6 +41371,7 @@
             },
             "properties": {
                 "name": "DMH Electric",
+                "network": "LOOP",
                 "nrel_id": 348796,
                 "street_address": "29 Legate Hill Road",
                 "city": "Leominster",
@@ -41529,6 +41390,7 @@
             },
             "properties": {
                 "name": "500 Staples Dr",
+                "network": "LOOP",
                 "nrel_id": 348843,
                 "street_address": "500 Staples Drive",
                 "city": "Framingham",
@@ -41547,6 +41409,7 @@
             },
             "properties": {
                 "name": "Fairfield Inn & Suites Marriott",
+                "network": "LOOP",
                 "nrel_id": 348873,
                 "street_address": "215 Monsignor O'Brien Highway",
                 "city": "Boston",
@@ -41565,6 +41428,7 @@
             },
             "properties": {
                 "name": "AC Hotel by Marriott Boston North",
+                "network": "LOOP",
                 "nrel_id": 348874,
                 "street_address": "95 Station Landing",
                 "city": "Medford",
@@ -41583,6 +41447,7 @@
             },
             "properties": {
                 "name": "Residence Inn by Marriott Boston Concord",
+                "network": "LOOP",
                 "nrel_id": 348876,
                 "street_address": "320 Baker Avenue Extension",
                 "city": "Concord",
@@ -41601,6 +41466,7 @@
             },
             "properties": {
                 "name": "AC Hotel by Marriott Boston Cleveland Circle",
+                "network": "LOOP",
                 "nrel_id": 348877,
                 "street_address": "395 Chestnut Hill Avenue",
                 "city": "Boston",
@@ -41619,6 +41485,7 @@
             },
             "properties": {
                 "name": "400 Beaver Brook",
+                "network": "LOOP",
                 "nrel_id": 348894,
                 "street_address": "400 Beaver Brook Road",
                 "city": "Boxborough",
@@ -42175,31 +42042,11 @@
                 ]
             },
             "properties": {
-                "name": "WELLESLEYS WABAN LOT2",
+                "name": "WELLESLEYS WABAN LOT2;WELLESLEYS WABAN LOT3",
                 "network": "CHARGEPOINT",
                 "nrel_id": 350233,
-                "network_id": "USCPIL16053251",
+                "network_id": "USCPIL16053251;USCPIL16053351",
                 "street_address": "2 WABAN Street",
-                "city": "Wellesley",
-                "state": "MA",
-                "zip_code": "02482"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.295069,
-                    42.295553
-                ]
-            },
-            "properties": {
-                "name": "WELLESLEYS WABAN LOT3",
-                "network": "CHARGEPOINT",
-                "nrel_id": 350234,
-                "network_id": "USCPIL16053351",
-                "street_address": "2 Waban Street",
                 "city": "Wellesley",
                 "state": "MA",
                 "zip_code": "02482"

@@ -31,6 +31,7 @@ class ChargingNetwork(enum.Enum):
     EVGO = enum.auto()
     EVPASSPORT = enum.auto()
     FLO = enum.auto()
+    LOOP = enum.auto()
     NOODOE = enum.auto()
     RED_E = enum.auto()
     RIVIAN_ADVENTURE = enum.auto()
@@ -155,7 +156,7 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
                 duplicate = True
                 break
 
-            if station.street_address != other_station.street_address:
+            if station.street_address.lower() != other_station.street_address.lower():
                 continue
 
             other_location = (other_station.latitude, other_station.longitude)
@@ -254,7 +255,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         "eVgo Network": ChargingNetwork.EVGO,
         "FLO": ChargingNetwork.FLO,
         "LIVINGSTON": None,
-        "LOOP": None,
+        "LOOP": ChargingNetwork.LOOP,
         "NOODOE": ChargingNetwork.NOODOE,
         "Non-Networked": None,
         "POWER_NODE": ChargingNetwork.ELECTRIC_ERA,
@@ -342,6 +343,7 @@ def osm_parse_charging_station(osm_element) -> Station:
         "EV Connect": ChargingNetwork.EV_CONNECT,
         "EVgo": ChargingNetwork.EVGO,
         "EVPassport": ChargingNetwork.EVPASSPORT,
+        "Loop": ChargingNetwork.LOOP,
         "Tesla": None, # Ambiguous
         "Tesla, Inc.": None, # Ambiguous
         "Tesla Supercharger": ChargingNetwork.TESLA_SUPERCHARGER,

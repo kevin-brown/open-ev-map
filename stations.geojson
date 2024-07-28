@@ -6389,10 +6389,10 @@
                 ]
             },
             "properties": {
-                "name": "MIT CAMPUS BLDG 32P1-1;MIT CAMPUS BLDG 32P1-10;MIT CAMPUS BLDG 32P1-11;MIT CAMPUS BLDG 32P1-12;MIT CAMPUS BLDG 32P1-3;MIT CAMPUS BLDG 32P1-4;MIT CAMPUS BLDG 32P1-5;MIT CAMPUS BLDG 32P1-6;MIT CAMPUS BLDG 32P1-7;MIT CAMPUS BLDG 32P1-8;MIT CAMPUS BLDG 32P1-9",
+                "name": "MIT CAMPUS BLDG 32P1-1;MIT CAMPUS BLDG 32P1-10;MIT CAMPUS BLDG 32P1-11;MIT CAMPUS BLDG 32P1-12;MIT CAMPUS BLDG 32P1-2;MIT CAMPUS BLDG 32P1-3;MIT CAMPUS BLDG 32P1-4;MIT CAMPUS BLDG 32P1-5;MIT CAMPUS BLDG 32P1-6;MIT CAMPUS BLDG 32P1-7;MIT CAMPUS BLDG 32P1-8;MIT CAMPUS BLDG 32P1-9",
                 "network": "CHARGEPOINT",
                 "nrel_id": 150789,
-                "network_id": "USCPIL2047361;USCPIL97143;USCPIL2047351;USCPIL2047341;USCPIL97131;USCPIL95955;USCPIL95953;USCPIL12696591;USCPIL12696601;USCPIL12696611;USCPIL12696621",
+                "network_id": "USCPIL2047361;USCPIL97143;USCPIL96015;USCPIL2047351;USCPIL2047341;USCPIL97131;USCPIL95955;USCPIL95953;USCPIL12696591;USCPIL12696601;USCPIL12696611;USCPIL12696621",
                 "street_address": "32 Vassar Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -11327,26 +11327,6 @@
                 "city": "Amherst",
                 "state": "MA",
                 "zip_code": "01003"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.090563,
-                    42.361864
-                ]
-            },
-            "properties": {
-                "name": "MIT CAMPUS BLDG 32P1-2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 162027,
-                "network_id": "USCPIL96015",
-                "street_address": "32 Massachusetts Institute of TechnologyVassa",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142"
             }
         },
         {
@@ -33258,25 +33238,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -76.90487,
-                    39.03989
-                ]
-            },
-            "properties": {
-                "name": "7Charge - Beltsville",
-                "network": "SEVEN_CHARGE",
-                "nrel_id": 310540,
-                "street_address": "11350 Baltimore Avenue",
-                "city": "Beltsville",
-                "state": "MA",
-                "zip_code": "20705"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.160434,
                     42.517872
                 ]
@@ -40967,6 +40928,7 @@
             "properties": {
                 "name": "Residence Inn by Marriott Boston Concord",
                 "network": "LOOP",
+                "osm_id": 10658542993,
                 "nrel_id": 348876,
                 "street_address": "320 Baker Avenue Extension",
                 "city": "Concord",
@@ -41914,6 +41876,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.19404,
+                    42.506644
+                ]
+            },
+            "properties": {
+                "name": "TOWN HALL 1 TOWN HALL 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351648,
+                "network_id": "USCPIL16152141",
+                "street_address": "29 Center Street",
+                "city": "Burlington",
+                "state": "MA",
+                "zip_code": "01803"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.821832,
                     42.252075
                 ]
@@ -42851,19 +42833,6 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 10656398789
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.388813,
-                    42.461961
-                ]
-            },
-            "properties": {
-                "osm_id": 10658542993
             }
         },
         {

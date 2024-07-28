@@ -163,7 +163,7 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
 
             station_distance = distance.great_circle(station_location, other_location)
 
-            if station_distance.miles > 0.05:
+            if station_distance.miles > 0.1:
                 continue
 
             combined_charging_points = [*station.charging_points, *other_station.charging_points]

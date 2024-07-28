@@ -3963,10 +3963,10 @@
                 ]
             },
             "properties": {
-                "name": "MCCA BOS COM GARAGE1;MCCA BOS COM GARAGE2;MCCA BOS COM GARAGE3;MCCA BOS COM GARAGE4;MCCA BOS COM GARAGE7",
+                "name": "MCCA BOS COM GARAGE1;MCCA BOS COM GARAGE2;MCCA BOS COM GARAGE3;MCCA BOS COM GARAGE4;MCCA BOS COM GARAGE5;MCCA BOS COM GARAGE6;MCCA BOS COM GARAGE7",
                 "network": "CHARGEPOINT",
                 "nrel_id": 117570,
-                "network_id": "USCPIL2029621;USCPIL2029681;USCPIL764701;USCPIL719331;USCPIL2029641",
+                "network_id": "USCPIL2029621;USCPIL2029681;USCPIL764701;USCPIL719331;USCPIL2029671;USCPIL2029661;USCPIL2029641",
                 "street_address": "0 Charles Street",
                 "city": "Boston",
                 "state": "MA",
@@ -5003,10 +5003,10 @@
                 ]
             },
             "properties": {
-                "name": "TOWN OF ACTON ATH-EV-3",
+                "name": "TOWN OF ACTON ATH-EV-1;TOWN OF ACTON ATH-EV-3",
                 "network": "CHARGEPOINT",
                 "nrel_id": 143914,
-                "network_id": "USCPIL5498241",
+                "network_id": "USCPIL5498241;USCPIL1881231",
                 "street_address": "472 Main Street",
                 "city": "Acton",
                 "state": "MA",
@@ -6730,10 +6730,10 @@
                 ]
             },
             "properties": {
-                "name": "MASSPORT WG-06-02;MASSPORT WG-06-03;MASSPORT WG-06-04;MASSPORT WG-06-05;MASSPORT WG-06-06",
+                "name": "MASSPORT WG-06-02;MASSPORT WG-06-03;MASSPORT WG-06-04;MASSPORT WG-06-05;MASSPORT WG-06-06;MASSPORT WG-06-07",
                 "network": "CHARGEPOINT",
                 "nrel_id": 152435,
-                "network_id": "USCPIL2069991;USCPIL2069981;USCPIL2059991;USCPIL2054271;USCPIL2054241",
+                "network_id": "USCPIL2069991;USCPIL2069981;USCPIL2059991;USCPIL2054271;USCPIL2054241;USCPIL1905321",
                 "street_address": "400 Terminal Road",
                 "city": "Boston",
                 "state": "MA",
@@ -7453,10 +7453,10 @@
                 ]
             },
             "properties": {
-                "name": "CCRTA EV-1 BUS TERM",
+                "name": "CCRTA EV-1 BUS TERM;CCRTA EV-6 TRANSP DR",
                 "network": "CHARGEPOINT",
                 "nrel_id": 154027,
-                "network_id": "USCPIL2104201",
+                "network_id": "USCPIL2104201;USCPIL2104161",
                 "street_address": "1 Transportation Avenue",
                 "city": "Barnstable",
                 "state": "MA",
@@ -7479,26 +7479,6 @@
                 "network_id": "USCPIL2104181",
                 "street_address": "75 Yarmouth Road",
                 "city": "Barnstable",
-                "state": "MA",
-                "zip_code": "02601"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.280255,
-                    41.656988
-                ]
-            },
-            "properties": {
-                "name": "CCRTA EV-6 TRANSP DR;CCRTA EV-8 TRANSP DRV",
-                "network": "CHARGEPOINT",
-                "nrel_id": 154029,
-                "network_id": "USCPIL2104161;USCPIL1817151",
-                "street_address": "1 Transportation Avenue",
-                "city": "Hyannis",
                 "state": "MA",
                 "zip_code": "02601"
             }
@@ -8096,30 +8076,10 @@
                 ]
             },
             "properties": {
-                "name": "RESOURCE CENTER RESOURCE 1;RESOURCE CENTER RESOURCE 2",
+                "name": "RESOURCE CENTER RESOURCE 1;RESOURCE CENTER RESOURCE 2;RESOURCE CENTER RESOURCE 4",
                 "network": "CHARGEPOINT",
                 "nrel_id": 156100,
-                "network_id": "USCPIL3240531;USCPIL3238411",
-                "street_address": "1776 Main Street",
-                "city": "Springfield",
-                "state": "MA",
-                "zip_code": "01103"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.596921,
-                    42.10514
-                ]
-            },
-            "properties": {
-                "name": "RESOURCE CENTER RESOURCE 1;RESOURCE CENTER RESOURCE 4",
-                "network": "CHARGEPOINT",
-                "nrel_id": 156101,
-                "network_id": "USCPIL3240031;USCPIL3238411",
+                "network_id": "USCPIL3240531;USCPIL3240031;USCPIL3238411",
                 "street_address": "1776 Main Street",
                 "city": "Springfield",
                 "state": "MA",
@@ -9709,10 +9669,10 @@
                 ]
             },
             "properties": {
-                "name": "BOSTON PROP CC BPGREENGARAGE 1;BOSTON PROP CC BPGREENGARAGE 2;BOSTON PROP CC BPGREENGARAGE 3;BOSTON PROP CC BPGREENGARAGE 4;BOSTON PROP CC BPGREENGARAGE 6;BOSTON PROP CC BPGREENGARAGE 7;BOSTON PROP CC BPGREENGARAGE 9",
+                "name": "BOSTON PROP CC BPGREENGARAGE 1;BOSTON PROP CC BPGREENGARAGE 2;BOSTON PROP CC BPGREENGARAGE 3;BOSTON PROP CC BPGREENGARAGE 4;BOSTON PROP CC BPGREENGARAGE 5;BOSTON PROP CC BPGREENGARAGE 6;BOSTON PROP CC BPGREENGARAGE 7;BOSTON PROP CC BPGREENGARAGE 8;BOSTON PROP CC BPGREENGARAGE 9",
                 "network": "CHARGEPOINT",
                 "nrel_id": 161901,
-                "network_id": "USCPIL144791;USCPIL143113;USCPIL13261501;USCPIL13261511;USCPIL13261551;USCPIL13261561;USCPIL13261581",
+                "network_id": "USCPIL144791;USCPIL143113;USCPIL13261501;USCPIL13261511;USCPIL13261531;USCPIL13261541;USCPIL13261551;USCPIL13261561;USCPIL13261581",
                 "street_address": "86-98 Broadway",
                 "city": "Cambridge",
                 "state": "MA",
@@ -10051,10 +10011,10 @@
                 ]
             },
             "properties": {
-                "name": "101 SEAPORT EV-1;101 SEAPORT EV-2;101 SEAPORT EV-3",
+                "name": "101 SEAPORT EV-1;101 SEAPORT EV-2;101 SEAPORT EV-3;101 SEAPORT EV-4",
                 "network": "CHARGEPOINT",
                 "nrel_id": 161921,
-                "network_id": "USCPIL126675;USCPIL126141;USCPIL125421",
+                "network_id": "USCPIL126675;USCPIL126633;USCPIL126141;USCPIL125421",
                 "street_address": "101 Seaport Boulevard",
                 "city": "Boston",
                 "state": "MA",
@@ -11861,10 +11821,10 @@
                 ]
             },
             "properties": {
-                "name": "ENSATS ENSATS EV 1;ENSATS ENSATS EV 2",
+                "name": "ENSATS ENSATS AUTOSHOP;ENSATS ENSATS EV 1;ENSATS ENSATS EV 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 164073,
-                "network_id": "USCPIL5378031;USCPIL5382171",
+                "network_id": "USCPIL5378031;USCPIL5390331;USCPIL5382171",
                 "street_address": "565 Maple Street",
                 "city": "Hathorne",
                 "state": "MA",
@@ -12190,26 +12150,6 @@
                 "city": "Turners Falls",
                 "state": "MA",
                 "zip_code": "01376"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.97707,
-                    42.59226
-                ]
-            },
-            "properties": {
-                "name": "ENSATS ENSATS AUTOSHOP",
-                "network": "CHARGEPOINT",
-                "nrel_id": 164447,
-                "network_id": "USCPIL5390331",
-                "street_address": "565 Maple Street",
-                "city": "Danvers",
-                "state": "MA",
-                "zip_code": "01923"
             }
         },
         {
@@ -13461,10 +13401,10 @@
                 ]
             },
             "properties": {
-                "name": "LHMC GARAGE LV1 #1;LHMC GARAGE LV1 #2;LHMC GARAGE LV1 #3;LHMC GARAGE LV1 #4;LHMC GARAGE LV2 #1;LHMC GARAGE LV2 #4",
+                "name": "LHMC GARAGE LV1 #1;LHMC GARAGE LV1 #2;LHMC GARAGE LV1 #3;LHMC GARAGE LV1 #4;LHMC GARAGE LV2 #1;LHMC GARAGE LV2 #4;LHMC LOT 3 LAHEY 2;LHMC LOT 8 LAHEY #1",
                 "network": "CHARGEPOINT",
                 "nrel_id": 168257,
-                "network_id": "USCPIL5523971;USCPIL5517781;USCPIL5517651;USCPIL5517591;USCPIL5291721;USCPIL5517571",
+                "network_id": "USCPIL5523971;USCPIL5517781;USCPIL5517651;USCPIL5517591;USCPIL5291721;USCPIL5517571;USCPIL5517471;USCPIL5520131",
                 "street_address": "41 Burlington Mall Road",
                 "city": "Burlington",
                 "state": "MA",
@@ -14122,10 +14062,10 @@
                 ]
             },
             "properties": {
-                "name": "YMCA EV 5",
+                "name": "YMCA EV 2;YMCA EV 5",
                 "network": "CHARGEPOINT",
                 "nrel_id": 170679,
-                "network_id": "USCPIL5578341",
+                "network_id": "USCPIL5578341;USCPIL5577411",
                 "street_address": "4 School house Road",
                 "city": "Gloucester",
                 "state": "MA",
@@ -14698,46 +14638,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.433846,
-                    42.48615
-                ]
-            },
-            "properties": {
-                "name": "TOWN OF ACTON ATH-EV-1",
-                "network": "CHARGEPOINT",
-                "nrel_id": 174367,
-                "network_id": "USCPIL1881231",
-                "street_address": "472 Main Street",
-                "city": "Acton",
-                "state": "MA",
-                "zip_code": "01720"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.068113,
-                    42.354024
-                ]
-            },
-            "properties": {
-                "name": "MCCA BOS COM GARAGE1;MCCA BOS COM GARAGE2;MCCA BOS COM GARAGE4;MCCA BOS COM GARAGE5;MCCA BOS COM GARAGE6;MCCA BOS COM GARAGE7",
-                "network": "CHARGEPOINT",
-                "nrel_id": 174832,
-                "network_id": "USCPIL2029671;USCPIL2029681;USCPIL764701;USCPIL719331;USCPIL2029661;USCPIL2029641",
-                "street_address": "0 Charles Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02116"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.135704,
                     42.522736
                 ]
@@ -14838,6 +14738,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.280511,
+                    41.656467
+                ]
+            },
+            "properties": {
+                "name": "CCRTA EV-6 TRANSP DR;CCRTA EV-8 TRANSP DRV",
+                "network": "CHARGEPOINT",
+                "nrel_id": 175229,
+                "network_id": "USCPIL1817151;USCPIL2104161",
+                "street_address": "1 Transportation Avenue",
+                "city": "Barnstable",
+                "state": "MA",
+                "zip_code": "02601"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.279968,
                     41.657094
                 ]
@@ -14931,26 +14851,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02118"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.04553,
-                    42.351572
-                ]
-            },
-            "properties": {
-                "name": "101 SEAPORT EV-2;101 SEAPORT EV-3;101 SEAPORT EV-4",
-                "network": "CHARGEPOINT",
-                "nrel_id": 179994,
-                "network_id": "USCPIL126633;USCPIL126141;USCPIL125421",
-                "street_address": "101 Seaport Boulevard",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02210"
             }
         },
         {
@@ -15111,26 +15011,6 @@
                 "city": "Revere",
                 "state": "MA",
                 "zip_code": "02151"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.65829,
-                    42.624175
-                ]
-            },
-            "properties": {
-                "name": "YMCA EV 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 182155,
-                "network_id": "USCPIL5577411",
-                "street_address": "4 school House Road",
-                "city": "Gloucester",
-                "state": "MA",
-                "zip_code": "01930"
             }
         },
         {
@@ -17067,10 +16947,10 @@
                 ]
             },
             "properties": {
-                "name": "MITIMCO P2-2 W;MITIMCO P3-2 W;MITIMCO P3-3 W;MITIMCO P4-1 W;MITIMCO P4-3 W",
+                "name": "MITIMCO P2-2 W;MITIMCO P2-3 W;MITIMCO P3-2 W;MITIMCO P3-3 W;MITIMCO P4-1 W;MITIMCO P4-3 W",
                 "network": "CHARGEPOINT",
                 "nrel_id": 189613,
-                "network_id": "USCPIL7629511;USCPIL7629801;USCPIL7629831;USCPIL7629891;USCPIL7629911",
+                "network_id": "USCPIL7629511;USCPIL7629631;USCPIL7629801;USCPIL7629831;USCPIL7629891;USCPIL7629911",
                 "street_address": "45 Hayward Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -17092,26 +16972,6 @@
                 "nrel_id": 189621,
                 "network_id": "USCPIL7629601",
                 "street_address": "26 Carleton Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.085468,
-                    42.361339
-                ]
-            },
-            "properties": {
-                "name": "MITIMCO P2-3 W;MITIMCO P3-2 W;MITIMCO P3-3 W;MITIMCO P4-1 W;MITIMCO P4-3 W",
-                "network": "CHARGEPOINT",
-                "nrel_id": 189624,
-                "network_id": "USCPIL7629631;USCPIL7629801;USCPIL7629831;USCPIL7629891;USCPIL7629911",
-                "street_address": "45 Hayward Street",
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02142"
@@ -17212,46 +17072,6 @@
                 "nrel_id": 189825,
                 "network_id": "USCPIL5517261",
                 "street_address": "67 S Bedford Street",
-                "city": "Burlington",
-                "state": "MA",
-                "zip_code": "01803"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.20266,
-                    42.48377
-                ]
-            },
-            "properties": {
-                "name": "LHMC LOT 3 LAHEY 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 189826,
-                "network_id": "USCPIL5517471",
-                "street_address": "41 Burlington Mall Road",
-                "city": "Burlington",
-                "state": "MA",
-                "zip_code": "01803"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.202545,
-                    42.484615
-                ]
-            },
-            "properties": {
-                "name": "LHMC LOT 8 LAHEY #1",
-                "network": "CHARGEPOINT",
-                "nrel_id": 189827,
-                "network_id": "USCPIL5520131",
-                "street_address": "41 Burlington Mall Road",
                 "city": "Burlington",
                 "state": "MA",
                 "zip_code": "01803"
@@ -19176,10 +18996,10 @@
                 ]
             },
             "properties": {
-                "name": "BEDFORD-EVS BHS 2021",
+                "name": "BEDFORD-EVS BHS 2019;BEDFORD-EVS BHS 2021",
                 "network": "CHARGEPOINT",
                 "nrel_id": 196581,
-                "network_id": "USCPIL9647431",
+                "network_id": "USCPIL9647431;USCPIL799861",
                 "street_address": "7 Mudge Way",
                 "city": "Bedford",
                 "state": "MA",
@@ -19858,10 +19678,10 @@
                 ]
             },
             "properties": {
-                "name": "BEDFORD-EVS DAVIS SCH 2021",
+                "name": "BEDFORD-EVS DAVIS SCH 2019;BEDFORD-EVS DAVIS SCH 2021",
                 "network": "CHARGEPOINT",
                 "nrel_id": 200646,
-                "network_id": "USCPIL9546661",
+                "network_id": "USCPIL9546661;USCPIL799951",
                 "street_address": "410 Davis Road",
                 "city": "Bedford",
                 "state": "MA",
@@ -25053,30 +24873,10 @@
                 ]
             },
             "properties": {
-                "name": "SONNY VALLEY STATION 1;SONNY VALLEY STATION 2;SONNY VALLEY STATION 3;SONNY VALLEY STATION 4",
+                "name": "SONNY VALLEY STATION 1;SONNY VALLEY STATION 2;SONNY VALLEY STATION 3;SONNY VALLEY STATION 4;SONNY VALLEY STATION 5",
                 "network": "CHARGEPOINT",
                 "nrel_id": 226606,
-                "network_id": "USCPIL13027451;USCPIL13027651;USCPIL13027661;USCPIL13027671",
-                "street_address": "18 Ayers Village Road",
-                "city": "Methuen",
-                "state": "MA",
-                "zip_code": "01844"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.182059,
-                    42.792013
-                ]
-            },
-            "properties": {
-                "name": "SONNY VALLEY STATION 5",
-                "network": "CHARGEPOINT",
-                "nrel_id": 226610,
-                "network_id": "USCPIL13027691",
+                "network_id": "USCPIL13027451;USCPIL13027651;USCPIL13027661;USCPIL13027671;USCPIL13027691",
                 "street_address": "18 Ayers Village Road",
                 "city": "Methuen",
                 "state": "MA",
@@ -25253,30 +25053,10 @@
                 ]
             },
             "properties": {
-                "name": "300 THIRD AVE STATION 2;300 THIRD AVE STATION 4;300 THIRD AVE STATION 5;300 THIRD AVE STATION 6",
+                "name": "300 THIRD AVE STATION 1;300 THIRD AVE STATION 2;300 THIRD AVE STATION 3;300 THIRD AVE STATION 4;300 THIRD AVE STATION 5;300 THIRD AVE STATION 6;300 THIRD AVE STATION 7;300 THIRD AVE STATION 8;300 THIRD AVE STATION 9",
                 "network": "CHARGEPOINT",
                 "nrel_id": 227238,
-                "network_id": "USCPIL13011451;USCPIL13011541;USCPIL13011621;USCPIL13011741",
-                "street_address": "300 3rd Avenue",
-                "city": "Waltham",
-                "state": "MA",
-                "zip_code": "02451"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.261306,
-                    42.388164
-                ]
-            },
-            "properties": {
-                "name": "300 THIRD AVE STATION 1;300 THIRD AVE STATION 2;300 THIRD AVE STATION 3;300 THIRD AVE STATION 5;300 THIRD AVE STATION 6;300 THIRD AVE STATION 7;300 THIRD AVE STATION 8;300 THIRD AVE STATION 9",
-                "network": "CHARGEPOINT",
-                "nrel_id": 227239,
-                "network_id": "USCPIL13011501;USCPIL13011521;USCPIL13011541;USCPIL13011621;USCPIL13011741;USCPIL13012061;USCPIL13012071;USCPIL13012101",
+                "network_id": "USCPIL13011451;USCPIL13011501;USCPIL13011521;USCPIL13011541;USCPIL13011621;USCPIL13011741;USCPIL13012061;USCPIL13012071;USCPIL13012101",
                 "street_address": "300 3rd Avenue",
                 "city": "Waltham",
                 "state": "MA",
@@ -27753,30 +27533,10 @@
                 ]
             },
             "properties": {
-                "name": "TOWN HALL R.E. SHAW 1;TOWN HALL R.E. SHAW 3",
+                "name": "TOWN HALL R.E. SHAW 1;TOWN HALL R.E. SHAW 2;TOWN HALL R.E. SHAW 3",
                 "network": "CHARGEPOINT",
                 "nrel_id": 235273,
-                "network_id": "USCPIL13047421;USCPIL13047431",
-                "street_address": "58 Elmwood Street",
-                "city": "Millbury",
-                "state": "MA",
-                "zip_code": "01527"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.776735,
-                    42.193588
-                ]
-            },
-            "properties": {
-                "name": "TOWN HALL R.E. SHAW 1;TOWN HALL R.E. SHAW 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 235275,
-                "network_id": "USCPIL13047441;USCPIL13047431",
+                "network_id": "USCPIL13047421;USCPIL13047431;USCPIL13047441",
                 "street_address": "58 Elmwood Street",
                 "city": "Millbury",
                 "state": "MA",
@@ -28061,26 +27821,6 @@
                 "city": "Marlborough",
                 "state": "MA",
                 "zip_code": "01752"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.08696,
-                    42.36297
-                ]
-            },
-            "properties": {
-                "name": "BOSTON PROP CC BPGREENGARAGE 5;BOSTON PROP CC BPGREENGARAGE 6;BOSTON PROP CC BPGREENGARAGE 7;BOSTON PROP CC BPGREENGARAGE 8;BOSTON PROP CC BPGREENGARAGE 9",
-                "network": "CHARGEPOINT",
-                "nrel_id": 237007,
-                "network_id": "USCPIL13261531;USCPIL13261501;USCPIL13261541;USCPIL13261551;USCPIL13261561",
-                "street_address": "86-98 Broadway",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142"
             }
         },
         {
@@ -28632,10 +28372,10 @@
                 ]
             },
             "properties": {
-                "name": "IRA LEXUS CP6000-1;IRA LEXUS CPE250",
+                "name": "IRA LEXUS CP6000-1;IRA LEXUS CP6000-2;IRA LEXUS CPE250",
                 "network": "CHARGEPOINT",
                 "nrel_id": 240879,
-                "network_id": "USCPIL13238031;USCPIL13242631",
+                "network_id": "USCPIL13238031;USCPIL13242631;USCPIL13786211",
                 "street_address": "105 Andover Street",
                 "city": "Danvers",
                 "state": "MA",
@@ -29306,31 +29046,11 @@
                 ]
             },
             "properties": {
-                "name": "IKEA USA STOUGHTON 1;IKEA USA STOUGHTON 2",
+                "name": "IKEA USA STOUGHTON 1;IKEA USA STOUGHTON 2;IKEA USA STOUGHTON 3",
                 "network": "CHARGEPOINT",
                 "osm_id": 11113037046,
                 "nrel_id": 252925,
-                "network_id": "USCPIL12731361;USCPIL12731441",
-                "street_address": "1 Ikea Way",
-                "city": "Stoughton",
-                "state": "MA",
-                "zip_code": "02072"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.069276,
-                    42.137727
-                ]
-            },
-            "properties": {
-                "name": "IKEA USA STOUGHTON 3",
-                "network": "CHARGEPOINT",
-                "nrel_id": 252927,
-                "network_id": "USCPIL12731481",
+                "network_id": "USCPIL12731361;USCPIL12731441;USCPIL12731481",
                 "street_address": "1 Ikea Way",
                 "city": "Stoughton",
                 "state": "MA",
@@ -30166,34 +29886,14 @@
                 ]
             },
             "properties": {
-                "name": "SOUTHLINE BOS SOUTHINE 20;SOUTHLINE BOS SOUTHLINE 1;SOUTHLINE BOS SOUTHLINE 15;SOUTHLINE BOS SOUTHLINE 16;SOUTHLINE BOS SOUTHLINE 17;SOUTHLINE BOS SOUTHLINE 18;SOUTHLINE BOS SOUTHLINE 19;SOUTHLINE BOS SOUTHLINE 21;SOUTHLINE BOS SOUTHLINE 22;SOUTHLINE BOS SOUTHLINE 6",
+                "name": "SOUTHLINE BOS SOUTHINE 20;SOUTHLINE BOS SOUTHLINE 1;SOUTHLINE BOS SOUTHLINE 10;SOUTHLINE BOS SOUTHLINE 11;SOUTHLINE BOS SOUTHLINE 13;SOUTHLINE BOS SOUTHLINE 14;SOUTHLINE BOS SOUTHLINE 15;SOUTHLINE BOS SOUTHLINE 16;SOUTHLINE BOS SOUTHLINE 17;SOUTHLINE BOS SOUTHLINE 18;SOUTHLINE BOS SOUTHLINE 19;SOUTHLINE BOS SOUTHLINE 2;SOUTHLINE BOS SOUTHLINE 21;SOUTHLINE BOS SOUTHLINE 22;SOUTHLINE BOS SOUTHLINE 3;SOUTHLINE BOS SOUTHLINE 4;SOUTHLINE BOS SOUTHLINE 5;SOUTHLINE BOS SOUTHLINE 6;SOUTHLINE BOS SOUTHLINE 7 GW;SOUTHLINE BOS SOUTHLINE 8 GW2;SOUTHLINE BOS SOUTHLINE 9 GW3",
                 "network": "CHARGEPOINT",
                 "nrel_id": 256847,
-                "network_id": "USCPIL12805261;USCPIL12864991;USCPIL12865001;USCPIL12865041;USCPIL12865051;USCPIL12865061;USCPIL12865071;USCPIL12865111;USCPIL12865561;USCPIL12865501",
+                "network_id": "USCPIL12805261;USCPIL12805271;USCPIL12805281;USCPIL12805291;USCPIL12805301;USCPIL12864991;USCPIL12865001;USCPIL12865041;USCPIL12865051;USCPIL12865061;USCPIL12865071;USCPIL12865111;USCPIL12865131;USCPIL12865281;USCPIL12865351;USCPIL12865381;USCPIL12865561;USCPIL13526231;USCPIL13526301;USCPIL13526341;USCPIL12865501",
                 "street_address": "135 William T Morrissey Boulevard",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02125"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.049439,
-                    42.314533
-                ]
-            },
-            "properties": {
-                "name": "SOUTHLINE BOS SOUTHLINE 10;SOUTHLINE BOS SOUTHLINE 11;SOUTHLINE BOS SOUTHLINE 13;SOUTHLINE BOS SOUTHLINE 14;SOUTHLINE BOS SOUTHLINE 2;SOUTHLINE BOS SOUTHLINE 3;SOUTHLINE BOS SOUTHLINE 4;SOUTHLINE BOS SOUTHLINE 5;SOUTHLINE BOS SOUTHLINE 7 GW;SOUTHLINE BOS SOUTHLINE 8 GW2;SOUTHLINE BOS SOUTHLINE 9 GW3",
-                "network": "CHARGEPOINT",
-                "nrel_id": 256848,
-                "network_id": "USCPIL12805271;USCPIL12805281;USCPIL12805291;USCPIL12805301;USCPIL12865131;USCPIL12865281;USCPIL12865351;USCPIL12865381;USCPIL13526231;USCPIL13526301;USCPIL13526341",
-                "street_address": "135 William T Morrissey Boulevard",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02122"
             }
         },
         {
@@ -30858,10 +30558,10 @@
                 ]
             },
             "properties": {
-                "name": "MODERNA STATION 101;MODERNA STATION 201;MODERNA STATION 202;MODERNA STATION 203;MODERNA STATION 204",
+                "name": "MODERNA STATION 101;MODERNA STATION 103;MODERNA STATION 201;MODERNA STATION 202;MODERNA STATION 203;MODERNA STATION 204",
                 "network": "CHARGEPOINT",
                 "nrel_id": 260611,
-                "network_id": "USCPIL376631;USCPIL376811;USCPIL376891;USCPIL376961;USCPIL377011",
+                "network_id": "USCPIL376631;USCPIL376811;USCPIL376891;USCPIL376931;USCPIL376961;USCPIL377011",
                 "street_address": "1 Upland Road",
                 "city": "Norwood",
                 "state": "MA",
@@ -30883,26 +30583,6 @@
                 "nrel_id": 260612,
                 "network_id": "USCPIL376741",
                 "street_address": "100 Upland Road",
-                "city": "Norwood",
-                "state": "MA",
-                "zip_code": "02062"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.200203,
-                    42.207428
-                ]
-            },
-            "properties": {
-                "name": "MODERNA STATION 101;MODERNA STATION 103;MODERNA STATION 201;MODERNA STATION 202",
-                "network": "CHARGEPOINT",
-                "nrel_id": 260619,
-                "network_id": "USCPIL376931;USCPIL376811;USCPIL376961;USCPIL377011",
-                "street_address": "1 Upland Road",
                 "city": "Norwood",
                 "state": "MA",
                 "zip_code": "02062"
@@ -31880,30 +31560,10 @@
                 ]
             },
             "properties": {
-                "name": "WATERS 5 TECH BLD B #1;WATERS 5 TECH BLD B #2",
+                "name": "WATERS 5 TECH BLD A #1;WATERS 5 TECH BLD A #2;WATERS 5 TECH BLD B #1;WATERS 5 TECH BLD B #2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 264478,
-                "network_id": "USCPIL113293;USCPIL13377121",
-                "street_address": "5 Technology Drive",
-                "city": "Milford",
-                "state": "MA",
-                "zip_code": "01757"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.479472,
-                    42.133232
-                ]
-            },
-            "properties": {
-                "name": "WATERS 5 TECH BLD A #1;WATERS 5 TECH BLD A #2;WATERS 5 TECH BLD B #2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 264479,
-                "network_id": "USCPIL113303;USCPIL13373091;USCPIL13377121",
+                "network_id": "USCPIL113293;USCPIL113303;USCPIL13373091;USCPIL13377121",
                 "street_address": "5 Technology Drive",
                 "city": "Milford",
                 "state": "MA",
@@ -31920,10 +31580,10 @@
                 ]
             },
             "properties": {
-                "name": "WATERS 34 MAPLE ST # 2;WATERS 34 MAPLE STREET",
+                "name": "WATERS 34 MAPLE ST # 2;WATERS 34 MAPLE ST # 3;WATERS 34 MAPLE STREET",
                 "network": "CHARGEPOINT",
                 "nrel_id": 264483,
-                "network_id": "USCPIL113329;USCPIL13372521",
+                "network_id": "USCPIL113329;USCPIL13372521;USCPIL13372561",
                 "street_address": "34 Maple Street",
                 "city": "Milford",
                 "state": "MA",
@@ -32119,26 +31779,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.48194,
-                    42.137768
-                ]
-            },
-            "properties": {
-                "name": "WATERS 34 MAPLE ST # 2;WATERS 34 MAPLE ST # 3",
-                "network": "CHARGEPOINT",
-                "nrel_id": 298875,
-                "network_id": "USCPIL13372561;USCPIL13372521",
-                "street_address": "34 Maple Street",
-                "city": "Milford",
-                "state": "MA",
-                "zip_code": "01757"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.97745,
                     42.234128
                 ]
@@ -32300,26 +31940,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.963373,
-                    42.557033
-                ]
-            },
-            "properties": {
-                "name": "IRA LEXUS CP6000-1;IRA LEXUS CP6000-2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 302346,
-                "network_id": "USCPIL13786211;USCPIL13242631",
-                "street_address": "105 Andover Street",
-                "city": "Danvers",
-                "state": "MA",
-                "zip_code": "01923"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.598709,
                     42.588333
                 ]
@@ -32404,30 +32024,10 @@
                 ]
             },
             "properties": {
-                "name": "EVERSOURCE NB STATION 2",
+                "name": "EVERSOURCE NB STATION 1;EVERSOURCE NB STATION 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 303442,
-                "network_id": "USCPIL11198761",
-                "street_address": "50 Duchaine Boulevard",
-                "city": "New Bedford",
-                "state": "MA",
-                "zip_code": "02745"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.951489,
-                    41.714848
-                ]
-            },
-            "properties": {
-                "name": "EVERSOURCE NB STATION 1",
-                "network": "CHARGEPOINT",
-                "nrel_id": 303443,
-                "network_id": "USCPIL11208231",
+                "network_id": "USCPIL11198761;USCPIL11208231",
                 "street_address": "50 Duchaine Boulevard",
                 "city": "New Bedford",
                 "state": "MA",
@@ -33003,10 +32603,10 @@
                 ]
             },
             "properties": {
-                "name": "SPPLUS 1;SPPLUS 2;SPPLUS 5;SPPLUS 6;SPPLUS 7;SPPLUS 8",
+                "name": "SPPLUS 1;SPPLUS 2;SPPLUS 4;SPPLUS 5;SPPLUS 6;SPPLUS 7;SPPLUS 8",
                 "network": "CHARGEPOINT",
                 "nrel_id": 308637,
-                "network_id": "USCPIL13516771;USCPIL13519501;USCPIL13519531;USCPIL13519541;USCPIL13519551;USCPIL13519631",
+                "network_id": "USCPIL13516771;USCPIL13519501;USCPIL13519521;USCPIL13519531;USCPIL13519541;USCPIL13519551;USCPIL13519631",
                 "street_address": "50 Prospect Street",
                 "city": "Somerville",
                 "state": "MA",
@@ -34234,10 +33834,10 @@
                 ]
             },
             "properties": {
-                "name": "MARCOTTE FORD AMPED UP;MARCOTTE FORD L3-1;MARCOTTE FORD L3-2;MARCOTTE FORD LIGHTNING BOLT",
+                "name": "MARCOTTE FORD AMPED UP;MARCOTTE FORD L3-1;MARCOTTE FORD L3-2;MARCOTTE FORD LIGHTNING BOLT;MARCOTTE FORD POWER PLAY",
                 "network": "CHARGEPOINT",
                 "nrel_id": 314538,
-                "network_id": "USCPIL14204341;USCPIL14204361;USCPIL13956241;USCPIL13956311",
+                "network_id": "USCPIL14204341;USCPIL14204361;USCPIL13959121;USCPIL13956241;USCPIL13956311",
                 "street_address": "1025 Main Street",
                 "city": "Holyoke",
                 "state": "MA",
@@ -34642,26 +34242,6 @@
                 "city": "Revere",
                 "state": "MA",
                 "zip_code": "2151"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.629639,
-                    42.180265
-                ]
-            },
-            "properties": {
-                "name": "MARCOTTE FORD L3-2;MARCOTTE FORD POWER PLAY",
-                "network": "CHARGEPOINT",
-                "nrel_id": 316702,
-                "network_id": "USCPIL13959121;USCPIL14204361",
-                "street_address": "1025 Main Street",
-                "city": "Holyoke",
-                "state": "MA",
-                "zip_code": "01040"
             }
         },
         {
@@ -38015,27 +37595,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.285905,
-                    42.492449
-                ]
-            },
-            "properties": {
-                "name": "BEDFORD-EVS BHS 2019",
-                "network": "CHARGEPOINT",
-                "osm_id": 11826771123,
-                "nrel_id": 327459,
-                "network_id": "USCPIL799861",
-                "street_address": "7 Mudge Way",
-                "city": "Bedford",
-                "state": "MA",
-                "zip_code": "01730"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.205836,
                     42.480234
                 ]
@@ -38329,26 +37888,6 @@
                 "city": "East Longmeadow",
                 "state": "MA",
                 "zip_code": "01028"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.310657,
-                    42.485667
-                ]
-            },
-            "properties": {
-                "name": "BEDFORD-EVS DAVIS SCH 2019",
-                "network": "CHARGEPOINT",
-                "nrel_id": 329286,
-                "network_id": "USCPIL799951",
-                "street_address": "410 Davis road",
-                "city": "Bedford",
-                "state": "MA",
-                "zip_code": "01730"
             }
         },
         {
@@ -40429,10 +39968,10 @@
                 ]
             },
             "properties": {
-                "name": "BH BFMC UPPER 1;BH BFMC UPPER 2",
+                "name": "BH BFMC LOWER 1;BH BFMC UPPER 1;BH BFMC UPPER 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 335748,
-                "network_id": "USCPIL15814601;USCPIL15814671",
+                "network_id": "USCPIL15814601;USCPIL15814671;USCPIL15814831",
                 "street_address": "164 High Street",
                 "city": "Greenfield",
                 "state": "MA",
@@ -40449,10 +39988,10 @@
                 ]
             },
             "properties": {
-                "name": "BH BFMC LOWER 1;BH BFMC LOWER 2",
+                "name": "BH BFMC LOWER 1;BH BFMC LOWER 2;BH BFMC UPPER 1",
                 "network": "CHARGEPOINT",
                 "nrel_id": 335751,
-                "network_id": "USCPIL15814791;USCPIL15814831",
+                "network_id": "USCPIL15814791;USCPIL15814671;USCPIL15814831",
                 "street_address": "164 High Street",
                 "city": "Greenfield",
                 "state": "MA",
@@ -41049,34 +40588,14 @@
                 ]
             },
             "properties": {
-                "name": "HHYANNIS STATION 3;HHYANNIS STATION 4;HHYANNIS STATION 5;HHYANNIS STATION 6",
+                "name": "HHYANNIS STATION 1;HHYANNIS STATION 2;HHYANNIS STATION 3;HHYANNIS STATION 4;HHYANNIS STATION 5;HHYANNIS STATION 6;HHYANNIS STATION 7",
                 "network": "CHARGEPOINT",
                 "nrel_id": 347321,
-                "network_id": "USCPIL15803021;USCPIL15803031;USCPIL16103761;USCPIL16103791",
+                "network_id": "USCPIL15803021;USCPIL15803031;USCPIL15803041;USCPIL16103761;USCPIL16103791;USCPIL16103831;USCPIL16103881",
                 "street_address": "99 Wilkens Lane",
                 "city": "Hyannis",
                 "state": "MA",
                 "zip_code": "02601"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.302108,
-                    41.681237
-                ]
-            },
-            "properties": {
-                "name": "HHYANNIS STATION 6;HHYANNIS STATION 7",
-                "network": "CHARGEPOINT",
-                "nrel_id": 347323,
-                "network_id": "USCPIL15803041;USCPIL15803031",
-                "street_address": "99 Wilkens Lane",
-                "city": "Barnstable",
-                "state": "MA",
-                "zip_code": "02630"
             }
         },
         {
@@ -42062,10 +41581,10 @@
                 ]
             },
             "properties": {
-                "name": "GERVAIS FORD L2-1;GERVAIS FORD L2-2;GERVAIS FORD L2-3;GERVAIS FORD PL-2-M",
+                "name": "GERVAIS FORD L2-1;GERVAIS FORD L2-2;GERVAIS FORD L2-3;GERVAIS FORD PL-2-M;GERVAIS FORD PL-3-R",
                 "network": "CHARGEPOINT",
                 "nrel_id": 350305,
-                "network_id": "USCPIL15656411;USCPIL15656421;USCPIL15666701;USCPIL15728941",
+                "network_id": "USCPIL15656411;USCPIL15656421;USCPIL15657631;USCPIL15666701;USCPIL15728941",
                 "street_address": "5 Littleton Road",
                 "city": "Ayer",
                 "state": "MA",
@@ -42087,26 +41606,6 @@
                 "nrel_id": 350307,
                 "network_id": "USCPIL15657461",
                 "street_address": "5 Littleton Road Parts & Service",
-                "city": "Ayer",
-                "state": "MA",
-                "zip_code": "01432"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.569265,
-                    42.551995
-                ]
-            },
-            "properties": {
-                "name": "GERVAIS FORD PL-2-M;GERVAIS FORD PL-3-R",
-                "network": "CHARGEPOINT",
-                "nrel_id": 350308,
-                "network_id": "USCPIL15657631;USCPIL15666701",
-                "street_address": "5 Littleton Road",
                 "city": "Ayer",
                 "state": "MA",
                 "zip_code": "01432"
@@ -42408,26 +41907,6 @@
                 "city": "Worcester",
                 "state": "MA",
                 "zip_code": "01603"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.303156,
-                    41.679937
-                ]
-            },
-            "properties": {
-                "name": "HHYANNIS STATION 1;HHYANNIS STATION 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 351478,
-                "network_id": "USCPIL16103831;USCPIL16103881",
-                "street_address": "99 Wilkens Lane",
-                "city": "Barnstable",
-                "state": "MA",
-                "zip_code": "02630"
             }
         },
         {
@@ -43720,6 +43199,20 @@
             "properties": {
                 "network": "VOLTA",
                 "osm_id": 11512564176
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.285521,
+                    42.492503
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": 11826771123
             }
         },
         {

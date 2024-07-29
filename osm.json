@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-28T00:08:29Z",
-    "timestamp_areas_base": "2024-07-27T21:02:02Z",
+    "timestamp_osm_base": "2024-07-29T18:16:30Z",
+    "timestamp_areas_base": "2024-07-29T12:17:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -208,24 +208,6 @@
         "payment:google_pay": "yes",
         "socket:type1_combo": "2",
         "socket:type1_combo:output": "60"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5254169252,
-      "lat": 42.1941261,
-      "lon": -72.9339260,
-      "tags": {
-        "amenity": "charging_station"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5254169253,
-      "lat": 42.1956090,
-      "lon": -72.9328375,
-      "tags": {
-        "amenity": "charging_station"
       }
     },
     {
@@ -1522,42 +1504,6 @@
     },
     {
       "type": "node",
-      "id": 9032849772,
-      "lat": 41.6190264,
-      "lon": -70.4957726,
-      "tags": {
-        "amenity": "charging_station"
-      }
-    },
-    {
-      "type": "node",
-      "id": 9032849773,
-      "lat": 41.6190662,
-      "lon": -70.4957745,
-      "tags": {
-        "amenity": "charging_station"
-      }
-    },
-    {
-      "type": "node",
-      "id": 9032849774,
-      "lat": 41.6191111,
-      "lon": -70.4957566,
-      "tags": {
-        "amenity": "charging_station"
-      }
-    },
-    {
-      "type": "node",
-      "id": 9032849775,
-      "lat": 41.6191593,
-      "lon": -70.4957612,
-      "tags": {
-        "amenity": "charging_station"
-      }
-    },
-    {
-      "type": "node",
       "id": 9101493817,
       "lat": 41.9895085,
       "lon": -71.2996997,
@@ -1589,7 +1535,16 @@
       "lat": 41.5273083,
       "lon": -70.6727731,
       "tags": {
-        "amenity": "charging_station"
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Blink",
+        "brand:wikidata": "Q62065645",
+        "capacity": "4",
+        "fee": "yes",
+        "name": "Blink",
+        "network": "Blink",
+        "operator": "Blink",
+        "operator:wikidata": "Q62065645"
       }
     },
     {
@@ -3001,13 +2956,15 @@
     {
       "type": "node",
       "id": 10213133486,
-      "lat": 42.5860086,
-      "lon": -72.6192853,
+      "lat": 42.5859898,
+      "lon": -72.6192942,
       "tags": {
         "access": "yes",
         "amenity": "charging_station",
+        "brand": "Freewire",
         "capacity": "2",
         "fee": "yes",
+        "network": "EV Connect",
         "payment:contactless": "yes",
         "socket:chademo": "1",
         "socket:type1_combo": "1"
@@ -3016,16 +2973,16 @@
     {
       "type": "node",
       "id": 10213133487,
-      "lat": 42.5860230,
-      "lon": -72.6193547,
+      "lat": 42.5860071,
+      "lon": -72.6193823,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "charging_station:output": "6.2 kW",
         "fee": "no",
+        "man_made": "charge_point",
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
@@ -3035,16 +2992,16 @@
     {
       "type": "node",
       "id": 10213133488,
-      "lat": 42.5860390,
-      "lon": -72.6194162,
+      "lat": 42.5860248,
+      "lon": -72.6194447,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "charging_station:output": "6.2 kW",
         "fee": "no",
+        "man_made": "charge_point",
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
@@ -3148,16 +3105,20 @@
       "lon": -71.2022015,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
         "bus": "no",
         "capacity": "2",
         "fee": "yes",
         "hgv": "no",
+        "man_made": "charge_point",
         "maxstay": "2 hours",
         "motorcar": "yes",
         "network": "ChargePoint",
         "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
         "parking:fee": "no",
         "payment:app": "yes",
         "payment:cards": "no",
@@ -3176,16 +3137,20 @@
       "lon": -71.2022618,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "bicycle": "no",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
         "bus": "no",
         "capacity": "2",
         "fee": "yes",
         "hgv": "no",
+        "man_made": "charge_point",
         "maxstay": "2 hours",
         "motorcar": "yes",
         "network": "ChargePoint",
         "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
         "parking:fee": "no",
         "payment:app": "yes",
         "payment:cards": "no",
@@ -4342,8 +4307,10 @@
       "tags": {
         "access": "yes",
         "amenity": "charging_station",
-        "brand": "Enel",
-        "capacity": "2"
+        "brand": "Enel X",
+        "capacity": "2",
+        "fee": "yes",
+        "network": "Enel X"
       }
     },
     {
@@ -4354,8 +4321,10 @@
       "tags": {
         "access": "yes",
         "amenity": "charging_station",
-        "brand": "Enel",
-        "capacity": "2"
+        "brand": "Enel X",
+        "capacity": "2",
+        "fee": "yes",
+        "network": "Enel X"
       }
     },
     {
@@ -4366,8 +4335,13 @@
       "tags": {
         "access": "yes",
         "amenity": "charging_station",
-        "brand": "Enel",
-        "capacity": "2"
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
@@ -4445,25 +4419,37 @@
     {
       "type": "node",
       "id": 11351253008,
-      "lat": 42.1120103,
-      "lon": -72.7225393,
+      "lat": 42.1120220,
+      "lon": -72.7225280,
       "tags": {
         "access": "yes",
         "amenity": "charging_station",
-        "brand": "Enel",
-        "capacity": "2"
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
       "type": "node",
       "id": 11351253009,
-      "lat": 42.1140220,
-      "lon": -72.7239953,
+      "lat": 42.1140290,
+      "lon": -72.7239863,
       "tags": {
         "access": "yes",
         "amenity": "charging_station",
-        "brand": "Enel",
-        "capacity": "2"
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
@@ -8446,6 +8432,114 @@
         "socket:type1_cable:current": "32 A",
         "socket:type1_cable:output": "6.6 kW",
         "socket:type1_cable:voltage": "200 V"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1304165413,
+      "bounds": {
+        "minlat": 42.5859502,
+        "minlon": -72.6194959,
+        "maxlat": 42.5860387,
+        "maxlon": -72.6193416
+      },
+      "nodes": [
+        12077651740,
+        12077651741,
+        12077651742,
+        12077651743,
+        12077651740
+      ],
+      "geometry": [
+        {
+          "lat": 42.5859844,
+          "lon": -72.6194959
+        },
+        {
+          "lat": 42.5859502,
+          "lon": -72.6193685
+        },
+        {
+          "lat": 42.5860045,
+          "lon": -72.6193416
+        },
+        {
+          "lat": 42.5860387,
+          "lon": -72.6194691
+        },
+        {
+          "lat": 42.5859844,
+          "lon": -72.6194959
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "charging_station:output": "6.2 kW",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1304173838,
+      "bounds": {
+        "minlat": 42.1906226,
+        "minlon": -71.2023158,
+        "maxlat": 42.1907348,
+        "maxlon": -71.2020965
+      },
+      "nodes": [
+        12077709401,
+        12077709402,
+        12077709403,
+        12077709404,
+        12077709401
+      ],
+      "geometry": [
+        {
+          "lat": 42.1906226,
+          "lon": -71.2022533
+        },
+        {
+          "lat": 42.1907039,
+          "lon": -71.2020965
+        },
+        {
+          "lat": 42.1907348,
+          "lon": -71.2021624
+        },
+        {
+          "lat": 42.1906518,
+          "lon": -71.2023158
+        },
+        {
+          "lat": 42.1906226,
+          "lon": -71.2022533
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "fee": "yes",
+        "maxstay": "2 hours",
+        "name": "ChargePoint",
+        "network": "ChargePoint",
+        "opening_hours": "24/7",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "parking:fee": "no",
+        "socket:type1": "4",
+        "socket:type1:output": "6.6 kW"
       }
     },
     {

@@ -10678,6 +10678,7 @@
             "properties": {
                 "name": "GAS&ELECTRIC; THOMAS ST LOT",
                 "network": "CHARGEPOINT",
+                "osm_id": 11351253001,
                 "nrel_id": 161967,
                 "network_id": "USCPIL117779",
                 "street_address": "87 Elm Street",
@@ -13162,6 +13163,7 @@
             "properties": {
                 "name": "BIG Y FOODS WESTFIELD #122",
                 "network": "CHARGEPOINT",
+                "osm_id": 11351253009,
                 "nrel_id": 167997,
                 "network_id": "USCPIL5500051",
                 "street_address": "330 E Main Street",
@@ -21426,7 +21428,7 @@
             "properties": {
                 "name": "MASSDOT GREENFIELD 1;MASSDOT GREENFIELD 2",
                 "network": "CHARGEPOINT",
-                "osm_id": 10213133487,
+                "osm_id": 1304165413,
                 "nrel_id": 205713,
                 "network_id": "USCPIL12448411;USCPIL12448421",
                 "street_address": "18 Miner Street",
@@ -24200,6 +24202,7 @@
             "properties": {
                 "name": "MassDOT-Highway",
                 "network": "EV_CONNECT",
+                "osm_id": 10213133486,
                 "nrel_id": 224169,
                 "network_id": "9f7a1cb3-738a-4899-ac58-621873425d34",
                 "street_address": "18 Miner Street",
@@ -27494,7 +27497,7 @@
             "properties": {
                 "name": "EV STATION AT POST OFFICE 1;EV STATION AT POST OFFICE 2",
                 "network": "CHARGEPOINT",
-                "osm_id": 10292005260,
+                "osm_id": 1304173838,
                 "nrel_id": 235006,
                 "network_id": "USCPIL13153221;USCPIL13153231",
                 "street_address": "1 Central Street",
@@ -42058,32 +42061,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.933926,
-                    42.194126
-                ]
-            },
-            "properties": {
-                "osm_id": 5254169252
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.932838,
-                    42.195609
-                ]
-            },
-            "properties": {
-                "osm_id": 5254169253
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.352865,
                     42.299554
                 ]
@@ -42421,63 +42398,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.495773,
-                    41.619026
-                ]
-            },
-            "properties": {
-                "osm_id": 9032849772
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.495774,
-                    41.619066
-                ]
-            },
-            "properties": {
-                "osm_id": 9032849773
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.495757,
-                    41.619111
-                ]
-            },
-            "properties": {
-                "osm_id": 9032849774
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.495761,
-                    41.619159
-                ]
-            },
-            "properties": {
-                "osm_id": 9032849775
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.672773,
                     41.527308
                 ]
             },
             "properties": {
+                "name": "Blink",
+                "network": "BLINK",
                 "osm_id": 9102222617
             }
         },
@@ -42785,47 +42712,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.619285,
-                    42.586009
-                ]
-            },
-            "properties": {
-                "osm_id": 10213133486
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.619416,
-                    42.586039
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10213133488
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.202262,
-                    42.190682
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10292005261
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.873891,
                     42.8121
                 ]
@@ -43035,20 +42921,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.747945,
-                    42.122212
-                ]
-            },
-            "properties": {
-                "network": "ENEL_X",
-                "osm_id": 11351253001
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.75445,
                     42.121144
                 ]
@@ -43133,27 +43005,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.722539,
-                    42.11201
+                    -72.722528,
+                    42.112022
                 ]
             },
             "properties": {
-                "network": "ENEL_X",
+                "network": "CHARGEPOINT",
                 "osm_id": 11351253008
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.723995,
-                    42.114022
-                ]
-            },
-            "properties": {
-                "network": "ENEL_X",
-                "osm_id": 11351253009
             }
         },
         {

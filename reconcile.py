@@ -337,6 +337,7 @@ def osm_parse_charging_station(osm_element) -> Station:
     OSM_NETWORK_NAME_MAP = {
         "AmpUp": ChargingNetwork.AMPUP,
         "Autel": ChargingNetwork.AUTEL,
+        "Blink": ChargingNetwork.BLINK,
         "ChargePoint": ChargingNetwork.CHARGEPOINT,
         "Electrify America": ChargingNetwork.ELECTRIFY_AMERICA,
         "Enel X": ChargingNetwork.ENEL_X,

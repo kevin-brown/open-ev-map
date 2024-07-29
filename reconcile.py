@@ -42,6 +42,8 @@ class ChargingNetwork(enum.Enum):
     TURN_ON_GREEN = enum.auto()
     VOLTA = enum.auto()
 
+    NON_NETWORKED = enum.auto()
+
 
 class SourceLocation(enum.Enum):
     ALTERNATIVE_FUELS_DATA_CENTER = enum.auto()
@@ -257,7 +259,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         "LIVINGSTON": None,
         "LOOP": ChargingNetwork.LOOP,
         "NOODOE": ChargingNetwork.NOODOE,
-        "Non-Networked": None,
+        "Non-Networked": ChargingNetwork.NON_NETWORKED,
         "POWER_NODE": ChargingNetwork.ELECTRIC_ERA,
         "RED_E": ChargingNetwork.RED_E,
         "RIVIAN_ADVENTURE": ChargingNetwork.RIVIAN_ADVENTURE,
@@ -441,7 +443,10 @@ def osm_parse_charging_station(osm_element) -> Station:
         if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
             station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_name))
 
-    if "no:network" not in tags:
+    if "no:network" in tags:
+        station.network = ChargingNetwork.NON_NETWORKED
+
+    if station.network is None:
         if station.network is None and "network:wikidata" in tags:
             station.network = OSM_NETWORK_WIKIDATA_MAP[tags["network:wikidata"]]
 
@@ -542,7 +547,7 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
     return combined_stations
 
 
-def combine_stations(all_stations: list[Station]) -> list[Station]:
+def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
     all_stations = combine_tesla_superchargers(all_stations)
     combined_stations = []
 
@@ -564,10 +569,10 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
             if first_station.osm_id == second_station.osm_id:
                 continue
 
-            if first_station.network is None:
+            if first_station.network is None or first_station.network is ChargingNetwork.NON_NETWORKED:
                 continue
 
-            if second_station.network is None:
+            if second_station.network is None or second_station.network is ChargingNetwork.NON_NETWORKED:
                 continue
 
             if first_station.network != second_station.network:
@@ -618,9 +623,11 @@ with open("osm.json", "r") as osm_fh:
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 
-combined_data = combine_stations([*nrel_data, *osm_data])
+combined_data = combine_networked_stations([*nrel_data, *osm_data])
 
 station_features = geojson.FeatureCollection([])
+non_reconciled_station_features = geojson.FeatureCollection([])
+
 for station in combined_data:
     station_point = geojson.Point(
         coordinates=(station.longitude, station.latitude)
@@ -654,5 +661,11 @@ for station in combined_data:
     )
     station_features["features"].append(station_feature)
 
+    if not station.nrel_id and station.osm_id:
+        non_reconciled_station_features["features"].append(station_feature)
+
 with open("stations.geojson", "w") as stations_fh:
     geojson.dump(station_features, stations_fh, indent=4)
+
+with open("non-reconciled-stations.geojson", "w") as stations_fh:
+    geojson.dump(non_reconciled_station_features, stations_fh, indent=4)

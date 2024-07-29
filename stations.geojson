@@ -12,6 +12,7 @@
             },
             "properties": {
                 "name": "Courtyard Marriott - Hadley Amherst",
+                "network": "NON_NETWORKED",
                 "nrel_id": 37813,
                 "street_address": "423 Russell Street",
                 "city": "Hadley",
@@ -50,6 +51,7 @@
             },
             "properties": {
                 "name": "Charles Hotel - Harvard Square",
+                "network": "NON_NETWORKED",
                 "nrel_id": 38525,
                 "street_address": "1 Bennett Street",
                 "city": "Cambridge",
@@ -128,6 +130,7 @@
             },
             "properties": {
                 "name": "State Street Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 43860,
                 "street_address": "75 State Street",
                 "city": "Boston",
@@ -227,6 +230,7 @@
             },
             "properties": {
                 "name": "Jerry Rome Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45812,
                 "street_address": "500 Riverdale Street",
                 "city": "West Springfield",
@@ -245,6 +249,7 @@
             },
             "properties": {
                 "name": "Jerry Rome Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45813,
                 "street_address": "500 Riverdale Street",
                 "city": "West Springfield",
@@ -263,6 +268,7 @@
             },
             "properties": {
                 "name": "Kelly Nissan of Woburn",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45817,
                 "street_address": "95 Cedar Street",
                 "city": "Woburn",
@@ -281,6 +287,7 @@
             },
             "properties": {
                 "name": "Bertera Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45874,
                 "street_address": "569 Oxford St S",
                 "city": "Auburn",
@@ -299,6 +306,7 @@
             },
             "properties": {
                 "name": "Bertera Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45875,
                 "street_address": "569 Oxford St S",
                 "city": "Auburn",
@@ -317,6 +325,7 @@
             },
             "properties": {
                 "name": "Battles Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45878,
                 "street_address": "60 MacArthur Boulevard",
                 "city": "Bourne",
@@ -335,6 +344,7 @@
             },
             "properties": {
                 "name": "Battles Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45879,
                 "street_address": "60 MacArthur Boulevard",
                 "city": "Bourne",
@@ -353,6 +363,7 @@
             },
             "properties": {
                 "name": "Nissan 24",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45880,
                 "street_address": "1016 Belmont Street",
                 "city": "Brockton",
@@ -371,6 +382,7 @@
             },
             "properties": {
                 "name": "Nissan 24",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45881,
                 "street_address": "1016 Belmont Street",
                 "city": "Brockton",
@@ -389,6 +401,7 @@
             },
             "properties": {
                 "name": "Curry Nissan Chicopee",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45882,
                 "street_address": "765 Memorial Drive",
                 "city": "Chicopee",
@@ -407,6 +420,7 @@
             },
             "properties": {
                 "name": "Country Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45886,
                 "street_address": "40 Russell Street",
                 "city": "Hadley",
@@ -425,6 +439,7 @@
             },
             "properties": {
                 "name": "Country Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45887,
                 "street_address": "40 Russell Street",
                 "city": "Hadley",
@@ -443,6 +458,7 @@
             },
             "properties": {
                 "name": "Sullivan Brothers Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45890,
                 "street_address": "1 Cranberry Road",
                 "city": "Kingston",
@@ -461,6 +477,7 @@
             },
             "properties": {
                 "name": "Sullivan Brothers Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45891,
                 "street_address": "1 Cranberry Road",
                 "city": "Kingston",
@@ -479,6 +496,7 @@
             },
             "properties": {
                 "name": "Ron Bouchard's Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45892,
                 "street_address": "490 Old Union Turnpike",
                 "city": "Lancaster",
@@ -497,6 +515,7 @@
             },
             "properties": {
                 "name": "Ron Bouchard's Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45893,
                 "street_address": "490 Old Union Turnpike",
                 "city": "Lancaster",
@@ -515,6 +534,7 @@
             },
             "properties": {
                 "name": "Kelly Nissan - Lynnfield",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45894,
                 "street_address": "275 Broadway",
                 "city": "Lynnfield",
@@ -533,6 +553,7 @@
             },
             "properties": {
                 "name": "Kelly Nissan - Lynnfield",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45895,
                 "street_address": "275 Broadway",
                 "city": "Lynnfield",
@@ -551,6 +572,7 @@
             },
             "properties": {
                 "name": "Marlborough Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45896,
                 "street_address": "740 Boston Post Road",
                 "city": "Marlborough",
@@ -569,6 +591,7 @@
             },
             "properties": {
                 "name": "Marlborough Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45897,
                 "street_address": "740 Boston Post Road",
                 "city": "Marlborough",
@@ -587,6 +610,7 @@
             },
             "properties": {
                 "name": "Colonial Nissan - Medford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45898,
                 "street_address": "104 Mystic Avenue",
                 "city": "Medford",
@@ -605,6 +629,7 @@
             },
             "properties": {
                 "name": "Colonial Nissan - Medford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45899,
                 "street_address": "104 Mystic Avenue",
                 "city": "Medford",
@@ -623,6 +648,7 @@
             },
             "properties": {
                 "name": "Nissan Village of North Attleboro",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45902,
                 "street_address": "685 S Washington Street",
                 "city": "North Attleboro",
@@ -641,6 +667,7 @@
             },
             "properties": {
                 "name": "Nissan Village of North Attleboro",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45903,
                 "street_address": "685 S Washington Street",
                 "city": "North Attleboro",
@@ -659,6 +686,7 @@
             },
             "properties": {
                 "name": "Coastal Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45904,
                 "street_address": "109 Accord Park Drive",
                 "city": "Norwell",
@@ -677,6 +705,7 @@
             },
             "properties": {
                 "name": "Coastal Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45905,
                 "street_address": "109 Accord Park Drive",
                 "city": "Norwell",
@@ -695,6 +724,7 @@
             },
             "properties": {
                 "name": "Boch Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45906,
                 "street_address": "525 Boston Providence Highway",
                 "city": "Norwood",
@@ -713,6 +743,7 @@
             },
             "properties": {
                 "name": "Boch Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45907,
                 "street_address": "525 Boston Providence Highway",
                 "city": "Norwood",
@@ -731,6 +762,7 @@
             },
             "properties": {
                 "name": "Haddad Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45908,
                 "street_address": "25 W Housatonic Street",
                 "city": "Pittsfield",
@@ -749,6 +781,7 @@
             },
             "properties": {
                 "name": "Haddad Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45909,
                 "street_address": "25 W Housatonic Street",
                 "city": "Pittsfield",
@@ -767,6 +800,7 @@
             },
             "properties": {
                 "name": "Quirk Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45910,
                 "street_address": "600 Southern Artery",
                 "city": "Quincy",
@@ -785,6 +819,7 @@
             },
             "properties": {
                 "name": "Quirk Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45911,
                 "street_address": "600 Southern Artery",
                 "city": "Quincy",
@@ -803,6 +838,7 @@
             },
             "properties": {
                 "name": "Mastria Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45912,
                 "street_address": "1305 New State Highway",
                 "city": "Raynham",
@@ -821,6 +857,7 @@
             },
             "properties": {
                 "name": "Mastria Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 45913,
                 "street_address": "1305 New State Highway",
                 "city": "Raynham",
@@ -839,6 +876,7 @@
             },
             "properties": {
                 "name": "Electric Insurance Co",
+                "network": "NON_NETWORKED",
                 "nrel_id": 46857,
                 "street_address": "75 Sam Fonzo Drive",
                 "city": "Beverly",
@@ -857,6 +895,7 @@
             },
             "properties": {
                 "name": "Town of Nantucket - Town Hall Annex",
+                "network": "NON_NETWORKED",
                 "nrel_id": 47471,
                 "street_address": "37 Washington Street",
                 "city": "Nantucket",
@@ -875,6 +914,7 @@
             },
             "properties": {
                 "name": "Nantucket Airport",
+                "network": "NON_NETWORKED",
                 "nrel_id": 47473,
                 "street_address": "14 Airport Road",
                 "city": "Nantucket",
@@ -893,6 +933,7 @@
             },
             "properties": {
                 "name": "Michaud Mitsubishi",
+                "network": "NON_NETWORKED",
                 "nrel_id": 48856,
                 "street_address": "80 Andover Street",
                 "city": "Danvers",
@@ -931,6 +972,7 @@
             },
             "properties": {
                 "name": "Commonwealth Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 49809,
                 "street_address": "1 Commonwealth Drive",
                 "city": "Lawrence",
@@ -969,6 +1011,7 @@
             },
             "properties": {
                 "name": "City of Northampton - Crafts Ave",
+                "network": "NON_NETWORKED",
                 "nrel_id": 50166,
                 "street_address": "65 Crafts Avenue",
                 "city": "Northampton",
@@ -987,6 +1030,7 @@
             },
             "properties": {
                 "name": "City of Northampton - Fire Department",
+                "network": "NON_NETWORKED",
                 "nrel_id": 50167,
                 "street_address": "26 Carlon Drive",
                 "city": "Northampton",
@@ -1025,6 +1069,7 @@
             },
             "properties": {
                 "name": "Milford Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 50831,
                 "street_address": "320 E Main Street",
                 "city": "Milford",
@@ -1043,6 +1088,7 @@
             },
             "properties": {
                 "name": "Kitchen Associates",
+                "network": "NON_NETWORKED",
                 "nrel_id": 51534,
                 "street_address": "76 Leominster Road",
                 "city": "Sterling",
@@ -1081,6 +1127,7 @@
             },
             "properties": {
                 "name": "Chapman Davis Parking Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 52053,
                 "street_address": "51 Chapman Street",
                 "city": "Greenfield",
@@ -1099,6 +1146,7 @@
             },
             "properties": {
                 "name": "Greenfield City Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 52054,
                 "street_address": "14 Court Square",
                 "city": "Greenfield",
@@ -1177,6 +1225,7 @@
             },
             "properties": {
                 "name": "Town of Maynard",
+                "network": "NON_NETWORKED",
                 "nrel_id": 53689,
                 "street_address": "12 Summer Street",
                 "city": "Maynard",
@@ -1215,6 +1264,7 @@
             },
             "properties": {
                 "name": "Marcotte Ford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 60865,
                 "street_address": "1025 Main Street",
                 "city": "Holyoke",
@@ -1233,6 +1283,7 @@
             },
             "properties": {
                 "name": "Athol Public Library",
+                "network": "NON_NETWORKED",
                 "nrel_id": 61317,
                 "street_address": "568 Main Street",
                 "city": "Athol",
@@ -1291,6 +1342,7 @@
             },
             "properties": {
                 "name": "York Ford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 63609,
                 "street_address": "1481 Broadway",
                 "city": "Saugus",
@@ -1309,6 +1361,7 @@
             },
             "properties": {
                 "name": "Acton Ford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 63614,
                 "street_address": "76 Powdermill Road",
                 "city": "Acton",
@@ -1327,6 +1380,7 @@
             },
             "properties": {
                 "name": "Bonnell Ford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 63711,
                 "street_address": "353 Cambridge Street",
                 "city": "Winchester",
@@ -1345,6 +1399,7 @@
             },
             "properties": {
                 "name": "Jannell Ford of Hanover",
+                "network": "NON_NETWORKED",
                 "nrel_id": 63803,
                 "street_address": "2000 Washington Street",
                 "city": "Hanover",
@@ -1363,6 +1418,7 @@
             },
             "properties": {
                 "name": "Standard Parking",
+                "network": "NON_NETWORKED",
                 "nrel_id": 63990,
                 "street_address": "100 Cambridge Street",
                 "city": "Boston",
@@ -1440,6 +1496,7 @@
             },
             "properties": {
                 "name": "Town of Barnstable",
+                "network": "NON_NETWORKED",
                 "nrel_id": 68428,
                 "street_address": "47 Old Yarmouth Road",
                 "city": "Hyannis",
@@ -1458,6 +1515,7 @@
             },
             "properties": {
                 "name": "Town of Needham",
+                "network": "NON_NETWORKED",
                 "nrel_id": 68429,
                 "street_address": "470 Dedham Avenue",
                 "city": "Needham",
@@ -1476,6 +1534,7 @@
             },
             "properties": {
                 "name": "City of Gloucester - City Hall Annex",
+                "network": "NON_NETWORKED",
                 "nrel_id": 68430,
                 "street_address": "3 Pond Road",
                 "city": "Gloucester",
@@ -1514,6 +1573,7 @@
             },
             "properties": {
                 "name": "Bank of New York Mellon",
+                "network": "NON_NETWORKED",
                 "nrel_id": 72012,
                 "street_address": "135 Santilli Highway",
                 "city": "Everett",
@@ -1532,6 +1592,7 @@
             },
             "properties": {
                 "name": "Tufts Health Plan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 72370,
                 "street_address": "705 Mt. Auburn Street",
                 "city": "Watertown",
@@ -1550,6 +1611,7 @@
             },
             "properties": {
                 "name": "National Grid - Brockton",
+                "network": "NON_NETWORKED",
                 "nrel_id": 73235,
                 "street_address": "100 E Ashland Street",
                 "city": "Brockton",
@@ -1587,6 +1649,7 @@
             },
             "properties": {
                 "name": "National Grid - Leominster",
+                "network": "NON_NETWORKED",
                 "nrel_id": 73238,
                 "street_address": "164 Viscoloid Avenue",
                 "city": "Leominster",
@@ -1605,6 +1668,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 73239,
                 "street_address": "52 Oxford Street",
                 "city": "Cambridge",
@@ -1623,6 +1687,7 @@
             },
             "properties": {
                 "name": "The Mews Restaurant & Cafe",
+                "network": "NON_NETWORKED",
                 "nrel_id": 73903,
                 "street_address": "429 Commercial Street",
                 "city": "Provincetown",
@@ -1641,6 +1706,7 @@
             },
             "properties": {
                 "name": "Hampton Inn - Boston-Norwood",
+                "network": "NON_NETWORKED",
                 "nrel_id": 74171,
                 "street_address": "434 Boston Providence Highway",
                 "city": "Norwood",
@@ -1679,6 +1745,7 @@
             },
             "properties": {
                 "name": "Barnstable Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 75012,
                 "street_address": "367 Main Street",
                 "city": "Barnstable",
@@ -1697,6 +1764,7 @@
             },
             "properties": {
                 "name": "Barnstable High School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 75013,
                 "street_address": "744 W Main Street",
                 "city": "Barnstable",
@@ -1715,6 +1783,7 @@
             },
             "properties": {
                 "name": "Cape Cod Regional Transit",
+                "network": "NON_NETWORKED",
                 "nrel_id": 75014,
                 "street_address": "215 Iyannough Road",
                 "city": "Hyannis",
@@ -1733,6 +1802,7 @@
             },
             "properties": {
                 "name": "Zieterion Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 75023,
                 "street_address": "684 Purchase Street",
                 "city": "New Bedford",
@@ -1771,6 +1841,7 @@
             },
             "properties": {
                 "name": "Natick Center",
+                "network": "NON_NETWORKED",
                 "nrel_id": 76530,
                 "street_address": "29 Pond Street",
                 "city": "Natick",
@@ -1789,6 +1860,7 @@
             },
             "properties": {
                 "name": "Jannell Ford of Hanover",
+                "network": "NON_NETWORKED",
                 "nrel_id": 76711,
                 "street_address": "2000 Washington Street",
                 "city": "Hanover",
@@ -1807,6 +1879,7 @@
             },
             "properties": {
                 "name": "Town of Barnstable - Social Security Office",
+                "network": "NON_NETWORKED",
                 "nrel_id": 78275,
                 "street_address": "259 N Street",
                 "city": "Hyannis",
@@ -1825,6 +1898,7 @@
             },
             "properties": {
                 "name": "Town of Barnstable - Senior Center",
+                "network": "NON_NETWORKED",
                 "nrel_id": 78276,
                 "street_address": "825 Falmouth Road",
                 "city": "Hyannis",
@@ -1843,6 +1917,7 @@
             },
             "properties": {
                 "name": "Revere City Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 78663,
                 "street_address": "281 Broadway",
                 "city": "Revere",
@@ -1861,6 +1936,7 @@
             },
             "properties": {
                 "name": "Massachusetts Department of Environmental Protection - Southeast Region Main Office",
+                "network": "NON_NETWORKED",
                 "nrel_id": 78665,
                 "street_address": "20 Riverside Drive",
                 "city": "Lakeville",
@@ -1879,6 +1955,7 @@
             },
             "properties": {
                 "name": "Gary Rome Hyundai",
+                "network": "NON_NETWORKED",
                 "nrel_id": 80999,
                 "street_address": "150 Whiting Farms Road",
                 "city": "Holyoke",
@@ -1917,6 +1994,7 @@
             },
             "properties": {
                 "name": "North Station Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 82461,
                 "street_address": "121 Nashua Street",
                 "city": "Boston",
@@ -1935,6 +2013,7 @@
             },
             "properties": {
                 "name": "Longfellow Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 82462,
                 "street_address": "60 Staniford Street",
                 "city": "Boston",
@@ -1953,6 +2032,7 @@
             },
             "properties": {
                 "name": "The Soundings Resort",
+                "network": "NON_NETWORKED",
                 "nrel_id": 82463,
                 "street_address": "79 Chase Avenue",
                 "city": "Dennis",
@@ -1971,6 +2051,7 @@
             },
             "properties": {
                 "name": "City Yard",
+                "network": "NON_NETWORKED",
                 "nrel_id": 85842,
                 "street_address": "237-335 Liberty Street",
                 "city": "New Bedford",
@@ -1989,6 +2070,7 @@
             },
             "properties": {
                 "name": "Department of Public Infrastructure",
+                "network": "NON_NETWORKED",
                 "nrel_id": 85843,
                 "street_address": "1105 Shawmut Avenue",
                 "city": "New Bedford",
@@ -2007,6 +2089,7 @@
             },
             "properties": {
                 "name": "School Public Facilities",
+                "network": "NON_NETWORKED",
                 "nrel_id": 85844,
                 "street_address": "256 Parker Street",
                 "city": "New Bedford",
@@ -2025,6 +2108,7 @@
             },
             "properties": {
                 "name": "Kelly Nissan",
+                "network": "NON_NETWORKED",
                 "nrel_id": 85963,
                 "street_address": "95 Cedar Street",
                 "city": "Woburn",
@@ -2043,6 +2127,7 @@
             },
             "properties": {
                 "name": "Walden Pond State Reservation",
+                "network": "NON_NETWORKED",
                 "nrel_id": 86863,
                 "street_address": "915 Walden Street",
                 "city": "Concord",
@@ -2061,6 +2146,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87838,
                 "street_address": "1230 Soldiers Field Road",
                 "city": "Allston",
@@ -2079,6 +2165,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87839,
                 "street_address": "10 Everett Street",
                 "city": "Cambridge",
@@ -2097,6 +2184,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87840,
                 "street_address": "7 Felton Street",
                 "city": "Cambridge",
@@ -2115,6 +2203,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87841,
                 "street_address": "1 Western Avenue",
                 "city": "Allston",
@@ -2133,6 +2222,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87842,
                 "street_address": "159 Banks Street",
                 "city": "Cambridge",
@@ -2151,6 +2241,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87843,
                 "street_address": "5 Cowperthwaite Street",
                 "city": "Cambridge",
@@ -2169,6 +2260,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87844,
                 "street_address": "10 Akron Street",
                 "city": "Cambridge",
@@ -2187,6 +2279,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87845,
                 "street_address": "125 Western Avenue",
                 "city": "Allston",
@@ -2205,6 +2298,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87846,
                 "street_address": "230 Western Avenue",
                 "city": "Allston",
@@ -2223,6 +2317,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 87847,
                 "street_address": "25 Travis Street",
                 "city": "Allston",
@@ -2261,6 +2356,7 @@
             },
             "properties": {
                 "name": "Winchester High School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 91902,
                 "street_address": "80 Skillings Road",
                 "city": "Winchester",
@@ -2379,6 +2475,7 @@
             },
             "properties": {
                 "name": "Surfcomber",
+                "network": "NON_NETWORKED",
                 "nrel_id": 98542,
                 "street_address": "107 South Shore Drive",
                 "city": "South Yarmotuh",
@@ -2397,6 +2494,7 @@
             },
             "properties": {
                 "name": "Environmental Protection Agency",
+                "network": "NON_NETWORKED",
                 "nrel_id": 98675,
                 "street_address": "5 Post Office Square",
                 "city": "Boston",
@@ -2456,6 +2554,7 @@
             },
             "properties": {
                 "name": "Quittacas Water Treatment Plant",
+                "network": "NON_NETWORKED",
                 "nrel_id": 99437,
                 "street_address": "1 Negus Way",
                 "city": "East Freetown",
@@ -2474,6 +2573,7 @@
             },
             "properties": {
                 "name": "Parker Street Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 99438,
                 "street_address": "256 Parker Street",
                 "city": "New Bedford",
@@ -2492,6 +2592,7 @@
             },
             "properties": {
                 "name": "AutoFair Nissan - Chelmsford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 99461,
                 "street_address": "95 Drum Hill Road",
                 "city": "Chelmsford",
@@ -2510,6 +2611,7 @@
             },
             "properties": {
                 "name": "AutoFair Nissan - Chelmsford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 99462,
                 "street_address": "95 Drum Hill Road",
                 "city": "Chelmsford",
@@ -2589,6 +2691,7 @@
             "properties": {
                 "name": "NATIONAL GRID WESTFORD 99",
                 "network": "CHARGEPOINT",
+                "osm_id": 2732723645,
                 "nrel_id": 99767,
                 "network_id": "USCPIL551891",
                 "street_address": "333 Concord Road",
@@ -2969,6 +3072,7 @@
             },
             "properties": {
                 "name": "Eversource",
+                "network": "NON_NETWORKED",
                 "nrel_id": 104939,
                 "street_address": "247 Station Drive",
                 "city": "Westwood",
@@ -3888,6 +3992,7 @@
             },
             "properties": {
                 "name": "Big Y",
+                "network": "NON_NETWORKED",
                 "nrel_id": 116949,
                 "street_address": "237 Mohawk Trail",
                 "city": "Greenfield",
@@ -3906,6 +4011,7 @@
             },
             "properties": {
                 "name": "Ponte Gadea Boston LLC",
+                "network": "NON_NETWORKED",
                 "nrel_id": 117267,
                 "street_address": "50 Milk Street",
                 "city": "Boston",
@@ -4065,6 +4171,7 @@
             },
             "properties": {
                 "name": "ReVision Energy",
+                "network": "NON_NETWORKED",
                 "nrel_id": 118960,
                 "street_address": "1980 Turnpike Street",
                 "city": "North Andover",
@@ -4164,6 +4271,7 @@
             },
             "properties": {
                 "name": "Northern Lights Electric",
+                "network": "NON_NETWORKED",
                 "nrel_id": 121591,
                 "street_address": "50 Orne Street",
                 "city": "North Attleboro",
@@ -4344,6 +4452,7 @@
             },
             "properties": {
                 "name": "Verizon - Boston",
+                "network": "NON_NETWORKED",
                 "nrel_id": 123347,
                 "street_address": "651 Summer Street",
                 "city": "Boston",
@@ -4362,6 +4471,7 @@
             },
             "properties": {
                 "name": "Verizon - Lowell",
+                "network": "NON_NETWORKED",
                 "nrel_id": 123358,
                 "street_address": "900 Chelmsford Street",
                 "city": "Lowell",
@@ -5126,6 +5236,7 @@
             },
             "properties": {
                 "name": "Revere City Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 145474,
                 "street_address": "281 Broadway",
                 "city": "Revere",
@@ -5204,6 +5315,7 @@
             },
             "properties": {
                 "name": "Michaud Mitsubishi",
+                "network": "NON_NETWORKED",
                 "nrel_id": 145553,
                 "street_address": "80 Andover Street",
                 "city": "Danvers",
@@ -5322,6 +5434,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 147011,
                 "street_address": "125 Putnam Avenue",
                 "city": "Cambridge",
@@ -5340,6 +5453,7 @@
             },
             "properties": {
                 "name": "Harvard University",
+                "network": "NON_NETWORKED",
                 "nrel_id": 147012,
                 "street_address": "87 Concord Avenue",
                 "city": "Cambridge",
@@ -5358,6 +5472,7 @@
             },
             "properties": {
                 "name": "Habitat Education Center and Wildlife Sanctuary",
+                "network": "NON_NETWORKED",
                 "nrel_id": 147091,
                 "street_address": "10 Juniper Road",
                 "city": "Belmont",
@@ -5376,6 +5491,7 @@
             },
             "properties": {
                 "name": "Wachusett Meadow Wildlife Sanctuary",
+                "network": "NON_NETWORKED",
                 "nrel_id": 147092,
                 "street_address": "113 Goodnow Road",
                 "city": "Princeton",
@@ -5434,6 +5550,7 @@
             },
             "properties": {
                 "name": "Department of Public Infrastructure",
+                "network": "NON_NETWORKED",
                 "nrel_id": 147416,
                 "street_address": "1105 Shawmut Avenue",
                 "city": "New Bedford",
@@ -5913,6 +6030,7 @@
             },
             "properties": {
                 "name": "Kelly Nissan - Woburn",
+                "network": "NON_NETWORKED",
                 "nrel_id": 149472,
                 "street_address": "95 Cedar Street",
                 "city": "Stoneham",
@@ -5931,6 +6049,7 @@
             },
             "properties": {
                 "name": "Kelly Nissan - Woburn",
+                "network": "NON_NETWORKED",
                 "nrel_id": 149486,
                 "street_address": "95 Cedar Street",
                 "city": "Stoneham",
@@ -9752,6 +9871,7 @@
             "properties": {
                 "name": "LEVEL P3 STATION 1;LEVEL P3 STATION 2;LEVEL P3 STATION 3;LEVEL P3 STATION 4;LEVEL P3 STATION 5;LEVEL P3 STATION 6;LEVEL P3 STATION 7",
                 "network": "CHARGEPOINT",
+                "osm_id": 7824938353,
                 "nrel_id": 161907,
                 "network_id": "USCPIL137831;USCPIL137815;USCPIL137719;USCPIL137715;USCPIL136969;USCPIL126515;USCPIL126505",
                 "street_address": "1 Nashua Street",
@@ -10336,6 +10456,7 @@
             "properties": {
                 "name": "SOMERVILLE MA UNION SQUARE",
                 "network": "CHARGEPOINT",
+                "osm_id": 9784274030,
                 "nrel_id": 161944,
                 "network_id": "USCPIL121243",
                 "street_address": "75 Union Square",
@@ -13027,6 +13148,7 @@
             },
             "properties": {
                 "name": "Clean Energy - West Roxbury - National Grid",
+                "network": "NON_NETWORKED",
                 "nrel_id": 167774,
                 "street_address": "201 Rivermoor Street",
                 "city": "West Roxbury",
@@ -13045,6 +13167,7 @@
             },
             "properties": {
                 "name": "Clean Energy - South Yarmouth - National Grid",
+                "network": "NON_NETWORKED",
                 "nrel_id": 167776,
                 "street_address": "127 Whites Path",
                 "city": "South Yarmouth",
@@ -13063,6 +13186,7 @@
             },
             "properties": {
                 "name": "Mount Greylock Regional School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 167821,
                 "street_address": "1781 Cold Spring Road",
                 "city": "Williamstown",
@@ -13965,6 +14089,7 @@
             "properties": {
                 "name": "CITYOFCAMBRIDGE 99 SHERMAN",
                 "network": "CHARGEPOINT",
+                "osm_id": 8406082633,
                 "nrel_id": 170500,
                 "network_id": "USCPIL5571971",
                 "street_address": "99 Sherman Street",
@@ -15547,6 +15672,7 @@
             },
             "properties": {
                 "name": "VISN 1 / Boston HCS / Jamaica Plain",
+                "network": "NON_NETWORKED",
                 "nrel_id": 184318,
                 "street_address": "150 S Huntington Avenue",
                 "city": "Boston",
@@ -15565,6 +15691,7 @@
             },
             "properties": {
                 "name": "VISN 1 / Boston HCS / Brockton",
+                "network": "NON_NETWORKED",
                 "nrel_id": 184319,
                 "street_address": "940 Belmont Street",
                 "city": "Brockton",
@@ -15583,6 +15710,7 @@
             },
             "properties": {
                 "name": "VISN 1 / CWM / Leeds MA",
+                "network": "NON_NETWORKED",
                 "nrel_id": 184320,
                 "street_address": "462 MA-9",
                 "city": "Northampton",
@@ -15601,6 +15729,7 @@
             },
             "properties": {
                 "name": "NOAA",
+                "network": "NON_NETWORKED",
                 "nrel_id": 184321,
                 "street_address": "166 Water Street",
                 "city": "WOODS HOLE",
@@ -15619,6 +15748,7 @@
             },
             "properties": {
                 "name": "EPA Boston",
+                "network": "NON_NETWORKED",
                 "nrel_id": 184419,
                 "street_address": "5 Post Office Square",
                 "city": "Boston",
@@ -15637,6 +15767,7 @@
             },
             "properties": {
                 "name": "FAA - Regional Office Building (ANE)",
+                "network": "NON_NETWORKED",
                 "nrel_id": 184420,
                 "street_address": "1200 District Ave #3",
                 "city": "Burlington",
@@ -15655,6 +15786,7 @@
             },
             "properties": {
                 "name": "Hanscom AFB",
+                "network": "NON_NETWORKED",
                 "nrel_id": 184756,
                 "street_address": "70 Chennault Street",
                 "city": "Hanscom AFB",
@@ -15833,6 +15965,7 @@
             },
             "properties": {
                 "name": "National Grid - Beverly",
+                "network": "NON_NETWORKED",
                 "nrel_id": 185488,
                 "street_address": "44 River Street",
                 "city": "Beverly",
@@ -15851,6 +15984,7 @@
             },
             "properties": {
                 "name": "National Grid - Northborough",
+                "network": "NON_NETWORKED",
                 "nrel_id": 185492,
                 "street_address": "55 Bearfoot Road",
                 "city": "Northborough",
@@ -15888,6 +16022,7 @@
             },
             "properties": {
                 "name": "National Grid - Lowell",
+                "network": "NON_NETWORKED",
                 "nrel_id": 185522,
                 "street_address": "775 Dutton Street",
                 "city": "Lowell",
@@ -15906,6 +16041,7 @@
             },
             "properties": {
                 "name": "National Grid - Malden",
+                "network": "NON_NETWORKED",
                 "nrel_id": 185523,
                 "street_address": "170 Medford Street",
                 "city": "Malden",
@@ -15924,6 +16060,7 @@
             },
             "properties": {
                 "name": "National Grid - Waltham Operations",
+                "network": "NON_NETWORKED",
                 "nrel_id": 185525,
                 "street_address": "154 Newton Street",
                 "city": "Waltham",
@@ -16002,6 +16139,7 @@
             },
             "properties": {
                 "name": "Yankee Candle",
+                "network": "NON_NETWORKED",
                 "nrel_id": 186358,
                 "street_address": "25 Greenfield Road",
                 "city": "South Deerfield",
@@ -22415,6 +22553,7 @@
             "properties": {
                 "name": "CITY OF MALDEN 180 EXCHANGE ST",
                 "network": "CHARGEPOINT",
+                "osm_id": 9994959784,
                 "nrel_id": 213408,
                 "network_id": "USCPIL1934171",
                 "street_address": "180 Exchange Street",
@@ -22674,6 +22813,7 @@
             },
             "properties": {
                 "name": "Bridgewater Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216282,
                 "street_address": "66 Central Square",
                 "city": "Bridgewater",
@@ -22692,6 +22832,7 @@
             },
             "properties": {
                 "name": "Silko Honda",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216283,
                 "street_address": "1580 New State Highway",
                 "city": "Raynham",
@@ -22710,6 +22851,7 @@
             },
             "properties": {
                 "name": "Bridgewater State University Weygand Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216284,
                 "street_address": "85 Burrill Avenue",
                 "city": "Bridgewater",
@@ -22728,6 +22870,7 @@
             },
             "properties": {
                 "name": "Rochester Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216285,
                 "street_address": "1 Constitution Way",
                 "city": "Rochester",
@@ -22746,6 +22889,7 @@
             },
             "properties": {
                 "name": "Marion Council for Aging",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216286,
                 "street_address": "465 Mill Street",
                 "city": "Marion",
@@ -22764,6 +22908,7 @@
             },
             "properties": {
                 "name": "Marion Town House",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216287,
                 "street_address": "2 Spring Street",
                 "city": "Marion",
@@ -22782,6 +22927,7 @@
             },
             "properties": {
                 "name": "Wareham Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216288,
                 "street_address": "54 Marion Road",
                 "city": "Wareham",
@@ -22800,6 +22946,7 @@
             },
             "properties": {
                 "name": "Ferry Parking",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216289,
                 "street_address": "286 Palmer Avenue",
                 "city": "Falmouth",
@@ -22818,6 +22965,7 @@
             },
             "properties": {
                 "name": "Falmouth Marine Park",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216290,
                 "street_address": "180 Scranton Avenue",
                 "city": "Falmouth",
@@ -22836,6 +22984,7 @@
             },
             "properties": {
                 "name": "Aquinnah Cliffs Overlook",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216291,
                 "street_address": "31 Aquinnah Cir",
                 "city": "Aquinnah",
@@ -22854,6 +23003,7 @@
             },
             "properties": {
                 "name": "Aquinnah Police Department",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216292,
                 "street_address": "67 State Road",
                 "city": "Aquinnah",
@@ -22872,6 +23022,7 @@
             },
             "properties": {
                 "name": "West Tisbury Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216293,
                 "street_address": "1059 State Road",
                 "city": "West Tisbury",
@@ -22890,6 +23041,7 @@
             },
             "properties": {
                 "name": "Cronig's Up-Island Market",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216294,
                 "street_address": "469 State Road",
                 "city": "West Tisbury",
@@ -22908,6 +23060,7 @@
             },
             "properties": {
                 "name": "Oak Bluffs Public Library",
+                "network": "NON_NETWORKED",
                 "nrel_id": 216295,
                 "street_address": "56R School Street",
                 "city": "Vineyard Haven",
@@ -23407,6 +23560,7 @@
             },
             "properties": {
                 "name": "Eastham Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 221077,
                 "street_address": "2500 State Highway",
                 "city": "Eastham",
@@ -23425,6 +23579,7 @@
             },
             "properties": {
                 "name": "National Park Services",
+                "network": "NON_NETWORKED",
                 "nrel_id": 221078,
                 "street_address": "99 Marconi Station Road",
                 "city": "Wellfleet",
@@ -23443,6 +23598,7 @@
             },
             "properties": {
                 "name": "BayCoast Bank",
+                "network": "NON_NETWORKED",
                 "nrel_id": 221079,
                 "street_address": "330 Swansea Mall Drive",
                 "city": "Swansea",
@@ -24543,6 +24699,7 @@
             },
             "properties": {
                 "name": "Blackstone Heritage Corridor Visitor Center",
+                "network": "NON_NETWORKED",
                 "nrel_id": 225705,
                 "street_address": "3 Paul Clancy Way",
                 "city": "Worcester",
@@ -25525,6 +25682,7 @@
             },
             "properties": {
                 "name": "Dean Park",
+                "network": "NON_NETWORKED",
                 "nrel_id": 229182,
                 "street_address": "100 Maple Avenue",
                 "city": "Shrewsbury",
@@ -28318,6 +28476,7 @@
             },
             "properties": {
                 "name": "Halifax Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 240845,
                 "street_address": "499 Plymouth Street",
                 "city": "Halifax",
@@ -28376,6 +28535,7 @@
             },
             "properties": {
                 "name": "Shrewsbury High School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 240913,
                 "street_address": "64 Holden Street",
                 "city": "Shrewsbury",
@@ -29431,6 +29591,7 @@
             },
             "properties": {
                 "name": "VPNE Stillings St. Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 254017,
                 "street_address": "11 Stillings Street",
                 "city": "Boston",
@@ -30326,6 +30487,7 @@
             },
             "properties": {
                 "name": "Durand Chevrolet",
+                "network": "NON_NETWORKED",
                 "nrel_id": 259806,
                 "street_address": "223 Washington Street",
                 "city": "Hudson",
@@ -30524,6 +30686,7 @@
             },
             "properties": {
                 "name": "Mendon Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 260599,
                 "street_address": "20 Main Street",
                 "city": "Mendon",
@@ -30782,6 +30945,7 @@
             },
             "properties": {
                 "name": "Arnold St. Municipal Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261610,
                 "street_address": "10 Arnold Street",
                 "city": "Westfield",
@@ -30800,6 +30964,7 @@
             },
             "properties": {
                 "name": "Reader Municipal Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261611,
                 "street_address": "29 School Street",
                 "city": "Westfield",
@@ -30818,6 +30983,7 @@
             },
             "properties": {
                 "name": "Depot Municipal Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261612,
                 "street_address": "16 Union Street",
                 "city": "Westfield",
@@ -30836,6 +31002,7 @@
             },
             "properties": {
                 "name": "Westfield Technical Academy",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261613,
                 "street_address": "33 Smith Avenue",
                 "city": "Westfield",
@@ -30854,6 +31021,7 @@
             },
             "properties": {
                 "name": "West Silver Middle School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261614,
                 "street_address": "30 W Silver Street",
                 "city": "Westfield",
@@ -30872,6 +31040,7 @@
             },
             "properties": {
                 "name": "Westfield Intermediate School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261615,
                 "street_address": "350 Southampton Road",
                 "city": "Westfield",
@@ -30890,6 +31059,7 @@
             },
             "properties": {
                 "name": "Highland Elementary School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261616,
                 "street_address": "34 Western Avenue",
                 "city": "Westfield",
@@ -30908,6 +31078,7 @@
             },
             "properties": {
                 "name": "Barnes Airport \u2013 Main Entrance to Terminal",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261617,
                 "street_address": "110 Airport Road",
                 "city": "Westfield",
@@ -30926,6 +31097,7 @@
             },
             "properties": {
                 "name": "Barnes Airport \u2013 Hanger Parking Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261618,
                 "street_address": "112 Airport Road",
                 "city": "Westfield",
@@ -30944,6 +31116,7 @@
             },
             "properties": {
                 "name": "MGH Waltham - Patient Garage #1",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261671,
                 "street_address": "52 2nd Avenue",
                 "city": "Waltham",
@@ -30962,6 +31135,7 @@
             },
             "properties": {
                 "name": "MGH Charlestown 199 Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261672,
                 "street_address": "6 13th Street",
                 "city": "Boston",
@@ -30980,6 +31154,7 @@
             },
             "properties": {
                 "name": "BWH 5 Francis",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261673,
                 "street_address": "5 Francis Street",
                 "city": "Boston",
@@ -30998,6 +31173,7 @@
             },
             "properties": {
                 "name": "BWH 80 Francis",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261674,
                 "street_address": "80 Francis Street",
                 "city": "Boston",
@@ -31016,6 +31192,7 @@
             },
             "properties": {
                 "name": "Hale Building",
+                "network": "NON_NETWORKED",
                 "nrel_id": 261675,
                 "street_address": "60 Fenwood Road",
                 "city": "Boston",
@@ -31949,6 +32126,7 @@
             },
             "properties": {
                 "name": "Pleasant Street Parking Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 302677,
                 "street_address": "26-28 Pleasant Street",
                 "city": "Newton",
@@ -33487,6 +33665,7 @@
             },
             "properties": {
                 "name": "Autel - Eco Auto",
+                "network": "NON_NETWORKED",
                 "nrel_id": 312006,
                 "street_address": "623 Main Street",
                 "city": "Tewksbury",
@@ -33725,6 +33904,7 @@
             },
             "properties": {
                 "name": "City of Gloucester - Rogers St. Municipal Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 312784,
                 "street_address": "45 Rogers Street",
                 "city": "Gloucester",
@@ -33743,6 +33923,7 @@
             },
             "properties": {
                 "name": "Lanesborough Elementary School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 312787,
                 "street_address": "188 Summer Street",
                 "city": "Lanesborough",
@@ -34039,6 +34220,7 @@
             },
             "properties": {
                 "name": "Life Time Center",
+                "network": "NON_NETWORKED",
                 "nrel_id": 316181,
                 "street_address": "300 Boylston Street",
                 "city": "Newton",
@@ -34339,6 +34521,7 @@
             },
             "properties": {
                 "name": "Eastham Public Library",
+                "network": "NON_NETWORKED",
                 "nrel_id": 317103,
                 "street_address": "190 Samoset Road",
                 "city": "Eastham",
@@ -35253,6 +35436,7 @@
             },
             "properties": {
                 "name": "Town of Mashpee Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 322141,
                 "street_address": "16 Great Neck Rd N",
                 "city": "Mashpee",
@@ -35271,6 +35455,7 @@
             },
             "properties": {
                 "name": "Town of Yarmouth Senior Center",
+                "network": "NON_NETWORKED",
                 "nrel_id": 322142,
                 "street_address": "528 Forest Road",
                 "city": "Yarmouth",
@@ -35289,6 +35474,7 @@
             },
             "properties": {
                 "name": "Town of Yarmouth Town Hall",
+                "network": "NON_NETWORKED",
                 "nrel_id": 322143,
                 "street_address": "1146 Route 28",
                 "city": "Yarmouth",
@@ -35307,6 +35493,7 @@
             },
             "properties": {
                 "name": "Yarmouth Department of Public Works",
+                "network": "NON_NETWORKED",
                 "nrel_id": 322144,
                 "street_address": "507 Buck Island Road",
                 "city": "Yarmouth",
@@ -35665,6 +35852,7 @@
             },
             "properties": {
                 "name": "Cafe Escadrille",
+                "network": "NON_NETWORKED",
                 "nrel_id": 322844,
                 "street_address": "26 Cambridge Street",
                 "city": "Burlington",
@@ -35683,6 +35871,7 @@
             },
             "properties": {
                 "name": "TradeCenter 128",
+                "network": "NON_NETWORKED",
                 "nrel_id": 322845,
                 "street_address": "100 TradeCenter",
                 "city": "Woburn",
@@ -35701,6 +35890,7 @@
             },
             "properties": {
                 "name": "Rahns Motorcycle Engineering",
+                "network": "NON_NETWORKED",
                 "nrel_id": 322846,
                 "street_address": "800A Adams Street",
                 "city": "Abington",
@@ -35719,6 +35909,7 @@
             },
             "properties": {
                 "name": "Stoughton YMCA",
+                "network": "NON_NETWORKED",
                 "nrel_id": 322847,
                 "street_address": "445 Central Street",
                 "city": "Stoughton",
@@ -36056,6 +36247,7 @@
             },
             "properties": {
                 "name": "DCR North Point Maintenance Facility",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325197,
                 "street_address": "6 Museum Way",
                 "city": "Cambridge",
@@ -36074,6 +36266,7 @@
             },
             "properties": {
                 "name": "Division of Capital Asset Management and Maintenance Dwight St Office",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325198,
                 "street_address": "436 Dwight Street",
                 "city": "Springfield",
@@ -36092,6 +36285,7 @@
             },
             "properties": {
                 "name": "MassDOT Harwich Park & Ride",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325199,
                 "street_address": "292 Pleasant Lake Avenue",
                 "city": "Harwich",
@@ -36129,6 +36323,7 @@
             },
             "properties": {
                 "name": "MWRA Carroll Water Treatment Plant",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325201,
                 "street_address": "84 D'Angelo Drive",
                 "city": "Marlborough",
@@ -36147,6 +36342,7 @@
             },
             "properties": {
                 "name": "Department of Public Health Tewksbury Hospital Lot B",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325202,
                 "street_address": "365 East Street",
                 "city": "Tewksbury",
@@ -36165,6 +36361,7 @@
             },
             "properties": {
                 "name": "Bridgewater State University Tinsley Center",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325203,
                 "street_address": "325 Plymouth Street",
                 "city": "Bridgewater",
@@ -36183,6 +36380,7 @@
             },
             "properties": {
                 "name": "Springfield Technical Community College Lot A",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325204,
                 "street_address": "1 Armory Square",
                 "city": "Springfield",
@@ -36201,6 +36399,7 @@
             },
             "properties": {
                 "name": "Department of Fish & Game Annisquam River Marine Fisheries Station",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325205,
                 "street_address": "30 Emerson Avenue",
                 "city": "Gloucester",
@@ -36219,6 +36418,7 @@
             },
             "properties": {
                 "name": "Department of Fish & Game Division of Fisheries & Wildlife HQ",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325206,
                 "street_address": "1 Rabbit Hill Road",
                 "city": "Westborough",
@@ -36237,6 +36437,7 @@
             },
             "properties": {
                 "name": "Hanscom Air Force Base",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325207,
                 "street_address": "2 Randolph Road",
                 "city": "Hanscom",
@@ -36255,6 +36456,7 @@
             },
             "properties": {
                 "name": "State Police Nantucket Barracks",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325208,
                 "street_address": "83 N Liberty Street",
                 "city": "Nantucket",
@@ -36273,6 +36475,7 @@
             },
             "properties": {
                 "name": "UMass Boston West Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325209,
                 "street_address": "University Dr W",
                 "city": "Boston",
@@ -36291,6 +36494,7 @@
             },
             "properties": {
                 "name": "DCR Edwin H. Land Blvd Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325210,
                 "street_address": "24 Monsignor O'Brien Highway",
                 "city": "Cambridge",
@@ -36309,6 +36513,7 @@
             },
             "properties": {
                 "name": "Bridgewater State University Great Hill Drive Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325211,
                 "street_address": "Great Hill Drive",
                 "city": "Bridgewater",
@@ -36327,6 +36532,7 @@
             },
             "properties": {
                 "name": "Framingham State University Facilities Building Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325212,
                 "street_address": "23 Salem End Road",
                 "city": "Framingham",
@@ -36345,6 +36551,7 @@
             },
             "properties": {
                 "name": "Franklin County Sheriff's Office",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325213,
                 "street_address": "160 Elm Street",
                 "city": "Greenfield",
@@ -36382,6 +36589,7 @@
             },
             "properties": {
                 "name": "Cape Cod Mosquito Control Project",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325215,
                 "street_address": "259 Willow Street",
                 "city": "Yarmouthport",
@@ -36400,6 +36608,7 @@
             },
             "properties": {
                 "name": "State Police Oak Bluffs Barracks",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325216,
                 "street_address": "51 Temahigan Avenue",
                 "city": "Oak Bluffs",
@@ -36418,6 +36627,7 @@
             },
             "properties": {
                 "name": "MassDOT I-95NB Lexington Service Plaza",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325217,
                 "street_address": "I-95 N, Mile Marker 46.3",
                 "city": "Lexington",
@@ -36436,6 +36646,7 @@
             },
             "properties": {
                 "name": "Fitchburg State University Conlon Fine Arts Building",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325218,
                 "street_address": "160 Pearl Street",
                 "city": "Fitchburg",
@@ -36454,6 +36665,7 @@
             },
             "properties": {
                 "name": "Department of Correction Bridgewater Complex",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325219,
                 "street_address": "1 Administration Road",
                 "city": "Bridgewater",
@@ -36472,6 +36684,7 @@
             },
             "properties": {
                 "name": "UMass Dartmouth SMAST East Campus",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325220,
                 "street_address": "836 S Rodney French Boulevard",
                 "city": "New Bedford",
@@ -36490,6 +36703,7 @@
             },
             "properties": {
                 "name": "MWRA Chelsea Facility",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325221,
                 "street_address": "2 Griffin Way",
                 "city": "Chelsea",
@@ -36508,6 +36722,7 @@
             },
             "properties": {
                 "name": "Mass College of Art & Design Ward St Parking",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325222,
                 "street_address": "135 Ward Street",
                 "city": "Boston",
@@ -36526,6 +36741,7 @@
             },
             "properties": {
                 "name": "MassDOT District Office #4",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325223,
                 "street_address": "511-525 Appleton Street",
                 "city": "Arlington",
@@ -36544,6 +36760,7 @@
             },
             "properties": {
                 "name": "Division of Standards Meteorology Laboratory",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325224,
                 "street_address": "250 Eliot Street",
                 "city": "Ashland",
@@ -36562,6 +36779,7 @@
             },
             "properties": {
                 "name": "MCI Norfolk",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325225,
                 "street_address": "2 Clark Street",
                 "city": "Norfolk",
@@ -36580,6 +36798,7 @@
             },
             "properties": {
                 "name": "MetroWest Regional Transit Authority Blandin Hub",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325226,
                 "street_address": "15 Blandin Avenue",
                 "city": "Framingham",
@@ -36598,6 +36817,7 @@
             },
             "properties": {
                 "name": "Department of Correction Milford",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325227,
                 "street_address": "50 Maple Street",
                 "city": "Milford",
@@ -36616,6 +36836,7 @@
             },
             "properties": {
                 "name": "Salem State University North Campus Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325228,
                 "street_address": "1 College Drive",
                 "city": "Salem",
@@ -36634,6 +36855,7 @@
             },
             "properties": {
                 "name": "DCAMM McCormack Building",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325229,
                 "street_address": "1 Ashburton Place",
                 "city": "Boston",
@@ -36652,6 +36874,7 @@
             },
             "properties": {
                 "name": "Mass. College of Liberal Arts Feigenbaum Building",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325230,
                 "street_address": "71 Blackinton Street",
                 "city": "North Adams",
@@ -36689,6 +36912,7 @@
             },
             "properties": {
                 "name": "MassDOT Hopkinton Facility",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325232,
                 "street_address": "5 Macadam Road",
                 "city": "Hopkinton",
@@ -36707,6 +36931,7 @@
             },
             "properties": {
                 "name": "MassDOT Weston Maintenance Facility",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325233,
                 "street_address": "668 South Avenue",
                 "city": "Weston",
@@ -36725,6 +36950,7 @@
             },
             "properties": {
                 "name": "MCI Concord",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325234,
                 "street_address": "965 Elm Street",
                 "city": "Concord",
@@ -36743,6 +36969,7 @@
             },
             "properties": {
                 "name": "MWRA Southborough HQ Western Operations",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325235,
                 "street_address": "270 Boston Road",
                 "city": "Southborough",
@@ -36780,6 +37007,7 @@
             },
             "properties": {
                 "name": "MCI Shirley",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325237,
                 "street_address": "104 Harvard Road",
                 "city": "Shirley",
@@ -36798,6 +37026,7 @@
             },
             "properties": {
                 "name": "MassDOT District Office #5",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325238,
                 "street_address": "1000 County St MA-140",
                 "city": "Taunton",
@@ -36854,6 +37083,7 @@
             },
             "properties": {
                 "name": "DCR Wompatuck State Park Torpedo Shed",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325241,
                 "street_address": "204 Union Street",
                 "city": "Hingham",
@@ -36872,6 +37102,7 @@
             },
             "properties": {
                 "name": "MassDEP Northeast Regional Office",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325242,
                 "street_address": "150 Presidential Way",
                 "city": "Woburn",
@@ -36890,6 +37121,7 @@
             },
             "properties": {
                 "name": "DCR Fall River Heritage State Park Boat House",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325243,
                 "street_address": "200 Davol Street",
                 "city": "Fall River",
@@ -36908,6 +37140,7 @@
             },
             "properties": {
                 "name": "Bridgewater State University Dana Mohler-Faria Science & Mathematics Center",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325244,
                 "street_address": "24 Park Avenue",
                 "city": "Bridgewater",
@@ -36926,6 +37159,7 @@
             },
             "properties": {
                 "name": "MWRA Deer Island",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325245,
                 "street_address": "190 Tafts Avenue",
                 "city": "Winthrop",
@@ -36944,6 +37178,7 @@
             },
             "properties": {
                 "name": "Roxbury Community College Solar Canopy Lot",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325246,
                 "street_address": "1234 Columbus Avenue",
                 "city": "Boston",
@@ -36962,6 +37197,7 @@
             },
             "properties": {
                 "name": "MBTA Woodland Station Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325247,
                 "street_address": "1940 Washington Street",
                 "city": "Newton",
@@ -36980,6 +37216,7 @@
             },
             "properties": {
                 "name": "Quinsigamond Community College Lot 2",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325248,
                 "street_address": "670 W Boylston Street",
                 "city": "Worcester",
@@ -36998,6 +37235,7 @@
             },
             "properties": {
                 "name": "Boston Convention and Exhibition Center Garage",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325249,
                 "street_address": "415 Summer Street",
                 "city": "Boston",
@@ -37188,6 +37426,7 @@
             },
             "properties": {
                 "name": "Bedford Police Station",
+                "network": "NON_NETWORKED",
                 "nrel_id": 325549,
                 "street_address": "2 Mudge Way",
                 "city": "Bedford",
@@ -38065,6 +38304,7 @@
             },
             "properties": {
                 "name": "Perley School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 329860,
                 "street_address": "51 North Street",
                 "city": "Georgetown",
@@ -38103,6 +38343,7 @@
             },
             "properties": {
                 "name": "Sudbury Department of Public Works",
+                "network": "NON_NETWORKED",
                 "nrel_id": 330031,
                 "street_address": "275 Old Lancaster Road",
                 "city": "Sudbury",
@@ -38121,6 +38362,7 @@
             },
             "properties": {
                 "name": "Sudbury Police Department",
+                "network": "NON_NETWORKED",
                 "nrel_id": 330032,
                 "street_address": "75 Hudson Road",
                 "city": "Sudbury",
@@ -38499,6 +38741,7 @@
             },
             "properties": {
                 "name": "Pleasant Street School",
+                "network": "NON_NETWORKED",
                 "nrel_id": 330960,
                 "street_address": "1060 Pleasant Street",
                 "city": "Athol",
@@ -38517,6 +38760,7 @@
             },
             "properties": {
                 "name": "Gardner Department of Public Works",
+                "network": "NON_NETWORKED",
                 "nrel_id": 331147,
                 "street_address": "50 Manca Drive",
                 "city": "Gardner",
@@ -39052,6 +39296,7 @@
             },
             "properties": {
                 "name": "Autel - Charlton Service Plaza Eastbound",
+                "network": "NON_NETWORKED",
                 "nrel_id": 333461,
                 "street_address": "80 Massachusetts Turnpike",
                 "city": "Charlton",
@@ -39070,6 +39315,7 @@
             },
             "properties": {
                 "name": "Autel - Lee Service Plaza Westbound",
+                "network": "NON_NETWORKED",
                 "nrel_id": 333462,
                 "street_address": "Massachusetts Turnpike",
                 "city": "Lee",
@@ -39088,6 +39334,7 @@
             },
             "properties": {
                 "name": "Autel - Framingham Rest Stop Westbound",
+                "network": "NON_NETWORKED",
                 "nrel_id": 333463,
                 "street_address": "114 Massachusetts Turnpike",
                 "city": "Framingham",
@@ -39206,6 +39453,7 @@
             },
             "properties": {
                 "name": "Autel - Charlton Service Plaza Eastbound",
+                "network": "NON_NETWORKED",
                 "nrel_id": 333714,
                 "street_address": "80 Massachusetts Turnpike",
                 "city": "Charlton",
@@ -39224,6 +39472,7 @@
             },
             "properties": {
                 "name": "Autel - Natick Service Plaza Eastbound",
+                "network": "NON_NETWORKED",
                 "nrel_id": 333715,
                 "street_address": "117 Massachusetts Turnpike",
                 "city": "Natick",
@@ -39242,6 +39491,7 @@
             },
             "properties": {
                 "name": "Autel - Lee Service Plaza Eastbound",
+                "network": "NON_NETWORKED",
                 "nrel_id": 333716,
                 "street_address": "Massachusetts Turnpike",
                 "city": "Lee",
@@ -41912,19 +42162,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.447926,
-                    42.555024
-                ]
-            },
-            "properties": {
-                "osm_id": 2732723645
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.136466,
                     42.554406
                 ]
@@ -42025,6 +42262,7 @@
                 ]
             },
             "properties": {
+                "network": "CHARGEPOINT",
                 "osm_id": 4747126524
             }
         },
@@ -42210,20 +42448,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.061975,
-                    42.365842
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 7824938353
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -69.989725,
                     41.91679
                 ]
@@ -42231,19 +42455,6 @@
             "properties": {
                 "network": "TESLA_DESTINATION",
                 "osm_id": 8215409192
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.13279,
-                    42.389204
-                ]
-            },
-            "properties": {
-                "osm_id": 8406082633
             }
         },
         {
@@ -42486,20 +42697,8 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 9758293478
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.09478,
-                    42.379706
-                ]
-            },
-            "properties": {
-                "osm_id": 9784274030
             }
         },
         {
@@ -42552,19 +42751,6 @@
             },
             "properties": {
                 "osm_id": 9970059696
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.072216,
-                    42.426474
-                ]
-            },
-            "properties": {
-                "osm_id": 9994959784
             }
         },
         {
@@ -43166,6 +43352,7 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 11952490213
             }
         },
@@ -43193,6 +43380,7 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 11952490215
             }
         },
@@ -43206,6 +43394,7 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 11952518225
             }
         },
@@ -43256,6 +43445,20 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.063029,
+                    42.365935
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": 12081492885
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.818651,
                     42.590055
                 ]
@@ -43275,6 +43478,7 @@
                 ]
             },
             "properties": {
+                "network": "AMPUP",
                 "osm_id": 1215687168
             }
         },

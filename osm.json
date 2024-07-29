@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-29T18:16:30Z",
-    "timestamp_areas_base": "2024-07-29T12:17:45Z",
+    "timestamp_osm_base": "2024-07-29T21:23:28Z",
+    "timestamp_areas_base": "2024-07-29T17:17:56Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -22,7 +22,15 @@
       "lat": 42.5550240,
       "lon": -71.4479260,
       "tags": {
-        "amenity": "charging_station"
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
@@ -160,8 +168,15 @@
       "lat": 42.4850838,
       "lon": -71.2096350,
       "tags": {
+        "access": "yes",
         "amenity": "charging_station",
-        "operator": "Regus"
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "5",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
@@ -1052,8 +1067,8 @@
     {
       "type": "node",
       "id": 7824938353,
-      "lat": 42.3658422,
-      "lon": -71.0619745,
+      "lat": 42.3658481,
+      "lon": -71.0631842,
       "tags": {
         "access": "yes",
         "addr:city": "Boston",
@@ -1061,22 +1076,24 @@
         "addr:postcode": "02114",
         "addr:state": "MA",
         "addr:street": "Nashua Street",
-        "addr:unit": "P1;P3",
+        "addr:unit": "P3",
         "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
-        "capacity": "7",
+        "capacity": "12",
         "covered": "yes",
         "fee": "no",
-        "level": "-3;-1",
+        "level": "-3",
         "location": "underground",
         "name": "ChargePoint",
         "opening_hours": "24/7",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "operator:wikipedia": "en:ChargePoint",
+        "parking:fee": "yes",
         "parking_space": "charging",
         "phone": "+1-888-758-4389",
+        "socket:type1_cable": "12",
         "website": "https://www.chargepoint.com/"
       }
     },
@@ -1214,11 +1231,20 @@
     {
       "type": "node",
       "id": 8406082633,
-      "lat": 42.3892045,
-      "lon": -71.1327904,
+      "lat": 42.3891656,
+      "lon": -71.1327509,
       "tags": {
+        "access": "yes",
         "amenity": "charging_station",
-        "capacity": "2"
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -2137,11 +2163,18 @@
     {
       "type": "node",
       "id": 9784274030,
-      "lat": 42.3797064,
-      "lon": -71.0947801,
+      "lat": 42.3797113,
+      "lon": -71.0947782,
       "tags": {
+        "access": "yes",
         "amenity": "charging_station",
-        "capacity": "2"
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
@@ -2703,7 +2736,15 @@
       "lat": 42.4264744,
       "lon": -71.0722163,
       "tags": {
-        "amenity": "charging_station"
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
@@ -7178,6 +7219,33 @@
       }
     },
     {
+      "type": "node",
+      "id": 12081492885,
+      "lat": 42.3659350,
+      "lon": -71.0630295,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Boston",
+        "addr:housenumber": "1",
+        "addr:postcode": "02114",
+        "addr:state": "MA",
+        "addr:street": "Nashua Street",
+        "addr:unit": "P1",
+        "amenity": "charging_station",
+        "brand": "JuiceBar",
+        "capacity": "8",
+        "covered": "yes",
+        "fee": "no",
+        "level": "-1",
+        "location": "underground",
+        "no:network": "yes",
+        "opening_hours": "24/7",
+        "operator": "National Grid",
+        "parking:fee": "yes",
+        "socket:type1_cable": "8"
+      }
+    },
+    {
       "type": "way",
       "id": 954423391,
       "bounds": {
@@ -7423,10 +7491,13 @@
         }
       ],
       "tags": {
+        "access": "private",
         "amenity": "charging_station",
-        "capacity": "8",
+        "capacity": "10",
+        "fee": "yes",
         "level": "1",
-        "motorcar": "yes"
+        "motorcar": "yes",
+        "network": "AmpUp"
       }
     },
     {

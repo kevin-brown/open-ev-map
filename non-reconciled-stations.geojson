@@ -6,19 +6,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.821832,
-                    42.252075
-                ]
-            },
-            "properties": {
-                "osm_id": 1037916734
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.136466,
                     42.554406
                 ]
@@ -156,32 +143,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.352865,
-                    42.299554
-                ]
-            },
-            "properties": {
-                "osm_id": 5503840130
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.350175,
-                    42.299313
-                ]
-            },
-            "properties": {
-                "osm_id": 5503840131
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.911928,
                     42.846747
                 ]
@@ -229,19 +190,6 @@
             },
             "properties": {
                 "osm_id": 6779688037
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.012764,
-                    42.136247
-                ]
-            },
-            "properties": {
-                "osm_id": 6967179356
             }
         },
         {
@@ -327,45 +275,6 @@
                 "name": "Devens Sherman Square",
                 "network": "CHARGEPOINT",
                 "osm_id": 8500362486
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.694434,
-                    42.365961
-                ]
-            },
-            "properties": {
-                "osm_id": 8567261202
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.694672,
-                    42.369185
-                ]
-            },
-            "properties": {
-                "osm_id": 8567318223
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.631807,
-                    42.317085
-                ]
-            },
-            "properties": {
-                "osm_id": 8567379541
             }
         },
         {
@@ -481,20 +390,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.63446,
-                    42.448816
-                ]
-            },
-            "properties": {
-                "name": "EV Charging Station",
-                "osm_id": 9319353077
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.808675,
                     42.790091
                 ]
@@ -523,98 +418,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.183661,
-                    42.4021
-                ]
-            },
-            "properties": {
-                "osm_id": 9587696282
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.120426,
-                    42.307143
-                ]
-            },
-            "properties": {
-                "osm_id": 9758293477
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.120374,
-                    42.307178
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": 9758293478
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.904712,
-                    42.4556
-                ]
-            },
-            "properties": {
-                "osm_id": 9793281675
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.969459,
-                    42.134332
-                ]
-            },
-            "properties": {
-                "osm_id": 9925398365
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.511905,
-                    42.214982
-                ]
-            },
-            "properties": {
-                "osm_id": 9970059695
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.511905,
-                    42.214933
-                ]
-            },
-            "properties": {
-                "osm_id": 9970059696
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.791077,
                     42.326548
                 ]
@@ -622,20 +425,6 @@
             "properties": {
                 "network": "VOLTA",
                 "osm_id": 10087702389
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.238652,
-                    42.369819
-                ]
-            },
-            "properties": {
-                "name": "Walnut Street Lot Charging Station",
-                "osm_id": 10087776655
             }
         },
         {
@@ -874,34 +663,6 @@
             "properties": {
                 "network": "AMPUP",
                 "osm_id": 10991298174
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.237892,
-                    42.370971
-                ]
-            },
-            "properties": {
-                "name": "Crescent Street Lot Charging Station",
-                "osm_id": 10991334434
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.236569,
-                    42.376879
-                ]
-            },
-            "properties": {
-                "name": "Central Parking Lot Charging Station",
-                "osm_id": 10991334435
             }
         },
         {
@@ -1204,20 +965,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.196419,
-                    42.169582
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": 11952490213
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.196095,
                     42.16912
                 ]
@@ -1225,34 +972,6 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 11952490214
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.196049,
-                    42.169079
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": 11952490215
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.187326,
-                    42.198774
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": 11952518225
             }
         },
         {
@@ -1282,33 +1001,6 @@
                 "name": "Quick Chevrolet - Service Charger",
                 "network": "CHARGEPOINT",
                 "osm_id": 11976450688
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.114553,
-                    42.700915
-                ]
-            },
-            "properties": {
-                "osm_id": 12047625803
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.063029,
-                    42.365935
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": 12081492885
             }
         },
         {

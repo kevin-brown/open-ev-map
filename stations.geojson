@@ -4051,6 +4051,7 @@
             "properties": {
                 "name": "TOWN COMMON CITY HALL 1",
                 "network": "CHARGEPOINT",
+                "osm_id": 9925398365,
                 "nrel_id": 117526,
                 "network_id": "USCPIL733221",
                 "street_address": "37 Main Street",
@@ -6470,6 +6471,7 @@
             "properties": {
                 "name": "Tree House Brewing Company - Tesla Destination",
                 "network": "TESLA_DESTINATION",
+                "osm_id": 6967179356,
                 "nrel_id": 150652,
                 "network_id": "511282",
                 "street_address": "129 Sturbridge Road",
@@ -17229,6 +17231,7 @@
             "properties": {
                 "name": "MASS MOCA MASS MOCA 1;MASS MOCA MASS MOCA 2;MASS MOCA MASS MOCA 3;MASS MOCA MASS MOCA 4",
                 "network": "CHARGEPOINT",
+                "osm_id": 12047625803,
                 "nrel_id": 189831,
                 "network_id": "USCPIL7372291;USCPIL7372321;USCPIL7372331;USCPIL13201141",
                 "street_address": "1311 Mass MoCA Way",
@@ -17570,6 +17573,7 @@
             "properties": {
                 "name": "DPW DPW YARD",
                 "network": "CHARGEPOINT",
+                "osm_id": 9319353077,
                 "nrel_id": 191444,
                 "network_id": "USCPIL8172371",
                 "street_address": "12 Forbush Mill Road",
@@ -22634,6 +22638,7 @@
             "properties": {
                 "name": "CLARK U 151 WOODLAND",
                 "network": "CHARGEPOINT",
+                "osm_id": 1037916734,
                 "nrel_id": 213820,
                 "network_id": "USCPIL705061",
                 "street_address": "22 Downing Street",
@@ -23440,6 +23445,7 @@
             "properties": {
                 "name": "NORTHAMPTON CRAFTS AVENUE",
                 "network": "CHARGEPOINT",
+                "osm_id": 8567379541,
                 "nrel_id": 218969,
                 "network_id": "USCPIL12799251",
                 "street_address": "65 Crafts Avenue",
@@ -42149,19 +42155,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.821832,
-                    42.252075
-                ]
-            },
-            "properties": {
-                "osm_id": 1037916734
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.136466,
                     42.554406
                 ]
@@ -42304,6 +42297,7 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 5503840130
             }
         },
@@ -42317,6 +42311,7 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 5503840131
             }
         },
@@ -42372,19 +42367,6 @@
             },
             "properties": {
                 "osm_id": 6779688037
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.012764,
-                    42.136247
-                ]
-            },
-            "properties": {
-                "osm_id": 6967179356
             }
         },
         {
@@ -42477,11 +42459,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.694434,
-                    42.365961
+                    -72.694444,
+                    42.365968
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 8567261202
             }
         },
@@ -42495,20 +42478,8 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 8567318223
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.631807,
-                    42.317085
-                ]
-            },
-            "properties": {
-                "osm_id": 8567379541
             }
         },
         {
@@ -42624,20 +42595,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.63446,
-                    42.448816
-                ]
-            },
-            "properties": {
-                "name": "EV Charging Station",
-                "osm_id": 9319353077
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.808675,
                     42.790091
                 ]
@@ -42671,6 +42628,7 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 9587696282
             }
         },
@@ -42679,78 +42637,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.120426,
-                    42.307143
-                ]
-            },
-            "properties": {
-                "osm_id": 9758293477
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.120374,
-                    42.307178
+                    -71.904715,
+                    42.455606
                 ]
             },
             "properties": {
                 "network": "NON_NETWORKED",
-                "osm_id": 9758293478
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.904712,
-                    42.4556
-                ]
-            },
-            "properties": {
                 "osm_id": 9793281675
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.969459,
-                    42.134332
-                ]
-            },
-            "properties": {
-                "osm_id": 9925398365
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.511905,
-                    42.214982
-                ]
-            },
-            "properties": {
-                "osm_id": 9970059695
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.511905,
-                    42.214933
-                ]
-            },
-            "properties": {
-                "osm_id": 9970059696
             }
         },
         {
@@ -42772,12 +42665,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.238652,
-                    42.369819
+                    -71.238656,
+                    42.369822
                 ]
             },
             "properties": {
                 "name": "Walnut Street Lot Charging Station",
+                "network": "NON_NETWORKED",
                 "osm_id": 10087776655
             }
         },
@@ -43030,6 +42924,7 @@
             },
             "properties": {
                 "name": "Crescent Street Lot Charging Station",
+                "network": "NON_NETWORKED",
                 "osm_id": 10991334434
             }
         },
@@ -43044,6 +42939,7 @@
             },
             "properties": {
                 "name": "Central Parking Lot Charging Station",
+                "network": "NON_NETWORKED",
                 "osm_id": 10991334435
             }
         },
@@ -43432,19 +43328,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.114553,
-                    42.700915
-                ]
-            },
-            "properties": {
-                "osm_id": 12047625803
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.063029,
                     42.365935
                 ]
@@ -43522,6 +43405,34 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 1301016160
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.120366,
+                    42.307138
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": 1304537856
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.511873,
+                    42.214957
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": 1304537857
             }
         },
         {

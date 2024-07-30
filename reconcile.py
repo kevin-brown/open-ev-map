@@ -661,7 +661,7 @@ for station in combined_data:
     )
     station_features["features"].append(station_feature)
 
-    if not station.nrel_id and station.osm_id:
+    if not station.nrel_id and station.osm_id and station.network is not ChargingNetwork.NON_NETWORKED:
         non_reconciled_station_features["features"].append(station_feature)
 
 with open("stations.geojson", "w") as stations_fh:

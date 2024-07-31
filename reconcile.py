@@ -656,6 +656,11 @@ for station in combined_data:
     if station.zip_code:
         station_properties["zip_code"] = station.zip_code
 
+    if station.charging_points:
+        station_properties["charging_points:count"] = len(station.charging_points)
+        station_properties["charging_points:capacity"] = ";".join(str(len(charging_point.charging_port_groups)) for charging_point in station.charging_points)
+        station_properties["charging_points:plugs_count"] = ";".join(str(sum(len(port_groups.charging_ports) for port_groups in charging_point.charging_port_groups)) for charging_point in station.charging_points)
+
     station_feature = geojson.Feature(
         geometry=station_point,
         properties=station_properties,

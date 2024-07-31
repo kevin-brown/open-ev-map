@@ -9563,26 +9563,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.164926,
-                    42.698111
-                ]
-            },
-            "properties": {
-                "name": "WX EXP STATN WALL LAB 1",
-                "network": "CHARGEPOINT",
-                "nrel_id": 161884,
-                "network_id": "USCPIL158149",
-                "street_address": "19-99 Shattuck Street",
-                "city": "Lawrence",
-                "state": "MA",
-                "zip_code": "01843"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.168664,
                     42.337087
                 ]
@@ -18647,26 +18627,6 @@
                 "city": "New Bedford",
                 "state": "MA",
                 "zip_code": "02740"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.008912,
-                    41.903451
-                ]
-            },
-            "properties": {
-                "name": "MASTRIA KIA MASTRIA KIA S",
-                "network": "CHARGEPOINT",
-                "nrel_id": 195104,
-                "network_id": "USCPIL9434971",
-                "street_address": "1555 US-44",
-                "city": "Raynham",
-                "state": "MA",
-                "zip_code": "02767"
             }
         },
         {
@@ -41261,26 +41221,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.439982,
-                    42.299117
-                ]
-            },
-            "properties": {
-                "name": "FSU SALEM END FSU SALEM END 1;FSU SALEM END FSU SALEM END 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": 348923,
-                "network_id": "USCPIL15966631;USCPIL15966641",
-                "street_address": "23 Salem End Road",
-                "city": "Framingham",
-                "state": "MA",
-                "zip_code": "01702"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.08332,
                     42.349644
                 ]
@@ -41824,10 +41764,10 @@
                 ]
             },
             "properties": {
-                "name": "BOYLSTON P1-101;BOYLSTON P1-102;BOYLSTON P1-103",
+                "name": "BOYLSTON P1-101;BOYLSTON P1-102;BOYLSTON P1-103;BOYLSTON P1-104",
                 "network": "CHARGEPOINT",
                 "nrel_id": 350496,
-                "network_id": "USCPIL15438261;USCPIL15438631;USCPIL15908031",
+                "network_id": "USCPIL15438261;USCPIL15438631;USCPIL15908031;USCPIL15438291",
                 "street_address": "1001 Boylston Street",
                 "city": "Boston",
                 "state": "MA",

@@ -402,6 +402,7 @@ def osm_parse_charging_station(osm_element) -> Station:
     }
 
     OSM_BRAND_NAME_NETWORK_MAP = {
+        "ABB": None, # Non-networked
         "ChargePoint": ChargingNetwork.CHARGEPOINT,
         "Enel": ChargingNetwork.ENEL_X,
         "Tesla, Inc.": None, # Ambiguous

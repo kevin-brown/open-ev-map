@@ -4353,7 +4353,7 @@
             "properties": {
                 "name": "PB Boulangerie Bistro - Tesla Destination",
                 "network": "TESLA_DESTINATION",
-                "osm_id": 8215409191,
+                "osm_id": 1304717673,
                 "nrel_id": 122445,
                 "network_id": "513210",
                 "street_address": "15 Lecount Hollow Road",
@@ -9063,6 +9063,7 @@
             "properties": {
                 "name": "WHOLE FOODS MKT LYNN ST1",
                 "network": "CHARGEPOINT",
+                "osm_id": 4228069916,
                 "nrel_id": 161845,
                 "network_id": "USCPIL188691",
                 "street_address": "1224-1304 Market Street",
@@ -9832,7 +9833,7 @@
             "properties": {
                 "name": "UMASS LOWELL SALEM STREET",
                 "network": "CHARGEPOINT",
-                "osm_id": 6847575455,
+                "osm_id": 6779688037,
                 "nrel_id": 161904,
                 "network_id": "USCPIL143071",
                 "street_address": "288-298 Salem Street",
@@ -11124,6 +11125,7 @@
             "properties": {
                 "name": "UMASS LOWELL PAWTUCKET ST",
                 "network": "CHARGEPOINT",
+                "osm_id": 6847575455,
                 "nrel_id": 161991,
                 "network_id": "USCPIL112373",
                 "street_address": "233 Pawtucket Street",
@@ -19078,11 +19080,11 @@
                 ]
             },
             "properties": {
-                "name": "BEDFORD-EVS TOWN HALL 2021",
+                "name": "BEDFORD-EVS TOWN HALL '19-1;BEDFORD-EVS TOWN HALL '19-2;BEDFORD-EVS TOWN HALL 2021",
                 "network": "CHARGEPOINT",
                 "osm_id": 11826771129,
                 "nrel_id": 196433,
-                "network_id": "USCPIL9647031",
+                "network_id": "USCPIL9647031;USCPIL802841;USCPIL819561",
                 "street_address": "10 Mudge Way",
                 "city": "Bedford",
                 "state": "MA",
@@ -19262,7 +19264,7 @@
             "properties": {
                 "name": "RK Stop & Shop (Walpole)",
                 "network": "VOLTA",
-                "osm_id": 11262957165,
+                "osm_id": 1304749833,
                 "nrel_id": 197431,
                 "network_id": "b60db3e3-329f-43d2-bf0d-7eaec439b3da",
                 "street_address": "565 Main Street)",
@@ -20045,6 +20047,7 @@
             "properties": {
                 "name": "CBI BARS INN ST1;CBI BARS INN ST2",
                 "network": "CHARGEPOINT",
+                "osm_id": 3644400923,
                 "nrel_id": 201899,
                 "network_id": "USCPIL11493611;USCPIL11675551",
                 "street_address": "297 Shore Road",
@@ -21169,7 +21172,7 @@
             "properties": {
                 "name": "Stop & Shop #085 - Worcester",
                 "network": "VOLTA",
-                "osm_id": 10087702388,
+                "osm_id": 17891285,
                 "nrel_id": 204840,
                 "network_id": "2da669ec-e3e4-4b9d-be6f-2c5206bacb21",
                 "street_address": "940 West Boylston Street",
@@ -36013,7 +36016,7 @@
                 ]
             },
             "properties": {
-                "name": "Six Flags Entertainment Corporation Six Flags New England 1623 Main Street Far West Parking Lot",
+                "name": "Six Flags New England Far West Parking Lot",
                 "network": "VOLTA",
                 "nrel_id": 323383,
                 "network_id": "e30d9c1a-1137-49ca-ac8c-cc72b5ac84d8",
@@ -41636,27 +41639,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.281342,
-                    42.491772
-                ]
-            },
-            "properties": {
-                "name": "BEDFORD-EVS TOWN HALL '19-1;BEDFORD-EVS TOWN HALL '19-2",
-                "network": "CHARGEPOINT",
-                "osm_id": 11826771130,
-                "nrel_id": 349932,
-                "network_id": "USCPIL802841;USCPIL819561",
-                "street_address": "12 Mudge Way",
-                "city": "Bedford",
-                "state": "MA",
-                "zip_code": "01730"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.188276,
                     41.666181
                 ]
@@ -41937,6 +41919,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.035032,
+                    42.346568
+                ]
+            },
+            "properties": {
+                "name": "City of Boston - V1 Parking Garage",
+                "network": "ABM",
+                "nrel_id": 350789,
+                "network_id": "669937fa02b3e3403d213690",
+                "street_address": "304 Northern Avenue",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02210"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.062885,
                     42.158782
                 ]
@@ -42155,12 +42157,91 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.863117,
+                    42.058738
+                ]
+            },
+            "properties": {
+                "name": "Place Motor Ford",
+                "network": "RED_E",
+                "nrel_id": 351683,
+                "street_address": "19 Thompson Road",
+                "city": "Webster",
+                "state": "MA",
+                "zip_code": "01570"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.381941,
+                    42.079546
+                ]
+            },
+            "properties": {
+                "name": "340 East Central Street",
+                "network": "BLINK",
+                "nrel_id": 351716,
+                "network_id": "8a1df492-36b1-4a48-a4a0-87592b73fef1",
+                "street_address": "1 Newell Drive",
+                "city": "Franklin",
+                "state": "MA",
+                "zip_code": "02038"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.635709,
+                    42.329407
+                ]
+            },
+            "properties": {
+                "name": "S&S #787 - Northampton, Kingsgate Plaza Shopping Center",
+                "network": "VOLTA",
+                "nrel_id": 351760,
+                "network_id": "68049777-8a54-4a46-bc37-8172e6162378",
+                "street_address": "228 King Street",
+                "city": "Northampton",
+                "state": "MA",
+                "zip_code": "01060"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.236866,
+                    42.032499
+                ]
+            },
+            "properties": {
+                "name": "Stop & Shop 377 Chauncy Street",
+                "network": "VOLTA",
+                "nrel_id": 351764,
+                "network_id": "9772f7d1-9e30-4dca-95f5-3de6875611f5",
+                "street_address": "377 Chauncy Street",
+                "city": "Mansfield",
+                "state": "MA",
+                "zip_code": "02048"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.136466,
                     42.554406
                 ]
             },
             "properties": {
-                "name": "Electric Car Charger",
+                "network": "CHARGEPOINT",
                 "osm_id": 3289222573
             }
         },
@@ -42169,24 +42250,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -69.952969,
-                    41.684798
+                    -70.299414,
+                    41.664148
                 ]
             },
             "properties": {
-                "osm_id": 3644400923
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.299384,
-                    41.664154
-                ]
-            },
-            "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 3644487244
             }
         },
@@ -42214,6 +42283,7 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 3644510079
             }
         },
@@ -42230,19 +42300,6 @@
                 "name": "EVgo",
                 "network": "EVGO",
                 "osm_id": 3732553898
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.031743,
-                    42.514086
-                ]
-            },
-            "properties": {
-                "osm_id": 4228069916
             }
         },
         {
@@ -42334,11 +42391,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.662882,
-                    42.613744
+                    -70.662619,
+                    42.61378
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 6321830139
             }
         },
@@ -42354,19 +42412,6 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 6556400189
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.324555,
-                    42.649801
-                ]
-            },
-            "properties": {
-                "osm_id": 6779688037
             }
         },
         {
@@ -42423,20 +42468,6 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 7818394276
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -69.989725,
-                    41.91679
-                ]
-            },
-            "properties": {
-                "network": "TESLA_DESTINATION",
-                "osm_id": 8215409192
             }
         },
         {
@@ -42515,63 +42546,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.159832,
-                    42.741029
-                ]
-            },
-            "properties": {
-                "osm_id": 8710873598
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.159837,
-                    42.741005
-                ]
-            },
-            "properties": {
-                "osm_id": 8710873599
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.159841,
-                    42.74098
-                ]
-            },
-            "properties": {
-                "osm_id": 8710873600
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.159842,
-                    42.740954
-                ]
-            },
-            "properties": {
-                "osm_id": 8710873601
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.603894,
                     41.548298
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 8988028759
             }
         },
@@ -42644,20 +42624,6 @@
             "properties": {
                 "network": "NON_NETWORKED",
                 "osm_id": 9793281675
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.791077,
-                    42.326548
-                ]
-            },
-            "properties": {
-                "network": "VOLTA",
-                "osm_id": 10087702389
             }
         },
         {
@@ -42820,76 +42786,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.271844,
-                    42.086463
-                ]
-            },
-            "properties": {
-                "network": "ENEL_X",
-                "osm_id": 10671581330
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.271864,
-                    42.086512
-                ]
-            },
-            "properties": {
-                "network": "ENEL_X",
-                "osm_id": 10671581331
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.271884,
-                    42.08656
-                ]
-            },
-            "properties": {
-                "network": "ENEL_X",
-                "osm_id": 10671581332
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.271903,
-                    42.086607
-                ]
-            },
-            "properties": {
-                "network": "ENEL_X",
-                "osm_id": 10671581333
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.271923,
-                    42.086656
-                ]
-            },
-            "properties": {
-                "network": "ENEL_X",
-                "osm_id": 10671581334
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.394243,
                     42.456869
                 ]
@@ -42953,21 +42849,8 @@
                 ]
             },
             "properties": {
+                "network": "NON_NETWORKED",
                 "osm_id": 11048226590
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.241959,
-                    42.157166
-                ]
-            },
-            "properties": {
-                "network": "VOLTA",
-                "osm_id": 11262957166
             }
         },
         {
@@ -43101,20 +42984,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.241971,
-                    42.157162
-                ]
-            },
-            "properties": {
-                "network": "VOLTA",
-                "osm_id": 11512564176
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.285521,
                     42.492503
                 ]
@@ -43136,6 +43005,20 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 11826771124
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.281384,
+                    42.491562
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": 11826771130
             }
         },
         {
@@ -43433,6 +43316,104 @@
             "properties": {
                 "network": "NON_NETWORKED",
                 "osm_id": 1304537857
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.159872,
+                    42.741
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": 1304720180
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.271854,
+                    42.08657
+                ]
+            },
+            "properties": {
+                "network": "ENEL_X",
+                "osm_id": 1304749577
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.262418,
+                    42.094949
+                ]
+            },
+            "properties": {
+                "network": "ENEL_X",
+                "osm_id": 1304749578
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.263468,
+                    42.094759
+                ]
+            },
+            "properties": {
+                "network": "ENEL_X",
+                "osm_id": 1304749579
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.267605,
+                    42.090639
+                ]
+            },
+            "properties": {
+                "network": "ENEL_X",
+                "osm_id": 1304749580
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.261927,
+                    42.09106
+                ]
+            },
+            "properties": {
+                "network": "ENEL_X",
+                "osm_id": 1304749581
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.262886,
+                    42.093581
+                ]
+            },
+            "properties": {
+                "network": "ENEL_X",
+                "osm_id": 17891343
             }
         },
         {

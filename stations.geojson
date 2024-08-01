@@ -10327,7 +10327,7 @@
                 ]
             },
             "properties": {
-                "name": "PILGRIM PARKING LAFAYETTE (1);PILGRIM PARKING LAFAYETTE (2)",
+                "name": "LAFAYETTE LAFAYETTE (1);LAFAYETTE LAFAYETTE (2)",
                 "network": "CHARGEPOINT",
                 "nrel_id": 161863,
                 "network_id": "USCPIL176319;USCPIL176215",
@@ -10864,7 +10864,7 @@
                 ]
             },
             "properties": {
-                "name": "PILGRIM PARKING 47 ERIE STREET",
+                "name": "ERIE 47 ERIE STREET",
                 "network": "CHARGEPOINT",
                 "nrel_id": 161898,
                 "network_id": "USCPIL148963",
@@ -11096,7 +11096,7 @@
                 ]
             },
             "properties": {
-                "name": "PILGRIM PARKING GREENWAY P1",
+                "name": "ONE GREENWAY GREENWAY P1",
                 "network": "CHARGEPOINT",
                 "nrel_id": 161912,
                 "network_id": "USCPIL127681",
@@ -12718,7 +12718,7 @@
                 ]
             },
             "properties": {
-                "name": "PILGRIM PARKING BINNEY GARAGE",
+                "name": "BINNEY BINNEY GARAGE",
                 "network": "CHARGEPOINT",
                 "nrel_id": 162021,
                 "network_id": "USCPIL98185",
@@ -13735,6 +13735,7 @@
             "properties": {
                 "name": "ENSATS ENSATS EV 3",
                 "network": "CHARGEPOINT",
+                "osm_id": 12086202745,
                 "nrel_id": 164448,
                 "network_id": "USCPIL5384671",
                 "street_address": "562 Maple Street",
@@ -15402,7 +15403,7 @@
                 ]
             },
             "properties": {
-                "name": "PILGRIM PARKING 650 KENDALL(P1)",
+                "name": "650 KENDALL 650 KENDALL(P1)",
                 "network": "CHARGEPOINT",
                 "nrel_id": 169876,
                 "network_id": "USCPIL5541181",
@@ -16372,7 +16373,7 @@
                 ]
             },
             "properties": {
-                "name": "PILGRIM PARKING 650 KENDALL (2)",
+                "name": "650 KENDALL 650 KENDALL (2)",
                 "network": "CHARGEPOINT",
                 "nrel_id": 171379,
                 "network_id": "USCPIL5603761",
@@ -24278,7 +24279,7 @@
                 ]
             },
             "properties": {
-                "name": "PILGRIM PARKING 350 KENDALL 2",
+                "name": "350 KENDALL ALL 350 KENDALL 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": 205618,
                 "network_id": "USCPIL12442081",
@@ -42801,8 +42802,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.386357,
-                    41.630419
+                    -70.383341,
+                    41.628349
                 ]
             },
             "properties": {
@@ -47173,6 +47174,75 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.756806,
+                    42.202417
+                ]
+            },
+            "properties": {
+                "name": "TOWN HALL LIBRARY #1;TOWN HALL LIBRARY #2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351913,
+                "network_id": "USCPIL16054241;USCPIL16054351",
+                "street_address": "85 Branch Street",
+                "city": "Scituate",
+                "state": "MA",
+                "zip_code": "02066",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.214313,
+                    42.367761
+                ]
+            },
+            "properties": {
+                "name": "625 Pleasant St",
+                "network": "EV_CONNECT",
+                "nrel_id": 351935,
+                "network_id": "04f0629a-a583-46f0-8eba-50e6432ac96f",
+                "street_address": "625 Pleasant Street",
+                "city": "Watertown",
+                "state": "MA",
+                "zip_code": "02472",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.691544,
+                    42.277687
+                ]
+            },
+            "properties": {
+                "name": "Cytiva EV Shrewsbury",
+                "network": "FLO",
+                "nrel_id": 351937,
+                "network_id": "1b0070e4-6d48-4021-8ff7-095901518116",
+                "street_address": "800 Turnpike Road",
+                "city": "Shrewsbury",
+                "state": "MA",
+                "zip_code": "01545",
+                "charging_points:count": 1,
+                "charging_points:capacity": "4",
+                "charging_points:plugs_count": "4"
             }
         },
         {

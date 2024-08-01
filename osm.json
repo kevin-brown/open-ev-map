@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-31T14:56:15Z",
-    "timestamp_areas_base": "2024-07-31T13:38:04Z",
+    "timestamp_osm_base": "2024-08-01T23:40:00Z",
+    "timestamp_areas_base": "2024-08-01T21:19:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7763,6 +7763,21 @@
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32",
         "socket:type1_cable:voltage": "200"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12086202745,
+      "lat": 42.5904749,
+      "lon": -70.9779742,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {

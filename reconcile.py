@@ -8,6 +8,16 @@ import geojson
 import json
 
 
+@dataclass(frozen=True)
+class Location:
+    latitude: int
+    longitude: int
+
+    @property
+    def coordinates(self):
+        return (self.latitude, self.longitude)
+
+
 class PlugType(enum.Enum):
     J1772 = enum.auto()
     J1772_SOCKET = enum.auto()
@@ -85,6 +95,12 @@ class SourcedAttribute[T]:
 
         return ";".join(raw_values)
 
+    def all(self) -> list[T]:
+        if not self.values:
+            return []
+
+        return [val.value for val in self.values]
+
     def extend(self, other: Self):
         self.values.update(other.values)
 
@@ -106,8 +122,7 @@ class ChargingPoint:
     charging_port_groups: list[ChargingPortGroup] = dataclasses.field(default_factory=list)
 
     name: str = ""
-    latitude: int = None
-    longitude: int = None
+    location: SourcedAttribute[Location] = dataclasses.field(default_factory=SourcedAttribute)
 
     osm_id: int = None
     nrel_id: int = None
@@ -121,8 +136,7 @@ class Station:
     name: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
     network: ChargingNetwork = None
 
-    latitude: int = None
-    longitude: int = None
+    location: SourcedAttribute[Location] = dataclasses.field(default_factory=SourcedAttribute)
     street_address: str = ""
     city: str = ""
     state: str = ""
@@ -131,6 +145,25 @@ class Station:
     osm_id: int = None
     nrel_id: int = None
     network_id: str = ""
+
+
+def get_station_distance(first_station: Station, second_station: Station) -> distance.Distance:
+    first_locations = first_station.location.all()
+    second_locations = second_station.location.all()
+
+    lowest_station_distance = 2 ** 8
+
+    for first_location in first_locations:
+        for second_location in second_locations:
+            first_coordinates = first_location.coordinates
+            second_coordinates = second_location.coordinates
+
+            station_distance = distance.great_circle(first_coordinates, second_coordinates)
+
+            if station_distance < lowest_station_distance:
+                lowest_station_distance = station_distance
+
+    return station_distance
 
 
 def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
@@ -142,8 +175,6 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
         if station.network != ChargingNetwork.CHARGEPOINT:
             cleaned_stations.append(station)
             continue
-
-        station_location = (station.latitude, station.longitude)
 
         duplicate = False
 
@@ -161,9 +192,7 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
             if station.street_address.lower() != other_station.street_address.lower():
                 continue
 
-            other_location = (other_station.latitude, other_station.longitude)
-
-            station_distance = distance.great_circle(station_location, other_location)
+            station_distance = get_station_distance(station, other_station)
 
             if station_distance.miles > 0.1:
                 continue
@@ -278,15 +307,15 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
             network=NREL_NETWORK_MAP[nrel_station["ev_network"]],
             nrel_id=nrel_station["id"],
 
-            latitude=nrel_station["latitude"],
-            longitude=nrel_station["longitude"],
-
             street_address=normalize_address_street_address(nrel_station["street_address"]),
             city=nrel_station["city"],
             state=nrel_station["state"],
             zip_code=nrel_station["zip"],
         )
+
         station.name.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["station_name"]))
+        station_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
+        station.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), station_location))
 
         charging_points = []
 
@@ -320,9 +349,9 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
                 nrel_id=station.nrel_id,
                 name=station.name.get(),
                 charging_port_groups=charging_port_groups,
-                latitude=nrel_station["latitude"],
-                longitude=nrel_station["longitude"],
             )
+            charging_point_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
+            charging_point.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), charging_point_location))
 
             charging_points.append(charging_point)
 
@@ -429,12 +458,15 @@ def osm_parse_charging_station(osm_element) -> Station:
     )
 
     if osm_element["type"] == "node":
-        station.latitude = osm_element["lat"]
-        station.longitude = osm_element["lon"]
+        station_location = Location(latitude=osm_element["lat"], longitude=osm_element["lon"])
+        station.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_location))
 
     if osm_element["type"] in ["way", "relation"]:
-        station.latitude = (osm_element["bounds"]["minlat"] + osm_element["bounds"]["maxlat"]) / 2
-        station.longitude = (osm_element["bounds"]["minlon"] + osm_element["bounds"]["maxlon"]) / 2
+        station_location = Location(
+            latitude=(osm_element["bounds"]["minlat"] + osm_element["bounds"]["maxlat"]) / 2,
+            longitude=(osm_element["bounds"]["minlon"] + osm_element["bounds"]["maxlon"]) / 2,
+        )
+        station.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_location))
 
     tags = osm_element["tags"]
 
@@ -503,8 +535,6 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
         if getattr(first_station, "duplicated", False):
             continue
 
-        first_location = (first_station.latitude, first_station.longitude)
-
         combined = False
 
         for second_station in tesla_stations:
@@ -514,9 +544,7 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
             if getattr(second_station, "duplicated", False):
                 continue
 
-            second_location = (second_station.latitude, second_station.longitude)
-
-            station_distance = distance.great_circle(first_location, second_location)
+            station_distance = get_station_distance(first_station, second_station)
 
             if station_distance.miles > 0.1:
                 continue
@@ -556,8 +584,6 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
         if getattr(first_station, "duplicated", False):
             continue
 
-        first_location = (first_station.latitude, first_station.longitude)
-
         combined = False
 
         for second_station in all_stations:
@@ -579,9 +605,7 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
             if first_station.network != second_station.network:
                 continue
 
-            second_location = (second_station.latitude, second_station.longitude)
-
-            station_distance = distance.great_circle(first_location, second_location)
+            station_distance = get_station_distance(first_station, second_station)
 
             if station_distance.miles > 0.05:
                 continue
@@ -630,8 +654,9 @@ station_features = geojson.FeatureCollection([])
 non_reconciled_station_features = geojson.FeatureCollection([])
 
 for station in combined_data:
+    station_location = station.location.get()
     station_point = geojson.Point(
-        coordinates=(station.longitude, station.latitude)
+        coordinates=(station_location.longitude, station_location.latitude),
     )
 
     station_properties = {}

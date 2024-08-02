@@ -805,7 +805,8 @@
                 "osm_id": 1288971321,
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2"
+                "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:plugs_type": "J1772_SOCKET"
             }
         },
         {
@@ -828,7 +829,8 @@
                 "osm_id": 1301016160,
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2"
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -863,7 +865,8 @@
                 "osm_id": 1304749577,
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2"
+                "charging_points:plugs_count": "2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -898,7 +901,8 @@
                 "osm_id": 1304749578,
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2"
+                "charging_points:plugs_count": "2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -933,7 +937,8 @@
                 "osm_id": 1304749579,
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2"
+                "charging_points:plugs_count": "2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -964,7 +969,8 @@
                 "osm_id": 1304749580,
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2"
+                "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -999,7 +1005,8 @@
                 "osm_id": 1304749581,
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2"
+                "charging_points:plugs_count": "2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {

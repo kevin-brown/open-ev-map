@@ -686,6 +686,14 @@ for station in combined_data:
         station_properties["charging_points:capacity"] = ";".join(str(len(charging_point.charging_port_groups)) for charging_point in station.charging_points)
         station_properties["charging_points:plugs_count"] = ";".join(str(sum(len(port_groups.charging_ports) for port_groups in charging_point.charging_port_groups)) for charging_point in station.charging_points)
 
+        charging_point_coordinates = [
+            (charging_pooint.location.get().longitude, charging_pooint.location.get().latitude)
+            for charging_pooint in station.charging_points
+        ]
+        station_point = geojson.MultiPoint(
+            coordinates=charging_point_coordinates,
+        )
+
     station_feature = geojson.Feature(
         geometry=station_point,
         properties=station_properties,

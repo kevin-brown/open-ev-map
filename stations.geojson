@@ -5040,7 +5040,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -6653,7 +6653,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "12",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -8723,7 +8723,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -9861,7 +9861,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -15835,7 +15835,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -16339,7 +16339,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -16508,7 +16508,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "12",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -16534,7 +16534,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -17181,7 +17181,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "8",
                 "charging_points:plugs_count": "16",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -18775,7 +18775,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -19394,7 +19394,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -19674,7 +19674,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -20386,7 +20386,7 @@
                 "charging_points:count": 3,
                 "charging_points:capacity": "1;1;1",
                 "charging_points:plugs_count": "2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -21137,7 +21137,7 @@
                 "charging_points:count": 3,
                 "charging_points:capacity": "2;2;1",
                 "charging_points:plugs_count": "2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO;J1772"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -21814,7 +21814,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -22791,7 +22791,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -25865,7 +25865,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -26880,7 +26880,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -26910,7 +26910,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -29193,7 +29193,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -29629,7 +29629,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -30137,7 +30137,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -31072,7 +31072,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -31252,7 +31252,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -33852,7 +33852,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -33912,7 +33912,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;2",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772;J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -34259,7 +34259,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "6",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35150,7 +35150,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35176,7 +35176,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35202,7 +35202,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35229,7 +35229,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35256,7 +35256,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35282,7 +35282,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35309,7 +35309,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35336,7 +35336,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35362,7 +35362,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35389,7 +35389,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35415,7 +35415,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35442,7 +35442,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35468,7 +35468,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35495,7 +35495,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "J1772_COMBO;J1772;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -35521,7 +35521,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35547,7 +35547,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35574,7 +35574,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -37321,7 +37321,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -37347,7 +37347,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -38593,7 +38593,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -38649,7 +38649,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -38679,7 +38679,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -38748,7 +38748,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -38800,7 +38800,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "6",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -38992,7 +38992,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -39101,7 +39101,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -39135,7 +39135,7 @@
                 "charging_points:count": 3,
                 "charging_points:capacity": "1;2;2",
                 "charging_points:plugs_count": "2;2;2",
-                "charging_points:plugs_type": "J1772;J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -39811,7 +39811,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -39838,7 +39838,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -40557,7 +40557,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -40583,7 +40583,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -40677,7 +40677,7 @@
                 "charging_points:count": 3,
                 "charging_points:capacity": "2;1;1",
                 "charging_points:plugs_count": "2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO;J1772"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -41263,7 +41263,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -41564,7 +41564,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -42038,7 +42038,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "6",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -43311,7 +43311,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -43462,7 +43462,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -43489,7 +43489,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -43515,7 +43515,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -43542,7 +43542,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -43569,7 +43569,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -43647,7 +43647,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -43673,7 +43673,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -43846,7 +43846,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -44557,7 +44557,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -44621,7 +44621,7 @@
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -45781,7 +45781,7 @@
                 "charging_points:count": 6,
                 "charging_points:capacity": "2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -45949,7 +45949,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -46027,7 +46027,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -46053,7 +46053,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -46150,7 +46150,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -46482,7 +46482,7 @@
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -46676,7 +46676,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -47262,7 +47262,7 @@
                 "charging_points:count": 6,
                 "charging_points:capacity": "2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -47820,7 +47820,7 @@
                 "charging_points:count": 7,
                 "charging_points:capacity": "1;1;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772;J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -47903,7 +47903,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -49022,7 +49022,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -49226,7 +49226,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -49304,7 +49304,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -50828,7 +50828,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -50880,7 +50880,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -51126,7 +51126,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -51256,7 +51256,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -51286,7 +51286,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -51558,7 +51558,7 @@
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -51792,7 +51792,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "12",
                 "charging_points:plugs_count": "24",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -51870,7 +51870,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -52697,7 +52697,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -52773,7 +52773,7 @@
                 "charging_points:count": 6,
                 "charging_points:capacity": "2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -52976,7 +52976,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -53026,7 +53026,7 @@
                 "charging_points:count": 7,
                 "charging_points:capacity": "1;1;1;1;1;1;1",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -53052,7 +53052,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -53310,7 +53310,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -53397,7 +53397,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -53836,7 +53836,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -54491,7 +54491,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -54817,7 +54817,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -55089,7 +55089,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -55460,7 +55460,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -56189,7 +56189,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -56686,7 +56686,7 @@
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
-                "charging_points:plugs_type": "J1772_COMBO;J1772"
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -56840,7 +56840,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -56866,7 +56866,7 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -57094,7 +57094,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -57124,7 +57124,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -57154,7 +57154,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO;CHADEMO"
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -57385,6 +57385,84 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "4",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.959744,
+                        41.985384
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BSU STATION 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": 351987,
+                "network_id": "USCPIL16052521",
+                "street_address": "200 Great Hill Drive",
+                "city": "Bridgewater",
+                "state": "MA",
+                "zip_code": "02325",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.484376,
+                        42.539615
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LELD PLAYGROUND",
+                "network": "CHARGEPOINT",
+                "nrel_id": 352018,
+                "network_id": "USCPIL16179121",
+                "street_address": "300 MA-110",
+                "city": "Littleton",
+                "state": "MA",
+                "zip_code": "01460",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.238338,
+                        41.861332
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Rehoboth Town Hall",
+                "network": "FLO",
+                "nrel_id": 352035,
+                "network_id": "09897d93-ef4a-4b2b-bc98-042047279d79",
+                "street_address": "340 Anawan Street",
+                "city": "Rehoboth",
+                "state": "MA",
+                "zip_code": "02769",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -58544,7 +58622,7 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "NACS;J1772"
+                "charging_points:plugs_type": "J1772;NACS"
             }
         },
         {

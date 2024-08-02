@@ -799,7 +799,7 @@ for station in combined_data:
                 for charging_port in charging_port_group.charging_ports:
                     plug_types.add(charging_port.plug.name)
 
-        station_properties["charging_points:plugs_type"] = ";".join(plug_types)
+        station_properties["charging_points:plugs_type"] = ";".join(sorted(plug_types))
 
         charging_point_coordinates = [
             (charging_point.location.get().longitude, charging_point.location.get().latitude)

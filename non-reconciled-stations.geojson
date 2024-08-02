@@ -780,99 +780,226 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.046935,
-                    42.16191
+                    [
+                        -71.046959,
+                        42.161823
+                    ],
+                    [
+                        -71.046969,
+                        42.161876
+                    ],
+                    [
+                        -71.046973,
+                        42.161929
+                    ],
+                    [
+                        -71.046983,
+                        42.16198
+                    ]
                 ]
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1288971321
+                "osm_id": 1288971321,
+                "charging_points:count": 4,
+                "charging_points:capacity": "0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.121896,
-                    42.228696
+                    [
+                        -71.121941,
+                        42.228723
+                    ],
+                    [
+                        -71.121919,
+                        42.228667
+                    ]
                 ]
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1301016160
+                "osm_id": 1301016160,
+                "charging_points:count": 2,
+                "charging_points:capacity": "0;0",
+                "charging_points:plugs_count": "0;0"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.271854,
-                    42.08657
+                    [
+                        -71.271844,
+                        42.086463
+                    ],
+                    [
+                        -71.271864,
+                        42.086512
+                    ],
+                    [
+                        -71.271884,
+                        42.08656
+                    ],
+                    [
+                        -71.271903,
+                        42.086607
+                    ],
+                    [
+                        -71.271923,
+                        42.086656
+                    ]
                 ]
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749577
+                "osm_id": 1304749577,
+                "charging_points:count": 5,
+                "charging_points:capacity": "0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.262418,
-                    42.094949
+                    [
+                        -71.262386,
+                        42.094962
+                    ],
+                    [
+                        -71.262324,
+                        42.094874
+                    ],
+                    [
+                        -71.262359,
+                        42.094919
+                    ],
+                    [
+                        -71.262421,
+                        42.095005
+                    ],
+                    [
+                        -71.262456,
+                        42.095045
+                    ]
                 ]
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749578
+                "osm_id": 1304749578,
+                "charging_points:count": 5,
+                "charging_points:capacity": "0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.263468,
-                    42.094759
+                    [
+                        -71.26352,
+                        42.094664
+                    ],
+                    [
+                        -71.26348,
+                        42.094704
+                    ],
+                    [
+                        -71.263442,
+                        42.094744
+                    ],
+                    [
+                        -71.263403,
+                        42.094785
+                    ],
+                    [
+                        -71.263363,
+                        42.094824
+                    ]
                 ]
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749579
+                "osm_id": 1304749579,
+                "charging_points:count": 5,
+                "charging_points:capacity": "0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.267605,
-                    42.090639
+                    [
+                        -71.267649,
+                        42.09062
+                    ],
+                    [
+                        -71.267625,
+                        42.090668
+                    ],
+                    [
+                        -71.2676,
+                        42.090717
+                    ],
+                    [
+                        -71.26767,
+                        42.09057
+                    ]
                 ]
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749580
+                "osm_id": 1304749580,
+                "charging_points:count": 4,
+                "charging_points:capacity": "0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.261927,
-                    42.09106
+                    [
+                        -71.261999,
+                        42.091039
+                    ],
+                    [
+                        -71.261933,
+                        42.091055
+                    ],
+                    [
+                        -71.261873,
+                        42.091068
+                    ],
+                    [
+                        -71.261975,
+                        42.091065
+                    ],
+                    [
+                        -71.261912,
+                        42.09108
+                    ]
                 ]
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749581
+                "osm_id": 1304749581,
+                "charging_points:count": 5,
+                "charging_points:capacity": "0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0"
             }
         },
         {

@@ -6,6 +6,7 @@ import dataclasses
 import enum
 import geojson
 import json
+import shapely
 
 
 @dataclass(frozen=True)
@@ -16,6 +17,10 @@ class Location:
     @property
     def coordinates(self):
         return (self.latitude, self.longitude)
+
+    @property
+    def point(self) -> shapely.Point:
+        return shapely.Point(self.latitude, self.longitude)
 
 
 class PlugType(enum.Enum):
@@ -511,14 +516,48 @@ def osm_parse_charging_station(osm_element) -> Station:
     return station
 
 
+def osm_parse_charging_station_bounds(osm_element) -> shapely.Polygon:
+    return shapely.box(
+        xmin=osm_element["bounds"]["minlat"],
+        xmax=osm_element["bounds"]["maxlat"],
+        ymin=osm_element["bounds"]["minlon"],
+        ymax=osm_element["bounds"]["maxlon"],
+    )
+
+
+def osm_parse_charging_point(osm_element) -> ChargingPoint:
+    charging_point = ChargingPoint()
+
+    charging_point_location = Location(latitude=osm_element["lat"], longitude=osm_element["lon"])
+    charging_point.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), charging_point_location))
+
+    return charging_point
+
+
 def normalize_osm_data(osm_raw_data) -> list[Station]:
-    stations = []
+    stations: dict[int, Station] = {}
+    station_boundaries: dict[int, shapely.Polygon] = {}
 
     for osm_element in osm_raw_data["elements"]:
-        if osm_element["tags"].get("amenity") == "charging_station":
-            stations.append(osm_parse_charging_station(osm_element))
+        if osm_element["tags"].get("amenity") != "charging_station":
+            continue
 
-    return stations
+        stations[osm_element["id"]] = osm_parse_charging_station(osm_element)
+
+        if osm_element["type"] == "way":
+            station_boundaries[osm_element["id"]] = osm_parse_charging_station_bounds(osm_element)
+
+    for osm_element in osm_raw_data["elements"]:
+        if osm_element["tags"].get("man_made") != "charge_point":
+            continue
+
+        charge_point = osm_parse_charging_point(osm_element)
+
+        for station_id, station_boundary in station_boundaries.items():
+            if shapely.contains(station_boundary, charge_point.location.get().point):
+                stations[station_id].charging_points.append(charge_point)
+
+    return stations.values()
 
 
 def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:

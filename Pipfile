@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 geopy = "*"
 geojson = "*"
+shapely = "*"
 
 [dev-packages]
 

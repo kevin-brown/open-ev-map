@@ -329,36 +329,37 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 
             charging_port_groups = []
 
-            for nrel_post_id in nrel_station["ev_network_ids"].get("posts", []):
-                charging_ports = []
+            if station.network not in [ChargingNetwork.TESLA_SUPERCHARGER, ChargingNetwork.TESLA_DESTINATION]:
+                for nrel_post_id in nrel_station["ev_network_ids"].get("posts", []):
+                    charging_ports = []
 
-                for nrel_plug_type in nrel_station["ev_connector_types"]:
-                    if nrel_plug_type not in NREL_PLUG_MAP:
-                        continue
+                    for nrel_plug_type in nrel_station["ev_connector_types"]:
+                        if nrel_plug_type not in NREL_PLUG_MAP:
+                            continue
 
-                    charging_port = ChargingPort(
-                        plug=NREL_PLUG_MAP[nrel_plug_type],
+                        charging_port = ChargingPort(
+                            plug=NREL_PLUG_MAP[nrel_plug_type],
+                        )
+
+                        charging_ports.append(charging_port)
+
+                    charging_port_group = ChargingPortGroup(
+                        network_id=nrel_post_id,
+                        charging_ports=charging_ports
                     )
 
-                    charging_ports.append(charging_port)
+                    charging_port_groups.append(charging_port_group)
 
-                charging_port_group = ChargingPortGroup(
-                    network_id=nrel_post_id,
-                    charging_ports=charging_ports
+                charging_point = ChargingPoint(
+                    network_id=station.network_id,
+                    nrel_id=station.nrel_id,
+                    name=station.name.get(),
+                    charging_port_groups=charging_port_groups,
                 )
+                charging_point_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
+                charging_point.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), charging_point_location))
 
-                charging_port_groups.append(charging_port_group)
-
-            charging_point = ChargingPoint(
-                network_id=station.network_id,
-                nrel_id=station.nrel_id,
-                name=station.name.get(),
-                charging_port_groups=charging_port_groups,
-            )
-            charging_point_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
-            charging_point.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), charging_point_location))
-
-            charging_points.append(charging_point)
+                charging_points.append(charging_point)
 
         station.charging_points = charging_points
 
@@ -526,16 +527,65 @@ def osm_parse_charging_station_bounds(osm_element) -> shapely.Polygon:
 
 
 def osm_parse_charging_point(osm_element) -> ChargingPoint:
-    charging_point = ChargingPoint()
+    OSM_SOCKETS_TO_PLUGS = {
+        "type1": PlugType.J1772_SOCKET,
+        "type1_cable": PlugType.J1772,
+        "type1_combo": PlugType.J1772_COMBO,
+        "chademo": PlugType.CHADEMO,
+        "tesla_destination": PlugType.NACS,
+        "tesla_supercharger": PlugType.NACS,
+    }
+
+    osm_tags = osm_element["tags"]
+
+    charging_point = ChargingPoint(
+        osm_id=osm_element["id"],
+    )
 
     charging_point_location = Location(latitude=osm_element["lat"], longitude=osm_element["lon"])
     charging_point.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), charging_point_location))
+
+    socket_counts: dict[str, int] = {}
+
+    for tag_name, tag_value in osm_tags.items():
+        if not tag_name.startswith("socket:"):
+            continue
+
+        if tag_name.count(":") > 1:
+            continue
+
+        _, socket_type = tag_name.split(":")
+
+        socket_counts[socket_type] = int(tag_value)
+
+    charging_point_capacity = int(osm_tags.get("capacity", 1))
+    charging_port_groups = []
+
+    if sum(socket_counts.values()) == charging_point_capacity:
+        for socket_type, socket_count in socket_counts.items():
+            for _ in range(socket_count):
+                charging_port_group = ChargingPortGroup(
+                    charging_ports=[ChargingPort(plug=OSM_SOCKETS_TO_PLUGS[socket_type])]
+                )
+                charging_port_groups.append(charging_port_group)
+    elif charging_point_capacity == 1 and socket_counts:
+        charging_port_group = ChargingPortGroup()
+
+        for socket_type in socket_counts.keys():
+            charging_port = ChargingPort(plug=OSM_SOCKETS_TO_PLUGS[socket_type])
+            charging_port_group.charging_ports.append(charging_port)
+
+        charging_port_groups.append(charging_port_group)
+
+    charging_point.charging_port_groups = charging_port_groups
 
     return charging_point
 
 
 def normalize_osm_data(osm_raw_data) -> list[Station]:
     stations: dict[int, Station] = {}
+
+    charge_points: dict[int, ChargingPoint] = {}
     station_boundaries: dict[int, shapely.Polygon] = {}
 
     for osm_element in osm_raw_data["elements"]:
@@ -556,6 +606,21 @@ def normalize_osm_data(osm_raw_data) -> list[Station]:
         for station_id, station_boundary in station_boundaries.items():
             if shapely.contains(station_boundary, charge_point.location.get().point):
                 stations[station_id].charging_points.append(charge_point)
+
+                break
+
+        charge_points[osm_element["id"]] = charge_point
+
+    for osm_element in osm_raw_data["elements"]:
+        if osm_element["tags"].get("amenity") != "charging_station":
+            continue
+
+        if osm_element["type"] != "relation":
+            continue
+
+        for osm_member in osm_element["members"]:
+            if osm_member["ref"] in charge_points:
+                stations[osm_element["id"]].charging_points.append(charge_points[osm_member["ref"]])
 
     return stations.values()
 
@@ -599,6 +664,8 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
 
             combined_station.name.extend(first_station.name)
             combined_station.name.extend(second_station.name)
+
+            combined_station.charging_points.extend(second_station.charging_points)
 
             combined_stations.append(combined_station)
         

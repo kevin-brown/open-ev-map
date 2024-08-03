@@ -132,6 +132,8 @@ class ChargingPoint:
 
     osm_id: int = None
     nrel_id: int = None
+    ocm_id: int = None
+
     network_id: str = ""
 
 
@@ -150,6 +152,8 @@ class Station:
 
     osm_id: int = None
     nrel_id: int = None
+    ocm_id: int = None
+
     network_id: str = ""
 
 
@@ -802,6 +806,8 @@ for station in combined_data:
         station_properties["osm_id"] = station.osm_id
     if station.nrel_id:
         station_properties["nrel_id"] = station.nrel_id
+    if station.ocm_id:
+        station_properties["ocm_id"] = station.ocm_id
     if station.network_id:
         station_properties["network_id"] = station.network_id
 

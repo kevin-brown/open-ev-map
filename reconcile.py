@@ -46,6 +46,7 @@ class ChargingNetwork(enum.Enum):
     EVGO = enum.auto()
     EVPASSPORT = enum.auto()
     FLO = enum.auto()
+    GREENSPOT = enum.auto()
     LOOP = enum.auto()
     NOODOE = enum.auto()
     RED_E = enum.auto()
@@ -380,7 +381,9 @@ def osm_parse_charging_station(osm_element) -> Station:
         "Enel X": ChargingNetwork.ENEL_X,
         "EV Connect": ChargingNetwork.EV_CONNECT,
         "EVgo": ChargingNetwork.EVGO,
+        "Electric Era": ChargingNetwork.ELECTRIC_ERA,
         "EVPassport": ChargingNetwork.EVPASSPORT,
+        "Greenspot": ChargingNetwork.GREENSPOT,
         "Loop": ChargingNetwork.LOOP,
         "Tesla": None, # Ambiguous
         "Tesla, Inc.": None, # Ambiguous

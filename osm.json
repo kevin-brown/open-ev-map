@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-02T22:57:12Z",
-    "timestamp_areas_base": "2024-08-02T20:18:54Z",
+    "timestamp_osm_base": "2024-08-03T00:56:00Z",
+    "timestamp_areas_base": "2024-08-02T22:20:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4083,28 +4083,53 @@
     {
       "type": "node",
       "id": 11179692520,
-      "lat": 42.4331750,
-      "lon": -71.4520200,
+      "lat": 42.4331759,
+      "lon": -71.4520408,
       "tags": {
-        "man_made": "charge_point"
+        "access": "yes",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
       "type": "node",
       "id": 11179692521,
-      "lat": 42.4340638,
-      "lon": -71.4515950,
+      "lat": 42.4340700,
+      "lon": -71.4515442,
       "tags": {
-        "man_made": "charge_point"
+        "access": "yes",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
       "type": "node",
       "id": 11179692522,
-      "lat": 42.4341732,
-      "lon": -71.4515830,
+      "lat": 42.4341988,
+      "lon": -71.4515782,
       "tags": {
-        "man_made": "charge_point"
+        "access": "yes",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
       }
     },
     {
@@ -4833,12 +4858,16 @@
     {
       "type": "node",
       "id": 11450863516,
-      "lat": 42.3343162,
-      "lon": -71.1199646,
+      "lat": 42.3343329,
+      "lon": -71.1199947,
       "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
-        "man_made": "charge_point",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149"
       }
@@ -5234,12 +5263,15 @@
     {
       "type": "node",
       "id": 11709563269,
-      "lat": 42.0226792,
-      "lon": -71.2528771,
+      "lat": 42.0226896,
+      "lon": -71.2528731,
       "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
-        "man_made": "charge_point",
+        "capacity": "1",
+        "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149"
       }
@@ -5247,11 +5279,11 @@
     {
       "type": "node",
       "id": 11731010018,
-      "lat": 42.3463666,
-      "lon": -72.5306747,
+      "lat": 42.3463724,
+      "lon": -72.5306757,
       "tags": {
-        "capacity": "2",
-        "man_made": "charge_point"
+        "amenity": "charging_station",
+        "capacity": "2"
       }
     },
     {
@@ -5359,10 +5391,16 @@
     {
       "type": "node",
       "id": 11848886630,
-      "lat": 42.2007376,
-      "lon": -70.9424056,
+      "lat": 42.2007840,
+      "lon": -70.9424038,
       "tags": {
-        "man_made": "charge_point"
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Quik Charge",
+        "capacity": "2",
+        "fee": "yes",
+        "network": "Electric Era",
+        "socket:type1_combo": "2"
       }
     },
     {
@@ -7781,6 +7819,139 @@
       }
     },
     {
+      "type": "node",
+      "id": 12089770939,
+      "lat": 42.4332036,
+      "lon": -71.4521035,
+      "tags": {
+        "access": "yes",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12089773927,
+      "lat": 42.3346490,
+      "lon": -71.1201592,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12089773928,
+      "lat": 42.3337523,
+      "lon": -71.1182270,
+      "tags": {
+        "brand": "BTC Power",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "network": "Greenspot",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12089773929,
+      "lat": 42.3337038,
+      "lon": -71.1182180,
+      "tags": {
+        "brand": "BTC Power",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "network": "Greenspot",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12089773930,
+      "lat": 42.3336536,
+      "lon": -71.1182087,
+      "tags": {
+        "brand": "BTC Power",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "network": "Greenspot",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12089773931,
+      "lat": 42.3336063,
+      "lon": -71.1181988,
+      "tags": {
+        "brand": "BTC Power",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "network": "Greenspot",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12089773932,
+      "lat": 42.3335571,
+      "lon": -71.1181899,
+      "tags": {
+        "brand": "BTC Power",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "network": "Greenspot",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12089773933,
+      "lat": 42.3335076,
+      "lon": -71.1181796,
+      "tags": {
+        "brand": "BTC Power",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "network": "Greenspot",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12089773934,
+      "lat": 42.3334359,
+      "lon": -71.1181626,
+      "tags": {
+        "brand": "BTC Power",
+        "capacity": "2",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "network": "Greenspot",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
       "type": "way",
       "id": 954423391,
       "bounds": {
@@ -9767,6 +9938,489 @@
       }
     },
     {
+      "type": "way",
+      "id": 1305332114,
+      "bounds": {
+        "minlat": 42.3334036,
+        "minlon": -71.1183020,
+        "maxlat": 42.3337803,
+        "maxlon": -71.1181526
+      },
+      "nodes": [
+        12089773935,
+        12089773936,
+        12089773937,
+        12089773938,
+        12089773935
+      ],
+      "geometry": [
+        {
+          "lat": 42.3337740,
+          "lon": -71.1183020
+        },
+        {
+          "lat": 42.3337803,
+          "lon": -71.1182277
+        },
+        {
+          "lat": 42.3334118,
+          "lon": -71.1181526
+        },
+        {
+          "lat": 42.3334036,
+          "lon": -71.1182281
+        },
+        {
+          "lat": 42.3337740,
+          "lon": -71.1183020
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "14",
+        "fee": "yes",
+        "network": "Greenspot",
+        "socket:type1_cable": "14"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16859625,
+      "bounds": {
+        "minlat": 42.6972463,
+        "minlon": -71.4400320,
+        "maxlat": 42.6973157,
+        "maxlon": -71.4396175
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1233311756,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973102,
+              "lon": -71.4396203
+            },
+            {
+              "lat": 42.6972589,
+              "lon": -71.4396175
+            },
+            {
+              "lat": 42.6972579,
+              "lon": -71.4396505
+            },
+            {
+              "lat": 42.6973093,
+              "lon": -71.4396534
+            },
+            {
+              "lat": 42.6973102,
+              "lon": -71.4396203
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311757,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973093,
+              "lon": -71.4396534
+            },
+            {
+              "lat": 42.6972579,
+              "lon": -71.4396505
+            },
+            {
+              "lat": 42.6972569,
+              "lon": -71.4396832
+            },
+            {
+              "lat": 42.6973083,
+              "lon": -71.4396863
+            },
+            {
+              "lat": 42.6973093,
+              "lon": -71.4396534
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311758,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973083,
+              "lon": -71.4396863
+            },
+            {
+              "lat": 42.6972569,
+              "lon": -71.4396832
+            },
+            {
+              "lat": 42.6972558,
+              "lon": -71.4397168
+            },
+            {
+              "lat": 42.6973073,
+              "lon": -71.4397199
+            },
+            {
+              "lat": 42.6973083,
+              "lon": -71.4396863
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311759,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973073,
+              "lon": -71.4397199
+            },
+            {
+              "lat": 42.6972558,
+              "lon": -71.4397168
+            },
+            {
+              "lat": 42.6972547,
+              "lon": -71.4397516
+            },
+            {
+              "lat": 42.6973063,
+              "lon": -71.4397547
+            },
+            {
+              "lat": 42.6973073,
+              "lon": -71.4397199
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311760,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973063,
+              "lon": -71.4397547
+            },
+            {
+              "lat": 42.6972547,
+              "lon": -71.4397516
+            },
+            {
+              "lat": 42.6972536,
+              "lon": -71.4397869
+            },
+            {
+              "lat": 42.6973053,
+              "lon": -71.4397899
+            },
+            {
+              "lat": 42.6973063,
+              "lon": -71.4397547
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311761,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973053,
+              "lon": -71.4397899
+            },
+            {
+              "lat": 42.6972536,
+              "lon": -71.4397869
+            },
+            {
+              "lat": 42.6972526,
+              "lon": -71.4398205
+            },
+            {
+              "lat": 42.6973043,
+              "lon": -71.4398232
+            },
+            {
+              "lat": 42.6973053,
+              "lon": -71.4397899
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311762,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973043,
+              "lon": -71.4398232
+            },
+            {
+              "lat": 42.6972526,
+              "lon": -71.4398205
+            },
+            {
+              "lat": 42.6972515,
+              "lon": -71.4398537
+            },
+            {
+              "lat": 42.6973033,
+              "lon": -71.4398567
+            },
+            {
+              "lat": 42.6973043,
+              "lon": -71.4398232
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311763,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973033,
+              "lon": -71.4398567
+            },
+            {
+              "lat": 42.6972515,
+              "lon": -71.4398537
+            },
+            {
+              "lat": 42.6972505,
+              "lon": -71.4398866
+            },
+            {
+              "lat": 42.6973023,
+              "lon": -71.4398896
+            },
+            {
+              "lat": 42.6973033,
+              "lon": -71.4398567
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311764,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973023,
+              "lon": -71.4398896
+            },
+            {
+              "lat": 42.6972505,
+              "lon": -71.4398866
+            },
+            {
+              "lat": 42.6972494,
+              "lon": -71.4399204
+            },
+            {
+              "lat": 42.6973013,
+              "lon": -71.4399233
+            },
+            {
+              "lat": 42.6973023,
+              "lon": -71.4398896
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311765,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973013,
+              "lon": -71.4399233
+            },
+            {
+              "lat": 42.6972494,
+              "lon": -71.4399204
+            },
+            {
+              "lat": 42.6972484,
+              "lon": -71.4399541
+            },
+            {
+              "lat": 42.6973004,
+              "lon": -71.4399568
+            },
+            {
+              "lat": 42.6973013,
+              "lon": -71.4399233
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311766,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6973004,
+              "lon": -71.4399568
+            },
+            {
+              "lat": 42.6972484,
+              "lon": -71.4399541
+            },
+            {
+              "lat": 42.6972473,
+              "lon": -71.4399883
+            },
+            {
+              "lat": 42.6972994,
+              "lon": -71.4399909
+            },
+            {
+              "lat": 42.6973004,
+              "lon": -71.4399568
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1233311767,
+          "role": "parking_space",
+          "geometry": [
+            {
+              "lat": 42.6972994,
+              "lon": -71.4399909
+            },
+            {
+              "lat": 42.6972473,
+              "lon": -71.4399883
+            },
+            {
+              "lat": 42.6972463,
+              "lon": -71.4400222
+            },
+            {
+              "lat": 42.6972984,
+              "lon": -71.4400249
+            },
+            {
+              "lat": 42.6972994,
+              "lon": -71.4399909
+            }
+          ]
+        },
+        {
+          "type": "node",
+          "ref": 11443649036,
+          "role": "",
+          "lat": 42.6972571,
+          "lon": -71.4400320
+        },
+        {
+          "type": "node",
+          "ref": 11443649035,
+          "role": "",
+          "lat": 42.6973049,
+          "lon": -71.4399569
+        },
+        {
+          "type": "node",
+          "ref": 11443649034,
+          "role": "",
+          "lat": 42.6973073,
+          "lon": -71.4399227
+        },
+        {
+          "type": "node",
+          "ref": 11443649033,
+          "role": "",
+          "lat": 42.6973078,
+          "lon": -71.4398898
+        },
+        {
+          "type": "node",
+          "ref": 11443649032,
+          "role": "",
+          "lat": 42.6973103,
+          "lon": -71.4398583
+        },
+        {
+          "type": "node",
+          "ref": 11443649031,
+          "role": "",
+          "lat": 42.6973093,
+          "lon": -71.4398228
+        },
+        {
+          "type": "node",
+          "ref": 11443649030,
+          "role": "",
+          "lat": 42.6973103,
+          "lon": -71.4397906
+        },
+        {
+          "type": "node",
+          "ref": 11443649029,
+          "role": "",
+          "lat": 42.6973113,
+          "lon": -71.4397544
+        },
+        {
+          "type": "node",
+          "ref": 11443649028,
+          "role": "",
+          "lat": 42.6973133,
+          "lon": -71.4397222
+        },
+        {
+          "type": "node",
+          "ref": 11443649027,
+          "role": "",
+          "lat": 42.6973138,
+          "lon": -71.4396873
+        },
+        {
+          "type": "node",
+          "ref": 11443649026,
+          "role": "",
+          "lat": 42.6973147,
+          "lon": -71.4396538
+        },
+        {
+          "type": "node",
+          "ref": 11443649025,
+          "role": "",
+          "lat": 42.6973157,
+          "lon": -71.4396216
+        }
+      ],
+      "tags": {
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "12",
+        "fee": "yes",
+        "motor_vehicle": "yes",
+        "name": "Tyngsborough Supercharger",
+        "network": "Tesla Supercharger",
+        "network:wikidata": "Q17089620",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "site": "parking",
+        "type": "site"
+      }
+    },
+    {
       "type": "relation",
       "id": 17135490,
       "bounds": {
@@ -10783,6 +11437,183 @@
         "socket:type1_cable": "6",
         "socket:type1_cable:current": "32",
         "socket:type1_cable:voltage": "200",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17903480,
+      "bounds": {
+        "minlat": 42.4331361,
+        "minlon": -71.4521584,
+        "maxlat": 42.4332134,
+        "maxlon": -71.4519666
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1305335011,
+          "role": "outer",
+          "geometry": [
+            {
+              "lat": 42.4332002,
+              "lon": -71.4520345
+            },
+            {
+              "lat": 42.4331818,
+              "lon": -71.4519666
+            },
+            {
+              "lat": 42.4331361,
+              "lon": -71.4519865
+            },
+            {
+              "lat": 42.4331553,
+              "lon": -71.4520539
+            },
+            {
+              "lat": 42.4332002,
+              "lon": -71.4520345
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1305335010,
+          "role": "outer",
+          "geometry": [
+            {
+              "lat": 42.4331694,
+              "lon": -71.4521584
+            },
+            {
+              "lat": 42.4331527,
+              "lon": -71.4520959
+            },
+            {
+              "lat": 42.4331594,
+              "lon": -71.4520933
+            },
+            {
+              "lat": 42.4331986,
+              "lon": -71.4520764
+            },
+            {
+              "lat": 42.4332134,
+              "lon": -71.4521362
+            },
+            {
+              "lat": 42.4331694,
+              "lon": -71.4521584
+            }
+          ]
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "4",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17903481,
+      "bounds": {
+        "minlat": 42.4340448,
+        "minlon": -71.4516627,
+        "maxlat": 42.4342255,
+        "maxlon": -71.4515165
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1305335012,
+          "role": "outer",
+          "geometry": [
+            {
+              "lat": 42.4341762,
+              "lon": -71.4516627
+            },
+            {
+              "lat": 42.4342180,
+              "lon": -71.4516136
+            },
+            {
+              "lat": 42.4342255,
+              "lon": -71.4516048
+            },
+            {
+              "lat": 42.4341844,
+              "lon": -71.4515399
+            },
+            {
+              "lat": 42.4341766,
+              "lon": -71.4515492
+            },
+            {
+              "lat": 42.4341349,
+              "lon": -71.4515980
+            },
+            {
+              "lat": 42.4341762,
+              "lon": -71.4516627
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": 1305335013,
+          "role": "outer",
+          "geometry": [
+            {
+              "lat": 42.4341274,
+              "lon": -71.4515852
+            },
+            {
+              "lat": 42.4340886,
+              "lon": -71.4516326
+            },
+            {
+              "lat": 42.4340513,
+              "lon": -71.4515749
+            },
+            {
+              "lat": 42.4340448,
+              "lon": -71.4515651
+            },
+            {
+              "lat": 42.4340866,
+              "lon": -71.4515165
+            },
+            {
+              "lat": 42.4340928,
+              "lon": -71.4515269
+            },
+            {
+              "lat": 42.4341274,
+              "lon": -71.4515852
+            }
+          ]
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
         "type": "multipolygon"
       }
     }

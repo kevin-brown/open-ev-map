@@ -573,6 +573,33 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.252873,
+                    42.02269
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": 11709563269
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.530676,
+                    42.346372
+                ]
+            },
+            "properties": {
+                "osm_id": 11731010018
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.285521,
                     42.492503
                 ]
@@ -1024,6 +1051,50 @@
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.118227,
+                        42.333752
+                    ],
+                    [
+                        -71.118218,
+                        42.333704
+                    ],
+                    [
+                        -71.118209,
+                        42.333654
+                    ],
+                    [
+                        -71.118199,
+                        42.333606
+                    ],
+                    [
+                        -71.11819,
+                        42.333557
+                    ],
+                    [
+                        -71.11818,
+                        42.333508
+                    ],
+                    [
+                        -71.118163,
+                        42.333436
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "GREENSPOT",
+                "osm_id": 1305332114,
+                "charging_points:count": 7,
+                "charging_points:capacity": "2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },

@@ -11108,6 +11108,7 @@
             "properties": {
                 "name": "BROOKLINE HEALTH 1;BROOKLINE HEALTH 2",
                 "network": "CHARGEPOINT",
+                "osm_id": 11450863516,
                 "nrel_id": 161808,
                 "network_id": "USCPIL226038;USCPIL226022",
                 "street_address": "32 Pierce Street",
@@ -12090,6 +12091,7 @@
             "properties": {
                 "name": "BROOKLINE TOWN HALL LOT",
                 "network": "CHARGEPOINT",
+                "osm_id": 12089773927,
                 "nrel_id": 161865,
                 "network_id": "USCPIL174861",
                 "street_address": "11 Pierce Street",
@@ -28371,6 +28373,7 @@
             "properties": {
                 "name": "TOWN OF MAYNARD LIBRARY 2",
                 "network": "CHARGEPOINT",
+                "osm_id": 17903481,
                 "nrel_id": 202465,
                 "network_id": "USCPIL10309291",
                 "street_address": "11-13 Glendale Street",
@@ -30408,6 +30411,7 @@
             "properties": {
                 "name": "TOWN OF MAYNARD PARKING",
                 "network": "CHARGEPOINT",
+                "osm_id": 17903480,
                 "nrel_id": 206969,
                 "network_id": "USCPIL12496291",
                 "street_address": "2-18 Summer Street",
@@ -52946,6 +52950,7 @@
             "properties": {
                 "name": "Quik Charge Charging Station",
                 "network": "ELECTRIC_ERA",
+                "osm_id": 11848886630,
                 "nrel_id": 332303,
                 "street_address": "850 Washington Street",
                 "city": "Weymouth",
@@ -58237,6 +58242,33 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.252873,
+                    42.02269
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": 11709563269
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.530676,
+                    42.346372
+                ]
+            },
+            "properties": {
+                "osm_id": 11731010018
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.285521,
                     42.492503
                 ]
@@ -58816,6 +58848,50 @@
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.118227,
+                        42.333752
+                    ],
+                    [
+                        -71.118218,
+                        42.333704
+                    ],
+                    [
+                        -71.118209,
+                        42.333654
+                    ],
+                    [
+                        -71.118199,
+                        42.333606
+                    ],
+                    [
+                        -71.11819,
+                        42.333557
+                    ],
+                    [
+                        -71.11818,
+                        42.333508
+                    ],
+                    [
+                        -71.118163,
+                        42.333436
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "GREENSPOT",
+                "osm_id": 1305332114,
+                "charging_points:count": 7,
+                "charging_points:capacity": "2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -59778,21 +59854,72 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.439877,
-                    42.697284
+                    [
+                        -71.440032,
+                        42.697257
+                    ],
+                    [
+                        -71.439957,
+                        42.697305
+                    ],
+                    [
+                        -71.439923,
+                        42.697307
+                    ],
+                    [
+                        -71.43989,
+                        42.697308
+                    ],
+                    [
+                        -71.439858,
+                        42.69731
+                    ],
+                    [
+                        -71.439823,
+                        42.697309
+                    ],
+                    [
+                        -71.439791,
+                        42.69731
+                    ],
+                    [
+                        -71.439754,
+                        42.697311
+                    ],
+                    [
+                        -71.439722,
+                        42.697313
+                    ],
+                    [
+                        -71.439687,
+                        42.697314
+                    ],
+                    [
+                        -71.439654,
+                        42.697315
+                    ],
+                    [
+                        -71.439622,
+                        42.697316
+                    ]
                 ]
             },
             "properties": {
-                "name": "The 440 - Tesla Supercharger",
+                "name": "The 440 - Tesla Supercharger;Tyngsborough Supercharger",
                 "network": "TESLA_SUPERCHARGER",
+                "osm_id": 16859625,
                 "nrel_id": 226534,
                 "network_id": "15218",
                 "street_address": "440 Middlesex Road",
                 "city": "Tyngsborough",
                 "state": "MA",
-                "zip_code": "01879"
+                "zip_code": "01879",
+                "charging_points:count": 12,
+                "charging_points:capacity": "0;0;0;0;0;0;0;0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0;0;0;0",
+                "charging_points:plugs_type": ""
             }
         },
         {

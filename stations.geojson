@@ -57751,15 +57751,33 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.109773,
-                    42.128546
+                    [
+                        -71.109675,
+                        42.128512
+                    ],
+                    [
+                        -71.109808,
+                        42.128558
+                    ],
+                    [
+                        -71.10974,
+                        42.128535
+                    ],
+                    [
+                        -71.109871,
+                        42.128581
+                    ]
                 ]
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8646200249
+                "osm_id": 8646200249,
+                "charging_points:count": 4,
+                "charging_points:capacity": "2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:plugs_type": "J1772_SOCKET"
             }
         },
         {
@@ -58804,15 +58822,29 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.262886,
-                    42.093581
+                    [
+                        -71.262922,
+                        42.093487
+                    ],
+                    [
+                        -71.262851,
+                        42.093542
+                    ],
+                    [
+                        -71.262803,
+                        42.093657
+                    ]
                 ]
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 17891343
+                "osm_id": 17891343,
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -59103,10 +59135,44 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.488139,
-                    41.617554
+                    [
+                        -70.488334,
+                        41.617409
+                    ],
+                    [
+                        -70.488366,
+                        41.617415
+                    ],
+                    [
+                        -70.488398,
+                        41.617421
+                    ],
+                    [
+                        -70.488432,
+                        41.617427
+                    ],
+                    [
+                        -70.48846,
+                        41.617433
+                    ],
+                    [
+                        -70.488494,
+                        41.617439
+                    ],
+                    [
+                        -70.488526,
+                        41.617447
+                    ],
+                    [
+                        -70.488559,
+                        41.617453
+                    ],
+                    [
+                        -70.488589,
+                        41.617461
+                    ]
                 ]
             },
             "properties": {
@@ -59118,7 +59184,11 @@
                 "street_address": "22 Steeple Street",
                 "city": "Mashpee",
                 "state": "MA",
-                "zip_code": "02649"
+                "zip_code": "02649",
+                "charging_points:count": 9,
+                "charging_points:capacity": "0;0;0;0;0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0",
+                "charging_points:plugs_type": ""
             }
         },
         {
@@ -59414,10 +59484,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.073529,
-                    42.152891
+                    [
+                        -71.073084,
+                        42.152857
+                    ],
+                    [
+                        -71.073103,
+                        42.152811
+                    ]
                 ]
             },
             "properties": {
@@ -59429,7 +59505,11 @@
                 "street_address": "1 Hawes Way",
                 "city": "Stoughton",
                 "state": "MA",
-                "zip_code": "02072"
+                "zip_code": "02072",
+                "charging_points:count": 2,
+                "charging_points:capacity": "0;0",
+                "charging_points:plugs_count": "0;0",
+                "charging_points:plugs_type": ""
             }
         },
         {
@@ -59536,10 +59616,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.996,
-                    41.640722
+                    [
+                        -70.996067,
+                        41.640742
+                    ],
+                    [
+                        -70.996038,
+                        41.640724
+                    ],
+                    [
+                        -70.996004,
+                        41.640708
+                    ],
+                    [
+                        -70.995972,
+                        41.640694
+                    ],
+                    [
+                        -70.995943,
+                        41.640681
+                    ],
+                    [
+                        -70.995907,
+                        41.640668
+                    ],
+                    [
+                        -70.995874,
+                        41.640659
+                    ],
+                    [
+                        -70.995841,
+                        41.640651
+                    ],
+                    [
+                        -70.995805,
+                        41.640646
+                    ],
+                    [
+                        -70.995768,
+                        41.64064
+                    ],
+                    [
+                        -70.995734,
+                        41.640636
+                    ],
+                    [
+                        -70.995693,
+                        41.640634
+                    ]
                 ]
             },
             "properties": {
@@ -59551,7 +59677,11 @@
                 "street_address": "83 Faunce Corner Mall Road",
                 "city": "Dartmouth",
                 "state": "MA",
-                "zip_code": "02747"
+                "zip_code": "02747",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {

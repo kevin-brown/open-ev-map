@@ -188,15 +188,33 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.109773,
-                    42.128546
+                    [
+                        -71.109675,
+                        42.128512
+                    ],
+                    [
+                        -71.109808,
+                        42.128558
+                    ],
+                    [
+                        -71.10974,
+                        42.128535
+                    ],
+                    [
+                        -71.109871,
+                        42.128581
+                    ]
                 ]
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8646200249
+                "osm_id": 8646200249,
+                "charging_points:count": 4,
+                "charging_points:capacity": "2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:plugs_type": "J1772_SOCKET"
             }
         },
         {
@@ -1012,15 +1030,29 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.262886,
-                    42.093581
+                    [
+                        -71.262922,
+                        42.093487
+                    ],
+                    [
+                        -71.262851,
+                        42.093542
+                    ],
+                    [
+                        -71.262803,
+                        42.093657
+                    ]
                 ]
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 17891343
+                "osm_id": 17891343,
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         }
     ]

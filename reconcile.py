@@ -603,13 +603,18 @@ def normalize_osm_data(osm_raw_data) -> list[Station]:
 
         charge_point = osm_parse_charging_point(osm_element)
 
+        charge_point_associated = False
+
         for station_id, station_boundary in station_boundaries.items():
             if shapely.contains(station_boundary, charge_point.location.get().point):
                 stations[station_id].charging_points.append(charge_point)
 
+                charge_point_associated = True
+
                 break
 
-        charge_points[osm_element["id"]] = charge_point
+        if not charge_point_associated:
+            charge_points[osm_element["id"]] = charge_point
 
     for osm_element in osm_raw_data["elements"]:
         if osm_element["tags"].get("amenity") != "charging_station":
@@ -621,6 +626,25 @@ def normalize_osm_data(osm_raw_data) -> list[Station]:
         for osm_member in osm_element["members"]:
             if osm_member["ref"] in charge_points:
                 stations[osm_element["id"]].charging_points.append(charge_points[osm_member["ref"]])
+                del charge_points[osm_member["ref"]]
+
+    charge_points_found = []
+
+    for charge_point_id, charge_point in charge_points.items():
+        for station_id, station in stations.items():
+            charge_point_distance_to_station = get_station_distance(station, charge_point)
+
+            if charge_point_distance_to_station.miles > 0.05:
+                continue
+
+            station.charging_points.append(charge_point)
+
+            charge_points_found.append(charge_point_id)
+
+            break
+
+    for charge_point_id in charge_points_found:
+        del charge_points[charge_point_id]
 
     return stations.values()
 

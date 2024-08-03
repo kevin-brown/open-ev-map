@@ -863,7 +863,11 @@
                 "name": "65 Independence Drive",
                 "network": "CHARGEPOINT",
                 "osm_id": 3644495142,
-                "ocm_id": 29878
+                "ocm_id": 29878,
+                "street_address": "65 Independence Drive",
+                "city": "Hyannis",
+                "state": "MA",
+                "zip_code": "02601"
             }
         },
         {
@@ -879,7 +883,11 @@
                 "name": "90 PLEASANT LOT B EAST 1",
                 "network": "CHARGEPOINT",
                 "osm_id": 8710873597,
-                "ocm_id": 229923
+                "ocm_id": 229923,
+                "street_address": "90 Pleasant Valley Street",
+                "city": "Methuen",
+                "state": "MA",
+                "zip_code": "01844"
             }
         },
         {
@@ -895,7 +903,11 @@
                 "name": "ALTA CLARA ALTA CLARA 2",
                 "network": "CHARGEPOINT",
                 "osm_id": 10157254422,
-                "ocm_id": 229353
+                "ocm_id": 229353,
+                "street_address": "21 Executive Drive",
+                "city": "Stoneham",
+                "state": "MA",
+                "zip_code": "02180"
             }
         },
         {
@@ -911,7 +923,11 @@
                 "name": "ALTA CLARA ALTA CLARA 3",
                 "network": "CHARGEPOINT",
                 "osm_id": 10157255011,
-                "ocm_id": 229358
+                "ocm_id": 229358,
+                "street_address": "25 Executive Drive",
+                "city": "Stoneham",
+                "state": "MA",
+                "zip_code": "02180"
             }
         },
         {
@@ -927,7 +943,11 @@
                 "name": "ALTA CLARA ALTA CLARA 4",
                 "network": "CHARGEPOINT",
                 "osm_id": 10157254640,
-                "ocm_id": 247351
+                "ocm_id": 247351,
+                "street_address": "15 Executive Drive",
+                "city": "Stoneham",
+                "state": "MA",
+                "zip_code": "02180"
             }
         },
         {
@@ -943,7 +963,11 @@
                 "name": "ALTA CLARA ALTA CLARA 5",
                 "network": "CHARGEPOINT",
                 "osm_id": 10157254641,
-                "ocm_id": 247349
+                "ocm_id": 247349,
+                "street_address": "15 Executive Drive",
+                "city": "Stoneham",
+                "state": "MA",
+                "zip_code": "02180"
             }
         },
         {
@@ -959,7 +983,11 @@
                 "name": "ALTA CLARA ALTA CLARA 6",
                 "network": "CHARGEPOINT",
                 "osm_id": 10157255012,
-                "ocm_id": 229356
+                "ocm_id": 229356,
+                "street_address": "25 Executive Drive",
+                "city": "Stoneham",
+                "state": "MA",
+                "zip_code": "02180"
             }
         },
         {
@@ -982,6 +1010,10 @@
                 "network": "CHARGEPOINT",
                 "osm_id": 17669586,
                 "ocm_id": 110658,
+                "street_address": "50 Cricket Lane",
+                "city": "Walpole",
+                "state": "MA",
+                "zip_code": "02032",
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -1001,7 +1033,11 @@
                 "name": "BEDFORD-EVS BHS 2019",
                 "network": "CHARGEPOINT",
                 "osm_id": 11826771123,
-                "ocm_id": 294921
+                "ocm_id": 294921,
+                "street_address": "7 Mudge Way",
+                "city": "Bedford",
+                "state": "MA",
+                "zip_code": "01730"
             }
         },
         {
@@ -1017,7 +1053,11 @@
                 "name": "BEDFORD-EVS TOWN HALL 2021",
                 "network": "CHARGEPOINT",
                 "osm_id": 11826771130,
-                "ocm_id": 229449
+                "ocm_id": 229449,
+                "street_address": "10 Mudge Way",
+                "city": "Bedford",
+                "state": "MA",
+                "zip_code": "01730"
             }
         },
         {
@@ -1033,7 +1073,11 @@
                 "name": "BMW CAPE COD",
                 "network": "CHARGEPOINT",
                 "osm_id": 6556400189,
-                "ocm_id": 28605
+                "ocm_id": 28605,
+                "street_address": "436 Yarmouth Road",
+                "city": "Barnstable",
+                "state": "MA",
+                "zip_code": "02601"
             }
         },
         {
@@ -1049,7 +1093,11 @@
                 "name": "BOSTON H-D",
                 "network": "CHARGEPOINT",
                 "osm_id": 7659994144,
-                "ocm_id": 143154
+                "ocm_id": 143154,
+                "street_address": "651 Squire Road",
+                "city": "Revere",
+                "state": "MA",
+                "zip_code": "02151"
             }
         },
         {
@@ -1065,7 +1113,11 @@
                 "name": "BOZZUTO DEV. CO ABBY 2A",
                 "network": "CHARGEPOINT",
                 "osm_id": 9112010867,
-                "ocm_id": 228929
+                "ocm_id": 228929,
+                "street_address": "273 Hancock Street",
+                "city": "Quincy",
+                "state": "MA",
+                "zip_code": "02171"
             }
         },
         {
@@ -1081,7 +1133,11 @@
                 "name": "BROOKLINE HEALTH 1",
                 "network": "CHARGEPOINT",
                 "osm_id": 12089773927,
-                "ocm_id": 247159
+                "ocm_id": 247159,
+                "street_address": "32 Pierce Street",
+                "city": "Brookline",
+                "state": "MA",
+                "zip_code": "02445"
             }
         },
         {
@@ -1112,7 +1168,11 @@
                 "name": "CITY OF NEWTON NHS WALNUT ST 2",
                 "network": "CHARGEPOINT",
                 "osm_id": 10991334433,
-                "ocm_id": 229136
+                "ocm_id": 229136,
+                "street_address": "475 Walnut Street",
+                "city": "Newton",
+                "state": "MA",
+                "zip_code": "02460"
             }
         },
         {
@@ -1128,7 +1188,11 @@
                 "name": "CITYOFCAMBRIDGE CITYHALL ANNEX3",
                 "network": "CHARGEPOINT",
                 "osm_id": 1204555429,
-                "ocm_id": 263256
+                "ocm_id": 263256,
+                "street_address": "57 Inman Street",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02139"
             }
         },
         {
@@ -1144,7 +1208,11 @@
                 "name": "CONCORD LIGHT",
                 "network": "CHARGEPOINT",
                 "osm_id": 10990256462,
-                "ocm_id": 28877
+                "ocm_id": 28877,
+                "street_address": "66 Commonwealth Avenue",
+                "city": "Concord",
+                "state": "MA",
+                "zip_code": "01742"
             }
         },
         {
@@ -1160,7 +1228,11 @@
                 "name": "DEVENS;Devens Sherman Square",
                 "network": "CHARGEPOINT",
                 "osm_id": 8500362486,
-                "ocm_id": 89724
+                "ocm_id": 89724,
+                "street_address": "88 Jackson Road",
+                "city": "Devens",
+                "state": "MA",
+                "zip_code": "01434"
             }
         },
         {
@@ -1176,7 +1248,11 @@
                 "name": "EVgo;Emerald Square",
                 "network": "EVGO",
                 "osm_id": 3732553898,
-                "ocm_id": 142911
+                "ocm_id": 142911,
+                "street_address": "999 S Washington Street",
+                "city": "North Attleboro",
+                "state": "MA",
+                "zip_code": "02760"
             }
         },
         {
@@ -1192,7 +1268,11 @@
                 "name": "GALLERY VW",
                 "network": "CHARGEPOINT",
                 "osm_id": 11952490214,
-                "ocm_id": 54950
+                "ocm_id": 54950,
+                "street_address": "1280 Providence Highway",
+                "city": "Norwood",
+                "state": "MA",
+                "zip_code": "02062"
             }
         },
         {
@@ -1208,7 +1288,11 @@
                 "name": "GARAGE AT PO SQ LEVEL 2-003AB",
                 "network": "CHARGEPOINT",
                 "osm_id": 7893027837,
-                "ocm_id": 247230
+                "ocm_id": 247230,
+                "street_address": "130 Congress Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02110"
             }
         },
         {
@@ -1254,7 +1338,11 @@
                 "name": "MAHONEY CIRCLE 2",
                 "network": "CHARGEPOINT",
                 "osm_id": 9570069809,
-                "ocm_id": 229299
+                "ocm_id": 229299,
+                "street_address": "9a Everett Street",
+                "city": "Revere",
+                "state": "MA",
+                "zip_code": "02151"
             }
         },
         {
@@ -1270,7 +1358,11 @@
                 "name": "MARRIOTT",
                 "network": "CHARGEPOINT",
                 "osm_id": 11956071996,
-                "ocm_id": 89699
+                "ocm_id": 89699,
+                "street_address": "35 Foxborough Boulevard",
+                "city": "Foxborough",
+                "state": "MA",
+                "zip_code": "02035"
             }
         },
         {
@@ -1286,7 +1378,11 @@
                 "name": "MASSDOT STATION 1",
                 "network": "CHARGEPOINT",
                 "osm_id": 10129339745,
-                "ocm_id": 263232
+                "ocm_id": 263232,
+                "street_address": "499 Plantation Street",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01605"
             }
         },
         {
@@ -1302,7 +1398,11 @@
                 "name": "MONOGRAM RES",
                 "network": "CHARGEPOINT",
                 "osm_id": 11709563269,
-                "ocm_id": 73001
+                "ocm_id": 73001,
+                "street_address": "792 West Street",
+                "city": "Mansfield",
+                "state": "MA",
+                "zip_code": "02048"
             }
         },
         {
@@ -1318,7 +1418,11 @@
                 "name": "NATIONAL GRID",
                 "network": "CHARGEPOINT",
                 "osm_id": 5773105790,
-                "ocm_id": 96771
+                "ocm_id": 96771,
+                "street_address": "88 Macy Street",
+                "city": "Amesbury",
+                "state": "MA",
+                "zip_code": "01913"
             }
         },
         {
@@ -1334,7 +1438,11 @@
                 "name": "NORTHAMPTON MEMORIAL HALL",
                 "network": "CHARGEPOINT",
                 "osm_id": 8567379541,
-                "ocm_id": 282861
+                "ocm_id": 282861,
+                "street_address": "240 Main Street",
+                "city": "Northampton",
+                "state": "MA",
+                "zip_code": "01060"
             }
         },
         {
@@ -1350,7 +1458,11 @@
                 "name": "PARKER RIVER PARKER RIVER",
                 "network": "CHARGEPOINT",
                 "osm_id": 9364430967,
-                "ocm_id": 229983
+                "ocm_id": 229983,
+                "street_address": "0 Refuge Road",
+                "city": "Newbury",
+                "state": "MA",
+                "zip_code": "01951"
             }
         },
         {
@@ -1397,6 +1509,10 @@
                 "network": "CHARGEPOINT",
                 "osm_id": 12048335044,
                 "ocm_id": 247025,
+                "street_address": "92 Pleasant Street",
+                "city": "Canton",
+                "state": "MA",
+                "zip_code": "02021",
                 "charging_points:count": 8,
                 "charging_points:capacity": "0;0;0;0;0;0;0;0",
                 "charging_points:plugs_count": "0;0;0;0;0;0;0;0",
@@ -1416,7 +1532,11 @@
                 "name": "PEQUITSIDE PEQUITSIDE-1;Pequitside Farm - Armando",
                 "network": "CHARGEPOINT",
                 "osm_id": 12048335045,
-                "ocm_id": 228727
+                "ocm_id": 228727,
+                "street_address": "79 Pleasant Street",
+                "city": "Canton",
+                "state": "MA",
+                "zip_code": "02021"
             }
         },
         {
@@ -1432,7 +1552,11 @@
                 "name": "PLYMOUTH",
                 "network": "CHARGEPOINT",
                 "osm_id": 6331507121,
-                "ocm_id": 142918
+                "ocm_id": 142918,
+                "street_address": "17 Russell Street",
+                "city": "Plymouth",
+                "state": "MA",
+                "zip_code": "02360"
             }
         },
         {
@@ -1448,7 +1572,11 @@
                 "name": "QUIRK GMCBRIANTREEMA1;Quick Chevrolet - Public Charger",
                 "network": "CHARGEPOINT",
                 "osm_id": 11976450689,
-                "ocm_id": 277520
+                "ocm_id": 277520,
+                "street_address": "Quincy Ave @ Quirk Chevrolet",
+                "city": "Braintree",
+                "state": "MA",
+                "zip_code": "02184"
             }
         },
         {
@@ -1479,7 +1607,11 @@
                 "name": "S&H",
                 "network": "CHARGEPOINT",
                 "osm_id": 7818394276,
-                "ocm_id": 159943
+                "ocm_id": 159943,
+                "street_address": "60 Mazzeo Drive",
+                "city": "Randolph",
+                "state": "MA",
+                "zip_code": "02368"
             }
         },
         {
@@ -1502,6 +1634,10 @@
                 "network": "CHARGEPOINT",
                 "osm_id": 17903481,
                 "ocm_id": 247346,
+                "street_address": "11 Glendale Street",
+                "city": "Maynard",
+                "state": "MA",
+                "zip_code": "01754",
                 "charging_points:count": 2,
                 "charging_points:capacity": "0;0",
                 "charging_points:plugs_count": "0;0",
@@ -1521,7 +1657,11 @@
                 "name": "UMASS LOWELL",
                 "network": "CHARGEPOINT",
                 "osm_id": 6847575455,
-                "ocm_id": 40349
+                "ocm_id": 40349,
+                "street_address": "233 Pawtucket Street",
+                "city": "Lowell",
+                "state": "MA",
+                "zip_code": "01854"
             }
         },
         {
@@ -1537,7 +1677,11 @@
                 "name": "UMASS LOWELL SALEM STREET",
                 "network": "CHARGEPOINT",
                 "osm_id": 6779688037,
-                "ocm_id": 247441
+                "ocm_id": 247441,
+                "street_address": "288-298 Salem Street",
+                "city": "Lowell",
+                "state": "MA",
+                "zip_code": "01854"
             }
         },
         {
@@ -1553,7 +1697,11 @@
                 "name": "WATERTOWN MA MUNICIPAL 1",
                 "network": "CHARGEPOINT",
                 "osm_id": 11897881772,
-                "ocm_id": 229202
+                "ocm_id": 229202,
+                "street_address": "27 Winter Street",
+                "city": "Watertown",
+                "state": "MA",
+                "zip_code": "02472"
             }
         },
         {
@@ -1569,7 +1717,11 @@
                 "name": "WILLIAMS COLLEG WILLIAMS INN",
                 "network": "CHARGEPOINT",
                 "osm_id": 12047641873,
-                "ocm_id": 142400
+                "ocm_id": 142400,
+                "street_address": "101 Spring Street",
+                "city": "Williamstown",
+                "state": "MA",
+                "zip_code": "01267"
             }
         },
         {
@@ -1585,7 +1737,11 @@
                 "name": "WPI WPI BOYNTON 1",
                 "network": "CHARGEPOINT",
                 "osm_id": 10124768139,
-                "ocm_id": 228922
+                "ocm_id": 228922,
+                "street_address": "27 Boynton Street",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01609"
             }
         },
         {
@@ -1601,7 +1757,11 @@
                 "name": "WPI WPI GARAGE 2",
                 "network": "CHARGEPOINT",
                 "osm_id": 9445609464,
-                "ocm_id": 247087
+                "ocm_id": 247087,
+                "street_address": "100 Institute Road",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01609"
             }
         }
     ]

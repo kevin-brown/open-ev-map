@@ -228,10 +228,13 @@ def normalize_address_street_address(street_address: str) -> str:
     STREET_TYPE_MAP = {
         "ave": "Avenue",
         "blvd": "Boulevard",
+        "ct": "Court",
         "dr": "Drive",
         "expy": "Expressway",
         "hwy": "Highway",
+        "ln": "Lane",
         "pl": "Place",
+        "pkwy": "Parkway",
         "rd": "Road",
         "st": "Street",
         "sq": "Square",
@@ -690,6 +693,17 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         3620: None, # Livingston Charge Port / solution.energy
     }
 
+    OCM_LONG_STATE_TO_SHORT_MAP = {
+        "berkshire": None,
+        "california": "CA",
+        "connecticut": "CT",
+        "mas": "MA",
+        "massachusetts": "MA",
+        "middlesex county": None,
+        "new hampshire": "NH",
+        "rhode island": "RI",
+    }
+
     for ocm_station in ocm_raw_data:
         station = Station(
             ocm_id=ocm_station["ID"],
@@ -707,6 +721,17 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         if "OperatorInfo" in ocm_station:
             ocm_operator = ocm_station["OperatorInfo"]
             station.network = OCM_OPERATOR_TO_NETWORK_MAP[ocm_operator["ID"]]
+
+        station.street_address = normalize_address_street_address(ocm_address["AddressLine1"])
+        station.city = ocm_address["Town"]
+        station.state = ocm_address.get("StateOrProvince")
+        station.zip_code = ocm_address.get("Postcode")
+
+        if station.state and len(station.state) > 2 and ocm_address["CountryID"] == 2:
+            station.state = OCM_LONG_STATE_TO_SHORT_MAP[station.state.lower()]
+
+        if station.zip_code and len(station.zip_code) < 5 and ocm_address["CountryID"] == 2:
+            station.zip_code = station.zip_code.rjust(5, "0")
 
         stations.append(station)
 

@@ -63,6 +63,7 @@ class ChargingNetwork(enum.Enum):
 
 class SourceLocation(enum.Enum):
     ALTERNATIVE_FUELS_DATA_CENTER = enum.auto()
+    OPEN_CHARGE_MAP = enum.auto()
     OPEN_STREET_MAP = enum.auto()
 
 
@@ -656,6 +657,62 @@ def normalize_osm_data(osm_raw_data) -> list[Station]:
     return stations.values()
 
 
+def normalize_ocm_data(ocm_raw_data) -> list[Station]:
+    stations = []
+
+    OCM_OPERATOR_TO_NETWORK_MAP = {
+        1: None,
+        5: ChargingNetwork.CHARGEPOINT,
+        9: ChargingNetwork.BLINK,
+        15: ChargingNetwork.EVGO,
+        23: ChargingNetwork.TESLA_SUPERCHARGER, # Tesla-only
+        50: ChargingNetwork.VOLTA,
+        59: ChargingNetwork.SHELL_RECHARGE,
+        89: ChargingNetwork.FLO,
+        1242: ChargingNetwork.CHARGEPOINT, # GE WattStation legacy
+        3318: ChargingNetwork.ELECTRIFY_AMERICA,
+        3372: ChargingNetwork.EV_CONNECT,
+        3426: ChargingNetwork.BLINK,
+        3534: ChargingNetwork.TESLA_SUPERCHARGER, # Any vehicles
+        3619: ChargingNetwork.AMPUP,
+        3789: ChargingNetwork.ELECTRIC_ERA,
+
+        6: None, # Nissan
+        11: None, # AFDC Import
+        26: None, # AeroVironment
+        31: None, # Clipper Creek
+        39: None, # SemaConnect
+        42: None, # Eaton
+        45: None, # Private Owner
+        3293: None, # Revolta Egypt
+        3460: None, # PEA Volta
+        3493: None, # SWTCH
+        3620: None, # Livingston Charge Port / solution.energy
+    }
+
+    for ocm_station in ocm_raw_data:
+        station = Station(
+            ocm_id=ocm_station["ID"],
+        )
+        ocm_address = ocm_station["AddressInfo"]
+
+        if "Title" in ocm_address:
+            station_name = ocm_address["Title"]
+
+            station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), station_name))
+
+        station_location = Location(latitude=ocm_address["Latitude"], longitude=ocm_address["Longitude"])
+        station.location.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), station_location))
+
+        if "OperatorInfo" in ocm_station:
+            ocm_operator = ocm_station["OperatorInfo"]
+            station.network = OCM_OPERATOR_TO_NETWORK_MAP[ocm_operator["ID"]]
+
+        stations.append(station)
+
+    return stations
+
+
 def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
     combined_stations = []
     tesla_stations = []
@@ -686,7 +743,7 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
 
             combined_station = dataclasses.replace(first_station)
 
-            CLONED_ATTRS = ['osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            CLONED_ATTRS = ['osm_id', 'nrel_id', 'ocm_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
 
             for attr in CLONED_ATTRS:
                 second_value = getattr(second_station, attr)
@@ -727,11 +784,17 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
             if getattr(second_station, "duplicated", False):
                 continue
 
-            if first_station.nrel_id == second_station.nrel_id:
-                continue
+            if first_station.nrel_id is not None or second_station.nrel_id is not None:
+                if first_station.nrel_id == second_station.nrel_id:
+                    continue
 
-            if first_station.osm_id == second_station.osm_id:
-                continue
+            if first_station.osm_id is not None or second_station.osm_id is not None:
+                if first_station.osm_id == second_station.osm_id:
+                    continue
+
+            if first_station.ocm_id is not None or second_station.ocm_id is not None:
+                if first_station.ocm_id == second_station.ocm_id:
+                    continue
 
             if first_station.network is None or first_station.network is ChargingNetwork.NON_NETWORKED:
                 continue
@@ -752,7 +815,7 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
 
             combined_station = dataclasses.replace(first_station)
 
-            CLONED_ATTRS = ['osm_id', 'nrel_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            CLONED_ATTRS = ['osm_id', 'nrel_id', 'ocm_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
 
             for attr in CLONED_ATTRS:
                 second_value = getattr(second_station, attr)
@@ -782,10 +845,16 @@ with open("nrel.json", "r") as nrel_fh:
 with open("osm.json", "r") as osm_fh:
     osm_raw_data = json.load(osm_fh)
 
+with open("ocm.json", "r") as ocm_fh:
+    ocm_raw_data = json.load(ocm_fh)
+
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
+ocm_data = normalize_ocm_data(ocm_raw_data)
 
-combined_data = combine_networked_stations([*nrel_data, *osm_data])
+combined_data = combine_networked_stations([*nrel_data, *osm_data, *ocm_data])
+
+combined_data = sorted(combined_data, key=lambda x: x.name.get() or '')
 
 station_features = geojson.FeatureCollection([])
 non_reconciled_station_features = geojson.FeatureCollection([])

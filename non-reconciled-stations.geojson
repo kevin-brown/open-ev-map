@@ -20,35 +20,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.301719,
-                    41.674327
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 3644495142
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.350724,
-                    41.946393
-                ]
-            },
-            "properties": {
-                "name": "EVgo",
-                "network": "EVGO",
-                "osm_id": 3732553898
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.209635,
                     42.485084
                 ]
@@ -91,48 +62,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.911928,
-                    42.846747
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 5773105790
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.270953,
-                    41.666153
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 6556400189
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.023382,
-                    42.432406
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 7659994144
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.061762,
                     42.361235
                 ]
@@ -154,35 +83,6 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 7814651586
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.059627,
-                    42.162632
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 7818394276
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.62413,
-                    42.538131
-                ]
-            },
-            "properties": {
-                "name": "Devens Sherman Square",
-                "network": "CHARGEPOINT",
-                "osm_id": 8500362486
             }
         },
         {
@@ -222,42 +122,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.155981,
-                    42.744229
+                    -71.030031,
+                    42.276478
                 ]
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8710873597
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.672773,
-                    41.527308
-                ]
-            },
-            "properties": {
-                "name": "Blink",
-                "network": "BLINK",
-                "osm_id": 9102222617
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.808675,
-                    42.790091
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 9364430967
+                "osm_id": 9251871478
             }
         },
         {
@@ -279,13 +150,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.806055,
-                    42.274168
+                    -71.810676,
+                    42.274766
                 ]
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10124768139
+                "osm_id": 9445609465
             }
         },
         {
@@ -293,27 +164,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.766726,
-                    42.284672
+                    -71.012679,
+                    42.407865
                 ]
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10129339745
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.086406,
-                    42.449653
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10157254422
+                "osm_id": 9563499593
             }
         },
         {
@@ -328,62 +185,6 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 10157254423
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.087693,
-                    42.449838
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10157254640
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.087687,
-                    42.449792
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10157254641
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.0869,
-                    42.450939
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10157255011
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.08684,
-                    42.450933
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10157255012
             }
         },
         {
@@ -419,13 +220,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.394243,
-                    42.456869
+                    -71.105587,
+                    42.365905
                 ]
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10990256462
+                "osm_id": 10906095726
             }
         },
         {
@@ -573,40 +374,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.252873,
-                    42.02269
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 11709563269
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.530676,
                     42.346372
                 ]
             },
             "properties": {
                 "osm_id": 11731010018
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.285521,
-                    42.492503
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 11826771123
             }
         },
         {
@@ -621,50 +394,6 @@
             "properties": {
                 "network": "CHARGEPOINT",
                 "osm_id": 11826771124
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.281384,
-                    42.491562
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 11826771130
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.964521,
-                    42.156118
-                ]
-            },
-            "properties": {
-                "name": "I-90 Westbound Charlton",
-                "network": "AUTEL",
-                "osm_id": 11899479952
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.024642,
-                    42.140087
-                ]
-            },
-            "properties": {
-                "name": "I-90 Eastbound Charlton",
-                "network": "AUTEL",
-                "osm_id": 11899494210
             }
         },
         {
@@ -742,42 +471,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.196095,
-                    42.16912
+                    -71.079373,
+                    42.349057
                 ]
             },
             "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 11952490214
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.236953,
-                    42.040041
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 11956071996
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.978417,
-                    42.232606
-                ]
-            },
-            "properties": {
-                "name": "Quick Chevrolet - Service Charger",
-                "network": "CHARGEPOINT",
-                "osm_id": 11976450688
+                "network": "VOLTA",
+                "osm_id": 12048266252
             }
         },
         {
@@ -1124,6 +824,784 @@
                 "charging_points:capacity": "2;2;2",
                 "charging_points:plugs_count": "2;2;2",
                 "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.452041,
+                        42.433176
+                    ],
+                    [
+                        -71.452104,
+                        42.433204
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": 17903480,
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.301719,
+                    41.674327
+                ]
+            },
+            "properties": {
+                "name": "65 Independence Drive",
+                "network": "CHARGEPOINT",
+                "osm_id": 3644495142,
+                "ocm_id": 29878
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.155981,
+                    42.744229
+                ]
+            },
+            "properties": {
+                "name": "90 PLEASANT LOT B EAST 1",
+                "network": "CHARGEPOINT",
+                "osm_id": 8710873597,
+                "ocm_id": 229923
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.086406,
+                    42.449653
+                ]
+            },
+            "properties": {
+                "name": "ALTA CLARA ALTA CLARA 2",
+                "network": "CHARGEPOINT",
+                "osm_id": 10157254422,
+                "ocm_id": 229353
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.0869,
+                    42.450939
+                ]
+            },
+            "properties": {
+                "name": "ALTA CLARA ALTA CLARA 3",
+                "network": "CHARGEPOINT",
+                "osm_id": 10157255011,
+                "ocm_id": 229358
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.087693,
+                    42.449838
+                ]
+            },
+            "properties": {
+                "name": "ALTA CLARA ALTA CLARA 4",
+                "network": "CHARGEPOINT",
+                "osm_id": 10157254640,
+                "ocm_id": 247351
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.087687,
+                    42.449792
+                ]
+            },
+            "properties": {
+                "name": "ALTA CLARA ALTA CLARA 5",
+                "network": "CHARGEPOINT",
+                "osm_id": 10157254641,
+                "ocm_id": 247349
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.08684,
+                    42.450933
+                ]
+            },
+            "properties": {
+                "name": "ALTA CLARA ALTA CLARA 6",
+                "network": "CHARGEPOINT",
+                "osm_id": 10157255012,
+                "ocm_id": 229356
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.211469,
+                        42.146289
+                    ],
+                    [
+                        -71.211965,
+                        42.14591
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "AUDUBONEASTERLY STATION 1;Audobon Easterly ChargePoint",
+                "network": "CHARGEPOINT",
+                "osm_id": 17669586,
+                "ocm_id": 110658,
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772;J1772_SOCKET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.285521,
+                    42.492503
+                ]
+            },
+            "properties": {
+                "name": "BEDFORD-EVS BHS 2019",
+                "network": "CHARGEPOINT",
+                "osm_id": 11826771123,
+                "ocm_id": 294921
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.281384,
+                    42.491562
+                ]
+            },
+            "properties": {
+                "name": "BEDFORD-EVS TOWN HALL 2021",
+                "network": "CHARGEPOINT",
+                "osm_id": 11826771130,
+                "ocm_id": 229449
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.270953,
+                    41.666153
+                ]
+            },
+            "properties": {
+                "name": "BMW CAPE COD",
+                "network": "CHARGEPOINT",
+                "osm_id": 6556400189,
+                "ocm_id": 28605
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.023382,
+                    42.432406
+                ]
+            },
+            "properties": {
+                "name": "BOSTON H-D",
+                "network": "CHARGEPOINT",
+                "osm_id": 7659994144,
+                "ocm_id": 143154
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.029508,
+                    42.276189
+                ]
+            },
+            "properties": {
+                "name": "BOZZUTO DEV. CO ABBY 2A",
+                "network": "CHARGEPOINT",
+                "osm_id": 9112010867,
+                "ocm_id": 228929
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.120159,
+                    42.334649
+                ]
+            },
+            "properties": {
+                "name": "BROOKLINE HEALTH 1",
+                "network": "CHARGEPOINT",
+                "osm_id": 12089773927,
+                "ocm_id": 247159
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.672773,
+                    41.527308
+                ]
+            },
+            "properties": {
+                "name": "Blink",
+                "network": "BLINK",
+                "osm_id": 9102222617
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.207044,
+                    42.346918
+                ]
+            },
+            "properties": {
+                "name": "CITY OF NEWTON NHS WALNUT ST 2",
+                "network": "CHARGEPOINT",
+                "osm_id": 10991334433,
+                "ocm_id": 229136
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.103106,
+                    42.369874
+                ]
+            },
+            "properties": {
+                "name": "CITYOFCAMBRIDGE CITYHALL ANNEX3",
+                "network": "CHARGEPOINT",
+                "osm_id": 1204555429,
+                "ocm_id": 263256
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.394243,
+                    42.456869
+                ]
+            },
+            "properties": {
+                "name": "CONCORD LIGHT",
+                "network": "CHARGEPOINT",
+                "osm_id": 10990256462,
+                "ocm_id": 28877
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.62413,
+                    42.538131
+                ]
+            },
+            "properties": {
+                "name": "DEVENS;Devens Sherman Square",
+                "network": "CHARGEPOINT",
+                "osm_id": 8500362486,
+                "ocm_id": 89724
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.350724,
+                    41.946393
+                ]
+            },
+            "properties": {
+                "name": "EVgo;Emerald Square",
+                "network": "EVGO",
+                "osm_id": 3732553898,
+                "ocm_id": 142911
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.196095,
+                    42.16912
+                ]
+            },
+            "properties": {
+                "name": "GALLERY VW",
+                "network": "CHARGEPOINT",
+                "osm_id": 11952490214,
+                "ocm_id": 54950
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.05559,
+                    42.356194
+                ]
+            },
+            "properties": {
+                "name": "GARAGE AT PO SQ LEVEL 2-003AB",
+                "network": "CHARGEPOINT",
+                "osm_id": 7893027837,
+                "ocm_id": 247230
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.024642,
+                    42.140087
+                ]
+            },
+            "properties": {
+                "name": "I-90 Eastbound Charlton",
+                "network": "AUTEL",
+                "osm_id": 11899494210
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.964521,
+                    42.156118
+                ]
+            },
+            "properties": {
+                "name": "I-90 Westbound Charlton",
+                "network": "AUTEL",
+                "osm_id": 11899479952
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.000513,
+                    42.411255
+                ]
+            },
+            "properties": {
+                "name": "MAHONEY CIRCLE 2",
+                "network": "CHARGEPOINT",
+                "osm_id": 9570069809,
+                "ocm_id": 229299
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.236953,
+                    42.040041
+                ]
+            },
+            "properties": {
+                "name": "MARRIOTT",
+                "network": "CHARGEPOINT",
+                "osm_id": 11956071996,
+                "ocm_id": 89699
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.766726,
+                    42.284672
+                ]
+            },
+            "properties": {
+                "name": "MASSDOT STATION 1",
+                "network": "CHARGEPOINT",
+                "osm_id": 10129339745,
+                "ocm_id": 263232
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.252873,
+                    42.02269
+                ]
+            },
+            "properties": {
+                "name": "MONOGRAM RES",
+                "network": "CHARGEPOINT",
+                "osm_id": 11709563269,
+                "ocm_id": 73001
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.911928,
+                    42.846747
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID",
+                "network": "CHARGEPOINT",
+                "osm_id": 5773105790,
+                "ocm_id": 96771
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.631807,
+                    42.317085
+                ]
+            },
+            "properties": {
+                "name": "NORTHAMPTON MEMORIAL HALL",
+                "network": "CHARGEPOINT",
+                "osm_id": 8567379541,
+                "ocm_id": 282861
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.808675,
+                    42.790091
+                ]
+            },
+            "properties": {
+                "name": "PARKER RIVER PARKER RIVER",
+                "network": "CHARGEPOINT",
+                "osm_id": 9364430967,
+                "ocm_id": 229983
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.135259,
+                        42.172048
+                    ],
+                    [
+                        -71.135236,
+                        42.171979
+                    ],
+                    [
+                        -71.135219,
+                        42.171921
+                    ],
+                    [
+                        -71.1352,
+                        42.171857
+                    ],
+                    [
+                        -71.134756,
+                        42.172116
+                    ],
+                    [
+                        -71.134662,
+                        42.172142
+                    ],
+                    [
+                        -71.134585,
+                        42.172167
+                    ],
+                    [
+                        -71.134826,
+                        42.172006
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "PEQUITSIDE ARMANDO-3;Pequitside Farm",
+                "network": "CHARGEPOINT",
+                "osm_id": 12048335044,
+                "ocm_id": 247025,
+                "charging_points:count": 8,
+                "charging_points:capacity": "0;0;0;0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0;0;0;0",
+                "charging_points:plugs_type": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.134696,
+                    42.172145
+                ]
+            },
+            "properties": {
+                "name": "PEQUITSIDE PEQUITSIDE-1;Pequitside Farm - Armando",
+                "network": "CHARGEPOINT",
+                "osm_id": 12048335045,
+                "ocm_id": 228727
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.667232,
+                    41.956129
+                ]
+            },
+            "properties": {
+                "name": "PLYMOUTH",
+                "network": "CHARGEPOINT",
+                "osm_id": 6331507121,
+                "ocm_id": 142918
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.977407,
+                    42.234124
+                ]
+            },
+            "properties": {
+                "name": "QUIRK GMCBRIANTREEMA1;Quick Chevrolet - Public Charger",
+                "network": "CHARGEPOINT",
+                "osm_id": 11976450689,
+                "ocm_id": 277520
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.978417,
+                    42.232606
+                ]
+            },
+            "properties": {
+                "name": "Quick Chevrolet - Service Charger",
+                "network": "CHARGEPOINT",
+                "osm_id": 11976450688
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.059627,
+                    42.162632
+                ]
+            },
+            "properties": {
+                "name": "S&H",
+                "network": "CHARGEPOINT",
+                "osm_id": 7818394276,
+                "ocm_id": 159943
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.451544,
+                        42.43407
+                    ],
+                    [
+                        -71.451578,
+                        42.434199
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "TOWN OF MAYNARD LIBRARY 1",
+                "network": "CHARGEPOINT",
+                "osm_id": 17903481,
+                "ocm_id": 247346,
+                "charging_points:count": 2,
+                "charging_points:capacity": "0;0",
+                "charging_points:plugs_count": "0;0",
+                "charging_points:plugs_type": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.324819,
+                    42.650243
+                ]
+            },
+            "properties": {
+                "name": "UMASS LOWELL",
+                "network": "CHARGEPOINT",
+                "osm_id": 6847575455,
+                "ocm_id": 40349
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.324555,
+                    42.649801
+                ]
+            },
+            "properties": {
+                "name": "UMASS LOWELL SALEM STREET",
+                "network": "CHARGEPOINT",
+                "osm_id": 6779688037,
+                "ocm_id": 247441
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.186052,
+                    42.367781
+                ]
+            },
+            "properties": {
+                "name": "WATERTOWN MA MUNICIPAL 1",
+                "network": "CHARGEPOINT",
+                "osm_id": 11897881772,
+                "ocm_id": 229202
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.205128,
+                    42.709807
+                ]
+            },
+            "properties": {
+                "name": "WILLIAMS COLLEG WILLIAMS INN",
+                "network": "CHARGEPOINT",
+                "osm_id": 12047641873,
+                "ocm_id": 142400
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.806055,
+                    42.274168
+                ]
+            },
+            "properties": {
+                "name": "WPI WPI BOYNTON 1",
+                "network": "CHARGEPOINT",
+                "osm_id": 10124768139,
+                "ocm_id": 228922
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.810051,
+                    42.275413
+                ]
+            },
+            "properties": {
+                "name": "WPI WPI GARAGE 2",
+                "network": "CHARGEPOINT",
+                "osm_id": 9445609464,
+                "ocm_id": 247087
             }
         }
     ]

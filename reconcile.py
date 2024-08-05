@@ -79,9 +79,11 @@ class SourcedValue[T](NamedTuple):
 
 class SourcedAttribute[T]:
     values: set[SourcedValue[T]]
+    multiple: bool
 
-    def __init__(self):
+    def __init__(self, multiple=False):
         self.values = set()
+        self.multiple = multiple
 
     def set(self, value: SourcedValue[T]):
         if not value.value:
@@ -90,6 +92,9 @@ class SourcedAttribute[T]:
         self.values.add(value)
 
     def get(self) -> T:
+        if self.multiple:
+            return sorted(set(self.all()))
+
         if not self.values:
             return None
 
@@ -98,7 +103,7 @@ class SourcedAttribute[T]:
         if not isinstance(first_value, str):
             return first_value
 
-        raw_values = sorted(set(val.value for val in self.values))
+        raw_values = sorted(set(self.all()))
 
         return ";".join(raw_values)
 
@@ -152,7 +157,7 @@ class Station:
     zip_code: str = ""
 
     osm_id: int = None
-    nrel_id: int = None
+    nrel_id: SourcedAttribute[list[int]] = dataclasses.field(default_factory=lambda: SourcedAttribute(multiple=True))
     ocm_id: int = None
 
     network_id: str = ""
@@ -193,10 +198,10 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
             if other_station.network != ChargingNetwork.CHARGEPOINT:
                 continue
 
-            if station.nrel_id == other_station.nrel_id:
+            if station == other_station:
                 continue
 
-            if station.nrel_id in deduplicated_stations[other_station.nrel_id]:
+            if station.nrel_id.get()[0] in deduplicated_stations[other_station.nrel_id.get()[0]]:
                 duplicate = True
                 break
 
@@ -211,12 +216,16 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
             combined_charging_points = [*station.charging_points, *other_station.charging_points]
 
             combined_station = dataclasses.replace(station, charging_points=combined_charging_points, network_id=f"{station.network_id};{other_station.network_id}")
+
             combined_station.name.extend(station.name)
             combined_station.name.extend(other_station.name)
 
+            combined_station.nrel_id.extend(station.nrel_id)
+            combined_station.nrel_id.extend(other_station.nrel_id)
+
             station = combined_station
 
-            deduplicated_stations[station.nrel_id].append(other_station.nrel_id)
+            deduplicated_stations[station.nrel_id.get()[0]].append(other_station.nrel_id.get()[0])
 
         if not duplicate:
             cleaned_stations.append(station)
@@ -319,7 +328,6 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
     for nrel_station in nrel_raw_data["fuel_stations"]:
         station = Station(
             network=NREL_NETWORK_MAP[nrel_station["ev_network"]],
-            nrel_id=nrel_station["id"],
 
             street_address=normalize_address_street_address(nrel_station["street_address"]),
             city=nrel_station["city"],
@@ -328,6 +336,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         )
 
         station.name.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["station_name"]))
+        station.nrel_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["id"]))
         station_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
         station.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), station_location))
 
@@ -361,7 +370,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 
                 charging_point = ChargingPoint(
                     network_id=station.network_id,
-                    nrel_id=station.nrel_id,
+                    nrel_id=nrel_station["id"],
                     name=station.name.get(),
                     charging_port_groups=charging_port_groups,
                 )
@@ -734,7 +743,7 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
             station.zip_code = station.zip_code.rjust(5, "0")
 
         if ocm_station["DataProviderID"] == 2:
-            station.nrel_id = int(ocm_station["DataProvidersReference"])
+            station.nrel_id.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), int(ocm_station["DataProvidersReference"])))
 
         stations.append(station)
 
@@ -771,7 +780,7 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
 
             combined_station = dataclasses.replace(first_station)
 
-            CLONED_ATTRS = ['osm_id', 'nrel_id', 'ocm_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            CLONED_ATTRS = ['osm_id', 'ocm_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
 
             for attr in CLONED_ATTRS:
                 second_value = getattr(second_station, attr)
@@ -780,6 +789,9 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
 
             combined_station.name.extend(first_station.name)
             combined_station.name.extend(second_station.name)
+
+            combined_station.nrel_id.extend(first_station.nrel_id)
+            combined_station.nrel_id.extend(second_station.nrel_id)
 
             combined_station.charging_points.extend(second_station.charging_points)
 
@@ -834,7 +846,7 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
 
             combined_station = dataclasses.replace(first_station)
 
-            CLONED_ATTRS = ['osm_id', 'nrel_id', 'ocm_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            CLONED_ATTRS = ['osm_id', 'ocm_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
 
             for attr in CLONED_ATTRS:
                 second_value = getattr(second_station, attr)
@@ -843,6 +855,9 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
 
             combined_station.name.extend(first_station.name)
             combined_station.name.extend(second_station.name)
+
+            combined_station.nrel_id.extend(first_station.nrel_id)
+            combined_station.nrel_id.extend(second_station.nrel_id)
 
             first_station.duplicated = True
             second_station.duplicated = True
@@ -892,8 +907,8 @@ for station in combined_data:
         station_properties["network"] = station.network.name
     if station.osm_id:
         station_properties["osm_id"] = station.osm_id
-    if station.nrel_id:
-        station_properties["nrel_id"] = station.nrel_id
+    if station.nrel_id.get():
+        station_properties["nrel_id"] = station.nrel_id.get()
     if station.ocm_id:
         station_properties["ocm_id"] = station.ocm_id
     if station.network_id:
@@ -936,7 +951,7 @@ for station in combined_data:
     )
     station_features["features"].append(station_feature)
 
-    if not station.nrel_id and station.osm_id and station.network is not ChargingNetwork.NON_NETWORKED:
+    if not station.nrel_id.get() and station.osm_id and station.network is not ChargingNetwork.NON_NETWORKED:
         non_reconciled_station_features["features"].append(station_feature)
 
 with open("stations.geojson", "w") as stations_fh:

@@ -2865,7 +2865,7 @@
                 "nrel_id": 123653,
                 "ocm_id": 9916,
                 "network_id": "USCPIL1790271",
-                "street_address": "15 Warren Ct",
+                "street_address": "15 Warren Court",
                 "city": "Lowell",
                 "state": "MA",
                 "zip_code": "01852",
@@ -10392,7 +10392,7 @@
                 "nrel_id": 207492,
                 "ocm_id": 229304,
                 "network_id": "USCPIL12452941;USCPIL12452951",
-                "street_address": "10 Schouler Ct",
+                "street_address": "10 Schouler Court",
                 "city": "Arlington",
                 "state": "MA",
                 "zip_code": "02476",
@@ -15249,7 +15249,7 @@
                 "name": "BOSTON VW",
                 "network": "CHARGEPOINT",
                 "ocm_id": 41778,
-                "street_address": "18 N Beacon Ct",
+                "street_address": "18 N Beacon Court",
                 "city": "Watertown",
                 "state": "MA",
                 "zip_code": "02472"
@@ -19204,7 +19204,7 @@
                 "nrel_id": 161928,
                 "ocm_id": 67492,
                 "network_id": "USCPIL123807",
-                "street_address": "10 Camelot Ct",
+                "street_address": "10 Camelot Court",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02135",
@@ -37261,7 +37261,7 @@
                 "nrel_id": 165389,
                 "ocm_id": 229490,
                 "network_id": "USCPIL5423951;USCPIL5423931",
-                "street_address": "231 Dodge St Ct",
+                "street_address": "231 Dodge St Court",
                 "city": "Salem",
                 "state": "MA",
                 "zip_code": "01970",
@@ -52193,7 +52193,7 @@
             "properties": {
                 "name": "Merrimack Garage South",
                 "ocm_id": 277675,
-                "street_address": "2 Lexington Ct",
+                "street_address": "2 Lexington Court",
                 "city": "Merrimack",
                 "state": "NH",
                 "zip_code": "03054"
@@ -79373,6 +79373,40 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -73.138769,
+                        42.473546
+                    ],
+                    [
+                        -73.138791,
+                        42.473395
+                    ],
+                    [
+                        -73.138801,
+                        42.473269
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "WAHCONAH RHS STATION 1;WAHCONAH RHS STATION 2;WAHCONAH RHS STATION 3",
+                "network": "CHARGEPOINT",
+                "nrel_id": 352051,
+                "network_id": "USCPIL9304191;USCPIL9304211;USCPIL9645781",
+                "street_address": "150 Old Windsor Road",
+                "city": "Dalton",
+                "state": "MA",
+                "zip_code": "01226",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.07005,
                         42.501366
                     ]
@@ -79628,7 +79662,7 @@
                 "nrel_id": 156231,
                 "ocm_id": 159911,
                 "network_id": "USCPIL4338701;USCPIL4338611",
-                "street_address": "8 Island Ct",
+                "street_address": "8 Island Court",
                 "city": "Easton",
                 "state": "MA",
                 "zip_code": "02375",

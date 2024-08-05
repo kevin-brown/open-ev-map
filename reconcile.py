@@ -733,6 +733,9 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         if station.zip_code and len(station.zip_code) < 5 and ocm_address["CountryID"] == 2:
             station.zip_code = station.zip_code.rjust(5, "0")
 
+        if ocm_station["DataProviderID"] == 2:
+            station.nrel_id = int(ocm_station["DataProvidersReference"])
+
         stations.append(station)
 
     return stations
@@ -809,17 +812,8 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
             if getattr(second_station, "duplicated", False):
                 continue
 
-            if first_station.nrel_id is not None or second_station.nrel_id is not None:
-                if first_station.nrel_id == second_station.nrel_id:
-                    continue
-
-            if first_station.osm_id is not None or second_station.osm_id is not None:
-                if first_station.osm_id == second_station.osm_id:
-                    continue
-
-            if first_station.ocm_id is not None or second_station.ocm_id is not None:
-                if first_station.ocm_id == second_station.ocm_id:
-                    continue
+            if first_station == second_station:
+                continue
 
             if first_station.network is None or first_station.network is ChargingNetwork.NON_NETWORKED:
                 continue

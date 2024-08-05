@@ -62,8 +62,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.061619,
-                    42.361195
+                    -71.061762,
+                    42.361235
                 ]
             },
             "properties": {
@@ -101,20 +101,6 @@
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
                 "charging_points:plugs_type": "J1772_SOCKET"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.030031,
-                    42.276478
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 9251871478
             }
         },
         {
@@ -317,8 +303,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.285521,
-                    42.492503
+                    -71.285593,
+                    42.492515
                 ]
             },
             "properties": {
@@ -747,8 +733,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.3016,
-                    41.674062
+                    -70.301719,
+                    41.674327
                 ]
             },
             "properties": {

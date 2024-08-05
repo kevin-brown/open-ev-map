@@ -132,8 +132,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.061619,
-                    42.361195
+                    -71.061762,
+                    42.361235
                 ]
             },
             "properties": {
@@ -213,20 +213,6 @@
             "properties": {
                 "network": "NON_NETWORKED",
                 "osm_id": 8988028759
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.030031,
-                    42.276478
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 9251871478
             }
         },
         {
@@ -471,8 +457,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.285521,
-                    42.492503
+                    -71.285593,
+                    42.492515
                 ]
             },
             "properties": {
@@ -1703,6 +1689,30 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.02188,
+                        42.36621
+                    ],
+                    [
+                        -71.02201,
+                        42.36628
+                    ],
+                    [
+                        -71.02187,
+                        42.36622
+                    ],
+                    [
+                        -71.02208,
+                        42.3663
+                    ],
+                    [
+                        -71.02203,
+                        42.366287
+                    ],
+                    [
+                        -71.02113,
+                        42.367413
+                    ],
+                    [
                         -71.02075,
                         42.367607
                     ],
@@ -1713,21 +1723,27 @@
                 ]
             },
             "properties": {
-                "name": "100 Service Rd;MASSPORT WG-06-08;MASSPORT WG-06-09",
+                "name": "100 Service Rd;300 Terminal Dr;MASSPORT WG-06-02;MASSPORT WG-06-03;MASSPORT WG-06-04;MASSPORT WG-06-05;MASSPORT WG-06-06;MASSPORT WG-06-07;MASSPORT WG-06-08;MASSPORT WG-06-09",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    152435,
+                    174956,
                     174957,
-                    174958
+                    174958,
+                    174959,
+                    174960,
+                    174961,
+                    174963
                 ],
-                "ocm_id": 9294,
-                "network_id": "USCPIL2060421;USCPIL2060401",
-                "street_address": "100 Service Road",
+                "ocm_id": 9293,
+                "network_id": "USCPIL2069991;USCPIL2069981;USCPIL2059991;USCPIL2054271;USCPIL2054241;USCPIL1905321;USCPIL2060421;USCPIL2060401",
+                "street_address": "300 Terminal Drive",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02128",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
+                "charging_points:count": 8,
+                "charging_points:capacity": "2;2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -4819,65 +4835,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.02188,
-                        42.36621
-                    ],
-                    [
-                        -71.02201,
-                        42.36628
-                    ],
-                    [
-                        -71.02187,
-                        42.36622
-                    ],
-                    [
-                        -71.02208,
-                        42.3663
-                    ],
-                    [
-                        -71.02203,
-                        42.366287
-                    ],
-                    [
-                        -71.02113,
-                        42.367413
-                    ],
-                    [
-                        -71.02189,
-                        42.366238
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "300 Terminal Dr;MASSPORT WG-03-01;MASSPORT WG-06-02;MASSPORT WG-06-03;MASSPORT WG-06-04;MASSPORT WG-06-05;MASSPORT WG-06-06;MASSPORT WG-06-07",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    152435,
-                    152571,
-                    174956,
-                    174959,
-                    174960,
-                    174961,
-                    174963
-                ],
-                "ocm_id": 9293,
-                "network_id": "USCPIL2069991;USCPIL2069981;USCPIL2059991;USCPIL2054271;USCPIL2054241;USCPIL1905321;USCPIL2066561",
-                "street_address": "300 Terminal Drive",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02128",
-                "charging_points:count": 7,
-                "charging_points:capacity": "2;2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.167348,
                         42.461533
                     ]
@@ -5351,31 +5308,26 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.109594,
-                        42.354375
-                    ],
-                    [
-                        -71.109498,
-                        42.354335
+                        -71.108826,
+                        42.35536
                     ]
                 ]
             },
             "properties": {
-                "name": "350 Cambridge St;640 MEMORIAL P 3;640 MEMORIAL P3;STATION WEST 640 MEMORIAL 1",
+                "name": "350 Cambridge St;MIT CAMPUS WW15-1",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    161866,
-                    179963
+                    326770
                 ],
                 "ocm_id": 10510,
-                "network_id": "USCPIL174859;USCPIL174581",
+                "network_id": "USCPIL1911831",
                 "street_address": "350 Cambridge Street",
                 "city": "Mid-Cambridge",
                 "state": "MA",
                 "zip_code": "02139",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -7416,8 +7368,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.056166,
-                    42.358522
+                    -71.056201,
+                    42.358777
                 ]
             },
             "properties": {
@@ -7758,10 +7710,44 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.109594,
+                        42.354375
+                    ],
+                    [
+                        -71.109498,
+                        42.354335
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "640 MEMORIAL P 3;640 MEMORIAL P3;STATION WEST 640 MEMORIAL 1",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    161866,
+                    179963
+                ],
+                "ocm_id": 247221,
+                "network_id": "USCPIL174859;USCPIL174581",
+                "street_address": "2 Waverly Street",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.3016,
-                    41.674062
+                    -70.301719,
+                    41.674327
                 ]
             },
             "properties": {
@@ -9652,8 +9638,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.086406,
-                    42.449653
+                    -71.086348,
+                    42.449651
                 ]
             },
             "properties": {
@@ -9676,7 +9662,7 @@
                 "type": "Point",
                 "coordinates": [
                     -71.08684,
-                    42.450933
+                    42.450928
                 ]
             },
             "properties": {
@@ -9699,8 +9685,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.087687,
-                    42.449792
+                    -71.087693,
+                    42.449838
                 ]
             },
             "properties": {
@@ -11596,7 +11582,7 @@
             },
             "properties": {
                 "name": "Airbnb - Newton 2 - Tesla Destination",
-                "network": "TESLA_SUPERCHARGER",
+                "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114357
                 ],
@@ -11797,31 +11783,12 @@
                 ]
             },
             "properties": {
-                "name": "Applegate Inn - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62276,
-                "street_address": "279 W Park Street",
-                "city": "Lee",
-                "state": "MA",
-                "zip_code": "01238"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.252803,
-                    42.303202
-                ]
-            },
-            "properties": {
-                "name": "Applegate Inn, a Select Registry Property - Tesla Destination",
+                "name": "Applegate Inn - Tesla;Applegate Inn, a Select Registry Property - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114339
                 ],
-                "ocm_id": 115969,
+                "ocm_id": 62276,
                 "network_id": "510156",
                 "street_address": "279 W Park Street",
                 "city": "Lee",
@@ -12065,8 +12032,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.833059,
-                    42.203734
+                    -71.832961,
+                    42.203753
                 ]
             },
             "properties": {
@@ -13024,6 +12991,7 @@
             "properties": {
                 "name": "BEDFORD-EVS BHS 2019;BEDFORD-EVS BHS 2021",
                 "network": "CHARGEPOINT",
+                "osm_id": 11826771123,
                 "nrel_id": [
                     196581,
                     327459
@@ -13320,19 +13288,40 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.425989,
-                    41.927766
+                    -71.425964,
+                    41.926806
                 ]
             },
             "properties": {
-                "name": "BERKELEY MILL BERKELEY MILL2;BERKELEY MILL BERKELEY MILL3;BERKELEY MILL BERKELEY MILL4",
+                "name": "BERKELEY MILL BERKELEY MILL2",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    205211,
+                    205211
+                ],
+                "ocm_id": 228409,
+                "street_address": "30 Martin Street",
+                "city": "Cumberland",
+                "state": "RI",
+                "zip_code": "02864"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.425744,
+                    41.927255
+                ]
+            },
+            "properties": {
+                "name": "BERKELEY MILL BERKELEY MILL3;BERKELEY MILL BERKELEY MILL4",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
                     205716,
                     205954
                 ],
-                "ocm_id": 228409,
+                "ocm_id": 228411,
                 "street_address": "30 Martin Street",
                 "city": "Cumberland",
                 "state": "RI",
@@ -13729,55 +13718,32 @@
                         42.596438
                     ],
                     [
+                        -72.593018,
+                        42.59529
+                    ],
+                    [
                         -72.592997,
                         42.595375
                     ]
                 ]
             },
             "properties": {
-                "name": "BH BFMC LOWER 1;BH BFMC UPPER 1;BH BFMC UPPER 2",
+                "name": "BH BFMC LOWER 1;BH BFMC LOWER 2;BH BFMC UPPER 1;BH BFMC UPPER 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     335748,
                     335749,
+                    335751,
                     335752
                 ],
-                "network_id": "USCPIL15814601;USCPIL15814671;USCPIL15814831",
+                "network_id": "USCPIL15814601;USCPIL15814671;USCPIL15814791;USCPIL15814831",
                 "street_address": "164 High Street",
                 "city": "Greenfield",
                 "state": "MA",
                 "zip_code": "01301",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -72.593018,
-                        42.59529
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "BH BFMC LOWER 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    335751
-                ],
-                "network_id": "USCPIL15814791",
-                "street_address": "164 High Street",
-                "city": "Greenfield",
-                "state": "MA",
-                "zip_code": "01301",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
+                "charging_points:count": 4,
+                "charging_points:capacity": "2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -14232,10 +14198,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -72.606154,
-                        42.09573
-                    ],
-                    [
                         -72.60464,
                         42.095337
                     ],
@@ -14246,22 +14208,21 @@
                 ]
             },
             "properties": {
-                "name": "BIG Y FOODS W.SPRINGFIELD 1;BIG Y FOODS W.SPRINGFIELD 2;PEOPLESBANK 547 MEMORIAL",
+                "name": "BIG Y FOODS W.SPRINGFIELD 1;BIG Y FOODS W.SPRINGFIELD 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    50080,
                     150372,
                     174863
                 ],
                 "ocm_id": 246989,
-                "network_id": "USCPIL1960031;USCPIL2042911;USCPIL2042901",
+                "network_id": "USCPIL2042911;USCPIL2042901",
                 "street_address": "500 Memorial Avenue",
                 "city": "West Springfield",
                 "state": "MA",
                 "zip_code": "01089",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -14780,8 +14741,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.293177,
-                    41.532686
+                    -71.292501,
+                    41.532325
                 ]
             },
             "properties": {
@@ -14824,8 +14785,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.69434,
-                    42.277393
+                    -71.6934,
+                    42.27726
                 ]
             },
             "properties": {
@@ -15345,6 +15306,28 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.086732,
+                    42.36341
+                ]
+            },
+            "properties": {
+                "name": "BOSTON PROP CC",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    77123
+                ],
+                "ocm_id": 71564,
+                "street_address": "86-98 Broadway",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -15392,40 +15375,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.088568,
-                        42.363733
-                    ],
-                    [
-                        -71.08849,
-                        42.363707
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "BOSTON PROP CC YELLOW GARAGE 1;BOSTON PROP CC YELLOW GARAGE 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    161951,
-                    180009
-                ],
-                "ocm_id": 247294,
-                "network_id": "USCPIL120243;USCPIL120097",
-                "street_address": "75 Ames Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.085734,
                         42.363192
                     ],
@@ -15464,10 +15413,9 @@
                 ]
             },
             "properties": {
-                "name": "BOSTON PROP CC;BOSTON PROP CC BPGREENGARAGE 1;BOSTON PROP CC BPGREENGARAGE 2;BOSTON PROP CC BPGREENGARAGE 3;BOSTON PROP CC BPGREENGARAGE 4;BOSTON PROP CC BPGREENGARAGE 5;BOSTON PROP CC BPGREENGARAGE 6;BOSTON PROP CC BPGREENGARAGE 7;BOSTON PROP CC BPGREENGARAGE 8;BOSTON PROP CC BPGREENGARAGE 9",
+                "name": "BOSTON PROP CC BPGREENGARAGE 1;BOSTON PROP CC BPGREENGARAGE 2;BOSTON PROP CC BPGREENGARAGE 3;BOSTON PROP CC BPGREENGARAGE 4;BOSTON PROP CC BPGREENGARAGE 5;BOSTON PROP CC BPGREENGARAGE 6;BOSTON PROP CC BPGREENGARAGE 7;BOSTON PROP CC BPGREENGARAGE 8;BOSTON PROP CC BPGREENGARAGE 9",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    77123,
                     161901,
                     179975,
                     237005,
@@ -15478,7 +15426,7 @@
                     237010,
                     237011
                 ],
-                "ocm_id": 71564,
+                "ocm_id": 247280,
                 "network_id": "USCPIL144791;USCPIL143113;USCPIL13261501;USCPIL13261511;USCPIL13261531;USCPIL13261541;USCPIL13261551;USCPIL13261561;USCPIL13261581",
                 "street_address": "86-98 Broadway",
                 "city": "Cambridge",
@@ -15487,6 +15435,40 @@
                 "charging_points:count": 9,
                 "charging_points:capacity": "2;2;2;2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.088568,
+                        42.363733
+                    ],
+                    [
+                        -71.08849,
+                        42.363707
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BOSTON PROP CC YELLOW GARAGE 1;BOSTON PROP CC YELLOW GARAGE 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    161951,
+                    180009
+                ],
+                "ocm_id": 247294,
+                "network_id": "USCPIL120243;USCPIL120097",
+                "street_address": "75 Ames Street",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02142",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -15757,7 +15739,7 @@
             "properties": {
                 "name": "BOZZUTO DEV. CO ABBY 2A;BOZZUTO DEV. CO ABBY 2B;BOZZUTO DEV. CO ABBY 3A;BOZZUTO DEV. CO ABBY 3B;BOZZUTO DEV. CO ABBY 4;BOZZUTO DEV. CO ABBY 5",
                 "network": "CHARGEPOINT",
-                "osm_id": 9112010867,
+                "osm_id": 9251871478,
                 "nrel_id": [
                     193389,
                     193390,
@@ -17134,8 +17116,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.141179,
-                    42.354941
+                    -71.141603,
+                    42.354729
                 ]
             },
             "properties": {
@@ -17939,8 +17921,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.239226,
-                    42.295745
+                    -73.239162,
+                    42.295693
                 ]
             },
             "properties": {
@@ -18015,35 +17997,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.281803,
-                    42.362859
-                ]
-            },
-            "properties": {
-                "name": "Birchwood Inn",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62302,
-                "street_address": "7 Hubbard Street",
-                "city": "Lenox",
-                "state": "MA",
-                "zip_code": "01240"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -73.281833,
                     42.362848
                 ]
             },
             "properties": {
-                "name": "Birchwood Inn, a Select Registry Property - Tesla Destination",
+                "name": "Birchwood Inn;Birchwood Inn, a Select Registry Property - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114346
                 ],
+                "ocm_id": 62302,
                 "network_id": "510281",
                 "street_address": "7 Hubbard Street",
                 "city": "Lenox",
@@ -18113,33 +18077,14 @@
                 ]
             },
             "properties": {
-                "name": "Blantyre - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62287,
-                "street_address": "16 Blantyre Road",
-                "city": "Lenox",
-                "state": "MA",
-                "zip_code": "01240"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.258924,
-                    42.336121
-                ]
-            },
-            "properties": {
-                "name": "Blantyre - Tesla Destination",
+                "name": "Blantyre - Tesla;Blantyre - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114345
                 ],
-                "ocm_id": 115972,
+                "ocm_id": 62287,
                 "network_id": "501332",
-                "street_address": "6 Blantyre Road",
+                "street_address": "16 Blantyre Road",
                 "city": "Lenox",
                 "state": "MA",
                 "zip_code": "01240"
@@ -18331,8 +18276,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.080456,
-                    42.347378
+                    -71.081003,
+                    42.34717
                 ]
             },
             "properties": {
@@ -18619,30 +18564,12 @@
                 ]
             },
             "properties": {
-                "name": "Brook Farm Inn",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62294,
-                "street_address": "15 Hawthorne Street",
-                "city": "Lenox",
-                "state": "MA",
-                "zip_code": "01240"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.288507,
-                    42.352564
-                ]
-            },
-            "properties": {
-                "name": "Brook Farm Inn, a Select Registry Property - Tesla Destination",
+                "name": "Brook Farm Inn;Brook Farm Inn, a Select Registry Property - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114342
                 ],
+                "ocm_id": 62294,
                 "network_id": "510207",
                 "street_address": "15 Hawthorne Street",
                 "city": "Lenox",
@@ -19568,36 +19495,46 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -70.279097,
+                        41.6577
+                    ],
+                    [
+                        -70.279058,
+                        41.657831
+                    ],
+                    [
+                        -70.27908,
+                        41.657729
+                    ],
+                    [
                         -70.279166,
                         41.657535
                     ],
                     [
                         -70.280255,
                         41.656988
-                    ],
-                    [
-                        -70.280511,
-                        41.656467
                     ]
                 ]
             },
             "properties": {
-                "name": "CCRTA EV-1 BUS TERM;CCRTA EV-6 TRANSP DR;CCRTA EV-8 TRANSP DRV",
+                "name": "CCRTA EV-1 BUS TERM;CCRTA EV-3 BUS TERM;CCRTA EV-4 BUS TERM;CCRTA EV-5 BUS TERM;CCRTA EV-6 TRANSP DR",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    154026,
                     154027,
                     154029,
-                    175229
+                    175227,
+                    175228
                 ],
                 "ocm_id": 159810,
-                "network_id": "USCPIL2104201;USCPIL2104161;USCPIL1817151",
-                "street_address": "1 Transportation Avenue",
+                "network_id": "USCPIL2104221;USCPIL2104211;USCPIL2104231;USCPIL2104201;USCPIL2104161",
+                "street_address": "22 Ridgewood Avenue",
                 "city": "Barnstable",
                 "state": "MA",
                 "zip_code": "02601",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
+                "charging_points:count": 5,
+                "charging_points:capacity": "2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -19613,25 +19550,30 @@
                     [
                         -70.280514,
                         41.656041
+                    ],
+                    [
+                        -70.280511,
+                        41.656467
                     ]
                 ]
             },
             "properties": {
-                "name": "CCRTA EV-10 TRANSP DR;CCRTA EV-9 TRANSP DRV",
+                "name": "CCRTA EV-10 TRANSP DR;CCRTA EV-8 TRANSP DRV;CCRTA EV-9 TRANSP DRV",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     154030,
-                    154031
+                    154031,
+                    175229
                 ],
                 "ocm_id": 159809,
-                "network_id": "USCPIL2104151;USCPIL2104121",
-                "street_address": "68 Center Street",
+                "network_id": "USCPIL2104151;USCPIL2104121;USCPIL1817151",
+                "street_address": "1 Transportation Avenue",
                 "city": "Barnstable",
                 "state": "MA",
                 "zip_code": "02601",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -19661,44 +19603,6 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.279097,
-                        41.6577
-                    ],
-                    [
-                        -70.279058,
-                        41.657831
-                    ],
-                    [
-                        -70.27908,
-                        41.657729
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "CCRTA EV-3 BUS TERM;CCRTA EV-4 BUS TERM;CCRTA EV-5 BUS TERM",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    154026,
-                    175227,
-                    175228
-                ],
-                "network_id": "USCPIL2104221;USCPIL2104211;USCPIL2104231",
-                "street_address": "98 Ridgewood Avenue",
-                "city": "Barnstable",
-                "state": "MA",
-                "zip_code": "02601",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -19925,8 +19829,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.137458,
-                    41.954787
+                    -71.13755,
+                    41.954742
                 ]
             },
             "properties": {
@@ -21341,7 +21245,6 @@
             "properties": {
                 "name": "CITY OF MALDEN 180 EXCHANGE ST",
                 "network": "CHARGEPOINT",
-                "osm_id": 9994959784,
                 "nrel_id": [
                     213408
                 ],
@@ -21485,6 +21388,7 @@
             "properties": {
                 "name": "CITY OF MALDEN JACKSON GAR 1;CITY OF MALDEN JACKSON GAR 2;CITY OF MALDEN JACKSON GAR 3;CITY OF MALDEN JACKSON GAR 4;CITY OF MALDEN JACKSON GAR 5",
                 "network": "CHARGEPOINT",
+                "osm_id": 9994959784,
                 "nrel_id": [
                     191582,
                     191583,
@@ -25327,8 +25231,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.025773,
-                    42.139221
+                    -72.025739,
+                    42.139213
                 ]
             },
             "properties": {
@@ -26787,30 +26691,12 @@
                 ]
             },
             "properties": {
-                "name": "Cranwell Resort, Spa & Golf Club",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 85726,
-                "street_address": "55 Lee Road",
-                "city": "Lenox",
-                "state": "MA",
-                "zip_code": "01240"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.266561,
-                    42.341095
-                ]
-            },
-            "properties": {
-                "name": "Cranwell Resort, Spa & Golf Club - Tesla Destination",
+                "name": "Cranwell Resort, Spa & Golf Club;Cranwell Resort, Spa & Golf Club - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114344
                 ],
+                "ocm_id": 85726,
                 "network_id": "499875",
                 "street_address": "55 Lee Road",
                 "city": "Lenox",
@@ -27363,30 +27249,25 @@
                     [
                         -71.1267,
                         41.717957
-                    ],
-                    [
-                        -71.12735,
-                        41.71782
                     ]
                 ]
             },
             "properties": {
-                "name": "DCM COMPLEX BMC DHS 1;DCM COMPLEX BMC DHS 2;DCM COMPLEX BMC DHS 4",
+                "name": "DCM COMPLEX BMC DHS 1;DCM COMPLEX BMC DHS 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     205190,
-                    205191,
-                    205192
+                    205191
                 ],
-                "ocm_id": 246763,
-                "network_id": "USCPIL11544111;USCPIL11544141;USCPIL11544341",
-                "street_address": "365 elsbree street",
+                "ocm_id": 228100,
+                "network_id": "USCPIL11544111;USCPIL11544141",
+                "street_address": "Durfee High School Elsbree Street",
                 "city": "Fall River",
                 "state": "MA",
                 "zip_code": "02720",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -27410,6 +27291,35 @@
                 "ocm_id": 228094,
                 "network_id": "USCPIL11544561",
                 "street_address": "Durfee High School",
+                "city": "Fall River",
+                "state": "MA",
+                "zip_code": "02720",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.12735,
+                        41.71782
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "DCM COMPLEX BMC DHS 4",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    205192
+                ],
+                "ocm_id": 246763,
+                "network_id": "USCPIL11544341",
+                "street_address": "365 elsbree street",
                 "city": "Fall River",
                 "state": "MA",
                 "zip_code": "02720",
@@ -28687,35 +28597,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.264259,
-                    42.300936
-                ]
-            },
-            "properties": {
-                "name": "Devonfield Inn - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62274,
-                "street_address": "85 Stockbridge Road",
-                "city": "Lee",
-                "state": "MA",
-                "zip_code": "01238"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -73.264268,
                     42.300948
                 ]
             },
             "properties": {
-                "name": "Devonfield Inn, a Select Registry Property - Tesla Destination",
+                "name": "Devonfield Inn - Tesla;Devonfield Inn, a Select Registry Property - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114341
                 ],
+                "ocm_id": 62274,
                 "network_id": "509346",
                 "street_address": "85 Stockbridge Road",
                 "city": "Lee",
@@ -28799,12 +28691,9 @@
                 ]
             },
             "properties": {
-                "name": "Dock Square Parking Garage - Tesla Destination",
-                "network": "TESLA_DESTINATION",
-                "nrel_id": [
-                    150640
-                ],
-                "network_id": "513570",
+                "name": "Dock Square Parking Garage",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": 125157,
                 "street_address": "20 Clinton Street",
                 "city": "Boston",
                 "state": "MA",
@@ -28821,10 +28710,13 @@
                 ]
             },
             "properties": {
-                "name": "Dock Square Parking Garage;Millennium Bostonian Hotel - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62300,
-                "street_address": "25 North Street",
+                "name": "Dock Square Parking Garage - Tesla Destination",
+                "network": "TESLA_DESTINATION",
+                "nrel_id": [
+                    150640
+                ],
+                "network_id": "513570",
+                "street_address": "20 Clinton Street",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02109"
@@ -28885,36 +28777,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.048075,
-                    42.320499
-                ]
-            },
-            "properties": {
-                "name": "DoubleTree - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 71561,
-                "street_address": "240 Mount Vernon Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02125"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.048123,
                     42.320144
                 ]
             },
             "properties": {
-                "name": "DoubleTree Club by Hilton Boston-Bayside - Tesla Destination",
+                "name": "DoubleTree - Tesla;DoubleTree Club by Hilton Boston-Bayside - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114323
                 ],
-                "ocm_id": 115971,
+                "ocm_id": 71561,
                 "network_id": "500857",
                 "street_address": "240 Mount Vernon Street",
                 "city": "Boston",
@@ -28927,54 +28800,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.064645,
-                    42.348724
-                ]
-            },
-            "properties": {
-                "name": "DoubleTree by Hilton - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62289,
-                "street_address": "821 Washington Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02111"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.2803,
-                    41.661139
-                ]
-            },
-            "properties": {
-                "name": "DoubleTree by Hilton - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62212,
-                "street_address": "287 Iyannough Road",
-                "city": "Barnstable",
-                "state": "MA",
-                "zip_code": "02601"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.064651,
                     42.348958
                 ]
             },
             "properties": {
-                "name": "DoubleTree by Hilton Boston - Downtown - Tesla Destination",
+                "name": "DoubleTree by Hilton - Tesla;DoubleTree by Hilton Boston - Downtown - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114328
                 ],
+                "ocm_id": 62289,
                 "network_id": "500445",
                 "street_address": "821 Washington Street",
                 "city": "Boston",
@@ -28992,11 +28828,12 @@
                 ]
             },
             "properties": {
-                "name": "Doubletree by Hilton Cape Cod - Hyannis - Tesla Destination",
+                "name": "DoubleTree by Hilton - Tesla;Doubletree by Hilton Cape Cod - Hyannis - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114319
                 ],
+                "ocm_id": 62212,
                 "network_id": "513264",
                 "street_address": "287 Iyannough Road",
                 "city": "Barnstable",
@@ -29155,8 +28992,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.540289,
-                    41.781195
+                    -70.540128,
+                    41.781214
                 ]
             },
             "properties": {
@@ -29267,8 +29104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.0548,
-                    42.456183
+                    -71.054718,
+                    42.45598
                 ]
             },
             "properties": {
@@ -31946,8 +31783,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.025608,
-                    42.453697
+                    -71.025372,
+                    42.453721
                 ]
             },
             "properties": {
@@ -33210,30 +33047,12 @@
                 ]
             },
             "properties": {
-                "name": "Four Seasons Hotel Boston",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 81728,
-                "street_address": "200 Boylston Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02116"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.068673,
-                    42.352135
-                ]
-            },
-            "properties": {
-                "name": "Four Seasons Hotel Boston - Tesla Destination",
+                "name": "Four Seasons Hotel Boston;Four Seasons Hotel Boston - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114322
                 ],
+                "ocm_id": 81728,
                 "network_id": "513974",
                 "street_address": "200 Boylston Street",
                 "city": "Boston",
@@ -33319,8 +33138,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.403475,
-                    42.30519
+                    -71.403713,
+                    42.305132
                 ]
             },
             "properties": {
@@ -33605,6 +33424,38 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.041557,
+                        42.349249
+                    ],
+                    [
+                        -71.041616,
+                        42.349364
+                    ],
+                    [
+                        -71.041509,
+                        42.349498
+                    ],
+                    [
+                        -71.041605,
+                        42.349348
+                    ],
+                    [
+                        -71.041176,
+                        42.349189
+                    ],
+                    [
+                        -71.04116,
+                        42.349195
+                    ],
+                    [
+                        -71.041434,
+                        42.349221
+                    ],
+                    [
+                        -71.041696,
+                        42.349184
+                    ],
+                    [
                         -71.04194,
                         42.34866
                     ],
@@ -33615,21 +33466,29 @@
                 ]
             },
             "properties": {
-                "name": "GABLES SEAPORT 501 CONGRESS ST;GABLES SEAPORT WORLD TRADE CEN",
+                "name": "GABLES SEAPORT 501 CONGRESS ST;GABLES SEAPORT WORLD TRADE CEN;SEAPORT GARAGE EAST GARAGE P1;SEAPORT GARAGE EAST GARAGE2 P1;SEAPORT GARAGE SEAPORT HOTEL 1;SEAPORT GARAGE SEAPORT HOTEL 2;SEAPORT GARAGE SEAPORT HOTEL 3;SEAPORT GARAGE SEAPORT HOTEL 4;SEAPORT GARAGE SEAPORT VALET;SEAPORT GARAGE WEST GARAGE2 P1",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    38254,
+                    173015,
+                    173016,
+                    173017,
+                    173018,
+                    173019,
+                    173020,
+                    173021,
                     199130,
                     199133
                 ],
                 "ocm_id": 247198,
-                "network_id": "USCPIL5365201;USCPIL5502091",
+                "network_id": "USCPIL367381;USCPIL278871;USCPIL278821;USCPIL278811;USCPIL268691;USCPIL117667;USCPIL370051;USCPIL114349;USCPIL5365201;USCPIL5502091",
                 "street_address": "501 Congress Street",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02210",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
+                "charging_points:count": 10,
+                "charging_points:capacity": "2;2;2;2;2;2;2;2;1;1",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;2;1;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -34064,35 +33923,7 @@
                     [
                         -71.570263,
                         42.552026
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "GERVAIS FORD L2-1;GERVAIS FORD L2-2;GERVAIS FORD L2-3;GERVAIS FORD PL-2-M;GERVAIS FORD PL-3-R",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    350305,
-                    350306,
-                    350308,
-                    350309,
-                    350310
-                ],
-                "network_id": "USCPIL15656411;USCPIL15656421;USCPIL15657631;USCPIL15666701;USCPIL15728941",
-                "street_address": "5 Littleton Road",
-                "city": "Ayer",
-                "state": "MA",
-                "zip_code": "01432",
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2",
-                "charging_points:plugs_type": "J1772;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
+                    ],
                     [
                         -71.56926,
                         42.552019
@@ -34100,20 +33931,25 @@
                 ]
             },
             "properties": {
-                "name": "GERVAIS FORD PL-1-L",
+                "name": "GERVAIS FORD L2-1;GERVAIS FORD L2-2;GERVAIS FORD L2-3;GERVAIS FORD PL-1-L;GERVAIS FORD PL-2-M;GERVAIS FORD PL-3-R",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    350307
+                    350305,
+                    350306,
+                    350307,
+                    350308,
+                    350309,
+                    350310
                 ],
-                "network_id": "USCPIL15657461",
+                "network_id": "USCPIL15656411;USCPIL15656421;USCPIL15657631;USCPIL15666701;USCPIL15728941;USCPIL15657461",
                 "street_address": "5 Littleton Road Parts & Service",
                 "city": "Ayer",
                 "state": "MA",
                 "zip_code": "01432",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772_COMBO"
+                "charging_points:count": 6,
+                "charging_points:capacity": "2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2",
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -34824,30 +34660,12 @@
                 ]
             },
             "properties": {
-                "name": "Gateways Inn",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62297,
-                "street_address": "51 Walker Street",
-                "city": "Lenox",
-                "state": "MA",
-                "zip_code": "01240"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.282639,
-                    42.35599
-                ]
-            },
-            "properties": {
-                "name": "Gateways Inn, a Select Registry Property - Tesla Destination",
+                "name": "Gateways Inn;Gateways Inn, a Select Registry Property - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114343
                 ],
+                "ocm_id": 62297,
                 "network_id": "509339",
                 "street_address": "51 Walker Street",
                 "city": "Lenox",
@@ -35115,30 +34933,12 @@
                 ]
             },
             "properties": {
-                "name": "Great Harbor Yacht Club",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 82183,
-                "street_address": "96 Washington Street",
-                "city": "Nantucket",
-                "state": "MA",
-                "zip_code": "02554"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.093095,
-                    41.278752
-                ]
-            },
-            "properties": {
-                "name": "Great Harbor Yacht Club - Tesla Destination",
+                "name": "Great Harbor Yacht Club;Great Harbor Yacht Club - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114351
                 ],
+                "ocm_id": 82183,
                 "network_id": "513329",
                 "street_address": "96 Washington Street",
                 "city": "Nantucket",
@@ -35151,8 +34951,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.059756,
-                    42.465946
+                    -71.059553,
+                    42.466013
                 ]
             },
             "properties": {
@@ -35953,6 +35753,14 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -70.303881,
+                        41.680634
+                    ],
+                    [
+                        -70.303939,
+                        41.680559
+                    ],
+                    [
                         -70.303156,
                         41.679937
                     ],
@@ -35963,20 +35771,22 @@
                 ]
             },
             "properties": {
-                "name": "HHYANNIS STATION 1;HHYANNIS STATION 2",
+                "name": "HHYANNIS STATION 1;HHYANNIS STATION 2;HHYANNIS STATION 3;HHYANNIS STATION 4",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    351476,
+                    351477,
                     351478,
                     351479
                 ],
-                "network_id": "USCPIL16103831;USCPIL16103881",
+                "network_id": "USCPIL16103761;USCPIL16103791;USCPIL16103831;USCPIL16103881",
                 "street_address": "99 Wilkens Lane",
                 "city": "Barnstable",
                 "state": "MA",
                 "zip_code": "02630",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
+                "charging_points:count": 4,
+                "charging_points:capacity": "2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -35996,35 +35806,25 @@
                     [
                         -70.302108,
                         41.681237
-                    ],
-                    [
-                        -70.303881,
-                        41.680634
-                    ],
-                    [
-                        -70.303939,
-                        41.680559
                     ]
                 ]
             },
             "properties": {
-                "name": "HHYANNIS STATION 3;HHYANNIS STATION 4;HHYANNIS STATION 5;HHYANNIS STATION 6;HHYANNIS STATION 7",
+                "name": "HHYANNIS STATION 5;HHYANNIS STATION 6;HHYANNIS STATION 7",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     347321,
                     347322,
-                    347323,
-                    351476,
-                    351477
+                    347323
                 ],
-                "network_id": "USCPIL15803021;USCPIL15803031;USCPIL15803041;USCPIL16103761;USCPIL16103791",
+                "network_id": "USCPIL15803021;USCPIL15803031;USCPIL15803041",
                 "street_address": "99 Wilkens Lane",
                 "city": "Barnstable",
                 "state": "MA",
                 "zip_code": "02630",
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -36997,8 +36797,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.609075,
-                    42.338648
+                    -72.609253,
+                    42.338748
                 ]
             },
             "properties": {
@@ -37091,30 +36891,12 @@
                 ]
             },
             "properties": {
-                "name": "Hampton Inn Amesbury",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 87725,
-                "street_address": "284 Elm Street",
-                "city": "Amesbury",
-                "state": "MA",
-                "zip_code": "01913"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.908409,
-                    42.847511
-                ]
-            },
-            "properties": {
-                "name": "Hampton Inn Amesbury - Tesla Destination",
+                "name": "Hampton Inn Amesbury;Hampton Inn Amesbury - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114318
                 ],
+                "ocm_id": 87725,
                 "network_id": "505336",
                 "street_address": "284 Elm Street",
                 "city": "Amesbury",
@@ -37386,8 +37168,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.162513,
-                    42.062319
+                    -70.162417,
+                    42.062308
                 ]
             },
             "properties": {
@@ -37413,30 +37195,12 @@
                 ]
             },
             "properties": {
-                "name": "Harbor Light Inn - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62319,
-                "street_address": "58 Washington Street",
-                "city": "Marblehead",
-                "state": "MA",
-                "zip_code": "01945"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.848065,
-                    42.506009
-                ]
-            },
-            "properties": {
-                "name": "Harbor Light Inn, a Select Registry Property - Tesla Destination",
+                "name": "Harbor Light Inn - Tesla;Harbor Light Inn, a Select Registry Property - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114348
                 ],
+                "ocm_id": 62319,
                 "network_id": "510161",
                 "street_address": "58 Washington Street",
                 "city": "Marblehead",
@@ -38461,7 +38225,7 @@
                 "type": "Point",
                 "coordinates": [
                     -70.307105,
-                    41.676598
+                    41.676617
                 ]
             },
             "properties": {
@@ -39316,31 +39080,13 @@
                 ]
             },
             "properties": {
-                "name": "Isaiah Jones Homestead Bed & Breakfast - Tesla Destination",
+                "name": "Isaiah Jones Homestead Bed & Breakfast - Tesla Destination;Isaiah Jones Homestead Bed and Breakfast - Tesla",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114355
                 ],
-                "network_id": "510240",
-                "street_address": "165 Main Street",
-                "city": "Sandwich",
-                "state": "MA",
-                "zip_code": "02563"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.495236,
-                    41.757246
-                ]
-            },
-            "properties": {
-                "name": "Isaiah Jones Homestead Bed and Breakfast - Tesla",
-                "network": "TESLA_SUPERCHARGER",
                 "ocm_id": 62220,
+                "network_id": "510240",
                 "street_address": "165 Main Street",
                 "city": "Sandwich",
                 "state": "MA",
@@ -40491,30 +40237,12 @@
                 ]
             },
             "properties": {
-                "name": "Kimpton Nine Zero Hotel - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 67495,
-                "street_address": "90 Tremont Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02108"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.060875,
-                    42.357382
-                ]
-            },
-            "properties": {
-                "name": "Kimpton Nine Zero Hotel - Tesla Destination",
+                "name": "Kimpton Nine Zero Hotel - Tesla;Kimpton Nine Zero Hotel - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114329
                 ],
+                "ocm_id": 67495,
                 "network_id": "500736",
                 "street_address": "90 Tremont Street",
                 "city": "Boston",
@@ -41461,45 +41189,9 @@
                         42.484788
                     ],
                     [
-                        -71.20266,
-                        42.48377
-                    ],
-                    [
                         -71.202545,
                         42.484615
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "LHMC GARAGE LV1 #1;LHMC GARAGE LV1 #2;LHMC GARAGE LV1 #3;LHMC GARAGE LV1 #4;LHMC GARAGE LV2 #1;LHMC GARAGE LV2 #4;LHMC LOT 3 LAHEY 2;LHMC LOT 8 LAHEY #1",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    168257,
-                    181693,
-                    181694,
-                    181695,
-                    181696,
-                    181697,
-                    189826,
-                    189827
-                ],
-                "ocm_id": 229427,
-                "network_id": "USCPIL5523971;USCPIL5517781;USCPIL5517651;USCPIL5517591;USCPIL5291721;USCPIL5517571;USCPIL5517471;USCPIL5520131",
-                "street_address": "41 Burlington Mall Road",
-                "city": "Burlington",
-                "state": "MA",
-                "zip_code": "01803",
-                "charging_points:count": 8,
-                "charging_points:capacity": "2;2;2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
+                    ],
                     [
                         -71.20375,
                         42.48496
@@ -41511,20 +41203,28 @@
                 ]
             },
             "properties": {
-                "name": "LHMC GARAGE LV2 #2;LHMC GARAGE LV2 #3",
+                "name": "LHMC GARAGE LV1 #1;LHMC GARAGE LV1 #2;LHMC GARAGE LV1 #3;LHMC GARAGE LV1 #4;LHMC GARAGE LV2 #1;LHMC GARAGE LV2 #2;LHMC GARAGE LV2 #3;LHMC GARAGE LV2 #4;LHMC LOT 8 LAHEY #1",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    168257,
                     171363,
-                    171364
+                    171364,
+                    181693,
+                    181694,
+                    181695,
+                    181696,
+                    181697,
+                    189827
                 ],
-                "network_id": "USCPIL5517871;USCPIL5517611",
+                "ocm_id": 229431,
+                "network_id": "USCPIL5523971;USCPIL5517781;USCPIL5517651;USCPIL5517591;USCPIL5291721;USCPIL5517571;USCPIL5520131;USCPIL5517871;USCPIL5517611",
                 "street_address": "Lahey",
                 "city": "Burlington",
                 "state": "MA",
                 "zip_code": "01803",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
+                "charging_points:count": 9,
+                "charging_points:capacity": "2;2;2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -41548,6 +41248,35 @@
                 "ocm_id": 247369,
                 "network_id": "USCPIL5517261",
                 "street_address": "67 S Bedford Street",
+                "city": "Burlington",
+                "state": "MA",
+                "zip_code": "01803",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.20266,
+                        42.48377
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LHMC LOT 3 LAHEY 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    189826
+                ],
+                "ocm_id": 229427,
+                "network_id": "USCPIL5517471",
+                "street_address": "41 Burlington Mall Road",
                 "city": "Burlington",
                 "state": "MA",
                 "zip_code": "01803",
@@ -42289,8 +42018,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.744163,
-                    42.529601
+                    -71.744201,
+                    42.529592
                 ]
             },
             "properties": {
@@ -42313,8 +42042,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.257964,
-                    42.439688
+                    -71.258002,
+                    42.439687
                 ]
             },
             "properties": {
@@ -42725,7 +42454,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.03219,
+                    -71.032486,
                     42.516588
                 ]
             },
@@ -44160,8 +43889,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.236953,
-                    42.040041
+                    -71.236344,
+                    42.039535
                 ]
             },
             "properties": {
@@ -45322,15 +45051,36 @@
                 ]
             },
             "properties": {
-                "name": "MASSDOT STATION 1;MASSDOT STATION 3;MASSDOT STATION 4;MASSDOT STATION 7;MASSDOT STATION 8",
+                "name": "MASSDOT STATION 1;MASSDOT STATION 3;MASSDOT STATION 4;MASSDOT STATION 7",
                 "network": "CHARGEPOINT",
                 "osm_id": 10129339745,
                 "nrel_id": [
                     256954,
-                    257552,
                     257554,
                     257556,
                     257557
+                ],
+                "ocm_id": 263229,
+                "street_address": "499 Plantation Street",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01605"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.765977,
+                    42.284019
+                ]
+            },
+            "properties": {
+                "name": "MASSDOT STATION 8",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    257552
                 ],
                 "ocm_id": 263227,
                 "street_address": "499 Plantation Street",
@@ -45582,8 +45332,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.026405,
-                    42.365505
+                    -71.026273,
+                    42.365474
                 ]
             },
             "properties": {
@@ -45654,6 +45404,34 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02128"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.02189,
+                        42.366238
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MASSPORT WG-03-01",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    152571
+                ],
+                "network_id": "USCPIL2066561",
+                "street_address": "400 Terminal Road Gold Parking level 3",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02128",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -47680,25 +47458,61 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.108826,
-                        42.35536
+                        -71.083445,
+                        42.361628
+                    ],
+                    [
+                        -71.083396,
+                        42.361646
+                    ],
+                    [
+                        -71.083378,
+                        42.361652
+                    ],
+                    [
+                        -71.083416,
+                        42.361638
+                    ],
+                    [
+                        -71.082983,
+                        42.361246
+                    ],
+                    [
+                        -71.082886,
+                        42.361412
+                    ],
+                    [
+                        -71.082726,
+                        42.361427
+                    ],
+                    [
+                        -71.08277,
+                        42.36143
                     ]
                 ]
             },
             "properties": {
-                "name": "MIT CAMPUS WW15-1",
+                "name": "MIT CAMPUS BLDG62 P1-1;MIT CAMPUS BLDG62 P1-2;MIT CAMPUS BLDG62 P1-3;MIT CAMPUS BLDG62 P1-4;MIT CAMPUS BLDG62 P1-5;MIT CAMPUS BLDG62 P1-6;MIT CAMPUS BLDG62 P1-7;MIT CAMPUS BLDG62 P1-8",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    326770
+                    162022,
+                    180032,
+                    180033,
+                    180034,
+                    221554,
+                    222411,
+                    222412,
+                    222413
                 ],
-                "network_id": "USCPIL1911831",
-                "street_address": "350 Brookline Street",
+                "ocm_id": 247242,
+                "network_id": "USCPIL98169;USCPIL96735;USCPIL95957;USCPIL95875;USCPIL12712431;USCPIL12897991;USCPIL12898001;USCPIL12898011",
+                "street_address": "100 main Street",
                 "city": "Cambridge",
                 "state": "MA",
-                "zip_code": "02139",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
+                "zip_code": "02142",
+                "charging_points:count": 8,
+                "charging_points:capacity": "2;2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -47738,55 +47552,55 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.083445,
-                        42.361628
+                        -71.084741,
+                        42.362048
                     ],
                     [
-                        -71.083396,
+                        -71.084747,
+                        42.362051
+                    ],
+                    [
+                        -71.084605,
+                        42.362127
+                    ],
+                    [
+                        -71.084581,
+                        42.362123
+                    ],
+                    [
+                        -71.08459,
+                        42.36165
+                    ],
+                    [
+                        -71.0846,
+                        42.36165
+                    ],
+                    [
+                        -71.084579,
                         42.361646
                     ],
                     [
-                        -71.083378,
-                        42.361652
-                    ],
-                    [
-                        -71.083416,
-                        42.361638
-                    ],
-                    [
-                        -71.082983,
-                        42.361246
-                    ],
-                    [
-                        -71.082886,
-                        42.361412
-                    ],
-                    [
-                        -71.082726,
-                        42.361427
-                    ],
-                    [
-                        -71.08277,
-                        42.36143
+                        -71.084637,
+                        42.36164
                     ]
                 ]
             },
             "properties": {
-                "name": "MIT CAMPUS;MIT CAMPUS BLDG62 P1-1;MIT CAMPUS BLDG62 P1-2;MIT CAMPUS BLDG62 P1-3;MIT CAMPUS BLDG62 P1-4;MIT CAMPUS BLDG62 P1-5;MIT CAMPUS BLDG62 P1-6;MIT CAMPUS BLDG62 P1-7;MIT CAMPUS BLDG62 P1-8",
+                "name": "MIT CAMPUS;MITIMCO P2-1 E;MITIMCO P2-1 W;MITIMCO P2-4 E;MITIMCO P2-5 E;MITIMCO P3-3 E;MITIMCO P3-4 E;MITIMCO P4-2 E;MITIMCO P4-3 E",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     62151,
-                    162022,
-                    180032,
-                    180033,
-                    180034,
-                    221554,
-                    222411,
-                    222412,
-                    222413
+                    189606,
+                    189610,
+                    189611,
+                    189614,
+                    189616,
+                    189622,
+                    189625,
+                    189628
                 ],
                 "ocm_id": 28850,
-                "network_id": "USCPIL98169;USCPIL96735;USCPIL95957;USCPIL95875;USCPIL12712431;USCPIL12897991;USCPIL12898001;USCPIL12898011",
+                "network_id": "USCPIL7629431;USCPIL7629541;USCPIL7629471;USCPIL7629641;USCPIL7629481;USCPIL7629521;USCPIL7629611;USCPIL7629671",
                 "street_address": "100 Main Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -47932,6 +47746,75 @@
                         42.361599
                     ],
                     [
+                        -71.086281,
+                        42.361297
+                    ],
+                    [
+                        -71.085831,
+                        42.361284
+                    ],
+                    [
+                        -71.086305,
+                        42.36129
+                    ],
+                    [
+                        -71.086272,
+                        42.361296
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MITIMCO P1-1 W;MITIMCO P1-2 W;MITIMCO P1-3 W;MITIMCO P2-10 W;MITIMCO P2-2 E;MITIMCO P2-3 E;MITIMCO P2-4 W;MITIMCO P2-5 W;MITIMCO P2-6 E;MITIMCO P2-8 W;MITIMCO P2-9 W;MITIMCO P3-1 E;MITIMCO P3-1 W;MITIMCO P3-2 E;MITIMCO P3-4 W;MITIMCO P3-5 E;MITIMCO P3-5 W;MITIMCO P3-6 E;MITIMCO P3-6 W;MITIMCO P3-7 E;MITIMCO P3-7 W;MITIMCO P4-1 E;MITIMCO P4-2 W;MITIMCO P4-4 E;MITIMCO P4-4 W;MITIMCO P4-5 E;MITIMCO P4-5 W;MITIMCO P4-6 W;MITIMCO P4-7 W",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    189601,
+                    189602,
+                    189603,
+                    189604,
+                    189605,
+                    189607,
+                    189608,
+                    189609,
+                    189612,
+                    189615,
+                    189617,
+                    189618,
+                    189619,
+                    189620,
+                    189623,
+                    189626,
+                    189627,
+                    189629,
+                    189630,
+                    189632,
+                    189633,
+                    189634,
+                    189635,
+                    189636,
+                    189638,
+                    189639,
+                    189641,
+                    189642,
+                    189643
+                ],
+                "ocm_id": 247248,
+                "network_id": "USCPIL7628141;USCPIL7628301;USCPIL7629591;USCPIL7629701;USCPIL7628311;USCPIL7629411;USCPIL7629451;USCPIL7629461;USCPIL7629531;USCPIL7629551;USCPIL7629571;USCPIL7629691;USCPIL7629761;USCPIL7629781;USCPIL7629821;USCPIL7629841;USCPIL7629851;USCPIL7629871;USCPIL7629421;USCPIL7629441;USCPIL7629661;USCPIL7629491;USCPIL7629561;USCPIL7629621;USCPIL7629651;USCPIL7629741;USCPIL7629771;USCPIL7629751;USCPIL7629811",
+                "street_address": "28 Carleton Street",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02142",
+                "charging_points:count": 29,
+                "charging_points:capacity": "2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.085171,
                         42.360641
                     ],
@@ -47956,170 +47839,37 @@
                         42.360792
                     ],
                     [
+                        -71.086017,
+                        42.361027
+                    ],
+                    [
                         -71.085776,
                         42.360769
                     ]
                 ]
             },
             "properties": {
-                "name": "MITIMCO P1-1 W;MITIMCO P1-2 W;MITIMCO P1-3 W;MITIMCO P2-10 W;MITIMCO P2-2 E;MITIMCO P2-2 W;MITIMCO P2-3 E;MITIMCO P2-3 W;MITIMCO P2-4 W;MITIMCO P2-5 W;MITIMCO P2-6 E;MITIMCO P2-7 W;MITIMCO P2-8 W;MITIMCO P2-9 W;MITIMCO P3-1 E;MITIMCO P3-2 E;MITIMCO P3-2 W;MITIMCO P3-3 W;MITIMCO P3-5 E;MITIMCO P3-5 W;MITIMCO P3-6 E;MITIMCO P3-6 W;MITIMCO P3-7 E;MITIMCO P3-7 W;MITIMCO P4-1 E;MITIMCO P4-1 W;MITIMCO P4-3 W;MITIMCO P4-4 E;MITIMCO P4-5 E;MITIMCO P4-5 W;MITIMCO P4-6 W;MITIMCO P4-7 W",
+                "name": "MITIMCO P2-2 W;MITIMCO P2-3 W;MITIMCO P2-6 W;MITIMCO P2-7 W;MITIMCO P3-2 W;MITIMCO P3-3 W;MITIMCO P4-1 W;MITIMCO P4-3 W",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    189601,
-                    189602,
-                    189603,
-                    189604,
-                    189605,
-                    189607,
-                    189608,
-                    189609,
-                    189612,
                     189613,
-                    189615,
-                    189617,
-                    189618,
-                    189619,
-                    189620,
-                    189623,
+                    189621,
                     189624,
-                    189626,
-                    189627,
-                    189629,
-                    189630,
                     189631,
-                    189634,
-                    189636,
                     189637,
-                    189639,
                     189640,
-                    189641,
-                    189642,
-                    189643,
                     189644,
                     189645
                 ],
                 "ocm_id": 229167,
-                "network_id": "USCPIL7628141;USCPIL7628301;USCPIL7629591;USCPIL7629701;USCPIL7628311;USCPIL7629411;USCPIL7629451;USCPIL7629461;USCPIL7629531;USCPIL7629551;USCPIL7629571;USCPIL7629691;USCPIL7629761;USCPIL7629781;USCPIL7629821;USCPIL7629841;USCPIL7629851;USCPIL7629871;USCPIL7629421;USCPIL7629441;USCPIL7629661;USCPIL7629491;USCPIL7629561;USCPIL7629621;USCPIL7629651;USCPIL7629511;USCPIL7629631;USCPIL7629801;USCPIL7629831;USCPIL7629891;USCPIL7629911;USCPIL7629711",
+                "network_id": "USCPIL7629511;USCPIL7629631;USCPIL7629801;USCPIL7629831;USCPIL7629891;USCPIL7629911;USCPIL7629601;USCPIL7629711",
                 "street_address": "33 Amherst Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142",
-                "charging_points:count": 32,
-                "charging_points:capacity": "2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.084741,
-                        42.362048
-                    ],
-                    [
-                        -71.084747,
-                        42.362051
-                    ],
-                    [
-                        -71.084605,
-                        42.362127
-                    ],
-                    [
-                        -71.084581,
-                        42.362123
-                    ],
-                    [
-                        -71.08459,
-                        42.36165
-                    ],
-                    [
-                        -71.0846,
-                        42.36165
-                    ],
-                    [
-                        -71.084579,
-                        42.361646
-                    ],
-                    [
-                        -71.084637,
-                        42.36164
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "MITIMCO P2-1 E;MITIMCO P2-1 W;MITIMCO P2-4 E;MITIMCO P2-5 E;MITIMCO P3-3 E;MITIMCO P3-4 E;MITIMCO P4-2 E;MITIMCO P4-3 E",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    189606,
-                    189610,
-                    189611,
-                    189614,
-                    189616,
-                    189622,
-                    189625,
-                    189628
-                ],
-                "ocm_id": 247251,
-                "network_id": "USCPIL7629431;USCPIL7629541;USCPIL7629471;USCPIL7629641;USCPIL7629481;USCPIL7629521;USCPIL7629611;USCPIL7629671",
-                "street_address": "65 Wadsworth Street",
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02142",
                 "charging_points:count": 8,
                 "charging_points:capacity": "2;2;2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.086017,
-                        42.361027
-                    ],
-                    [
-                        -71.086281,
-                        42.361297
-                    ],
-                    [
-                        -71.085831,
-                        42.361284
-                    ],
-                    [
-                        -71.086305,
-                        42.36129
-                    ],
-                    [
-                        -71.086272,
-                        42.361296
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "MITIMCO P2-6 W;MITIMCO P3-1 W;MITIMCO P3-4 W;MITIMCO P4-2 W;MITIMCO P4-4 W",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    189621,
-                    189632,
-                    189633,
-                    189635,
-                    189638
-                ],
-                "ocm_id": 229169,
-                "network_id": "USCPIL7629601;USCPIL7629741;USCPIL7629771;USCPIL7629751;USCPIL7629811",
-                "street_address": "28 Carleton Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142",
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -48281,34 +48031,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.200276,
-                        42.20733
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "MODERNA 102 LOWER SOUTH",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    260612
-                ],
-                "network_id": "USCPIL376741",
-                "street_address": "100 Upland Road",
-                "city": "Norwood",
-                "state": "MA",
-                "zip_code": "02062",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.201024,
                         42.206994
                     ],
@@ -48331,14 +48053,19 @@
                     [
                         -71.200935,
                         42.207027
+                    ],
+                    [
+                        -71.200276,
+                        42.20733
                     ]
                 ]
             },
             "properties": {
-                "name": "MODERNA STATION 101;MODERNA STATION 103;MODERNA STATION 201;MODERNA STATION 202;MODERNA STATION 203;MODERNA STATION 204",
+                "name": "MODERNA 102 LOWER SOUTH;MODERNA STATION 101;MODERNA STATION 103;MODERNA STATION 201;MODERNA STATION 202;MODERNA STATION 203;MODERNA STATION 204",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     260611,
+                    260612,
                     260614,
                     260617,
                     260619,
@@ -48346,14 +48073,14 @@
                     260622
                 ],
                 "ocm_id": 269962,
-                "network_id": "USCPIL376631;USCPIL376811;USCPIL376891;USCPIL376931;USCPIL376961;USCPIL377011",
-                "street_address": "1 Upland Road",
+                "network_id": "USCPIL376631;USCPIL376811;USCPIL376891;USCPIL376931;USCPIL376961;USCPIL377011;USCPIL376741",
+                "street_address": "100 Upland Road",
                 "city": "Norwood",
                 "state": "MA",
                 "zip_code": "02062",
-                "charging_points:count": 6,
-                "charging_points:capacity": "2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2",
+                "charging_points:count": 7,
+                "charging_points:capacity": "2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -48362,8 +48089,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.253213,
-                    42.022757
+                    -71.252873,
+                    42.02269
                 ]
             },
             "properties": {
@@ -48991,8 +48718,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.231748,
-                    42.013696
+                    -71.23175,
+                    42.013724
                 ]
             },
             "properties": {
@@ -49237,47 +48964,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.492238,
-                    41.61677
-                ]
-            },
-            "properties": {
-                "name": "Mashpee Commons",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 85094,
-                "street_address": "22 Steeple Street",
-                "city": "Mashpee",
-                "state": "MA",
-                "zip_code": "02649"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.492238,
-                    41.61677
-                ]
-            },
-            "properties": {
-                "name": "Mashpee Commons - Tesla Destination",
-                "network": "TESLA_DESTINATION",
-                "nrel_id": [
-                    114349
-                ],
-                "network_id": "502648",
-                "street_address": "22 Steeple Street",
-                "city": "Mashpee",
-                "state": "MA",
-                "zip_code": "02649"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -49335,6 +49021,29 @@
                 "charging_points:capacity": "0;0;0;0;0;0;0;0;0",
                 "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0",
                 "charging_points:plugs_type": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.492238,
+                    41.61677
+                ]
+            },
+            "properties": {
+                "name": "Mashpee Commons;Mashpee Commons - Tesla Destination",
+                "network": "TESLA_DESTINATION",
+                "nrel_id": [
+                    114349
+                ],
+                "ocm_id": 85094,
+                "network_id": "502648",
+                "street_address": "22 Steeple Street",
+                "city": "Mashpee",
+                "state": "MA",
+                "zip_code": "02649"
             }
         },
         {
@@ -49434,117 +49143,23 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -71.761654,
-                        42.274902
-                    ],
-                    [
-                        -71.76163,
-                        42.27483
-                    ],
-                    [
-                        -71.76158,
-                        42.274982
-                    ],
-                    [
-                        -71.761635,
-                        42.27479
-                    ],
-                    [
-                        -71.761635,
-                        42.274715
-                    ],
-                    [
-                        -71.76166,
-                        42.27467
-                    ],
-                    [
-                        -71.76168,
-                        42.27462
-                    ],
-                    [
-                        -71.76166,
-                        42.27457
-                    ],
-                    [
-                        -71.76168,
-                        42.274525
-                    ],
-                    [
-                        -71.76191,
-                        42.274498
-                    ],
-                    [
-                        -71.76197,
-                        42.274498
-                    ],
-                    [
-                        -71.76186,
-                        42.274616
-                    ],
-                    [
-                        -71.76185,
-                        42.274673
-                    ],
-                    [
-                        -71.76183,
-                        42.274723
-                    ],
-                    [
-                        -71.761826,
-                        42.274773
-                    ],
-                    [
-                        -71.76182,
-                        42.27481
-                    ],
-                    [
-                        -71.76181,
-                        42.274876
-                    ],
-                    [
-                        -71.761795,
-                        42.274918
-                    ]
+                    -71.7608,
+                    42.27464
                 ]
             },
             "properties": {
-                "name": "MassDOT District Office #3;UMASS MEDICAL PATIENT VISIT 1;UMASS MEDICAL PATIENT VISIT 2;UMASS MEDICAL PATIENT VISIT 3;UMASS MEDICAL PATIENT VISIT 4;UMASS MEDICAL PATIENT VISIT 5;UMASS MEDICAL PATIENT VISIT 6;UMASS MEDICAL PATIENT VISIT 7;UMASS MEDICAL PATIENT VISIT 8;UMASS MEDICAL PATIENT VISIT 9;UMASS MEDICAL PATIENT VISIT10;UMASS MEDICAL PATIENT VISIT11;UMASS MEDICAL PATIENT VISIT12;UMASS MEDICAL PATIENT VISIT13;UMASS MEDICAL PATIENT VISIT14;UMASS MEDICAL PATIENT VISIT15;UMASS MEDICAL PATIENT VISIT16;UMASS MEDICAL PATIENT VISIT17;UMASS MEDICAL PATIENT VISIT18;UMass Chan Medical School South Garage",
+                "name": "MassDOT District Office #3",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    188060,
-                    188061,
-                    188062,
-                    188063,
-                    188064,
-                    188065,
-                    188066,
-                    188067,
-                    188068,
-                    188069,
-                    188070,
-                    188071,
-                    188072,
-                    188073,
-                    188074,
-                    188075,
-                    188076,
-                    188077,
-                    325231,
-                    325236
+                    325231
                 ],
-                "ocm_id": 294849,
-                "network_id": "USCPIL7387061;USCPIL7387411;USCPIL7390801;USCPIL7391231;USCPIL7391261;USCPIL7391301;USCPIL7391351;USCPIL7391381;USCPIL7391421;USCPIL7391451;USCPIL7391581;USCPIL7392031;USCPIL7392671;USCPIL7392771;USCPIL7393431;USCPIL7393471;USCPIL7393511;USCPIL7393571",
-                "street_address": "S Road",
+                "ocm_id": 294848,
+                "street_address": "403 Belmont Street",
                 "city": "Worcester",
                 "state": "MA",
-                "zip_code": "01655",
-                "charging_points:count": 18,
-                "charging_points:capacity": "2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
+                "zip_code": "01604"
             }
         },
         {
@@ -50798,13 +50413,14 @@
                 ]
             },
             "properties": {
-                "name": "Millennium Bostonian Hotel - Tesla Destination",
+                "name": "Millennium Bostonian Hotel - Tesla;Millennium Bostonian Hotel - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114324
                 ],
+                "ocm_id": 62300,
                 "network_id": "513216",
-                "street_address": "26 North Street",
+                "street_address": "25 North Street",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02109"
@@ -50876,31 +50492,13 @@
                 ]
             },
             "properties": {
-                "name": "Mirbeau Inn & Spa at the Pinehills - Tesla Destination",
+                "name": "Mirbeau Inn & Spa at the Pinehills - Tesla Destination;Mirbeau Inn and Spa at the Pinehills",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114353
                 ],
-                "network_id": "508069",
-                "street_address": "35 Landmark Drive",
-                "city": "Plymouth",
-                "state": "MA",
-                "zip_code": "02360"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.598013,
-                    41.880154
-                ]
-            },
-            "properties": {
-                "name": "Mirbeau Inn and Spa at the Pinehills",
-                "network": "TESLA_SUPERCHARGER",
                 "ocm_id": 62230,
+                "network_id": "508069",
                 "street_address": "35 Landmark Drive",
                 "city": "Plymouth",
                 "state": "MA",
@@ -53994,8 +53592,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.33102,
-                    41.799153
+                    -71.331034,
+                    41.79915
                 ]
             },
             "properties": {
@@ -55477,8 +55075,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.07326,
-                    42.351048
+                    -71.073264,
+                    42.350852
                 ]
             },
             "properties": {
@@ -55617,8 +55215,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.80866,
-                    42.790096
+                    -70.808675,
+                    42.790091
                 ]
             },
             "properties": {
@@ -55970,6 +55568,35 @@
                 "city": "Northampton",
                 "state": "MA",
                 "zip_code": "01060",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.606154,
+                        42.09573
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "PEOPLESBANK 547 MEMORIAL",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    50080
+                ],
+                "ocm_id": 15192,
+                "network_id": "USCPIL1960031",
+                "street_address": "547 Memorial Avenue",
+                "city": "West Springfield",
+                "state": "MA",
+                "zip_code": "01089",
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
@@ -58615,8 +58242,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.942404,
-                    42.200784
+                    -70.942,
+                    42.20082
                 ]
             },
             "properties": {
@@ -59573,8 +59200,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.420254,
-                    41.830402
+                    -71.420305,
+                    41.829822
                 ]
             },
             "properties": {
@@ -60014,8 +59641,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.415643,
-                    41.833305
+                    -71.415547,
+                    41.832823
                 ]
             },
             "properties": {
@@ -61350,35 +60977,17 @@
                 ]
             },
             "properties": {
-                "name": "Rectrix Aviation - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 67502,
-                "street_address": "777 Virginia Road",
-                "city": "Concord",
-                "state": "MA",
-                "zip_code": "07142"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.299337,
-                    42.464791
-                ]
-            },
-            "properties": {
-                "name": "Rectrix Aviation - Tesla Destination",
+                "name": "Rectrix Aviation - Tesla;Rectrix Aviation - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114333
                 ],
+                "ocm_id": 67502,
                 "network_id": "501039",
                 "street_address": "777 Virginia Road",
                 "city": "Concord",
                 "state": "MA",
-                "zip_code": "01742"
+                "zip_code": "07142"
             }
         },
         {
@@ -61438,9 +61047,13 @@
                 ]
             },
             "properties": {
-                "name": "Residence Inn - Tesla",
-                "network": "TESLA_SUPERCHARGER",
+                "name": "Residence Inn - Tesla;Residence Inn by Marriott - Tesla Destination",
+                "network": "TESLA_DESTINATION",
+                "nrel_id": [
+                    114332
+                ],
                 "ocm_id": 62252,
+                "network_id": "500358",
                 "street_address": "500 Memorial Drive",
                 "city": "Chicopee",
                 "state": "MA",
@@ -61463,28 +61076,6 @@
                 "city": "Watertown",
                 "state": "MA",
                 "zip_code": "02472"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.579451,
-                    42.172326
-                ]
-            },
-            "properties": {
-                "name": "Residence Inn by Marriott - Tesla Destination",
-                "network": "TESLA_DESTINATION",
-                "nrel_id": [
-                    114332
-                ],
-                "network_id": "500358",
-                "street_address": "500 Memorial Drive",
-                "city": "Chicopee",
-                "state": "MA",
-                "zip_code": "01020"
             }
         },
         {
@@ -61557,8 +61148,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.000149,
-                    42.398527
+                    -71.000222,
+                    42.398457
                 ]
             },
             "properties": {
@@ -62930,70 +62521,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.041557,
-                        42.349249
-                    ],
-                    [
-                        -71.041616,
-                        42.349364
-                    ],
-                    [
-                        -71.041509,
-                        42.349498
-                    ],
-                    [
-                        -71.041605,
-                        42.349348
-                    ],
-                    [
-                        -71.041176,
-                        42.349189
-                    ],
-                    [
-                        -71.04116,
-                        42.349195
-                    ],
-                    [
-                        -71.041434,
-                        42.349221
-                    ],
-                    [
-                        -71.041696,
-                        42.349184
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "SEAPORT GARAGE EAST GARAGE P1;SEAPORT GARAGE EAST GARAGE2 P1;SEAPORT GARAGE SEAPORT HOTEL 1;SEAPORT GARAGE SEAPORT HOTEL 2;SEAPORT GARAGE SEAPORT HOTEL 3;SEAPORT GARAGE SEAPORT HOTEL 4;SEAPORT GARAGE SEAPORT VALET;SEAPORT GARAGE WEST GARAGE2 P1",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    38254,
-                    173015,
-                    173016,
-                    173017,
-                    173018,
-                    173019,
-                    173020,
-                    173021
-                ],
-                "ocm_id": 4078,
-                "network_id": "USCPIL367381;USCPIL278871;USCPIL278821;USCPIL278811;USCPIL268691;USCPIL117667;USCPIL370051;USCPIL114349",
-                "street_address": "1 Seaport Lane",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02210",
-                "charging_points:count": 8,
-                "charging_points:capacity": "2;2;2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.042534,
                         42.349808
                     ],
@@ -63004,31 +62531,26 @@
                     [
                         -71.042713,
                         42.350046
-                    ],
-                    [
-                        -71.043493,
-                        42.349515
                     ]
                 ]
             },
             "properties": {
-                "name": "SEAPORT GARAGE WEST 4 P1;SEAPORT GARAGE WEST GARAGE P1;SEAPORT GARAGE WEST GARAGE3 P1;WMSP STATION 2",
+                "name": "SEAPORT GARAGE WEST 4 P1;SEAPORT GARAGE WEST GARAGE P1;SEAPORT GARAGE WEST GARAGE3 P1",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     153221,
                     161966,
-                    231714,
                     253485
                 ],
-                "ocm_id": 247204,
-                "network_id": "USCPIL2089361;USCPIL13423141;USCPIL117811;USCPIL207101",
-                "street_address": "93 seaport Boulevard",
+                "ocm_id": 247205,
+                "network_id": "USCPIL2089361;USCPIL13423141;USCPIL117811",
+                "street_address": "157 Seaport Boulevard",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02210",
-                "charging_points:count": 4,
-                "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -65582,31 +65104,13 @@
                 ]
             },
             "properties": {
-                "name": "Sage Inn & Lounge - Tesla Destination",
+                "name": "Sage Inn & Lounge - Tesla Destination;Sage Inn and Lounge - Tesla",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114354
                 ],
-                "network_id": "499608",
-                "street_address": "336 Commercial Street",
-                "city": "Provincetown",
-                "state": "MA",
-                "zip_code": "02494"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.184988,
-                    42.052871
-                ]
-            },
-            "properties": {
-                "name": "Sage Inn and Lounge - Tesla",
-                "network": "TESLA_SUPERCHARGER",
                 "ocm_id": 62239,
+                "network_id": "499608",
                 "street_address": "336 Commercial Street",
                 "city": "Provincetown",
                 "state": "MA",
@@ -65940,8 +65444,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.394108,
-                    42.303617
+                    -71.394175,
+                    42.303647
                 ]
             },
             "properties": {
@@ -66384,8 +65888,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.022742,
-                    42.223264
+                    -71.022012,
+                    42.223016
                 ]
             },
             "properties": {
@@ -67887,35 +67391,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.128488,
-                    42.362905
-                ]
-            },
-            "properties": {
-                "name": "Swissbakers - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 67497,
-                "street_address": "168 Western Avenue",
-                "city": "Allston",
-                "state": "MA",
-                "zip_code": "02134"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.128541,
                     42.363186
                 ]
             },
             "properties": {
-                "name": "Swissbakers Inc. - Tesla Destination",
+                "name": "Swissbakers - Tesla;Swissbakers Inc. - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114317
                 ],
+                "ocm_id": 67497,
                 "network_id": "501128",
                 "street_address": "168 Western Avenue",
                 "city": "Allston",
@@ -68845,9 +68331,10 @@
                 ]
             },
             "properties": {
-                "name": "THE HARLO STATION 1;THE HARLO STATION 2;VAN NESS VAN NESS1;VAN NESS VN 4;VAN NESS VN2;VAN NESS VN3",
+                "name": "THE HARLO STATION 1;THE HARLO STATION 2;TRILOGY;VAN NESS VAN NESS1;VAN NESS VN 4;VAN NESS VN2;VAN NESS VN3",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    62133,
                     161835,
                     161972,
                     161974,
@@ -68855,9 +68342,9 @@
                     179944,
                     312583
                 ],
-                "ocm_id": 247185,
+                "ocm_id": 28836,
                 "network_id": "USCPIL195305;USCPIL189779;USCPIL114721;USCPIL114691;USCPIL114681;USCPIL14155431",
-                "street_address": "61 Richard B. Ross Way",
+                "street_address": "1330 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02215",
@@ -71283,6 +70770,39 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.098469,
+                        42.34407
+                    ],
+                    [
+                        -71.098238,
+                        42.344298
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "TRILOGY 1330 BOYLSTON;TRILOGY 1330 BOYLSTON 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    162024,
+                    312720
+                ],
+                "network_id": "USCPIL97139;USCPIL14155421",
+                "street_address": "1330 Boylston Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02215",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.101484,
                         42.344183
                     ]
@@ -71303,41 +70823,6 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.098469,
-                        42.34407
-                    ],
-                    [
-                        -71.098238,
-                        42.344298
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "TRILOGY;TRILOGY 1330 BOYLSTON;TRILOGY 1330 BOYLSTON 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    62133,
-                    162024,
-                    312720
-                ],
-                "ocm_id": 28836,
-                "network_id": "USCPIL97139;USCPIL14155421",
-                "street_address": "1330 Boylston Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02215",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -71551,8 +71036,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.223039,
-                    42.770598
+                    -71.223549,
+                    42.770714
                 ]
             },
             "properties": {
@@ -71815,8 +71300,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.137173,
-                    42.518325
+                    -71.137207,
+                    42.518411
                 ]
             },
             "properties": {
@@ -72346,32 +71831,14 @@
                 ]
             },
             "properties": {
-                "name": "The Golf Club of Cape Cod",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 81510,
-                "street_address": "132 Falmouth Woods Road",
-                "city": "Falmouth",
-                "state": "MA",
-                "zip_code": "02536"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.594347,
-                    41.631265
-                ]
-            },
-            "properties": {
-                "name": "The Golf Club of Cape Cod - Tesla Destination",
+                "name": "The Golf Club of Cape Cod;The Golf Club of Cape Cod - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114335
                 ],
+                "ocm_id": 81510,
                 "network_id": "513279",
-                "street_address": "132 Falmouth Road",
+                "street_address": "132 Falmouth Woods Road",
                 "city": "Falmouth",
                 "state": "MA",
                 "zip_code": "02536"
@@ -72409,30 +71876,12 @@
                 ]
             },
             "properties": {
-                "name": "The Harbor View Hotel - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62186,
-                "street_address": "131 N Water Street",
-                "city": "Edgartown",
-                "state": "MA",
-                "zip_code": "02539"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.506627,
-                    41.39241
-                ]
-            },
-            "properties": {
-                "name": "The Harbor View Hotel - Tesla Destination",
+                "name": "The Harbor View Hotel - Tesla;The Harbor View Hotel - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114334
                 ],
+                "ocm_id": 62186,
                 "network_id": "512550",
                 "street_address": "131 N Water Street",
                 "city": "Edgartown",
@@ -72472,7 +71921,7 @@
             },
             "properties": {
                 "name": "The Hinckley Company - Tesla Destination",
-                "network": "TESLA_SUPERCHARGER",
+                "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     169177
                 ],
@@ -72510,36 +71959,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.291938,
-                    42.298782
-                ]
-            },
-            "properties": {
-                "name": "The Inn at Stockbridge - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62272,
-                "street_address": "30 East Street",
-                "city": "Lee",
-                "state": "MA",
-                "zip_code": "01238"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -73.292023,
                     42.298922
                 ]
             },
             "properties": {
-                "name": "The Inn at Stockbridge, a Select Registry Property - Tesla Destination",
+                "name": "The Inn at Stockbridge - Tesla;The Inn at Stockbridge, a Select Registry Property - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114340
                 ],
-                "ocm_id": 115970,
+                "ocm_id": 62272,
                 "network_id": "510375",
                 "street_address": "30 East Street",
                 "city": "Lee",
@@ -72688,35 +72118,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.190569,
-                    42.705346
-                ]
-            },
-            "properties": {
-                "name": "The Orchards Hotel",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62331,
-                "street_address": "222 Adams Road",
-                "city": "Williamstown",
-                "state": "MA",
-                "zip_code": "01267"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -73.19066,
                     42.705282
                 ]
             },
             "properties": {
-                "name": "The Orchards Hotel - Tesla Destination",
+                "name": "The Orchards Hotel;The Orchards Hotel - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114358
                 ],
+                "ocm_id": 62331,
                 "network_id": "499827",
                 "street_address": "222 Adams Road",
                 "city": "Williamstown",
@@ -72729,35 +72141,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.620018,
-                    41.555643
-                ]
-            },
-            "properties": {
-                "name": "The Palmer House Inn - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62205,
-                "street_address": "81 Palmer Avenue",
-                "city": "Falmouth",
-                "state": "MA",
-                "zip_code": "02540"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.620314,
                     41.555599
                 ]
             },
             "properties": {
-                "name": "The Palmer House Inn, a Select Registry Property - Tesla Destination",
+                "name": "The Palmer House Inn - Tesla;The Palmer House Inn, a Select Registry Property - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114336
                 ],
+                "ocm_id": 62205,
                 "network_id": "510669",
                 "street_address": "81 Palmer Avenue",
                 "city": "Falmouth",
@@ -72927,8 +72321,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.595021,
-                    42.395459
+                    -71.594943,
+                    42.395592
                 ]
             },
             "properties": {
@@ -73028,7 +72422,7 @@
             },
             "properties": {
                 "name": "The Vanderbilt Grace Hotel",
-                "network": "TESLA_SUPERCHARGER",
+                "network": "TESLA_DESTINATION",
                 "ocm_id": 79937,
                 "street_address": "41 Mary Street",
                 "city": "Newport",
@@ -73136,30 +72530,12 @@
                 ]
             },
             "properties": {
-                "name": "The Westin Copley Place",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 79006,
-                "street_address": "10 Huntington Avenue",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02116"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.077525,
-                    42.348627
-                ]
-            },
-            "properties": {
-                "name": "The Westin Copley Place - Tesla Destination",
+                "name": "The Westin Copley Place;The Westin Copley Place - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114320
                 ],
+                "ocm_id": 79006,
                 "network_id": "504655",
                 "street_address": "10 Huntington Avenue",
                 "city": "Boston",
@@ -73172,35 +72548,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.117227,
-                    41.289237
-                ]
-            },
-            "properties": {
-                "name": "The Westmoor Club - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62179,
-                "street_address": "10 Westmoor Lane",
-                "city": "Nantucket",
-                "state": "MA",
-                "zip_code": "02554"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.11741,
                     41.289031
                 ]
             },
             "properties": {
-                "name": "The Westmoor Club - Tesla Destination",
+                "name": "The Westmoor Club - Tesla;The Westmoor Club - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114350
                 ],
+                "ocm_id": 62179,
                 "network_id": "499845",
                 "street_address": "10 Westmoor Lane",
                 "city": "Nantucket",
@@ -73838,49 +73196,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.012656,
-                    42.136299
-                ]
-            },
-            "properties": {
-                "name": "Tree House Brewing Company",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 125959,
-                "street_address": "129 Sturbridge Road",
-                "city": "Charlton",
-                "state": "MA",
-                "zip_code": "01507"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.012656,
-                    42.136299
-                ]
-            },
-            "properties": {
-                "name": "Tree House Brewing Company - Tesla Destination",
-                "network": "TESLA_DESTINATION",
-                "osm_id": 6967179356,
-                "nrel_id": [
-                    150652
-                ],
-                "ocm_id": 142987,
-                "network_id": "511282",
-                "street_address": "129 Sturbridge Road",
-                "city": "Charlton",
-                "state": "MA",
-                "zip_code": "01507"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.60956,
                     42.49095
                 ]
@@ -73904,8 +73219,32 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.069401,
-                    42.46358
+                    -72.012656,
+                    42.136299
+                ]
+            },
+            "properties": {
+                "name": "Tree House Brewing Company;Tree House Brewing Company - Tesla Destination",
+                "network": "TESLA_DESTINATION",
+                "osm_id": 6967179356,
+                "nrel_id": [
+                    150652
+                ],
+                "ocm_id": 125959,
+                "network_id": "511282",
+                "street_address": "129 Sturbridge Road",
+                "city": "Charlton",
+                "state": "MA",
+                "zip_code": "01507"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.069895,
+                    42.463455
                 ]
             },
             "properties": {
@@ -75040,8 +74379,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.76402,
-                    42.27715
+                    -71.763876,
+                    42.277465
                 ]
             },
             "properties": {
@@ -75056,6 +74395,121 @@
                 "city": "Worcester",
                 "state": "MA",
                 "zip_code": "01605"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.761654,
+                        42.274902
+                    ],
+                    [
+                        -71.76163,
+                        42.27483
+                    ],
+                    [
+                        -71.76158,
+                        42.274982
+                    ],
+                    [
+                        -71.761635,
+                        42.27479
+                    ],
+                    [
+                        -71.761635,
+                        42.274715
+                    ],
+                    [
+                        -71.76166,
+                        42.27467
+                    ],
+                    [
+                        -71.76168,
+                        42.27462
+                    ],
+                    [
+                        -71.76166,
+                        42.27457
+                    ],
+                    [
+                        -71.76168,
+                        42.274525
+                    ],
+                    [
+                        -71.76191,
+                        42.274498
+                    ],
+                    [
+                        -71.76197,
+                        42.274498
+                    ],
+                    [
+                        -71.76186,
+                        42.274616
+                    ],
+                    [
+                        -71.76185,
+                        42.274673
+                    ],
+                    [
+                        -71.76183,
+                        42.274723
+                    ],
+                    [
+                        -71.761826,
+                        42.274773
+                    ],
+                    [
+                        -71.76182,
+                        42.27481
+                    ],
+                    [
+                        -71.76181,
+                        42.274876
+                    ],
+                    [
+                        -71.761795,
+                        42.274918
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "UMASS MEDICAL PATIENT VISIT 1;UMASS MEDICAL PATIENT VISIT 2;UMASS MEDICAL PATIENT VISIT 3;UMASS MEDICAL PATIENT VISIT 4;UMASS MEDICAL PATIENT VISIT 5;UMASS MEDICAL PATIENT VISIT 6;UMASS MEDICAL PATIENT VISIT 7;UMASS MEDICAL PATIENT VISIT 8;UMASS MEDICAL PATIENT VISIT 9;UMASS MEDICAL PATIENT VISIT10;UMASS MEDICAL PATIENT VISIT11;UMASS MEDICAL PATIENT VISIT12;UMASS MEDICAL PATIENT VISIT13;UMASS MEDICAL PATIENT VISIT14;UMASS MEDICAL PATIENT VISIT15;UMASS MEDICAL PATIENT VISIT16;UMASS MEDICAL PATIENT VISIT17;UMASS MEDICAL PATIENT VISIT18;UMass Chan Medical School South Garage",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    188060,
+                    188061,
+                    188062,
+                    188063,
+                    188064,
+                    188065,
+                    188066,
+                    188067,
+                    188068,
+                    188069,
+                    188070,
+                    188071,
+                    188072,
+                    188073,
+                    188074,
+                    188075,
+                    188076,
+                    188077,
+                    325236
+                ],
+                "ocm_id": 294849,
+                "network_id": "USCPIL7387061;USCPIL7387411;USCPIL7390801;USCPIL7391231;USCPIL7391261;USCPIL7391301;USCPIL7391351;USCPIL7391381;USCPIL7391421;USCPIL7391451;USCPIL7391581;USCPIL7392031;USCPIL7392671;USCPIL7392771;USCPIL7393431;USCPIL7393471;USCPIL7393511;USCPIL7393571",
+                "street_address": "S Road",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01655",
+                "charging_points:count": 18,
+                "charging_points:capacity": "2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -76130,30 +75584,12 @@
                 ]
             },
             "properties": {
-                "name": "W Boston Hotel - Tesla",
-                "network": "TESLA_SUPERCHARGER",
-                "ocm_id": 62291,
-                "street_address": "100 Stuart Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02116"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.065264,
-                    42.350938
-                ]
-            },
-            "properties": {
-                "name": "W Boston Hotel Hotel & Residences - Tesla Destination",
+                "name": "W Boston Hotel - Tesla;W Boston Hotel Hotel & Residences - Tesla Destination",
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     114321
                 ],
+                "ocm_id": 62291,
                 "network_id": "513541",
                 "street_address": "100 Stuart Street",
                 "city": "Boston",
@@ -76732,8 +76168,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.361095,
-                    42.360364
+                    -71.361532,
+                    42.360725
                 ]
             },
             "properties": {
@@ -76987,8 +76423,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.20081,
-                    42.292923
+                    -71.201091,
+                    42.292693
                 ]
             },
             "properties": {
@@ -77971,6 +77407,35 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.043493,
+                        42.349515
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "WMSP STATION 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    231714
+                ],
+                "ocm_id": 247204,
+                "network_id": "USCPIL207101",
+                "street_address": "93 seaport Boulevard",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02210",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.050059,
                         42.353874
                     ]
@@ -78579,8 +78044,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.744046,
-                    41.774457
+                    -70.743851,
+                    41.774509
                 ]
             },
             "properties": {

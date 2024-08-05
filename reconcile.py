@@ -766,6 +766,10 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         if ocm_station["DataProviderID"] == 2:
             station.nrel_id.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), int(ocm_station["DataProvidersReference"])))
 
+        if station.network == ChargingNetwork.TESLA_SUPERCHARGER:
+            if ocm_station["Connections"][0]["CurrentTypeID"] == 10:
+                station.network = ChargingNetwork.TESLA_DESTINATION
+
         stations.append(station)
 
     return stations

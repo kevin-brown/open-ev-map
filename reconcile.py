@@ -182,28 +182,57 @@ def get_station_distance(first_station: Station, second_station: Station) -> dis
     return station_distance
 
 
+def merge_stations(first_station: Station, second_station: Station) -> Station:
+    combined_station = dataclasses.replace(first_station)
+
+    CLONED_ATTRS = ['osm_id', 'ocm_id', 'street_address', 'city', 'state', 'zip_code']
+
+    for attr in CLONED_ATTRS:
+        second_value = getattr(second_station, attr)
+        if second_value:
+            setattr(combined_station, attr, second_value)
+
+    combined_station.charging_points = [*first_station.charging_points, *second_station.charging_points]
+
+    if first_station.network_id and not second_station.network_id:
+        combined_station.network_id = first_station.network_id
+    elif not first_station.network_id and second_station.network_id:
+        combined_station.network_id = second_station.network_id
+    elif first_station.network_id and second_station.network_id:
+        combined_station.network_id = f"{first_station.network_id};{second_station.network_id}"
+
+    combined_station.name.extend(first_station.name)
+    combined_station.name.extend(second_station.name)
+
+    combined_station.nrel_id.extend(first_station.nrel_id)
+    combined_station.nrel_id.extend(second_station.nrel_id)
+
+    combined_station.location.extend(first_station.location)
+    combined_station.location.extend(second_station.location)
+
+    return combined_station
+
+
 def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
     cleaned_stations = []
-
-    deduplicated_stations = defaultdict(list)
 
     for station in nrel_stations:
         if station.network != ChargingNetwork.CHARGEPOINT:
             cleaned_stations.append(station)
             continue
 
-        duplicate = False
+        if getattr(station, "matched_nrel_cp", False):
+            continue
 
-        for other_station in nrel_stations:        
+        for other_station in nrel_stations:
+            if getattr(other_station, "matched_nrel_cp", False):
+                continue
+
             if other_station.network != ChargingNetwork.CHARGEPOINT:
                 continue
 
             if station == other_station:
                 continue
-
-            if station.nrel_id.get()[0] in deduplicated_stations[other_station.nrel_id.get()[0]]:
-                duplicate = True
-                break
 
             if station.street_address.lower() != other_station.street_address.lower():
                 continue
@@ -213,22 +242,14 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
             if station_distance.miles > 0.1:
                 continue
 
-            combined_charging_points = [*station.charging_points, *other_station.charging_points]
+            combined_station = merge_stations(station, other_station)
 
-            combined_station = dataclasses.replace(station, charging_points=combined_charging_points, network_id=f"{station.network_id};{other_station.network_id}")
-
-            combined_station.name.extend(station.name)
-            combined_station.name.extend(other_station.name)
-
-            combined_station.nrel_id.extend(station.nrel_id)
-            combined_station.nrel_id.extend(other_station.nrel_id)
+            station.matched_nrel_cp = True
+            other_station.matched_nrel_cp = True
 
             station = combined_station
 
-            deduplicated_stations[station.nrel_id.get()[0]].append(other_station.nrel_id.get()[0])
-
-        if not duplicate:
-            cleaned_stations.append(station)
+        cleaned_stations.append(station)
 
     return cleaned_stations
 
@@ -761,16 +782,14 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
             tesla_stations.append(station)
 
     for first_station in tesla_stations:
-        if getattr(first_station, "duplicated", False):
+        if getattr(first_station, "matched_tesla", False):
             continue
-
-        combined = False
 
         for second_station in tesla_stations:
             if first_station == second_station:
                 continue
 
-            if getattr(second_station, "duplicated", False):
+            if getattr(second_station, "matched_tesla", False):
                 continue
 
             station_distance = get_station_distance(first_station, second_station)
@@ -778,34 +797,14 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
             if station_distance.miles > 0.1:
                 continue
 
-            combined_station = dataclasses.replace(first_station)
+            combined_station = merge_stations(first_station, second_station)
 
-            CLONED_ATTRS = ['osm_id', 'ocm_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            first_station.matched_tesla = True
+            second_station.matched_tesla = True
 
-            for attr in CLONED_ATTRS:
-                second_value = getattr(second_station, attr)
-                if second_value:
-                    setattr(combined_station, attr, second_value)
+            first_station = combined_station
 
-            combined_station.name.extend(first_station.name)
-            combined_station.name.extend(second_station.name)
-
-            combined_station.nrel_id.extend(first_station.nrel_id)
-            combined_station.nrel_id.extend(second_station.nrel_id)
-
-            combined_station.charging_points.extend(second_station.charging_points)
-
-            combined_stations.append(combined_station)
-        
-            first_station.duplicated = True
-            second_station.duplicated = True
-
-            combined = True
-
-            break
-
-        if not combined:
-            combined_stations.append(first_station)
+        combined_stations.append(first_station)
 
     return combined_stations
 
@@ -815,13 +814,11 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
     combined_stations = []
 
     for first_station in all_stations:
-        if getattr(first_station, "duplicated", False):
+        if getattr(first_station, "matched_network", False):
             continue
 
-        combined = False
-
         for second_station in all_stations:
-            if getattr(second_station, "duplicated", False):
+            if getattr(second_station, "matched_network", False):
                 continue
 
             if first_station == second_station:
@@ -841,36 +838,63 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
             if station_distance.miles > 0.05:
                 continue
 
-            if first_station.osm_id is not None and second_station.osm_id is not None:
-                continue
+            combined_station = merge_stations(first_station, second_station)
 
-            combined_station = dataclasses.replace(first_station)
+            first_station.matched_network = True
+            second_station.matched_network = True
 
-            CLONED_ATTRS = ['osm_id', 'ocm_id', 'network_id', 'street_address', 'city', 'state', 'zip_code']
+            first_station = combined_station
 
-            for attr in CLONED_ATTRS:
-                second_value = getattr(second_station, attr)
-                if second_value:
-                    setattr(combined_station, attr, second_value)
-
-            combined_station.name.extend(first_station.name)
-            combined_station.name.extend(second_station.name)
-
-            combined_station.nrel_id.extend(first_station.nrel_id)
-            combined_station.nrel_id.extend(second_station.nrel_id)
-
-            first_station.duplicated = True
-            second_station.duplicated = True
-
-            combined = True
-            combined_stations.append(combined_station)
-
-            break
-
-        if not combined:
-            combined_stations.append(first_station)
+        combined_stations.append(first_station)
 
     return combined_stations
+
+
+def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station]:
+    combined_stations = []
+
+    for station in all_stations:
+        if getattr(station, "matched_ids", False):
+            continue
+
+        for other_station in all_stations:
+            if station == other_station:
+                continue
+
+            if getattr(other_station, "matched_ids", False):
+                continue
+
+            matched = False
+
+            if station.osm_id and other_station.osm_id and station.osm_id == other_station.osm_id:
+                matched = True
+
+            if station.ocm_id and other_station.ocm_id and station.ocm_id == other_station.ocm_id:
+                matched = True
+
+            if station.nrel_id.get() and other_station.nrel_id.get():
+                if set(station.nrel_id.get()) & set(other_station.nrel_id.get()):
+                    matched = True
+
+            if matched:
+                combined_station = merge_stations(station, other_station)
+
+                station.matched_ids = True
+                other_station.matched_ids = True
+
+                station = combined_station
+
+        combined_stations.append(station)
+
+    return combined_stations
+
+
+def combine_stations(all_stations: list[Station]) -> list[Station]:
+    all_stations = combine_matched_stations_by_ids(all_stations)
+
+    all_stations = combine_networked_stations(all_stations)
+
+    return all_stations
 
 
 with open("nrel.json", "r") as nrel_fh:
@@ -886,7 +910,7 @@ nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 ocm_data = normalize_ocm_data(ocm_raw_data)
 
-combined_data = combine_networked_stations([*nrel_data, *osm_data, *ocm_data])
+combined_data = combine_stations([*nrel_data, *osm_data, *ocm_data])
 
 combined_data = sorted(combined_data, key=lambda x: x.name.get() or '')
 

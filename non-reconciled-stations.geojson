@@ -62,20 +62,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.061762,
-                    42.361235
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 7814651585
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.061619,
                     42.361195
                 ]
@@ -150,48 +136,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.810676,
-                    42.274766
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 9445609465
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.012679,
-                    42.407865
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 9563499593
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.086348,
-                    42.449651
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10157254423
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.873891,
                     42.8121
                 ]
@@ -213,20 +157,6 @@
             "properties": {
                 "network": "ENEL_X",
                 "osm_id": 10671569288
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.105587,
-                    42.365905
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 10906095726
             }
         },
         {
@@ -387,8 +317,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.285593,
-                    42.492515
+                    -71.285521,
+                    42.492503
                 ]
             },
             "properties": {
@@ -464,20 +394,6 @@
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
                 "osm_id": 11902604154
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.079373,
-                    42.349057
-                ]
-            },
-            "properties": {
-                "network": "VOLTA",
-                "osm_id": 12048266252
             }
         },
         {
@@ -829,34 +745,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.452041,
-                        42.433176
-                    ],
-                    [
-                        -71.452104,
-                        42.433204
-                    ]
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 17903480,
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.301719,
-                    41.674327
+                    -70.3016,
+                    41.674062
                 ]
             },
             "properties": {

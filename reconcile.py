@@ -152,10 +152,10 @@ class Station:
     network: ChargingNetwork = None
 
     location: SourcedAttribute[Location] = dataclasses.field(default_factory=SourcedAttribute)
-    street_address: str = ""
-    city: str = ""
-    state: str = ""
-    zip_code: str = ""
+    street_address: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
+    city: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
+    state: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
+    zip_code: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
 
     osm_id: int = None
     nrel_id: SourcedAttribute[list[int]] = dataclasses.field(default_factory=lambda: SourcedAttribute(multiple=True))
@@ -211,6 +211,18 @@ def merge_stations(first_station: Station, second_station: Station) -> Station:
     combined_station.location.extend(first_station.location)
     combined_station.location.extend(second_station.location)
 
+    combined_station.street_address.extend(first_station.street_address)
+    combined_station.street_address.extend(second_station.street_address)
+
+    combined_station.city.extend(first_station.city)
+    combined_station.city.extend(second_station.city)
+
+    combined_station.state.extend(first_station.state)
+    combined_station.state.extend(second_station.state)
+
+    combined_station.zip_code.extend(first_station.zip_code)
+    combined_station.zip_code.extend(second_station.zip_code)
+
     return combined_station
 
 
@@ -235,7 +247,7 @@ def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:
             if station == other_station:
                 continue
 
-            if station.street_address.lower() != other_station.street_address.lower():
+            if not (set(map(str.lower, station.street_address.all())) & set(map(str.lower, other_station.street_address.all()))):
                 continue
 
             station_distance = get_station_distance(station, other_station)
@@ -350,17 +362,21 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
     for nrel_station in nrel_raw_data["fuel_stations"]:
         station = Station(
             network=NREL_NETWORK_MAP[nrel_station["ev_network"]],
-
-            street_address=normalize_address_street_address(nrel_station["street_address"]),
-            city=nrel_station["city"],
-            state=nrel_station["state"],
-            zip_code=nrel_station["zip"],
         )
 
         station.name.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["station_name"]))
         station.nrel_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["id"]))
         station_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
         station.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), station_location))
+
+        station_zip_code = nrel_station["zip"]
+        if station_zip_code and len(station_zip_code) < 5:
+            station_zip_code = station_zip_code.rjust(5, "0")
+
+        station.street_address.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), normalize_address_street_address(nrel_station["street_address"])))
+        station.city.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["city"]))
+        station.state.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["state"]))
+        station.zip_code.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), station_zip_code))
 
         charging_points = []
 
@@ -753,16 +769,19 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
             ocm_operator = ocm_station["OperatorInfo"]
             station.network = OCM_OPERATOR_TO_NETWORK_MAP[ocm_operator["ID"]]
 
-        station.street_address = normalize_address_street_address(ocm_address["AddressLine1"])
-        station.city = ocm_address["Town"]
-        station.state = ocm_address.get("StateOrProvince")
-        station.zip_code = ocm_address.get("Postcode")
+        station_state = ocm_address.get("StateOrProvince")
+        station_zip_code = ocm_address.get("Postcode")
 
-        if station.state and len(station.state) > 2 and ocm_address["CountryID"] == 2:
-            station.state = OCM_LONG_STATE_TO_SHORT_MAP[station.state.lower()]
+        if station_state and len(station_state) > 2 and ocm_address["CountryID"] == 2:
+            station_state = OCM_LONG_STATE_TO_SHORT_MAP[station_state.lower()]
 
-        if station.zip_code and len(station.zip_code) < 5 and ocm_address["CountryID"] == 2:
-            station.zip_code = station.zip_code.rjust(5, "0")
+        if station_zip_code and len(station_zip_code) < 5 and ocm_address["CountryID"] == 2:
+            station_zip_code = station_zip_code.rjust(5, "0")
+
+        station.street_address.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), normalize_address_street_address(ocm_address["AddressLine1"])))
+        station.city.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), ocm_address["Town"]))
+        station.state.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), station_state))
+        station.zip_code.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), station_zip_code))
 
         if ocm_station["DataProviderID"] == 2:
             station.nrel_id.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), int(ocm_station["DataProvidersReference"])))
@@ -943,14 +962,14 @@ for station in combined_data:
     if station.network_id:
         station_properties["network_id"] = station.network_id
 
-    if station.street_address:
-        station_properties["street_address"] = station.street_address
-    if station.city:
-        station_properties["city"] = station.city
-    if station.state:
-        station_properties["state"] = station.state
-    if station.zip_code:
-        station_properties["zip_code"] = station.zip_code
+    if station.street_address.get():
+        station_properties["street_address"] = station.street_address.get()
+    if station.city.get():
+        station_properties["city"] = station.city.get()
+    if station.state.get():
+        station_properties["state"] = station.state.get()
+    if station.zip_code.get():
+        station_properties["zip_code"] = station.zip_code.get()
 
     if station.charging_points:
         station_properties["charging_points:count"] = len(station.charging_points)

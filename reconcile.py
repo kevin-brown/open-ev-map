@@ -22,6 +22,9 @@ class Location:
     def point(self) -> shapely.Point:
         return shapely.Point(self.latitude, self.longitude)
 
+    def __lt__(self, other) -> bool:
+        return self.coordinates < other.coordinates
+
 
 class PlugType(enum.Enum):
     J1772 = enum.auto()
@@ -98,12 +101,10 @@ class SourcedAttribute[T]:
         if not self.values:
             return None
 
-        first_value = next(iter(self.values)).value
+        raw_values = list(sorted(set(self.all())))
 
-        if not isinstance(first_value, str):
-            return first_value
-
-        raw_values = sorted(set(self.all()))
+        if not isinstance(raw_values[0], str):
+            return raw_values[0]
 
         return ";".join(raw_values)
 
@@ -167,7 +168,7 @@ def get_station_distance(first_station: Station, second_station: Station) -> dis
     first_locations = first_station.location.all()
     second_locations = second_station.location.all()
 
-    lowest_station_distance = 2 ** 8
+    lowest_station_distance = distance.Distance(miles=2**8)
 
     for first_location in first_locations:
         for second_location in second_locations:
@@ -176,10 +177,10 @@ def get_station_distance(first_station: Station, second_station: Station) -> dis
 
             station_distance = distance.great_circle(first_coordinates, second_coordinates)
 
-            if station_distance < lowest_station_distance:
+            if station_distance.miles < lowest_station_distance.miles:
                 lowest_station_distance = station_distance
 
-    return station_distance
+    return lowest_station_distance
 
 
 def merge_stations(first_station: Station, second_station: Station) -> Station:

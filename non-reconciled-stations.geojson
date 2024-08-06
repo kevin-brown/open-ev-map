@@ -62,8 +62,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.061762,
-                    42.361235
+                    -71.061619,
+                    42.361195
                 ]
             },
             "properties": {
@@ -296,20 +296,6 @@
             },
             "properties": {
                 "osm_id": 11731010018
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.285593,
-                    42.492515
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": 11826771124
             }
         },
         {
@@ -733,8 +719,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.301719,
-                    41.674327
+                    -70.3016,
+                    41.674062
                 ]
             },
             "properties": {

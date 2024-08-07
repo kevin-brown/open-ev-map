@@ -161,7 +161,7 @@ class Station:
     nrel_id: SourcedAttribute[list[int]] = dataclasses.field(default_factory=lambda: SourcedAttribute(multiple=True))
     ocm_id: SourcedAttribute[list[int]] = dataclasses.field(default_factory=lambda: SourcedAttribute(multiple=True))
 
-    network_id: str = ""
+    network_id: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
 
 
 def get_station_distance(first_station: Station, second_station: Station) -> distance.Distance:
@@ -188,13 +188,6 @@ def merge_stations(first_station: Station, second_station: Station) -> Station:
 
     combined_station.charging_points = [*first_station.charging_points, *second_station.charging_points]
 
-    if first_station.network_id and not second_station.network_id:
-        combined_station.network_id = first_station.network_id
-    elif not first_station.network_id and second_station.network_id:
-        combined_station.network_id = second_station.network_id
-    elif first_station.network_id and second_station.network_id:
-        combined_station.network_id = f"{first_station.network_id};{second_station.network_id}"
-
     combined_station.name.extend(first_station.name)
     combined_station.name.extend(second_station.name)
 
@@ -215,6 +208,9 @@ def merge_stations(first_station: Station, second_station: Station) -> Station:
 
     combined_station.zip_code.extend(first_station.zip_code)
     combined_station.zip_code.extend(second_station.zip_code)
+
+    combined_station.network_id.extend(first_station.network_id)
+    combined_station.network_id.extend(second_station.network_id)
 
     return combined_station
 
@@ -374,7 +370,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         charging_points = []
 
         if "ev_network_ids" in nrel_station:
-            station.network_id = nrel_station["ev_network_ids"].get("station", [None])[0]
+            station.network_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["ev_network_ids"].get("station", [None])[0]))
 
             charging_port_groups = []
 
@@ -968,8 +964,8 @@ for station in combined_data:
         station_properties["nrel_id"] = station.nrel_id.get()
     if station.ocm_id.get():
         station_properties["ocm_id"] = station.ocm_id.get()
-    if station.network_id:
-        station_properties["network_id"] = station.network_id
+    if station.network_id.get():
+        station_properties["network_id"] = station.network_id.get()
 
     if station.street_address.get():
         station_properties["street_address"] = station.street_address.get()

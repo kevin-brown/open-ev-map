@@ -3811,7 +3811,7 @@
                     172493,
                     172494
                 ],
-                "network_id": "USCPIL611981;USCPIL185619;USCPIL185579;USCPIL183323",
+                "network_id": "USCPIL183323;USCPIL185579;USCPIL185619;USCPIL611981",
                 "street_address": "100 Clarendon Street",
                 "city": "Boston",
                 "state": "MA",
@@ -3860,7 +3860,7 @@
                     206710,
                     206711
                 ],
-                "network_id": "USCPIL284101;USCPIL286381;USCPIL12483391;USCPIL12483401;USCPIL12483421",
+                "network_id": "USCPIL12483391;USCPIL12483401;USCPIL12483421;USCPIL284101;USCPIL286381",
                 "street_address": "200 Clarendon Street",
                 "city": "Boston",
                 "state": "MA",
@@ -4260,7 +4260,7 @@
                     179995,
                     179996
                 ],
-                "network_id": "USCPIL126675;USCPIL126633;USCPIL126141;USCPIL125421",
+                "network_id": "USCPIL125421;USCPIL126141;USCPIL126633;USCPIL126675",
                 "street_address": "101 Seaport Boulevard",
                 "city": "Boston",
                 "state": "MA",
@@ -4675,7 +4675,7 @@
                     165857,
                     181175
                 ],
-                "network_id": "USCPIL5438261;USCPIL5438241",
+                "network_id": "USCPIL5438241;USCPIL5438261",
                 "street_address": "1150a Union Street",
                 "city": "West Springfield",
                 "state": "MA",
@@ -4816,7 +4816,7 @@
                     179929,
                     179930
                 ],
-                "network_id": "USCPIL223606;USCPIL223064;USCPIL207135;USCPIL178593;USCPIL174333;USCPIL174255;USCPIL174249;USCPIL173347;USCPIL167227",
+                "network_id": "USCPIL167227;USCPIL173347;USCPIL174249;USCPIL174255;USCPIL174333;USCPIL178593;USCPIL207135;USCPIL223064;USCPIL223606",
                 "street_address": "121 Seaport Boulevard",
                 "city": "Boston",
                 "state": "MA",
@@ -4959,7 +4959,7 @@
                     179997,
                     179998
                 ],
-                "network_id": "USCPIL125985;USCPIL123567;USCPIL120475",
+                "network_id": "USCPIL120475;USCPIL123567;USCPIL125985",
                 "street_address": "125 High Street",
                 "city": "Boston",
                 "state": "MA",
@@ -5030,7 +5030,7 @@
                     322955,
                     322956
                 ],
-                "network_id": "USCPIL14008971;USCPIL14009131;USCPIL14008981;USCPIL15233271;USCPIL15233621",
+                "network_id": "USCPIL14008971;USCPIL14008981;USCPIL14009131;USCPIL15233271;USCPIL15233621",
                 "street_address": "130 First Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -5162,7 +5162,7 @@
                     163409,
                     183272
                 ],
-                "network_id": "USCPIL2060391;USCPIL2060381",
+                "network_id": "USCPIL2060381;USCPIL2060391",
                 "street_address": "131 Dartmouth Street",
                 "city": "Boston",
                 "state": "MA",
@@ -5395,7 +5395,7 @@
                     174220,
                     174221
                 ],
-                "network_id": "USCPIL1836671;USCPIL1836661;USCPIL1836621;USCPIL1836611;USCPIL1836571",
+                "network_id": "USCPIL1836571;USCPIL1836611;USCPIL1836621;USCPIL1836661;USCPIL1836671",
                 "street_address": "141 Winthrop Avenue",
                 "city": "Lawrence",
                 "state": "MA",
@@ -5487,7 +5487,7 @@
                     322339,
                     322466
                 ],
-                "network_id": "USCPIL15230421;USCPIL15230431;USCPIL15230441;USCPIL15230391",
+                "network_id": "USCPIL15230391;USCPIL15230421;USCPIL15230431;USCPIL15230441",
                 "street_address": "13 Parker Street",
                 "city": "Quincy",
                 "state": "MA",
@@ -5545,7 +5545,7 @@
                     322469,
                     322529
                 ],
-                "network_id": "USCPIL15230651;USCPIL15230671;USCPIL15230701;USCPIL15230741;USCPIL15230751;USCPIL15230681;USCPIL15232521",
+                "network_id": "USCPIL15230651;USCPIL15230671;USCPIL15230681;USCPIL15230701;USCPIL15230741;USCPIL15230751;USCPIL15232521",
                 "street_address": "7 Parker Street",
                 "city": "Quincy",
                 "state": "MA",
@@ -5733,7 +5733,7 @@
                     322472,
                     322473
                 ],
-                "network_id": "USCPIL15230331;USCPIL15230361;USCPIL15230461;USCPIL15230471;USCPIL15230491;USCPIL15230581;USCPIL15230611;USCPIL15230731;USCPIL15230771;USCPIL15230941;USCPIL15230991;USCPIL15230451;USCPIL15230601;USCPIL15230621;USCPIL15230641;USCPIL15232151;USCPIL15232231;USCPIL15232261;USCPIL15232351;USCPIL15232431;USCPIL15232451;USCPIL15232461;USCPIL15232481;USCPIL15232501;USCPIL15232541;USCPIL15232581;USCPIL15232601;USCPIL15230541;USCPIL15230571;USCPIL15230831;USCPIL15230911;USCPIL15232531;USCPIL15232561",
+                "network_id": "USCPIL15230331;USCPIL15230361;USCPIL15230451;USCPIL15230461;USCPIL15230471;USCPIL15230491;USCPIL15230541;USCPIL15230571;USCPIL15230581;USCPIL15230601;USCPIL15230611;USCPIL15230621;USCPIL15230641;USCPIL15230731;USCPIL15230771;USCPIL15230831;USCPIL15230911;USCPIL15230941;USCPIL15230991;USCPIL15232151;USCPIL15232231;USCPIL15232261;USCPIL15232351;USCPIL15232431;USCPIL15232451;USCPIL15232461;USCPIL15232481;USCPIL15232501;USCPIL15232531;USCPIL15232541;USCPIL15232561;USCPIL15232581;USCPIL15232601",
                 "street_address": "151 Granite Street",
                 "city": "Quincy",
                 "state": "MA",
@@ -6011,7 +6011,7 @@
                     161919,
                     179993
                 ],
-                "network_id": "USCPIL127047;USCPIL125235",
+                "network_id": "USCPIL125235;USCPIL127047",
                 "street_address": "19 Drydock Avenue",
                 "city": "Boston",
                 "state": "MA",
@@ -6044,7 +6044,7 @@
                     161915,
                     179988
                 ],
-                "network_id": "USCPIL127577;USCPIL124253",
+                "network_id": "USCPIL124253;USCPIL127577",
                 "street_address": "23 Drydock Avenue",
                 "city": "Boston",
                 "state": "MA",
@@ -6262,7 +6262,7 @@
                     180019,
                     331550
                 ],
-                "network_id": "USCPIL114623;USCPIL113311;USCPIL15229501",
+                "network_id": "USCPIL113311;USCPIL114623;USCPIL15229501",
                 "street_address": "196 Ballardvale Street;200 Ballardvale Street",
                 "city": "Wilmington",
                 "state": "MA",
@@ -6526,7 +6526,7 @@
                     43186,
                     171637
                 ],
-                "network_id": "USCPIL555241;USCPIL551921",
+                "network_id": "USCPIL551921;USCPIL555241",
                 "street_address": "225 Franklin Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -6761,7 +6761,7 @@
                     257326,
                     262284
                 ],
-                "network_id": "USCPIL13210601;USCPIL13240161;USCPIL13240231;USCPIL13031191;USCPIL13562451",
+                "network_id": "USCPIL13031191;USCPIL13210601;USCPIL13240161;USCPIL13240231;USCPIL13562451",
                 "street_address": "250 Water Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -6887,7 +6887,7 @@
                     180046,
                     180047
                 ],
-                "network_id": "USCPIL8671;USCPIL8665;USCPIL8520;USCPIL8298",
+                "network_id": "USCPIL8298;USCPIL8520;USCPIL8665;USCPIL8671",
                 "street_address": "265 Franklin Street",
                 "city": "Boston",
                 "state": "MA",
@@ -7184,7 +7184,7 @@
                     167588,
                     181557
                 ],
-                "network_id": "USCPIL5410781;USCPIL5410771",
+                "network_id": "USCPIL5410771;USCPIL5410781",
                 "street_address": "62 Friend Street",
                 "city": "Amesbury",
                 "state": "MA",
@@ -7222,7 +7222,7 @@
                     181555,
                     181556
                 ],
-                "network_id": "USCPIL5413971;USCPIL5403311;USCPIL5403301",
+                "network_id": "USCPIL5403301;USCPIL5403311;USCPIL5413971",
                 "street_address": "37 Friend Street",
                 "city": "Amesbury",
                 "state": "MA",
@@ -7255,7 +7255,7 @@
                     167589,
                     181559
                 ],
-                "network_id": "USCPIL5406321;USCPIL5406301",
+                "network_id": "USCPIL5406301;USCPIL5406321",
                 "street_address": "24 Water Street",
                 "city": "Amesbury",
                 "state": "MA",
@@ -8077,7 +8077,7 @@
                     346696,
                     346697
                 ],
-                "network_id": "USCPIL5380721;USCPIL778761;USCPIL15865061;USCPIL15865091;USCPIL15865111;USCPIL15865131",
+                "network_id": "USCPIL15865061;USCPIL15865091;USCPIL15865111;USCPIL15865131;USCPIL5380721;USCPIL778761",
                 "street_address": "375 Longwood Avenue",
                 "city": "Boston",
                 "state": "MA",
@@ -8130,7 +8130,7 @@
                     264560,
                     264662
                 ],
-                "network_id": "USCPIL191219;USCPIL192159;USCPIL192203;USCPIL192213;USCPIL114157;USCPIL115807",
+                "network_id": "USCPIL114157;USCPIL115807;USCPIL191219;USCPIL192159;USCPIL192203;USCPIL192213",
                 "street_address": "380 Rear 1st Avenue",
                 "city": "Needham",
                 "state": "MA",
@@ -8629,7 +8629,7 @@
                     165107,
                     180977
                 ],
-                "network_id": "USCPIL5403231;USCPIL5403221",
+                "network_id": "USCPIL5403221;USCPIL5403231",
                 "street_address": "400 Donald Lynch Boulevard",
                 "city": "Marlborough",
                 "state": "MA",
@@ -8743,7 +8743,7 @@
                     332462,
                     346846
                 ],
-                "network_id": "USCPIL15241801;USCPIL15258741;USCPIL15265531;USCPIL15265601;USCPIL15265611;USCPIL15265641;USCPIL15265621",
+                "network_id": "USCPIL15241801;USCPIL15258741;USCPIL15265531;USCPIL15265601;USCPIL15265611;USCPIL15265621;USCPIL15265641",
                 "street_address": "400 Summer Street",
                 "city": "Boston",
                 "state": "MA",
@@ -9260,7 +9260,7 @@
                     330948,
                     330949
                 ],
-                "network_id": "US-RIV-L846479962;US-RIV-L51986509;US-RIV-L1558202933;US-RIV-L1904558355;US-RIV-L1712079469;US-RIV-L1587430976;US-RIV-L390942010;US-RIV-L1340032879;US-RIV-L1021987757",
+                "network_id": "US-RIV-L1021987757;US-RIV-L1340032879;US-RIV-L1558202933;US-RIV-L1587430976;US-RIV-L1712079469;US-RIV-L1904558355;US-RIV-L390942010;US-RIV-L51986509;US-RIV-L846479962",
                 "street_address": "45 Holyoke Street",
                 "city": "Holyoke",
                 "state": "MA",
@@ -9696,7 +9696,7 @@
                     179986,
                     179987
                 ],
-                "network_id": "USCPIL127629;USCPIL127311;USCPIL126347",
+                "network_id": "USCPIL126347;USCPIL127311;USCPIL127629",
                 "street_address": "50 Post Office Square",
                 "city": "Boston",
                 "state": "MA",
@@ -10416,7 +10416,7 @@
                     161866,
                     179963
                 ],
-                "network_id": "USCPIL174859;USCPIL174581",
+                "network_id": "USCPIL174581;USCPIL174859",
                 "street_address": "2 Waverly Street;640 Memorial Drive",
                 "city": "Cambridge",
                 "state": "MA",
@@ -10666,7 +10666,7 @@
                     161829,
                     179940
                 ],
-                "network_id": "USCPIL205835;USCPIL196533",
+                "network_id": "USCPIL196533;USCPIL205835",
                 "street_address": "7 Cambridge Center",
                 "city": "Cambridge;Mid-Cambridge",
                 "state": "MA",
@@ -10730,7 +10730,7 @@
                     179965,
                     179966
                 ],
-                "network_id": "USCPIL168435;USCPIL168169;USCPIL167933;USCPIL165501",
+                "network_id": "USCPIL165501;USCPIL167933;USCPIL168169;USCPIL168435",
                 "street_address": "710 Albany Street",
                 "city": "Boston",
                 "state": "MA",
@@ -10995,7 +10995,7 @@
                     256377,
                     261242
                 ],
-                "network_id": "USCPIL13244051;USCPIL131853;USCPIL5443161;USCPIL131429",
+                "network_id": "USCPIL131429;USCPIL131853;USCPIL13244051;USCPIL5443161",
                 "street_address": "77 4th Avenue",
                 "city": "Waltham",
                 "state": "MA",
@@ -11304,7 +11304,7 @@
                     161916,
                     179989
                 ],
-                "network_id": "USCPIL127441;USCPIL127147",
+                "network_id": "USCPIL127147;USCPIL127441",
                 "street_address": "90 Pleasant Valley Street",
                 "city": "Methuen",
                 "state": "MA",
@@ -11839,7 +11839,7 @@
                     331554,
                     331555
                 ],
-                "network_id": "USCPIL14274171;USCPIL15586941;USCPIL15587011;USCPIL15588021;USCPIL15585231;USCPIL15585241",
+                "network_id": "USCPIL14274171;USCPIL15585231;USCPIL15585241;USCPIL15586941;USCPIL15587011;USCPIL15588021",
                 "street_address": "76 Powder Mill Road",
                 "city": "Acton",
                 "state": "MA",
@@ -12829,7 +12829,7 @@
                     143305,
                     174224
                 ],
-                "network_id": "USCPIL1836411;USCPIL1836381",
+                "network_id": "USCPIL1836381;USCPIL1836411",
                 "street_address": "417 West Street",
                 "city": "Amherst",
                 "state": "MA",
@@ -13427,7 +13427,7 @@
                     179974,
                     350166
                 ],
-                "network_id": "USCPIL149947;USCPIL148343;USCPIL147389;USCPIL16057981",
+                "network_id": "USCPIL147389;USCPIL148343;USCPIL149947;USCPIL16057981",
                 "street_address": "389 Binney Street",
                 "city": "Cambridge;Middlesex County",
                 "state": "MA",
@@ -13786,7 +13786,7 @@
                     171956,
                     259877
                 ],
-                "network_id": "USCPIL1954011;USCPIL1954021;USCPIL1954001;USCPIL1953991;USCPIL1954491",
+                "network_id": "USCPIL1953991;USCPIL1954001;USCPIL1954011;USCPIL1954021;USCPIL1954491",
                 "street_address": "45 Bond St. Purple Garage",
                 "city": "Watertown",
                 "state": "MA",
@@ -13819,7 +13819,7 @@
                     71856,
                     326018
                 ],
-                "network_id": "USCPIL1954711;USCPIL1954481",
+                "network_id": "USCPIL1954481;USCPIL1954711",
                 "street_address": "45 Bond Street",
                 "city": "Watertown",
                 "state": "MA",
@@ -13986,7 +13986,7 @@
                     153720,
                     175177
                 ],
-                "network_id": "USCPIL2049211;USCPIL2049191",
+                "network_id": "USCPIL2049191;USCPIL2049211",
                 "street_address": "671 Lynnway;671 lynnway",
                 "city": "Lynn",
                 "state": "MA",
@@ -15586,7 +15586,7 @@
                     241239,
                     241240
                 ],
-                "network_id": "USCPIL194197;USCPIL192721;USCPIL194225;USCPIL194233",
+                "network_id": "USCPIL192721;USCPIL194197;USCPIL194225;USCPIL194233",
                 "street_address": "5 Map Hill Drive",
                 "city": "Wellesley",
                 "state": "MA",
@@ -15909,7 +15909,7 @@
                     197697,
                     197706
                 ],
-                "network_id": "USCPIL7663951;USCPIL10088471",
+                "network_id": "USCPIL10088471;USCPIL7663951",
                 "street_address": "214 Lake Street",
                 "city": "Shrewsbury",
                 "state": "MA",
@@ -15942,7 +15942,7 @@
                     146688,
                     174529
                 ],
-                "network_id": "USCPIL1948071;USCPIL1939001",
+                "network_id": "USCPIL1939001;USCPIL1948071",
                 "street_address": "557 Main Street",
                 "city": "Becket",
                 "state": "MA",
@@ -16003,7 +16003,7 @@
                     196581,
                     327459
                 ],
-                "network_id": "USCPIL9647431;USCPIL799861",
+                "network_id": "USCPIL799861;USCPIL9647431",
                 "street_address": "7 Mudge Way",
                 "city": "Bedford",
                 "state": "MA",
@@ -16036,7 +16036,7 @@
                     200646,
                     329286
                 ],
-                "network_id": "USCPIL9546661;USCPIL799951",
+                "network_id": "USCPIL799951;USCPIL9546661",
                 "street_address": "410 Davis Road;410 Davis road",
                 "city": "Bedford",
                 "state": "MA",
@@ -16069,7 +16069,7 @@
                     196431,
                     326695
                 ],
-                "network_id": "USCPIL9548561;USCPIL799851",
+                "network_id": "USCPIL799851;USCPIL9548561",
                 "street_address": "99 McMahon Road",
                 "city": "Bedford",
                 "state": "MA",
@@ -16107,7 +16107,7 @@
                     326696,
                     333677
                 ],
-                "network_id": "USCPIL9561631;USCPIL800021;USCPIL15761351",
+                "network_id": "USCPIL15761351;USCPIL800021;USCPIL9561631",
                 "street_address": "66 Sweetwater Avenue",
                 "city": "Bedford",
                 "state": "MA",
@@ -16145,7 +16145,7 @@
                     349932,
                     349933
                 ],
-                "network_id": "USCPIL9647031;USCPIL802841;USCPIL819561",
+                "network_id": "USCPIL802841;USCPIL819561;USCPIL9647031",
                 "street_address": "10 Mudge Way",
                 "city": "Bedford",
                 "state": "MA",
@@ -16202,7 +16202,7 @@
                     161870,
                     179967
                 ],
-                "network_id": "USCPIL167149;USCPIL163983",
+                "network_id": "USCPIL163983;USCPIL167149",
                 "street_address": "150 Potter Road",
                 "city": "Braintree",
                 "state": "MA",
@@ -16447,7 +16447,7 @@
                     255239,
                     255240
                 ],
-                "network_id": "USCPIL6820971;USCPIL6821051;USCPIL6820721;USCPIL6820881",
+                "network_id": "USCPIL6820721;USCPIL6820881;USCPIL6820971;USCPIL6821051",
                 "street_address": "100 Sohier Road",
                 "city": "Beverly",
                 "state": "MA",
@@ -16650,7 +16650,7 @@
                     197195,
                     206016
                 ],
-                "network_id": "USCPIL9108541;USCPIL9109211;USCPIL9109281;USCPIL9109241",
+                "network_id": "USCPIL9108541;USCPIL9109211;USCPIL9109241;USCPIL9109281",
                 "street_address": "3601 Main Street",
                 "city": "Springfield",
                 "state": "MA",
@@ -16845,7 +16845,7 @@
                     216491,
                     216492
                 ],
-                "network_id": "USCPIL12715691;USCPIL12715711;USCPIL12715751;USCPIL12715701;USCPIL12715721",
+                "network_id": "USCPIL12715691;USCPIL12715701;USCPIL12715711;USCPIL12715721;USCPIL12715751",
                 "street_address": "61-73 Medical Center Drive",
                 "city": "Springfield",
                 "state": "MA",
@@ -17185,7 +17185,7 @@
                     150374,
                     174864
                 ],
-                "network_id": "USCPIL2042581;USCPIL2042571",
+                "network_id": "USCPIL2042571;USCPIL2042581",
                 "street_address": "Big Y Market Pittsfield (in) 200 West Street;Big Y Market Pittsfield (in) 200 west Street",
                 "city": "Pittsfield",
                 "state": "MA",
@@ -17242,7 +17242,7 @@
                     150372,
                     174863
                 ],
-                "network_id": "USCPIL2042911;USCPIL2042901",
+                "network_id": "USCPIL2042901;USCPIL2042911",
                 "street_address": "500 Memorial Avenue",
                 "city": "West Springfield",
                 "state": "MA",
@@ -17499,7 +17499,7 @@
                     167556,
                     181544
                 ],
-                "network_id": "USCPIL5449841;USCPIL5449831",
+                "network_id": "USCPIL5449831;USCPIL5449841",
                 "street_address": "15 St Paul Street",
                 "city": "Blackstone",
                 "state": "MA",
@@ -18213,7 +18213,7 @@
                     181267,
                     326383
                 ],
-                "network_id": "USCPIL5438081;USCPIL5446771;USCPIL15259391",
+                "network_id": "USCPIL15259391;USCPIL5438081;USCPIL5446771",
                 "street_address": "500 Commander Shea Boulevard",
                 "city": "Quincy",
                 "state": "MA",
@@ -18389,7 +18389,7 @@
                     175053,
                     175054
                 ],
-                "network_id": "USCPIL2061651;USCPIL2061641;USCPIL1975961;USCPIL1975551",
+                "network_id": "USCPIL1975551;USCPIL1975961;USCPIL2061641;USCPIL2061651",
                 "street_address": "145 Broadway",
                 "city": "Cambridge",
                 "state": "MA",
@@ -18422,7 +18422,7 @@
                     161951,
                     180009
                 ],
-                "network_id": "USCPIL120243;USCPIL120097",
+                "network_id": "USCPIL120097;USCPIL120243",
                 "street_address": "75 Ames Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -18491,7 +18491,7 @@
                     237010,
                     237011
                 ],
-                "network_id": "USCPIL144791;USCPIL143113;USCPIL13261501;USCPIL13261511;USCPIL13261531;USCPIL13261541;USCPIL13261551;USCPIL13261561;USCPIL13261581",
+                "network_id": "USCPIL13261501;USCPIL13261511;USCPIL13261531;USCPIL13261541;USCPIL13261551;USCPIL13261561;USCPIL13261581;USCPIL143113;USCPIL144791",
                 "street_address": "86-98 Broadway",
                 "city": "Cambridge",
                 "state": "MA",
@@ -18694,7 +18694,7 @@
                     350507,
                     351860
                 ],
-                "network_id": "USCPIL15438261;USCPIL15438631;USCPIL15908031;USCPIL15438291",
+                "network_id": "USCPIL15438261;USCPIL15438291;USCPIL15438631;USCPIL15908031",
                 "street_address": "1001 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
@@ -19348,7 +19348,7 @@
                     175694,
                     207436
                 ],
-                "network_id": "USCPIL4662851;USCPIL4662781;USCPIL4662771;USCPIL4662751;USCPIL4662741;USCPIL4662731;USCPIL4662701;USCPIL4662661;USCPIL4662621;USCPIL4662791",
+                "network_id": "USCPIL4662621;USCPIL4662661;USCPIL4662701;USCPIL4662731;USCPIL4662741;USCPIL4662751;USCPIL4662771;USCPIL4662781;USCPIL4662791;USCPIL4662851",
                 "street_address": "777 Elsbree Street",
                 "city": "Fall River",
                 "state": "MA",
@@ -19461,7 +19461,7 @@
                     161808,
                     161810
                 ],
-                "network_id": "USCPIL226038;USCPIL226022",
+                "network_id": "USCPIL226022;USCPIL226038",
                 "street_address": "32 Pierce Street",
                 "city": "Brookline",
                 "state": "MA",
@@ -19821,7 +19821,7 @@
                     104167,
                     236349
                 ],
-                "network_id": "USCPIL669851;USCPIL13210641",
+                "network_id": "USCPIL13210641;USCPIL669851",
                 "street_address": "50 Boston Scientific Way Parking Lot E",
                 "city": "Marlborough",
                 "state": "MA",
@@ -19939,7 +19939,7 @@
                     171381,
                     171384
                 ],
-                "network_id": "USCPIL5577531;USCPIL117983",
+                "network_id": "USCPIL117983;USCPIL5577531",
                 "street_address": "142 Gardner Street",
                 "city": "Boston",
                 "state": "MA",
@@ -20355,7 +20355,7 @@
                     174202,
                     174203
                 ],
-                "network_id": "USCPIL1850061;USCPIL1850041;USCPIL1850031;USCPIL1850021;USCPIL1850011;USCPIL1850001",
+                "network_id": "USCPIL1850001;USCPIL1850011;USCPIL1850021;USCPIL1850031;USCPIL1850041;USCPIL1850061",
                 "street_address": "40 Acorn Park Drive",
                 "city": "Cambridge",
                 "state": "MA",
@@ -20469,7 +20469,7 @@
                     192972,
                     192973
                 ],
-                "network_id": "USCPIL643401;USCPIL113907;USCPIL643391;USCPIL119647;USCPIL8689841;USCPIL8691411;USCPIL8691421",
+                "network_id": "USCPIL113907;USCPIL119647;USCPIL643391;USCPIL643401;USCPIL8689841;USCPIL8691411;USCPIL8691421",
                 "street_address": "610 Albany Street",
                 "city": "Boston",
                 "state": "MA",
@@ -20703,7 +20703,7 @@
                     179984,
                     179985
                 ],
-                "network_id": "USCPIL135241;USCPIL135207;USCPIL135201;USCPIL123153",
+                "network_id": "USCPIL123153;USCPIL135201;USCPIL135207;USCPIL135241",
                 "street_address": "60 Fenwood Road",
                 "city": "Boston",
                 "state": "MA",
@@ -23065,7 +23065,7 @@
                     175229,
                     175230
                 ],
-                "network_id": "USCPIL2104201;USCPIL2104161;USCPIL1817151;USCPIL2104131",
+                "network_id": "USCPIL1817151;USCPIL2104131;USCPIL2104161;USCPIL2104201",
                 "street_address": "1 Transportation Avenue;22 Ridgewood Avenue",
                 "city": "Barnstable;Hyannis",
                 "state": "MA",
@@ -23159,7 +23159,7 @@
                     175227,
                     175228
                 ],
-                "network_id": "USCPIL2104221;USCPIL2104211;USCPIL2104231",
+                "network_id": "USCPIL2104211;USCPIL2104221;USCPIL2104231",
                 "street_address": "98 Ridgewood Avenue",
                 "city": "Barnstable",
                 "state": "MA",
@@ -23349,7 +23349,7 @@
                     262723,
                     262724
                 ],
-                "network_id": "USCPIL9418391;USCPIL9418441;USCPIL9418421",
+                "network_id": "USCPIL9418391;USCPIL9418421;USCPIL9418441",
                 "street_address": "100 Boardman Street;375 William F McClellan Highway",
                 "city": "Boston",
                 "state": "MA",
@@ -23521,7 +23521,7 @@
                     323298,
                     323900
                 ],
-                "network_id": "USCPIL5378301;USCPIL5378491;USCPIL5378501;USCPIL5378311",
+                "network_id": "USCPIL5378301;USCPIL5378311;USCPIL5378491;USCPIL5378501",
                 "street_address": "19 Alpha Road",
                 "city": "Chelmsford",
                 "state": "MA",
@@ -23554,7 +23554,7 @@
                     156099,
                     175643
                 ],
-                "network_id": "USCPIL4112551;USCPIL4112291",
+                "network_id": "USCPIL4112291;USCPIL4112551",
                 "street_address": "9 Alpha Road",
                 "city": "Chelmsford",
                 "state": "MA",
@@ -23620,7 +23620,7 @@
                     156005,
                     175606
                 ],
-                "network_id": "USCPIL3521741;USCPIL3521411",
+                "network_id": "USCPIL3521411;USCPIL3521741",
                 "street_address": "200 Richardson Road",
                 "city": "Chelmsford",
                 "state": "MA",
@@ -23801,7 +23801,7 @@
                     181913,
                     181914
                 ],
-                "network_id": "USCPIL5556471;USCPIL5556441;USCPIL5554981;USCPIL5554761;USCPIL5554371",
+                "network_id": "USCPIL5554371;USCPIL5554761;USCPIL5554981;USCPIL5556441;USCPIL5556471",
                 "street_address": "11 Chestnut Street",
                 "city": "Amesbury",
                 "state": "MA",
@@ -23896,7 +23896,7 @@
                     173899,
                     173900
                 ],
-                "network_id": "USCPIL804901;USCPIL804881;USCPIL797481",
+                "network_id": "USCPIL797481;USCPIL804881;USCPIL804901",
                 "street_address": "51 Merrimack Street",
                 "city": "Haverhill",
                 "state": "MA",
@@ -23981,7 +23981,7 @@
                     123415,
                     174107
                 ],
-                "network_id": "USCPIL1776821;USCPIL1776791",
+                "network_id": "USCPIL1776791;USCPIL1776821",
                 "street_address": "15 Davidson Street",
                 "city": "Lowell",
                 "state": "MA",
@@ -24052,7 +24052,7 @@
                     174093,
                     174094
                 ],
-                "network_id": "USCPIL1773681;USCPIL1773671;USCPIL1773631;USCPIL1773601",
+                "network_id": "USCPIL1773601;USCPIL1773631;USCPIL1773671;USCPIL1773681",
                 "street_address": "47 Father Morissette Boulevard",
                 "city": "Lowell",
                 "state": "MA",
@@ -24247,7 +24247,7 @@
                     105507,
                     173658
                 ],
-                "network_id": "USCPIL740271;USCPIL1781531",
+                "network_id": "USCPIL1781531;USCPIL740271",
                 "street_address": "100 Market Street",
                 "city": "Lowell",
                 "state": "MA",
@@ -24374,7 +24374,7 @@
                     174104,
                     174105
                 ],
-                "network_id": "USCPIL1777431;USCPIL1777381;USCPIL1777341;USCPIL1777351",
+                "network_id": "USCPIL1777341;USCPIL1777351;USCPIL1777381;USCPIL1777431",
                 "street_address": "90 Warren Street",
                 "city": "Lowell",
                 "state": "MA",
@@ -25235,7 +25235,7 @@
                     201364,
                     202234
                 ],
-                "network_id": "USCPIL9123941;USCPIL9123911",
+                "network_id": "USCPIL9123911;USCPIL9123941",
                 "street_address": "356 Commercial Street",
                 "city": "Malden",
                 "state": "MA",
@@ -25542,7 +25542,7 @@
                     173632,
                     179958
                 ],
-                "network_id": "USCPIL771461;USCPIL189411;USCPIL734731;USCPIL734741;USCPIL152091",
+                "network_id": "USCPIL152091;USCPIL189411;USCPIL734731;USCPIL734741;USCPIL771461",
                 "street_address": "98 Memorial Drive",
                 "city": "Newton",
                 "state": "MA",
@@ -26198,7 +26198,7 @@
                     161831,
                     262302
                 ],
-                "network_id": "USCPIL199997;USCPIL13747671",
+                "network_id": "USCPIL13747671;USCPIL199997",
                 "street_address": "795 Massachusetts Avenue",
                 "city": "Cambridge",
                 "state": "MA",
@@ -26307,7 +26307,7 @@
                     183378,
                     332037
                 ],
-                "network_id": "USCPIL204223;USCPIL384111;USCPIL5385691;USCPIL5385761;USCPIL5385871;USCPIL15702341",
+                "network_id": "USCPIL15702341;USCPIL204223;USCPIL384111;USCPIL5385691;USCPIL5385761;USCPIL5385871",
                 "street_address": "147 Hampshire Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -26593,7 +26593,7 @@
                     181930,
                     181931
                 ],
-                "network_id": "USCPIL5523771;USCPIL5523721;USCPIL5523701",
+                "network_id": "USCPIL5523701;USCPIL5523721;USCPIL5523771",
                 "street_address": "225 South Street",
                 "city": "Williamstown",
                 "state": "MA",
@@ -26692,7 +26692,7 @@
                     174720,
                     174721
                 ],
-                "network_id": "USCPIL2014351;USCPIL2014341;USCPIL2014331;USCPIL2014251",
+                "network_id": "USCPIL2014251;USCPIL2014331;USCPIL2014341;USCPIL2014351",
                 "street_address": "3 blackfan cir",
                 "city": "Boston",
                 "state": "MA",
@@ -26788,7 +26788,7 @@
                     253393,
                     255615
                 ],
-                "network_id": "USCPIL2241821;USCPIL2246761;USCPIL2247051;USCPIL2493941;USCPIL2241911",
+                "network_id": "USCPIL2241821;USCPIL2241911;USCPIL2246761;USCPIL2247051;USCPIL2493941",
                 "street_address": "45 Vine Street",
                 "city": "Boston",
                 "state": "MA",
@@ -27384,7 +27384,7 @@
                     166953,
                     181330
                 ],
-                "network_id": "USCPIL5453201;USCPIL5453191",
+                "network_id": "USCPIL5453191;USCPIL5453201",
                 "street_address": "3195 Main Street",
                 "city": "Barnstable",
                 "state": "MA",
@@ -27445,7 +27445,7 @@
                     308352,
                     308456
                 ],
-                "network_id": "USCPIL13972741;USCPIL13972721",
+                "network_id": "USCPIL13972721;USCPIL13972741",
                 "street_address": "777 Memorial Drive",
                 "city": "Cambridge",
                 "state": "MA",
@@ -31548,7 +31548,7 @@
                     316333,
                     316334
                 ],
-                "network_id": "USCPIL14171191;USCPIL14171111;USCPIL14171121;USCPIL14171141",
+                "network_id": "USCPIL14171111;USCPIL14171121;USCPIL14171141;USCPIL14171191",
                 "street_address": "11 Sheila Avenue",
                 "city": "Chelmsford",
                 "state": "MA",
@@ -33151,7 +33151,7 @@
                     163512,
                     180632
                 ],
-                "network_id": "USCPIL5350761;USCPIL5350751",
+                "network_id": "USCPIL5350751;USCPIL5350761",
                 "street_address": "50 Payson Avenue",
                 "city": "Easthampton",
                 "state": "MA",
@@ -33184,7 +33184,7 @@
                     171192,
                     182189
                 ],
-                "network_id": "USCPIL5588911;USCPIL5588901",
+                "network_id": "USCPIL5588901;USCPIL5588911",
                 "street_address": "5 Lovefield Street",
                 "city": "Easthampton",
                 "state": "MA",
@@ -33353,7 +33353,7 @@
                     250474,
                     251799
                 ],
-                "network_id": "USCPIL12634611;USCPIL12634641;USCPIL12634821;USCPIL12634851;USCPIL12634881;USCPIL12634621",
+                "network_id": "USCPIL12634611;USCPIL12634621;USCPIL12634641;USCPIL12634821;USCPIL12634851;USCPIL12634881",
                 "street_address": "91 Pier 4 Boulevard",
                 "city": "Boston",
                 "state": "MA",
@@ -33414,7 +33414,7 @@
                     167349,
                     181492
                 ],
-                "network_id": "USCPIL5460741;USCPIL5460311",
+                "network_id": "USCPIL5460311;USCPIL5460741",
                 "street_address": "83 Warwick Street",
                 "city": "Springfield",
                 "state": "MA",
@@ -33594,7 +33594,7 @@
                     174647,
                     174648
                 ],
-                "network_id": "USCPIL1978111;USCPIL1973991;USCPIL1932821",
+                "network_id": "USCPIL1932821;USCPIL1973991;USCPIL1978111",
                 "street_address": "10 Education Cir",
                 "city": "Cambridge",
                 "state": "MA",
@@ -33821,7 +33821,7 @@
                     173400,
                     173401
                 ],
-                "network_id": "USCPIL397121;USCPIL381841;USCPIL213733",
+                "network_id": "USCPIL213733;USCPIL381841;USCPIL397121",
                 "street_address": "Endicott Drive",
                 "city": "Beverly",
                 "state": "MA",
@@ -33897,7 +33897,7 @@
                     180667,
                     180668
                 ],
-                "network_id": "USCPIL5351511;USCPIL5351501;USCPIL5351491;USCPIL5351481;USCPIL5351471",
+                "network_id": "USCPIL5351471;USCPIL5351481;USCPIL5351491;USCPIL5351501;USCPIL5351511",
                 "street_address": "134 Gold Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -33935,7 +33935,7 @@
                     164447,
                     180888
                 ],
-                "network_id": "USCPIL5378031;USCPIL5390331;USCPIL5382171",
+                "network_id": "USCPIL5378031;USCPIL5382171;USCPIL5390331",
                 "street_address": "565 Maple Street",
                 "city": "Danvers;Hathorne",
                 "state": "MA",
@@ -34269,7 +34269,7 @@
                     100261,
                     173343
                 ],
-                "network_id": "USCPIL601871;USCPIL193985",
+                "network_id": "USCPIL193985;USCPIL601871",
                 "street_address": "150 Arsenal Street",
                 "city": "Watertown",
                 "state": "MA",
@@ -34379,7 +34379,7 @@
                     161892,
                     179971
                 ],
-                "network_id": "USCPIL150523;USCPIL150517",
+                "network_id": "USCPIL150517;USCPIL150523",
                 "street_address": "144 Main Street",
                 "city": "Fitchburg",
                 "state": "MA",
@@ -34413,7 +34413,7 @@
                     161893,
                     179972
                 ],
-                "network_id": "USCPIL150477;USCPIL149537",
+                "network_id": "USCPIL149537;USCPIL150477",
                 "street_address": "36 Nashua Street",
                 "city": "Leominster",
                 "state": "MA",
@@ -34906,7 +34906,7 @@
                     262305,
                     262738
                 ],
-                "network_id": "USCPIL13713051;USCPIL13758061;USCPIL13758121;USCPIL13713021",
+                "network_id": "USCPIL13713021;USCPIL13713051;USCPIL13758061;USCPIL13758121",
                 "street_address": "198 Calvary Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -36074,7 +36074,7 @@
                     181915,
                     181916
                 ],
-                "network_id": "USCPIL5532891;USCPIL5532871;USCPIL5532861",
+                "network_id": "USCPIL5532861;USCPIL5532871;USCPIL5532891",
                 "street_address": "412 Main Street",
                 "city": "Williamstown",
                 "state": "MA",
@@ -36117,7 +36117,7 @@
                     181956,
                     181957
                 ],
-                "network_id": "USCPIL5548641;USCPIL5548621;USCPIL5548681;USCPIL5548661",
+                "network_id": "USCPIL5548621;USCPIL5548641;USCPIL5548661;USCPIL5548681",
                 "street_address": "115A Conz Street",
                 "city": "Northampton",
                 "state": "MA",
@@ -36705,7 +36705,7 @@
                     193887,
                     197925
                 ],
-                "network_id": "USCPIL7650061;USCPIL7650041;USCPIL7650101;USCPIL7650111;USCPIL9221191",
+                "network_id": "USCPIL7650041;USCPIL7650061;USCPIL7650101;USCPIL7650111;USCPIL9221191",
                 "street_address": "455 Grand Union Boulevard",
                 "city": "Somerville",
                 "state": "MA",
@@ -36753,7 +36753,7 @@
                     201888,
                     201889
                 ],
-                "network_id": "USCPIL8169201;USCPIL8169251;USCPIL8169291;USCPIL8169241;USCPIL8169461",
+                "network_id": "USCPIL8169201;USCPIL8169241;USCPIL8169251;USCPIL8169291;USCPIL8169461",
                 "street_address": "485 Foley Street",
                 "city": "Somerville",
                 "state": "MA",
@@ -37498,7 +37498,7 @@
                     230820,
                     230821
                 ],
-                "network_id": "fc89dca5-3a0c-45f7-a50a-3c83875f39f3;05945f46-de64-4cfd-ae2d-0e8d30a269f4",
+                "network_id": "05945f46-de64-4cfd-ae2d-0e8d30a269f4;fc89dca5-3a0c-45f7-a50a-3c83875f39f3",
                 "street_address": "255 Grapevine Road",
                 "city": "Wenham",
                 "state": "MA",
@@ -37657,7 +37657,7 @@
                     180877,
                     180878
                 ],
-                "network_id": "USCPIL5387821;USCPIL5387791;USCPIL5387781;USCPIL5387771;USCPIL5387721;USCPIL5387711;USCPIL5387701;USCPIL5387681;USCPIL5387671;USCPIL5387661;USCPIL5387651",
+                "network_id": "USCPIL5387651;USCPIL5387661;USCPIL5387671;USCPIL5387681;USCPIL5387701;USCPIL5387711;USCPIL5387721;USCPIL5387771;USCPIL5387781;USCPIL5387791;USCPIL5387821",
                 "street_address": "130 Congress Street",
                 "city": "Boston",
                 "state": "MA",
@@ -37809,7 +37809,7 @@
                     179955,
                     179957
                 ],
-                "network_id": "USCPIL192357;USCPIL189401;USCPIL187697;USCPIL187535;USCPIL187533;USCPIL187433;USCPIL187431;USCPIL187429;USCPIL191747",
+                "network_id": "USCPIL187429;USCPIL187431;USCPIL187433;USCPIL187533;USCPIL187535;USCPIL187697;USCPIL189401;USCPIL191747;USCPIL192357",
                 "street_address": "130-158 Congress Street",
                 "city": "Boston",
                 "state": "MA",
@@ -38270,7 +38270,7 @@
                     163605,
                     180652
                 ],
-                "network_id": "USCPIL5365731;USCPIL5365701",
+                "network_id": "USCPIL5365701;USCPIL5365731",
                 "street_address": "57 River Road",
                 "city": "Andover",
                 "state": "MA",
@@ -38308,7 +38308,7 @@
                     180654,
                     180655
                 ],
-                "network_id": "USCPIL5358871;USCPIL5358751;USCPIL5358831",
+                "network_id": "USCPIL5358751;USCPIL5358831;USCPIL5358871",
                 "street_address": "57 River Road",
                 "city": "Andover",
                 "state": "MA",
@@ -38548,7 +38548,7 @@
                     173645,
                     173646
                 ],
-                "network_id": "USCPIL731561;USCPIL731551;USCPIL731441;USCPIL567081",
+                "network_id": "USCPIL567081;USCPIL731441;USCPIL731551;USCPIL731561",
                 "street_address": "11 Olive Street",
                 "city": "Greenfield",
                 "state": "MA",
@@ -40476,7 +40476,7 @@
                     165389,
                     181070
                 ],
-                "network_id": "USCPIL5423951;USCPIL5423931",
+                "network_id": "USCPIL5423931;USCPIL5423951",
                 "street_address": "231 Dodge St Court",
                 "city": "Salem",
                 "state": "MA",
@@ -40589,7 +40589,7 @@
                     183647,
                     183841
                 ],
-                "network_id": "USCPIL5287871;USCPIL5295031;USCPIL5334181;USCPIL5335601;USCPIL5335871;USCPIL5346571;USCPIL5346581;USCPIL5346601;USCPIL5346611;USCPIL5346661;USCPIL5347431;USCPIL5335101;USCPIL5335341;USCPIL5346631;USCPIL5346691;USCPIL5346701;USCPIL5346711;USCPIL5294421",
+                "network_id": "USCPIL5287871;USCPIL5294421;USCPIL5295031;USCPIL5334181;USCPIL5335101;USCPIL5335341;USCPIL5335601;USCPIL5335871;USCPIL5346571;USCPIL5346581;USCPIL5346601;USCPIL5346611;USCPIL5346631;USCPIL5346661;USCPIL5346691;USCPIL5346701;USCPIL5346711;USCPIL5347431",
                 "street_address": "100 Hood Park Drive",
                 "city": "Boston",
                 "state": "MA",
@@ -40732,7 +40732,7 @@
                     167647,
                     181578
                 ],
-                "network_id": "USCPIL5489471;USCPIL5489441",
+                "network_id": "USCPIL5489441;USCPIL5489471",
                 "street_address": "225 W Main Street",
                 "city": "East Brookfield",
                 "state": "MA",
@@ -42788,7 +42788,7 @@
                     181786,
                     181787
                 ],
-                "network_id": "USCPIL5531281;USCPIL5511971;USCPIL5511961;USCPIL5511911;USCPIL5498231",
+                "network_id": "USCPIL5498231;USCPIL5511911;USCPIL5511961;USCPIL5511971;USCPIL5531281",
                 "street_address": "46 Stafford Street",
                 "city": "Lawrence",
                 "state": "MA",
@@ -42903,7 +42903,7 @@
                     204252,
                     204406
                 ],
-                "network_id": "USCPIL9966911;USCPIL9967031;USCPIL9969701;USCPIL9971911;USCPIL9971941;USCPIL10764071;USCPIL9973571",
+                "network_id": "USCPIL10764071;USCPIL9966911;USCPIL9967031;USCPIL9969701;USCPIL9971911;USCPIL9971941;USCPIL9973571",
                 "street_address": "318 Northern Avenue",
                 "city": "Boston",
                 "state": "MA",
@@ -43003,7 +43003,7 @@
                     161946,
                     180006
                 ],
-                "network_id": "USCPIL121209;USCPIL120419",
+                "network_id": "USCPIL120419;USCPIL121209",
                 "street_address": "360 Coggeshall Street",
                 "city": "New Bedford",
                 "state": "MA",
@@ -43041,7 +43041,7 @@
                     182202,
                     182203
                 ],
-                "network_id": "USCPIL5584281;USCPIL5584271;USCPIL5584251",
+                "network_id": "USCPIL5584251;USCPIL5584271;USCPIL5584281",
                 "street_address": "580 Washington Street",
                 "city": "Wrentham",
                 "state": "MA",
@@ -43117,7 +43117,7 @@
                     325398,
                     325400
                 ],
-                "network_id": "USCPIL5556261;USCPIL5556211;USCPIL15367121;USCPIL15367311;USCPIL15367451",
+                "network_id": "USCPIL15367121;USCPIL15367311;USCPIL15367451;USCPIL5556211;USCPIL5556261",
                 "street_address": "1 International Place",
                 "city": "Boston",
                 "state": "MA",
@@ -43886,7 +43886,7 @@
                     167557,
                     181545
                 ],
-                "network_id": "USCPIL5383521;USCPIL5383511",
+                "network_id": "USCPIL5383511;USCPIL5383521",
                 "street_address": "669-675 Washington Street",
                 "city": "Boston",
                 "state": "MA",
@@ -44062,7 +44062,7 @@
                     181675,
                     181676
                 ],
-                "network_id": "USCPIL5509071;USCPIL5509061;USCPIL5509011;USCPIL5508981",
+                "network_id": "USCPIL5508981;USCPIL5509011;USCPIL5509061;USCPIL5509071",
                 "street_address": "600 Airport Road",
                 "city": "Fall River",
                 "state": "MA",
@@ -44735,7 +44735,7 @@
                     238264,
                     238337
                 ],
-                "network_id": "USCPIL13282031;USCPIL13282011",
+                "network_id": "USCPIL13282011;USCPIL13282031",
                 "street_address": "90 Bridge Street",
                 "city": "Newton",
                 "state": "MA",
@@ -44769,7 +44769,7 @@
                     161863,
                     179961
                 ],
-                "network_id": "USCPIL176319;USCPIL176215",
+                "network_id": "USCPIL176215;USCPIL176319",
                 "street_address": "Lafayette Garage 1 Ave de Lafayette",
                 "city": "Boston",
                 "state": "MA",
@@ -45055,7 +45055,7 @@
                     302130,
                     302131
                 ],
-                "network_id": "USCPIL655581;USCPIL13814791;USCPIL13814891",
+                "network_id": "USCPIL13814791;USCPIL13814891;USCPIL655581",
                 "street_address": "35 Shattuck Street",
                 "city": "Littleton",
                 "state": "MA",
@@ -45255,7 +45255,7 @@
                     179981,
                     179982
                 ],
-                "network_id": "USCPIL137831;USCPIL137815;USCPIL137719;USCPIL137715;USCPIL136969;USCPIL126515;USCPIL126505",
+                "network_id": "USCPIL126505;USCPIL126515;USCPIL136969;USCPIL137715;USCPIL137719;USCPIL137815;USCPIL137831",
                 "street_address": "1 Nashua Street",
                 "city": "Boston",
                 "state": "MA",
@@ -45428,7 +45428,7 @@
                     161832,
                     179942
                 ],
-                "network_id": "USCPIL199951;USCPIL199061",
+                "network_id": "USCPIL199061;USCPIL199951",
                 "street_address": "4-6 Grant Street",
                 "city": "Lexington",
                 "state": "MA",
@@ -45669,7 +45669,7 @@
                     189826,
                     189827
                 ],
-                "network_id": "USCPIL5523971;USCPIL5517781;USCPIL5517651;USCPIL5517591;USCPIL5291721;USCPIL5517571;USCPIL5517471;USCPIL5520131",
+                "network_id": "USCPIL5291721;USCPIL5517471;USCPIL5517571;USCPIL5517591;USCPIL5517651;USCPIL5517781;USCPIL5520131;USCPIL5523971",
                 "street_address": "41 Burlington Mall Road",
                 "city": "Burlington",
                 "state": "MA",
@@ -47225,7 +47225,7 @@
                     180029,
                     180030
                 ],
-                "network_id": "USCPIL109069;USCPIL108249;USCPIL108209;USCPIL108207;USCPIL108205;USCPIL108071",
+                "network_id": "USCPIL108071;USCPIL108205;USCPIL108207;USCPIL108209;USCPIL108249;USCPIL109069",
                 "street_address": "1177 Boston-Providence Turnpike",
                 "city": "Norwood",
                 "state": "MA",
@@ -47319,7 +47319,7 @@
                     161998,
                     180025
                 ],
-                "network_id": "USCPIL109711;USCPIL108213",
+                "network_id": "USCPIL108213;USCPIL109711",
                 "street_address": "303 Wyman Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -47418,7 +47418,7 @@
                     168141,
                     181657
                 ],
-                "network_id": "USCPIL1845711;USCPIL1845691",
+                "network_id": "USCPIL1845691;USCPIL1845711",
                 "street_address": "401 Edgewater Drive",
                 "city": "Wakefield",
                 "state": "MA",
@@ -47451,7 +47451,7 @@
                     161997,
                     180024
                 ],
-                "network_id": "USCPIL109811;USCPIL108183",
+                "network_id": "USCPIL108183;USCPIL109811",
                 "street_address": "404 Wyman Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -47484,7 +47484,7 @@
                     180022,
                     180023
                 ],
-                "network_id": "USCPIL109779;USCPIL108191",
+                "network_id": "USCPIL108191;USCPIL109779",
                 "street_address": "404 Wyman Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -47517,7 +47517,7 @@
                     143270,
                     174215
                 ],
-                "network_id": "USCPIL1844261;USCPIL1844251",
+                "network_id": "USCPIL1844251;USCPIL1844261",
                 "street_address": "500 Edgewater Drive",
                 "city": "Wakefield",
                 "state": "MA",
@@ -47550,7 +47550,7 @@
                     163582,
                     180650
                 ],
-                "network_id": "USCPIL5364071;USCPIL5364051",
+                "network_id": "USCPIL5364051;USCPIL5364071",
                 "street_address": "501 Edgewater Drive;601 Edgewater Drive",
                 "city": "Wakefield",
                 "state": "MA",
@@ -47639,7 +47639,7 @@
                     164635,
                     180927
                 ],
-                "network_id": "USCPIL5378011;USCPIL5377991",
+                "network_id": "USCPIL5377991;USCPIL5378011",
                 "street_address": "301 Edgewater Drive",
                 "city": "Wakefield",
                 "state": "MA",
@@ -47779,7 +47779,7 @@
                     174114,
                     174115
                 ],
-                "network_id": "USCPIL501461;USCPIL501321;USCPIL482431;USCPIL501501",
+                "network_id": "USCPIL482431;USCPIL501321;USCPIL501461;USCPIL501501",
                 "street_address": "81 Wyman Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -47823,7 +47823,7 @@
                     180016,
                     180017
                 ],
-                "network_id": "USCPIL117899;USCPIL115911;USCPIL115891;USCPIL115869",
+                "network_id": "USCPIL115869;USCPIL115891;USCPIL115911;USCPIL117899",
                 "street_address": "275 Wyman Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -47886,7 +47886,7 @@
                     161933,
                     180001
                 ],
-                "network_id": "USCPIL122581;USCPIL121177",
+                "network_id": "USCPIL121177;USCPIL122581",
                 "street_address": "610 Lincoln Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -48056,7 +48056,7 @@
                     182240,
                     182242
                 ],
-                "network_id": "USCPIL5597211;USCPIL5597201;USCPIL5597181;USCPIL5597131",
+                "network_id": "USCPIL5597131;USCPIL5597181;USCPIL5597201;USCPIL5597211",
                 "street_address": "520 Main Street",
                 "city": "Malden",
                 "state": "MA",
@@ -48146,7 +48146,7 @@
                     161804,
                     179922
                 ],
-                "network_id": "USCPIL251421;USCPIL237911",
+                "network_id": "USCPIL237911;USCPIL251421",
                 "street_address": "10 Central Street",
                 "city": "Manchester-by-the-Sea",
                 "state": "MA",
@@ -48194,7 +48194,7 @@
                     321343,
                     321344
                 ],
-                "network_id": "USCPIL14204341;USCPIL14204361;USCPIL13959121;USCPIL13956241;USCPIL13956311",
+                "network_id": "USCPIL13956241;USCPIL13956311;USCPIL13959121;USCPIL14204341;USCPIL14204361",
                 "street_address": "1025 Main Street",
                 "city": "Holyoke",
                 "state": "MA",
@@ -48332,7 +48332,7 @@
                     122818,
                     174048
                 ],
-                "network_id": "USCPIL1760621;USCPIL1760611",
+                "network_id": "USCPIL1760611;USCPIL1760621",
                 "street_address": "1 Court Street",
                 "city": "Marlborough",
                 "state": "MA",
@@ -48689,7 +48689,7 @@
                     202121,
                     258938
                 ],
-                "network_id": "USCPIL10534961;USCPIL10535061;USCPIL10535281;USCPIL10537461;USCPIL10537991;USCPIL192305;USCPIL193953;USCPIL193965;USCPIL193967;USCPIL193971;USCPIL193975;USCPIL193981;USCPIL193983;USCPIL192309",
+                "network_id": "USCPIL10534961;USCPIL10535061;USCPIL10535281;USCPIL10537461;USCPIL10537991;USCPIL192305;USCPIL192309;USCPIL193953;USCPIL193965;USCPIL193967;USCPIL193971;USCPIL193975;USCPIL193981;USCPIL193983",
                 "street_address": "795 Columbus Avenue",
                 "city": "Boston",
                 "state": "MA",
@@ -48750,7 +48750,7 @@
                     143501,
                     174304
                 ],
-                "network_id": "USCPIL1794731;USCPIL1794651",
+                "network_id": "USCPIL1794651;USCPIL1794731",
                 "street_address": "127 Combs Road",
                 "city": "Easthampton",
                 "state": "MA",
@@ -48783,7 +48783,7 @@
                     165556,
                     181114
                 ],
-                "network_id": "USCPIL5374001;USCPIL5373991",
+                "network_id": "USCPIL5373991;USCPIL5374001",
                 "street_address": "414 Massasoit Road",
                 "city": "Worcester",
                 "state": "MA",
@@ -49012,7 +49012,7 @@
                     170740,
                     182169
                 ],
-                "network_id": "USCPIL5578321;USCPIL5578311",
+                "network_id": "USCPIL5578311;USCPIL5578321",
                 "street_address": "472 W Mountain Road",
                 "city": "Lenox",
                 "state": "MA",
@@ -49140,7 +49140,7 @@
                     189833,
                     235812
                 ],
-                "network_id": "USCPIL7372291;USCPIL7372321;USCPIL7372331;USCPIL13201141",
+                "network_id": "USCPIL13201141;USCPIL7372291;USCPIL7372321;USCPIL7372331",
                 "street_address": "1311 Mass MoCA Way",
                 "city": "North Adams",
                 "state": "MA",
@@ -49806,7 +49806,7 @@
                     174796,
                     174797
                 ],
-                "network_id": "USCPIL1999261;USCPIL1999231;USCPIL1999161;USCPIL1999121",
+                "network_id": "USCPIL1999121;USCPIL1999161;USCPIL1999231;USCPIL1999261",
                 "street_address": "200 Terminal Rd Term B Garage - Northeastern",
                 "city": "Boston",
                 "state": "MA",
@@ -49854,7 +49854,7 @@
                     174970,
                     174971
                 ],
-                "network_id": "USCPIL2058771;USCPIL2058761;USCPIL2058751;USCPIL2050371;USCPIL2050311",
+                "network_id": "USCPIL2050311;USCPIL2050371;USCPIL2058751;USCPIL2058761;USCPIL2058771",
                 "street_address": "450 Terminal Road",
                 "city": "Boston",
                 "state": "MA",
@@ -49897,7 +49897,7 @@
                     174968,
                     174969
                 ],
-                "network_id": "USCPIL2058881;USCPIL2058851;USCPIL2052671;USCPIL2052561",
+                "network_id": "USCPIL2052561;USCPIL2052671;USCPIL2058851;USCPIL2058881",
                 "street_address": "450 Terminal Road",
                 "city": "Boston",
                 "state": "MA",
@@ -49945,7 +49945,7 @@
                     174793,
                     174794
                 ],
-                "network_id": "USCPIL2032031;USCPIL2032021;USCPIL2032011;USCPIL2031991;USCPIL2031951",
+                "network_id": "USCPIL2031951;USCPIL2031991;USCPIL2032011;USCPIL2032021;USCPIL2032031",
                 "street_address": "237 Prescott St Economy Garage - North Side L",
                 "city": "Boston",
                 "state": "MA",
@@ -49978,7 +49978,7 @@
                     161955,
                     180012
                 ],
-                "network_id": "USCPIL119365;USCPIL118871",
+                "network_id": "USCPIL118871;USCPIL119365",
                 "street_address": "11 Burr Street Extension",
                 "city": "Framingham",
                 "state": "MA",
@@ -50147,7 +50147,7 @@
                     174961,
                     174963
                 ],
-                "network_id": "USCPIL2069991;USCPIL2069981;USCPIL2059991;USCPIL2054271;USCPIL2054241;USCPIL1905321;USCPIL2060421;USCPIL2060401",
+                "network_id": "USCPIL1905321;USCPIL2054241;USCPIL2054271;USCPIL2059991;USCPIL2060401;USCPIL2060421;USCPIL2069981;USCPIL2069991",
                 "street_address": "400 Terminal Road",
                 "city": "Boston",
                 "state": "MA",
@@ -50635,7 +50635,7 @@
                     174833,
                     174834
                 ],
-                "network_id": "USCPIL2029621;USCPIL2029681;USCPIL764701;USCPIL719331;USCPIL2029671;USCPIL2029661;USCPIL2029641",
+                "network_id": "USCPIL2029621;USCPIL2029641;USCPIL2029661;USCPIL2029671;USCPIL2029681;USCPIL719331;USCPIL764701",
                 "street_address": "0 Charles Street",
                 "city": "Boston",
                 "state": "MA",
@@ -50860,7 +50860,7 @@
                     253850,
                     254036
                 ],
-                "network_id": "USCPIL13391531;USCPIL13391491",
+                "network_id": "USCPIL13391491;USCPIL13391531",
                 "street_address": "15 Perwal Street",
                 "city": "Westwood",
                 "state": "MA",
@@ -50903,7 +50903,7 @@
                     240881,
                     306498
                 ],
-                "network_id": "USCPIL13281051;USCPIL13281331;USCPIL13281301;USCPIL13281191",
+                "network_id": "USCPIL13281051;USCPIL13281191;USCPIL13281301;USCPIL13281331",
                 "street_address": "11 Dana Hill Road",
                 "city": "Sterling",
                 "state": "MA",
@@ -51387,7 +51387,7 @@
                     96810,
                     173156
                 ],
-                "network_id": "USCPIL446471;USCPIL377961",
+                "network_id": "USCPIL377961;USCPIL446471",
                 "street_address": "20 Museum Road",
                 "city": "Boston",
                 "state": "MA",
@@ -51425,7 +51425,7 @@
                     181953,
                     181954
                 ],
-                "network_id": "USCPIL5562721;USCPIL5562641;USCPIL5562631",
+                "network_id": "USCPIL5562631;USCPIL5562641;USCPIL5562721",
                 "street_address": "664 Spring Street",
                 "city": "Winchendon",
                 "state": "MA",
@@ -51897,7 +51897,7 @@
                     183809,
                     327157
                 ],
-                "network_id": "USCPIL5623931;USCPIL5624251;USCPIL13229541",
+                "network_id": "USCPIL13229541;USCPIL5623931;USCPIL5624251",
                 "street_address": "10 Nickerson Avenue",
                 "city": "Middleborough",
                 "state": "MA",
@@ -52024,7 +52024,7 @@
                     335746,
                     335747
                 ],
-                "network_id": "USCPIL1778481;USCPIL15812431;USCPIL15812441",
+                "network_id": "USCPIL15812431;USCPIL15812441;USCPIL1778481",
                 "street_address": "325 Randolph Avenue",
                 "city": "Milton",
                 "state": "MA",
@@ -52203,7 +52203,7 @@
                     213559,
                     213560
                 ],
-                "network_id": "USCPIL2047361;USCPIL97143;USCPIL96015;USCPIL2047351;USCPIL2047341;USCPIL97131;USCPIL95955;USCPIL95953;USCPIL12696591;USCPIL12696601;USCPIL12696611;USCPIL12696621",
+                "network_id": "USCPIL12696591;USCPIL12696601;USCPIL12696611;USCPIL12696621;USCPIL2047341;USCPIL2047351;USCPIL2047361;USCPIL95953;USCPIL95955;USCPIL96015;USCPIL97131;USCPIL97143",
                 "street_address": "32 Vassar Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -52269,7 +52269,7 @@
                     326768,
                     326798
                 ],
-                "network_id": "USCPIL155531;USCPIL12467601",
+                "network_id": "USCPIL12467601;USCPIL155531",
                 "street_address": "120 Sidney Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -52389,7 +52389,7 @@
                     222412,
                     222413
                 ],
-                "network_id": "USCPIL98169;USCPIL96735;USCPIL95957;USCPIL95875;USCPIL12712431;USCPIL12897991;USCPIL12898001;USCPIL12898011",
+                "network_id": "USCPIL12712431;USCPIL12897991;USCPIL12898001;USCPIL12898011;USCPIL95875;USCPIL95957;USCPIL96735;USCPIL98169",
                 "street_address": "100 Main Street;100 main Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -53237,7 +53237,7 @@
                     180010,
                     180011
                 ],
-                "network_id": "USCPIL120137;USCPIL117743;USCPIL115787",
+                "network_id": "USCPIL115787;USCPIL117743;USCPIL120137",
                 "street_address": "22 Water Street",
                 "city": "Cambridge",
                 "state": "MA",
@@ -53327,7 +53327,7 @@
                     161925,
                     180000
                 ],
-                "network_id": "USCPIL124443;USCPIL124429",
+                "network_id": "USCPIL124429;USCPIL124443",
                 "street_address": "Ryder Street Extension",
                 "city": "Provincetown",
                 "state": "MA",
@@ -53365,7 +53365,7 @@
                     175499,
                     175500
                 ],
-                "network_id": "USCPIL2880611;USCPIL2880571;USCPIL2880491",
+                "network_id": "USCPIL2880491;USCPIL2880571;USCPIL2880611",
                 "street_address": "444 Green Street",
                 "city": "Gardner",
                 "state": "MA",
@@ -53403,7 +53403,7 @@
                     237705,
                     253317
                 ],
-                "network_id": "USCPIL13269491;USCPIL13269591;USCPIL13269551",
+                "network_id": "USCPIL13269491;USCPIL13269551;USCPIL13269591",
                 "street_address": "38 Morgan Street",
                 "city": "South Hadley",
                 "state": "MA",
@@ -53503,7 +53503,7 @@
                     175572,
                     175573
                 ],
-                "network_id": "USCPIL3171141;USCPIL3170891;USCPIL3065611;USCPIL3116921",
+                "network_id": "USCPIL3065611;USCPIL3116921;USCPIL3170891;USCPIL3171141",
                 "street_address": "53 Granite Street",
                 "city": "Haverhill",
                 "state": "MA",
@@ -53536,7 +53536,7 @@
                     156098,
                     175642
                 ],
-                "network_id": "USCPIL4115861;USCPIL4114741",
+                "network_id": "USCPIL4114741;USCPIL4115861",
                 "street_address": "211 Merrimack Street",
                 "city": "Lawrence",
                 "state": "MA",
@@ -55696,7 +55696,7 @@
                     256313,
                     257498
                 ],
-                "network_id": "7de277e4-7df9-4989-9eb5-8cd0160ec48f;465ba1dd-d734-8158-93cc-330000643009",
+                "network_id": "465ba1dd-d734-8158-93cc-330000643009;7de277e4-7df9-4989-9eb5-8cd0160ec48f",
                 "street_address": "1 Franklin Street",
                 "city": "Boston",
                 "state": "MA",
@@ -57141,7 +57141,7 @@
                     105273,
                     173619
                 ],
-                "network_id": "USCPIL724781;USCPIL724661",
+                "network_id": "USCPIL724661;USCPIL724781",
                 "street_address": "35 Resnik Road",
                 "city": "Plymouth",
                 "state": "MA",
@@ -57623,7 +57623,7 @@
                     143232,
                     174198
                 ],
-                "network_id": "USCPIL5384761;USCPIL1850121",
+                "network_id": "USCPIL1850121;USCPIL5384761",
                 "street_address": "85 Hampton Avenue",
                 "city": "Northampton",
                 "state": "MA",
@@ -58118,7 +58118,7 @@
                     311099,
                     311186
                 ],
-                "network_id": "USCPIL14089101;USCPIL14089041",
+                "network_id": "USCPIL14089041;USCPIL14089101",
                 "street_address": "1 Ferncroft Road",
                 "city": "Danvers",
                 "state": "MA",
@@ -59979,7 +59979,7 @@
                     181101,
                     181102
                 ],
-                "network_id": "USCPIL747811;USCPIL747791;USCPIL747781;USCPIL747911;USCPIL747901;USCPIL747891",
+                "network_id": "USCPIL747781;USCPIL747791;USCPIL747811;USCPIL747891;USCPIL747901;USCPIL747911",
                 "street_address": "1 Broadway",
                 "city": "Cambridge",
                 "state": "MA",
@@ -60060,7 +60060,7 @@
                     167512,
                     181535
                 ],
-                "network_id": "USCPIL820131;USCPIL820051",
+                "network_id": "USCPIL820051;USCPIL820131",
                 "street_address": "1755 Main Street",
                 "city": "Springfield",
                 "state": "MA",
@@ -60131,7 +60131,7 @@
                     181626,
                     181627
                 ],
-                "network_id": "USCPIL5496851;USCPIL5496841;USCPIL5496831",
+                "network_id": "USCPIL5496831;USCPIL5496841;USCPIL5496851",
                 "street_address": "204 Tosca Drive",
                 "city": "Stoughton",
                 "state": "MA",
@@ -60220,7 +60220,7 @@
                     168028,
                     181634
                 ],
-                "network_id": "USCPIL5456161;USCPIL5456111",
+                "network_id": "USCPIL5456111;USCPIL5456161",
                 "street_address": "Orange Innovation Center",
                 "city": "Orange",
                 "state": "MA",
@@ -60890,7 +60890,7 @@
                     190185,
                     347171
                 ],
-                "network_id": "USCPIL7854071;USCPIL15912071",
+                "network_id": "USCPIL15912071;USCPIL7854071",
                 "street_address": "378 Maple Avenue",
                 "city": "Shrewsbury",
                 "state": "MA",
@@ -60923,7 +60923,7 @@
                     183794,
                     183847
                 ],
-                "network_id": "USCPIL5571631;USCPIL5571621",
+                "network_id": "USCPIL5571621;USCPIL5571631",
                 "street_address": "57 Prospect Street",
                 "city": "Nantucket",
                 "state": "MA",
@@ -61764,7 +61764,7 @@
                     260700,
                     260786
                 ],
-                "network_id": "USCPIL13517031;USCPIL13517121;USCPIL13510701",
+                "network_id": "USCPIL13510701;USCPIL13517031;USCPIL13517121",
                 "street_address": "190 South Street",
                 "city": "Plainville",
                 "state": "MA",
@@ -62408,7 +62408,7 @@
                     161815,
                     179932
                 ],
-                "network_id": "USCPIL219673;USCPIL219305",
+                "network_id": "USCPIL219305;USCPIL219673",
                 "street_address": "40 East Pier Drive",
                 "city": "Boston",
                 "state": "MA",
@@ -64596,7 +64596,7 @@
                     257244,
                     257245
                 ],
-                "network_id": "USCPIL11978231;USCPIL11978791;USCPIL12100741;USCPIL11992581;USCPIL12273011;USCPIL12312151;USCPIL12312291;USCPIL12312341;USCPIL12312431",
+                "network_id": "USCPIL11978231;USCPIL11978791;USCPIL11992581;USCPIL12100741;USCPIL12273011;USCPIL12312151;USCPIL12312291;USCPIL12312341;USCPIL12312431",
                 "street_address": "370 Harrison Avenue",
                 "city": "Boston",
                 "state": "MA",
@@ -64730,7 +64730,7 @@
                     199496,
                     199497
                 ],
-                "network_id": "USCPIL9985351;USCPIL9985401;USCPIL9985451;USCPIL9985411;USCPIL9985421",
+                "network_id": "USCPIL9985351;USCPIL9985401;USCPIL9985411;USCPIL9985421;USCPIL9985451",
                 "street_address": "835 Columbus Avenue",
                 "city": "Boston",
                 "state": "MA",
@@ -64854,7 +64854,7 @@
                     153557,
                     175135
                 ],
-                "network_id": "USCPIL2093461;USCPIL2093451",
+                "network_id": "USCPIL2093451;USCPIL2093461",
                 "street_address": "920 Winter Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -64892,7 +64892,7 @@
                     156101,
                     175644
                 ],
-                "network_id": "USCPIL3240531;USCPIL3240031;USCPIL3238411",
+                "network_id": "USCPIL3238411;USCPIL3240031;USCPIL3240531",
                 "street_address": "1776 Main Street",
                 "city": "Springfield",
                 "state": "MA",
@@ -65977,7 +65977,7 @@
                     185186,
                     185241
                 ],
-                "network_id": "USCPIL5612101;USCPIL5612161;USCPIL5612201;USCPIL5618851;USCPIL5612001",
+                "network_id": "USCPIL5612001;USCPIL5612101;USCPIL5612161;USCPIL5612201;USCPIL5618851",
                 "street_address": "630 Middle Street",
                 "city": "Weymouth",
                 "state": "MA",
@@ -66149,7 +66149,7 @@
                     149645,
                     174739
                 ],
-                "network_id": "USCPIL1996491;USCPIL1978121",
+                "network_id": "USCPIL1978121;USCPIL1996491",
                 "street_address": "333 Winter Street",
                 "city": "Weston",
                 "state": "MA",
@@ -66291,7 +66291,7 @@
                     181776,
                     181777
                 ],
-                "network_id": "USCPIL5509771;USCPIL5509751;USCPIL5508671;USCPIL5508641;USCPIL5509711;USCPIL5509701;USCPIL5509691",
+                "network_id": "USCPIL5508641;USCPIL5508671;USCPIL5509691;USCPIL5509701;USCPIL5509711;USCPIL5509751;USCPIL5509771",
                 "street_address": "1 Analog Way",
                 "city": "Wilmington",
                 "state": "MA",
@@ -66349,7 +66349,7 @@
                     171908,
                     171909
                 ],
-                "network_id": "USCPIL778781;USCPIL778741;USCPIL778731;USCPIL155277;USCPIL113645;USCPIL113639;USCPIL112379",
+                "network_id": "USCPIL112379;USCPIL113639;USCPIL113645;USCPIL155277;USCPIL778731;USCPIL778741;USCPIL778781",
                 "street_address": "804 Woburn Street",
                 "city": "Wilmington",
                 "state": "MA",
@@ -66499,7 +66499,7 @@
                     173047,
                     306370
                 ],
-                "network_id": "USCPIL5346621;USCPIL384351;USCPIL13936771",
+                "network_id": "USCPIL13936771;USCPIL384351;USCPIL5346621",
                 "street_address": "230 Ash Street",
                 "city": "Reading",
                 "state": "MA",
@@ -66725,7 +66725,7 @@
                     117291,
                     173737
                 ],
-                "network_id": "USCPIL763941;USCPIL763931",
+                "network_id": "USCPIL763931;USCPIL763941",
                 "street_address": "500 Old Union Turnpike",
                 "city": "Leominster",
                 "state": "MA",
@@ -67810,7 +67810,7 @@
                     150347,
                     174860
                 ],
-                "network_id": "USCPIL2024971;USCPIL2024951",
+                "network_id": "USCPIL2024951;USCPIL2024971",
                 "street_address": "1589 Fall River Avenue",
                 "city": "Seekonk",
                 "state": "MA",
@@ -68103,7 +68103,7 @@
                     181967,
                     181968
                 ],
-                "network_id": "USCPIL5544391;USCPIL5544371;USCPIL5544361",
+                "network_id": "USCPIL5544361;USCPIL5544371;USCPIL5544391",
                 "street_address": "77 Willson Street",
                 "city": "Salem",
                 "state": "MA",
@@ -68136,7 +68136,7 @@
                     211687,
                     211708
                 ],
-                "network_id": "USCPIL12578761;USCPIL12578711",
+                "network_id": "USCPIL12578711;USCPIL12578761",
                 "street_address": "245 Derby Street",
                 "city": "Salem",
                 "state": "MA",
@@ -68189,7 +68189,7 @@
                     180910,
                     180911
                 ],
-                "network_id": "USCPIL5382871;USCPIL5382831;USCPIL5382821;USCPIL5382781;USCPIL5382801;USCPIL5382791",
+                "network_id": "USCPIL5382781;USCPIL5382791;USCPIL5382801;USCPIL5382821;USCPIL5382831;USCPIL5382871",
                 "street_address": "225 Canal Street",
                 "city": "Salem",
                 "state": "MA",
@@ -68250,7 +68250,7 @@
                     237017,
                     237236
                 ],
-                "network_id": "USCPIL13263251;USCPIL13263151",
+                "network_id": "USCPIL13263151;USCPIL13263251",
                 "street_address": "73 W Loring Avenue",
                 "city": "Salem",
                 "state": "MA",
@@ -68481,7 +68481,7 @@
                     225278,
                     349849
                 ],
-                "network_id": "d0e864cf-fb2a-3dbf-1307-c00000002265;371ea742-91f2-4ebe-b01d-1cbcae8642e3",
+                "network_id": "371ea742-91f2-4ebe-b01d-1cbcae8642e3;d0e864cf-fb2a-3dbf-1307-c00000002265",
                 "street_address": "500 D Street",
                 "city": "Boston",
                 "state": "MA",
@@ -68680,7 +68680,7 @@
                     153222,
                     253486
                 ],
-                "network_id": "USCPIL2089341;USCPIL13423501",
+                "network_id": "USCPIL13423501;USCPIL2089341",
                 "street_address": "2 Seaport Lane",
                 "city": "Boston",
                 "state": "MA",
@@ -68743,7 +68743,7 @@
                     173020,
                     173021
                 ],
-                "network_id": "USCPIL367381;USCPIL278871;USCPIL278821;USCPIL278811;USCPIL268691;USCPIL117667;USCPIL370051;USCPIL114349",
+                "network_id": "USCPIL114349;USCPIL117667;USCPIL268691;USCPIL278811;USCPIL278821;USCPIL278871;USCPIL367381;USCPIL370051",
                 "street_address": "1 Seaport Lane",
                 "city": "Boston",
                 "state": "MA",
@@ -68776,7 +68776,7 @@
                     153221,
                     253485
                 ],
-                "network_id": "USCPIL2089361;USCPIL13423141",
+                "network_id": "USCPIL13423141;USCPIL2089361",
                 "street_address": "155 Seaport Boulevard",
                 "city": "Boston",
                 "state": "MA",
@@ -68965,7 +68965,7 @@
                     175697,
                     175698
                 ],
-                "network_id": "USCPIL4341021;USCPIL4340921;USCPIL4340871;USCPIL4340841;USCPIL4340791",
+                "network_id": "USCPIL4340791;USCPIL4340841;USCPIL4340871;USCPIL4340921;USCPIL4341021",
                 "street_address": "545 Bedford Street",
                 "city": "Bridgewater",
                 "state": "MA",
@@ -69028,7 +69028,7 @@
                     175704,
                     175705
                 ],
-                "network_id": "USCPIL4336801;USCPIL4336781;USCPIL4336771;USCPIL4336751;USCPIL4336731;USCPIL4336701;USCPIL4336681;USCPIL4336831",
+                "network_id": "USCPIL4336681;USCPIL4336701;USCPIL4336731;USCPIL4336751;USCPIL4336771;USCPIL4336781;USCPIL4336801;USCPIL4336831",
                 "street_address": "680 Centre Street",
                 "city": "Brockton",
                 "state": "MA",
@@ -69071,7 +69071,7 @@
                     175719,
                     175720
                 ],
-                "network_id": "USCPIL4339201;USCPIL4339141;USCPIL4339111;USCPIL4339031",
+                "network_id": "USCPIL4339031;USCPIL4339111;USCPIL4339141;USCPIL4339201",
                 "street_address": "110 Liberty Street",
                 "city": "Brockton",
                 "state": "MA",
@@ -69352,7 +69352,7 @@
                     152524,
                     174996
                 ],
-                "network_id": "USCPIL2066471;USCPIL2066451",
+                "network_id": "USCPIL2066451;USCPIL2066471",
                 "street_address": "Arnold Avenue",
                 "city": "Northampton",
                 "state": "MA",
@@ -70383,7 +70383,7 @@
                     256898,
                     257891
                 ],
-                "network_id": "USCPIL12805261;USCPIL12805271;USCPIL12805281;USCPIL12805291;USCPIL12805301;USCPIL12864991;USCPIL12865001;USCPIL12865041;USCPIL12865051;USCPIL12865061;USCPIL12865071;USCPIL12865111;USCPIL12865131;USCPIL12865281;USCPIL12865351;USCPIL12865381;USCPIL12865561;USCPIL13526231;USCPIL13526301;USCPIL13526341;USCPIL12865501",
+                "network_id": "USCPIL12805261;USCPIL12805271;USCPIL12805281;USCPIL12805291;USCPIL12805301;USCPIL12864991;USCPIL12865001;USCPIL12865041;USCPIL12865051;USCPIL12865061;USCPIL12865071;USCPIL12865111;USCPIL12865131;USCPIL12865281;USCPIL12865351;USCPIL12865381;USCPIL12865501;USCPIL12865561;USCPIL13526231;USCPIL13526301;USCPIL13526341",
                 "street_address": "135 William T Morrissey Boulevard",
                 "city": "Boston",
                 "state": "MA",
@@ -70478,7 +70478,7 @@
                     166955,
                     181331
                 ],
-                "network_id": "USCPIL5452421;USCPIL5452411",
+                "network_id": "USCPIL5452411;USCPIL5452421",
                 "street_address": "18 Mechanic Street",
                 "city": "Spencer",
                 "state": "MA",
@@ -70570,7 +70570,7 @@
                     308643,
                     308644
                 ],
-                "network_id": "USCPIL13516771;USCPIL13519501;USCPIL13519521;USCPIL13519531;USCPIL13519541;USCPIL13519551;USCPIL13519631;USCPIL13519511",
+                "network_id": "USCPIL13516771;USCPIL13519501;USCPIL13519511;USCPIL13519521;USCPIL13519531;USCPIL13519541;USCPIL13519551;USCPIL13519631",
                 "street_address": "50 Prospect Street",
                 "city": "Somerville",
                 "state": "MA",
@@ -70680,7 +70680,7 @@
                     143378,
                     174247
                 ],
-                "network_id": "USCPIL1820701;USCPIL1820631",
+                "network_id": "USCPIL1820631;USCPIL1820701",
                 "street_address": "81 Merrimac Street",
                 "city": "Newburyport",
                 "state": "MA",
@@ -70887,7 +70887,7 @@
                     316798,
                     316799
                 ],
-                "network_id": "USCPIL560581;USCPIL557791;USCPIL96205;USCPIL95999;USCPIL12776051;USCPIL12776081;USCPIL13845561;USCPIL13845611",
+                "network_id": "USCPIL12776051;USCPIL12776081;USCPIL13845561;USCPIL13845611;USCPIL557791;USCPIL560581;USCPIL95999;USCPIL96205",
                 "street_address": "800 Technology Square",
                 "city": "Cambridge",
                 "state": "MA",
@@ -71063,7 +71063,7 @@
                     171190,
                     171191
                 ],
-                "network_id": "USCPIL5589471;USCPIL5589451",
+                "network_id": "USCPIL5589451;USCPIL5589471",
                 "street_address": "16 Federal Street;500 State Street",
                 "city": "Springfield",
                 "state": "MA",
@@ -71189,7 +71189,7 @@
                     173183,
                     173184
                 ],
-                "network_id": "USCPIL573071;USCPIL558561;USCPIL499931;USCPIL493551;USCPIL531721",
+                "network_id": "USCPIL493551;USCPIL499931;USCPIL531721;USCPIL558561;USCPIL573071",
                 "street_address": "101-109 Andrew Avenue",
                 "city": "Wayland",
                 "state": "MA",
@@ -74569,7 +74569,7 @@
                     153680,
                     175160
                 ],
-                "network_id": "USCPIL2101601;USCPIL2101591",
+                "network_id": "USCPIL2101591;USCPIL2101601",
                 "street_address": "10 Aviation Way",
                 "city": "Montague",
                 "state": "MA",
@@ -74635,7 +74635,7 @@
                     174343,
                     174344
                 ],
-                "network_id": "USCPIL473721;USCPIL353341;USCPIL157797",
+                "network_id": "USCPIL157797;USCPIL353341;USCPIL473721",
                 "street_address": "25 Jan Karski Way",
                 "city": "Boston",
                 "state": "MA",
@@ -74678,7 +74678,7 @@
                     175232,
                     175233
                 ],
-                "network_id": "USCPIL425631;USCPIL383551;USCPIL353451;USCPIL353331",
+                "network_id": "USCPIL353331;USCPIL353451;USCPIL383551;USCPIL425631",
                 "street_address": "4 Lucy Street",
                 "city": "Boston",
                 "state": "MA",
@@ -74854,7 +74854,7 @@
                     161835,
                     179944
                 ],
-                "network_id": "USCPIL195305;USCPIL189779",
+                "network_id": "USCPIL189779;USCPIL195305",
                 "street_address": "1350 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
@@ -74983,7 +74983,7 @@
                     220493,
                     220495
                 ],
-                "network_id": "USCPIL8621231;USCPIL8621271;USCPIL8622011;USCPIL8897421;USCPIL8625961;USCPIL11301491",
+                "network_id": "USCPIL11301491;USCPIL8621231;USCPIL8621271;USCPIL8622011;USCPIL8625961;USCPIL8897421",
                 "street_address": "164 Lexington Road",
                 "city": "Billerica",
                 "state": "MA",
@@ -75016,7 +75016,7 @@
                     170640,
                     182137
                 ],
-                "network_id": "USCPIL5471801;USCPIL5471781",
+                "network_id": "USCPIL5471781;USCPIL5471801",
                 "street_address": "121 MA-30",
                 "city": "Westborough",
                 "state": "MA",
@@ -75105,7 +75105,7 @@
                     187563,
                     197761
                 ],
-                "network_id": "USCPIL5552071;USCPIL5552041",
+                "network_id": "USCPIL5552041;USCPIL5552071",
                 "street_address": "8 W Common Street",
                 "city": "Topsfield",
                 "state": "MA",
@@ -75419,7 +75419,7 @@
                     168000,
                     181629
                 ],
-                "network_id": "USCPIL5442161;USCPIL5442151",
+                "network_id": "USCPIL5442151;USCPIL5442161",
                 "street_address": "143 Pond Street",
                 "city": "Cohasset",
                 "state": "MA",
@@ -75546,7 +75546,7 @@
                     168001,
                     181630
                 ],
-                "network_id": "USCPIL5412351;USCPIL5412341",
+                "network_id": "USCPIL5412341;USCPIL5412351",
                 "street_address": "25 Parking Way",
                 "city": "Cohasset",
                 "state": "MA",
@@ -75617,7 +75617,7 @@
                     168002,
                     181631
                 ],
-                "network_id": "USCPIL5412441;USCPIL5397151",
+                "network_id": "USCPIL5397151;USCPIL5412441",
                 "street_address": "100 Sohier Street",
                 "city": "Cohasset",
                 "state": "MA",
@@ -75821,7 +75821,7 @@
                     143914,
                     174367
                 ],
-                "network_id": "USCPIL5498241;USCPIL1881231",
+                "network_id": "USCPIL1881231;USCPIL5498241",
                 "street_address": "472 Main Street",
                 "city": "Acton",
                 "state": "MA",
@@ -76900,7 +76900,7 @@
                     204401,
                     204571
                 ],
-                "network_id": "USCPIL8657241;USCPIL8657251;USCPIL5537191;USCPIL5537181",
+                "network_id": "USCPIL5537181;USCPIL5537191;USCPIL8657241;USCPIL8657251",
                 "street_address": "165 Mill Street",
                 "city": "Natick",
                 "state": "MA",
@@ -77248,7 +77248,7 @@
                     168174,
                     181669
                 ],
-                "network_id": "USCPIL5511881;USCPIL5511861",
+                "network_id": "USCPIL5511861;USCPIL5511881",
                 "street_address": "37 Washington Street",
                 "city": "Nantucket",
                 "state": "MA",
@@ -77324,7 +77324,7 @@
                     329633,
                     329634
                 ],
-                "network_id": "USCPIL15506861;USCPIL15507031;USCPIL15501651;USCPIL15501721",
+                "network_id": "USCPIL15501651;USCPIL15501721;USCPIL15506861;USCPIL15507031",
                 "street_address": "340 Main Street",
                 "city": "Townsend",
                 "state": "MA",
@@ -77367,7 +77367,7 @@
                     181901,
                     181902
                 ],
-                "network_id": "USCPIL5545931;USCPIL5544651;USCPIL5544611;USCPIL5544521",
+                "network_id": "USCPIL5544521;USCPIL5544611;USCPIL5544651;USCPIL5545931",
                 "street_address": "30 Tozer Road",
                 "city": "Beverly",
                 "state": "MA",
@@ -77486,7 +77486,7 @@
                     162024,
                     312720
                 ],
-                "network_id": "USCPIL97139;USCPIL14155421",
+                "network_id": "USCPIL14155421;USCPIL97139",
                 "street_address": "1330 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
@@ -80357,7 +80357,7 @@
                     180039,
                     180040
                 ],
-                "network_id": "USCPIL92705;USCPIL92617;USCPIL92613;USCPIL91747",
+                "network_id": "USCPIL91747;USCPIL92613;USCPIL92617;USCPIL92705",
                 "street_address": "146 Seaport Boulevard",
                 "city": "Boston",
                 "state": "MA",
@@ -80442,7 +80442,7 @@
                     149274,
                     223494
                 ],
-                "network_id": "USCPIL1997781;USCPIL123725",
+                "network_id": "USCPIL123725;USCPIL1997781",
                 "street_address": "400 Venture Way",
                 "city": "Hadley",
                 "state": "MA",
@@ -80541,7 +80541,7 @@
                     88785,
                     172889
                 ],
-                "network_id": "USCPIL422561;USCPIL122587",
+                "network_id": "USCPIL122587;USCPIL422561",
                 "street_address": "300 Massachusetts Ave LOT 71;300 Massachusetts Ave Lot 71",
                 "city": "Amherst",
                 "state": "MA",
@@ -81010,7 +81010,7 @@
                     179990,
                     179992
                 ],
-                "network_id": "USCPIL127167;USCPIL96007;USCPIL127129;USCPIL96217",
+                "network_id": "USCPIL127129;USCPIL127167;USCPIL96007;USCPIL96217",
                 "street_address": "300 Massachusetts Avenue",
                 "city": "Amherst",
                 "state": "MA",
@@ -81068,7 +81068,7 @@
                     205316,
                     205317
                 ],
-                "network_id": "USCPIL2241091;USCPIL2240921;USCPIL12428351;USCPIL12428361;USCPIL12428371;USCPIL12428381;USCPIL12428471",
+                "network_id": "USCPIL12428351;USCPIL12428361;USCPIL12428371;USCPIL12428381;USCPIL12428471;USCPIL2240921;USCPIL2241091",
                 "street_address": "40 Perkins Street",
                 "city": "Lowell",
                 "state": "MA",
@@ -81297,7 +81297,7 @@
                     155407,
                     175534
                 ],
-                "network_id": "USCPIL3173821;USCPIL3173711",
+                "network_id": "USCPIL3173711;USCPIL3173821",
                 "street_address": "MLK Jr Way",
                 "city": "Lowell",
                 "state": "MA",
@@ -81360,7 +81360,7 @@
                     161883,
                     179970
                 ],
-                "network_id": "USCPIL158181;USCPIL112371",
+                "network_id": "USCPIL112371;USCPIL158181",
                 "street_address": "890-930 Broadway Street",
                 "city": "Lowell",
                 "state": "MA",
@@ -81588,7 +81588,7 @@
                     173250,
                     173251
                 ],
-                "network_id": "USCPIL1770131;USCPIL1770101;USCPIL147011",
+                "network_id": "USCPIL147011;USCPIL1770101;USCPIL1770131",
                 "street_address": "65 Kendall Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -81621,7 +81621,7 @@
                     123408,
                     174100
                 ],
-                "network_id": "USCPIL1777781;USCPIL1777771",
+                "network_id": "USCPIL1777771;USCPIL1777781",
                 "street_address": "65 Uxbridge Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -81654,7 +81654,7 @@
                     123409,
                     174101
                 ],
-                "network_id": "USCPIL1777761;USCPIL1777751",
+                "network_id": "USCPIL1777751;USCPIL1777761",
                 "street_address": "137 Belmont Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -82461,7 +82461,7 @@
                     192743,
                     221074
                 ],
-                "network_id": "USCPIL8334261;USCPIL8334161",
+                "network_id": "USCPIL8334161;USCPIL8334261",
                 "street_address": "48 Damon Road",
                 "city": "Northampton",
                 "state": "MA",
@@ -83163,7 +83163,7 @@
                     156231,
                     175661
                 ],
-                "network_id": "USCPIL4338701;USCPIL4338611",
+                "network_id": "USCPIL4338611;USCPIL4338701",
                 "street_address": "8 Island Court",
                 "city": "Easton",
                 "state": "MA",
@@ -84533,7 +84533,7 @@
                     153261,
                     175088
                 ],
-                "network_id": "USCPIL2091191;USCPIL2091171",
+                "network_id": "USCPIL2091171;USCPIL2091191",
                 "street_address": "45 Whitman Street",
                 "city": "Williamstown",
                 "state": "MA",
@@ -84750,7 +84750,7 @@
                     238850,
                     240877
                 ],
-                "network_id": "USCPIL13322301;USCPIL13155791",
+                "network_id": "USCPIL13155791;USCPIL13322301",
                 "street_address": "0 Quannapowitt Parkway;0 Quannapowitt parkway",
                 "city": "Wakefield",
                 "state": "MA",
@@ -84903,7 +84903,7 @@
                     174889,
                     174890
                 ],
-                "network_id": "USCPIL2050151;USCPIL2050131;USCPIL2049241;USCPIL2049231;USCPIL2049221",
+                "network_id": "USCPIL2049221;USCPIL2049231;USCPIL2049241;USCPIL2050131;USCPIL2050151",
                 "street_address": "50 Prescott Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -84997,7 +84997,7 @@
                     161864,
                     179962
                 ],
-                "network_id": "USCPIL176029;USCPIL175197",
+                "network_id": "USCPIL175197;USCPIL176029",
                 "street_address": "100 Institute Road",
                 "city": "Worcester",
                 "state": "MA",
@@ -85106,7 +85106,7 @@
                     153302,
                     175092
                 ],
-                "network_id": "USCPIL2089071;USCPIL2089061",
+                "network_id": "USCPIL2089061;USCPIL2089071",
                 "street_address": "486 Chandler Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -85149,7 +85149,7 @@
                     206706,
                     206950
                 ],
-                "network_id": "USCPIL12481801;USCPIL12481821;USCPIL12481851;USCPIL12481811",
+                "network_id": "USCPIL12481801;USCPIL12481811;USCPIL12481821;USCPIL12481851",
                 "street_address": "486 Chandler Street",
                 "city": "Worcester",
                 "state": "MA",
@@ -86692,7 +86692,7 @@
                     170679,
                     182155
                 ],
-                "network_id": "USCPIL5578341;USCPIL5577411",
+                "network_id": "USCPIL5577411;USCPIL5578341",
                 "street_address": "4 School house Road;4 school House Road",
                 "city": "Gloucester",
                 "state": "MA",
@@ -86725,7 +86725,7 @@
                     170681,
                     182156
                 ],
-                "network_id": "USCPIL5577431;USCPIL5577421",
+                "network_id": "USCPIL5577421;USCPIL5577431",
                 "street_address": "4 School Street;4 School street",
                 "city": "Gloucester",
                 "state": "MA",

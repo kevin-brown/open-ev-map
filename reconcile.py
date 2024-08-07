@@ -1,7 +1,6 @@
-from collections import defaultdict
 from dataclasses import dataclass
 from geopy import distance
-from typing import NamedTuple, Self, reveal_type
+from typing import NamedTuple, Self
 import dataclasses
 import enum
 import geojson

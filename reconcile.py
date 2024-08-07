@@ -68,6 +68,7 @@ class SourceLocation(enum.Enum):
     ALTERNATIVE_FUELS_DATA_CENTER = enum.auto()
     OPEN_CHARGE_MAP = enum.auto()
     OPEN_STREET_MAP = enum.auto()
+    SUPERCHARGE = enum.auto()
 
 
 class SourceData(NamedTuple):
@@ -795,6 +796,45 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
     return stations
 
 
+def normalize_supercharge_data(supercharge_raw_data) -> list[Station]:
+    stations = []
+
+    for sc_station in supercharge_raw_data:
+        if sc_station["status"] not in ["OPEN", "EXPANDING"]:
+            continue
+
+        station_address = sc_station["address"]
+
+        if station_address["countryId"] != 100:
+            continue
+
+        if station_address["state"] != "MA":
+            continue
+
+        station = Station(
+            network=ChargingNetwork.TESLA_SUPERCHARGER,
+        )
+
+        station.name.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), sc_station["name"]))
+
+        station_location = Location(latitude=sc_station["gps"]["latitude"], longitude=sc_station["gps"]["longitude"])
+        station.location.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), station_location))
+
+        station.network_id.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), sc_station["locationId"]))
+
+        if "osmId" in sc_station:
+            station.osm_id.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), sc_station["osmId"]))
+
+        station.street_address.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), normalize_address_street_address(station_address["street"])))
+        station.city.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), station_address["city"]))
+        station.state.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), station_address["state"]))
+        station.zip_code.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), station_address["zip"]))
+
+        stations.append(station)
+
+    return stations
+
+
 def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
     combined_stations = []
     tesla_stations = []
@@ -935,11 +975,15 @@ with open("osm.json", "r") as osm_fh:
 with open("ocm.json", "r") as ocm_fh:
     ocm_raw_data = json.load(ocm_fh)
 
+with open("supercharge.json", "r") as supercharge_fh:
+    supercharge_raw_data = json.load(supercharge_fh)
+
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 ocm_data = normalize_ocm_data(ocm_raw_data)
+supercharge_data = normalize_supercharge_data(supercharge_raw_data)
 
-combined_data = combine_stations([*nrel_data, *osm_data, *ocm_data])
+combined_data = combine_stations([*nrel_data, *osm_data, *ocm_data, *supercharge_data])
 
 combined_data = sorted(combined_data, key=lambda x: x.name.get() or '')
 

@@ -14675,7 +14675,7 @@
                 ]
             },
             "properties": {
-                "name": "Aloft Hotel - Tesla Supercharger;Framingham, MA - Worcester Road",
+                "name": "Aloft Hotel - Tesla Supercharger;Framingham - Worcester Rd, MA;Framingham, MA - Worcester Road",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     301725
@@ -15047,12 +15047,12 @@
                 ]
             },
             "properties": {
-                "name": "Auburn Mall - Tesla;Auburn Mall - Tesla Supercharger",
+                "name": "Auburn Mall - Tesla;Auburn Mall - Tesla Supercharger;Auburn, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     102195
                 ],
-                "network_id": "2323",
+                "network_id": "2323;auburnmasupercharger",
                 "street_address": "385 Southbridge Street",
                 "city": "Auburn",
                 "state": "MA",
@@ -21383,18 +21383,18 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.364744,
-                    42.180949
+                    -73.364632,
+                    42.180663
                 ]
             },
             "properties": {
-                "name": "Big Y Class Market - Tesla Supercharger;Great Barrington, Ma Supercharger",
+                "name": "Big Y Class Market - Tesla Supercharger;Great Barrington, MA;Great Barrington, Ma Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     167285
                 ],
-                "network_id": "12654",
-                "street_address": "700 Main Street Route 7",
+                "network_id": "12654;greatbarringtonmasupercharger",
+                "street_address": "700 Main Street;700 Main Street Route 7",
                 "city": "Great Barrington",
                 "state": "MA",
                 "zip_code": "01230"
@@ -21431,12 +21431,12 @@
                 ]
             },
             "properties": {
-                "name": "Big Y Supermarket - Tesla Supercharger;Lee Supercharger",
+                "name": "Big Y Supermarket - Tesla Supercharger;Lee Supercharger;Lee, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     102202
                 ],
-                "network_id": "2322",
+                "network_id": "2322;leemasupercharger",
                 "street_address": "10 Pleasant Street",
                 "city": "Lee",
                 "state": "MA",
@@ -21448,17 +21448,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.578197,
-                    42.174935
+                    -72.578159,
+                    42.174804
                 ]
             },
             "properties": {
-                "name": "Big Y World Class Market - Tesla Supercharger",
+                "name": "Big Y World Class Market - Tesla Supercharger;Chicopee, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     200863
                 ],
-                "network_id": "17297",
+                "network_id": "17297;ChicopeeMASupercharger",
                 "street_address": "650 Memorial Drive",
                 "city": "Chicopee",
                 "state": "MA",
@@ -21710,6 +21710,28 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.0633,
+                    42.3255
+                ]
+            },
+            "properties": {
+                "name": "Boston - Allstate Road, MA;Boston, Ma - Allstate Road Supercharger;South Bay Town Center - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    102196
+                ],
+                "network_id": "3916;bostonsouthsupercharger",
+                "street_address": "101 Allstate Road;8 Allstate Rd, 6th floor",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02118;02125;02125-1663"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.90753,
                     41.89222
                 ]
@@ -21724,6 +21746,50 @@
                 "city": "Middleborough",
                 "state": "MA",
                 "zip_code": "02346"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.081003,
+                    42.34717
+                ]
+            },
+            "properties": {
+                "name": "Boston - Boylston Street, MA;Boston, MA - Boylston Street (Pay to Park);The Prudential Center - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    102197
+                ],
+                "network_id": "2685;bostonmasupercharger",
+                "street_address": "800 Boylston Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02199"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.099322,
+                    42.344691
+                ]
+            },
+            "properties": {
+                "name": "Boston - Richard B. Ross Way, MA;Boston, Ma - Richard B. Ross Way Supercharger;Van Ness Garage - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    149297
+                ],
+                "network_id": "5446;bonstonfenwaysupercharger",
+                "street_address": "1341 Boylston Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02215"
             }
         },
         {
@@ -21778,72 +21844,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.081003,
-                    42.34717
-                ]
-            },
-            "properties": {
-                "name": "Boston, MA - Boylston Street (Pay to Park);The Prudential Center - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    102197
-                ],
-                "network_id": "2685",
-                "street_address": "800 Boylston Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02199"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.0633,
-                    42.3255
-                ]
-            },
-            "properties": {
-                "name": "Boston, Ma - Allstate Road Supercharger;South Bay Town Center - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    102196
-                ],
-                "network_id": "3916",
-                "street_address": "101 Allstate Road",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02125;02125-1663"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.09933,
-                    42.344903
-                ]
-            },
-            "properties": {
-                "name": "Boston, Ma - Richard B. Ross Way Supercharger;Van Ness Garage - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    149297
-                ],
-                "network_id": "5446",
-                "street_address": "1341 Boylston Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02215"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -21891,6 +21891,28 @@
                 "city": "Windsor Locks",
                 "state": "CT",
                 "zip_code": "06096"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.021964,
+                    42.222955
+                ]
+            },
+            "properties": {
+                "name": "Braintree, MA;South Shore Plaza - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    149298
+                ],
+                "network_id": "8214;braintreesupercharger",
+                "street_address": "250 Granite Street",
+                "city": "Braintree",
+                "state": "MA",
+                "zip_code": "02184"
             }
         },
         {
@@ -22229,11 +22251,12 @@
                 ]
             },
             "properties": {
-                "name": "Bulger Veterinary Hospital - Tesla Supercharger",
+                "name": "Bulger Veterinary Hospital - Tesla Supercharger;Lawrence, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     346182
                 ],
+                "network_id": "32420",
                 "street_address": "141 Winthrop Avenue",
                 "city": "Lawrence",
                 "state": "MA",
@@ -22466,12 +22489,12 @@
                 ]
             },
             "properties": {
-                "name": "Burlington Mall - Tesla Supercharger;Burlington, MA Supercharger",
+                "name": "Burlington Mall - Tesla Supercharger;Burlington, MA;Burlington, MA Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     224995
                 ],
-                "network_id": "13228",
+                "network_id": "13228;BurlingtonMAsupercharger",
                 "street_address": "75 Middlesex Turnpike",
                 "city": "Burlington",
                 "state": "MA",
@@ -28357,12 +28380,12 @@
                 ]
             },
             "properties": {
-                "name": "Cambridge, MA - Tesla Supercharger;Cambridge, Ma Supercharger",
+                "name": "Cambridge, MA;Cambridge, MA - Tesla Supercharger;Cambridge, Ma Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     102198
                 ],
-                "network_id": "3625",
+                "network_id": "3625;cambridgemasupercharger",
                 "street_address": "100 Cambridgeside Place",
                 "city": " Cambridge;Cambridge",
                 "state": "MA",
@@ -28433,6 +28456,28 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.121152,
+                    42.20619
+                ]
+            },
+            "properties": {
+                "name": "Canton, MA;Trillium Brewery - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    346541
+                ],
+                "network_id": "35205",
+                "street_address": "100 Royall Street",
+                "city": "Canton",
+                "state": "MA",
+                "zip_code": "02021"
             }
         },
         {
@@ -29109,6 +29154,50 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -72.025772,
+                    42.139201
+                ]
+            },
+            "properties": {
+                "name": "Charlton - Eastbound, MA;Charlton Service Plaza Eastbound - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    191098
+                ],
+                "network_id": "10343;charltonmaebsupercharger",
+                "street_address": "Charlton Service Plaza Eastbound;Chartlon Service Plaza Eastbound Massachusetts Turnpike;Mile Marker 80 Eastbound Mass Turnpike",
+                "city": "Charlton",
+                "state": "MA",
+                "zip_code": "01507"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.96292,
+                    42.156766
+                ]
+            },
+            "properties": {
+                "name": "Charlton - Westbound, MA;Charlton Service Plaza Westbound - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    191097
+                ],
+                "network_id": "10342;charltonmasupercharger",
+                "street_address": "6 Massachusetts Turnpike",
+                "city": "Charlton",
+                "state": "MA",
+                "zip_code": "01507"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.145531,
                     41.708223
                 ]
@@ -29151,28 +29240,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.025739,
-                    42.139213
-                ]
-            },
-            "properties": {
-                "name": "Charlton Service Plaza Eastbound - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    191098
-                ],
-                "network_id": "10343",
-                "street_address": "Charlton Service Plaza Eastbound;Mile Marker 80 Eastbound Mass Turnpike",
-                "city": "Charlton",
-                "state": "MA",
-                "zip_code": "01507"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.964487,
                     42.156095
                 ]
@@ -29193,39 +29260,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.96292,
-                    42.156766
-                ]
-            },
-            "properties": {
-                "name": "Charlton Service Plaza Westbound - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    191097
-                ],
-                "network_id": "10342",
-                "street_address": "6 Massachusetts Turnpike",
-                "city": "Charlton",
-                "state": "MA",
-                "zip_code": "01507"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.172424,
                     42.321989
                 ]
             },
             "properties": {
-                "name": "Chestnut Hill, Ma;The Street Chestnut Hill - Tesla Supercharger",
+                "name": "Chestnut Hill, MA;Chestnut Hill, Ma;The Street Chestnut Hill - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     153449
                 ],
-                "network_id": "3966",
+                "network_id": "3966;chestnuthillsupercharger",
                 "street_address": "55 Boylston Street",
                 "city": "Chestnut Hill",
                 "state": "MA",
@@ -30202,11 +30247,12 @@
                 ]
             },
             "properties": {
-                "name": "Comfort Inn - Tesla Supercharger",
+                "name": "Comfort Inn - Tesla Supercharger;Foxborough, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     332095
                 ],
+                "network_id": "33475",
                 "street_address": "4 Fisher Street",
                 "city": "Foxborough",
                 "state": "MA",
@@ -30614,8 +30660,8 @@
                 "nrel_id": [
                     153431
                 ],
-                "network_id": "6489",
-                "street_address": "2110 Cranberry Highway",
+                "network_id": "6489;orleansmasupercharger",
+                "street_address": "10 Route 6A;2110 Cranberry Highway",
                 "city": "Orleans",
                 "state": "MA",
                 "zip_code": "02653"
@@ -30733,17 +30779,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.040779,
-                    42.561167
+                    -72.040773,
+                    42.561164
                 ]
             },
             "properties": {
-                "name": "Cumberland Farms - Tesla Supercharger",
+                "name": "Cumberland Farms - Tesla Supercharger;East Templeton, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     227706
                 ],
-                "network_id": "19587",
+                "network_id": "19587;EastTempletonMASupercharger",
                 "street_address": "163 Patriots Road",
                 "city": "Templeton",
                 "state": "MA",
@@ -32061,8 +32107,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.966151,
-                    42.585584
+                    -70.96587,
+                    42.585318
                 ]
             },
             "properties": {
@@ -32205,6 +32251,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.99753,
+                    41.642293
+                ]
+            },
+            "properties": {
+                "name": "Dartmouth, MA",
+                "network": "TESLA_SUPERCHARGER",
+                "network_id": "DartmouthMASupercharger",
+                "street_address": "380 State Road",
+                "city": "Dartmouth",
+                "state": "MA",
+                "zip_code": "02747"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.020618,
                     42.107643
                 ]
@@ -32268,6 +32333,62 @@
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "3",
                 "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.178411,
+                        42.236475
+                    ],
+                    [
+                        -71.178383,
+                        42.236455
+                    ],
+                    [
+                        -71.178354,
+                        42.236433
+                    ],
+                    [
+                        -71.178322,
+                        42.236413
+                    ],
+                    [
+                        -71.178297,
+                        42.236391
+                    ],
+                    [
+                        -71.178265,
+                        42.236371
+                    ],
+                    [
+                        -71.178237,
+                        42.23635
+                    ],
+                    [
+                        -71.178199,
+                        42.236324
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Dedham (SC), MA;Tesla Service Center Dedham - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    102199
+                ],
+                "network_id": "636;dedham",
+                "street_address": "840 Boston Providence Turnpike;840 Providence Highway",
+                "city": "Dedham",
+                "state": "MA",
+                "zip_code": "02026",
+                "charging_points:count": 8,
+                "charging_points:capacity": "0;0;0;0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0;0;0;0",
+                "charging_points:plugs_type": ""
             }
         },
         {
@@ -32955,7 +33076,7 @@
                 "nrel_id": [
                     102205
                 ],
-                "network_id": "2324",
+                "network_id": "2324;sagamorebeachsupercharger",
                 "street_address": "22 Meetinghouse Lane",
                 "city": "Sagamore Beach",
                 "state": "MA",
@@ -37220,6 +37341,28 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.403713,
+                    42.305132
+                ]
+            },
+            "properties": {
+                "name": "Framingham - Concord St, MA;Framingham, MA - Concord Street Supercharger;Old Path Village Plaza - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    324002
+                ],
+                "network_id": "34871",
+                "street_address": "961 Concord Street;969 Concord Street;971 Concord Street",
+                "city": "Framingham",
+                "state": "MA",
+                "zip_code": "01701"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.43988,
                     42.29934
                 ]
@@ -37241,17 +37384,18 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.403713,
-                    42.305132
+                    -71.394108,
+                    42.303617
                 ]
             },
             "properties": {
-                "name": "Framingham, MA - Concord Street Supercharger;Old Path Village Plaza - Tesla Supercharger",
+                "name": "Framingham, MA;Shopper's World - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
-                    324002
+                    102200
                 ],
-                "street_address": "961 Concord Street;969 Concord Street",
+                "network_id": "3613;framinghammasupercharger",
+                "street_address": "1 Worcester Road",
                 "city": "Framingham",
                 "state": "MA",
                 "zip_code": "01701"
@@ -37437,17 +37581,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.424898,
-                    42.090421
+                    -71.424835,
+                    42.090329
                 ]
             },
             "properties": {
-                "name": "Franklin Village Plaza - Tesla Supercharger",
+                "name": "Franklin Village Plaza - Tesla Supercharger;Franklin, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     202625
                 ],
-                "network_id": "6495",
+                "network_id": "6495;FranklinMAsupercharger",
                 "street_address": "250 Franklin Village Drive",
                 "city": "Franklin",
                 "state": "MA",
@@ -37469,7 +37613,7 @@
                 "nrel_id": [
                     238587
                 ],
-                "network_id": "18389",
+                "network_id": "18389;FreetownMAQ322",
                 "street_address": "36 Innovation Way",
                 "city": "Freetown",
                 "state": "MA",
@@ -38920,13 +39064,13 @@
                 ]
             },
             "properties": {
-                "name": "Gloucester Crossing - Tesla Supercharger",
+                "name": "Gloucester Crossing - Tesla Supercharger;Gloucester, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     231698
                 ],
-                "network_id": "15217",
-                "street_address": "231 Gloucester Crossing Road",
+                "network_id": "15217;gloucesterMAsupercharger",
+                "street_address": "231 Gloucester Crossing;231 Gloucester Crossing Road",
                 "city": "Gloucester",
                 "state": "MA",
                 "zip_code": "01930"
@@ -41018,17 +41162,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.609075,
-                    42.338648
+                    -72.609064,
+                    42.338606
                 ]
             },
             "properties": {
-                "name": "Hadley, Ma Supercharger;Pride Store - Tesla Supercharger",
+                "name": "Hadley, MA;Hadley, Ma Supercharger;Pride Store - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     102201
                 ],
-                "network_id": "4653",
+                "network_id": "4653;hadleymasupercharger",
                 "street_address": "25 Russell Street",
                 "city": "Hadley",
                 "state": "MA",
@@ -41296,8 +41440,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.841694,
-                    42.147722
+                    -70.8432,
+                    42.1474
                 ]
             },
             "properties": {
@@ -41306,11 +41450,11 @@
                 "nrel_id": [
                     222801
                 ],
-                "network_id": "19567",
+                "network_id": "19567;HanoverMASupercharger",
                 "street_address": "1775 Washington Street",
                 "city": "Hanover",
                 "state": "MA",
-                "zip_code": "02359"
+                "zip_code": "02339;02359"
             }
         },
         {
@@ -41386,12 +41530,13 @@
                 ]
             },
             "properties": {
-                "name": "Harbor Hotel Provincetown - Tesla Supercharger;Provincetown, MA - Tesla Supercharger",
+                "name": "Harbor Hotel Provincetown - Tesla Supercharger;Provincetown, MA;Provincetown, MA - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     331354
                 ],
-                "street_address": "698 Commercial Street",
+                "network_id": "26783",
+                "street_address": "698 Commercial Street;698 Commerical Street",
                 "city": "Provincetown",
                 "state": "MA",
                 "zip_code": "02657"
@@ -42435,6 +42580,28 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.595034,
+                    42.395389
+                ]
+            },
+            "properties": {
+                "name": "Hudson, MA;The Shops at Highland Commons - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    122333
+                ],
+                "network_id": "8005;hudsonmasupercharger",
+                "street_address": "2 Highland Common E;2 Highland Common East",
+                "city": "Hudson;Marlborough",
+                "state": "MA",
+                "zip_code": "01749"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -42475,7 +42642,7 @@
                 "nrel_id": [
                     157975
                 ],
-                "network_id": "6486",
+                "network_id": "6486;hyannismasupercharger",
                 "street_address": "425 Attucks Lane",
                 "city": "Hyannis",
                 "state": "MA",
@@ -46508,17 +46675,17 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.277355,
-                    42.377065
+                    -73.277352,
+                    42.377028
                 ]
             },
             "properties": {
-                "name": "Lenox Commons - Tesla Supercharger",
+                "name": "Lenox Commons - Tesla Supercharger;Lenox, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     237645
                 ],
-                "network_id": "19566",
+                "network_id": "19566;LenoxMASupercharger",
                 "street_address": "55 Pittsfield Road",
                 "city": "Lenox",
                 "state": "MA",
@@ -46568,7 +46735,7 @@
                 "nrel_id": [
                     102203
                 ],
-                "network_id": "2995",
+                "network_id": "2995;leominstersupercharger",
                 "street_address": "100 Commercial Road",
                 "city": "Leominster",
                 "state": "MA",
@@ -46585,7 +46752,7 @@
                 ]
             },
             "properties": {
-                "name": "Lexington Service Plaza Northbound - Tesla Supercharger",
+                "name": "Lexington (NB), MA;Lexington Service Plaza Northbound - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     196517
@@ -46840,6 +47007,28 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.473878,
+                    42.553111
+                ]
+            },
+            "properties": {
+                "name": "Littleton, MA;The Point - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    186868
+                ],
+                "network_id": "15216;LittletonMAsupercharger",
+                "street_address": "812 Constitution Avenue",
+                "city": "Littleton",
+                "state": "MA",
+                "zip_code": "01460"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.064251,
                     42.362557
                 ]
@@ -46973,11 +47162,12 @@
                 ]
             },
             "properties": {
-                "name": "Lynnfield Marketplace - Tesla Supercharger",
+                "name": "Lynnfield - US-1, MA;Lynnfield Marketplace - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     331821
                 ],
+                "network_id": "35698",
                 "street_address": "28 Broadway",
                 "city": "Lynnfield",
                 "state": "MA",
@@ -46999,8 +47189,8 @@
                 "nrel_id": [
                     149325
                 ],
-                "network_id": "4008",
-                "street_address": "600 Market Street",
+                "network_id": "4008;lynnfieldsupercharger",
+                "street_address": "600 Market Street;MarketStreet Lynnfield, 600 Market Street",
                 "city": "Lynnfield",
                 "state": "MA",
                 "zip_code": "01940"
@@ -53850,7 +54040,7 @@
                 "nrel_id": [
                     102204
                 ],
-                "network_id": "4010",
+                "network_id": "4010;mansfieldsupercharger",
                 "street_address": "280 School Street",
                 "city": "Mansfield",
                 "state": "MA",
@@ -54161,8 +54351,8 @@
                 "nrel_id": [
                     117726
                 ],
-                "network_id": "6925",
-                "street_address": "22 Steeple Street",
+                "network_id": "6925;mashpeemasupercharger",
+                "street_address": "22 Steeple Street;38 Nathan Ellis Highway",
                 "city": "Mashpee",
                 "state": "MA",
                 "zip_code": "02649",
@@ -59171,7 +59361,7 @@
                 "nrel_id": [
                     205808
                 ],
-                "network_id": "17294",
+                "network_id": "17294;seekonksupercharger",
                 "street_address": "965 Fall River Avenue",
                 "city": "Seekonk",
                 "state": "MA",
@@ -59387,12 +59577,12 @@
                 ]
             },
             "properties": {
-                "name": "Newton Service Plaza - Tesla Supercharger;Newton, MA Supercharger",
+                "name": "Newton Service Plaza - Tesla Supercharger;Newton, MA;Newton, MA Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     252515
                 ],
-                "network_id": "10340",
+                "network_id": "10340;newtonMAsupercharger",
                 "street_address": "6 MA-128",
                 "city": "Newton",
                 "state": "MA",
@@ -67268,12 +67458,12 @@
                 ]
             },
             "properties": {
-                "name": "Revere, Ma Supercharger;The Shops at Suffolk Downs - Tesla Supercharger",
+                "name": "Revere, MA;Revere, Ma Supercharger;The Shops at Suffolk Downs - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     155504
                 ],
-                "network_id": "6455",
+                "network_id": "6455;reveremasupercharger",
                 "street_address": "40 Furling Drive;40 Furlong Drive",
                 "city": "Revere",
                 "state": "MA",
@@ -67463,12 +67653,12 @@
                 ]
             },
             "properties": {
-                "name": "Riverdale Shops - Tesla Supercharger;West Springfield Supercharger",
+                "name": "Riverdale Shops - Tesla Supercharger;West Springfield Supercharger;West Springfield, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     102206
                 ],
-                "network_id": "2325",
+                "network_id": "2325;westspringfieldsupercharger",
                 "street_address": "935 Riverdale Street",
                 "city": "West Springfield",
                 "state": "MA",
@@ -71871,28 +72061,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.394108,
-                    42.303617
-                ]
-            },
-            "properties": {
-                "name": "Shopper's World - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    102200
-                ],
-                "network_id": "3613",
-                "street_address": "1 Worcester Road",
-                "city": "Framingham",
-                "state": "MA",
-                "zip_code": "01701"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -72289,6 +72457,28 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.086016,
+                    42.390558
+                ]
+            },
+            "properties": {
+                "name": "Somerville, MA;Stop & Shop - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "nrel_id": [
+                    214071
+                ],
+                "network_id": "11118;SomervilleMAsupercharger",
+                "street_address": "779 McGrath Highway",
+                "city": "Somerville",
+                "state": "MA",
+                "zip_code": "02145"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.062885,
                     42.158782
                 ]
@@ -72387,28 +72577,6 @@
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "9",
                 "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.022012,
-                    42.223016
-                ]
-            },
-            "properties": {
-                "name": "South Shore Plaza - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    149298
-                ],
-                "network_id": "8214",
-                "street_address": "250 Granite Street",
-                "city": "Braintree",
-                "state": "MA",
-                "zip_code": "02184"
             }
         },
         {
@@ -73206,28 +73374,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.085989,
-                    42.390581
-                ]
-            },
-            "properties": {
-                "name": "Stop & Shop - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    214071
-                ],
-                "network_id": "11118",
-                "street_address": "779 McGrath Highway",
-                "city": "Somerville",
-                "state": "MA",
-                "zip_code": "02145"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -73619,12 +73765,12 @@
                 ]
             },
             "properties": {
-                "name": "Stoughton, MA Supercharger;Target - Tesla Supercharger",
+                "name": "Stoughton, MA;Stoughton, MA Supercharger;Target - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     197419
                 ],
-                "network_id": "12636",
+                "network_id": "12636;StoughtonMAsupercharger",
                 "street_address": "1 Hawes Way",
                 "city": "Stoughton",
                 "state": "MA",
@@ -78036,12 +78182,12 @@
                 ]
             },
             "properties": {
-                "name": "Target - Superchargers;Target - Tesla Supercharger",
+                "name": "Target - Superchargers;Target - Tesla Supercharger;Woburn, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     200614
                 ],
-                "network_id": "11153",
+                "network_id": "11153;WoburnMAsupercharger",
                 "street_address": "101 Commerce Way",
                 "city": "Woburn",
                 "state": "MA",
@@ -78243,62 +78389,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.178411,
-                        42.236475
-                    ],
-                    [
-                        -71.178383,
-                        42.236455
-                    ],
-                    [
-                        -71.178354,
-                        42.236433
-                    ],
-                    [
-                        -71.178322,
-                        42.236413
-                    ],
-                    [
-                        -71.178297,
-                        42.236391
-                    ],
-                    [
-                        -71.178265,
-                        42.236371
-                    ],
-                    [
-                        -71.178237,
-                        42.23635
-                    ],
-                    [
-                        -71.178199,
-                        42.236324
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Tesla Service Center Dedham - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    102199
-                ],
-                "network_id": "636",
-                "street_address": "840 Boston Providence Turnpike;840 Providence Highway",
-                "city": "Dedham",
-                "state": "MA",
-                "zip_code": "02026",
-                "charging_points:count": 8,
-                "charging_points:capacity": "0;0;0;0;0;0;0;0",
-                "charging_points:plugs_count": "0;0;0;0;0;0;0;0",
-                "charging_points:plugs_type": ""
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.440032,
                         42.697257
                     ],
@@ -78349,12 +78439,12 @@
                 ]
             },
             "properties": {
-                "name": "The 440 - Tesla Supercharger;Tyngsborough Supercharger",
+                "name": "The 440 - Tesla Supercharger;Tyngsborough Supercharger;Tyngsborough, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     226534
                 ],
-                "network_id": "15218",
+                "network_id": "15218;TyngsboroughMAsupercharger",
                 "street_address": "440 Middlesex Road",
                 "city": "Tyngsborough",
                 "state": "MA",
@@ -78945,28 +79035,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.473878,
-                    42.553111
-                ]
-            },
-            "properties": {
-                "name": "The Point - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    186868
-                ],
-                "network_id": "15216",
-                "street_address": "812 Constitution Avenue",
-                "city": "Littleton",
-                "state": "MA",
-                "zip_code": "01460"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.721075,
                     41.878727
                 ]
@@ -79097,28 +79165,6 @@
                 "city": "Chestnut Hill",
                 "state": "MA",
                 "zip_code": "02467"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.595034,
-                    42.395389
-                ]
-            },
-            "properties": {
-                "name": "The Shops at Highland Commons - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    122333
-                ],
-                "network_id": "8005",
-                "street_address": "2 Highland Common E;2 Highland Common East",
-                "city": "Hudson;Marlborough",
-                "state": "MA",
-                "zip_code": "01749"
             }
         },
         {
@@ -80103,27 +80149,6 @@
                 "city": "Melrose",
                 "state": "MA",
                 "zip_code": "02176"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.121152,
-                    42.20619
-                ]
-            },
-            "properties": {
-                "name": "Trillium Brewery - Tesla Supercharger",
-                "network": "TESLA_SUPERCHARGER",
-                "nrel_id": [
-                    346541
-                ],
-                "street_address": "100 Royall Street",
-                "city": "Canton",
-                "state": "MA",
-                "zip_code": "02021"
             }
         },
         {
@@ -85500,8 +85525,8 @@
                 "nrel_id": [
                     152627
                 ],
-                "network_id": "3969",
-                "street_address": "2421 Cranberry HIghway;2421 Cranberry Highway",
+                "network_id": "3969;warehamsupercharger",
+                "street_address": "2421 Cranberry HIghway;2421 Cranberry Highway;Wareham Crossing, 2421 Cranberry Highway",
                 "city": "Wareham",
                 "state": "MA",
                 "zip_code": "02571"

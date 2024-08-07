@@ -157,9 +157,9 @@ class Station:
     state: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
     zip_code: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
 
-    osm_id: int = None
+    osm_id: SourcedAttribute[list[int]] = dataclasses.field(default_factory=lambda: SourcedAttribute(multiple=True))
     nrel_id: SourcedAttribute[list[int]] = dataclasses.field(default_factory=lambda: SourcedAttribute(multiple=True))
-    ocm_id: int = None
+    ocm_id: SourcedAttribute[list[int]] = dataclasses.field(default_factory=lambda: SourcedAttribute(multiple=True))
 
     network_id: str = ""
 
@@ -185,13 +185,6 @@ def get_station_distance(first_station: Station, second_station: Station) -> dis
 
 def merge_stations(first_station: Station, second_station: Station) -> Station:
     combined_station = dataclasses.replace(first_station)
-
-    CLONED_ATTRS = ['osm_id', 'ocm_id', 'street_address', 'city', 'state', 'zip_code']
-
-    for attr in CLONED_ATTRS:
-        second_value = getattr(second_station, attr)
-        if second_value:
-            setattr(combined_station, attr, second_value)
 
     combined_station.charging_points = [*first_station.charging_points, *second_station.charging_points]
 
@@ -517,9 +510,8 @@ def osm_parse_charging_station(osm_element) -> Station:
         "Q61803820": ChargingNetwork.EVGO,
     }
 
-    station = Station(
-        osm_id=osm_element["id"],
-    )
+    station = Station()
+    station.osm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), osm_element["id"]))
 
     if osm_element["type"] == "node":
         station_location = Location(latitude=osm_element["lat"], longitude=osm_element["lon"])
@@ -765,9 +757,8 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
     }
 
     for ocm_station in ocm_raw_data:
-        station = Station(
-            ocm_id=ocm_station["ID"],
-        )
+        station = Station()
+        station.ocm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), ocm_station["ID"]))
         ocm_address = ocm_station["AddressInfo"]
 
         if "Title" in ocm_address:
@@ -906,11 +897,13 @@ def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station
 
             matched = False
 
-            if station.osm_id and other_station.osm_id and station.osm_id == other_station.osm_id:
-                matched = True
+            if station.osm_id.get() and other_station.osm_id.get():
+                if set(station.osm_id.get()) & set(other_station.osm_id.get()):
+                    matched = True
 
-            if station.ocm_id and other_station.ocm_id and station.ocm_id == other_station.ocm_id:
-                matched = True
+            if station.ocm_id.get() and other_station.ocm_id.get():
+                if set(station.ocm_id.get()) & set(other_station.ocm_id.get()):
+                    matched = True
 
             if station.nrel_id.get() and other_station.nrel_id.get():
                 if set(station.nrel_id.get()) & set(other_station.nrel_id.get()):
@@ -969,12 +962,12 @@ for station in combined_data:
         station_properties["name"] = station.name.get()
     if station.network:
         station_properties["network"] = station.network.name
-    if station.osm_id:
-        station_properties["osm_id"] = station.osm_id
+    if station.osm_id.get():
+        station_properties["osm_id"] = station.osm_id.get()
     if station.nrel_id.get():
         station_properties["nrel_id"] = station.nrel_id.get()
-    if station.ocm_id:
-        station_properties["ocm_id"] = station.ocm_id
+    if station.ocm_id.get():
+        station_properties["ocm_id"] = station.ocm_id.get()
     if station.network_id:
         station_properties["network_id"] = station.network_id
 
@@ -1015,7 +1008,7 @@ for station in combined_data:
     )
     station_features["features"].append(station_feature)
 
-    if not station.nrel_id.get() and station.osm_id and station.network is not ChargingNetwork.NON_NETWORKED:
+    if not station.nrel_id.get() and station.osm_id.get() and station.network is not ChargingNetwork.NON_NETWORKED:
         non_reconciled_station_features["features"].append(station_feature)
 
 with open("stations.geojson", "w") as stations_fh:

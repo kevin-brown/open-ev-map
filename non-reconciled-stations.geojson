@@ -12,7 +12,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1037916734
+                "osm_id": [
+                    1037916734
+                ]
             }
         },
         {
@@ -26,7 +28,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 2732723645
+                "osm_id": [
+                    2732723645
+                ]
             }
         },
         {
@@ -40,7 +44,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 3289222573
+                "osm_id": [
+                    3289222573
+                ]
             }
         },
         {
@@ -54,7 +60,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 3644400923
+                "osm_id": [
+                    3644400923
+                ]
             }
         },
         {
@@ -68,7 +76,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 3644495142
+                "osm_id": [
+                    3644495142
+                ]
             }
         },
         {
@@ -82,7 +92,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 3644497083
+                "osm_id": [
+                    3644497083
+                ]
             }
         },
         {
@@ -96,7 +108,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 4228069916
+                "osm_id": [
+                    4228069916
+                ]
             }
         },
         {
@@ -110,7 +124,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 4747126524
+                "osm_id": [
+                    4747126524
+                ]
             }
         },
         {
@@ -124,7 +140,9 @@
             },
             "properties": {
                 "network": "AUTEL",
-                "osm_id": 5254161513
+                "osm_id": [
+                    5254161513
+                ]
             }
         },
         {
@@ -138,7 +156,9 @@
             },
             "properties": {
                 "network": "AUTEL",
-                "osm_id": 5254161514
+                "osm_id": [
+                    5254161514
+                ]
             }
         },
         {
@@ -152,7 +172,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 5773105790
+                "osm_id": [
+                    5773105790
+                ]
             }
         },
         {
@@ -166,7 +188,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 6040386533
+                "osm_id": [
+                    6040386533
+                ]
             }
         },
         {
@@ -180,7 +204,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 6331507121
+                "osm_id": [
+                    6331507121
+                ]
             }
         },
         {
@@ -194,7 +220,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 6348139517
+                "osm_id": [
+                    6348139517
+                ]
             }
         },
         {
@@ -208,7 +236,9 @@
             },
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 6364729345
+                "osm_id": [
+                    6364729345
+                ]
             }
         },
         {
@@ -222,7 +252,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 6556400189
+                "osm_id": [
+                    6556400189
+                ]
             }
         },
         {
@@ -236,7 +268,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 6566523622
+                "osm_id": [
+                    6566523622
+                ]
             }
         },
         {
@@ -250,7 +284,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 6779688037
+                "osm_id": [
+                    6779688037
+                ]
             }
         },
         {
@@ -264,7 +300,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 6847575455
+                "osm_id": [
+                    6847575455
+                ]
             }
         },
         {
@@ -278,7 +316,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7050169761
+                "osm_id": [
+                    7050169761
+                ]
             }
         },
         {
@@ -292,7 +332,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7076351009
+                "osm_id": [
+                    7076351009
+                ]
             }
         },
         {
@@ -306,7 +348,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7154146845
+                "osm_id": [
+                    7154146845
+                ]
             }
         },
         {
@@ -320,7 +364,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7154146846
+                "osm_id": [
+                    7154146846
+                ]
             }
         },
         {
@@ -334,7 +380,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7656456861
+                "osm_id": [
+                    7656456861
+                ]
             }
         },
         {
@@ -348,7 +396,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7659257400
+                "osm_id": [
+                    7659257400
+                ]
             }
         },
         {
@@ -362,7 +412,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7659937373
+                "osm_id": [
+                    7659937373
+                ]
             }
         },
         {
@@ -376,7 +428,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7659937374
+                "osm_id": [
+                    7659937374
+                ]
             }
         },
         {
@@ -390,7 +444,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7659937375
+                "osm_id": [
+                    7659937375
+                ]
             }
         },
         {
@@ -404,7 +460,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7659994144
+                "osm_id": [
+                    7659994144
+                ]
             }
         },
         {
@@ -418,7 +476,9 @@
             },
             "properties": {
                 "network": "TESLA_DESTINATION",
-                "osm_id": 7689983007
+                "osm_id": [
+                    7689983007
+                ]
             }
         },
         {
@@ -432,7 +492,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7814651586,
+                "osm_id": [
+                    7814651585
+                ],
                 "street_address": "83 Cambridge Street",
                 "city": "Boston",
                 "zip_code": "02114"
@@ -449,7 +511,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7818394276
+                "osm_id": [
+                    7818394276
+                ]
             }
         },
         {
@@ -463,7 +527,9 @@
             },
             "properties": {
                 "network": "VOLTA",
-                "osm_id": 7828185845
+                "osm_id": [
+                    7828185845
+                ]
             }
         },
         {
@@ -477,7 +543,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7893027837
+                "osm_id": [
+                    7893027837
+                ]
             }
         },
         {
@@ -491,7 +559,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7907324046
+                "osm_id": [
+                    7907324046
+                ]
             }
         },
         {
@@ -505,7 +575,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8272470464
+                "osm_id": [
+                    8272470464
+                ]
             }
         },
         {
@@ -519,7 +591,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8406082633
+                "osm_id": [
+                    8406082633
+                ]
             }
         },
         {
@@ -533,7 +607,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8567378409
+                "osm_id": [
+                    8567378409
+                ]
             }
         },
         {
@@ -547,7 +623,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8567379541
+                "osm_id": [
+                    8567379541
+                ]
             }
         },
         {
@@ -575,7 +653,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8646200249,
+                "osm_id": [
+                    8646200249
+                ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
@@ -593,7 +673,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8710873596
+                "osm_id": [
+                    8710873596
+                ]
             }
         },
         {
@@ -607,7 +689,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8710873597
+                "osm_id": [
+                    8710873597
+                ]
             }
         },
         {
@@ -621,7 +705,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8857512592
+                "osm_id": [
+                    8857512592
+                ]
             }
         },
         {
@@ -635,7 +721,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8857512593
+                "osm_id": [
+                    8857512593
+                ]
             }
         },
         {
@@ -649,7 +737,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 8977209263
+                "osm_id": [
+                    8977209263
+                ]
             }
         },
         {
@@ -663,7 +753,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9101493817
+                "osm_id": [
+                    9101493817
+                ]
             }
         },
         {
@@ -677,7 +769,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9112010867
+                "osm_id": [
+                    9112010867
+                ]
             }
         },
         {
@@ -691,7 +785,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9251871478
+                "osm_id": [
+                    9251871478
+                ]
             }
         },
         {
@@ -705,7 +801,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9319353076
+                "osm_id": [
+                    9319353076
+                ]
             }
         },
         {
@@ -719,7 +817,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9319353077
+                "osm_id": [
+                    9319353077
+                ]
             }
         },
         {
@@ -733,7 +833,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9364430967
+                "osm_id": [
+                    9364430967
+                ]
             }
         },
         {
@@ -747,7 +849,9 @@
             },
             "properties": {
                 "network": "SHELL_RECHARGE",
-                "osm_id": 9374531074
+                "osm_id": [
+                    9374531074
+                ]
             }
         },
         {
@@ -761,7 +865,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9392127910
+                "osm_id": [
+                    9392127910
+                ]
             }
         },
         {
@@ -775,7 +881,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9445609464
+                "osm_id": [
+                    9445609464
+                ]
             }
         },
         {
@@ -789,7 +897,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9445609465
+                "osm_id": [
+                    9445609465
+                ]
             }
         },
         {
@@ -803,7 +913,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9563499592
+                "osm_id": [
+                    9563499592
+                ]
             }
         },
         {
@@ -817,7 +929,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9563499593
+                "osm_id": [
+                    9563499593
+                ]
             }
         },
         {
@@ -831,7 +945,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9570069807
+                "osm_id": [
+                    9570069807
+                ]
             }
         },
         {
@@ -845,7 +961,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9570069808
+                "osm_id": [
+                    9570069808
+                ]
             }
         },
         {
@@ -859,7 +977,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9570069809
+                "osm_id": [
+                    9570069809
+                ]
             }
         },
         {
@@ -873,7 +993,9 @@
             },
             "properties": {
                 "network": "AMPUP",
-                "osm_id": 9674529399
+                "osm_id": [
+                    9674529399
+                ]
             }
         },
         {
@@ -887,7 +1009,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9701270465
+                "osm_id": [
+                    9701270465
+                ]
             }
         },
         {
@@ -901,7 +1025,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9723569699
+                "osm_id": [
+                    9723569699
+                ]
             }
         },
         {
@@ -915,7 +1041,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9784274030
+                "osm_id": [
+                    9784274030
+                ]
             }
         },
         {
@@ -929,7 +1057,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9925398365
+                "osm_id": [
+                    9925398365
+                ]
             }
         },
         {
@@ -943,7 +1073,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9980808872
+                "osm_id": [
+                    9980808872
+                ]
             }
         },
         {
@@ -957,7 +1089,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 9994959784
+                "osm_id": [
+                    9994959784
+                ]
             }
         },
         {
@@ -971,7 +1105,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10110406892
+                "osm_id": [
+                    10110406892
+                ]
             }
         },
         {
@@ -985,7 +1121,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10124768138
+                "osm_id": [
+                    10124768138
+                ]
             }
         },
         {
@@ -999,7 +1137,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10124768139
+                "osm_id": [
+                    10124768139
+                ]
             }
         },
         {
@@ -1013,7 +1153,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10129339745
+                "osm_id": [
+                    10129339745
+                ]
             }
         },
         {
@@ -1027,7 +1169,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10152555977
+                "osm_id": [
+                    10152555977
+                ]
             }
         },
         {
@@ -1041,7 +1185,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10157254422
+                "osm_id": [
+                    10157254422
+                ]
             }
         },
         {
@@ -1055,7 +1201,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10157254423
+                "osm_id": [
+                    10157254423
+                ]
             }
         },
         {
@@ -1069,7 +1217,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10157254640
+                "osm_id": [
+                    10157254640
+                ]
             }
         },
         {
@@ -1083,7 +1233,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10157254641
+                "osm_id": [
+                    10157254641
+                ]
             }
         },
         {
@@ -1097,7 +1249,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10157255011
+                "osm_id": [
+                    10157255011
+                ]
             }
         },
         {
@@ -1111,7 +1265,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10157255012
+                "osm_id": [
+                    10157255012
+                ]
             }
         },
         {
@@ -1125,7 +1281,9 @@
             },
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 10213069762
+                "osm_id": [
+                    10213069762
+                ]
             }
         },
         {
@@ -1139,7 +1297,9 @@
             },
             "properties": {
                 "network": "EV_CONNECT",
-                "osm_id": 10213133486
+                "osm_id": [
+                    10213133486
+                ]
             }
         },
         {
@@ -1153,7 +1313,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10292005269
+                "osm_id": [
+                    10292005269
+                ]
             }
         },
         {
@@ -1167,7 +1329,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10601873010
+                "osm_id": [
+                    10601873010
+                ]
             }
         },
         {
@@ -1181,7 +1345,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10656398789
+                "osm_id": [
+                    10656398789
+                ]
             }
         },
         {
@@ -1195,7 +1361,9 @@
             },
             "properties": {
                 "network": "LOOP",
-                "osm_id": 10658542993
+                "osm_id": [
+                    10658542993
+                ]
             }
         },
         {
@@ -1209,7 +1377,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 10671569288
+                "osm_id": [
+                    10671569288
+                ]
             }
         },
         {
@@ -1223,7 +1393,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10673798960
+                "osm_id": [
+                    10673798960
+                ]
             }
         },
         {
@@ -1237,7 +1409,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10736006097
+                "osm_id": [
+                    10736006097
+                ]
             }
         },
         {
@@ -1251,7 +1425,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10736006098
+                "osm_id": [
+                    10736006098
+                ]
             }
         },
         {
@@ -1265,7 +1441,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10736249212
+                "osm_id": [
+                    10736249212
+                ]
             }
         },
         {
@@ -1279,7 +1457,9 @@
             },
             "properties": {
                 "network": "VOLTA",
-                "osm_id": 10764288611
+                "osm_id": [
+                    10764288611
+                ]
             }
         },
         {
@@ -1293,7 +1473,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10764654496
+                "osm_id": [
+                    10764654496
+                ]
             }
         },
         {
@@ -1307,7 +1489,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10776543010
+                "osm_id": [
+                    10776543010
+                ]
             }
         },
         {
@@ -1321,7 +1505,9 @@
             },
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 10828123264
+                "osm_id": [
+                    10828123264
+                ]
             }
         },
         {
@@ -1335,7 +1521,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10906095726
+                "osm_id": [
+                    10906095726
+                ]
             }
         },
         {
@@ -1349,7 +1537,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10990256462
+                "osm_id": [
+                    10990256462
+                ]
             }
         },
         {
@@ -1363,7 +1553,9 @@
             },
             "properties": {
                 "network": "AMPUP",
-                "osm_id": 10991298174
+                "osm_id": [
+                    10991298174
+                ]
             }
         },
         {
@@ -1377,7 +1569,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 10991334433
+                "osm_id": [
+                    10991334433
+                ]
             }
         },
         {
@@ -1391,7 +1585,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11113037046
+                "osm_id": [
+                    11113037046
+                ]
             }
         },
         {
@@ -1405,7 +1601,9 @@
             },
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 11170732692
+                "osm_id": [
+                    11170732692
+                ]
             }
         },
         {
@@ -1419,7 +1617,9 @@
             },
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 11221771872
+                "osm_id": [
+                    11221771872
+                ]
             }
         },
         {
@@ -1433,7 +1633,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11262932492
+                "osm_id": [
+                    11262932492
+                ]
             }
         },
         {
@@ -1447,7 +1649,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11264815608
+                "osm_id": [
+                    11264815608
+                ]
             }
         },
         {
@@ -1461,7 +1665,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11339604242
+                "osm_id": [
+                    11339604242
+                ]
             }
         },
         {
@@ -1475,7 +1681,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 11351252999
+                "osm_id": [
+                    11351252999
+                ]
             }
         },
         {
@@ -1489,7 +1697,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 11351253000
+                "osm_id": [
+                    11351253000
+                ]
             }
         },
         {
@@ -1503,7 +1713,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11351253001
+                "osm_id": [
+                    11351253001
+                ]
             }
         },
         {
@@ -1517,7 +1729,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 11351253002
+                "osm_id": [
+                    11351253002
+                ]
             }
         },
         {
@@ -1531,7 +1745,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 11351253003
+                "osm_id": [
+                    11351253003
+                ]
             }
         },
         {
@@ -1545,7 +1761,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 11351253004
+                "osm_id": [
+                    11351253004
+                ]
             }
         },
         {
@@ -1559,7 +1777,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 11351253005
+                "osm_id": [
+                    11351253005
+                ]
             }
         },
         {
@@ -1573,7 +1793,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 11351253006
+                "osm_id": [
+                    11351253006
+                ]
             }
         },
         {
@@ -1587,7 +1809,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 11351253007
+                "osm_id": [
+                    11351253007
+                ]
             }
         },
         {
@@ -1601,7 +1825,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11351253008
+                "osm_id": [
+                    11351253008
+                ]
             }
         },
         {
@@ -1615,7 +1841,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11351253009
+                "osm_id": [
+                    11351253009
+                ]
             }
         },
         {
@@ -1629,7 +1857,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11406793708
+                "osm_id": [
+                    11406793708
+                ]
             }
         },
         {
@@ -1643,7 +1873,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11450848667
+                "osm_id": [
+                    11450848667
+                ]
             }
         },
         {
@@ -1657,7 +1889,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11450863516
+                "osm_id": [
+                    11450863516
+                ]
             }
         },
         {
@@ -1671,7 +1905,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11709563269
+                "osm_id": [
+                    11709563269
+                ]
             }
         },
         {
@@ -1684,7 +1920,9 @@
                 ]
             },
             "properties": {
-                "osm_id": 11731010018
+                "osm_id": [
+                    11731010018
+                ]
             }
         },
         {
@@ -1698,7 +1936,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11826771123
+                "osm_id": [
+                    11826771123
+                ]
             }
         },
         {
@@ -1712,7 +1952,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11826771124
+                "osm_id": [
+                    11826771124
+                ]
             }
         },
         {
@@ -1726,7 +1968,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11826771129
+                "osm_id": [
+                    11826771129
+                ]
             }
         },
         {
@@ -1740,7 +1984,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11826771130
+                "osm_id": [
+                    11826771130
+                ]
             }
         },
         {
@@ -1754,7 +2000,9 @@
             },
             "properties": {
                 "network": "ELECTRIC_ERA",
-                "osm_id": 11848886630
+                "osm_id": [
+                    11848886630
+                ]
             }
         },
         {
@@ -1768,7 +2016,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11897881772
+                "osm_id": [
+                    11897881772
+                ]
             }
         },
         {
@@ -1782,7 +2032,9 @@
             },
             "properties": {
                 "network": "AUTEL",
-                "osm_id": 11899989951
+                "osm_id": [
+                    11899989951
+                ]
             }
         },
         {
@@ -1796,7 +2048,9 @@
             },
             "properties": {
                 "network": "AUTEL",
-                "osm_id": 11899989952
+                "osm_id": [
+                    11899989952
+                ]
             }
         },
         {
@@ -1810,7 +2064,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11902579099
+                "osm_id": [
+                    11902579099
+                ]
             }
         },
         {
@@ -1824,7 +2080,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11902579102
+                "osm_id": [
+                    11902579102
+                ]
             }
         },
         {
@@ -1838,7 +2096,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11902579105
+                "osm_id": [
+                    11902579105
+                ]
             }
         },
         {
@@ -1852,7 +2112,9 @@
             },
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 11902584504
+                "osm_id": [
+                    11902584504
+                ]
             }
         },
         {
@@ -1866,7 +2128,9 @@
             },
             "properties": {
                 "network": "EVPASSPORT",
-                "osm_id": 11902604146
+                "osm_id": [
+                    11902604146
+                ]
             }
         },
         {
@@ -1880,7 +2144,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11902604149
+                "osm_id": [
+                    11902604149
+                ]
             }
         },
         {
@@ -1894,7 +2160,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11902604151
+                "osm_id": [
+                    11902604151
+                ]
             }
         },
         {
@@ -1908,7 +2176,9 @@
             },
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 11902604154
+                "osm_id": [
+                    11902604154
+                ]
             }
         },
         {
@@ -1922,7 +2192,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11952490214
+                "osm_id": [
+                    11952490214
+                ]
             }
         },
         {
@@ -1936,7 +2208,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11952556531
+                "osm_id": [
+                    11952556531
+                ]
             }
         },
         {
@@ -1950,7 +2224,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11954826464
+                "osm_id": [
+                    11954826464
+                ]
             }
         },
         {
@@ -1964,7 +2240,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11956071996
+                "osm_id": [
+                    11956071996
+                ]
             }
         },
         {
@@ -1978,7 +2256,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11975428100
+                "osm_id": [
+                    11975428100
+                ]
             }
         },
         {
@@ -1992,7 +2272,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11976523722
+                "osm_id": [
+                    11976523722
+                ]
             }
         },
         {
@@ -2006,7 +2288,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11976523723
+                "osm_id": [
+                    11976523723
+                ]
             }
         },
         {
@@ -2020,7 +2304,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 11976523724
+                "osm_id": [
+                    11976523724
+                ]
             }
         },
         {
@@ -2034,7 +2320,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 12047625803
+                "osm_id": [
+                    12047625803
+                ]
             }
         },
         {
@@ -2048,7 +2336,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 12047641873
+                "osm_id": [
+                    12047641873
+                ]
             }
         },
         {
@@ -2062,7 +2352,9 @@
             },
             "properties": {
                 "network": "VOLTA",
-                "osm_id": 12048266252
+                "osm_id": [
+                    12048266252
+                ]
             }
         },
         {
@@ -2076,7 +2368,9 @@
             },
             "properties": {
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 12063299595
+                "osm_id": [
+                    12063299595
+                ]
             }
         },
         {
@@ -2090,7 +2384,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 12063299596
+                "osm_id": [
+                    12063299596
+                ]
             }
         },
         {
@@ -2104,7 +2400,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 12086202745
+                "osm_id": [
+                    12086202745
+                ]
             }
         },
         {
@@ -2118,7 +2416,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 12089773927
+                "osm_id": [
+                    12089773927
+                ]
             }
         },
         {
@@ -2132,7 +2432,9 @@
             },
             "properties": {
                 "network": "EV_CONNECT",
-                "osm_id": 954423391
+                "osm_id": [
+                    954423391
+                ]
             }
         },
         {
@@ -2146,7 +2448,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1063088876
+                "osm_id": [
+                    1063088876
+                ]
             }
         },
         {
@@ -2160,7 +2464,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1204555429
+                "osm_id": [
+                    1204555429
+                ]
             }
         },
         {
@@ -2174,7 +2480,9 @@
             },
             "properties": {
                 "network": "AMPUP",
-                "osm_id": 1215687168
+                "osm_id": [
+                    1215687168
+                ]
             }
         },
         {
@@ -2188,7 +2496,9 @@
             },
             "properties": {
                 "network": "AMPUP",
-                "osm_id": 1247446183
+                "osm_id": [
+                    1247446183
+                ]
             }
         },
         {
@@ -2208,7 +2518,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1282317453,
+                "osm_id": [
+                    1282317453
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -2240,7 +2552,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1288971321,
+                "osm_id": [
+                    1288971321
+                ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
@@ -2258,7 +2572,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1288991876
+                "osm_id": [
+                    1288991876
+                ]
             }
         },
         {
@@ -2282,7 +2598,9 @@
             },
             "properties": {
                 "network": "AMPUP",
-                "osm_id": 1288991877,
+                "osm_id": [
+                    1288991877
+                ],
                 "charging_points:count": 3,
                 "charging_points:capacity": "2;2;2",
                 "charging_points:plugs_count": "2;2;2",
@@ -2306,7 +2624,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1291893912,
+                "osm_id": [
+                    1291893912
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -2330,7 +2650,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1301016160,
+                "osm_id": [
+                    1301016160
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -2366,7 +2688,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1301395799,
+                "osm_id": [
+                    1301395799
+                ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
@@ -2390,7 +2714,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1304165413,
+                "osm_id": [
+                    1304165413
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -2414,7 +2740,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 1304173838,
+                "osm_id": [
+                    1304173838
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -2438,7 +2766,9 @@
             },
             "properties": {
                 "network": "TESLA_DESTINATION",
-                "osm_id": 1304717673,
+                "osm_id": [
+                    1304717673
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "0;0",
                 "charging_points:plugs_count": "0;0",
@@ -2474,7 +2804,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749577,
+                "osm_id": [
+                    1304749577
+                ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
@@ -2510,7 +2842,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749578,
+                "osm_id": [
+                    1304749578
+                ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
@@ -2546,7 +2880,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749579,
+                "osm_id": [
+                    1304749579
+                ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
@@ -2578,7 +2914,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749580,
+                "osm_id": [
+                    1304749580
+                ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
@@ -2614,7 +2952,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 1304749581,
+                "osm_id": [
+                    1304749581
+                ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
@@ -2638,7 +2978,9 @@
             },
             "properties": {
                 "network": "VOLTA",
-                "osm_id": 1304749833,
+                "osm_id": [
+                    1304749833
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -2682,7 +3024,9 @@
             },
             "properties": {
                 "network": "GREENSPOT",
-                "osm_id": 1305332114,
+                "osm_id": [
+                    1305332114
+                ],
                 "charging_points:count": 7,
                 "charging_points:capacity": "2;2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2",
@@ -2706,7 +3050,9 @@
             },
             "properties": {
                 "network": "VOLTA",
-                "osm_id": 17891285,
+                "osm_id": [
+                    17891285
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -2734,7 +3080,9 @@
             },
             "properties": {
                 "network": "ENEL_X",
-                "osm_id": 17891343,
+                "osm_id": [
+                    17891343
+                ],
                 "charging_points:count": 3,
                 "charging_points:capacity": "2;2;2",
                 "charging_points:plugs_count": "2;2;2",
@@ -2758,7 +3106,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 17903480,
+                "osm_id": [
+                    17903480
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -2782,7 +3132,9 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 17903481,
+                "osm_id": [
+                    17903481
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "0;0",
                 "charging_points:plugs_count": "0;0",
@@ -2801,7 +3153,9 @@
             "properties": {
                 "name": "99 Restaurant Charger",
                 "network": "CHARGEPOINT",
-                "osm_id": 6715060628
+                "osm_id": [
+                    6715060628
+                ]
             }
         },
         {
@@ -2822,7 +3176,9 @@
             "properties": {
                 "name": "Audobon Easterly ChargePoint",
                 "network": "CHARGEPOINT",
-                "osm_id": 17669586,
+                "osm_id": [
+                    17669586
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -2841,7 +3197,9 @@
             "properties": {
                 "name": "Blink",
                 "network": "BLINK",
-                "osm_id": 9102222617
+                "osm_id": [
+                    9102222617
+                ]
             }
         },
         {
@@ -2856,7 +3214,9 @@
             "properties": {
                 "name": "Blink",
                 "network": "BLINK",
-                "osm_id": 11292218603
+                "osm_id": [
+                    11292218603
+                ]
             }
         },
         {
@@ -2871,7 +3231,9 @@
             "properties": {
                 "name": "Devens Sherman Square",
                 "network": "CHARGEPOINT",
-                "osm_id": 8500362486
+                "osm_id": [
+                    8500362486
+                ]
             }
         },
         {
@@ -2886,7 +3248,9 @@
             "properties": {
                 "name": "EVgo",
                 "network": "EVGO",
-                "osm_id": 3732553898
+                "osm_id": [
+                    3732553898
+                ]
             }
         },
         {
@@ -2901,7 +3265,9 @@
             "properties": {
                 "name": "EVgo",
                 "network": "EVGO",
-                "osm_id": 11376062707
+                "osm_id": [
+                    11376062707
+                ]
             }
         },
         {
@@ -2916,7 +3282,9 @@
             "properties": {
                 "name": "EVgo",
                 "network": "EVGO",
-                "osm_id": 11902584503
+                "osm_id": [
+                    11902584503
+                ]
             }
         },
         {
@@ -2931,7 +3299,9 @@
             "properties": {
                 "name": "EVgo",
                 "network": "EVGO",
-                "osm_id": 11902604147
+                "osm_id": [
+                    11902604147
+                ]
             }
         },
         {
@@ -2946,7 +3316,9 @@
             "properties": {
                 "name": "EVgo",
                 "network": "EVGO",
-                "osm_id": 11902604148
+                "osm_id": [
+                    11902604148
+                ]
             }
         },
         {
@@ -2961,7 +3333,9 @@
             "properties": {
                 "name": "EVgo",
                 "network": "EVGO",
-                "osm_id": 11902604150
+                "osm_id": [
+                    11902604150
+                ]
             }
         },
         {
@@ -2976,7 +3350,9 @@
             "properties": {
                 "name": "EVgo",
                 "network": "EVGO",
-                "osm_id": 11902604153
+                "osm_id": [
+                    11902604153
+                ]
             }
         },
         {
@@ -3005,7 +3381,9 @@
             "properties": {
                 "name": "EVgo",
                 "network": "EVGO",
-                "osm_id": 1235251290,
+                "osm_id": [
+                    1235251290
+                ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "0;0;0;0",
                 "charging_points:plugs_count": "0;0;0;0",
@@ -3038,7 +3416,9 @@
             "properties": {
                 "name": "Electrify America",
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 1291900623,
+                "osm_id": [
+                    1291900623
+                ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "1;1;1;1",
                 "charging_points:plugs_count": "1;1;1;2",
@@ -3057,7 +3437,9 @@
             "properties": {
                 "name": "I-90 Eastbound Charlton",
                 "network": "AUTEL",
-                "osm_id": 11899494210
+                "osm_id": [
+                    11899494210
+                ]
             }
         },
         {
@@ -3072,7 +3454,9 @@
             "properties": {
                 "name": "I-90 Westbound Charlton",
                 "network": "AUTEL",
-                "osm_id": 11899479952
+                "osm_id": [
+                    11899479952
+                ]
             }
         },
         {
@@ -3087,7 +3471,9 @@
             "properties": {
                 "name": "Jamaica Plain Municipal Lot",
                 "network": "CHARGEPOINT",
-                "osm_id": 7671355537
+                "osm_id": [
+                    7671355537
+                ]
             }
         },
         {
@@ -3102,7 +3488,9 @@
             "properties": {
                 "name": "MassAudubon Stony Brook",
                 "network": "CHARGEPOINT",
-                "osm_id": 11295792645
+                "osm_id": [
+                    11295792645
+                ]
             }
         },
         {
@@ -3117,7 +3505,9 @@
             "properties": {
                 "name": "Nouria",
                 "network": "EV_CONNECT",
-                "osm_id": 11103398296
+                "osm_id": [
+                    11103398296
+                ]
             }
         },
         {
@@ -3162,7 +3552,9 @@
             "properties": {
                 "name": "Pequitside Farm",
                 "network": "CHARGEPOINT",
-                "osm_id": 12048335044,
+                "osm_id": [
+                    12048335044
+                ],
                 "charging_points:count": 8,
                 "charging_points:capacity": "0;0;0;0;0;0;0;0",
                 "charging_points:plugs_count": "0;0;0;0;0;0;0;0",
@@ -3181,7 +3573,9 @@
             "properties": {
                 "name": "Pequitside Farm - Armando",
                 "network": "CHARGEPOINT",
-                "osm_id": 12048335045
+                "osm_id": [
+                    12048335045
+                ]
             }
         },
         {
@@ -3196,7 +3590,9 @@
             "properties": {
                 "name": "Quick Chevrolet - Public Charger",
                 "network": "CHARGEPOINT",
-                "osm_id": 11976450689
+                "osm_id": [
+                    11976450689
+                ]
             }
         },
         {
@@ -3211,7 +3607,9 @@
             "properties": {
                 "name": "Quick Chevrolet - Service Charger",
                 "network": "CHARGEPOINT",
-                "osm_id": 11976450688
+                "osm_id": [
+                    11976450688
+                ]
             }
         },
         {
@@ -3226,7 +3624,9 @@
             "properties": {
                 "name": "Town Hall",
                 "network": "CHARGEPOINT",
-                "osm_id": 9868840064
+                "osm_id": [
+                    9868840064
+                ]
             }
         },
         {
@@ -3241,7 +3641,9 @@
             "properties": {
                 "name": "Town Hall Westport Annex",
                 "network": "CHARGEPOINT",
-                "osm_id": 9868840071
+                "osm_id": [
+                    9868840071
+                ]
             }
         },
         {
@@ -3256,7 +3658,9 @@
             "properties": {
                 "name": "Tree House Brewing Company - Tesla Destination",
                 "network": "TESLA_DESTINATION",
-                "osm_id": 6967179356
+                "osm_id": [
+                    6967179356
+                ]
             }
         },
         {
@@ -3271,7 +3675,9 @@
             "properties": {
                 "name": "WB Goodale Park",
                 "network": "CHARGEPOINT",
-                "osm_id": 11073594136
+                "osm_id": [
+                    11073594136
+                ]
             }
         },
         {
@@ -3286,7 +3692,9 @@
             "properties": {
                 "name": "Walmart 2158 - Northborough, MA",
                 "network": "ELECTRIFY_AMERICA",
-                "osm_id": 9704386604
+                "osm_id": [
+                    9704386604
+                ]
             }
         },
         {
@@ -3301,7 +3709,9 @@
             "properties": {
                 "name": "eVgo",
                 "network": "EVGO",
-                "osm_id": 3644470452
+                "osm_id": [
+                    3644470452
+                ]
             }
         },
         {
@@ -3316,7 +3726,9 @@
             "properties": {
                 "name": "eVgo",
                 "network": "EVGO",
-                "osm_id": 6615039204
+                "osm_id": [
+                    6615039204
+                ]
             }
         },
         {
@@ -3331,7 +3743,9 @@
             "properties": {
                 "name": "eVgo",
                 "network": "EVGO",
-                "osm_id": 7656493682
+                "osm_id": [
+                    7656493682
+                ]
             }
         }
     ]

@@ -195,6 +195,12 @@ def merge_stations(first_station: Station, second_station: Station) -> Station:
     combined_station.nrel_id.extend(first_station.nrel_id)
     combined_station.nrel_id.extend(second_station.nrel_id)
 
+    combined_station.osm_id.extend(first_station.osm_id)
+    combined_station.osm_id.extend(second_station.osm_id)
+
+    combined_station.ocm_id.extend(first_station.ocm_id)
+    combined_station.ocm_id.extend(second_station.ocm_id)
+
     combined_station.location.extend(first_station.location)
     combined_station.location.extend(second_station.location)
 
@@ -897,8 +903,12 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
             if first_station.network != second_station.network:
                 continue
 
-            if not (set(map(str.lower, first_station.street_address.all())) & set(map(str.lower, second_station.street_address.all()))):
-                continue
+            first_addresses = set(map(str.lower, first_station.street_address.all()))
+            second_addresses = set(map(str.lower, second_station.street_address.all()))
+
+            if first_addresses and second_addresses:
+                if not (first_addresses & second_addresses):
+                    continue
 
             station_distance = get_station_distance(first_station, second_station)
 

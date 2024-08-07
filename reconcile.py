@@ -540,6 +540,19 @@ def osm_parse_charging_station(osm_element) -> Station:
         if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
             station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_name))
 
+    if "addr:housenumber" in tags and "addr:street" in tags:
+        station_street_address = f'{tags["addr:housenumber"]} {tags["addr:street"]}'
+        station.street_address.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_street_address))
+
+    if "addr:city" in tags:
+        station.city.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:city"]))
+
+    if "addr:state" in tags:
+        station.state.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:state"]))
+
+    if "addr:postcode" in tags:
+        station.zip_code.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:postcode"]))
+
     if "no:network" in tags:
         station.network = ChargingNetwork.NON_NETWORKED
 

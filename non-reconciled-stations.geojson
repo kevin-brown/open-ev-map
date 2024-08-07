@@ -68,7 +68,10 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7814651586
+                "osm_id": 7814651586,
+                "street_address": "83 Cambridge Street",
+                "city": "Boston",
+                "zip_code": "02114"
             }
         },
         {

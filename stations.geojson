@@ -138,7 +138,10 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
-                "osm_id": 7814651586
+                "osm_id": 7814651586,
+                "street_address": "83 Cambridge Street",
+                "city": "Boston",
+                "zip_code": "02114"
             }
         },
         {
@@ -575,7 +578,11 @@
             },
             "properties": {
                 "network": "NON_NETWORKED",
-                "osm_id": 12081492885
+                "osm_id": 12081492885,
+                "street_address": "1 Nashua Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02114"
             }
         },
         {
@@ -71010,7 +71017,7 @@
                 ],
                 "ocm_id": 247057,
                 "network_id": "636",
-                "street_address": "840 Providence Highway",
+                "street_address": "840 Boston Providence Turnpike;840 Providence Highway",
                 "city": "Dedham",
                 "state": "MA",
                 "zip_code": "02026",

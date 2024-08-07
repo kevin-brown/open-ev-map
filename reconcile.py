@@ -184,7 +184,7 @@ def get_station_distance(first_station: Station, second_station: Station) -> dis
 
 
 def merge_stations(first_station: Station, second_station: Station) -> Station:
-    combined_station = dataclasses.replace(first_station)
+    combined_station = Station()
 
     combined_station.charging_points = [*first_station.charging_points, *second_station.charging_points]
 
@@ -217,6 +217,15 @@ def merge_stations(first_station: Station, second_station: Station) -> Station:
 
     combined_station.network_id.extend(first_station.network_id)
     combined_station.network_id.extend(second_station.network_id)
+
+    if first_station.network is not None:
+        combined_station.network = first_station.network
+
+    if second_station.network is not None:
+        if second_station.network != combined_station.network:
+            print("Conflicting networks when merging stations:", first_station.network, second_station.network, combined_station)
+
+        combined_station.network = second_station.network
 
     return combined_station
 

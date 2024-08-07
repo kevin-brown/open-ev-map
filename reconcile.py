@@ -870,6 +870,9 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
             if first_station.network != second_station.network:
                 continue
 
+            if not (set(map(str.lower, first_station.street_address.all())) & set(map(str.lower, second_station.street_address.all()))):
+                continue
+
             station_distance = get_station_distance(first_station, second_station)
 
             if station_distance.miles > 0.05:

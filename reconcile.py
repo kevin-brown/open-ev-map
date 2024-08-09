@@ -711,6 +711,16 @@ def guess_charging_point_groups(capacity: int, plug_counts: dict[PlugType, int])
         charging_point = ChargingPoint(charging_port_groups=[charging_port_group])
 
         charging_points.append(charging_point)
+    elif all(plug_value == capacity for plug_value in plug_counts.values()):
+        for _ in enumerate(range(capacity)):
+            charging_port_group = ChargingPortGroup()
+
+            for plug_type in plug_counts.keys():
+                charging_port = ChargingPort(plug=plug_type)
+                charging_port_group.charging_ports.append(charging_port)
+
+            charging_point = ChargingPoint(charging_port_groups=[charging_port_group])
+            charging_points.append(charging_point)
     elif capacity and plug_counts:
         print("Uneven plugs to capacity detected:", capacity, plug_counts)
 

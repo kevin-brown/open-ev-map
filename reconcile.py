@@ -673,6 +673,8 @@ def osm_parse_charging_point(osm_element) -> ChargingPoint:
 
     charging_point.charging_port_groups = charging_port_groups
 
+    charging_point._osm_network = network_from_osm_tags(osm_tags)
+
     return charging_point
 
 
@@ -786,7 +788,12 @@ def normalize_osm_data(osm_raw_data) -> list[Station]:
     charge_points_found = []
 
     for charge_point_id, charge_point in charge_points.items():
+        charge_point_network = charge_point._osm_network
+
         for station_id, station in stations.items():
+            if charge_point_network != station.network:
+                continue
+
             charge_point_distance_to_station = get_station_distance(station, charge_point)
 
             if charge_point_distance_to_station.miles > 0.05:

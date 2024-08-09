@@ -457,6 +457,47 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 
 
 def osm_parse_charging_station(osm_element) -> Station:
+    station = Station()
+    station.osm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), osm_element["id"]))
+
+    if osm_element["type"] == "node":
+        station_location = Location(latitude=osm_element["lat"], longitude=osm_element["lon"])
+        station.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_location))
+
+    if osm_element["type"] in ["way", "relation"]:
+        station_location = Location(
+            latitude=(osm_element["bounds"]["minlat"] + osm_element["bounds"]["maxlat"]) / 2,
+            longitude=(osm_element["bounds"]["minlon"] + osm_element["bounds"]["maxlon"]) / 2,
+        )
+        station.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_location))
+
+    tags = osm_element["tags"]
+
+    if "name" in tags:
+        station_name = tags["name"]
+
+        if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
+            station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_name))
+
+    if "addr:housenumber" in tags and "addr:street" in tags:
+        station_street_address = f'{tags["addr:housenumber"]} {tags["addr:street"]}'
+        station.street_address.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_street_address))
+
+    if "addr:city" in tags:
+        station.city.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:city"]))
+
+    if "addr:state" in tags:
+        station.state.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:state"]))
+
+    if "addr:postcode" in tags:
+        station.zip_code.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:postcode"]))
+
+    station.network = network_from_osm_tags(tags)
+
+    return station
+
+
+def network_from_osm_tags(osm_tags) -> ChargingNetwork:
     OSM_NETWORK_NAME_MAP = {
         "AmpUp": ChargingNetwork.AMPUP,
         "Autel": ChargingNetwork.AUTEL,
@@ -547,74 +588,43 @@ def osm_parse_charging_station(osm_element) -> Station:
         "Q61803820": ChargingNetwork.EVGO,
     }
 
-    station = Station()
-    station.osm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), osm_element["id"]))
+    if "no:network" in osm_tags:
+        return ChargingNetwork.NON_NETWORKED
 
-    if osm_element["type"] == "node":
-        station_location = Location(latitude=osm_element["lat"], longitude=osm_element["lon"])
-        station.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_location))
+    if "network:wikidata" in osm_tags:
+        if network := OSM_NETWORK_WIKIDATA_MAP[osm_tags["network:wikidata"]]:
+            return network
 
-    if osm_element["type"] in ["way", "relation"]:
-        station_location = Location(
-            latitude=(osm_element["bounds"]["minlat"] + osm_element["bounds"]["maxlat"]) / 2,
-            longitude=(osm_element["bounds"]["minlon"] + osm_element["bounds"]["maxlon"]) / 2,
-        )
-        station.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_location))
+    if "network" in osm_tags:
+        if network := OSM_NETWORK_NAME_MAP[osm_tags["network"]]:
+            return network
 
-    tags = osm_element["tags"]
+    if "operator:wikidata" in osm_tags:
+        if network := OSM_OPERATOR_WIKIDATA_NETWORK_MAP[osm_tags["operator:wikidata"]]:
+            return network
 
-    if "name" in tags:
-        station_name = tags["name"]
+    if "operator" in osm_tags:
+        if network := OSM_OPERATOR_NAME_MAP[osm_tags["operator"]]:
+            return network
 
-        if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
-            station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_name))
+    if "brand:wikidata" in osm_tags:
+        if network := OSM_BRAND_WIKIDATA_NETWORK_MAP[osm_tags["brand:wikidata"]]:
+            return network
 
-    if "addr:housenumber" in tags and "addr:street" in tags:
-        station_street_address = f'{tags["addr:housenumber"]} {tags["addr:street"]}'
-        station.street_address.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_street_address))
+    if "brand" in osm_tags:
+        if network := OSM_BRAND_NAME_NETWORK_MAP[osm_tags["brand"]]:
+            return network
 
-    if "addr:city" in tags:
-        station.city.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:city"]))
+    if "name" in osm_tags:
+        station_name = osm_tags["name"].lower()
 
-    if "addr:state" in tags:
-        station.state.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:state"]))
+        if "supercharger" in station_name or "super charger" in station_name:
+            return ChargingNetwork.TESLA_SUPERCHARGER
 
-    if "addr:postcode" in tags:
-        station.zip_code.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:postcode"]))
+        if "tesla" in station_name and "destination" in station_name:
+            return ChargingNetwork.TESLA_DESTINATION
 
-    if "no:network" in tags:
-        station.network = ChargingNetwork.NON_NETWORKED
-
-    if station.network is None:
-        if station.network is None and "network:wikidata" in tags:
-            station.network = OSM_NETWORK_WIKIDATA_MAP[tags["network:wikidata"]]
-
-        if station.network is None and "network" in tags:
-            station.network = OSM_NETWORK_NAME_MAP[tags["network"]]
-
-        if station.network is None and "operator:wikidata" in tags:
-            station.network = OSM_OPERATOR_WIKIDATA_NETWORK_MAP[tags["operator:wikidata"]]
-
-        if station.network is None and "operator" in tags:
-            station.network = OSM_OPERATOR_NAME_MAP[tags["operator"]]
-
-        if station.network is None and "brand:wikidata" in tags:
-            station.network = OSM_BRAND_WIKIDATA_NETWORK_MAP[tags["brand:wikidata"]]
-
-        if station.network is None and "brand" in tags:
-            station.network = OSM_BRAND_NAME_NETWORK_MAP[tags["brand"]]
-
-        if station.network is None and "name" in tags:
-            station_name = tags["name"].lower()
-
-            if "supercharger" in station_name or "super charger" in station_name:
-                station.network = ChargingNetwork.TESLA_SUPERCHARGER
-
-            if station.network is None and "tesla" in station_name:
-                if "destination" in station_name:
-                    station.network = ChargingNetwork.TESLA_DESTINATION
-
-    return station
+    return None
 
 
 def osm_parse_charging_station_bounds(osm_element) -> shapely.Polygon:
@@ -685,7 +695,7 @@ def guess_charging_port_groups(capacity: int, plug_counts: dict[PlugType, int]) 
 
         charging_port_groups.append(charging_port_group)
     elif capacity and plug_counts:
-        print("Uneven plugs to capacity detected:", capacity, plug_counts, osm_element)
+        print("Uneven plugs to capacity detected:", capacity, plug_counts)
 
     return charging_port_groups
 

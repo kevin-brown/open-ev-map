@@ -1316,10 +1316,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.242864,
-                    41.800611
+                    [
+                        -72.242864,
+                        41.800611
+                    ]
                 ]
             },
             "properties": {
@@ -1330,7 +1332,11 @@
                 "street_address": "10 South Eagleville Road",
                 "city": "Storrs",
                 "state": "CT",
-                "zip_code": "06268"
+                "zip_code": "06268",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -2280,10 +2286,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.220066,
-                    42.139309
+                    [
+                        -71.220066,
+                        42.139309
+                    ]
                 ]
             },
             "properties": {
@@ -2295,7 +2303,11 @@
                 "street_address": "1111 Providence Hwy, Route 1",
                 "city": "Walpole",
                 "state": "MA",
-                "zip_code": "02081"
+                "zip_code": "02081",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -2543,6 +2555,10 @@
                     [
                         -70.996891,
                         42.410782
+                    ],
+                    [
+                        -70.996777,
+                        42.410638
                     ]
                 ]
             },
@@ -2564,9 +2580,9 @@
                 "city": "Revere",
                 "state": "MA",
                 "zip_code": "02151",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;1",
+                "charging_points:plugs_count": "2;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -3529,10 +3545,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.25622,
-                    42.5282
+                    [
+                        -71.25622,
+                        42.5282
+                    ]
                 ]
             },
             "properties": {
@@ -3544,7 +3562,11 @@
                 "street_address": "160 Lexington Road",
                 "city": "Billerica",
                 "state": "MA",
-                "zip_code": "01821"
+                "zip_code": "01821",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -4594,10 +4616,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.291799,
-                    41.651395
+                    [
+                        -70.291799,
+                        41.651395
+                    ]
                 ]
             },
             "properties": {
@@ -4608,7 +4632,11 @@
                 "street_address": "258 North Street",
                 "city": "Hyannis",
                 "state": "MA",
-                "zip_code": "02601"
+                "zip_code": "02601",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -6259,10 +6287,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.23889,
-                    42.03915
+                    [
+                        -71.23889,
+                        42.03915
+                    ]
                 ]
             },
             "properties": {
@@ -6274,7 +6304,11 @@
                 "street_address": "4 Fisher Street",
                 "city": "Foxborough",
                 "state": "MA",
-                "zip_code": "02035"
+                "zip_code": "02035",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -6894,10 +6928,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.110903,
-                    42.321388
+                    [
+                        -71.110903,
+                        42.321388
+                    ]
                 ]
             },
             "properties": {
@@ -6908,7 +6944,11 @@
                 "street_address": "415 Centre Street",
                 "city": "Jamaica Plain",
                 "state": "MA",
-                "zip_code": "02130"
+                "zip_code": "02130",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -9700,10 +9740,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.7365,
-                    41.86993
+                    [
+                        -72.7365,
+                        41.86993
+                    ]
                 ]
             },
             "properties": {
@@ -9715,7 +9757,11 @@
                 "street_address": "45 Griffin Rd. S",
                 "city": "Bloomfield",
                 "state": "CT",
-                "zip_code": "06002"
+                "zip_code": "06002",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -12823,10 +12869,32 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.141947,
-                    42.395365
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ]
                 ]
             },
             "properties": {
@@ -12838,7 +12906,11 @@
                 "street_address": "Alewife Station Access Road",
                 "city": "Cambridge",
                 "state": "MA",
-                "zip_code": "02138"
+                "zip_code": "02138",
+                "charging_points:count": 6,
+                "charging_points:capacity": "1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -12944,10 +13016,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.39925,
-                    42.297303
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ],
+                    [
+                        -71.39925,
+                        42.297303
+                    ]
                 ]
             },
             "properties": {
@@ -12963,7 +13081,11 @@
                 "street_address": "130 Worcester Road",
                 "city": "Framingham",
                 "state": "MA",
-                "zip_code": "01702"
+                "zip_code": "01702",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -13039,10 +13161,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.252795,
-                    42.30319
+                    [
+                        -73.252795,
+                        42.30319
+                    ]
                 ]
             },
             "properties": {
@@ -13059,7 +13183,11 @@
                 "street_address": "279 W Park Street",
                 "city": "Lee",
                 "state": "MA",
-                "zip_code": "01238"
+                "zip_code": "01238",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -13316,10 +13444,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.833059,
-                    42.203734
+                    [
+                        -71.833059,
+                        42.203734
+                    ],
+                    [
+                        -71.833059,
+                        42.203734
+                    ],
+                    [
+                        -71.833059,
+                        42.203734
+                    ],
+                    [
+                        -71.833059,
+                        42.203734
+                    ],
+                    [
+                        -71.833059,
+                        42.203734
+                    ],
+                    [
+                        -71.833059,
+                        42.203734
+                    ],
+                    [
+                        -71.833059,
+                        42.203734
+                    ],
+                    [
+                        -71.833059,
+                        42.203734
+                    ]
                 ]
             },
             "properties": {
@@ -13338,7 +13496,11 @@
                 "street_address": "385 Southbridge Street",
                 "city": "Auburn",
                 "state": "MA",
-                "zip_code": "01501"
+                "zip_code": "01501",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -13606,10 +13768,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.429016,
-                    42.311934
+                    [
+                        -71.429016,
+                        42.311934
+                    ]
                 ]
             },
             "properties": {
@@ -13620,7 +13784,11 @@
                 "street_address": "114 Massachusetts Turnpike",
                 "city": "Framingham",
                 "state": "MA",
-                "zip_code": "01701"
+                "zip_code": "01701",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
@@ -20116,10 +20284,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.364632,
-                    42.180663
+                    [
+                        -73.364744,
+                        42.180949
+                    ],
+                    [
+                        -73.364744,
+                        42.180949
+                    ],
+                    [
+                        -73.364744,
+                        42.180949
+                    ],
+                    [
+                        -73.364744,
+                        42.180949
+                    ],
+                    [
+                        -73.364744,
+                        42.180949
+                    ],
+                    [
+                        -73.364744,
+                        42.180949
+                    ],
+                    [
+                        -73.364744,
+                        42.180949
+                    ],
+                    [
+                        -73.364744,
+                        42.180949
+                    ]
                 ]
             },
             "properties": {
@@ -20135,7 +20333,11 @@
                 "street_address": "700 Main Street;700 Main Street Route 7",
                 "city": "Great Barrington",
                 "state": "MA",
-                "zip_code": "01230"
+                "zip_code": "01230",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -20162,10 +20364,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.239162,
-                    42.295693
+                    [
+                        -73.239226,
+                        42.295745
+                    ],
+                    [
+                        -73.239226,
+                        42.295745
+                    ],
+                    [
+                        -73.239226,
+                        42.295745
+                    ],
+                    [
+                        -73.239226,
+                        42.295745
+                    ],
+                    [
+                        -73.239226,
+                        42.295745
+                    ],
+                    [
+                        -73.239226,
+                        42.295745
+                    ],
+                    [
+                        -73.239226,
+                        42.295745
+                    ],
+                    [
+                        -73.239226,
+                        42.295745
+                    ]
                 ]
             },
             "properties": {
@@ -20184,16 +20416,66 @@
                 "street_address": "10 Pleasant Street",
                 "city": "Lee",
                 "state": "MA",
-                "zip_code": "01238"
+                "zip_code": "01238",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.578159,
-                    42.174804
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ],
+                    [
+                        -72.578197,
+                        42.174935
+                    ]
                 ]
             },
             "properties": {
@@ -20209,7 +20491,11 @@
                 "street_address": "650 Memorial Drive",
                 "city": "Chicopee",
                 "state": "MA",
-                "zip_code": "01020"
+                "zip_code": "01020",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -20246,10 +20532,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.281833,
-                    42.362848
+                    [
+                        -73.281803,
+                        42.362859
+                    ]
                 ]
             },
             "properties": {
@@ -20265,7 +20553,11 @@
                 "street_address": "7 Hubbard Street",
                 "city": "Lenox",
                 "state": "MA",
-                "zip_code": "01240"
+                "zip_code": "01240",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -20327,10 +20619,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.258924,
-                    42.336121
+                    [
+                        -73.258924,
+                        42.336121
+                    ]
                 ]
             },
             "properties": {
@@ -20342,7 +20636,11 @@
                 "street_address": "16 Blantyre Road",
                 "city": "Lenox",
                 "state": "MA",
-                "zip_code": "01240"
+                "zip_code": "01240",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -20490,10 +20788,48 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.0633,
-                    42.3255
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ],
+                    [
+                        -71.0633,
+                        42.3255
+                    ]
                 ]
             },
             "properties": {
@@ -20509,7 +20845,11 @@
                 "street_address": "101 Allstate Road;8 Allstate Rd, 6th floor",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02118;02125;02125-1663"
+                "zip_code": "02118;02125;02125-1663",
+                "charging_points:count": 10,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -20539,10 +20879,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.081003,
-                    42.34717
+                    [
+                        -71.081003,
+                        42.34717
+                    ],
+                    [
+                        -71.081003,
+                        42.34717
+                    ],
+                    [
+                        -71.081003,
+                        42.34717
+                    ],
+                    [
+                        -71.081003,
+                        42.34717
+                    ],
+                    [
+                        -71.081003,
+                        42.34717
+                    ],
+                    [
+                        -71.081003,
+                        42.34717
+                    ],
+                    [
+                        -71.081003,
+                        42.34717
+                    ],
+                    [
+                        -71.081003,
+                        42.34717
+                    ]
                 ]
             },
             "properties": {
@@ -20561,16 +20931,50 @@
                 "street_address": "800 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02199"
+                "zip_code": "02199",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.099322,
-                    42.344691
+                    [
+                        -71.09933,
+                        42.344903
+                    ],
+                    [
+                        -71.09933,
+                        42.344903
+                    ],
+                    [
+                        -71.09933,
+                        42.344903
+                    ],
+                    [
+                        -71.09933,
+                        42.344903
+                    ],
+                    [
+                        -71.09933,
+                        42.344903
+                    ],
+                    [
+                        -71.09933,
+                        42.344903
+                    ],
+                    [
+                        -71.09933,
+                        42.344903
+                    ],
+                    [
+                        -71.09933,
+                        42.344903
+                    ]
                 ]
             },
             "properties": {
@@ -20589,7 +20993,11 @@
                 "street_address": "1341 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02215"
+                "zip_code": "02215",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -20905,10 +21313,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.288507,
-                    42.352564
+                    [
+                        -73.288507,
+                        42.352564
+                    ]
                 ]
             },
             "properties": {
@@ -20924,7 +21334,11 @@
                 "street_address": "15 Hawthorne Street",
                 "city": "Lenox",
                 "state": "MA",
-                "zip_code": "01240"
+                "zip_code": "01240",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -21233,10 +21647,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.214591,
-                    42.482747
+                    [
+                        -71.214591,
+                        42.482747
+                    ]
                 ]
             },
             "properties": {
@@ -21248,7 +21664,11 @@
                 "street_address": "75 Middlesex Turnpike",
                 "city": "Burlington",
                 "state": "MA",
-                "zip_code": "01803"
+                "zip_code": "01803",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -21303,6 +21723,54 @@
                     [
                         -71.216479,
                         42.483665
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
+                    ],
+                    [
+                        -71.216703,
+                        42.483562
                     ]
                 ]
             },
@@ -21323,10 +21791,10 @@
                 "city": "Burlington",
                 "state": "MA",
                 "zip_code": "01803",
-                "charging_points:count": 12,
-                "charging_points:capacity": "0;0;0;0;0;0;0;0;0;0;0;0",
-                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0;0;0;0",
-                "charging_points:plugs_type": ""
+                "charging_points:count": 24,
+                "charging_points:capacity": "0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -27697,10 +28165,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.076364,
-                    42.368132
+                    [
+                        -71.076364,
+                        42.368132
+                    ],
+                    [
+                        -71.076364,
+                        42.368132
+                    ],
+                    [
+                        -71.076364,
+                        42.368132
+                    ],
+                    [
+                        -71.076364,
+                        42.368132
+                    ],
+                    [
+                        -71.076364,
+                        42.368132
+                    ],
+                    [
+                        -71.076364,
+                        42.368132
+                    ],
+                    [
+                        -71.076364,
+                        42.368132
+                    ],
+                    [
+                        -71.076364,
+                        42.368132
+                    ]
                 ]
             },
             "properties": {
@@ -27719,7 +28217,11 @@
                 "street_address": "100 Cambridgeside Place",
                 "city": " Cambridge;Cambridge",
                 "state": "MA",
-                "zip_code": "02141;02141-2215"
+                "zip_code": "02141;02141-2215",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -27995,10 +28497,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.082652,
-                    41.761818
+                    [
+                        -70.082652,
+                        41.761818
+                    ]
                 ]
             },
             "properties": {
@@ -28010,7 +28514,11 @@
                 "street_address": "15 Breakwater Road",
                 "city": "Brewster",
                 "state": "MA",
-                "zip_code": "02631"
+                "zip_code": "02631",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -28038,10 +28546,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.501131,
-                    41.670064
+                    [
+                        -71.501131,
+                        41.670064
+                    ]
                 ]
             },
             "properties": {
@@ -28053,7 +28563,11 @@
                 "street_address": "1681 Quaker Lane",
                 "city": "West Warwick",
                 "state": "RI",
-                "zip_code": "02893"
+                "zip_code": "02893",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -28466,6 +28980,14 @@
                     [
                         -71.254744,
                         42.330755
+                    ],
+                    [
+                        -71.254761,
+                        42.330696
+                    ],
+                    [
+                        -71.254761,
+                        42.330696
                     ]
                 ]
             },
@@ -28487,9 +29009,9 @@
                 "city": "Newton",
                 "state": "MA",
                 "zip_code": "02462",
-                "charging_points:count": 4,
-                "charging_points:capacity": "1;1;1;1",
-                "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:count": 6,
+                "charging_points:capacity": "1;1;1;1;1;1",
+                "charging_points:plugs_count": "2;2;2;2;1;1",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
@@ -28541,10 +29063,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.025772,
-                    42.139201
+                    [
+                        -72.025739,
+                        42.139213
+                    ],
+                    [
+                        -72.025739,
+                        42.139213
+                    ],
+                    [
+                        -72.025739,
+                        42.139213
+                    ],
+                    [
+                        -72.025739,
+                        42.139213
+                    ],
+                    [
+                        -72.025739,
+                        42.139213
+                    ],
+                    [
+                        -72.025739,
+                        42.139213
+                    ],
+                    [
+                        -72.025739,
+                        42.139213
+                    ],
+                    [
+                        -72.025739,
+                        42.139213
+                    ]
                 ]
             },
             "properties": {
@@ -28563,16 +29115,50 @@
                 "street_address": "Charlton Service Plaza Eastbound;Chartlon Service Plaza Eastbound Massachusetts Turnpike;Mile Marker 80 Eastbound Mass Turnpike",
                 "city": "Charlton",
                 "state": "MA",
-                "zip_code": "01507"
+                "zip_code": "01507",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.96292,
-                    42.156766
+                    [
+                        -71.96292,
+                        42.156766
+                    ],
+                    [
+                        -71.96292,
+                        42.156766
+                    ],
+                    [
+                        -71.96292,
+                        42.156766
+                    ],
+                    [
+                        -71.96292,
+                        42.156766
+                    ],
+                    [
+                        -71.96292,
+                        42.156766
+                    ],
+                    [
+                        -71.96292,
+                        42.156766
+                    ],
+                    [
+                        -71.96292,
+                        42.156766
+                    ],
+                    [
+                        -71.96292,
+                        42.156766
+                    ]
                 ]
             },
             "properties": {
@@ -28591,7 +29177,11 @@
                 "street_address": "6 Massachusetts Turnpike",
                 "city": "Charlton",
                 "state": "MA",
-                "zip_code": "01507"
+                "zip_code": "01507",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -28618,10 +29208,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.024713,
-                    42.140107
+                    [
+                        -72.024713,
+                        42.140107
+                    ],
+                    [
+                        -72.024713,
+                        42.140107
+                    ]
                 ]
             },
             "properties": {
@@ -28633,16 +29229,26 @@
                 "street_address": "Mile Marker 80 Eastbound",
                 "city": "Charlton",
                 "state": "MA",
-                "zip_code": "01507"
+                "zip_code": "01507",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.964487,
-                    42.156095
+                    [
+                        -71.964487,
+                        42.156095
+                    ],
+                    [
+                        -71.964487,
+                        42.156095
+                    ]
                 ]
             },
             "properties": {
@@ -28653,16 +29259,50 @@
                 "street_address": "6 Massachusettts Turnpike",
                 "city": "Charlton",
                 "state": "MA",
-                "zip_code": "01507"
+                "zip_code": "01507",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.172424,
-                    42.321989
+                    [
+                        -71.17228,
+                        42.32218
+                    ],
+                    [
+                        -71.17228,
+                        42.32218
+                    ],
+                    [
+                        -71.17228,
+                        42.32218
+                    ],
+                    [
+                        -71.17228,
+                        42.32218
+                    ],
+                    [
+                        -71.17228,
+                        42.32218
+                    ],
+                    [
+                        -71.17228,
+                        42.32218
+                    ],
+                    [
+                        -71.17228,
+                        42.32218
+                    ],
+                    [
+                        -71.17228,
+                        42.32218
+                    ]
                 ]
             },
             "properties": {
@@ -28681,7 +29321,11 @@
                 "street_address": "55 Boylston Street",
                 "city": "Chestnut Hill",
                 "state": "MA",
-                "zip_code": "02467"
+                "zip_code": "02467",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -29012,10 +29656,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.105306,
-                    42.367038
+                    [
+                        -71.105306,
+                        42.367038
+                    ]
                 ]
             },
             "properties": {
@@ -29026,7 +29672,11 @@
                 "street_address": "Dorthy Dottie Doyle Way",
                 "city": "cambridge",
                 "state": "MA",
-                "zip_code": "02139"
+                "zip_code": "02139",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -29909,6 +30559,10 @@
                     [
                         -71.078831,
                         42.347556
+                    ],
+                    [
+                        -71.078874,
+                        42.347334
                     ]
                 ]
             },
@@ -29926,9 +30580,9 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02116",
-                "charging_points:count": 1,
-                "charging_points:capacity": "3",
-                "charging_points:plugs_count": "9",
+                "charging_points:count": 2,
+                "charging_points:capacity": "3;1",
+                "charging_points:plugs_count": "9;2",
                 "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
@@ -30119,10 +30773,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -69.985964,
-                    41.796653
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ],
+                    [
+                        -69.985964,
+                        41.796653
+                    ]
                 ]
             },
             "properties": {
@@ -30141,16 +30841,26 @@
                 "street_address": "10 Route 6A;2110 Cranberry Highway",
                 "city": "Orleans",
                 "state": "MA",
-                "zip_code": "02653"
+                "zip_code": "02653",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.266561,
-                    42.341095
+                    [
+                        -73.266561,
+                        42.341095
+                    ],
+                    [
+                        -73.266561,
+                        42.341095
+                    ]
                 ]
             },
             "properties": {
@@ -30166,7 +30876,11 @@
                 "street_address": "55 Lee Road",
                 "city": "Lenox",
                 "state": "MA",
-                "zip_code": "01240"
+                "zip_code": "01240",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -30260,10 +30974,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.040773,
-                    42.561164
+                    [
+                        -72.040779,
+                        42.561167
+                    ],
+                    [
+                        -72.040779,
+                        42.561167
+                    ],
+                    [
+                        -72.040779,
+                        42.561167
+                    ],
+                    [
+                        -72.040779,
+                        42.561167
+                    ],
+                    [
+                        -72.040779,
+                        42.561167
+                    ],
+                    [
+                        -72.040779,
+                        42.561167
+                    ],
+                    [
+                        -72.040779,
+                        42.561167
+                    ],
+                    [
+                        -72.040779,
+                        42.561167
+                    ]
                 ]
             },
             "properties": {
@@ -30279,7 +31023,11 @@
                 "street_address": "163 Patriots Road",
                 "city": "Templeton",
                 "state": "MA",
-                "zip_code": "01468"
+                "zip_code": "01468",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -31692,10 +32440,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.96587,
-                    42.585318
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ],
+                    [
+                        -70.966151,
+                        42.585584
+                    ]
                 ]
             },
             "properties": {
@@ -31711,7 +32505,11 @@
                 "street_address": "301 Newbury Street",
                 "city": "Danvers",
                 "state": "MA",
-                "zip_code": "01923"
+                "zip_code": "01923",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -31822,6 +32620,54 @@
                     [
                         -70.995693,
                         41.640634
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
+                    ],
+                    [
+                        -70.996,
+                        41.640722
                     ]
                 ]
             },
@@ -31842,9 +32688,9 @@
                 "city": "Dartmouth",
                 "state": "MA",
                 "zip_code": "02747",
-                "charging_points:count": 12,
-                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:count": 24,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1",
                 "charging_points:plugs_type": "NACS"
             }
         },
@@ -31982,6 +32828,38 @@
                     [
                         -71.178199,
                         42.236324
+                    ],
+                    [
+                        -71.178365,
+                        42.236421
+                    ],
+                    [
+                        -71.178365,
+                        42.236421
+                    ],
+                    [
+                        -71.178365,
+                        42.236421
+                    ],
+                    [
+                        -71.178365,
+                        42.236421
+                    ],
+                    [
+                        -71.178365,
+                        42.236421
+                    ],
+                    [
+                        -71.178365,
+                        42.236421
+                    ],
+                    [
+                        -71.178365,
+                        42.236421
+                    ],
+                    [
+                        -71.178365,
+                        42.236421
                     ]
                 ]
             },
@@ -32002,10 +32880,10 @@
                 "city": "Dedham",
                 "state": "MA",
                 "zip_code": "02026",
-                "charging_points:count": 8,
-                "charging_points:capacity": "0;0;0;0;0;0;0;0",
-                "charging_points:plugs_count": "0;0;0;0;0;0;0;0",
-                "charging_points:plugs_type": ""
+                "charging_points:count": 16,
+                "charging_points:capacity": "0;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -32293,10 +33171,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.264259,
-                    42.300936
+                    [
+                        -73.264259,
+                        42.300936
+                    ]
                 ]
             },
             "properties": {
@@ -32312,7 +33192,11 @@
                 "street_address": "85 Stockbridge Road",
                 "city": "Lee",
                 "state": "MA",
-                "zip_code": "01238"
+                "zip_code": "01238",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -32390,10 +33274,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.054992,
-                    42.361019
+                    [
+                        -71.054992,
+                        42.361019
+                    ],
+                    [
+                        -71.054992,
+                        42.361019
+                    ],
+                    [
+                        -71.054992,
+                        42.361019
+                    ],
+                    [
+                        -71.054992,
+                        42.361019
+                    ],
+                    [
+                        -71.054992,
+                        42.361019
+                    ],
+                    [
+                        -71.054992,
+                        42.361019
+                    ],
+                    [
+                        -71.054992,
+                        42.361019
+                    ],
+                    [
+                        -71.054992,
+                        42.361019
+                    ]
                 ]
             },
             "properties": {
@@ -32405,7 +33319,11 @@
                 "street_address": "20 Clinton Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02109"
+                "zip_code": "02109",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -32485,10 +33403,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.048123,
-                    42.320144
+                    [
+                        -71.048075,
+                        42.320499
+                    ]
                 ]
             },
             "properties": {
@@ -32505,16 +33425,22 @@
                 "street_address": "240 Mount Vernon Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02125"
+                "zip_code": "02125",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.064645,
-                    42.348724
+                    [
+                        -71.064645,
+                        42.348724
+                    ]
                 ]
             },
             "properties": {
@@ -32530,16 +33456,22 @@
                 "street_address": "821 Washington Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02111"
+                "zip_code": "02111",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.2803,
-                    41.661139
+                    [
+                        -70.2803,
+                        41.661139
+                    ]
                 ]
             },
             "properties": {
@@ -32555,7 +33487,11 @@
                 "street_address": "287 Iyannough Road",
                 "city": "Barnstable",
                 "state": "MA",
-                "zip_code": "02601"
+                "zip_code": "02601",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -32719,10 +33655,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.540289,
-                    41.781195
+                    [
+                        -70.540289,
+                        41.781195
+                    ],
+                    [
+                        -70.540289,
+                        41.781195
+                    ],
+                    [
+                        -70.540289,
+                        41.781195
+                    ],
+                    [
+                        -70.540289,
+                        41.781195
+                    ],
+                    [
+                        -70.540289,
+                        41.781195
+                    ],
+                    [
+                        -70.540289,
+                        41.781195
+                    ],
+                    [
+                        -70.540289,
+                        41.781195
+                    ],
+                    [
+                        -70.540289,
+                        41.781195
+                    ]
                 ]
             },
             "properties": {
@@ -32741,7 +33707,11 @@
                 "street_address": "22 Meetinghouse Lane",
                 "city": "Sagamore Beach",
                 "state": "MA",
-                "zip_code": "02562;02562-2457"
+                "zip_code": "02562;02562-2457",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -34956,10 +35926,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.837426,
-                    42.202165
+                    [
+                        -71.837426,
+                        42.202165
+                    ]
                 ]
             },
             "properties": {
@@ -34971,7 +35943,11 @@
                 "street_address": "Southbridge Street",
                 "city": "Auburn",
                 "state": "MA",
-                "zip_code": "01501"
+                "zip_code": "01501",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -35340,10 +36316,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.497242,
-                    41.660517
+                    [
+                        -71.497242,
+                        41.660517
+                    ],
+                    [
+                        -71.497242,
+                        41.660517
+                    ],
+                    [
+                        -71.497242,
+                        41.660517
+                    ],
+                    [
+                        -71.497242,
+                        41.660517
+                    ],
+                    [
+                        -71.497242,
+                        41.660517
+                    ],
+                    [
+                        -71.497242,
+                        41.660517
+                    ],
+                    [
+                        -71.497242,
+                        41.660517
+                    ],
+                    [
+                        -71.497242,
+                        41.660517
+                    ]
                 ]
             },
             "properties": {
@@ -35355,7 +36361,11 @@
                 "street_address": "1000 Division Street",
                 "city": "East Greenwich",
                 "state": "RI",
-                "zip_code": "02818-1626"
+                "zip_code": "02818-1626",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -37250,10 +38260,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.068673,
-                    42.352135
+                    [
+                        -71.068673,
+                        42.352135
+                    ],
+                    [
+                        -71.068673,
+                        42.352135
+                    ]
                 ]
             },
             "properties": {
@@ -37269,7 +38285,11 @@
                 "street_address": "200 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02116"
+                "zip_code": "02116",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -37330,10 +38350,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.403713,
-                    42.305132
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ],
+                    [
+                        -71.403713,
+                        42.305132
+                    ]
                 ]
             },
             "properties": {
@@ -37349,7 +38415,11 @@
                 "street_address": "961 Concord Street;969 Concord Street;971 Concord Street",
                 "city": "Framingham",
                 "state": "MA",
-                "zip_code": "01701"
+                "zip_code": "01701",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -37379,10 +38449,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.394108,
-                    42.303617
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ],
+                    [
+                        -71.394175,
+                        42.303647
+                    ]
                 ]
             },
             "properties": {
@@ -37401,7 +38517,11 @@
                 "street_address": "1 Worcester Road",
                 "city": "Framingham",
                 "state": "MA",
-                "zip_code": "01701"
+                "zip_code": "01701",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -37630,10 +38750,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.095556,
-                    41.762778
+                    [
+                        -71.095556,
+                        41.762778
+                    ],
+                    [
+                        -71.095556,
+                        41.762778
+                    ],
+                    [
+                        -71.095556,
+                        41.762778
+                    ],
+                    [
+                        -71.095556,
+                        41.762778
+                    ],
+                    [
+                        -71.095556,
+                        41.762778
+                    ],
+                    [
+                        -71.095556,
+                        41.762778
+                    ],
+                    [
+                        -71.095556,
+                        41.762778
+                    ],
+                    [
+                        -71.095556,
+                        41.762778
+                    ]
                 ]
             },
             "properties": {
@@ -37652,7 +38802,11 @@
                 "street_address": "36 Innovation Way",
                 "city": "Freetown",
                 "state": "MA",
-                "zip_code": "02720"
+                "zip_code": "02720",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -39080,10 +40234,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.282639,
-                    42.35599
+                    [
+                        -73.282639,
+                        42.35599
+                    ]
                 ]
             },
             "properties": {
@@ -39099,7 +40255,11 @@
                 "street_address": "51 Walker Street",
                 "city": "Lenox",
                 "state": "MA",
-                "zip_code": "01240"
+                "zip_code": "01240",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -39177,10 +40337,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.654457,
-                    42.623414
+                    [
+                        -70.654457,
+                        42.623414
+                    ],
+                    [
+                        -70.654457,
+                        42.623414
+                    ],
+                    [
+                        -70.654457,
+                        42.623414
+                    ],
+                    [
+                        -70.654457,
+                        42.623414
+                    ],
+                    [
+                        -70.654457,
+                        42.623414
+                    ],
+                    [
+                        -70.654457,
+                        42.623414
+                    ],
+                    [
+                        -70.654457,
+                        42.623414
+                    ],
+                    [
+                        -70.654457,
+                        42.623414
+                    ]
                 ]
             },
             "properties": {
@@ -39196,7 +40386,11 @@
                 "street_address": "231 Gloucester Crossing;231 Gloucester Crossing Road",
                 "city": "Gloucester",
                 "state": "MA",
-                "zip_code": "01930"
+                "zip_code": "01930",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -39375,10 +40569,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.093095,
-                    41.278752
+                    [
+                        -70.093095,
+                        41.278752
+                    ],
+                    [
+                        -70.093095,
+                        41.278752
+                    ]
                 ]
             },
             "properties": {
@@ -39394,7 +40594,11 @@
                 "street_address": "96 Washington Street",
                 "city": "Nantucket",
                 "state": "MA",
-                "zip_code": "02554"
+                "zip_code": "02554",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -39802,10 +41006,20 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.327394,
-                    41.49141
+                    [
+                        -71.327394,
+                        41.49141
+                    ],
+                    [
+                        -71.327394,
+                        41.49141
+                    ],
+                    [
+                        -71.327394,
+                        41.49141
+                    ]
                 ]
             },
             "properties": {
@@ -39817,7 +41031,11 @@
                 "street_address": "1 Goat Island",
                 "city": "Newport",
                 "state": "RI",
-                "zip_code": "02840"
+                "zip_code": "02840",
+                "charging_points:count": 3,
+                "charging_points:capacity": "1;1;1",
+                "charging_points:plugs_count": "1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -41356,10 +42574,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.241244,
-                    42.449338
+                    [
+                        -73.241244,
+                        42.449338
+                    ]
                 ]
             },
             "properties": {
@@ -41371,7 +42591,11 @@
                 "street_address": "689 East Street",
                 "city": "Pittsfield",
                 "state": "MA",
-                "zip_code": "01201"
+                "zip_code": "01201",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -41422,10 +42646,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.609064,
-                    42.338606
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ],
+                    [
+                        -72.609253,
+                        42.338748
+                    ]
                 ]
             },
             "properties": {
@@ -41444,7 +42714,11 @@
                 "street_address": "25 Russell Street",
                 "city": "Hadley",
                 "state": "MA",
-                "zip_code": "01035"
+                "zip_code": "01035",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -41519,10 +42793,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.908409,
-                    42.847511
+                    [
+                        -70.908409,
+                        42.847511
+                    ]
                 ]
             },
             "properties": {
@@ -41538,16 +42814,26 @@
                 "street_address": "284 Elm Street",
                 "city": "Amesbury",
                 "state": "MA",
-                "zip_code": "01913"
+                "zip_code": "01913",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.993881,
-                    42.526441
+                    [
+                        -70.993881,
+                        42.526441
+                    ],
+                    [
+                        -70.993881,
+                        42.526441
+                    ]
                 ]
             },
             "properties": {
@@ -41559,7 +42845,11 @@
                 "street_address": "59 Newbury Street",
                 "city": "Peabody",
                 "state": "MA",
-                "zip_code": "01960"
+                "zip_code": "01960",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -41653,10 +42943,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.281108,
-                    42.354931
+                    [
+                        -73.281108,
+                        42.354931
+                    ],
+                    [
+                        -73.281108,
+                        42.354931
+                    ]
                 ]
             },
             "properties": {
@@ -41668,7 +42964,11 @@
                 "street_address": "91 Walker Street",
                 "city": "Lenox",
                 "state": "MA",
-                "zip_code": "01240"
+                "zip_code": "01240",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -41724,10 +43024,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.8432,
-                    42.1474
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ],
+                    [
+                        -70.841694,
+                        42.147722
+                    ]
                 ]
             },
             "properties": {
@@ -41743,7 +43089,11 @@
                 "street_address": "1775 Washington Street",
                 "city": "Hanover",
                 "state": "MA",
-                "zip_code": "02339;02359"
+                "zip_code": "02339;02359",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -41847,10 +43197,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.848065,
-                    42.506009
+                    [
+                        -70.848162,
+                        42.506117
+                    ]
                 ]
             },
             "properties": {
@@ -41866,7 +43218,11 @@
                 "street_address": "58 Washington Street",
                 "city": "Marblehead",
                 "state": "MA",
-                "zip_code": "01945"
+                "zip_code": "01945",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -42795,10 +44151,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.641845,
-                    42.165968
+                    [
+                        -72.641845,
+                        42.165968
+                    ]
                 ]
             },
             "properties": {
@@ -42809,7 +44167,11 @@
                 "street_address": "Mall Ring",
                 "city": "Holyoke",
                 "state": "Ma",
-                "zip_code": "01040"
+                "zip_code": "01040",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -42951,10 +44313,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.595034,
-                    42.395389
+                    [
+                        -71.594943,
+                        42.395592
+                    ],
+                    [
+                        -71.594943,
+                        42.395592
+                    ],
+                    [
+                        -71.594943,
+                        42.395592
+                    ],
+                    [
+                        -71.594943,
+                        42.395592
+                    ],
+                    [
+                        -71.594943,
+                        42.395592
+                    ],
+                    [
+                        -71.594943,
+                        42.395592
+                    ],
+                    [
+                        -71.594943,
+                        42.395592
+                    ],
+                    [
+                        -71.594943,
+                        42.395592
+                    ]
                 ]
             },
             "properties": {
@@ -42973,7 +44365,11 @@
                 "street_address": "2 Highland Common E;2 Highland Common East",
                 "city": "Hudson;Marlborough",
                 "state": "MA",
-                "zip_code": "01749"
+                "zip_code": "01749",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -43010,10 +44406,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.307105,
-                    41.676598
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ],
+                    [
+                        -70.307105,
+                        41.676617
+                    ]
                 ]
             },
             "properties": {
@@ -43032,7 +44474,11 @@
                 "street_address": "425 Attucks Lane",
                 "city": "Hyannis",
                 "state": "MA",
-                "zip_code": "02601"
+                "zip_code": "02601",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -43899,10 +45345,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.495236,
-                    41.757246
+                    [
+                        -70.495236,
+                        41.757246
+                    ]
                 ]
             },
             "properties": {
@@ -43918,7 +45366,11 @@
                 "street_address": "165 Main Street",
                 "city": "Sandwich",
                 "state": "MA",
-                "zip_code": "02563"
+                "zip_code": "02563",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -44390,10 +45842,24 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.292633,
-                    42.556087
+                    [
+                        -73.292633,
+                        42.556087
+                    ],
+                    [
+                        -73.292633,
+                        42.556087
+                    ],
+                    [
+                        -73.292633,
+                        42.556087
+                    ],
+                    [
+                        -73.292633,
+                        42.556087
+                    ]
                 ]
             },
             "properties": {
@@ -44405,7 +45871,11 @@
                 "street_address": "37 Corey Road",
                 "city": "Hancock",
                 "state": "MA",
-                "zip_code": "01237"
+                "zip_code": "01237",
+                "charging_points:count": 4,
+                "charging_points:capacity": "1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -44436,10 +45906,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.2404,
-                    42.44833
+                    [
+                        -73.2404,
+                        42.44833
+                    ]
                 ]
             },
             "properties": {
@@ -44450,7 +45922,11 @@
                 "street_address": "694 East Street",
                 "city": "Pittsfield",
                 "state": "MA",
-                "zip_code": "01201"
+                "zip_code": "01201",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -45212,10 +46688,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.060704,
-                    42.357345
+                    [
+                        -71.060704,
+                        42.357345
+                    ],
+                    [
+                        -71.060704,
+                        42.357345
+                    ]
                 ]
             },
             "properties": {
@@ -45231,7 +46713,11 @@
                 "street_address": "90 Tremont Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02108"
+                "zip_code": "02108",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -47212,10 +48698,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.274941,
-                    42.298432
+                    [
+                        -73.274941,
+                        42.298432
+                    ],
+                    [
+                        -73.274941,
+                        42.298432
+                    ]
                 ]
             },
             "properties": {
@@ -47227,7 +48719,11 @@
                 "street_address": "Lee Westbound Massachusetts Turnpike",
                 "city": "Lee",
                 "state": "MA",
-                "zip_code": "01238"
+                "zip_code": "01238",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
@@ -47277,10 +48773,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.277352,
-                    42.377028
+                    [
+                        -73.277355,
+                        42.377065
+                    ],
+                    [
+                        -73.277355,
+                        42.377065
+                    ],
+                    [
+                        -73.277355,
+                        42.377065
+                    ],
+                    [
+                        -73.277355,
+                        42.377065
+                    ],
+                    [
+                        -73.277355,
+                        42.377065
+                    ],
+                    [
+                        -73.277355,
+                        42.377065
+                    ],
+                    [
+                        -73.277355,
+                        42.377065
+                    ],
+                    [
+                        -73.277355,
+                        42.377065
+                    ]
                 ]
             },
             "properties": {
@@ -47296,7 +48822,11 @@
                 "street_address": "55 Pittsfield Road",
                 "city": "Lenox",
                 "state": "MA",
-                "zip_code": "01240"
+                "zip_code": "01240",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -47336,10 +48866,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.744201,
-                    42.529592
+                    [
+                        -71.744201,
+                        42.529592
+                    ],
+                    [
+                        -71.744201,
+                        42.529592
+                    ],
+                    [
+                        -71.744201,
+                        42.529592
+                    ],
+                    [
+                        -71.744201,
+                        42.529592
+                    ],
+                    [
+                        -71.744201,
+                        42.529592
+                    ],
+                    [
+                        -71.744201,
+                        42.529592
+                    ],
+                    [
+                        -71.744201,
+                        42.529592
+                    ],
+                    [
+                        -71.744201,
+                        42.529592
+                    ]
                 ]
             },
             "properties": {
@@ -47358,16 +48918,50 @@
                 "street_address": "100 Commercial Road",
                 "city": "Leominster",
                 "state": "MA",
-                "zip_code": "01453;01453-3333"
+                "zip_code": "01453;01453-3333",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.258002,
-                    42.439687
+                    [
+                        -71.257964,
+                        42.439688
+                    ],
+                    [
+                        -71.257964,
+                        42.439688
+                    ],
+                    [
+                        -71.257964,
+                        42.439688
+                    ],
+                    [
+                        -71.257964,
+                        42.439688
+                    ],
+                    [
+                        -71.257964,
+                        42.439688
+                    ],
+                    [
+                        -71.257964,
+                        42.439688
+                    ],
+                    [
+                        -71.257964,
+                        42.439688
+                    ],
+                    [
+                        -71.257964,
+                        42.439688
+                    ]
                 ]
             },
             "properties": {
@@ -47386,7 +48980,11 @@
                 "street_address": "690 Marrett Road",
                 "city": "Lexington",
                 "state": "MA",
-                "zip_code": "02421"
+                "zip_code": "02421",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -47832,10 +49430,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.032486,
-                    42.516588
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ],
+                    [
+                        -71.03219,
+                        42.516588
+                    ]
                 ]
             },
             "properties": {
@@ -47851,7 +49495,11 @@
                 "street_address": "600 Market Street;MarketStreet Lynnfield, 600 Market Street",
                 "city": "Lynnfield",
                 "state": "MA",
-                "zip_code": "01940"
+                "zip_code": "01940",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -55098,10 +56746,72 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.562282,
-                    41.80452
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ],
+                    [
+                        -72.562282,
+                        41.80452
+                    ]
                 ]
             },
             "properties": {
@@ -55113,16 +56823,34 @@
                 "street_address": "1470 Pleasant Valley Road",
                 "city": "Manchester",
                 "state": "CT",
-                "zip_code": "06042-8764"
+                "zip_code": "06042-8764",
+                "charging_points:count": 16,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.082246,
-                    42.348522
+                    [
+                        -71.082246,
+                        42.348522
+                    ],
+                    [
+                        -71.082246,
+                        42.348522
+                    ],
+                    [
+                        -71.082246,
+                        42.348522
+                    ],
+                    [
+                        -71.082246,
+                        42.348522
+                    ]
                 ]
             },
             "properties": {
@@ -55134,7 +56862,11 @@
                 "street_address": "776 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02199"
+                "zip_code": "02199",
+                "charging_points:count": 4,
+                "charging_points:capacity": "1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -55162,10 +56894,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.231341,
-                    42.013473
+                    [
+                        -71.231341,
+                        42.013473
+                    ],
+                    [
+                        -71.231341,
+                        42.013473
+                    ],
+                    [
+                        -71.231341,
+                        42.013473
+                    ],
+                    [
+                        -71.231341,
+                        42.013473
+                    ],
+                    [
+                        -71.231341,
+                        42.013473
+                    ],
+                    [
+                        -71.231341,
+                        42.013473
+                    ],
+                    [
+                        -71.231341,
+                        42.013473
+                    ],
+                    [
+                        -71.231341,
+                        42.013473
+                    ]
                 ]
             },
             "properties": {
@@ -55184,7 +56946,11 @@
                 "street_address": "280 School Street",
                 "city": "Mansfield",
                 "state": "MA",
-                "zip_code": "02048"
+                "zip_code": "02048",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -55302,10 +57068,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.767426,
-                    41.702491
+                    [
+                        -70.767426,
+                        41.702491
+                    ],
+                    [
+                        -70.767426,
+                        41.702491
+                    ]
                 ]
             },
             "properties": {
@@ -55316,7 +57088,11 @@
                 "street_address": "2 Spring Street",
                 "city": "Marion",
                 "state": "MA",
-                "zip_code": "02738"
+                "zip_code": "02738",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -55463,6 +57239,46 @@
                     [
                         -70.488589,
                         41.617461
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
+                    ],
+                    [
+                        -70.488139,
+                        41.617554
                     ]
                 ]
             },
@@ -55483,10 +57299,10 @@
                 "city": "Mashpee",
                 "state": "MA",
                 "zip_code": "02649",
-                "charging_points:count": 9,
-                "charging_points:capacity": "0;0;0;0;0;0;0;0;0",
-                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0",
-                "charging_points:plugs_type": ""
+                "charging_points:count": 19,
+                "charging_points:capacity": "0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -56241,10 +58057,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.011808,
-                    42.666765
+                    [
+                        -72.011808,
+                        42.666765
+                    ]
                 ]
             },
             "properties": {
@@ -56256,16 +58074,26 @@
                 "street_address": "664 Spring Street",
                 "city": "Wincherdon",
                 "state": "MA",
-                "zip_code": "01475"
+                "zip_code": "01475",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.110509,
-                    41.746309
+                    [
+                        -71.110509,
+                        41.746309
+                    ],
+                    [
+                        -71.110509,
+                        41.746309
+                    ]
                 ]
             },
             "properties": {
@@ -56277,7 +58105,11 @@
                 "street_address": "925 Airport Road",
                 "city": "Fall River",
                 "state": "MA",
-                "zip_code": "02720"
+                "zip_code": "02720",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -56636,10 +58468,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.886343,
-                    42.5622
+                    [
+                        -70.886343,
+                        42.5622
+                    ],
+                    [
+                        -70.886343,
+                        42.5622
+                    ]
                 ]
             },
             "properties": {
@@ -56650,7 +58488,11 @@
                 "street_address": "North Garage, Cummings Center",
                 "city": "Beverly",
                 "state": "MA",
-                "zip_code": "01915"
+                "zip_code": "01915",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -56679,10 +58521,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.903909,
-                    42.547769
+                    [
+                        -70.903909,
+                        42.547769
+                    ],
+                    [
+                        -70.903909,
+                        42.547769
+                    ]
                 ]
             },
             "properties": {
@@ -56693,7 +58541,11 @@
                 "street_address": "Cummings Center",
                 "city": "Beverly ",
                 "state": "MA",
-                "zip_code": "01915"
+                "zip_code": "01915",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -57029,10 +58881,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.055775,
-                    42.360823
+                    [
+                        -71.055775,
+                        42.360823
+                    ]
                 ]
             },
             "properties": {
@@ -57044,7 +58898,11 @@
                 "street_address": "25 North Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02109"
+                "zip_code": "02109",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -57132,10 +58990,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.598013,
-                    41.880154
+                    [
+                        -70.598013,
+                        41.880154
+                    ],
+                    [
+                        -70.598013,
+                        41.880154
+                    ]
                 ]
             },
             "properties": {
@@ -57151,7 +59015,11 @@
                 "street_address": "35 Landmark Drive",
                 "city": "Plymouth",
                 "state": "MA",
-                "zip_code": "02360"
+                "zip_code": "02360",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -60064,10 +61932,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.338304,
-                    42.285719
+                    [
+                        -71.338304,
+                        42.285719
+                    ],
+                    [
+                        -71.338304,
+                        42.285719
+                    ]
                 ]
             },
             "properties": {
@@ -60078,7 +61952,11 @@
                 "street_address": "117 East Central Street",
                 "city": "Natick",
                 "state": "MA",
-                "zip_code": "01760"
+                "zip_code": "01760",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -60245,10 +62123,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.364245,
-                    42.311758
+                    [
+                        -71.364245,
+                        42.311758
+                    ],
+                    [
+                        -71.364245,
+                        42.311758
+                    ]
                 ]
             },
             "properties": {
@@ -60260,7 +62144,11 @@
                 "street_address": "I-90 E Mile Marker 118.4",
                 "city": "Natick",
                 "state": "MA",
-                "zip_code": "01760"
+                "zip_code": "01760",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
@@ -60694,10 +62582,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.278202,
-                    42.628766
+                    [
+                        -71.278202,
+                        42.628766
+                    ]
                 ]
             },
             "properties": {
@@ -60709,7 +62599,11 @@
                 "street_address": "777 Rogers Street",
                 "city": "Lowell",
                 "state": "MA",
-                "zip_code": "01852"
+                "zip_code": "01852",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -60786,10 +62680,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.331034,
-                    41.79915
+                    [
+                        -71.33102,
+                        41.799153
+                    ],
+                    [
+                        -71.33102,
+                        41.799153
+                    ],
+                    [
+                        -71.33102,
+                        41.799153
+                    ],
+                    [
+                        -71.33102,
+                        41.799153
+                    ],
+                    [
+                        -71.33102,
+                        41.799153
+                    ],
+                    [
+                        -71.33102,
+                        41.799153
+                    ],
+                    [
+                        -71.33102,
+                        41.799153
+                    ],
+                    [
+                        -71.33102,
+                        41.799153
+                    ]
                 ]
             },
             "properties": {
@@ -60805,7 +62729,11 @@
                 "street_address": "965 Fall River Avenue",
                 "city": "Seekonk",
                 "state": "MA",
-                "zip_code": "02771"
+                "zip_code": "02771",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -61276,10 +63204,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.322776,
-                    42.024304
+                    [
+                        -73.322776,
+                        42.024304
+                    ],
+                    [
+                        -73.322776,
+                        42.024304
+                    ],
+                    [
+                        -73.322776,
+                        42.024304
+                    ],
+                    [
+                        -73.322776,
+                        42.024304
+                    ],
+                    [
+                        -73.322776,
+                        42.024304
+                    ],
+                    [
+                        -73.322776,
+                        42.024304
+                    ],
+                    [
+                        -73.322776,
+                        42.024304
+                    ],
+                    [
+                        -73.322776,
+                        42.024304
+                    ]
                 ]
             },
             "properties": {
@@ -61291,7 +63249,11 @@
                 "street_address": "11 East Main Street",
                 "city": "North Canaan",
                 "state": "CT",
-                "zip_code": "06018"
+                "zip_code": "06018",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -62147,10 +64109,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.325016,
-                    42.173379
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ],
+                    [
+                        -72.325016,
+                        42.173379
+                    ]
                 ]
             },
             "properties": {
@@ -62166,7 +64174,11 @@
                 "street_address": "1178 Thorndike Street",
                 "city": "Palmer",
                 "state": "MA",
-                "zip_code": "01069"
+                "zip_code": "01069",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -62712,10 +64724,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -69.989599,
-                    41.916692
+                    [
+                        -69.989599,
+                        41.916692
+                    ],
+                    [
+                        -69.989599,
+                        41.916692
+                    ]
                 ]
             },
             "properties": {
@@ -62727,7 +64745,11 @@
                 "street_address": "15 Lecount Hollow Road",
                 "city": "Wellfleet",
                 "state": "MA",
-                "zip_code": "02663"
+                "zip_code": "02663",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -64741,10 +66763,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.553762,
-                    41.816225
+                    [
+                        -72.553762,
+                        41.816225
+                    ],
+                    [
+                        -72.553762,
+                        41.816225
+                    ]
                 ]
             },
             "properties": {
@@ -64756,7 +66784,11 @@
                 "street_address": "25 Cedar Avenue",
                 "city": "South Windsor",
                 "state": "CT",
-                "zip_code": "06074"
+                "zip_code": "06074",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -65141,10 +67173,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.247255,
-                    41.617703
+                    [
+                        -71.247255,
+                        41.617703
+                    ],
+                    [
+                        -71.247255,
+                        41.617703
+                    ],
+                    [
+                        -71.247255,
+                        41.617703
+                    ],
+                    [
+                        -71.247255,
+                        41.617703
+                    ],
+                    [
+                        -71.247255,
+                        41.617703
+                    ],
+                    [
+                        -71.247255,
+                        41.617703
+                    ],
+                    [
+                        -71.247255,
+                        41.617703
+                    ],
+                    [
+                        -71.247255,
+                        41.617703
+                    ]
                 ]
             },
             "properties": {
@@ -65156,7 +67218,11 @@
                 "street_address": "3302 E Main Road",
                 "city": "Portsmouth",
                 "state": "RI",
-                "zip_code": "02871"
+                "zip_code": "02871",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -65407,10 +67473,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.426899,
-                    41.828345
+                    [
+                        -71.426899,
+                        41.828345
+                    ],
+                    [
+                        -71.426899,
+                        41.828345
+                    ],
+                    [
+                        -71.426899,
+                        41.828345
+                    ],
+                    [
+                        -71.426899,
+                        41.828345
+                    ],
+                    [
+                        -71.426899,
+                        41.828345
+                    ],
+                    [
+                        -71.426899,
+                        41.828345
+                    ],
+                    [
+                        -71.426899,
+                        41.828345
+                    ],
+                    [
+                        -71.426899,
+                        41.828345
+                    ]
                 ]
             },
             "properties": {
@@ -65422,7 +67518,11 @@
                 "street_address": "288 Kinsley Avenue",
                 "city": "Providence",
                 "state": "RI",
-                "zip_code": "02903"
+                "zip_code": "02903",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -65459,10 +67559,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.10565,
-                    42.365817
+                    [
+                        -71.10565,
+                        42.365817
+                    ],
+                    [
+                        -71.10565,
+                        42.365817
+                    ]
                 ]
             },
             "properties": {
@@ -65473,16 +67579,26 @@
                 "street_address": "375 Green Street",
                 "city": "Cambridge",
                 "state": "MA",
-                "zip_code": "02139"
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.106243,
-                    42.365913
+                    [
+                        -71.106243,
+                        42.365913
+                    ],
+                    [
+                        -71.106243,
+                        42.365913
+                    ]
                 ]
             },
             "properties": {
@@ -65493,16 +67609,26 @@
                 "street_address": "400 green street",
                 "city": "cambridge",
                 "state": "MA",
-                "zip_code": "02139"
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.08856,
-                    42.372485
+                    [
+                        -71.08856,
+                        42.372485
+                    ],
+                    [
+                        -71.08856,
+                        42.372485
+                    ]
                 ]
             },
             "properties": {
@@ -65513,16 +67639,26 @@
                 "street_address": "7 Warren Street",
                 "city": "Cambridge",
                 "state": "MA",
-                "zip_code": "02139"
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.101856,
-                    42.365467
+                    [
+                        -71.101856,
+                        42.365467
+                    ],
+                    [
+                        -71.101856,
+                        42.365467
+                    ]
                 ]
             },
             "properties": {
@@ -65533,7 +67669,11 @@
                 "street_address": "84 Bishop Allen Drive",
                 "city": "Cambridge",
                 "state": "MA",
-                "zip_code": "02139"
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -69085,10 +71225,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.299322,
-                    42.464783
+                    [
+                        -71.299322,
+                        42.464783
+                    ]
                 ]
             },
             "properties": {
@@ -69104,16 +71246,66 @@
                 "street_address": "777 Virginia Road",
                 "city": "Concord",
                 "state": "MA",
-                "zip_code": "01742;07142"
+                "zip_code": "01742;07142",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.437705,
-                    41.727961
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ]
                 ]
             },
             "properties": {
@@ -69125,7 +71317,11 @@
                 "street_address": "2000 Post Road",
                 "city": "Warwick",
                 "state": "RI",
-                "zip_code": "02886"
+                "zip_code": "02886",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -69159,10 +71355,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.579451,
-                    42.172326
+                    [
+                        -72.579567,
+                        42.172384
+                    ],
+                    [
+                        -72.579567,
+                        42.172384
+                    ]
                 ]
             },
             "properties": {
@@ -69178,16 +71380,26 @@
                 "street_address": "500 Memorial Drive",
                 "city": "Chicopee",
                 "state": "MA",
-                "zip_code": "01020"
+                "zip_code": "01020",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.154901,
-                    42.36291
+                    [
+                        -71.154901,
+                        42.36291
+                    ],
+                    [
+                        -71.154901,
+                        42.36291
+                    ]
                 ]
             },
             "properties": {
@@ -69198,7 +71410,11 @@
                 "street_address": "570 Arsenal Street",
                 "city": "Watertown",
                 "state": "MA",
-                "zip_code": "02472"
+                "zip_code": "02472",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -69273,10 +71489,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.000222,
-                    42.398457
+                    [
+                        -71.000222,
+                        42.398457
+                    ],
+                    [
+                        -71.000222,
+                        42.398457
+                    ],
+                    [
+                        -71.000222,
+                        42.398457
+                    ],
+                    [
+                        -71.000222,
+                        42.398457
+                    ],
+                    [
+                        -71.000222,
+                        42.398457
+                    ],
+                    [
+                        -71.000222,
+                        42.398457
+                    ],
+                    [
+                        -71.000222,
+                        42.398457
+                    ],
+                    [
+                        -71.000222,
+                        42.398457
+                    ]
                 ]
             },
             "properties": {
@@ -69295,7 +71541,11 @@
                 "street_address": "40 Furling Drive;40 Furlong Drive",
                 "city": "Revere",
                 "state": "MA",
-                "zip_code": "02151"
+                "zip_code": "02151",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -69477,10 +71727,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.621436,
-                    42.130903
+                    [
+                        -72.621435,
+                        42.130914
+                    ],
+                    [
+                        -72.621435,
+                        42.130914
+                    ],
+                    [
+                        -72.621435,
+                        42.130914
+                    ],
+                    [
+                        -72.621435,
+                        42.130914
+                    ],
+                    [
+                        -72.621435,
+                        42.130914
+                    ],
+                    [
+                        -72.621435,
+                        42.130914
+                    ],
+                    [
+                        -72.621435,
+                        42.130914
+                    ],
+                    [
+                        -72.621435,
+                        42.130914
+                    ]
                 ]
             },
             "properties": {
@@ -69499,7 +71779,11 @@
                 "street_address": "935 Riverdale Street",
                 "city": "West Springfield",
                 "state": "MA",
-                "zip_code": "01089"
+                "zip_code": "01089",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -73838,10 +76122,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.18499,
-                    42.052869
+                    [
+                        -70.184988,
+                        42.052871
+                    ],
+                    [
+                        -70.184988,
+                        42.052871
+                    ]
                 ]
             },
             "properties": {
@@ -73857,7 +76147,11 @@
                 "street_address": "336 Commercial Street",
                 "city": "Provincetown",
                 "state": "MA",
-                "zip_code": "02494;02657"
+                "zip_code": "02494;02657",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -74187,10 +76481,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.084324,
-                    42.346346
+                    [
+                        -71.084324,
+                        42.346346
+                    ]
                 ]
             },
             "properties": {
@@ -74202,7 +76498,11 @@
                 "street_address": "39 Dalton Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02199"
+                "zip_code": "02199",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -74616,10 +76916,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.086016,
-                    42.390558
+                    [
+                        -71.086001,
+                        42.390584
+                    ],
+                    [
+                        -71.086001,
+                        42.390584
+                    ],
+                    [
+                        -71.086001,
+                        42.390584
+                    ],
+                    [
+                        -71.086001,
+                        42.390584
+                    ],
+                    [
+                        -71.086001,
+                        42.390584
+                    ],
+                    [
+                        -71.086001,
+                        42.390584
+                    ],
+                    [
+                        -71.086001,
+                        42.390584
+                    ],
+                    [
+                        -71.086001,
+                        42.390584
+                    ]
                 ]
             },
             "properties": {
@@ -74638,7 +76968,11 @@
                 "street_address": "779 McGrath Highway",
                 "city": "Somerville",
                 "state": "MA",
-                "zip_code": "02145"
+                "zip_code": "02145",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -74730,10 +77064,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.022698,
-                    42.220067
+                    [
+                        -71.022698,
+                        42.220067
+                    ]
                 ]
             },
             "properties": {
@@ -74745,7 +77081,11 @@
                 "street_address": "250 Granite Street",
                 "city": "Braintree",
                 "state": "MA",
-                "zip_code": "02184"
+                "zip_code": "02184",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -76001,6 +78341,54 @@
                     [
                         -71.073103,
                         42.152811
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
+                    ],
+                    [
+                        -71.073522,
+                        42.152856
                     ]
                 ]
             },
@@ -76021,19 +78409,65 @@
                 "city": "Stoughton",
                 "state": "MA",
                 "zip_code": "02072",
-                "charging_points:count": 2,
-                "charging_points:capacity": "0;0",
-                "charging_points:plugs_count": "0;0",
-                "charging_points:plugs_type": ""
+                "charging_points:count": 14,
+                "charging_points:capacity": "0;0;1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "0;0;1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.072477,
-                    42.098532
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ],
+                    [
+                        -72.072477,
+                        42.098532
+                    ]
                 ]
             },
             "properties": {
@@ -76052,7 +78486,11 @@
                 "street_address": "196 Main Street",
                 "city": "Sturbridge",
                 "state": "MA",
-                "zip_code": "01566"
+                "zip_code": "01566",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -76246,10 +78684,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.215161,
-                    41.64002
+                    [
+                        -70.215161,
+                        41.64002
+                    ]
                 ]
             },
             "properties": {
@@ -76260,7 +78700,11 @@
                 "street_address": "107",
                 "city": "South Yarmouth",
                 "state": "MA",
-                "zip_code": "02664"
+                "zip_code": "02664",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -76289,10 +78733,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.128488,
-                    42.362905
+                    [
+                        -71.128488,
+                        42.362905
+                    ]
                 ]
             },
             "properties": {
@@ -76308,7 +78754,11 @@
                 "street_address": "168 Western Avenue",
                 "city": "Allston",
                 "state": "MA",
-                "zip_code": "02134"
+                "zip_code": "02134",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -80787,10 +83237,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.137173,
-                    42.518325
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ],
+                    [
+                        -71.137173,
+                        42.518325
+                    ]
                 ]
             },
             "properties": {
@@ -80806,7 +83302,11 @@
                 "street_address": "101 Commerce Way",
                 "city": "Woburn",
                 "state": "MA",
-                "zip_code": "01801"
+                "zip_code": "01801",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -81313,10 +83813,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.594347,
-                    41.631265
+                    [
+                        -70.594347,
+                        41.631265
+                    ],
+                    [
+                        -70.594347,
+                        41.631265
+                    ]
                 ]
             },
             "properties": {
@@ -81328,7 +83834,11 @@
                 "street_address": "132 Falmouth Woods Road",
                 "city": "Falmouth",
                 "state": "MA",
-                "zip_code": "02536"
+                "zip_code": "02536",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -81380,10 +83890,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.506501,
-                    41.392403
+                    [
+                        -70.506501,
+                        41.392403
+                    ]
                 ]
             },
             "properties": {
@@ -81399,7 +83911,11 @@
                 "street_address": "131 N Water Street",
                 "city": "Edgartown",
                 "state": "MA",
-                "zip_code": "02539"
+                "zip_code": "02539",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -81476,10 +83992,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.291938,
-                    42.298782
+                    [
+                        -73.291938,
+                        42.298782
+                    ]
                 ]
             },
             "properties": {
@@ -81496,7 +84014,11 @@
                 "street_address": "30 East Street",
                 "city": "Lee",
                 "state": "MA",
-                "zip_code": "01238"
+                "zip_code": "01238",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -81580,10 +84102,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.079428,
-                    42.349218
+                    [
+                        -71.079428,
+                        42.349218
+                    ],
+                    [
+                        -71.079428,
+                        42.349218
+                    ]
                 ]
             },
             "properties": {
@@ -81595,7 +84123,11 @@
                 "street_address": "61 Exeter Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02116"
+                "zip_code": "02116",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -81650,10 +84182,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.19066,
-                    42.705282
+                    [
+                        -73.190569,
+                        42.705346
+                    ],
+                    [
+                        -73.190569,
+                        42.705346
+                    ]
                 ]
             },
             "properties": {
@@ -81669,16 +84207,26 @@
                 "street_address": "222 Adams Road",
                 "city": "Williamstown",
                 "state": "MA",
-                "zip_code": "01267"
+                "zip_code": "01267",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.620314,
-                    41.555599
+                    [
+                        -70.620018,
+                        41.555643
+                    ],
+                    [
+                        -70.620018,
+                        41.555643
+                    ]
                 ]
             },
             "properties": {
@@ -81694,7 +84242,11 @@
                 "street_address": "81 Palmer Avenue",
                 "city": "Falmouth",
                 "state": "MA",
-                "zip_code": "02540"
+                "zip_code": "02540",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -81724,10 +84276,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.556316,
-                    41.812335
+                    [
+                        -72.556316,
+                        41.812335
+                    ]
                 ]
             },
             "properties": {
@@ -81739,7 +84293,11 @@
                 "street_address": "401 Evergreen Wy",
                 "city": "South Windsor",
                 "state": "CT",
-                "zip_code": "06074"
+                "zip_code": "06074",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -81825,10 +84383,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.173618,
-                    42.321902
+                    [
+                        -71.173618,
+                        42.321902
+                    ]
                 ]
             },
             "properties": {
@@ -81840,7 +84400,11 @@
                 "street_address": "199 Boylston Street",
                 "city": "Chestnut Hill",
                 "state": "MA",
-                "zip_code": "02467"
+                "zip_code": "02467",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -81921,10 +84485,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.313498,
-                    41.48793
+                    [
+                        -71.313498,
+                        41.48793
+                    ]
                 ]
             },
             "properties": {
@@ -81936,16 +84502,42 @@
                 "street_address": "41 Mary Street",
                 "city": "Newport",
                 "state": "RI",
-                "zip_code": "02840"
+                "zip_code": "02840",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.542489,
-                    41.801169
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ]
                 ]
             },
             "properties": {
@@ -81957,7 +84549,11 @@
                 "street_address": "1500 Horizon Way",
                 "city": "Manchester",
                 "state": "CT",
-                "zip_code": "06042"
+                "zip_code": "06042",
+                "charging_points:count": 6,
+                "charging_points:capacity": "1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -82038,10 +84634,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.077525,
-                    42.348627
+                    [
+                        -71.077525,
+                        42.348627
+                    ]
                 ]
             },
             "properties": {
@@ -82057,16 +84655,26 @@
                 "street_address": "10 Huntington Avenue",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02116"
+                "zip_code": "02116",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.11741,
-                    41.289031
+                    [
+                        -70.117227,
+                        41.289237
+                    ],
+                    [
+                        -70.117227,
+                        41.289237
+                    ]
                 ]
             },
             "properties": {
@@ -82082,7 +84690,11 @@
                 "street_address": "10 Westmoor Lane",
                 "city": "Nantucket",
                 "state": "MA",
-                "zip_code": "02554"
+                "zip_code": "02554",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -82792,10 +85404,20 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.012764,
-                    42.136247
+                    [
+                        -72.012656,
+                        42.136299
+                    ],
+                    [
+                        -72.012656,
+                        42.136299
+                    ],
+                    [
+                        -72.012656,
+                        42.136299
+                    ]
                 ]
             },
             "properties": {
@@ -82815,7 +85437,11 @@
                 "street_address": "129 Sturbridge Road",
                 "city": "Charlton",
                 "state": "MA",
-                "zip_code": "01507"
+                "zip_code": "01507",
+                "charging_points:count": 3,
+                "charging_points:capacity": "1;1;1",
+                "charging_points:plugs_count": "1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -82846,10 +85472,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.152761,
-                    42.18493
+                    [
+                        -71.152761,
+                        42.18493
+                    ],
+                    [
+                        -71.152761,
+                        42.18493
+                    ]
                 ]
             },
             "properties": {
@@ -82861,7 +85493,11 @@
                 "street_address": "110 Shawmut Street",
                 "city": "Canton",
                 "state": "MA",
-                "zip_code": "02021"
+                "zip_code": "02021",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -82939,10 +85575,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.223549,
-                    42.770714
+                    [
+                        -71.223549,
+                        42.770714
+                    ]
                 ]
             },
             "properties": {
@@ -82954,7 +85592,11 @@
                 "street_address": "9 Via Toscana",
                 "city": "Salem",
                 "state": "NY",
-                "zip_code": "03079"
+                "zip_code": "03079",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
         {
@@ -85405,10 +88047,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.28997,
-                    42.564478
+                    [
+                        -73.28997,
+                        42.564478
+                    ],
+                    [
+                        -73.28997,
+                        42.564478
+                    ]
                 ]
             },
             "properties": {
@@ -85420,7 +88068,11 @@
                 "street_address": "276 Brodie Mountain Road",
                 "city": "Hancock",
                 "state": "MA",
-                "zip_code": "01237"
+                "zip_code": "01237",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -85571,10 +88223,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.495841,
-                    41.831076
+                    [
+                        -72.495841,
+                        41.831076
+                    ],
+                    [
+                        -72.495841,
+                        41.831076
+                    ],
+                    [
+                        -72.495841,
+                        41.831076
+                    ],
+                    [
+                        -72.495841,
+                        41.831076
+                    ],
+                    [
+                        -72.495841,
+                        41.831076
+                    ],
+                    [
+                        -72.495841,
+                        41.831076
+                    ],
+                    [
+                        -72.495841,
+                        41.831076
+                    ],
+                    [
+                        -72.495841,
+                        41.831076
+                    ]
                 ]
             },
             "properties": {
@@ -85586,7 +88268,11 @@
                 "street_address": "145 Talcottville Road",
                 "city": "Vernon",
                 "state": "CT",
-                "zip_code": "06066"
+                "zip_code": "06066",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -85693,10 +88379,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.065575,
-                    42.350815
+                    [
+                        -71.065575,
+                        42.350815
+                    ]
                 ]
             },
             "properties": {
@@ -85712,7 +88400,11 @@
                 "street_address": "100 Stuart Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02116"
+                "zip_code": "02116",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -88300,10 +90992,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.285101,
-                    42.356323
+                    [
+                        -73.285101,
+                        42.356323
+                    ],
+                    [
+                        -73.285101,
+                        42.356323
+                    ]
                 ]
             },
             "properties": {
@@ -88314,7 +91012,11 @@
                 "street_address": "6 Walker Street",
                 "city": "Lenox",
                 "state": "MA",
-                "zip_code": "01242"
+                "zip_code": "01242",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -88529,10 +91231,56 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -70.744046,
-                    41.774457
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ],
+                    [
+                        -70.743851,
+                        41.774509
+                    ]
                 ]
             },
             "properties": {
@@ -88548,7 +91296,11 @@
                 "street_address": "2421 Cranberry HIghway;2421 Cranberry Highway;Wareham Crossing, 2421 Cranberry Highway",
                 "city": "Wareham",
                 "state": "MA",
-                "zip_code": "02571"
+                "zip_code": "02571",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -88602,10 +91354,40 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.492424,
-                    41.664299
+                    [
+                        -71.492424,
+                        41.664299
+                    ],
+                    [
+                        -71.492424,
+                        41.664299
+                    ],
+                    [
+                        -71.492424,
+                        41.664299
+                    ],
+                    [
+                        -71.492424,
+                        41.664299
+                    ],
+                    [
+                        -71.492424,
+                        41.664299
+                    ],
+                    [
+                        -71.492424,
+                        41.664299
+                    ],
+                    [
+                        -71.492424,
+                        41.664299
+                    ],
+                    [
+                        -71.492424,
+                        41.664299
+                    ]
                 ]
             },
             "properties": {
@@ -88617,16 +91399,50 @@
                 "street_address": "1149 Division Street",
                 "city": "Warwick",
                 "state": "RI",
-                "zip_code": "02818"
+                "zip_code": "02818",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.436149,
-                    41.732853
+                    [
+                        -71.436149,
+                        41.732853
+                    ],
+                    [
+                        -71.436149,
+                        41.732853
+                    ],
+                    [
+                        -71.436149,
+                        41.732853
+                    ],
+                    [
+                        -71.436149,
+                        41.732853
+                    ],
+                    [
+                        -71.436149,
+                        41.732853
+                    ],
+                    [
+                        -71.436149,
+                        41.732853
+                    ],
+                    [
+                        -71.436149,
+                        41.732853
+                    ],
+                    [
+                        -71.436149,
+                        41.732853
+                    ]
                 ]
             },
             "properties": {
@@ -88638,7 +91454,11 @@
                 "street_address": "1776 Post Road",
                 "city": "Warwick",
                 "state": "RI",
-                "zip_code": "02888"
+                "zip_code": "02888",
+                "charging_points:count": 8,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -88752,10 +91572,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.386504,
-                    42.301379
+                    [
+                        -71.386504,
+                        42.301379
+                    ]
                 ]
             },
             "properties": {
@@ -88766,16 +91588,22 @@
                 ],
                 "street_address": "Natick Mall Road",
                 "city": "Natick",
-                "state": "MA"
+                "state": "MA",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.385618,
-                    42.302631
+                    [
+                        -71.385618,
+                        42.302631
+                    ]
                 ]
             },
             "properties": {
@@ -88787,7 +91615,11 @@
                 "street_address": "Natick Mall Road",
                 "city": "Natick",
                 "state": "MA",
-                "zip_code": "01760"
+                "zip_code": "01760",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -89023,10 +91855,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -69.997152,
-                    41.722223
+                    [
+                        -69.997152,
+                        41.722223
+                    ],
+                    [
+                        -69.997152,
+                        41.722223
+                    ]
                 ]
             },
             "properties": {
@@ -89038,7 +91876,11 @@
                 "street_address": "2173 Ma-28",
                 "city": "Harwich",
                 "state": "MA",
-                "zip_code": "02645"
+                "zip_code": "02645",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -89654,10 +92496,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.289691,
-                    42.557174
+                    [
+                        -73.289691,
+                        42.557174
+                    ],
+                    [
+                        -73.289691,
+                        42.557174
+                    ]
                 ]
             },
             "properties": {
@@ -89668,7 +92516,11 @@
                 "street_address": "Mountainside Drive",
                 "city": "Hancock",
                 "state": "MA",
-                "zip_code": "01237"
+                "zip_code": "01237",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {

@@ -619,7 +619,7 @@ def osm_parse_charging_point(osm_element) -> ChargingPoint:
     charging_point_location = Location(latitude=osm_element["lat"], longitude=osm_element["lon"])
     charging_point.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), charging_point_location))
 
-    socket_counts: dict[str, int] = {}
+    socket_counts: dict[PlugType, int] = {}
 
     for tag_name, tag_value in osm_tags.items():
         if not tag_name.startswith("socket:"):
@@ -630,32 +630,65 @@ def osm_parse_charging_point(osm_element) -> ChargingPoint:
 
         _, socket_type = tag_name.split(":")
 
-        socket_counts[socket_type] = int(tag_value)
+        socket_counts[OSM_SOCKETS_TO_PLUGS[socket_type]] = int(tag_value)
 
     charging_point_capacity = int(osm_tags.get("capacity", 1))
-    charging_port_groups = []
-
-    if sum(socket_counts.values()) == charging_point_capacity:
-        for socket_type, socket_count in socket_counts.items():
-            for _ in range(socket_count):
-                charging_port_group = ChargingPortGroup(
-                    charging_ports=[ChargingPort(plug=OSM_SOCKETS_TO_PLUGS[socket_type])]
-                )
-                charging_port_groups.append(charging_port_group)
-    elif charging_point_capacity == 1 and socket_counts:
-        charging_port_group = ChargingPortGroup()
-
-        for socket_type in socket_counts.keys():
-            charging_port = ChargingPort(plug=OSM_SOCKETS_TO_PLUGS[socket_type])
-            charging_port_group.charging_ports.append(charging_port)
-
-        charging_port_groups.append(charging_port_group)
-    elif charging_point_capacity and socket_counts:
-        print("Uneven sockets to capacity detected:", charging_point_capacity, socket_counts, osm_element)
+    charging_port_groups = guess_charging_port_groups(charging_point_capacity, socket_counts)
 
     charging_point.charging_port_groups = charging_port_groups
 
     return charging_point
+
+
+def guess_charging_port_groups(capacity: int, plug_counts: dict[PlugType, int]) -> list[ChargingPortGroup]:
+    charging_port_groups = []
+
+    if sum(plug_counts.values()) == capacity:
+        for socket_type, socket_count in plug_counts.items():
+            for _ in range(socket_count):
+                charging_port_group = ChargingPortGroup(
+                    charging_ports=[ChargingPort(plug=socket_type)]
+                )
+                charging_port_groups.append(charging_port_group)
+    elif capacity == 1 and plug_counts:
+        charging_port_group = ChargingPortGroup()
+
+        for socket_type in plug_counts.keys():
+            charging_port = ChargingPort(plug=socket_type)
+            charging_port_group.charging_ports.append(charging_port)
+
+        charging_port_groups.append(charging_port_group)
+    elif capacity and plug_counts:
+        print("Uneven plugs to capacity detected:", capacity, plug_counts, osm_element)
+
+    return charging_port_groups
+
+
+def guess_charging_point_groups(capacity: int, plug_counts: dict[PlugType, int]) -> list[ChargingPoint]:
+    charging_points = []
+
+    if sum(plug_counts.values()) == capacity:
+        for socket_type, socket_count in plug_counts.items():
+            for _ in range(socket_count):
+                charging_port_group = ChargingPortGroup(
+                    charging_ports=[ChargingPort(plug=socket_type)]
+                )
+                charging_point = ChargingPoint(charging_port_groups=[charging_port_group])
+                charging_points.append(charging_point)
+    elif capacity == 1 and plug_counts:
+        charging_port_group = ChargingPortGroup()
+
+        for socket_type in plug_counts.keys():
+            charging_port = ChargingPort(plug=socket_type)
+            charging_port_group.charging_ports.append(charging_port)
+
+        charging_point = ChargingPoint(charging_port_groups=[charging_port_group])
+
+        charging_points.append(charging_point)
+    elif capacity and plug_counts:
+        print("Uneven plugs to capacity detected:", capacity, plug_counts)
+
+    return charging_points
 
 
 def normalize_osm_data(osm_raw_data) -> list[Station]:
@@ -758,6 +791,18 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         3620: None, # Livingston Charge Port / solution.energy
     }
 
+    OCM_CONNECTION_TYPE_TO_PLUG_MAP = {
+        1: PlugType.J1772,
+        2: PlugType.CHADEMO,
+        27: PlugType.NACS,
+        30: PlugType.NACS,
+        32: PlugType.J1772_COMBO,
+
+        0: None, # Unspecified
+        9: None, # NEMA 5-20R
+        22: None, # NEMA 5-15R
+    }
+
     OCM_LONG_STATE_TO_SHORT_MAP = {
         "berkshire": None,
         "california": "CA",
@@ -806,6 +851,26 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         if station.network == ChargingNetwork.TESLA_SUPERCHARGER:
             if ocm_station["Connections"][0]["CurrentTypeID"] == 10:
                 station.network = ChargingNetwork.TESLA_DESTINATION
+
+        plug_counts: dict[PlugType, int] = {}
+        charge_point_count = ocm_station.get("NumberOfPoints")
+
+        for ocm_connection in ocm_station["Connections"]:
+            plug_type = OCM_CONNECTION_TYPE_TO_PLUG_MAP[ocm_connection["ConnectionTypeID"]]
+
+            if not plug_type:
+                continue
+
+            if plug_type not in plug_counts:
+                plug_counts[plug_type] = 0
+
+            plug_counts[plug_type] += ocm_connection.get("Quantity", 1)
+
+        if ocm_station["DataProviderID"] != 2 and charge_point_count:
+            station.charging_points = guess_charging_point_groups(charge_point_count, plug_counts)
+
+        for charging_point in station.charging_points:
+            charging_point.location = station.location
 
         stations.append(station)
 

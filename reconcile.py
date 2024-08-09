@@ -914,6 +914,14 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
 
 
 def normalize_supercharge_data(supercharge_raw_data) -> list[Station]:
+    SC_PLUG_TYPE_TO_PLUG_MAP = {
+        "ccs1": PlugType.J1772_COMBO,
+        "nacs": PlugType.NACS,
+        "tpc": PlugType.NACS,
+
+        "multi": None,
+    }
+
     stations = []
 
     for sc_station in supercharge_raw_data:
@@ -946,6 +954,22 @@ def normalize_supercharge_data(supercharge_raw_data) -> list[Station]:
         station.city.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), station_address["city"]))
         station.state.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), station_address["state"]))
         station.zip_code.set(SourcedValue(SourceData(SourceLocation.SUPERCHARGE, sc_station["id"]), station_address["zip"]))
+
+        capacity = sc_station["stallCount"]
+        plug_counts: dict[PlugType, int] = {}
+
+        for plug_key, count in sc_station["plugs"].items():
+            plug_type = SC_PLUG_TYPE_TO_PLUG_MAP[plug_key]
+
+            if not plug_type:
+                continue
+
+            plug_counts[plug_type] = count
+
+        station.charging_points = guess_charging_point_groups(capacity, plug_counts)
+
+        for charging_point in station.charging_points:
+            charging_point.location = station.location
 
         stations.append(station)
 

@@ -650,6 +650,8 @@ def osm_parse_charging_point(osm_element) -> ChargingPoint:
             charging_port_group.charging_ports.append(charging_port)
 
         charging_port_groups.append(charging_port_group)
+    elif charging_point_capacity and socket_counts:
+        print("Uneven sockets to capacity detected:", charging_point_capacity, socket_counts, osm_element)
 
     charging_point.charging_port_groups = charging_port_groups
 

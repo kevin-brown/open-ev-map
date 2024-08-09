@@ -186,8 +186,6 @@ def get_station_distance(first_station: Station, second_station: Station) -> dis
 def merge_stations(first_station: Station, second_station: Station) -> Station:
     combined_station = Station()
 
-    combined_station.charging_points = [*first_station.charging_points, *second_station.charging_points]
-
     combined_station.name.extend(first_station.name)
     combined_station.name.extend(second_station.name)
 
@@ -227,7 +225,35 @@ def merge_stations(first_station: Station, second_station: Station) -> Station:
 
         combined_station.network = second_station.network
 
+    first_charging_points = first_station.charging_points
+    second_charging_points = second_station.charging_points
+
+    combined_station.charging_points = combine_charging_points(first_charging_points, second_charging_points)
+
     return combined_station
+
+
+def combine_charging_points(first_points: list[ChargingPoint], second_points: list[ChargingPoint]) -> list[ChargingPoint]:
+    if first_points and not second_points:
+        return first_points
+
+    if second_points and not first_points:
+        return second_points
+
+    if not first_points and not second_points:
+        return []
+
+    if len(first_points) != len(second_points):
+        return [*first_points, *second_points]
+
+    first_network_ids = set(point.network_id for point in first_points if point.network_id)
+    second_network_ids = set(point.network_id for point in second_points if point.network_id)
+
+    if first_network_ids or second_network_ids:
+        if first_network_ids != second_network_ids:
+            return [*first_points, *second_points]
+
+    return first_points
 
 
 def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:

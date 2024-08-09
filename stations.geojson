@@ -9385,8 +9385,8 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.512853,
-                        42.134343
+                        -71.507887,
+                        42.1616
                     ]
                 ]
             },
@@ -25989,34 +25989,29 @@
                     [
                         -71.056511,
                         42.377312
-                    ],
-                    [
-                        -71.05651,
-                        42.3773
                     ]
                 ]
             },
             "properties": {
-                "name": "CMC 200TERMINAL 45 VINE 1;CMC 200TERMINAL 45 VINE 2;CMC 200TERMINAL 45 VINE 3;CMC 200TERMINAL 45 VINE 4;CMC 200TERMINAL 45 VINE 5",
+                "name": "CMC 200TERMINAL 45 VINE 2;CMC 200TERMINAL 45 VINE 3;CMC 200TERMINAL 45 VINE 4;CMC 200TERMINAL 45 VINE 5",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     253390,
                     253391,
                     253392,
-                    253393,
-                    255615
+                    253393
                 ],
                 "ocm_id": [
                     247313
                 ],
-                "network_id": "USCPIL2241821;USCPIL2241911;USCPIL2246761;USCPIL2247051;USCPIL2493941",
+                "network_id": "USCPIL2241821;USCPIL2246761;USCPIL2247051;USCPIL2493941",
                 "street_address": "45 Vine Street",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02129",
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;1",
-                "charging_points:plugs_count": "2;2;2;2;1",
+                "charging_points:count": 4,
+                "charging_points:capacity": "2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -28494,7 +28489,7 @@
                 "zip_code": "02462",
                 "charging_points:count": 4,
                 "charging_points:capacity": "1;1;1;1",
-                "charging_points:plugs_count": "2;2;1;1",
+                "charging_points:plugs_count": "2;2;2;2",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
@@ -49524,34 +49519,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.884662,
-                        42.049125
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "MARTYS OF DUDLEY",
-                "network": "SHELL_RECHARGE",
-                "nrel_id": [
-                    351409
-                ],
-                "network_id": "2580",
-                "street_address": "119 Main Street",
-                "city": "Dudley",
-                "state": "MA",
-                "zip_code": "01571",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.107964,
                         42.339891
                     ]
@@ -61070,9 +61037,9 @@
                 "state": "MA",
                 "zip_code": "02462",
                 "charging_points:count": 8,
-                "charging_points:capacity": "0;0;0;0;0;0;0;0",
-                "charging_points:plugs_count": "0;0;0;0;0;0;0;0",
-                "charging_points:plugs_type": ""
+                "charging_points:capacity": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -68895,33 +68862,25 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -72.601564,
-                        42.136822
-                    ]
+                    -72.601564,
+                    42.136822
                 ]
             },
             "properties": {
-                "name": "RUMBLESEAT;RUMBLESEAT RUMBLESEAT",
+                "name": "RUMBLESEAT",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    78892,
-                    161881
+                    78892
                 ],
                 "ocm_id": [
                     72305
                 ],
-                "network_id": "USCPIL160017",
                 "street_address": "482 Springfield Street",
                 "city": "Chicopee",
                 "state": "MA",
-                "zip_code": "01013",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
+                "zip_code": "01013"
             }
         },
         {
@@ -72301,36 +72260,28 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -71.101117,
-                        42.129044
-                    ]
+                    -71.10108,
+                    42.129038
                 ]
             },
             "properties": {
-                "name": "SONIC;SONIC DRIVE IN",
+                "name": "SONIC",
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     11339604242
                 ],
                 "nrel_id": [
-                    80580,
-                    161880
+                    80580
                 ],
                 "ocm_id": [
                     80336
                 ],
-                "network_id": "USCPIL160035",
                 "street_address": "630 Washington Street",
                 "city": "Stoughton",
                 "state": "MA",
-                "zip_code": "02072",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "zip_code": "02072"
             }
         },
         {

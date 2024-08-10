@@ -437,7 +437,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
                     charging_port_groups.append(charging_port_group)
 
                 charging_point = ChargingPoint(
-                    network_id=station.network_id,
+                    network_id=station.network_id.get(),
                     nrel_id=nrel_station["id"],
                     name=station.name.get(),
                     charging_port_groups=charging_port_groups,
@@ -733,6 +733,20 @@ def guess_charging_point_groups(capacity: int, plug_counts: dict[PlugType, int])
 
             charging_point = ChargingPoint(charging_port_groups=[charging_port_group])
             charging_points.append(charging_point)
+    elif all(plug_value % capacity == 0 for plug_value in plug_counts.values()):
+        for _ in enumerate(range(capacity)):
+            charging_port_groups = []
+
+            for plug_type, plug_count in plug_counts.items():
+                split_count = plug_count // capacity
+
+                for _ in enumerate(range(split_count)):
+                    charging_port = ChargingPort(plug=plug_type)
+                    charging_port_group = ChargingPortGroup(charging_ports=[charging_port])
+                    charging_port_groups.append(charging_port_group)
+
+            charging_point = ChargingPoint(charging_port_groups=charging_port_groups)
+            charging_points.append(charging_point)
     elif capacity and plug_counts:
         print("Uneven plugs to capacity detected:", capacity, plug_counts)
 
@@ -914,12 +928,17 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
             if not plug_type:
                 continue
 
+            plug_count = ocm_connection.get("Quantity", 1)
+
+            if not plug_count:
+                continue
+
             if plug_type not in plug_counts:
                 plug_counts[plug_type] = 0
 
-            plug_counts[plug_type] += ocm_connection.get("Quantity", 1)
+            plug_counts[plug_type] += plug_count
 
-        if ocm_station["DataProviderID"] != 2 and charge_point_count:
+        if ocm_station["DataProviderID"] != 2 and charge_point_count and plug_counts:
             station.charging_points = guess_charging_point_groups(charge_point_count, plug_counts)
 
         for charging_point in station.charging_points:
@@ -980,6 +999,9 @@ def normalize_supercharge_data(supercharge_raw_data) -> list[Station]:
 
             if not plug_type:
                 continue
+
+            if not count:
+                count = capacity
 
             plug_counts[plug_type] = count
 

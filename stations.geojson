@@ -13477,6 +13477,70 @@
                     [
                         -71.833059,
                         42.203734
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
+                    ],
+                    [
+                        -71.832954,
+                        42.203764
                     ]
                 ]
             },
@@ -13497,9 +13561,9 @@
                 "city": "Auburn",
                 "state": "MA",
                 "zip_code": "01501",
-                "charging_points:count": 8,
-                "charging_points:capacity": "1;1;1;1;1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1;1;1;1;1",
+                "charging_points:count": 24,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1",
                 "charging_points:plugs_type": "NACS"
             }
         },
@@ -16366,10 +16430,16 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.250391,
-                    42.458317
+                    [
+                        -73.250391,
+                        42.458317
+                    ],
+                    [
+                        -73.250391,
+                        42.458317
+                    ]
                 ]
             },
             "properties": {
@@ -16381,7 +16451,11 @@
                 "street_address": "5 Waconah Street",
                 "city": "Pittsfield",
                 "state": "MA",
-                "zip_code": "01201"
+                "zip_code": "01201",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -28691,12 +28765,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -71.501131,
-                        41.670064
-                    ]
+                    -71.501131,
+                    41.670064
                 ]
             },
             "properties": {
@@ -28707,11 +28779,7 @@
                 "street_address": "1681 Quaker Lane",
                 "city": "West Warwick",
                 "state": "RI",
-                "zip_code": "02893",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "0",
-                "charging_points:plugs_type": ""
+                "zip_code": "02893"
             }
         },
         {
@@ -59433,24 +59501,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -73.236415,
-                        42.451435
-                    ],
-                    [
-                        -73.236415,
-                        42.451435
-                    ],
-                    [
-                        -73.236415,
-                        42.451435
-                    ],
-                    [
-                        -73.236415,
-                        42.451435
-                    ]
+                    -73.236415,
+                    42.451435
                 ]
             },
             "properties": {
@@ -59461,11 +59515,7 @@
                 "street_address": "111 Silver Lake Boulevard",
                 "city": "Pittsfield",
                 "state": "MA",
-                "zip_code": "01201",
-                "charging_points:count": 4,
-                "charging_points:capacity": "1;1;1;1",
-                "charging_points:plugs_count": "0;0;0;0",
-                "charging_points:plugs_type": ""
+                "zip_code": "01201"
             }
         },
         {
@@ -76403,10 +76453,20 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.213591,
-                    42.709634
+                    [
+                        -73.213591,
+                        42.709634
+                    ],
+                    [
+                        -73.213591,
+                        42.709634
+                    ],
+                    [
+                        -73.213591,
+                        42.709634
+                    ]
                 ]
             },
             "properties": {
@@ -76418,7 +76478,11 @@
                 "street_address": "Sabin Drive",
                 "city": "Williamstown",
                 "state": "MA",
-                "zip_code": "01267"
+                "zip_code": "01267",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {

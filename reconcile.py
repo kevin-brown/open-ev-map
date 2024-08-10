@@ -79,6 +79,12 @@ class SourcedValue[T](NamedTuple):
     source: SourceData
     value: T
 
+    def __eq__(self, other):
+        if not isinstance(other, SourcedValue):
+            return False
+
+        return other.value == self.value
+
 
 class SourcedAttribute[T]:
     values: set[SourcedValue[T]]
@@ -1101,6 +1107,22 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
     return combined_stations
 
 
+def station_ids_match(first_station: Station, second_station: Station) -> bool:
+    if (first_osm := first_station.osm_id.get()) and (second_osm := second_station.osm_id.get()):
+        if set(first_osm) & set(second_osm):
+            return True
+
+    if (first_ocm := first_station.ocm_id.get()) and (second_ocm := second_station.ocm_id.get()):
+        if set(first_ocm) & set(second_ocm):
+            return True
+
+    if (first_nrel := first_station.nrel_id.get()) and (second_nrel := second_station.nrel_id.get()):
+        if set(first_nrel) & set(second_nrel):
+            return True
+
+    return False
+
+
 def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station]:
     combined_stations = []
 
@@ -1115,21 +1137,7 @@ def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station
             if getattr(other_station, "matched_ids", False):
                 continue
 
-            matched = False
-
-            if station.osm_id.get() and other_station.osm_id.get():
-                if set(station.osm_id.get()) & set(other_station.osm_id.get()):
-                    matched = True
-
-            if station.ocm_id.get() and other_station.ocm_id.get():
-                if set(station.ocm_id.get()) & set(other_station.ocm_id.get()):
-                    matched = True
-
-            if station.nrel_id.get() and other_station.nrel_id.get():
-                if set(station.nrel_id.get()) & set(other_station.nrel_id.get()):
-                    matched = True
-
-            if matched:
+            if station_ids_match(station, other_station):
                 combined_station = merge_stations(station, other_station)
 
                 station.matched_ids = True

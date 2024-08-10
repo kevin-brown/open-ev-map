@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-09T00:59:15Z",
-    "timestamp_areas_base": "2024-08-08T23:49:03Z",
+    "timestamp_osm_base": "2024-08-09T19:11:49Z",
+    "timestamp_areas_base": "2024-08-09T14:27:56Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7971,6 +7971,23 @@
         "man_made": "charge_point",
         "network": "Greenspot",
         "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12101220319,
+      "lat": 41.6174323,
+      "lon": -70.4882537,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "website": "https://www.tesla.com/findus/location/supercharger/mashpeemasupercharger"
       }
     },
     {

@@ -57551,84 +57551,8 @@
                         41.617461
                     ],
                     [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488139,
-                        41.617554
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
-                    ],
-                    [
-                        -70.488528,
-                        41.6175
+                        -70.488254,
+                        41.617432
                     ]
                 ]
             },
@@ -57649,10 +57573,10 @@
                 "city": "Mashpee",
                 "state": "MA",
                 "zip_code": "02649",
-                "charging_points:count": 29,
-                "charging_points:capacity": "0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_type": "NACS"
+                "charging_points:count": 10,
+                "charging_points:capacity": "0;0;0;0;0;0;0;0;0;0",
+                "charging_points:plugs_count": "0;0;0;0;0;0;0;0;0;0",
+                "charging_points:plugs_type": ""
             }
         },
         {
@@ -89346,67 +89270,6 @@
                 "city": "Watertown",
                 "state": "MA",
                 "zip_code": "02472",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.60088,
-                        42.533578
-                    ],
-                    [
-                        -71.600888,
-                        42.533584
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "WATSONMARLOW STATION #1;WATSONMARLOW STATION #2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    331283,
-                    331284
-                ],
-                "network_id": "USCPIL13343861;USCPIL13343881",
-                "street_address": "15 Bulge Road",
-                "city": "Devens",
-                "state": "MA",
-                "zip_code": "01434",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.600823,
-                        42.535284
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "WATSONMARLOW STATION #3",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    331285
-                ],
-                "network_id": "USCPIL13343901",
-                "street_address": "401 Davao Cir Devens, MA 01434",
-                "city": "Devens",
-                "state": "MA",
-                "zip_code": "01434",
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",

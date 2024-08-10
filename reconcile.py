@@ -938,7 +938,7 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
 
             plug_counts[plug_type] += plug_count
 
-        if ocm_station["DataProviderID"] != 2 and charge_point_count and plug_counts:
+        if ocm_station["DataProviderID"] != 2 and station.network not in [ChargingNetwork.TESLA_SUPERCHARGER] and charge_point_count and plug_counts:
             station.charging_points = guess_charging_point_groups(charge_point_count, plug_counts)
 
         for charging_point in station.charging_points:

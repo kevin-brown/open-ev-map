@@ -1074,6 +1074,9 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
 
 def combine_networked_stations_at_same_address(all_stations: list[Station]) -> list[Station]:
     def check_same_address(first_station: Station, second_station: Station) -> bool:
+        if not station_networks_match(first_station, second_station):
+            return False
+
         first_addresses = set(map(str.lower, first_station.street_address.all()))
         second_addresses = set(map(str.lower, second_station.street_address.all()))
 
@@ -1090,10 +1093,13 @@ def combine_networked_stations_at_same_address(all_stations: list[Station]) -> l
 
         return True
 
-    return combine_networked_stations_with_check(all_stations, check_same_address)
+    return combine_stations_with_check(all_stations, check_same_address)
 
 def combine_networked_stations_near_known_address(all_stations: list[Station]) -> list[Station]:
     def check_same_address(first_station: Station, second_station: Station) -> bool:
+        if not station_networks_match(first_station, second_station):
+            return False
+
         first_addresses = set(map(str.lower, first_station.street_address.all()))
         second_addresses = set(map(str.lower, second_station.street_address.all()))
 
@@ -1110,10 +1116,13 @@ def combine_networked_stations_near_known_address(all_stations: list[Station]) -
 
         return True
 
-    return combine_networked_stations_with_check(all_stations, check_same_address)
+    return combine_stations_with_check(all_stations, check_same_address)
 
 def combine_networked_stations_close_by(all_stations: list[Station]) -> list[Station]:
     def check_close_location(first_station: Station, second_station: Station) -> bool:
+        if not station_networks_match(first_station, second_station):
+            return False
+
         first_addresses = set(map(str.lower, first_station.street_address.all()))
         second_addresses = set(map(str.lower, second_station.street_address.all()))
 
@@ -1127,9 +1136,35 @@ def combine_networked_stations_close_by(all_stations: list[Station]) -> list[Sta
 
         return True
 
-    return combine_networked_stations_with_check(all_stations, check_close_location)
+    return combine_stations_with_check(all_stations, check_close_location)
 
-def combine_networked_stations_with_check(all_stations: list[Station], check) -> list[Station]:
+def combine_non_networked_stations_close_by(all_stations: list[Station]) -> list[Station]:
+    def check_non_networked_close_by(first_station: Station, second_station: Station) -> bool:
+        if first_station.network is not ChargingNetwork.NON_NETWORKED:
+            return False
+
+        if second_station.network is not ChargingNetwork.NON_NETWORKED:
+            return False
+
+        station_distance = get_station_distance(first_station, second_station)
+
+        if station_distance.miles > 0.01:
+            return False
+
+        return True
+
+    return combine_stations_with_check(all_stations, check_non_networked_close_by)
+
+def station_networks_match(first_station: Station, second_station: Station) -> bool:
+    if first_station.network is None or first_station.network is ChargingNetwork.NON_NETWORKED:
+        return False
+
+    if second_station.network is None or second_station.network is ChargingNetwork.NON_NETWORKED:
+        return False
+
+    return first_station.network == second_station.network
+
+def combine_stations_with_check(all_stations: list[Station], check) -> list[Station]:
     combined_stations = []
 
     for first_station in all_stations:
@@ -1141,15 +1176,6 @@ def combine_networked_stations_with_check(all_stations: list[Station], check) ->
                 continue
 
             if first_station == second_station:
-                continue
-
-            if first_station.network is None or first_station.network is ChargingNetwork.NON_NETWORKED:
-                continue
-
-            if second_station.network is None or second_station.network is ChargingNetwork.NON_NETWORKED:
-                continue
-
-            if first_station.network != second_station.network:
                 continue
 
             if not check(first_station, second_station):
@@ -1217,6 +1243,8 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
     all_stations = combine_networked_stations_at_same_address(all_stations)
     all_stations = combine_networked_stations_near_known_address(all_stations)
     all_stations = combine_networked_stations_close_by(all_stations)
+
+    all_stations = combine_non_networked_stations_close_by(all_stations)
 
     return all_stations
 

@@ -54,22 +54,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.321249,
-                    41.653825
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": [
-                    3644510079
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.209635,
                     42.485084
                 ]
@@ -252,22 +236,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.603894,
-                    41.548298
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": [
-                    8988028759
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.161761,
                     42.364481
                 ]
@@ -404,22 +372,6 @@
                 "network": "AMPUP",
                 "osm_id": [
                     10991298174
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.119377,
-                    42.499193
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": [
-                    11048226590
                 ]
             }
         },
@@ -1517,27 +1469,7 @@
                 "name": "Autel - Charlton Service Plaza Eastbound",
                 "network": "NON_NETWORKED",
                 "nrel_id": [
-                    333461
-                ],
-                "street_address": "80 Massachusetts Turnpike",
-                "city": "Charlton",
-                "state": "MA",
-                "zip_code": "01507"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.024655,
-                    42.140146
-                ]
-            },
-            "properties": {
-                "name": "Autel - Charlton Service Plaza Eastbound",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
+                    333461,
                     333714
                 ],
                 "street_address": "80 Massachusetts Turnpike",
@@ -1712,27 +1644,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.363072,
-                    42.624289
-                ]
-            },
-            "properties": {
-                "name": "AutoFair Nissan - Chelmsford",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    99462
-                ],
-                "street_address": "95 Drum Hill Road",
-                "city": "Chelmsford",
-                "state": "MA",
-                "zip_code": "01824"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.308014,
                     41.741203
                 ]
@@ -1799,48 +1710,6 @@
                 "city": "Avon",
                 "state": "MA",
                 "zip_code": "02322"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.58621,
-                    41.73883
-                ]
-            },
-            "properties": {
-                "name": "Battles Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45879
-                ],
-                "street_address": "60 MacArthur Boulevard",
-                "city": "Bourne",
-                "state": "MA",
-                "zip_code": "02532"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.850396,
-                    42.182748
-                ]
-            },
-            "properties": {
-                "name": "Bertera Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45875
-                ],
-                "street_address": "569 Oxford St S",
-                "city": "Auburn",
-                "state": "MA",
-                "zip_code": "01501"
             }
         },
         {
@@ -1948,27 +1817,6 @@
                 "osm_id": [
                     9102222617
                 ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.1849,
-                    42.192081
-                ]
-            },
-            "properties": {
-                "name": "Boch Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45907
-                ],
-                "street_address": "525 Boston Providence Highway",
-                "city": "Norwood",
-                "state": "MA",
-                "zip_code": "02062"
             }
         },
         {
@@ -2226,48 +2074,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.887748,
-                    42.165417
-                ]
-            },
-            "properties": {
-                "name": "Coastal Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45905
-                ],
-                "street_address": "109 Accord Park Drive",
-                "city": "Norwell",
-                "state": "MA",
-                "zip_code": "02061"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.106619,
-                    42.412492
-                ]
-            },
-            "properties": {
-                "name": "Colonial Nissan - Medford",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45899
-                ],
-                "street_address": "104 Mystic Avenue",
-                "city": "Medford",
-                "state": "MA",
-                "zip_code": "02155"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.537047,
                     42.35253
                 ]
@@ -2338,27 +2144,7 @@
                 "name": "Country Nissan",
                 "network": "NON_NETWORKED",
                 "nrel_id": [
-                    45886
-                ],
-                "street_address": "40 Russell Street",
-                "city": "Hadley",
-                "state": "MA",
-                "zip_code": "01035"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.60616,
-                    42.34039
-                ]
-            },
-            "properties": {
-                "name": "Country Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
+                    45886,
                     45887
                 ],
                 "street_address": "40 Russell Street",
@@ -2513,48 +2299,6 @@
                 "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
                 "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
                 "charging_points:plugs_type": "NACS"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.951362,
-                    41.663264
-                ]
-            },
-            "properties": {
-                "name": "Department of Public Infrastructure",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    147416
-                ],
-                "street_address": "1105 Shawmut Avenue",
-                "city": "New Bedford",
-                "state": "MA",
-                "zip_code": "02746"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.056588,
-                    42.357412
-                ]
-            },
-            "properties": {
-                "name": "EPA Boston",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    184419
-                ],
-                "street_address": "5 Post Office Square",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02109"
             }
         },
         {
@@ -2923,27 +2667,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.256216,
-                    42.445108
-                ]
-            },
-            "properties": {
-                "name": "Haddad Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45909
-                ],
-                "street_address": "25 W Housatonic Street",
-                "city": "Pittsfield",
-                "state": "MA",
-                "zip_code": "01201"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.10856,
                     42.33539
                 ]
@@ -3152,27 +2875,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.848472,
-                    42.153631
-                ]
-            },
-            "properties": {
-                "name": "Jannell Ford of Hanover",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    76711
-                ],
-                "street_address": "2000 Washington Street",
-                "city": "Hanover",
-                "state": "MA",
-                "zip_code": "02339"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.626476,
                     42.119685
                 ]
@@ -3181,27 +2883,7 @@
                 "name": "Jerry Rome Nissan",
                 "network": "NON_NETWORKED",
                 "nrel_id": [
-                    45812
-                ],
-                "street_address": "500 Riverdale Street",
-                "city": "West Springfield",
-                "state": "MA",
-                "zip_code": "01089"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.626476,
-                    42.119685
-                ]
-            },
-            "properties": {
-                "name": "Jerry Rome Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
+                    45812,
                     45813
                 ],
                 "street_address": "500 Riverdale Street",
@@ -3307,92 +2989,8 @@
             },
             "properties": {
                 "name": "Kelly Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    85963
-                ],
-                "street_address": "95 Cedar Street",
-                "city": "Woburn",
-                "state": "MA",
-                "zip_code": "01801"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.119302,
-                    42.499069
-                ]
-            },
-            "properties": {
-                "name": "Kelly Nissan",
                 "ocm_id": [
                     143185
-                ],
-                "street_address": "95 Cedar Street",
-                "city": "Woburn",
-                "state": "MA",
-                "zip_code": "01801"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.008978,
-                    42.509982
-                ]
-            },
-            "properties": {
-                "name": "Kelly Nissan - Lynnfield",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45895
-                ],
-                "street_address": "275 Broadway",
-                "city": "Lynnfield",
-                "state": "MA",
-                "zip_code": "01940"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.119321,
-                    42.498951
-                ]
-            },
-            "properties": {
-                "name": "Kelly Nissan - Woburn",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    149486
-                ],
-                "street_address": "95 Cedar Street",
-                "city": "Stoneham",
-                "state": "MA",
-                "zip_code": "02180"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.119302,
-                    42.499069
-                ]
-            },
-            "properties": {
-                "name": "Kelly Nissan of Woburn",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45817
                 ],
                 "street_address": "95 Cedar Street",
                 "city": "Woburn",
@@ -3618,27 +3216,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.500717,
-                    42.351115
-                ]
-            },
-            "properties": {
-                "name": "Marlborough Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45897
-                ],
-                "street_address": "740 Boston Post Road",
-                "city": "Marlborough",
-                "state": "MA",
-                "zip_code": "01752"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.25762,
                     42.439851
                 ]
@@ -3737,27 +3314,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02129"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.017203,
-                    41.904046
-                ]
-            },
-            "properties": {
-                "name": "Mastria Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45913
-                ],
-                "street_address": "1305 New State Highway",
-                "city": "Raynham",
-                "state": "MA",
-                "zip_code": "02767"
             }
         },
         {
@@ -3895,27 +3451,7 @@
                 "name": "Michaud Mitsubishi",
                 "network": "NON_NETWORKED",
                 "nrel_id": [
-                    48856
-                ],
-                "street_address": "80 Andover Street",
-                "city": "Danvers",
-                "state": "MA",
-                "zip_code": "01923"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.962101,
-                    42.55235
-                ]
-            },
-            "properties": {
-                "name": "Michaud Mitsubishi",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
+                    48856,
                     145553
                 ],
                 "street_address": "80 Andover Street",
@@ -4149,48 +3685,6 @@
                 "city": "Brighton",
                 "state": "MA",
                 "zip_code": "02135"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.058186,
-                    42.063356
-                ]
-            },
-            "properties": {
-                "name": "Nissan 24",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45881
-                ],
-                "street_address": "1016 Belmont Street",
-                "city": "Brockton",
-                "state": "MA",
-                "zip_code": "02301"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.342187,
-                    41.960366
-                ]
-            },
-            "properties": {
-                "name": "Nissan Village of North Attleboro",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45903
-                ],
-                "street_address": "685 S Washington Street",
-                "city": "North Attleboro",
-                "state": "MA",
-                "zip_code": "02761"
             }
         },
         {
@@ -4629,27 +4123,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.99149,
-                    42.25353
-                ]
-            },
-            "properties": {
-                "name": "Quirk Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45911
-                ],
-                "street_address": "600 Southern Artery",
-                "city": "Quincy",
-                "state": "MA",
-                "zip_code": "02169"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.473988,
                     41.697387
                 ]
@@ -4765,48 +4238,6 @@
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.013106,
-                    42.407851
-                ]
-            },
-            "properties": {
-                "name": "Revere City Hall",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    145474
-                ],
-                "street_address": "281 Broadway",
-                "city": "Revere",
-                "state": "MA",
-                "zip_code": "02151"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.70076,
-                    42.51942
-                ]
-            },
-            "properties": {
-                "name": "Ron Bouchard's Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45893
-                ],
-                "street_address": "490 Old Union Turnpike",
-                "city": "Lancaster",
-                "state": "MA",
-                "zip_code": "01523"
             }
         },
         {
@@ -5052,27 +4483,6 @@
                 "city": "Sudbury",
                 "state": "MA",
                 "zip_code": "01776"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.7127,
-                    41.976052
-                ]
-            },
-            "properties": {
-                "name": "Sullivan Brothers Nissan",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    45891
-                ],
-                "street_address": "1 Cranberry Road",
-                "city": "Kingston",
-                "state": "MA",
-                "zip_code": "02364"
             }
         },
         {

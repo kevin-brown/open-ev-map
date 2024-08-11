@@ -1315,6 +1315,7 @@
             },
             "properties": {
                 "name": "623 Main St",
+                "network": "NON_NETWORKED",
                 "ocm_id": [
                     8124
                 ],
@@ -3035,6 +3036,7 @@
             },
             "properties": {
                 "name": "Holyoke Mall",
+                "network": "NON_NETWORKED",
                 "ocm_id": [
                     16220
                 ],
@@ -4531,6 +4533,7 @@
             },
             "properties": {
                 "name": "Public Lot 9",
+                "network": "NON_NETWORKED",
                 "ocm_id": [
                     128788
                 ],

@@ -857,13 +857,14 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         3619: ChargingNetwork.AMPUP,
         3789: ChargingNetwork.ELECTRIC_ERA,
 
+        45: ChargingNetwork.NON_NETWORKED, # Private Owner
+
         6: None, # Nissan
         11: None, # AFDC Import
         26: None, # AeroVironment
         31: None, # Clipper Creek
         39: None, # SemaConnect
         42: None, # Eaton
-        45: None, # Private Owner
         3293: None, # Revolta Egypt
         3460: None, # PEA Volta
         3493: None, # SWTCH

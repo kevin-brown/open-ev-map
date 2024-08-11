@@ -316,6 +316,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.086348,
+                    42.449651
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    10157254423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.087687,
+                    42.449792
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    10157254641
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.08684,
+                    42.450933
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    10157255012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.873891,
                     42.8121
                 ]
@@ -340,22 +388,6 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     10671569288
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.394243,
-                    42.456869
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    10990256462
                 ]
             }
         },
@@ -8363,8 +8395,7 @@
                 "name": "ALTA CLARA ALTA CLARA 2",
                 "network": "CHARGEPOINT",
                 "osm_id": [
-                    10157254422,
-                    10157254423
+                    10157254422
                 ],
                 "nrel_id": [
                     166821
@@ -8391,8 +8422,7 @@
                 "name": "ALTA CLARA ALTA CLARA 3;ALTA CLARA ALTA CLARA 6",
                 "network": "CHARGEPOINT",
                 "osm_id": [
-                    10157255011,
-                    10157255012
+                    10157255011
                 ],
                 "nrel_id": [
                     166918,
@@ -8413,16 +8443,15 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.087687,
-                    42.449792
+                    -71.087693,
+                    42.449838
                 ]
             },
             "properties": {
                 "name": "ALTA CLARA ALTA CLARA 4;ALTA CLARA ALTA CLARA 5",
                 "network": "CHARGEPOINT",
                 "osm_id": [
-                    10157254640,
-                    10157254641
+                    10157254640
                 ],
                 "nrel_id": [
                     166820,
@@ -24959,6 +24988,9 @@
             "properties": {
                 "name": "CONCORD LIGHT;CONCORD LIGHT MBTA LOT NEW",
                 "network": "CHARGEPOINT",
+                "osm_id": [
+                    10990256462
+                ],
                 "nrel_id": [
                     60808,
                     326312
@@ -27006,20 +27038,20 @@
                         42.33075
                     ],
                     [
+                        -71.254761,
+                        42.330696
+                    ],
+                    [
+                        -71.254761,
+                        42.330696
+                    ],
+                    [
                         -71.25477,
                         42.330771
                     ],
                     [
                         -71.254744,
                         42.330755
-                    ],
-                    [
-                        -71.254761,
-                        42.330696
-                    ],
-                    [
-                        -71.254761,
-                        42.330696
                     ]
                 ]
             },
@@ -27043,7 +27075,7 @@
                 "zip_code": "02462",
                 "charging_points:count": 6,
                 "charging_points:capacity": "1;1;1;1;1;1",
-                "charging_points:plugs_count": "2;2;2;2;1;1",
+                "charging_points:plugs_count": "2;2;1;1;2;2",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
@@ -33889,23 +33921,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.350724,
-                    41.946393
-                ]
-            },
-            "properties": {
-                "name": "EVgo",
-                "network": "EVGO",
-                "osm_id": [
-                    3732553898
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -33936,6 +33951,57 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.351774,
+                        41.946455
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "EVgo;Emerald Square",
+                "network": "EVGO",
+                "osm_id": [
+                    3732553898
+                ],
+                "nrel_id": [
+                    93035,
+                    228523
+                ],
+                "ocm_id": [
+                    142911
+                ],
+                "network_id": "620",
+                "street_address": "999 S Washington Street",
+                "city": "North Attleboro",
+                "state": "MA",
+                "zip_code": "02760",
+                "charging_points:count": 1,
+                "charging_points:capacity": "3",
+                "charging_points:plugs_count": "9",
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.084988,
+                        42.1138
+                    ],
+                    [
+                        -72.084988,
+                        42.1138
+                    ],
+                    [
+                        -72.084988,
+                        42.1138
+                    ],
+                    [
+                        -72.084988,
+                        42.1138
+                    ],
+                    [
                         -72.084988,
                         42.1138
                     ],
@@ -33954,22 +34020,6 @@
                     [
                         -72.084685,
                         42.113901
-                    ],
-                    [
-                        -72.084988,
-                        42.1138
-                    ],
-                    [
-                        -72.084988,
-                        42.1138
-                    ],
-                    [
-                        -72.084988,
-                        42.1138
-                    ],
-                    [
-                        -72.084988,
-                        42.1138
                     ]
                 ]
             },
@@ -33991,8 +34041,8 @@
                 "state": "MA",
                 "zip_code": "01566",
                 "charging_points:count": 9,
-                "charging_points:capacity": "4;0;0;0;0;1;1;1;1",
-                "charging_points:plugs_count": "8;0;0;0;0;2;2;2;2",
+                "charging_points:capacity": "4;1;1;1;1;0;0;0;0",
+                "charging_points:plugs_count": "8;2;2;2;2;0;0;0;0",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },
@@ -34679,38 +34729,6 @@
                 "city": "East Providence",
                 "state": "RI",
                 "zip_code": "02914"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.351774,
-                        41.946455
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Emerald Square",
-                "network": "EVGO",
-                "nrel_id": [
-                    93035,
-                    228523
-                ],
-                "ocm_id": [
-                    142911
-                ],
-                "network_id": "620",
-                "street_address": "999 S Washington Street",
-                "city": "North Attleboro",
-                "state": "MA",
-                "zip_code": "02760",
-                "charging_points:count": 1,
-                "charging_points:capacity": "3",
-                "charging_points:plugs_count": "9",
-                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -62798,12 +62816,12 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -69.989699,
-                        41.916807
+                        -69.989599,
+                        41.916692
                     ],
                     [
-                        -69.989757,
-                        41.916807
+                        -69.989599,
+                        41.916692
                     ]
                 ]
             },
@@ -62825,9 +62843,9 @@
                 "state": "MA",
                 "zip_code": "02663",
                 "charging_points:count": 2,
-                "charging_points:capacity": "0;0",
-                "charging_points:plugs_count": "0;0",
-                "charging_points:plugs_type": ""
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
             }
         },
         {

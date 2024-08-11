@@ -1062,8 +1062,64 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
     return combined_stations
 
 
-def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
-    all_stations = combine_tesla_superchargers(all_stations)
+def combine_networked_stations_at_same_address(all_stations: list[Station]) -> list[Station]:
+    def check_same_address(first_station: Station, second_station: Station) -> bool:
+        first_addresses = set(map(str.lower, first_station.street_address.all()))
+        second_addresses = set(map(str.lower, second_station.street_address.all()))
+
+        if not first_addresses or not second_addresses:
+            return False
+
+        if not (first_addresses & second_addresses):
+            return False
+
+        station_distance = get_station_distance(first_station, second_station)
+
+        if station_distance.miles > 0.1:
+            return False
+
+        return True
+
+    return combine_networked_stations_with_check(all_stations, check_same_address)
+
+def combine_networked_stations_near_known_address(all_stations: list[Station]) -> list[Station]:
+    def check_same_address(first_station: Station, second_station: Station) -> bool:
+        first_addresses = set(map(str.lower, first_station.street_address.all()))
+        second_addresses = set(map(str.lower, second_station.street_address.all()))
+
+        if not first_addresses and not second_addresses:
+            return False
+
+        if first_addresses and second_addresses:
+            return False
+
+        station_distance = get_station_distance(first_station, second_station)
+
+        if station_distance.miles > 0.05:
+            return False
+
+        return True
+
+    return combine_networked_stations_with_check(all_stations, check_same_address)
+
+def combine_networked_stations_close_by(all_stations: list[Station]) -> list[Station]:
+    def check_close_location(first_station: Station, second_station: Station) -> bool:
+        first_addresses = set(map(str.lower, first_station.street_address.all()))
+        second_addresses = set(map(str.lower, second_station.street_address.all()))
+
+        if first_addresses or second_addresses:
+            return False
+
+        station_distance = get_station_distance(first_station, second_station)
+
+        if station_distance.miles > 0.01:
+            return False
+
+        return True
+
+    return combine_networked_stations_with_check(all_stations, check_close_location)
+
+def combine_networked_stations_with_check(all_stations: list[Station], check) -> list[Station]:
     combined_stations = []
 
     for first_station in all_stations:
@@ -1086,22 +1142,7 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
             if first_station.network != second_station.network:
                 continue
 
-            first_addresses = set(map(str.lower, first_station.street_address.all()))
-            second_addresses = set(map(str.lower, second_station.street_address.all()))
-
-            allowed_distance = 0.01
-
-            if first_addresses and second_addresses:
-                if not (first_addresses & second_addresses):
-                    continue
-
-                allowed_distance = 0.1
-            elif first_addresses or second_addresses:
-                allowed_distance = 0.05
-
-            station_distance = get_station_distance(first_station, second_station)
-
-            if station_distance.miles > allowed_distance:
+            if not check(first_station, second_station):
                 continue
 
             combined_station = merge_stations(first_station, second_station)
@@ -1161,8 +1202,11 @@ def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station
 
 def combine_stations(all_stations: list[Station]) -> list[Station]:
     all_stations = combine_matched_stations_by_ids(all_stations)
+    all_stations = combine_tesla_superchargers(all_stations)
 
-    all_stations = combine_networked_stations(all_stations)
+    all_stations = combine_networked_stations_at_same_address(all_stations)
+    all_stations = combine_networked_stations_near_known_address(all_stations)
+    all_stations = combine_networked_stations_close_by(all_stations)
 
     return all_stations
 

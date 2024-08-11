@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-11T20:26:26Z",
-    "timestamp_areas_base": "2024-08-11T16:03:46Z",
+    "timestamp_osm_base": "2024-08-11T23:02:57Z",
+    "timestamp_areas_base": "2024-08-11T21:03:18Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2972,11 +2972,11 @@
       "lon": -71.0864062,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "fee": "no",
+        "man_made": "charge_point",
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
@@ -2990,11 +2990,11 @@
       "lon": -71.0863481,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "fee": "no",
+        "man_made": "charge_point",
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
@@ -3008,11 +3008,11 @@
       "lon": -71.0876929,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "fee": "no",
+        "man_made": "charge_point",
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
@@ -3026,11 +3026,11 @@
       "lon": -71.0876865,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "fee": "no",
+        "man_made": "charge_point",
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
@@ -3040,15 +3040,15 @@
     {
       "type": "node",
       "id": 10157255011,
-      "lat": 42.4509389,
+      "lat": 42.4509453,
       "lon": -71.0868999,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "fee": "no",
+        "man_made": "charge_point",
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
@@ -3058,15 +3058,15 @@
     {
       "type": "node",
       "id": 10157255012,
-      "lat": 42.450933,
-      "lon": -71.0868401,
+      "lat": 42.4509389,
+      "lon": -71.0868409,
       "tags": {
         "access": "yes",
-        "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "fee": "no",
+        "man_made": "charge_point",
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
@@ -10458,6 +10458,240 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "socket:type1_cable": "8"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1307130690,
+      "bounds": {
+        "minlat": 42.4495952,
+        "minlon": -71.0864445,
+        "maxlat": 42.4496609,
+        "maxlon": -71.0863047
+      },
+      "nodes": [
+        10157254425,
+        10157254426,
+        10157254429,
+        10157254431,
+        10157254433,
+        10157254432,
+        12105182896,
+        12105182897,
+        12105182898,
+        10157254424,
+        10157254425
+      ],
+      "geometry": [
+        {
+          "lat": 42.4495999,
+          "lon": -71.0864445
+        },
+        {
+          "lat": 42.4495965,
+          "lon": -71.086409
+        },
+        {
+          "lat": 42.4495955,
+          "lon": -71.0863753
+        },
+        {
+          "lat": 42.4495952,
+          "lon": -71.0863416
+        },
+        {
+          "lat": 42.4496003,
+          "lon": -71.0863047
+        },
+        {
+          "lat": 42.4496486,
+          "lon": -71.0863158
+        },
+        {
+          "lat": 42.4496582,
+          "lon": -71.0863157
+        },
+        {
+          "lat": 42.4496563,
+          "lon": -71.0863727
+        },
+        {
+          "lat": 42.4496609,
+          "lon": -71.0864308
+        },
+        {
+          "lat": 42.4496506,
+          "lon": -71.0864334
+        },
+        {
+          "lat": 42.4495999,
+          "lon": -71.0864445
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1307130691,
+      "bounds": {
+        "minlat": 42.4497681,
+        "minlon": -71.0876962,
+        "maxlat": 42.44986,
+        "maxlon": -71.0876137
+      },
+      "nodes": [
+        10157254643,
+        10157254644,
+        10157254646,
+        10157254648,
+        10157254650,
+        10157254651,
+        12105182900,
+        12105189801,
+        10157254642,
+        10157254643
+      ],
+      "geometry": [
+        {
+          "lat": 42.44986,
+          "lon": -71.0876223
+        },
+        {
+          "lat": 42.4498367,
+          "lon": -71.08762
+        },
+        {
+          "lat": 42.4498167,
+          "lon": -71.087618
+        },
+        {
+          "lat": 42.4497949,
+          "lon": -71.0876158
+        },
+        {
+          "lat": 42.4497729,
+          "lon": -71.0876137
+        },
+        {
+          "lat": 42.4497687,
+          "lon": -71.0876781
+        },
+        {
+          "lat": 42.4497681,
+          "lon": -71.0876867
+        },
+        {
+          "lat": 42.4498567,
+          "lon": -71.0876962
+        },
+        {
+          "lat": 42.449857,
+          "lon": -71.0876873
+        },
+        {
+          "lat": 42.44986,
+          "lon": -71.0876223
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1307130692,
+      "bounds": {
+        "minlat": 42.4509337,
+        "minlon": -71.086928,
+        "maxlat": 42.4510005,
+        "maxlon": -71.0868013
+      },
+      "nodes": [
+        10157255013,
+        10157255016,
+        10157255017,
+        10157255019,
+        10157255021,
+        10157255022,
+        12105189802,
+        12105189803,
+        10157255014,
+        10157255013
+      ],
+      "geometry": [
+        {
+          "lat": 42.4510005,
+          "lon": -71.0869169
+        },
+        {
+          "lat": 42.4509976,
+          "lon": -71.0868896
+        },
+        {
+          "lat": 42.4509947,
+          "lon": -71.0868607
+        },
+        {
+          "lat": 42.4509916,
+          "lon": -71.0868306
+        },
+        {
+          "lat": 42.4509885,
+          "lon": -71.0868013
+        },
+        {
+          "lat": 42.4509379,
+          "lon": -71.0868106
+        },
+        {
+          "lat": 42.4509337,
+          "lon": -71.0868114
+        },
+        {
+          "lat": 42.4509458,
+          "lon": -71.086928
+        },
+        {
+          "lat": 42.4509552,
+          "lon": -71.0869258
+        },
+        {
+          "lat": 42.4510005,
+          "lon": -71.0869169
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "area": "yes",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "4",
+        "fee": "no",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1": "4"
       }
     },
     {

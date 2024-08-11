@@ -284,54 +284,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.086348,
-                    42.449651
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    10157254423
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.087687,
-                    42.449792
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    10157254641
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.08684,
-                    42.450933
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    10157255012
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.873891,
                     42.8121
                 ]
@@ -8338,17 +8290,23 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.08637,
-                    42.449646
+                    [
+                        -71.086406,
+                        42.449653
+                    ],
+                    [
+                        -71.086348,
+                        42.449651
+                    ]
                 ]
             },
             "properties": {
                 "name": "ALTA CLARA ALTA CLARA 2",
                 "network": "CHARGEPOINT",
                 "osm_id": [
-                    10157254422
+                    1307130690
                 ],
                 "nrel_id": [
                     166821
@@ -8359,23 +8317,33 @@
                 "street_address": "21 Executive Drive",
                 "city": "Stoneham",
                 "state": "MA",
-                "zip_code": "02180"
+                "zip_code": "02180",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772_SOCKET"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.087267,
-                    42.450637
+                    [
+                        -71.0869,
+                        42.450945
+                    ],
+                    [
+                        -71.086841,
+                        42.450939
+                    ]
                 ]
             },
             "properties": {
                 "name": "ALTA CLARA ALTA CLARA 3;ALTA CLARA ALTA CLARA 6",
                 "network": "CHARGEPOINT",
                 "osm_id": [
-                    10157255011
+                    1307130692
                 ],
                 "nrel_id": [
                     166918,
@@ -8388,23 +8356,33 @@
                 "street_address": "25 Executive Drive",
                 "city": "Stoneham",
                 "state": "MA",
-                "zip_code": "02180"
+                "zip_code": "02180",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772_SOCKET"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.087693,
-                    42.449838
+                    [
+                        -71.087693,
+                        42.449838
+                    ],
+                    [
+                        -71.087687,
+                        42.449792
+                    ]
                 ]
             },
             "properties": {
                 "name": "ALTA CLARA ALTA CLARA 4;ALTA CLARA ALTA CLARA 5",
                 "network": "CHARGEPOINT",
                 "osm_id": [
-                    10157254640
+                    1307130691
                 ],
                 "nrel_id": [
                     166820,
@@ -8417,7 +8395,11 @@
                 "street_address": "15 Executive Drive",
                 "city": "Stoneham",
                 "state": "MA",
-                "zip_code": "02180"
+                "zip_code": "02180",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772_SOCKET"
             }
         },
         {

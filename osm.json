@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-10T02:27:45Z",
+    "timestamp_osm_base": "2024-08-10T03:23:42Z",
     "timestamp_areas_base": "2024-08-10T00:33:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -7057,57 +7057,61 @@
     {
       "type": "node",
       "id": 11981366974,
-      "lat": 42.172048,
-      "lon": -71.1352591,
+      "lat": 42.1719909,
+      "lon": -71.1352629,
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
       "type": "node",
       "id": 11981366975,
-      "lat": 42.1719791,
-      "lon": -71.1352361,
+      "lat": 42.1719436,
+      "lon": -71.135256,
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
       "type": "node",
       "id": 11981366976,
-      "lat": 42.1719212,
-      "lon": -71.1352189,
+      "lat": 42.1718947,
+      "lon": -71.1352432,
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
       "type": "node",
       "id": 11981366977,
-      "lat": 42.1718574,
-      "lon": -71.1352005,
+      "lat": 42.1718394,
+      "lon": -71.1352279,
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -7118,9 +7122,11 @@
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
+        "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -7131,9 +7137,11 @@
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
+        "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -7144,9 +7152,11 @@
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
+        "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -7157,9 +7167,11 @@
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
+        "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -7221,40 +7233,6 @@
         "socket:type1:current": "32 A",
         "socket:type1:output": "6.6 kW",
         "socket:type1:voltage": "208V"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12048335044,
-      "lat": 42.1719491,
-      "lon": -71.1352506,
-      "tags": {
-        "access": "yes",
-        "amenity": "charging_station",
-        "brand": "ChargePoint",
-        "brand:wikidata": "Q5176149",
-        "capacity": "8",
-        "fee": "yes",
-        "name": "Pequitside Farm",
-        "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12048335045,
-      "lat": 42.1721448,
-      "lon": -71.134696,
-      "tags": {
-        "access": "yes",
-        "amenity": "charging_station",
-        "brand": "ChargePoint",
-        "brand:wikidata": "Q5176149",
-        "capacity": "8",
-        "fee": "yes",
-        "name": "Pequitside Farm - Armando",
-        "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
       }
     },
     {
@@ -10363,6 +10341,118 @@
         "short_name": "Tesla",
         "socket:tesla_supercharger": "16",
         "website": "https://www.tesla.com/findus/location/supercharger/auburnmasupercharger"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306711837,
+      "bounds": {
+        "minlat": 42.1717913,
+        "minlon": -71.1353456,
+        "maxlat": 42.1720217,
+        "maxlon": -71.1351884
+      },
+      "nodes": [
+        12048335044,
+        12101672237,
+        12101672238,
+        12101672239,
+        12048335044
+      ],
+      "geometry": [
+        {
+          "lat": 42.1720068,
+          "lon": -71.1353456
+        },
+        {
+          "lat": 42.1720217,
+          "lon": -71.1352495
+        },
+        {
+          "lat": 42.1718062,
+          "lon": -71.1351884
+        },
+        {
+          "lat": 42.1717913,
+          "lon": -71.1352845
+        },
+        {
+          "lat": 42.1720068,
+          "lon": -71.1353456
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "8",
+        "fee": "yes",
+        "name": "Pequitside Farm",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "8"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306711838,
+      "bounds": {
+        "minlat": 42.1719769,
+        "minlon": -71.1348954,
+        "maxlat": 42.1722103,
+        "maxlon": -71.1344759
+      },
+      "nodes": [
+        12048335045,
+        12101672240,
+        12101672241,
+        12101672242,
+        12101672243,
+        12101672244,
+        12048335045
+      ],
+      "geometry": [
+        {
+          "lat": 42.1719769,
+          "lon": -71.1348287
+        },
+        {
+          "lat": 42.1720113,
+          "lon": -71.134733
+        },
+        {
+          "lat": 42.1720328,
+          "lon": -71.1347444
+        },
+        {
+          "lat": 42.1721193,
+          "lon": -71.1344759
+        },
+        {
+          "lat": 42.1722103,
+          "lon": -71.1345242
+        },
+        {
+          "lat": 42.1720896,
+          "lon": -71.1348954
+        },
+        {
+          "lat": 42.1719769,
+          "lon": -71.1348287
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "8",
+        "fee": "yes",
+        "name": "Pequitside Farm - Armando",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "8"
       }
     },
     {

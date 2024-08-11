@@ -888,6 +888,9 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
     }
 
     for ocm_station in ocm_raw_data:
+        if ocm_station["DataProviderID"] in [15, ]:
+            continue
+
         station = Station()
         station.ocm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), ocm_station["ID"]))
         ocm_address = ocm_station["AddressInfo"]

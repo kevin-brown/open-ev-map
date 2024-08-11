@@ -38,6 +38,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.301719,
+                    41.674327
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    3644495142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.321249,
                     41.653825
                 ]
@@ -1117,58 +1133,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.773438,
-                    42.219734
-                ]
-            },
-            "properties": {
-                "name": "1 Latti Farm Rd",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9529
-                ],
-                "street_address": "1 Latti Farm Road",
-                "city": "Millbury",
-                "state": "MA",
-                "zip_code": "01527"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.847133,
-                        42.799163
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "1 Plum Island Turnpike;MASS AUDUBON JOPPA FLATS",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    43865
-                ],
-                "ocm_id": [
-                    10500
-                ],
-                "network_id": "USCPIL765911",
-                "street_address": "1 Plum Island Turnpike",
-                "city": "Newburyport",
-                "state": "MA",
-                "zip_code": "01950",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -1290,52 +1254,6 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.57421,
-                    41.99795
-                ]
-            },
-            "properties": {
-                "name": "10 Palomba Dr",
-                "ocm_id": [
-                    8086
-                ],
-                "street_address": "10 Palomba Drive",
-                "city": "Enfield",
-                "state": "CT",
-                "zip_code": "06082"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -72.242864,
-                        41.800611
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "10 South Eagleville Rd",
-                "ocm_id": [
-                    29882
-                ],
-                "street_address": "10 South Eagleville Road",
-                "city": "Storrs",
-                "state": "CT",
-                "zip_code": "06268",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -1580,27 +1498,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.077286,
-                    42.367302
-                ]
-            },
-            "properties": {
-                "name": "100 Cambridgeside Pl",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10513
-                ],
-                "street_address": "100 Cambridgeside Place",
-                "city": "Mid-Cambridge",
-                "state": "MA",
-                "zip_code": "02141"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.084155,
                     42.376136
                 ]
@@ -1618,27 +1515,6 @@
                 "city": "Somerville",
                 "state": "MA",
                 "zip_code": "02143"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.059662,
-                    42.359665
-                ]
-            },
-            "properties": {
-                "name": "100 City Park Way",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    8132
-                ],
-                "street_address": "100 City Park Way",
-                "city": "Brentwood",
-                "state": "CA",
-                "zip_code": "94513"
             }
         },
         {
@@ -1714,27 +1590,6 @@
                 "city": "Nashua",
                 "state": "NH",
                 "zip_code": "03062"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.807953,
-                    42.275406
-                ]
-            },
-            "properties": {
-                "name": "100 Institute Rd",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10524
-                ],
-                "street_address": "100 Institute Road",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01609"
             }
         },
         {
@@ -1818,27 +1673,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02118"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.02092,
-                    42.367519
-                ]
-            },
-            "properties": {
-                "name": "100 Service Rd",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9294
-                ],
-                "street_address": "100 Service Road",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02128"
             }
         },
         {
@@ -2021,112 +1855,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.311914,
-                        42.032751
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "107 Taunton St;NATIONAL GRID CHILIS PLNVILLE",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    43868
-                ],
-                "ocm_id": [
-                    9536
-                ],
-                "network_id": "USCPIL551961",
-                "street_address": "107 Taunton Street",
-                "city": "Plainville",
-                "state": "MA",
-                "zip_code": "02762",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.88795,
-                    42.1659
-                ]
-            },
-            "properties": {
-                "name": "109 Accord Park Dr",
-                "ocm_id": [
-                    8142
-                ],
-                "street_address": "109 Accord Park Drive",
-                "city": "Norwell",
-                "state": "MA",
-                "zip_code": "02061"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.954612,
-                        42.167127
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "1094 Main St;99 Restaurant Charger;NATIONAL GRID WEYMOUTH 99",
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    6715060628
-                ],
-                "nrel_id": [
-                    164075
-                ],
-                "ocm_id": [
-                    10532
-                ],
-                "network_id": "USCPIL552061",
-                "street_address": "1094 Main Street",
-                "city": "South Weymouth;Weymouth",
-                "state": "MA",
-                "zip_code": "02188;02190",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.12287,
-                    42.34367
-                ]
-            },
-            "properties": {
-                "name": "11 Babcock St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9065
-                ],
-                "street_address": "11 Babcock Street",
-                "city": "Brookline",
-                "state": "MA",
-                "zip_code": "02446"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.045492,
                         42.350852
                     ]
@@ -2289,33 +2017,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.220066,
-                        42.139309
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "1111 Providence Hwy, Route 1",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    12944
-                ],
-                "street_address": "1111 Providence Hwy, Route 1",
-                "city": "Walpole",
-                "state": "MA",
-                "zip_code": "02081",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -72.067417,
                         42.090473
                     ]
@@ -2453,31 +2154,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.992126,
-                    42.413928
-                ]
-            },
-            "properties": {
-                "name": "1200-1358 State Hwy 1A;MBTA",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    51980
-                ],
-                "ocm_id": [
-                    28869,
-                    29910
-                ],
-                "street_address": "1200-1358 State Hwy 1A",
-                "city": "Revere",
-                "state": "MA",
-                "zip_code": "02151"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -2544,45 +2220,6 @@
                 "charging_points:count": 9,
                 "charging_points:capacity": "2;2;2;2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.996891,
-                        42.410782
-                    ],
-                    [
-                        -70.996777,
-                        42.410638
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "121 Vfw Pkwy;NATIONAL GRID REVERE 99",
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    9570069808
-                ],
-                "nrel_id": [
-                    44927
-                ],
-                "ocm_id": [
-                    10471,
-                    14075
-                ],
-                "network_id": "USCPIL506141",
-                "street_address": "121 Vfw Parkway",
-                "city": "Revere",
-                "state": "MA",
-                "zip_code": "02151",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;1",
-                "charging_points:plugs_count": "2;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -2869,26 +2506,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.01821,
-                    41.90458
-                ]
-            },
-            "properties": {
-                "name": "1305 New State Hwy",
-                "ocm_id": [
-                    8137
-                ],
-                "street_address": "1305 New State Highway",
-                "city": "Raynham",
-                "state": "MA",
-                "zip_code": "02767"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -2927,26 +2544,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.42834,
-                    41.7432
-                ]
-            },
-            "properties": {
-                "name": "1338 Post Rd",
-                "ocm_id": [
-                    8117
-                ],
-                "street_address": "1338 Post Road",
-                "city": "Warwick",
-                "state": "RI",
-                "zip_code": "02888"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.277862,
                     42.485385
                 ]
@@ -2963,37 +2560,6 @@
                 "city": "Bedford",
                 "state": "MA",
                 "zip_code": "01730"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.41896,
-                        42.5703
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "137 Littleton Rd;NATIONAL GRID CHILIS WESTFORD",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    43182
-                ],
-                "ocm_id": [
-                    9532
-                ],
-                "network_id": "USCPIL554961",
-                "street_address": "137 Littleton Road",
-                "city": "Westford",
-                "state": "MA",
-                "zip_code": "01886",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -3165,27 +2731,6 @@
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.306961,
-                    42.643089
-                ]
-            },
-            "properties": {
-                "name": "15 Warren Ct",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9916
-                ],
-                "street_address": "15 Warren Court",
-                "city": "Lowell",
-                "state": "MA",
-                "zip_code": "01852"
             }
         },
         {
@@ -3545,33 +3090,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.25622,
-                        42.5282
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "160 Lexington Rd",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    11670
-                ],
-                "street_address": "160 Lexington Road",
-                "city": "Billerica",
-                "state": "MA",
-                "zip_code": "01821",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.451606,
@@ -3622,47 +3140,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.845146,
-                    42.147327
-                ]
-            },
-            "properties": {
-                "name": "1771 Washington St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10516
-                ],
-                "street_address": "1771 Washington Street",
-                "city": "Hanover",
-                "state": "MA",
-                "zip_code": "02339"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.24215,
-                    41.8049
-                ]
-            },
-            "properties": {
-                "name": "18 Dog Lane",
-                "ocm_id": [
-                    16230
-                ],
-                "street_address": "18 Dog Lane",
-                "city": "Storrs",
-                "state": "CT",
-                "zip_code": "06268"
             }
         },
         {
@@ -3720,37 +3197,6 @@
                 "city": "Stoneham",
                 "state": "MA",
                 "zip_code": "02180"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.381605,
-                        42.638606
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "19 Middlesex St;CHELMSFORD N CHELMS CENTER",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    121698
-                ],
-                "ocm_id": [
-                    9533
-                ],
-                "network_id": "USCPIL1689501",
-                "street_address": "19 Middlesex Street",
-                "city": "Chelmsford;North Chelmsford",
-                "state": "MA",
-                "zip_code": "01863",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -3876,27 +3322,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.50048,
-                    42.151
-                ]
-            },
-            "properties": {
-                "name": "196 E Main St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10525
-                ],
-                "street_address": "196 E Main Street",
-                "city": "Milford",
-                "state": "MA",
-                "zip_code": "01757"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -3983,59 +3408,6 @@
                 "city": "Nashua",
                 "state": "NH",
                 "zip_code": "03063"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.916995,
-                        42.132105
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "20 Belmont St;NATIONAL GRID ROCKLANDLIBRARY",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    44929
-                ],
-                "ocm_id": [
-                    10515,
-                    247014
-                ],
-                "network_id": "USCPIL551981",
-                "street_address": "20 Belmont Street",
-                "city": "Rockland",
-                "state": "MA",
-                "zip_code": "02370",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.187325,
-                    42.364277
-                ]
-            },
-            "properties": {
-                "name": "20 Watertown St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    12945
-                ],
-                "street_address": "20 Watertown Street",
-                "city": "Watertown",
-                "state": "MA",
-                "zip_code": "02472"
             }
         },
         {
@@ -4136,27 +3508,6 @@
                 "charging_points:capacity": "6",
                 "charging_points:plugs_count": "6",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.315312,
-                    41.482204
-                ]
-            },
-            "properties": {
-                "name": "21 Brown and Howard Wharf",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    29874
-                ],
-                "street_address": "21 Brown and Howard Wharf",
-                "city": "Newport",
-                "state": "RI",
-                "zip_code": "02840"
             }
         },
         {
@@ -4278,27 +3629,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.821198,
-                    42.251022
-                ]
-            },
-            "properties": {
-                "name": "22 Downing St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9526
-                ],
-                "street_address": "22 Downing Street",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01610"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.074473,
                     42.372406
                 ]
@@ -4318,63 +3648,6 @@
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02141"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.794678,
-                        42.260546
-                    ],
-                    [
-                        -71.794711,
-                        42.260534
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "225 Franklin St;NATIONAL GRID UNION STATION 1;NATIONAL GRID UNION STATION 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    43186,
-                    171637
-                ],
-                "ocm_id": [
-                    9528
-                ],
-                "network_id": "USCPIL551921;USCPIL555241",
-                "street_address": "225 Franklin Street",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01604",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.117628,
-                    42.389922
-                ]
-            },
-            "properties": {
-                "name": "23 White St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9733
-                ],
-                "street_address": "23 White Street",
-                "city": "Mid-Cambridge",
-                "state": "MA",
-                "zip_code": "02140"
             }
         },
         {
@@ -4536,38 +3809,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.351632,
-                        42.594589
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "25 Boston Rd;CHELMSFORD ADAMS LIBRARY",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    121873
-                ],
-                "ocm_id": [
-                    9535,
-                    247409
-                ],
-                "network_id": "USCPIL1689491",
-                "street_address": "25 Boston Road",
-                "city": "Chelmsford;Town of Chelmsford",
-                "state": "MA",
-                "zip_code": "01824",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.074135,
                         42.372977
                     ],
@@ -4616,74 +3857,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.291799,
-                        41.651395
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "258 North Street",
-                "ocm_id": [
-                    9736
-                ],
-                "street_address": "258 North Street",
-                "city": "Hyannis",
-                "state": "MA",
-                "zip_code": "02601",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.73703,
-                    41.998005
-                ]
-            },
-            "properties": {
-                "name": "26 Evergreen St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    12952
-                ],
-                "street_address": "26 Evergreen Street",
-                "city": "Kingston",
-                "state": "MA",
-                "zip_code": "02364"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.321526,
-                    42.612568
-                ]
-            },
-            "properties": {
-                "name": "26 Reiss Ave",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10526
-                ],
-                "street_address": "26 Reiss Avenue",
-                "city": "Lowell",
-                "state": "MA",
-                "zip_code": "01851"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.248309,
@@ -4703,164 +3876,6 @@
                 "city": "Waltham",
                 "state": "MA",
                 "zip_code": "02453"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.053383,
-                        42.356544
-                    ],
-                    [
-                        -71.053345,
-                        42.356556
-                    ],
-                    [
-                        -71.053307,
-                        42.356518
-                    ],
-                    [
-                        -71.053352,
-                        42.356525
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "265 Franklin St;CLARENDON GROUP 265 FRANKLIN A;CLARENDON GROUP 265 FRANKLIN B;CLARENDON GROUP 265 FRANKLIN D;CLARENDON GROUP 265FRANKLIN C",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    162062,
-                    180045,
-                    180046,
-                    180047
-                ],
-                "ocm_id": [
-                    9067
-                ],
-                "network_id": "USCPIL8298;USCPIL8520;USCPIL8665;USCPIL8671",
-                "street_address": "265 Franklin Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02110",
-                "charging_points:count": 4,
-                "charging_points:capacity": "1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.121499,
-                        42.68615
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "267 Chickering Rd;NATIONAL GRID N ANDOVER 99",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    161961
-                ],
-                "ocm_id": [
-                    11671
-                ],
-                "network_id": "USCPIL118047",
-                "street_address": "267 Chickering Road",
-                "city": "North Andover",
-                "state": "MA",
-                "zip_code": "01845",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.00916,
-                    42.51011
-                ]
-            },
-            "properties": {
-                "name": "271-275 Broadway",
-                "ocm_id": [
-                    8133
-                ],
-                "street_address": "271-275 Broadway",
-                "city": "Lynnfield",
-                "state": "MA",
-                "zip_code": "01940"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.64582,
-                    42.28366
-                ]
-            },
-            "properties": {
-                "name": "273 Turnpike Rd",
-                "ocm_id": [
-                    8108
-                ],
-                "street_address": "273 Turnpike Road",
-                "city": "Westborough",
-                "state": "MA",
-                "zip_code": "01581"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.499077,
-                    42.779543
-                ]
-            },
-            "properties": {
-                "name": "280 Amherst St",
-                "ocm_id": [
-                    9855
-                ],
-                "street_address": "280 Amherst Street",
-                "city": "Nashua",
-                "state": "NH",
-                "zip_code": "03063"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.000488,
-                    42.207401
-                ]
-            },
-            "properties": {
-                "name": "280 Ivory St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    12949
-                ],
-                "street_address": "280 Ivory Street",
-                "city": "Braintree",
-                "state": "MA",
-                "zip_code": "02184"
             }
         },
         {
@@ -4984,47 +3999,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.021423,
-                    42.396431
-                ]
-            },
-            "properties": {
-                "name": "294 Eastern Ave",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    12947
-                ],
-                "street_address": "294 Eastern Avenue",
-                "city": "Chelsea",
-                "state": "MA",
-                "zip_code": "02150"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.05197,
-                    42.30255
-                ]
-            },
-            "properties": {
-                "name": "296 Freeport St.",
-                "ocm_id": [
-                    20709
-                ],
-                "street_address": "296 Freeport Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02122"
             }
         },
         {
@@ -5172,58 +4146,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.79774,
-                        42.267138
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "30 Major Taylor Blvd;NATIONAL GRID MAJOR TAYLOR 1",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    161842
-                ],
-                "ocm_id": [
-                    9527
-                ],
-                "network_id": "USCPIL190413",
-                "street_address": "30 Major Taylor Boulevard",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01608",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.1029,
-                    42.36105
-                ]
-            },
-            "properties": {
-                "name": "30 Pilgrim St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    29909
-                ],
-                "street_address": "30 Pilgrim Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02139"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.438444,
@@ -5315,27 +4237,6 @@
                 "charging_points:capacity": "2;2;2;2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.021843,
-                    42.366417
-                ]
-            },
-            "properties": {
-                "name": "300 Terminal Dr",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9293
-                ],
-                "street_address": "300 Terminal Drive",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02128"
             }
         },
         {
@@ -5642,26 +4543,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.30394,
-                    41.70105
-                ]
-            },
-            "properties": {
-                "name": "3225 Main St.",
-                "ocm_id": [
-                    16179
-                ],
-                "street_address": "3225 Main Street",
-                "city": "Barnstable",
-                "state": "MA",
-                "zip_code": "02630"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.058224,
                     42.356157
                 ]
@@ -5708,27 +4589,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.120018,
-                    42.33432
-                ]
-            },
-            "properties": {
-                "name": "333 Washington St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9066
-                ],
-                "street_address": "333 Washington Street",
-                "city": "Brookline",
-                "state": "MA",
-                "zip_code": "02445"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -5752,26 +4612,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.19582,
-                    42.79296
-                ]
-            },
-            "properties": {
-                "name": "343 Main St",
-                "ocm_id": [
-                    8127
-                ],
-                "street_address": "343 Main Street",
-                "city": "Salem",
-                "state": "NH",
-                "zip_code": "03079"
             }
         },
         {
@@ -5839,27 +4679,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.109009,
-                    42.355286
-                ]
-            },
-            "properties": {
-                "name": "350 Cambridge St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10510
-                ],
-                "street_address": "350 Cambridge Street",
-                "city": "Mid-Cambridge",
-                "state": "MA",
-                "zip_code": "02139"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -5910,105 +4729,6 @@
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02141"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.28383,
-                    41.65126
-                ]
-            },
-            "properties": {
-                "name": "367 Main St.",
-                "ocm_id": [
-                    29876
-                ],
-                "street_address": "367 Main Street",
-                "city": "Hyannis",
-                "state": "MA",
-                "zip_code": "02601"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.517698,
-                    41.87592
-                ]
-            },
-            "properties": {
-                "name": "371 Putnam Pike",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    29885
-                ],
-                "street_address": "371 Putnam Pike",
-                "city": "Smithfield",
-                "state": "RI",
-                "zip_code": "02917"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.108059,
-                        42.339907
-                    ],
-                    [
-                        -71.108014,
-                        42.339954
-                    ],
-                    [
-                        -71.107867,
-                        42.339991
-                    ],
-                    [
-                        -71.107918,
-                        42.339995
-                    ],
-                    [
-                        -71.107884,
-                        42.339992
-                    ],
-                    [
-                        -71.107937,
-                        42.339909
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "375 Longwood Ave;MASCO E.V.E. 375 LONGWOOD;MASCO E.V.E. 375 LONGWOOD 2;MASCO E.V.E. P2-4;MASCO E.V.E. P2-5;MASCO E.V.E. P2-6;MASCO E.V.E. P2-7",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    118036,
-                    173803,
-                    346694,
-                    346695,
-                    346696,
-                    346697
-                ],
-                "ocm_id": [
-                    9537,
-                    247174,
-                    247175
-                ],
-                "network_id": "USCPIL15865061;USCPIL15865091;USCPIL15865111;USCPIL15865131;USCPIL5380721;USCPIL778761",
-                "street_address": "375 Longwood Avenue",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02215",
-                "charging_points:count": 6,
-                "charging_points:capacity": "2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -6065,27 +4785,6 @@
                 "charging_points:capacity": "2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.254944,
-                    42.334194
-                ]
-            },
-            "properties": {
-                "name": "399 Grove St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10527
-                ],
-                "street_address": "399 Grove Street",
-                "city": "Newton",
-                "state": "MA",
-                "zip_code": "02466"
             }
         },
         {
@@ -6268,75 +4967,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.068558,
-                    42.364155
-                ]
-            },
-            "properties": {
-                "name": "4 Emerson Pl",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9622
-                ],
-                "street_address": "4 Emerson Place",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02114"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.23889,
-                        42.03915
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "4 Fisher St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10528
-                ],
-                "street_address": "4 Fisher Street",
-                "city": "Foxborough",
-                "state": "MA",
-                "zip_code": "02035",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.22547,
-                    42.44749
-                ]
-            },
-            "properties": {
-                "name": "4 Grant St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10498
-                ],
-                "street_address": "4 Grant Street",
-                "city": "Lexington",
-                "state": "MA",
-                "zip_code": "02420"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.263755,
                     42.466177
                 ]
@@ -6436,47 +5066,6 @@
                 "city": "Vernon",
                 "state": "CT",
                 "zip_code": "06066"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.6061,
-                    42.3402
-                ]
-            },
-            "properties": {
-                "name": "40 Russell St",
-                "ocm_id": [
-                    8077
-                ],
-                "street_address": "40 Russell Street",
-                "city": "Hadley",
-                "state": "MA",
-                "zip_code": "01035"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.272278,
-                    42.396442
-                ]
-            },
-            "properties": {
-                "name": "40 Sylvan Rd",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    12943
-                ],
-                "street_address": "40 Sylvan Road",
-                "city": "Waltham",
-                "state": "MA",
-                "zip_code": "02451"
             }
         },
         {
@@ -6931,32 +5520,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.110903,
-                        42.321388
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "415 Centre Street",
-                "ocm_id": [
-                    13757
-                ],
-                "street_address": "415 Centre Street",
-                "city": "Jamaica Plain",
-                "state": "MA",
-                "zip_code": "02130",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -70.248779,
                         41.678925
                     ]
@@ -6980,79 +5543,6 @@
                 "charging_points:capacity": "6",
                 "charging_points:plugs_count": "6",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.713346,
-                        42.525121
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "42 Orchard Hill Park Dr;NATIONAL GRID CHILIS LEOMNSTR",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    43178
-                ],
-                "ocm_id": [
-                    9530,
-                    247387
-                ],
-                "network_id": "USCPIL552041",
-                "street_address": "42 Orchard Hill Park Drive",
-                "city": "Leominster",
-                "state": "MA",
-                "zip_code": "01453",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.88334,
-                    42.56005
-                ]
-            },
-            "properties": {
-                "name": "420 Cabot St.",
-                "ocm_id": [
-                    8139
-                ],
-                "street_address": "420 Cabot Street",
-                "city": "Beverly",
-                "state": "MA",
-                "zip_code": "01915"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.085342,
-                    42.774284
-                ]
-            },
-            "properties": {
-                "name": "43 Granite St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10529
-                ],
-                "street_address": "43 Granite Street",
-                "city": "Haverhill",
-                "state": "MA",
-                "zip_code": "01832"
             }
         },
         {
@@ -7120,26 +5610,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.19009,
-                    42.3561
-                ]
-            },
-            "properties": {
-                "name": "431 Washington St",
-                "ocm_id": [
-                    8129
-                ],
-                "street_address": "431 Washington Street",
-                "city": "Newton",
-                "state": "MA",
-                "zip_code": "02458"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -7162,27 +5632,6 @@
                 "charging_points:capacity": "6",
                 "charging_points:plugs_count": "6",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.96529,
-                    42.21537
-                ]
-            },
-            "properties": {
-                "name": "45 Broad St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10531
-                ],
-                "street_address": "45 Broad Street",
-                "city": "Weymouth",
-                "state": "MA",
-                "zip_code": "02188"
             }
         },
         {
@@ -7275,27 +5724,6 @@
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02141"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.801002,
-                    42.270554
-                ]
-            },
-            "properties": {
-                "name": "455 Main St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    29904
-                ],
-                "street_address": "455 Main Street",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01608"
             }
         },
         {
@@ -7427,26 +5855,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.7003,
-                    42.51906
-                ]
-            },
-            "properties": {
-                "name": "490 Old Union Turnpike",
-                "ocm_id": [
-                    8107
-                ],
-                "street_address": "490 Old Union Turnpike",
-                "city": "Lancaster",
-                "state": "MA",
-                "zip_code": "01523"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -7527,58 +5935,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.824852,
-                    42.250225
-                ]
-            },
-            "properties": {
-                "name": "5 Maywood St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9525
-                ],
-                "street_address": "5 Maywood Street",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01610"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.543926,
-                        42.218452
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "5 Parkwood Dr;CALIPER CALIPERNETWORK1",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    222101
-                ],
-                "ocm_id": [
-                    9005
-                ],
-                "network_id": "USCPIL334711",
-                "street_address": "5 Parkwood Drive",
-                "city": "Hopkinton",
-                "state": "MA",
-                "zip_code": "01748",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.139717,
                     42.342388
                 ]
@@ -7596,26 +5952,6 @@
                 "city": "Brookline",
                 "state": "MA",
                 "zip_code": "02446"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.32935,
-                    41.9862
-                ]
-            },
-            "properties": {
-                "name": "50 Fisher st",
-                "ocm_id": [
-                    9727
-                ],
-                "street_address": "50 Fisher Street",
-                "city": "North Attleboro",
-                "state": "MA",
-                "zip_code": "02760"
             }
         },
         {
@@ -7648,26 +5984,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.602573,
-                    42.586781
-                ]
-            },
-            "properties": {
-                "name": "50 Miles St.",
-                "ocm_id": [
-                    15789
-                ],
-                "street_address": "50 Miles Street",
-                "city": "Greenfield",
-                "state": "MA",
-                "zip_code": "01301"
             }
         },
         {
@@ -7761,26 +6077,6 @@
                 "city": "Revere",
                 "state": "MA",
                 "zip_code": "02151"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.62648,
-                    42.11968
-                ]
-            },
-            "properties": {
-                "name": "500 Riverdale St",
-                "ocm_id": [
-                    8079
-                ],
-                "street_address": "500 Riverdale Street",
-                "city": "West Springfield",
-                "state": "MA",
-                "zip_code": "01089"
             }
         },
         {
@@ -8056,26 +6352,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.18375,
-                    42.1934
-                ]
-            },
-            "properties": {
-                "name": "525 Providence Highway",
-                "ocm_id": [
-                    8130
-                ],
-                "street_address": "525 Providence Highway",
-                "city": "Norwood",
-                "state": "MA",
-                "zip_code": "02062"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.056166,
                     42.358522
                 ]
@@ -8095,27 +6371,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02109"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.077553,
-                    42.369217
-                ]
-            },
-            "properties": {
-                "name": "55 1st St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10512
-                ],
-                "street_address": "55 1st Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02141"
             }
         },
         {
@@ -8231,26 +6486,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.8513,
-                    42.18288
-                ]
-            },
-            "properties": {
-                "name": "569 Oxford St S",
-                "ocm_id": [
-                    8102
-                ],
-                "street_address": "569 Oxford St S",
-                "city": "Auburn",
-                "state": "MA",
-                "zip_code": "01501"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -8287,27 +6522,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.062752,
-                    42.358795
-                ]
-            },
-            "properties": {
-                "name": "6 Bowdoin Sq",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10514
-                ],
-                "street_address": "6 Bowdoin Square",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02108"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -8334,26 +6548,6 @@
                 "charging_points:capacity": "3",
                 "charging_points:plugs_count": "3",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.99049,
-                    42.25352
-                ]
-            },
-            "properties": {
-                "name": "600 Southern Artery",
-                "ocm_id": [
-                    8134
-                ],
-                "street_address": "600 Southern Artery",
-                "city": "Quincy",
-                "state": "MA",
-                "zip_code": "02169"
             }
         },
         {
@@ -8467,30 +6661,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.3016,
-                    41.674062
-                ]
-            },
-            "properties": {
-                "name": "65 Independence Drive",
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    3644495142
-                ],
-                "ocm_id": [
-                    29878
-                ],
-                "street_address": "65 Independence Drive",
-                "city": "Hyannis",
-                "state": "MA",
-                "zip_code": "02601"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -8547,48 +6717,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.479691,
-                    41.718527
-                ]
-            },
-            "properties": {
-                "name": "650 Rhode Island MallBald Hill Rd",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    29881
-                ],
-                "street_address": "650 Rhode Island MallBald Hill Road",
-                "city": "Warwick",
-                "state": "RI",
-                "zip_code": "02886"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.064087,
-                    42.362877
-                ]
-            },
-            "properties": {
-                "name": "66 Staniford St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9623
-                ],
-                "street_address": "66 Staniford Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02114"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -8627,47 +6755,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.794937,
-                    42.315678
-                ]
-            },
-            "properties": {
-                "name": "670 W Boylston St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10508
-                ],
-                "street_address": "670 W Boylston Street",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01606"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.34249,
-                    41.95986
-                ]
-            },
-            "properties": {
-                "name": "685 S Washington Street",
-                "ocm_id": [
-                    8121
-                ],
-                "street_address": "685 S Washington Street",
-                "city": "North Attleboro",
-                "state": "MA",
-                "zip_code": "02761"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.100316,
                     42.126316
                 ]
@@ -8685,42 +6772,6 @@
                 "city": "Stoughton",
                 "state": "MA",
                 "zip_code": "02072"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.089088,
-                        42.363111
-                    ],
-                    [
-                        -71.089093,
-                        42.36313
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "7 Cambridge Center;BOSTON PROP CC WEST GARAGE 1;BOSTON PROP CC WEST GARAGE 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    161829,
-                    179940
-                ],
-                "ocm_id": [
-                    10499
-                ],
-                "network_id": "USCPIL196533;USCPIL205835",
-                "street_address": "7 Cambridge Center",
-                "city": "Cambridge;Mid-Cambridge",
-                "state": "MA",
-                "zip_code": "02142",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -8753,53 +6804,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.070688,
-                        42.334867
-                    ],
-                    [
-                        -71.07057,
-                        42.334891
-                    ],
-                    [
-                        -71.070677,
-                        42.334923
-                    ],
-                    [
-                        -71.07072,
-                        42.334867
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "710 Albany St;BUMC-BMC 710 ALBANY 1;BUMC-BMC 710 ALBANY 2;BUMC-BMC 710 ALBANY 3;BUMC-BMC 710 ALBANY 4",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    161869,
-                    179964,
-                    179965,
-                    179966
-                ],
-                "ocm_id": [
-                    9169,
-                    247163
-                ],
-                "network_id": "USCPIL165501;USCPIL167933;USCPIL168169;USCPIL168435",
-                "street_address": "710 Albany Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02118",
-                "charging_points:count": 4,
-                "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.812085,
                         42.242331
                     ]
@@ -8823,27 +6827,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "4",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.049911,
-                    42.012005
-                ]
-            },
-            "properties": {
-                "name": "724 W Center St",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9540
-                ],
-                "street_address": "724 W Center Street",
-                "city": "West Bridgewater",
-                "state": "MA",
-                "zip_code": "02379"
             }
         },
         {
@@ -8916,46 +6899,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.50151,
-                    42.35084
-                ]
-            },
-            "properties": {
-                "name": "740 Boston Post Road",
-                "ocm_id": [
-                    8111
-                ],
-                "street_address": "740 Boston Post Road",
-                "city": "Marlborough",
-                "state": "MA",
-                "zip_code": "01752"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.32146,
-                    41.6546
-                ]
-            },
-            "properties": {
-                "name": "744 West Main St.",
-                "ocm_id": [
-                    29877
-                ],
-                "street_address": "744 West Main Street",
-                "city": "Hyannis",
-                "state": "MA",
-                "zip_code": "02601"
             }
         },
         {
@@ -9105,72 +7048,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.961651,
-                    42.55249
-                ]
-            },
-            "properties": {
-                "name": "80 Andover Street",
-                "ocm_id": [
-                    12948
-                ],
-                "street_address": "80 Andover Street",
-                "city": "Danvers",
-                "state": "MA",
-                "zip_code": "01923"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.082581,
-                    42.34726
-                ]
-            },
-            "properties": {
-                "name": "800 Boylston St;PRUDENTIAL CTR",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    43859
-                ],
-                "ocm_id": [
-                    10511,
-                    28839
-                ],
-                "street_address": "800 Boylston Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02115"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.170898,
-                    41.73106
-                ]
-            },
-            "properties": {
-                "name": "825 Grand Army Hwy",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9538
-                ],
-                "street_address": "825 Grand Army Highway",
-                "city": "Somerset",
-                "state": "MA",
-                "zip_code": "02725"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.407133,
                     41.842268
                 ]
@@ -9188,26 +7065,6 @@
                 "city": "Providence",
                 "state": "RI",
                 "zip_code": "02904"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.34814,
-                    41.82252
-                ]
-            },
-            "properties": {
-                "name": "845 Taunton Ave",
-                "ocm_id": [
-                    8125
-                ],
-                "street_address": "845 Taunton Avenue",
-                "city": "East Providence",
-                "state": "RI",
-                "zip_code": "02914"
             }
         },
         {
@@ -9288,26 +7145,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.49975,
-                    41.67099
-                ]
-            },
-            "properties": {
-                "name": "885 Quaker Ln",
-                "ocm_id": [
-                    8115
-                ],
-                "street_address": "885 Quaker Lane",
-                "city": "West Warwick",
-                "state": "RI",
-                "zip_code": "02893"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -9335,26 +7172,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.5834,
-                    41.99686
-                ]
-            },
-            "properties": {
-                "name": "90 Elm St",
-                "ocm_id": [
-                    8085
-                ],
-                "street_address": "90 Elm Street",
-                "city": "Enfield",
-                "state": "CT",
-                "zip_code": "06082"
             }
         },
         {
@@ -9456,26 +7273,25 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.075106,
-                        42.052587
+                        -70.954612,
+                        42.167127
                     ]
                 ]
             },
             "properties": {
-                "name": "99 Belmont St;NATIONAL GRID EASTON 99",
+                "name": "99 Restaurant Charger;NATIONAL GRID WEYMOUTH 99",
                 "network": "CHARGEPOINT",
+                "osm_id": [
+                    6715060628
+                ],
                 "nrel_id": [
-                    100331
+                    164075
                 ],
-                "ocm_id": [
-                    10530,
-                    246976
-                ],
-                "network_id": "USCPIL555371",
-                "street_address": "99 Belmont Street",
-                "city": "Easton;South Easton",
+                "network_id": "USCPIL552061",
+                "street_address": "1094 Main Street",
+                "city": "Weymouth",
                 "state": "MA",
-                "zip_code": "02334;02375",
+                "zip_code": "02188",
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
@@ -17172,6 +14988,39 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.089088,
+                        42.363111
+                    ],
+                    [
+                        -71.089093,
+                        42.36313
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BOSTON PROP CC WEST GARAGE 1;BOSTON PROP CC WEST GARAGE 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    161829,
+                    179940
+                ],
+                "network_id": "USCPIL196533;USCPIL205835",
+                "street_address": "7 Cambridge Center",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02142",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.088568,
                         42.363733
                     ],
@@ -19356,6 +17205,52 @@
                 "charging_points:count": 7,
                 "charging_points:capacity": "2;2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.070688,
+                        42.334867
+                    ],
+                    [
+                        -71.07057,
+                        42.334891
+                    ],
+                    [
+                        -71.070677,
+                        42.334923
+                    ],
+                    [
+                        -71.07072,
+                        42.334867
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BUMC-BMC 710 ALBANY 1;BUMC-BMC 710 ALBANY 2;BUMC-BMC 710 ALBANY 3;BUMC-BMC 710 ALBANY 4",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    161869,
+                    179964,
+                    179965,
+                    179966
+                ],
+                "ocm_id": [
+                    247163
+                ],
+                "network_id": "USCPIL165501;USCPIL167933;USCPIL168169;USCPIL168435",
+                "street_address": "710 Albany Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02118",
+                "charging_points:count": 4,
+                "charging_points:capacity": "2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -21947,6 +19842,34 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.543926,
+                        42.218452
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CALIPER CALIPERNETWORK1",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    222101
+                ],
+                "network_id": "USCPIL334711",
+                "street_address": "5 Parkwood Drive",
+                "city": "Hopkinton",
+                "state": "MA",
+                "zip_code": "01748",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.140869,
                         42.350007
                     ]
@@ -23034,6 +20957,37 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.351632,
+                        42.594589
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CHELMSFORD ADAMS LIBRARY",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    121873
+                ],
+                "ocm_id": [
+                    247409
+                ],
+                "network_id": "USCPIL1689491",
+                "street_address": "25 Boston Road",
+                "city": "Chelmsford",
+                "state": "MA",
+                "zip_code": "01824",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.324776,
                         42.593937
                     ],
@@ -23133,6 +21087,34 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.381605,
+                        42.638606
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CHELMSFORD N CHELMS CENTER",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    121698
+                ],
+                "network_id": "USCPIL1689501",
+                "street_address": "19 Middlesex Street",
+                "city": "Chelmsford",
+                "state": "MA",
+                "zip_code": "01863",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -26319,6 +24301,49 @@
                 "city": "Belmont",
                 "state": "MA",
                 "zip_code": "02478"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.053383,
+                        42.356544
+                    ],
+                    [
+                        -71.053345,
+                        42.356556
+                    ],
+                    [
+                        -71.053307,
+                        42.356518
+                    ],
+                    [
+                        -71.053352,
+                        42.356525
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLARENDON GROUP 265 FRANKLIN A;CLARENDON GROUP 265 FRANKLIN B;CLARENDON GROUP 265 FRANKLIN D;CLARENDON GROUP 265FRANKLIN C",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    162062,
+                    180045,
+                    180046,
+                    180047
+                ],
+                "network_id": "USCPIL8298;USCPIL8520;USCPIL8665;USCPIL8671",
+                "street_address": "265 Franklin Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02110",
+                "charging_points:count": 4,
+                "charging_points:capacity": "1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -29772,27 +27797,6 @@
                 "city": "Riverside",
                 "state": "RI",
                 "zip_code": "02915"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.208763,
-                    42.337387
-                ]
-            },
-            "properties": {
-                "name": "City Hall Cir",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    10509
-                ],
-                "street_address": "City Hall Cir",
-                "city": "Newton",
-                "state": "MA",
-                "zip_code": "02459"
             }
         },
         {
@@ -51405,6 +49409,63 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.108059,
+                        42.339907
+                    ],
+                    [
+                        -71.108014,
+                        42.339954
+                    ],
+                    [
+                        -71.107867,
+                        42.339991
+                    ],
+                    [
+                        -71.107918,
+                        42.339995
+                    ],
+                    [
+                        -71.107884,
+                        42.339992
+                    ],
+                    [
+                        -71.107937,
+                        42.339909
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MASCO E.V.E. 375 LONGWOOD;MASCO E.V.E. 375 LONGWOOD 2;MASCO E.V.E. P2-4;MASCO E.V.E. P2-5;MASCO E.V.E. P2-6;MASCO E.V.E. P2-7",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    118036,
+                    173803,
+                    346694,
+                    346695,
+                    346696,
+                    346697
+                ],
+                "ocm_id": [
+                    247174,
+                    247175
+                ],
+                "network_id": "USCPIL15865061;USCPIL15865091;USCPIL15865111;USCPIL15865131;USCPIL5380721;USCPIL778761",
+                "street_address": "375 Longwood Avenue",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02215",
+                "charging_points:count": 6,
+                "charging_points:capacity": "2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.107964,
                         42.339891
                     ]
@@ -51742,6 +49803,34 @@
                 "city": "Topsfield",
                 "state": "MA",
                 "zip_code": "01983",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.847133,
+                        42.799163
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MASS AUDUBON JOPPA FLATS",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    43865
+                ],
+                "network_id": "USCPIL765911",
+                "street_address": "1 Plum Island Turnpike",
+                "city": "Newburyport",
+                "state": "MA",
+                "zip_code": "01950",
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
@@ -53412,6 +51501,30 @@
                 "city": "Littleton",
                 "state": "MA",
                 "zip_code": "01460"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.992089,
+                    42.413931
+                ]
+            },
+            "properties": {
+                "name": "MBTA",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    51980
+                ],
+                "ocm_id": [
+                    28869
+                ],
+                "street_address": "1200-1358 State Hwy 1A",
+                "city": "Revere",
+                "state": "MA",
+                "zip_code": "02151"
             }
         },
         {
@@ -59987,6 +58100,65 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.713346,
+                        42.525121
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID CHILIS LEOMNSTR",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    43178
+                ],
+                "ocm_id": [
+                    247387
+                ],
+                "network_id": "USCPIL552041",
+                "street_address": "42 Orchard Hill Park Drive",
+                "city": "Leominster",
+                "state": "MA",
+                "zip_code": "01453",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.311914,
+                        42.032751
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID CHILIS PLNVILLE",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    43868
+                ],
+                "network_id": "USCPIL551961",
+                "street_address": "107 Taunton Street",
+                "city": "Plainville",
+                "state": "MA",
+                "zip_code": "02762",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.051416,
                         42.011169
                     ]
@@ -60006,6 +58178,34 @@
                 "city": "West Bridgewater",
                 "state": "MA",
                 "zip_code": "02379",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.41896,
+                        42.5703
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID CHILIS WESTFORD",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    43182
+                ],
+                "network_id": "USCPIL554961",
+                "street_address": "137 Littleton Road",
+                "city": "Westford",
+                "state": "MA",
+                "zip_code": "01886",
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
@@ -60062,6 +58262,37 @@
                 "city": "Bristol",
                 "state": "RI",
                 "zip_code": "02809"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.075106,
+                        42.052587
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID EASTON 99",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    100331
+                ],
+                "ocm_id": [
+                    246976
+                ],
+                "network_id": "USCPIL555371",
+                "street_address": "99 Belmont Street",
+                "city": "Easton",
+                "state": "MA",
+                "zip_code": "02334",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -60180,6 +58411,34 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.79774,
+                        42.267138
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID MAJOR TAYLOR 1",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    161842
+                ],
+                "network_id": "USCPIL190413",
+                "street_address": "30 Major Taylor Boulevard",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01608",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.581792,
                         42.340142
                     ]
@@ -60227,6 +58486,34 @@
                 "city": "Milford",
                 "state": "MA",
                 "zip_code": "01757",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.121499,
+                        42.68615
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID N ANDOVER 99",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    161961
+                ],
+                "network_id": "USCPIL118047",
+                "street_address": "267 Chickering Road",
+                "city": "North Andover",
+                "state": "MA",
+                "zip_code": "01845",
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
@@ -60322,6 +58609,71 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -70.996891,
+                        42.410782
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID REVERE 99",
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    9570069808
+                ],
+                "nrel_id": [
+                    44927
+                ],
+                "ocm_id": [
+                    14075
+                ],
+                "network_id": "USCPIL506141",
+                "street_address": "121 Vfw Parkway",
+                "city": "Revere",
+                "state": "MA",
+                "zip_code": "02151",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.916995,
+                        42.132105
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID ROCKLANDLIBRARY",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    44929
+                ],
+                "ocm_id": [
+                    247014
+                ],
+                "network_id": "USCPIL551981",
+                "street_address": "20 Belmont Street",
+                "city": "Rockland",
+                "state": "MA",
+                "zip_code": "02370",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.820203,
                         42.251498
                     ]
@@ -60399,6 +58751,39 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.794678,
+                        42.260546
+                    ],
+                    [
+                        -71.794711,
+                        42.260534
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "NATIONAL GRID UNION STATION 1;NATIONAL GRID UNION STATION 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    43186,
+                    171637
+                ],
+                "network_id": "USCPIL551921;USCPIL555241",
+                "street_address": "225 Franklin Street",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01604",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -65173,20 +63558,20 @@
                         42.171907
                     ],
                     [
-                        -71.135259,
-                        42.172048
+                        -71.135263,
+                        42.171991
                     ],
                     [
-                        -71.135236,
-                        42.171979
+                        -71.135256,
+                        42.171944
                     ],
                     [
-                        -71.135219,
-                        42.171921
+                        -71.135243,
+                        42.171895
                     ],
                     [
-                        -71.1352,
-                        42.171857
+                        -71.135228,
+                        42.171839
                     ],
                     [
                         -71.134756,
@@ -65210,8 +63595,8 @@
                 "name": "PEQUITSIDE PEQUITSIDE-1;PEQUITSIDE PEQUITSIDE-2;PEQUITSIDE PEQUITSIDE-3;PEQUITSIDE PEQUITSIDE-4;Pequitside Farm;Pequitside Farm - Armando",
                 "network": "CHARGEPOINT",
                 "osm_id": [
-                    12048335044,
-                    12048335045
+                    1306711837,
+                    1306711838
                 ],
                 "nrel_id": [
                     207937,
@@ -65229,8 +63614,8 @@
                 "state": "MA",
                 "zip_code": "02021",
                 "charging_points:count": 12,
-                "charging_points:capacity": "2;2;2;2;0;0;0;0;0;0;0;0",
-                "charging_points:plugs_count": "2;2;2;2;0;0;0;0;0;0;0;0",
+                "charging_points:capacity": "2;2;2;2;2;2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -66466,6 +64851,30 @@
                 "city": "Providence",
                 "state": "RI",
                 "zip_code": "02903"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.082497,
+                    42.347275
+                ]
+            },
+            "properties": {
+                "name": "PRUDENTIAL CTR",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    43859
+                ],
+                "ocm_id": [
+                    28839
+                ],
+                "street_address": "800 Boylston Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02115"
             }
         },
         {
@@ -76347,27 +74756,6 @@
                 "city": "Vernon",
                 "state": "CT",
                 "zip_code": "06066"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.04554,
-                    42.35131
-                ]
-            },
-            "properties": {
-                "name": "Seaport Blvd",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9539
-                ],
-                "street_address": "Seaport Boulevard",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02210"
             }
         },
         {
@@ -87603,27 +85991,6 @@
                 "city": "Worcester",
                 "state": "MA",
                 "zip_code": "01605"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.019676,
-                    42.365154
-                ]
-            },
-            "properties": {
-                "name": "Unnamed Rd",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    9295
-                ],
-                "street_address": "Unnamed Road",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02128"
             }
         },
         {

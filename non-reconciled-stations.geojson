@@ -22,6 +22,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.301719,
+                    41.674327
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    3644495142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.209635,
                     42.485084
                 ]
@@ -790,30 +806,6 @@
                 "charging_points:capacity": "2;2;2",
                 "charging_points:plugs_count": "2;2;2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.3016,
-                    41.674062
-                ]
-            },
-            "properties": {
-                "name": "65 Independence Drive",
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    3644495142
-                ],
-                "ocm_id": [
-                    29878
-                ],
-                "street_address": "65 Independence Drive",
-                "city": "Hyannis",
-                "state": "MA",
-                "zip_code": "02601"
             }
         },
         {

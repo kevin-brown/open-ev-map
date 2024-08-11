@@ -1089,13 +1089,19 @@ def combine_networked_stations(all_stations: list[Station]) -> list[Station]:
             first_addresses = set(map(str.lower, first_station.street_address.all()))
             second_addresses = set(map(str.lower, second_station.street_address.all()))
 
+            allowed_distance = 0.01
+
             if first_addresses and second_addresses:
                 if not (first_addresses & second_addresses):
                     continue
 
+                allowed_distance = 0.1
+            elif first_addresses or second_addresses:
+                allowed_distance = 0.05
+
             station_distance = get_station_distance(first_station, second_station)
 
-            if station_distance.miles > 0.05:
+            if station_distance.miles > allowed_distance:
                 continue
 
             combined_station = merge_stations(first_station, second_station)

@@ -188,6 +188,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.394243,
+                    42.456869
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    10990256462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.242814,
                     42.361757
                 ]
@@ -822,6 +838,23 @@
                 "network": "BLINK",
                 "osm_id": [
                     9102222617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.350724,
+                    41.946393
+                ]
+            },
+            "properties": {
+                "name": "EVgo",
+                "network": "EVGO",
+                "osm_id": [
+                    3732553898
                 ]
             }
         },

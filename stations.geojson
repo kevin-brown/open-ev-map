@@ -348,6 +348,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.394243,
+                    42.456869
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    10990256462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.242814,
                     42.361757
                 ]
@@ -3202,66 +3218,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.031356,
-                    42.344282
-                ]
-            },
-            "properties": {
-                "name": "19-23 DRYDOCK",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    75441
-                ],
-                "ocm_id": [
-                    67491
-                ],
-                "street_address": "19 Drydock Avenue",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02210"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.032426,
-                        42.344451
-                    ],
-                    [
-                        -71.032365,
-                        42.344449
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "19-23 DRYDOCK 19 DRYDOCK - #1;19-23 DRYDOCK 19 DRYDOCK - #2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    161919,
-                    179993
-                ],
-                "ocm_id": [
-                    247188
-                ],
-                "network_id": "USCPIL125235;USCPIL127047",
-                "street_address": "19 Drydock Avenue",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02210",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -3286,6 +3242,44 @@
                 ],
                 "network_id": "USCPIL124253;USCPIL127577",
                 "street_address": "23 Drydock Avenue",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02210",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.032426,
+                        42.344451
+                    ],
+                    [
+                        -71.032365,
+                        42.344449
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "19-23 DRYDOCK;19-23 DRYDOCK 19 DRYDOCK - #1;19-23 DRYDOCK 19 DRYDOCK - #2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    75441,
+                    161919,
+                    179993
+                ],
+                "ocm_id": [
+                    67491,
+                    247188
+                ],
+                "network_id": "USCPIL125235;USCPIL127047",
+                "street_address": "19 Drydock Avenue",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02210",
@@ -6328,17 +6322,19 @@
                 ]
             },
             "properties": {
-                "name": "520110-100 Fifth Ave",
+                "name": "520110-100 Fifth Ave;Greenlots - 52263",
                 "network": "SHELL_RECHARGE",
                 "nrel_id": [
+                    103587,
                     118056
                 ],
                 "ocm_id": [
+                    110703,
                     247324
                 ],
                 "network_id": "1245",
-                "street_address": "100 Fifth Avenue",
-                "city": "Waltham",
+                "street_address": "100 Fifth Avenue;100 fifth Avenue",
+                "city": "100 fifth Ave;Waltham",
                 "state": "MA",
                 "zip_code": "02451",
                 "charging_points:count": 1,
@@ -11797,30 +11793,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.263261,
-                    42.297168
-                ]
-            },
-            "properties": {
-                "name": "BABSON COLLEGE",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    85984
-                ],
-                "ocm_id": [
-                    91484
-                ],
-                "street_address": "5 Map Hill Drive",
-                "city": "Wellesley",
-                "state": "MA",
-                "zip_code": "02481"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -11895,15 +11867,17 @@
                 ]
             },
             "properties": {
-                "name": "BABSON COLLEGE TRIMLOT1;BABSON COLLEGE TRIMLOT2;BABSON COLLEGE TRIMLOT3;BABSON COLLEGE TRIMLOT4",
+                "name": "BABSON COLLEGE;BABSON COLLEGE TRIMLOT1;BABSON COLLEGE TRIMLOT2;BABSON COLLEGE TRIMLOT3;BABSON COLLEGE TRIMLOT4",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    85984,
                     179947,
                     241238,
                     241239,
                     241240
                 ],
                 "ocm_id": [
+                    91484,
                     247113
                 ],
                 "network_id": "USCPIL192721;USCPIL194197;USCPIL194225;USCPIL194233",
@@ -12530,30 +12504,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.967444,
-                    42.233387
-                ]
-            },
-            "properties": {
-                "name": "BELD",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    79898
-                ],
-                "ocm_id": [
-                    74604
-                ],
-                "street_address": "150 Potter Road",
-                "city": "Braintree",
-                "state": "MA",
-                "zip_code": "02184"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -12575,16 +12525,18 @@
                 ]
             },
             "properties": {
-                "name": "BELD ADMIN PKG LOT 1;BELD ADMIN PKG LOT 2",
+                "name": "BELD;BELD ADMIN PKG LOT 1;BELD ADMIN PKG LOT 2",
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     1291893912
                 ],
                 "nrel_id": [
+                    79898,
                     161870,
                     179967
                 ],
                 "ocm_id": [
+                    74604,
                     247053
                 ],
                 "network_id": "USCPIL163983;USCPIL167149",
@@ -19111,18 +19063,20 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.995637,
-                    42.577678
+                    -70.99489,
+                    42.57715
                 ]
             },
             "properties": {
-                "name": "BreezEV Parking Lot",
+                "name": "BreezEV Parking Lot;HQ",
                 "network": "AMPUP",
                 "nrel_id": [
-                    251386
+                    251386,
+                    319481
                 ],
                 "ocm_id": [
-                    229571
+                    229571,
+                    282939
                 ],
                 "street_address": "30 Log Bridge Road",
                 "city": "Middleton",
@@ -19671,33 +19625,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.214591,
-                        42.482747
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Burlington Mall",
-                "network": "EVGO",
-                "ocm_id": [
-                    85236
-                ],
-                "street_address": "75 Middlesex Turnpike",
-                "city": "Burlington",
-                "state": "MA",
-                "zip_code": "01803",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -71.216812,
                         42.483539
                     ],
@@ -19778,6 +19705,10 @@
                     [
                         -71.212849,
                         42.483159
+                    ],
+                    [
+                        -71.214591,
+                        42.482747
                     ]
                 ]
             },
@@ -19791,6 +19722,7 @@
                     228407
                 ],
                 "ocm_id": [
+                    85236,
                     247367
                 ],
                 "network_id": "493",
@@ -19798,9 +19730,9 @@
                 "city": "Burlington",
                 "state": "MA",
                 "zip_code": "01803",
-                "charging_points:count": 1,
-                "charging_points:capacity": "3",
-                "charging_points:plugs_count": "9",
+                "charging_points:count": 2,
+                "charging_points:capacity": "3;1",
+                "charging_points:plugs_count": "9;2",
                 "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
@@ -20279,25 +20211,32 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.500114,
-                    41.670235
+                    [
+                        -71.501131,
+                        41.670064
+                    ]
                 ]
             },
             "properties": {
-                "name": "CARDISFURNITURE",
+                "name": "CARDISFURNITURE;Cardi's Furniture Superstore",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     36374
                 ],
                 "ocm_id": [
-                    2950
+                    2950,
+                    3577
                 ],
                 "street_address": "1681 Quaker Lane",
                 "city": "West Warwick",
                 "state": "RI",
-                "zip_code": "02893"
+                "zip_code": "02893",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -20707,71 +20646,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.012355,
-                    42.389934
-                ]
-            },
-            "properties": {
-                "name": "CHARGE STATION",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    71603
-                ],
-                "ocm_id": [
-                    62308
-                ],
-                "street_address": "100 Boardman Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02128"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.01176,
-                        42.389216
-                    ],
-                    [
-                        -71.011697,
-                        42.389246
-                    ],
-                    [
-                        -71.011713,
-                        42.389279
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "CHARGE STATION ECC-1;CHARGE STATION ECC-2;CHARGE STATION ECC-3",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    262722,
-                    262723,
-                    262724
-                ],
-                "ocm_id": [
-                    270005
-                ],
-                "network_id": "USCPIL9418391;USCPIL9418421;USCPIL9418441",
-                "street_address": "100 Boardman Street;375 William F McClellan Highway",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02128",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;1;2",
-                "charging_points:plugs_count": "2;1;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -20797,6 +20671,49 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.01176,
+                        42.389216
+                    ],
+                    [
+                        -71.011697,
+                        42.389246
+                    ],
+                    [
+                        -71.011713,
+                        42.389279
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CHARGE STATION;CHARGE STATION ECC-1;CHARGE STATION ECC-2;CHARGE STATION ECC-3",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    71603,
+                    262722,
+                    262723,
+                    262724
+                ],
+                "ocm_id": [
+                    62308,
+                    270005
+                ],
+                "network_id": "USCPIL9418391;USCPIL9418421;USCPIL9418441",
+                "street_address": "100 Boardman Street;375 William F McClellan Highway",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02128",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;1;2",
+                "charging_points:plugs_count": "2;1;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -24832,33 +24749,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.394297,
-                    42.456864
-                ]
-            },
-            "properties": {
-                "name": "CONCORD LIGHT",
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    10990256462
-                ],
-                "nrel_id": [
-                    60808
-                ],
-                "ocm_id": [
-                    28877
-                ],
-                "street_address": "66 Commonwealth Avenue",
-                "city": "Concord",
-                "state": "MA",
-                "zip_code": "01742"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -24912,37 +24802,6 @@
                 ],
                 "network_id": "USCPIL730621",
                 "street_address": "58 Main Street",
-                "city": "Concord",
-                "state": "MA",
-                "zip_code": "01742",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.393594,
-                        42.457529
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "CONCORD LIGHT MBTA LOT NEW",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    326312
-                ],
-                "ocm_id": [
-                    294911
-                ],
-                "network_id": "USCPIL15405621",
-                "street_address": "66 Commonwealth Avenue",
                 "city": "Concord",
                 "state": "MA",
                 "zip_code": "01742",
@@ -25077,6 +24936,39 @@
                 ],
                 "network_id": "USCPIL164759",
                 "street_address": "100 Main Street",
+                "city": "Concord",
+                "state": "MA",
+                "zip_code": "01742",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.393594,
+                        42.457529
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CONCORD LIGHT;CONCORD LIGHT MBTA LOT NEW",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    60808,
+                    326312
+                ],
+                "ocm_id": [
+                    28877,
+                    294911
+                ],
+                "network_id": "USCPIL15405621",
+                "street_address": "66 Commonwealth Avenue",
                 "city": "Concord",
                 "state": "MA",
                 "zip_code": "01742",
@@ -26708,33 +26600,6 @@
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
                 "charging_points:plugs_type": "NACS"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.501131,
-                        41.670064
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Cardi's Furniture Superstore",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    3577
-                ],
-                "street_address": "1681 Quaker Lane",
-                "city": "West Warwick",
-                "state": "RI",
-                "zip_code": "02893",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -34024,6 +33889,23 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.350724,
+                    41.946393
+                ]
+            },
+            "properties": {
+                "name": "EVgo",
+                "network": "EVGO",
+                "osm_id": [
+                    3732553898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -34046,33 +33928,6 @@
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.35048,
-                    41.9462
-                ]
-            },
-            "properties": {
-                "name": "EVgo;Emerald Square",
-                "network": "EVGO",
-                "osm_id": [
-                    3732553898
-                ],
-                "nrel_id": [
-                    93035
-                ],
-                "ocm_id": [
-                    142911
-                ],
-                "street_address": "999 S Washington Street",
-                "city": "North Attleboro",
-                "state": "MA",
-                "zip_code": "02760"
             }
         },
         {
@@ -34218,11 +34073,15 @@
                     [
                         -71.023931,
                         42.220952
+                    ],
+                    [
+                        -71.022698,
+                        42.220067
                     ]
                 ]
             },
             "properties": {
-                "name": "EVgo;South Shore Plaza",
+                "name": "EVgo;South Shore Plaza;Southshore Plaza",
                 "network": "EVGO",
                 "osm_id": [
                     11902584503
@@ -34231,6 +34090,7 @@
                     228518
                 ],
                 "ocm_id": [
+                    85239,
                     247048
                 ],
                 "network_id": "615",
@@ -34238,9 +34098,9 @@
                 "city": "Braintree",
                 "state": "MA",
                 "zip_code": "02184",
-                "charging_points:count": 1,
-                "charging_points:capacity": "3",
-                "charging_points:plugs_count": "9",
+                "charging_points:count": 2,
+                "charging_points:capacity": "3;1",
+                "charging_points:plugs_count": "9;2",
                 "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
@@ -34836,7 +34696,11 @@
                 "name": "Emerald Square",
                 "network": "EVGO",
                 "nrel_id": [
+                    93035,
                     228523
+                ],
+                "ocm_id": [
+                    142911
                 ],
                 "network_id": "620",
                 "street_address": "999 S Washington Street",
@@ -36783,17 +36647,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.38036,
-                    42.081402
+                    -71.380815,
+                    42.080249
                 ]
             },
             "properties": {
-                "name": "Franklin Town Hall",
+                "name": "Franklin Town Hall;Inovis Energy - Central Ave",
                 "network": "AMPUP",
                 "nrel_id": [
+                    169704,
                     230644
                 ],
                 "ocm_id": [
+                    246984,
                     246986
                 ],
                 "street_address": "355 E Central Street",
@@ -38900,30 +38766,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.255855,
-                    42.393662
-                ]
-            },
-            "properties": {
-                "name": "Greenlots - 52263",
-                "network": "SHELL_RECHARGE",
-                "nrel_id": [
-                    103587
-                ],
-                "ocm_id": [
-                    110703
-                ],
-                "street_address": "100 fifth Avenue",
-                "city": "100 fifth Ave",
-                "state": "MA",
-                "zip_code": "02451"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -73.138786,
                     41.988528
                 ]
@@ -40473,30 +40315,6 @@
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.99489,
-                    42.57715
-                ]
-            },
-            "properties": {
-                "name": "HQ",
-                "network": "AMPUP",
-                "nrel_id": [
-                    319481
-                ],
-                "ocm_id": [
-                    282939
-                ],
-                "street_address": "30 Log Bridge Road",
-                "city": "Middleton",
-                "state": "MA",
-                "zip_code": "01949"
             }
         },
         {
@@ -42819,36 +42637,14 @@
                 ]
             },
             "properties": {
-                "name": "INDEPENDENCE PL STATION #1",
+                "name": "INDEPENDENCE PL STATION #1;INDEPENDENCE PL STATION #2",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    155493
-                ],
-                "ocm_id": [
-                    159858
-                ],
-                "street_address": "50 Independence Way",
-                "city": "Cranston",
-                "state": "RI",
-                "zip_code": "02921"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.499161,
-                    41.786274
-                ]
-            },
-            "properties": {
-                "name": "INDEPENDENCE PL STATION #2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
+                    155493,
                     175561
                 ],
                 "ocm_id": [
+                    159858,
                     246812
                 ],
                 "street_address": "50 Independence Way",
@@ -43434,30 +43230,6 @@
                 "city": "Providence",
                 "state": "RI",
                 "zip_code": "02908"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.380815,
-                    42.080249
-                ]
-            },
-            "properties": {
-                "name": "Inovis Energy - Central Ave",
-                "network": "AMPUP",
-                "nrel_id": [
-                    169704
-                ],
-                "ocm_id": [
-                    246984
-                ],
-                "street_address": "355 E Central Street",
-                "city": "Franklin",
-                "state": "MA",
-                "zip_code": "02038"
             }
         },
         {
@@ -47843,54 +47615,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.194914,
-                    42.173315
-                ]
-            },
-            "properties": {
-                "name": "MA PORTFOLIO",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    64531
-                ],
-                "ocm_id": [
-                    31159
-                ],
-                "street_address": "1177 Boston-Providence Turnpike",
-                "city": "Norwood",
-                "state": "MA",
-                "zip_code": "02062"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.256605,
-                    42.40874
-                ]
-            },
-            "properties": {
-                "name": "MA PORTFOLIO",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    64091
-                ],
-                "ocm_id": [
-                    28868
-                ],
-                "street_address": "404 Wyman Street",
-                "city": "Waltham",
-                "state": "MA",
-                "zip_code": "02451"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -47922,62 +47646,6 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.196556,
-                        42.17294
-                    ],
-                    [
-                        -71.196604,
-                        42.172952
-                    ],
-                    [
-                        -71.196816,
-                        42.173051
-                    ],
-                    [
-                        -71.196753,
-                        42.173024
-                    ],
-                    [
-                        -71.196867,
-                        42.173071
-                    ],
-                    [
-                        -71.196685,
-                        42.172974
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "MA PORTFOLIO 1175 NORWOOD #1;MA PORTFOLIO 1175 NORWOOD #2;MA PORTFOLIO 1175 NORWOOD #3;MA PORTFOLIO 1175 NORWOOD #4;MA PORTFOLIO 1175 NORWOOD #5;MA PORTFOLIO 1175 NORWOOD #6",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    162004,
-                    180026,
-                    180027,
-                    180028,
-                    180029,
-                    180030
-                ],
-                "ocm_id": [
-                    247026
-                ],
-                "network_id": "USCPIL108071;USCPIL108205;USCPIL108207;USCPIL108209;USCPIL108249;USCPIL109069",
-                "street_address": "1177 Boston-Providence Turnpike",
-                "city": "Norwood",
-                "state": "MA",
-                "zip_code": "02062",
-                "charging_points:count": 6,
-                "charging_points:capacity": "2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -48213,43 +47881,6 @@
                     229297
                 ],
                 "network_id": "USCPIL108183;USCPIL109811",
-                "street_address": "404 Wyman Street",
-                "city": "Waltham",
-                "state": "MA",
-                "zip_code": "02451",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.257358,
-                        42.407618
-                    ],
-                    [
-                        -71.257466,
-                        42.407389
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "MA PORTFOLIO 404 SOUTH #1;MA PORTFOLIO 404 SOUTH #2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    180022,
-                    180023
-                ],
-                "ocm_id": [
-                    247338,
-                    247339
-                ],
-                "network_id": "USCPIL108191;USCPIL109779",
                 "street_address": "404 Wyman Street",
                 "city": "Waltham",
                 "state": "MA",
@@ -48582,6 +48213,64 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.196556,
+                        42.17294
+                    ],
+                    [
+                        -71.196604,
+                        42.172952
+                    ],
+                    [
+                        -71.196816,
+                        42.173051
+                    ],
+                    [
+                        -71.196753,
+                        42.173024
+                    ],
+                    [
+                        -71.196867,
+                        42.173071
+                    ],
+                    [
+                        -71.196685,
+                        42.172974
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MA PORTFOLIO;MA PORTFOLIO 1175 NORWOOD #1;MA PORTFOLIO 1175 NORWOOD #2;MA PORTFOLIO 1175 NORWOOD #3;MA PORTFOLIO 1175 NORWOOD #4;MA PORTFOLIO 1175 NORWOOD #5;MA PORTFOLIO 1175 NORWOOD #6",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    64531,
+                    162004,
+                    180026,
+                    180027,
+                    180028,
+                    180029,
+                    180030
+                ],
+                "ocm_id": [
+                    31159,
+                    247026
+                ],
+                "network_id": "USCPIL108071;USCPIL108205;USCPIL108207;USCPIL108209;USCPIL108249;USCPIL109069",
+                "street_address": "1177 Boston-Providence Turnpike",
+                "city": "Norwood",
+                "state": "MA",
+                "zip_code": "02062",
+                "charging_points:count": 6,
+                "charging_points:capacity": "2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.255361,
                         42.405921
                     ],
@@ -48621,6 +48310,45 @@
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.257358,
+                        42.407618
+                    ],
+                    [
+                        -71.257466,
+                        42.407389
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MA PORTFOLIO;MA PORTFOLIO 404 SOUTH #1;MA PORTFOLIO 404 SOUTH #2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    64091,
+                    180022,
+                    180023
+                ],
+                "ocm_id": [
+                    28868,
+                    247338,
+                    247339
+                ],
+                "network_id": "USCPIL108191;USCPIL109779",
+                "street_address": "404 Wyman Street",
+                "city": "Waltham",
+                "state": "MA",
+                "zip_code": "02451",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -50874,6 +50602,22 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.01947,
+                        42.36524
+                    ],
+                    [
+                        -71.019485,
+                        42.365215
+                    ],
+                    [
+                        -71.01941,
+                        42.365314
+                    ],
+                    [
+                        -71.019424,
+                        42.36526
+                    ],
+                    [
                         -71.01831,
                         42.366653
                     ],
@@ -50896,12 +50640,16 @@
                 ]
             },
             "properties": {
-                "name": "MASSPORT CG-03-01;MASSPORT CG-06-02;MASSPORT CG-06-03;MASSPORT CG-06-04;MASSPORT CG-06-05",
+                "name": "MASSPORT CG-03-01;MASSPORT CG-06-02;MASSPORT CG-06-03;MASSPORT CG-06-04;MASSPORT CG-06-05;MASSPORT CG-06-06;MASSPORT CG-06-07;MASSPORT CG-06-08;MASSPORT CG-06-09",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    152436,
+                    174964,
                     174965,
                     174966,
                     174967,
+                    174968,
+                    174969,
                     174970,
                     174971
                 ],
@@ -50909,57 +50657,14 @@
                     247296,
                     247298
                 ],
-                "network_id": "USCPIL2050311;USCPIL2050371;USCPIL2058751;USCPIL2058761;USCPIL2058771",
+                "network_id": "USCPIL2050311;USCPIL2050371;USCPIL2052561;USCPIL2052671;USCPIL2058751;USCPIL2058761;USCPIL2058771;USCPIL2058851;USCPIL2058881",
                 "street_address": "450 Terminal Road",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02128",
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.01947,
-                        42.36524
-                    ],
-                    [
-                        -71.019485,
-                        42.365215
-                    ],
-                    [
-                        -71.01941,
-                        42.365314
-                    ],
-                    [
-                        -71.019424,
-                        42.36526
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "MASSPORT CG-06-06;MASSPORT CG-06-07;MASSPORT CG-06-08;MASSPORT CG-06-09",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    152436,
-                    174964,
-                    174968,
-                    174969
-                ],
-                "network_id": "USCPIL2052561;USCPIL2052671;USCPIL2058851;USCPIL2058881",
-                "street_address": "450 Terminal Road",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02128",
-                "charging_points:count": 4,
-                "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:count": 9,
+                "charging_points:capacity": "2;2;2;2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -51372,30 +51077,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.69434,
-                    42.277393
-                ]
-            },
-            "properties": {
-                "name": "MB BENZ EV 1",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    185348
-                ],
-                "ocm_id": [
-                    247091
-                ],
-                "street_address": "760 Boston Turnpike",
-                "city": "Shrewsbury",
-                "state": "MA",
-                "zip_code": "01545"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -51405,13 +51086,15 @@
                 ]
             },
             "properties": {
-                "name": "MB EXPRESS 250",
+                "name": "MB BENZ EV 1;MB EXPRESS 250",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
+                    185348,
                     195661
                 ],
                 "ocm_id": [
-                    247089
+                    247089,
+                    247091
                 ],
                 "network_id": "USCPIL9334161",
                 "street_address": "760 Boston Turnpike",
@@ -56265,31 +55948,7 @@
                     [
                         -72.013343,
                         42.667436
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Mathieu Ford",
-                "network": "EV_CONNECT",
-                "nrel_id": [
-                    329575
-                ],
-                "network_id": "8aec095a-a2d4-465b-a6f6-0e2fa3f1213e",
-                "street_address": "664 Spring Street",
-                "city": "Wincherdon",
-                "state": "MA",
-                "zip_code": "01475",
-                "charging_points:count": 1,
-                "charging_points:capacity": "10",
-                "charging_points:plugs_count": "20",
-                "charging_points:plugs_type": "J1772;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
+                    ],
                     [
                         -72.011808,
                         42.666765
@@ -56299,17 +55958,21 @@
             "properties": {
                 "name": "Mathieu Ford",
                 "network": "EV_CONNECT",
+                "nrel_id": [
+                    329575
+                ],
                 "ocm_id": [
                     296251
                 ],
+                "network_id": "8aec095a-a2d4-465b-a6f6-0e2fa3f1213e",
                 "street_address": "664 Spring Street",
                 "city": "Wincherdon",
                 "state": "MA",
                 "zip_code": "01475",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772_COMBO"
+                "charging_points:count": 2,
+                "charging_points:capacity": "10;1",
+                "charging_points:plugs_count": "20;1",
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -57684,20 +57347,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.119885,
-                    42.703256
+                    -73.119298,
+                    42.702147
                 ]
             },
             "properties": {
-                "name": "NAT GRID WRKPLC",
+                "name": "NAT GRID WRKPLC;National Grid - North Adams",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    145110
+                    145110,
+                    167779
                 ],
                 "ocm_id": [
-                    143273
+                    143273,
+                    247464
                 ],
-                "street_address": "60 brown street",
+                "street_address": "60 Brown Street;60 brown street",
                 "city": "North Adams",
                 "state": "MA",
                 "zip_code": "01247"
@@ -60480,28 +60145,38 @@
                     [
                         -71.385366,
                         42.302718
+                    ],
+                    [
+                        -71.384031,
+                        42.301896
+                    ],
+                    [
+                        -71.384082,
+                        42.301848
                     ]
                 ]
             },
             "properties": {
-                "name": "Natick Mall 1st Floor Garage F;Natick Mall 2nd Floor Garage F;Natick Mall 3rd Floor Garage F",
+                "name": "Natick Mall 1st Floor Garage F;Natick Mall 2nd Floor Garage F;Natick Mall 3rd Floor Garage F;Natick Mall B Deck Corner;Natick Mall B Deck Entrance",
                 "network": "VOLTA",
                 "nrel_id": [
                     152199,
                     152200,
-                    152201
+                    152201,
+                    253620,
+                    253653
                 ],
                 "ocm_id": [
                     159979
                 ],
-                "network_id": "1baf7f91-9f28-4e2d-b7a8-95f9c6da2100;6faa1d62-cfd7-4a9d-aa95-ca483c46ae66;8b5bbb89-9bd4-4955-9dfc-6fe1550df655",
+                "network_id": "1baf7f91-9f28-4e2d-b7a8-95f9c6da2100;6faa1d62-cfd7-4a9d-aa95-ca483c46ae66;8b5bbb89-9bd4-4955-9dfc-6fe1550df655;b69cff7b-318d-4285-9a32-9bc1965e32c7;d8919f7a-e702-4a8d-9930-0ffd0a314827",
                 "street_address": "1245 Worcester Street",
                 "city": "Natick",
                 "state": "MA",
                 "zip_code": "01760",
-                "charging_points:count": 3,
-                "charging_points:capacity": "3;1;1",
-                "charging_points:plugs_count": "3;1;1",
+                "charging_points:count": 5,
+                "charging_points:capacity": "3;1;1;1;1",
+                "charging_points:plugs_count": "3;1;1;1;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -60533,39 +60208,6 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.384031,
-                        42.301896
-                    ],
-                    [
-                        -71.384082,
-                        42.301848
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Natick Mall B Deck Corner;Natick Mall B Deck Entrance",
-                "network": "VOLTA",
-                "nrel_id": [
-                    253620,
-                    253653
-                ],
-                "network_id": "b69cff7b-318d-4285-9a32-9bc1965e32c7;d8919f7a-e702-4a8d-9930-0ffd0a314827",
-                "street_address": "1245 Worcester Street",
-                "city": "Natick",
-                "state": "MA",
-                "zip_code": "01760",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -60832,30 +60474,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.119298,
-                    42.702147
-                ]
-            },
-            "properties": {
-                "name": "National Grid - North Adams",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    167779
-                ],
-                "ocm_id": [
-                    247464
-                ],
-                "street_address": "60 Brown Street",
-                "city": "North Adams",
-                "state": "MA",
-                "zip_code": "01247"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.099458,
                     42.651781
                 ]
@@ -60932,13 +60550,15 @@
                 ]
             },
             "properties": {
-                "name": "National Grid - Providence",
+                "name": "National Grid - Providence;RI ENERGY MELROSE V2",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    167778
+                    167778,
+                    252652
                 ],
                 "ocm_id": [
-                    228215
+                    228215,
+                    228216
                 ],
                 "street_address": "280 Melrose Street",
                 "city": "Providence",
@@ -67653,18 +67273,20 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.420305,
-                    41.829822
+                    -71.419287,
+                    41.828867
                 ]
             },
             "properties": {
-                "name": "RI ENERGY FOUNDRYBUILDING",
+                "name": "RI ENERGY FOUNDRYBUILDING;Rhode Island Department of Environmental Management Fleet Lot",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    72465
+                    72465,
+                    238375
                 ],
                 "ocm_id": [
-                    142853
+                    142853,
+                    246834
                 ],
                 "street_address": "285 Edith Street",
                 "city": "Providence",
@@ -67718,30 +67340,6 @@
                 "city": "Lincoln",
                 "state": "RI",
                 "zip_code": "02865"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.419454,
-                    41.792502
-                ]
-            },
-            "properties": {
-                "name": "RI ENERGY MELROSE V2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    252652
-                ],
-                "ocm_id": [
-                    228216
-                ],
-                "street_address": "280 Melrose Street",
-                "city": "Providence",
-                "state": "RI",
-                "zip_code": "02907"
             }
         },
         {
@@ -69955,30 +69553,6 @@
                     228290
                 ],
                 "street_address": "600 Mt Pleasant Avenue",
-                "city": "Providence",
-                "state": "RI",
-                "zip_code": "02908"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.419287,
-                    41.828867
-                ]
-            },
-            "properties": {
-                "name": "Rhode Island Department of Environmental Management Fleet Lot",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    238375
-                ],
-                "ocm_id": [
-                    246834
-                ],
-                "street_address": "285 Edith Street",
                 "city": "Providence",
                 "state": "RI",
                 "zip_code": "02908"
@@ -75428,33 +75002,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.022698,
-                        42.220067
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Southshore Plaza",
-                "network": "EVGO",
-                "ocm_id": [
-                    85239
-                ],
-                "street_address": "250 Granite Street",
-                "city": "Braintree",
-                "state": "MA",
-                "zip_code": "02184",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.50051,
@@ -75900,34 +75447,7 @@
                     [
                         -70.884014,
                         42.244607
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Station Street Parking Lot",
-                "network": "FLO",
-                "nrel_id": [
-                    233270
-                ],
-                "ocm_id": [
-                    228833
-                ],
-                "network_id": "1ca5b353-7c4e-4920-a00d-20895888b9a0",
-                "street_address": "62 Water Street",
-                "city": "Hingham",
-                "state": "MA",
-                "zip_code": "02043",
-                "charging_points:count": 1,
-                "charging_points:capacity": "4",
-                "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
+                    ],
                     [
                         -70.883728,
                         42.243839
@@ -75935,23 +75455,25 @@
                 ]
             },
             "properties": {
-                "name": "Station Street Parking Lot - DCFC",
+                "name": "Station Street Parking Lot;Station Street Parking Lot - DCFC",
                 "network": "FLO",
                 "nrel_id": [
+                    233270,
                     315878
                 ],
                 "ocm_id": [
+                    228833,
                     282836
                 ],
-                "network_id": "4f4006ec-d2de-4df6-a1de-aa3332fe3d9a",
+                "network_id": "1ca5b353-7c4e-4920-a00d-20895888b9a0;4f4006ec-d2de-4df6-a1de-aa3332fe3d9a",
                 "street_address": "62 Water Street",
                 "city": "Hingham",
                 "state": "MA",
                 "zip_code": "02043",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+                "charging_points:count": 2,
+                "charging_points:capacity": "4;2",
+                "charging_points:plugs_count": "4;4",
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
         {
@@ -81419,66 +80941,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.431576,
-                    42.679439
-                ]
-            },
-            "properties": {
-                "name": "TYNGSBOROUGH MA",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    52274
-                ],
-                "ocm_id": [
-                    18333
-                ],
-                "street_address": "89 Kendall Road",
-                "city": "Tyngsborough",
-                "state": "MA",
-                "zip_code": "01879"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.43225,
-                        42.67997
-                    ],
-                    [
-                        -71.43223,
-                        42.680016
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "TYNGSBOROUGH MA KENDALL 1;TYNGSBOROUGH MA KENDALL 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    195745,
-                    195746
-                ],
-                "ocm_id": [
-                    247450
-                ],
-                "network_id": "USCPIL9547401;USCPIL9547471",
-                "street_address": "89 Kendall Road",
-                "city": "Tyngsborough",
-                "state": "MA",
-                "zip_code": "01879",
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -81541,6 +81003,44 @@
                 ],
                 "network_id": "USCPIL9544421;USCPIL9544521",
                 "street_address": "25 Bryant Lane",
+                "city": "Tyngsborough",
+                "state": "MA",
+                "zip_code": "01879",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.43225,
+                        42.67997
+                    ],
+                    [
+                        -71.43223,
+                        42.680016
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "TYNGSBOROUGH MA;TYNGSBOROUGH MA KENDALL 1;TYNGSBOROUGH MA KENDALL 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    52274,
+                    195745,
+                    195746
+                ],
+                "ocm_id": [
+                    18333,
+                    247450
+                ],
+                "network_id": "USCPIL9547401;USCPIL9547471",
+                "street_address": "89 Kendall Road",
                 "city": "Tyngsborough",
                 "state": "MA",
                 "zip_code": "01879",
@@ -88781,30 +88281,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.809679,
-                    42.27396
-                ]
-            },
-            "properties": {
-                "name": "WPI",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    80576
-                ],
-                "ocm_id": [
-                    89707
-                ],
-                "street_address": "100 Institute Road",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01609"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -88937,17 +88413,19 @@
                 ]
             },
             "properties": {
-                "name": "WPI WPI GARAGE 2;WPI WPI GARAGE 3",
+                "name": "WPI;WPI WPI GARAGE 2;WPI WPI GARAGE 3",
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     9445609464,
                     9445609465
                 ],
                 "nrel_id": [
+                    80576,
                     161864,
                     179962
                 ],
                 "ocm_id": [
+                    89707,
                     247087
                 ],
                 "network_id": "USCPIL175197;USCPIL176029",
@@ -89743,36 +89221,11 @@
                 ]
             },
             "properties": {
-                "name": "Wegmans Parking Deck A1",
+                "name": "Wegmans Parking Deck A1;Wegmans food court",
                 "network": "VOLTA",
                 "ocm_id": [
+                    191889,
                     191890
-                ],
-                "street_address": "Natick Mall Road",
-                "city": "Natick",
-                "state": "MA",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.385618,
-                        42.302631
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Wegmans food court",
-                "network": "VOLTA",
-                "ocm_id": [
-                    191889
                 ],
                 "street_address": "Natick Mall Road",
                 "city": "Natick",

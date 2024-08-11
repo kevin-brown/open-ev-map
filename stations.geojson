@@ -11730,6 +11730,36 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.364493,
+                        42.311627
+                    ],
+                    [
+                        -71.364493,
+                        42.311627
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Autel - Natick Service Plaza Eastbound",
+                "ocm_id": [
+                    143062
+                ],
+                "street_address": "I-90 E Mile Marker 118.4",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.903759,
@@ -18606,40 +18636,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.081069,
-                        42.345454
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Blink;Colonade Hotel Garage",
-                "network": "BLINK",
-                "osm_id": [
-                    11292218603
-                ],
-                "nrel_id": [
-                    148118
-                ],
-                "ocm_id": [
-                    247191
-                ],
-                "network_id": "d0e864cf-fb2a-3dbf-1307-c00000003775",
-                "street_address": "120 Huntington Avenue",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02116",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.1849,
@@ -19734,10 +19730,6 @@
                     [
                         -71.212849,
                         42.483159
-                    ],
-                    [
-                        -71.214591,
-                        42.482747
                     ]
                 ]
             },
@@ -19751,7 +19743,6 @@
                     228407
                 ],
                 "ocm_id": [
-                    85236,
                     247367
                 ],
                 "network_id": "493",
@@ -19759,9 +19750,9 @@
                 "city": "Burlington",
                 "state": "MA",
                 "zip_code": "01803",
-                "charging_points:count": 2,
-                "charging_points:capacity": "3;1",
-                "charging_points:plugs_count": "9;2",
+                "charging_points:count": 1,
+                "charging_points:capacity": "3",
+                "charging_points:plugs_count": "9",
                 "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
             }
         },
@@ -28191,6 +28182,40 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.081069,
+                        42.345454
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Colonade Hotel Garage;The Colonnade Hotel",
+                "network": "BLINK",
+                "osm_id": [
+                    11292218603
+                ],
+                "nrel_id": [
+                    148118
+                ],
+                "ocm_id": [
+                    247191
+                ],
+                "network_id": "d0e864cf-fb2a-3dbf-1307-c00000003775",
+                "street_address": "120 Huntington Avenue",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02116",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -46661,21 +46686,27 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -73.274058,
-                    42.2971
+                    [
+                        -73.274303,
+                        42.297105
+                    ]
                 ]
             },
             "properties": {
                 "name": "Lee Service Plaza Eastbound",
-                "network": "EVGO",
                 "ocm_id": [
                     125807
                 ],
                 "street_address": "Lee Service Plaza Eastbound",
                 "city": "Lee",
-                "zip_code": "01238-1612"
+                "state": "MA",
+                "zip_code": "01238-1612",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
@@ -60268,37 +60299,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.364245,
-                        42.311758
-                    ],
-                    [
-                        -71.364245,
-                        42.311758
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Natick Service Plaza Eastbound",
-                "network": "EVGO",
-                "ocm_id": [
-                    143062
-                ],
-                "street_address": "I-90 E Mile Marker 118.4",
-                "city": "Natick",
-                "state": "MA",
-                "zip_code": "01760",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -70.887243,
@@ -63974,6 +63974,34 @@
                 ],
                 "network_id": "USCPIL10241901",
                 "street_address": "246 S Meadow Road",
+                "city": "Plymouth",
+                "state": "MA",
+                "zip_code": "02360",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.656099,
+                        41.951988
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "PLYMOUTH STEPHENS FIELD",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    352400
+                ],
+                "network_id": "USCPIL16214031",
+                "street_address": "132R Sandwich Street",
                 "city": "Plymouth",
                 "state": "MA",
                 "zip_code": "02360",
@@ -84852,7 +84880,7 @@
                 ]
             },
             "properties": {
-                "name": "UMASS MEDICAL PATIENT VISIT 1;UMASS MEDICAL PATIENT VISIT 2;UMASS MEDICAL PATIENT VISIT 3;UMASS MEDICAL PATIENT VISIT 4;UMASS MEDICAL PATIENT VISIT 5;UMASS MEDICAL PATIENT VISIT 6;UMASS MEDICAL PATIENT VISIT 7;UMASS MEDICAL PATIENT VISIT 8;UMASS MEDICAL PATIENT VISIT 9;UMASS MEDICAL PATIENT VISIT10;UMASS MEDICAL PATIENT VISIT11;UMASS MEDICAL PATIENT VISIT12;UMASS MEDICAL PATIENT VISIT13;UMASS MEDICAL PATIENT VISIT14;UMASS MEDICAL PATIENT VISIT15;UMASS MEDICAL PATIENT VISIT16;UMASS MEDICAL PATIENT VISIT17;UMASS MEDICAL PATIENT VISIT18",
+                "name": "UMASS MEDICAL PATIENT VISIT11;UMASS MEDICAL VISITOR 1;UMASS MEDICAL VISITOR 10;UMASS MEDICAL VISITOR 11;UMASS MEDICAL VISITOR 12;UMASS MEDICAL VISITOR 13;UMASS MEDICAL VISITOR 14;UMASS MEDICAL VISITOR 15;UMASS MEDICAL VISITOR 16;UMASS MEDICAL VISITOR 17;UMASS MEDICAL VISITOR 18;UMASS MEDICAL VISITOR 2;UMASS MEDICAL VISITOR 3;UMASS MEDICAL VISITOR 4;UMASS MEDICAL VISITOR 5;UMASS MEDICAL VISITOR 6;UMASS MEDICAL VISITOR 7;UMASS MEDICAL VISITOR 8;UMASS MEDICAL VISITOR 9",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     188060,

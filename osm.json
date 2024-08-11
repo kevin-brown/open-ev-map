@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-10T03:23:42Z",
-    "timestamp_areas_base": "2024-08-10T00:33:14Z",
+    "timestamp_osm_base": "2024-08-11T20:26:26Z",
+    "timestamp_areas_base": "2024-08-11T16:03:46Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4368,15 +4368,20 @@
     {
       "type": "node",
       "id": 11292218603,
-      "lat": 42.3460201,
-      "lon": -71.0806161,
+      "lat": 42.3458129,
+      "lon": -71.0807837,
       "tags": {
+        "access": "customers",
         "amenity": "charging_station",
         "brand": "Blink",
         "brand:wikidata": "Q62065645",
-        "name": "Blink",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "The Colonnade Hotel",
         "operator": "Blink",
-        "operator:wikidata": "Q62065645"
+        "operator:wikidata": "Q62065645",
+        "parking:fee": "yes",
+        "socket:type1_cable": "2"
       }
     },
     {

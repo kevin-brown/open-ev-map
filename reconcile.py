@@ -85,6 +85,9 @@ class SourcedValue[T](NamedTuple):
 
         return other.value == self.value
 
+    def __repr__(self):
+        return f"<SourcedValue({self.source.location!r}, {self.value!r})>"
+
 
 class SourcedAttribute[T]:
     values: set[SourcedValue[T]]
@@ -93,6 +96,9 @@ class SourcedAttribute[T]:
     def __init__(self, multiple=False):
         self.values = set()
         self.multiple = multiple
+
+    def __repr__(self):
+        return f"<SourcedAttribute({self.values!r})>"
 
     def set(self, value: SourcedValue[T]):
         if not value.value:

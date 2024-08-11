@@ -20061,27 +20061,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.25897,
-                    42.074332
-                ]
-            },
-            "properties": {
-                "name": "CARCHARGING",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    19199
-                ],
-                "street_address": "121 Main Street",
-                "city": "Foxboro",
-                "state": "MA",
-                "zip_code": "02035"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.238533,
                     42.50557
                 ]
@@ -38560,26 +38539,6 @@
                 "city": "Grafton",
                 "state": "MA",
                 "zip_code": "01519"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.208512,
-                    41.689775
-                ]
-            },
-            "properties": {
-                "name": "Granite City Electric",
-                "ocm_id": [
-                    14551
-                ],
-                "street_address": "52 Whites Path",
-                "city": "South Yarmouth",
-                "state": "MA",
-                "zip_code": "02664"
             }
         },
         {
@@ -85205,9 +85164,6 @@
                 "nrel_id": [
                     230458
                 ],
-                "ocm_id": [
-                    229351
-                ],
                 "street_address": "485 Fenn Street",
                 "city": "Pittsfield",
                 "state": "MA",
@@ -87748,6 +87704,37 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.031486,
+                        42.514367
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "WHOLE FOODS MKT LYNN ST1",
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    4228069916
+                ],
+                "nrel_id": [
+                    161845
+                ],
+                "network_id": "USCPIL188691",
+                "street_address": "1224-1304 Market Street",
+                "city": "Lynnfield",
+                "state": "MA",
+                "zip_code": "01940",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.746192,
                         42.275885
                     ]
@@ -87803,40 +87790,6 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.031486,
-                        42.514367
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "WHOLE FOODS MKT;WHOLE FOODS MKT LYNN ST1",
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    4228069916
-                ],
-                "nrel_id": [
-                    161845
-                ],
-                "ocm_id": [
-                    89723
-                ],
-                "network_id": "USCPIL188691",
-                "street_address": "1224-1304 Market Street",
-                "city": "Lynnfield",
-                "state": "MA",
-                "zip_code": "01940",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
             }
         },

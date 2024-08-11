@@ -22,6 +22,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.299414,
+                    41.664148
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    3644487244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.301719,
                     41.674327
                 ]
@@ -30,6 +46,22 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     3644495142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.321249,
+                    41.653825
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    3644510079
                 ]
             }
         },
@@ -86,6 +118,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.352865,
+                    42.299554
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    5503840130
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.350175,
+                    42.299313
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    5503840131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.662619,
+                    42.61378
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    6321830139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.061619,
                     42.361195
                 ]
@@ -99,6 +179,38 @@
                 "street_address": "83 Cambridge Street",
                 "city": "Boston",
                 "zip_code": "02114"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.694444,
+                    42.365968
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    8567261202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.694672,
+                    42.369185
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    8567318223
+                ]
             }
         },
         {
@@ -140,6 +252,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.603894,
+                    41.548298
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    8988028759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.161761,
                     42.364481
                 ]
@@ -148,6 +276,38 @@
                 "network": "SHELL_RECHARGE",
                 "osm_id": [
                     9374531074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.183661,
+                    42.4021
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    9587696282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.904715,
+                    42.455606
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    9793281675
                 ]
             }
         },
@@ -244,6 +404,22 @@
                 "network": "AMPUP",
                 "osm_id": [
                     10991298174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.119377,
+                    42.499193
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    11048226590
                 ]
             }
         },
@@ -491,6 +667,74 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.196419,
+                    42.169582
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    11952490213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.196049,
+                    42.169079
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    11952490215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.187326,
+                    42.198774
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    11952518225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.063029,
+                    42.365935
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    12081492885
+                ],
+                "street_address": "1 Nashua Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02114"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.818651,
                     42.590055
                 ]
@@ -592,6 +836,84 @@
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.120406,
+                        42.307134
+                    ],
+                    [
+                        -71.120362,
+                        42.307166
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    1304537856
+                ],
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.511905,
+                        42.214982
+                    ],
+                    [
+                        -71.511905,
+                        42.214933
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    1304537857
+                ],
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772_SOCKET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.159839,
+                        42.741017
+                    ],
+                    [
+                        -71.159844,
+                        42.740969
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    1304720180
+                ],
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772;NACS"
             }
         },
         {
@@ -861,6 +1183,760 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.385661,
+                    42.309851
+                ]
+            },
+            "properties": {
+                "name": "111 Speen St",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335283
+                ],
+                "street_address": "111 Speen Street",
+                "city": "Framingham",
+                "state": "MA",
+                "zip_code": "01701"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.575641,
+                    42.278124
+                ]
+            },
+            "properties": {
+                "name": "116 Flanders - CCLLC",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335315
+                ],
+                "street_address": "116 Flanders Road",
+                "city": "Westborough",
+                "state": "MA",
+                "zip_code": "01581"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.579015,
+                    42.289947
+                ]
+            },
+            "properties": {
+                "name": "2400 Computer Dr - CCLLC",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335313
+                ],
+                "street_address": "2400 Computer Drive",
+                "city": "Westborough",
+                "state": "MA",
+                "zip_code": "01581"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.565043,
+                    42.282482
+                ]
+            },
+            "properties": {
+                "name": "40 Washington - CCLLC",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335314
+                ],
+                "street_address": "40 Washington Street",
+                "city": "Westborough",
+                "state": "MA",
+                "zip_code": "01581"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.54007,
+                    42.49847
+                ]
+            },
+            "properties": {
+                "name": "400 Beaver Brook",
+                "network": "LOOP",
+                "nrel_id": [
+                    348894
+                ],
+                "street_address": "400 Beaver Brook Road",
+                "city": "Boxborough",
+                "state": "MA",
+                "zip_code": "01719"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.488808,
+                    42.29163
+                ]
+            },
+            "properties": {
+                "name": "500 Staples Dr",
+                "network": "LOOP",
+                "nrel_id": [
+                    348843
+                ],
+                "street_address": "500 Staples Drive",
+                "city": "Framingham",
+                "state": "MA",
+                "zip_code": "01702"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.250288,
+                    42.617456
+                ]
+            },
+            "properties": {
+                "name": "623 Main St",
+                "ocm_id": [
+                    8124
+                ],
+                "street_address": "623 Main Street",
+                "city": "Tewksbury",
+                "state": "MA",
+                "zip_code": "01876"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.380535,
+                    42.455839
+                ]
+            },
+            "properties": {
+                "name": "905 Main St",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335428
+                ],
+                "street_address": "905 Main Street",
+                "city": "Concord",
+                "state": "MA",
+                "zip_code": "01742"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.7365,
+                        41.86993
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "ABB R&D NA (FOR TESTING PURPOSE ONLY)",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    228326
+                ],
+                "street_address": "45 Griffin Rd. S",
+                "city": "Bloomfield",
+                "state": "CT",
+                "zip_code": "06002",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.15385,
+                    42.3426
+                ]
+            },
+            "properties": {
+                "name": "AC Hotel by Marriott Boston Cleveland Circle",
+                "network": "LOOP",
+                "nrel_id": [
+                    348877
+                ],
+                "street_address": "395 Chestnut Hill Avenue",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02135"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.08167,
+                    42.40248
+                ]
+            },
+            "properties": {
+                "name": "AC Hotel by Marriott Boston North",
+                "network": "LOOP",
+                "nrel_id": [
+                    348874
+                ],
+                "street_address": "95 Station Landing",
+                "city": "Medford",
+                "state": "MA",
+                "zip_code": "02155"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ],
+                    [
+                        -71.141947,
+                        42.395365
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Alewife Station",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    9168
+                ],
+                "street_address": "Alewife Station Access Road",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02138",
+                "charging_points:count": 6,
+                "charging_points:capacity": "1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.657191,
+                    41.933121
+                ]
+            },
+            "properties": {
+                "name": "Alltown Fresh Convenience Market",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    121643
+                ],
+                "street_address": "22 Long Pond Road",
+                "city": "Plymouth",
+                "state": "MA",
+                "zip_code": "02360"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.30305,
+                    41.93772
+                ]
+            },
+            "properties": {
+                "name": "Attleboro High School",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    333849
+                ],
+                "street_address": "100 Rathbun Willard Drive",
+                "city": "Attleboro",
+                "state": "MA",
+                "zip_code": "02703"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.024655,
+                    42.140146
+                ]
+            },
+            "properties": {
+                "name": "Autel - Charlton Service Plaza Eastbound",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    333461
+                ],
+                "street_address": "80 Massachusetts Turnpike",
+                "city": "Charlton",
+                "state": "MA",
+                "zip_code": "01507"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.024655,
+                    42.140146
+                ]
+            },
+            "properties": {
+                "name": "Autel - Charlton Service Plaza Eastbound",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    333714
+                ],
+                "street_address": "80 Massachusetts Turnpike",
+                "city": "Charlton",
+                "state": "MA",
+                "zip_code": "01507"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.250254,
+                    42.617914
+                ]
+            },
+            "properties": {
+                "name": "Autel - Eco Auto",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    312006
+                ],
+                "street_address": "623 Main Street",
+                "city": "Tewksbury",
+                "state": "MA",
+                "zip_code": "01876"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.429324,
+                    42.311917
+                ]
+            },
+            "properties": {
+                "name": "Autel - Framingham Rest Stop Westbound",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    333463
+                ],
+                "street_address": "114 Massachusetts Turnpike",
+                "city": "Framingham",
+                "state": "MA",
+                "zip_code": "01701"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.429016,
+                        42.311934
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Autel - Framingham Rest Stop Westbound",
+                "ocm_id": [
+                    300499
+                ],
+                "street_address": "114 Massachusetts Turnpike",
+                "city": "Framingham",
+                "state": "MA",
+                "zip_code": "01701",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.274255,
+                    42.297173
+                ]
+            },
+            "properties": {
+                "name": "Autel - Lee Service Plaza Eastbound",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    333716
+                ],
+                "street_address": "Massachusetts Turnpike",
+                "city": "Lee",
+                "state": "MA",
+                "zip_code": "01238"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.274937,
+                    42.29844
+                ]
+            },
+            "properties": {
+                "name": "Autel - Lee Service Plaza Westbound",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    333462
+                ],
+                "street_address": "Massachusetts Turnpike",
+                "city": "Lee",
+                "state": "MA",
+                "zip_code": "01238"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.364242,
+                    42.311757
+                ]
+            },
+            "properties": {
+                "name": "Autel - Natick Service Plaza Eastbound",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    333715
+                ],
+                "street_address": "117 Massachusetts Turnpike",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.364493,
+                        42.311627
+                    ],
+                    [
+                        -71.364493,
+                        42.311627
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Autel - Natick Service Plaza Eastbound",
+                "ocm_id": [
+                    143062
+                ],
+                "street_address": "I-90 E Mile Marker 118.4",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.363072,
+                    42.624289
+                ]
+            },
+            "properties": {
+                "name": "AutoFair Nissan - Chelmsford",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    99462
+                ],
+                "street_address": "95 Drum Hill Road",
+                "city": "Chelmsford",
+                "state": "MA",
+                "zip_code": "01824"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.308014,
+                    41.741203
+                ]
+            },
+            "properties": {
+                "name": "BARRINGTON TOWN HALL ST2",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    228136
+                ],
+                "street_address": "283 County Road",
+                "city": "Barrington",
+                "state": "RI",
+                "zip_code": "02806"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.250391,
+                        42.458317
+                    ],
+                    [
+                        -73.250391,
+                        42.458317
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BMC Employee Garage",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    279788
+                ],
+                "street_address": "5 Waconah Street",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.059248,
+                    42.138103
+                ]
+            },
+            "properties": {
+                "name": "BOS1",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335447
+                ],
+                "street_address": "21 Parker Drive",
+                "city": "Avon",
+                "state": "MA",
+                "zip_code": "02322"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.58621,
+                    41.73883
+                ]
+            },
+            "properties": {
+                "name": "Battles Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45879
+                ],
+                "street_address": "60 MacArthur Boulevard",
+                "city": "Bourne",
+                "state": "MA",
+                "zip_code": "02532"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.850396,
+                    42.182748
+                ]
+            },
+            "properties": {
+                "name": "Bertera Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45875
+                ],
+                "street_address": "569 Oxford St S",
+                "city": "Auburn",
+                "state": "MA",
+                "zip_code": "01501"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.25958,
+                    42.44783
+                ]
+            },
+            "properties": {
+                "name": "Big Y",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    143159
+                ],
+                "street_address": "200 West Street",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.620077,
+                    42.585207
+                ]
+            },
+            "properties": {
+                "name": "Big Y",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    115998
+                ],
+                "street_address": "237 Mohawk Trail",
+                "city": "Greenfield",
+                "state": "MA",
+                "zip_code": "01301"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.571078,
+                    41.991001
+                ]
+            },
+            "properties": {
+                "name": "Big Y Grocery - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    294785
+                ],
+                "street_address": "51 Palomba Drive",
+                "city": "Enfield",
+                "state": "CT",
+                "zip_code": "06082"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.258924,
+                        42.336121
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Blantyre - Tesla",
+                "network": "TESLA_DESTINATION",
+                "ocm_id": [
+                    62287
+                ],
+                "street_address": "16 Blantyre Road",
+                "city": "Lenox",
+                "state": "MA",
+                "zip_code": "01240",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.672773,
                     41.527308
                 ]
@@ -871,6 +1947,1147 @@
                 "osm_id": [
                     9102222617
                 ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.1849,
+                    42.192081
+                ]
+            },
+            "properties": {
+                "name": "Boch Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45907
+                ],
+                "street_address": "525 Boston Providence Highway",
+                "city": "Norwood",
+                "state": "MA",
+                "zip_code": "02062"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.160537,
+                    42.458421
+                ]
+            },
+            "properties": {
+                "name": "Bonnell Ford",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    63711
+                ],
+                "street_address": "353 Cambridge Street",
+                "city": "Winchester",
+                "state": "MA",
+                "zip_code": "01890"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.21243,
+                    42.48298
+                ]
+            },
+            "properties": {
+                "name": "Burlington Mall",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    247366
+                ],
+                "street_address": "75 Middlesex Turnpike #1015B",
+                "city": "Burlington",
+                "state": "MA",
+                "zip_code": "01803"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.501131,
+                    41.670064
+                ]
+            },
+            "properties": {
+                "name": "Cardi's Furniture Superstore",
+                "ocm_id": [
+                    3435
+                ],
+                "street_address": "1681 Quaker Lane",
+                "city": "West Warwick",
+                "state": "RI",
+                "zip_code": "02893"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.06,
+                    42.36
+                ]
+            },
+            "properties": {
+                "name": "Center Plaza Garage",
+                "network": "AMPUP",
+                "nrel_id": [
+                    319333
+                ],
+                "street_address": "30 Somerset Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02114"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.236569,
+                    42.376879
+                ]
+            },
+            "properties": {
+                "name": "Central Parking Lot Charging Station",
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    10991334435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.16526,
+                    42.34659
+                ]
+            },
+            "properties": {
+                "name": "Charles River Place",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    334232
+                ],
+                "street_address": "63 Kendrick Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.145531,
+                    41.708223
+                ]
+            },
+            "properties": {
+                "name": "Charlton Hospital",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335297
+                ],
+                "street_address": "38 Hillside Street",
+                "city": "Fall River",
+                "state": "MA",
+                "zip_code": "02720"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.024713,
+                        42.140107
+                    ],
+                    [
+                        -72.024713,
+                        42.140107
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Charlton Service Plaza Eastbound",
+                "network": "EVGO",
+                "ocm_id": [
+                    110657
+                ],
+                "street_address": "Mile Marker 80 Eastbound",
+                "city": "Charlton",
+                "state": "MA",
+                "zip_code": "01507",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.964487,
+                        42.156095
+                    ],
+                    [
+                        -71.964487,
+                        42.156095
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Charlton Service Plaza Westbound",
+                "ocm_id": [
+                    105803
+                ],
+                "street_address": "6 Massachusettts Turnpike",
+                "city": "Charlton",
+                "state": "MA",
+                "zip_code": "01507",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.105306,
+                        42.367038
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "City Hall,",
+                "ocm_id": [
+                    128792
+                ],
+                "street_address": "Dorthy Dottie Doyle Way",
+                "city": "cambridge",
+                "state": "MA",
+                "zip_code": "02139",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.15043,
+                    42.48173
+                ]
+            },
+            "properties": {
+                "name": "City of Woburn",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    334170
+                ],
+                "street_address": "467 Main Street",
+                "city": "Woburn",
+                "state": "MA",
+                "zip_code": "01801"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.887748,
+                    42.165417
+                ]
+            },
+            "properties": {
+                "name": "Coastal Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45905
+                ],
+                "street_address": "109 Accord Park Drive",
+                "city": "Norwell",
+                "state": "MA",
+                "zip_code": "02061"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.106619,
+                    42.412492
+                ]
+            },
+            "properties": {
+                "name": "Colonial Nissan - Medford",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45899
+                ],
+                "street_address": "104 Mystic Avenue",
+                "city": "Medford",
+                "state": "MA",
+                "zip_code": "02155"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.537047,
+                    42.35253
+                ]
+            },
+            "properties": {
+                "name": "Colonial Park",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335328
+                ],
+                "street_address": "200 E Main Street",
+                "city": "Marlborough",
+                "state": "MA",
+                "zip_code": "01752"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.6708,
+                    41.929255
+                ]
+            },
+            "properties": {
+                "name": "Connecticut Airport Authority - Bradley Airport",
+                "ocm_id": [
+                    74598
+                ],
+                "street_address": "Cell Phone Lot",
+                "city": "Windsor Locks",
+                "state": "CT",
+                "zip_code": "06096"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.16784,
+                    42.49105
+                ]
+            },
+            "properties": {
+                "name": "Control Mod",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    334180
+                ],
+                "street_address": "5 Jericho Road",
+                "city": "Woburn",
+                "state": "MA",
+                "zip_code": "01801"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.60616,
+                    42.34039
+                ]
+            },
+            "properties": {
+                "name": "Country Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45886
+                ],
+                "street_address": "40 Russell Street",
+                "city": "Hadley",
+                "state": "MA",
+                "zip_code": "01035"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.60616,
+                    42.34039
+                ]
+            },
+            "properties": {
+                "name": "Country Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45887
+                ],
+                "street_address": "40 Russell Street",
+                "city": "Hadley",
+                "state": "MA",
+                "zip_code": "01035"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.294073,
+                    41.665774
+                ]
+            },
+            "properties": {
+                "name": "Courtyard by Marriott Cape Cod",
+                "nrel_id": [
+                    331364
+                ],
+                "street_address": "707 Lyannough Road",
+                "city": "Hyannis",
+                "state": "MA",
+                "zip_code": "02601"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.237892,
+                    42.370971
+                ]
+            },
+            "properties": {
+                "name": "Crescent Street Lot Charging Station",
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    10991334434
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.06224,
+                    42.35952
+                ]
+            },
+            "properties": {
+                "name": "DCAMM McCormack Building",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    325229
+                ],
+                "street_address": "1 Ashburton Place",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02108"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.74284,
+                    42.47438
+                ]
+            },
+            "properties": {
+                "name": "DMH Electric",
+                "network": "LOOP",
+                "nrel_id": [
+                    348796
+                ],
+                "street_address": "29 Legate Hill Road",
+                "city": "Leominster",
+                "state": "MA",
+                "zip_code": "01564"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ],
+                    [
+                        -70.99753,
+                        41.642293
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Dartmouth, MA",
+                "network": "TESLA_SUPERCHARGER",
+                "network_id": "DartmouthMASupercharger",
+                "street_address": "380 State Road",
+                "city": "Dartmouth",
+                "state": "MA",
+                "zip_code": "02747",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.951362,
+                    41.663264
+                ]
+            },
+            "properties": {
+                "name": "Department of Public Infrastructure",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    147416
+                ],
+                "street_address": "1105 Shawmut Avenue",
+                "city": "New Bedford",
+                "state": "MA",
+                "zip_code": "02746"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.056588,
+                    42.357412
+                ]
+            },
+            "properties": {
+                "name": "EPA Boston",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    184419
+                ],
+                "street_address": "5 Post Office Square",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.837426,
+                        42.202165
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "EVgo Auburn Mall",
+                "network": "EVGO",
+                "ocm_id": [
+                    297722
+                ],
+                "street_address": "Southbridge Street",
+                "city": "Auburn",
+                "state": "MA",
+                "zip_code": "01501",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.497242,
+                    41.660517
+                ]
+            },
+            "properties": {
+                "name": "East Greenwich, RI Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    246720
+                ],
+                "street_address": "1000 Division Street",
+                "city": "East Greenwich",
+                "state": "RI",
+                "zip_code": "02818-1626"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.02218,
+                    42.47986
+                ]
+            },
+            "properties": {
+                "name": "Eastern Bank Saugus",
+                "network": "RED_E",
+                "nrel_id": [
+                    349774
+                ],
+                "street_address": "605 Broadway",
+                "city": "Saugus",
+                "state": "MA",
+                "zip_code": "01906"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.084564,
+                    42.390299
+                ]
+            },
+            "properties": {
+                "name": "Eastside Place",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335310
+                ],
+                "street_address": "60 Cross St E",
+                "city": "Somerville",
+                "state": "MA",
+                "zip_code": "02145"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.903411,
+                    42.580276
+                ]
+            },
+            "properties": {
+                "name": "Electric Insurance Co",
+                "network": "AMPUP",
+                "nrel_id": [
+                    251540
+                ],
+                "street_address": "75 Sam Fonzo Drive",
+                "city": "Beverly",
+                "state": "MA",
+                "zip_code": "01915"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.025372,
+                    42.453721
+                ]
+            },
+            "properties": {
+                "name": "Essex Landing Garage Parking",
+                "network": "AMPUP",
+                "nrel_id": [
+                    229720
+                ],
+                "street_address": "30 Collins Avenue",
+                "city": "Saugus",
+                "state": "MA",
+                "zip_code": "01906"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.07957,
+                    42.37284
+                ]
+            },
+            "properties": {
+                "name": "Fairfield Inn & Suites Marriott",
+                "network": "LOOP",
+                "nrel_id": [
+                    348873
+                ],
+                "street_address": "215 Monsignor O'Brien Highway",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02141"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.6124,
+                    42.59699
+                ]
+            },
+            "properties": {
+                "name": "Franklin County Sheriff's Office",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    325213
+                ],
+                "street_address": "160 Elm Street",
+                "city": "Greenfield",
+                "state": "MA",
+                "zip_code": "01300"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.99696,
+                    42.56202
+                ]
+            },
+            "properties": {
+                "name": "Gardner Department of Public Works",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    331147
+                ],
+                "street_address": "50 Manca Drive",
+                "city": "Gardner",
+                "state": "MA",
+                "zip_code": "01440"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.636827,
+                    42.181871
+                ]
+            },
+            "properties": {
+                "name": "Gary Rome Hyundai",
+                "ocm_id": [
+                    77820
+                ],
+                "street_address": "150 Whiting Farms Road",
+                "city": "Holyoke",
+                "state": "MA",
+                "zip_code": "01040"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.059553,
+                    42.466013
+                ]
+            },
+            "properties": {
+                "name": "Green St",
+                "network": "AMPUP",
+                "nrel_id": [
+                    229699
+                ],
+                "street_address": "165 Green Street",
+                "city": "Melrose",
+                "state": "MA",
+                "zip_code": "02176"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.012375,
+                    42.734864
+                ]
+            },
+            "properties": {
+                "name": "Groveland Light Office",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335373
+                ],
+                "street_address": "944 Salem Street",
+                "city": "Groveland",
+                "state": "MA",
+                "zip_code": "01834"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.032634,
+                    42.760403
+                ]
+            },
+            "properties": {
+                "name": "Groveland Municipal Lot @ Groveland Water",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335312
+                ],
+                "street_address": "23 School Street",
+                "city": "Groveland",
+                "state": "MA",
+                "zip_code": "01834"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.327394,
+                        41.49141
+                    ],
+                    [
+                        -71.327394,
+                        41.49141
+                    ],
+                    [
+                        -71.327394,
+                        41.49141
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Gurney's Resort, Newport",
+                "network": "TESLA_DESTINATION",
+                "ocm_id": [
+                    114164
+                ],
+                "street_address": "1 Goat Island",
+                "city": "Newport",
+                "state": "RI",
+                "zip_code": "02840",
+                "charging_points:count": 3,
+                "charging_points:capacity": "1;1;1",
+                "charging_points:plugs_count": "1;1;1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.451845,
+                    41.889556
+                ]
+            },
+            "properties": {
+                "name": "HION NETWORK LINCOLN L2 4",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    228365
+                ],
+                "street_address": "100 Twin River Road",
+                "city": "Lincoln",
+                "state": "RI",
+                "zip_code": "02865"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.241244,
+                        42.449338
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Haddad Hyundai",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    260177
+                ],
+                "street_address": "689 East Street",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.256216,
+                    42.445108
+                ]
+            },
+            "properties": {
+                "name": "Haddad Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45909
+                ],
+                "street_address": "25 W Housatonic Street",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.10856,
+                    42.33539
+                ]
+            },
+            "properties": {
+                "name": "Hale Building",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    261675
+                ],
+                "street_address": "60 Fenwood Road",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02115"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.39948,
+                    42.15426
+                ]
+            },
+            "properties": {
+                "name": "Hathon Luxury Apartments",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    333816
+                ],
+                "street_address": "39 Main Street",
+                "city": "Medway",
+                "state": "MA",
+                "zip_code": "02053"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.20381,
+                    42.15015
+                ]
+            },
+            "properties": {
+                "name": "Healthineers Walpole",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    333789
+                ],
+                "street_address": "333 Coney Street",
+                "city": "East Walpole",
+                "state": "MA",
+                "zip_code": "02032"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.265547,
+                    42.408304
+                ]
+            },
+            "properties": {
+                "name": "Hilton Garden Inn Lennox Pittsfield",
+                "network": "AMPUP",
+                "nrel_id": [
+                    229723
+                ],
+                "street_address": "1032 S Street",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.641845,
+                        42.165968
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Holyoke Mall",
+                "ocm_id": [
+                    16220
+                ],
+                "street_address": "Mall Ring",
+                "city": "Holyoke",
+                "state": "Ma",
+                "zip_code": "01040",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.023379,
+                    42.523066
+                ]
+            },
+            "properties": {
+                "name": "Huckleberry Hill School",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335317
+                ],
+                "street_address": "5 Knoll Road",
+                "city": "Lynnfield",
+                "state": "MA",
+                "zip_code": "01940"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.25869,
+                    42.39251
+                ]
+            },
+            "properties": {
+                "name": "Hyatt House",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    334206
+                ],
+                "street_address": "54 Fourth Avenue",
+                "city": "Waltham",
+                "state": "MA",
+                "zip_code": "02451"
             }
         },
         {
@@ -912,6 +3129,1486 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.427895,
+                    41.830008
+                ]
+            },
+            "properties": {
+                "name": "IRVINGOIL RI-PROV-L3-0002",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    228277
+                ],
+                "street_address": "36 Pleasant Valley Parkway",
+                "city": "Providence",
+                "state": "RI",
+                "zip_code": "02908"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.848472,
+                    42.153631
+                ]
+            },
+            "properties": {
+                "name": "Jannell Ford of Hanover",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    76711
+                ],
+                "street_address": "2000 Washington Street",
+                "city": "Hanover",
+                "state": "MA",
+                "zip_code": "02339"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.626476,
+                    42.119685
+                ]
+            },
+            "properties": {
+                "name": "Jerry Rome Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45812
+                ],
+                "street_address": "500 Riverdale Street",
+                "city": "West Springfield",
+                "state": "MA",
+                "zip_code": "01089"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.626476,
+                    42.119685
+                ]
+            },
+            "properties": {
+                "name": "Jerry Rome Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45813
+                ],
+                "street_address": "500 Riverdale Street",
+                "city": "West Springfield",
+                "state": "MA",
+                "zip_code": "01089"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.29,
+                    42.56
+                ]
+            },
+            "properties": {
+                "name": "Jiminy Peak Mountain Resort",
+                "network": "AMPUP",
+                "nrel_id": [
+                    319340
+                ],
+                "street_address": "37 Corey Road",
+                "city": "Hancock",
+                "state": "MA",
+                "zip_code": "01237"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.292633,
+                        42.556087
+                    ],
+                    [
+                        -73.292633,
+                        42.556087
+                    ],
+                    [
+                        -73.292633,
+                        42.556087
+                    ],
+                    [
+                        -73.292633,
+                        42.556087
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Jiminy Peak Mountain Resort",
+                "network": "AMPUP",
+                "ocm_id": [
+                    97879
+                ],
+                "street_address": "37 Corey Road",
+                "city": "Hancock",
+                "state": "MA",
+                "zip_code": "01237",
+                "charging_points:count": 4,
+                "charging_points:capacity": "1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.2404,
+                        42.44833
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Johnson Ford",
+                "ocm_id": [
+                    8017
+                ],
+                "street_address": "694 East Street",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.119302,
+                    42.499069
+                ]
+            },
+            "properties": {
+                "name": "Kelly Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    85963
+                ],
+                "street_address": "95 Cedar Street",
+                "city": "Woburn",
+                "state": "MA",
+                "zip_code": "01801"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.119302,
+                    42.499069
+                ]
+            },
+            "properties": {
+                "name": "Kelly Nissan",
+                "ocm_id": [
+                    143185
+                ],
+                "street_address": "95 Cedar Street",
+                "city": "Woburn",
+                "state": "MA",
+                "zip_code": "01801"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.008978,
+                    42.509982
+                ]
+            },
+            "properties": {
+                "name": "Kelly Nissan - Lynnfield",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45895
+                ],
+                "street_address": "275 Broadway",
+                "city": "Lynnfield",
+                "state": "MA",
+                "zip_code": "01940"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.119321,
+                    42.498951
+                ]
+            },
+            "properties": {
+                "name": "Kelly Nissan - Woburn",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    149486
+                ],
+                "street_address": "95 Cedar Street",
+                "city": "Stoneham",
+                "state": "MA",
+                "zip_code": "02180"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.119302,
+                    42.499069
+                ]
+            },
+            "properties": {
+                "name": "Kelly Nissan of Woburn",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45817
+                ],
+                "street_address": "95 Cedar Street",
+                "city": "Woburn",
+                "state": "MA",
+                "zip_code": "01801"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.274941,
+                        42.298432
+                    ],
+                    [
+                        -73.274941,
+                        42.298432
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Lee Service Plaza",
+                "network": "EVGO",
+                "ocm_id": [
+                    247114
+                ],
+                "street_address": "Lee Westbound Massachusetts Turnpike",
+                "city": "Lee",
+                "state": "MA",
+                "zip_code": "01238",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.274303,
+                        42.297105
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Lee Service Plaza Eastbound",
+                "ocm_id": [
+                    125807
+                ],
+                "street_address": "Lee Service Plaza Eastbound",
+                "city": "Lee",
+                "state": "MA",
+                "zip_code": "01238-1612",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.064251,
+                    42.362557
+                ]
+            },
+            "properties": {
+                "name": "Longfellow Garage",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    82462
+                ],
+                "street_address": "60 Staniford Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02114"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.029756,
+                    42.370578
+                ]
+            },
+            "properties": {
+                "name": "MASSPORT TNC 5",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    270001
+                ],
+                "street_address": "226 Porter Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02128"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.23083,
+                    42.76882
+                ]
+            },
+            "properties": {
+                "name": "Mall at Rockingham Park",
+                "network": "EVGO",
+                "ocm_id": [
+                    143308
+                ],
+                "street_address": "99 Rockingham Park Boulevard",
+                "city": "Salem",
+                "state": "NH",
+                "zip_code": "03079"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.562282,
+                    41.80452
+                ]
+            },
+            "properties": {
+                "name": "Manchester, CT",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    97526
+                ],
+                "street_address": "1470 Pleasant Valley Road",
+                "city": "Manchester",
+                "state": "CT",
+                "zip_code": "06042-8764"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.629513,
+                    42.180922
+                ]
+            },
+            "properties": {
+                "name": "Marcotte Ford",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    60865
+                ],
+                "street_address": "1025 Main Street",
+                "city": "Holyoke",
+                "state": "MA",
+                "zip_code": "01040"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.767422,
+                    41.702508
+                ]
+            },
+            "properties": {
+                "name": "Marion Town House",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    216287
+                ],
+                "street_address": "2 Spring Street",
+                "city": "Marion",
+                "state": "MA",
+                "zip_code": "02738"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.767426,
+                        41.702491
+                    ],
+                    [
+                        -70.767426,
+                        41.702491
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Marion Town House",
+                "ocm_id": [
+                    133715
+                ],
+                "street_address": "2 Spring Street",
+                "city": "Marion",
+                "state": "MA",
+                "zip_code": "02738",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.500717,
+                    42.351115
+                ]
+            },
+            "properties": {
+                "name": "Marlborough Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45897
+                ],
+                "street_address": "740 Boston Post Road",
+                "city": "Marlborough",
+                "state": "MA",
+                "zip_code": "01752"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.25762,
+                    42.439851
+                ]
+            },
+            "properties": {
+                "name": "MassDOT I-95NB Lexington Service Plaza",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    325217
+                ],
+                "street_address": "I-95 N, Mile Marker 46.3",
+                "city": "Lexington",
+                "state": "MA",
+                "zip_code": "02421"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.026386,
+                    42.376146
+                ]
+            },
+            "properties": {
+                "name": "MassPort Economy Garage - 2nd Floor",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    325253
+                ],
+                "street_address": "1 Harborside Drive",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02128"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.026273,
+                    42.365474
+                ]
+            },
+            "properties": {
+                "name": "MassPort Limo Pool Lot",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    325251
+                ],
+                "street_address": "1 Harborside Drive",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02128"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.025909,
+                    42.3622
+                ]
+            },
+            "properties": {
+                "name": "MassPort Logan Office Center Garage - 1st Floor",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    325252
+                ],
+                "street_address": "1 Harborside Drive",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02128"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.0293,
+                    42.3701
+                ]
+            },
+            "properties": {
+                "name": "MassPort TNC Lot (Ride App Staging Lot)",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    325250
+                ],
+                "street_address": "1 Harborside Drive",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02129"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.017203,
+                    41.904046
+                ]
+            },
+            "properties": {
+                "name": "Mastria Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45913
+                ],
+                "street_address": "1305 New State Highway",
+                "city": "Raynham",
+                "state": "MA",
+                "zip_code": "02767"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.010665,
+                    41.903261
+                ]
+            },
+            "properties": {
+                "name": "Mastria Subaru",
+                "network": "AMPUP",
+                "nrel_id": [
+                    251560
+                ],
+                "street_address": "1255 New State Highway",
+                "city": "Raynham",
+                "state": "MA",
+                "zip_code": "02767"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.131719,
+                    42.246102
+                ]
+            },
+            "properties": {
+                "name": "Maverick Corp",
+                "network": "AMPUP",
+                "nrel_id": [
+                    229717
+                ],
+                "street_address": "1 Westinghouse Plaza",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02136"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.886343,
+                        42.5622
+                    ],
+                    [
+                        -70.886343,
+                        42.5622
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Meridian Associates EV Charging Station",
+                "ocm_id": [
+                    11851
+                ],
+                "street_address": "North Garage, Cummings Center",
+                "city": "Beverly",
+                "state": "MA",
+                "zip_code": "01915",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.903909,
+                        42.547769
+                    ],
+                    [
+                        -70.903909,
+                        42.547769
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Meridian Associates, Inc.",
+                "ocm_id": [
+                    13502
+                ],
+                "street_address": "Cummings Center",
+                "city": "Beverly ",
+                "state": "MA",
+                "zip_code": "01915",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.61831,
+                    42.271807
+                ]
+            },
+            "properties": {
+                "name": "Meridian Associates, Inc. ",
+                "ocm_id": [
+                    13503
+                ],
+                "street_address": "69 Milk Street",
+                "city": "Westborough",
+                "state": "MA",
+                "zip_code": "01581"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.962101,
+                    42.55235
+                ]
+            },
+            "properties": {
+                "name": "Michaud Mitsubishi",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    48856
+                ],
+                "street_address": "80 Andover Street",
+                "city": "Danvers",
+                "state": "MA",
+                "zip_code": "01923"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.962101,
+                    42.55235
+                ]
+            },
+            "properties": {
+                "name": "Michaud Mitsubishi",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    145553
+                ],
+                "street_address": "80 Andover Street",
+                "city": "Danvers",
+                "state": "MA",
+                "zip_code": "01923"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.49534,
+                    42.151933
+                ]
+            },
+            "properties": {
+                "name": "Milford Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    50831
+                ],
+                "street_address": "320 E Main Street",
+                "city": "Milford",
+                "state": "MA",
+                "zip_code": "01757"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.495266,
+                    42.151763
+                ]
+            },
+            "properties": {
+                "name": "Milford Nissan",
+                "ocm_id": [
+                    16051
+                ],
+                "street_address": "320 E Main Street",
+                "city": "Milford",
+                "state": "MA",
+                "zip_code": "01757"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.055775,
+                        42.360823
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Millennium Bostonian Hotel - Tesla",
+                "network": "TESLA_DESTINATION",
+                "ocm_id": [
+                    62300
+                ],
+                "street_address": "25 North Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02109",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.236415,
+                    42.451435
+                ]
+            },
+            "properties": {
+                "name": "MountainOne Insurance",
+                "ocm_id": [
+                    273267
+                ],
+                "street_address": "111 Silver Lake Boulevard",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.349126,
+                    42.282933
+                ]
+            },
+            "properties": {
+                "name": "Natick Center",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    76530
+                ],
+                "street_address": "29 Pond Street",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.348693,
+                    42.28305
+                ]
+            },
+            "properties": {
+                "name": "Natick Center Electric Car Charging Station",
+                "ocm_id": [
+                    60504
+                ],
+                "street_address": "16 West Central Street",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.338304,
+                        42.285719
+                    ],
+                    [
+                        -71.338304,
+                        42.285719
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Natick Community Senior Center - Public Charging Station",
+                "ocm_id": [
+                    94782
+                ],
+                "street_address": "117 East Central Street",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.386765,
+                    42.301095
+                ]
+            },
+            "properties": {
+                "name": "Natick Mall - A Deck",
+                "ocm_id": [
+                    159978
+                ],
+                "street_address": "1245 Worcester Street",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.278202,
+                        42.628766
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "National Grid Hannaford",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    85235
+                ],
+                "street_address": "777 Rogers Street",
+                "city": "Lowell",
+                "state": "MA",
+                "zip_code": "01852",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.169088,
+                    42.35654
+                ]
+            },
+            "properties": {
+                "name": "New Balance",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335435
+                ],
+                "street_address": "145 Newton Street",
+                "city": "Brighton",
+                "state": "MA",
+                "zip_code": "02135"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.058186,
+                    42.063356
+                ]
+            },
+            "properties": {
+                "name": "Nissan 24",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45881
+                ],
+                "street_address": "1016 Belmont Street",
+                "city": "Brockton",
+                "state": "MA",
+                "zip_code": "02301"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.342187,
+                    41.960366
+                ]
+            },
+            "properties": {
+                "name": "Nissan Village of North Attleboro",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45903
+                ],
+                "street_address": "685 S Washington Street",
+                "city": "North Attleboro",
+                "state": "MA",
+                "zip_code": "02761"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.061654,
+                    42.118685
+                ]
+            },
+            "properties": {
+                "name": "Noble Energy Real Estate Holdings - Sturbridge Travel Plaza",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335332
+                ],
+                "street_address": "195 Charlton Road",
+                "city": "Sturbridge",
+                "state": "MA",
+                "zip_code": "01566"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.322776,
+                    42.024304
+                ]
+            },
+            "properties": {
+                "name": "North Canaan, CT",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    155556
+                ],
+                "street_address": "11 East Main Street",
+                "city": "North Canaan",
+                "state": "CT",
+                "zip_code": "06018"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.44698,
+                    41.854915
+                ]
+            },
+            "properties": {
+                "name": "North Providence Marketplace",
+                "network": "EVGO",
+                "ocm_id": [
+                    228313
+                ],
+                "street_address": "9 - 41 Smithfield Road N",
+                "city": "Providence",
+                "state": "RI",
+                "zip_code": "02904"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.485882,
+                    41.842235
+                ]
+            },
+            "properties": {
+                "name": "PICK & PAY DCF EV 1",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    228292
+                ],
+                "street_address": "94 George Waterman Road",
+                "city": "Johnston",
+                "state": "RI",
+                "zip_code": "02919"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.553762,
+                        41.816225
+                    ],
+                    [
+                        -72.553762,
+                        41.816225
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "PeoplesBank",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    277419
+                ],
+                "street_address": "25 Cedar Avenue",
+                "city": "South Windsor",
+                "state": "CT",
+                "zip_code": "06074",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9886,
+                    42.72626
+                ]
+            },
+            "properties": {
+                "name": "Perley School",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    329860
+                ],
+                "street_address": "51 North Street",
+                "city": "Georgetown",
+                "state": "MA",
+                "zip_code": "01833"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.436715,
+                        42.699634
+                    ],
+                    [
+                        -71.436715,
+                        42.699634
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Pheasant Lane Mall",
+                "network": "EVGO",
+                "ocm_id": [
+                    85232
+                ],
+                "street_address": "310 Daniel Webster Highway",
+                "city": "Nashua",
+                "state": "NH",
+                "zip_code": "03060",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "3;3",
+                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.109042,
+                    42.339385
+                ]
+            },
+            "properties": {
+                "name": "Pilgrim Road Garage",
+                "network": "AMPUP",
+                "nrel_id": [
+                    230202
+                ],
+                "street_address": "380 Longwood Avenue",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02215"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.026306,
+                    42.76659
+                ]
+            },
+            "properties": {
+                "name": "Pines Recreation Area",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335296
+                ],
+                "street_address": "222 Main Street",
+                "city": "Groveland",
+                "state": "MA",
+                "zip_code": "01834"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.863117,
+                    42.058738
+                ]
+            },
+            "properties": {
+                "name": "Place Motor Ford",
+                "network": "RED_E",
+                "nrel_id": [
+                    351683
+                ],
+                "street_address": "19 Thompson Road",
+                "city": "Webster",
+                "state": "MA",
+                "zip_code": "01570"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.21602,
+                    42.57377
+                ]
+            },
+            "properties": {
+                "name": "Pleasant Street School",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    330960
+                ],
+                "street_address": "1060 Pleasant Street",
+                "city": "Athol",
+                "state": "MA",
+                "zip_code": "01331"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.247255,
+                    41.617703
+                ]
+            },
+            "properties": {
+                "name": "Portsmouth, RI Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    282723
+                ],
+                "street_address": "3302 E Main Road",
+                "city": "Portsmouth",
+                "state": "RI",
+                "zip_code": "02871"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.426899,
+                    41.828345
+                ]
+            },
+            "properties": {
+                "name": "Providence, RI Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    228273
+                ],
+                "street_address": "288 Kinsley Avenue",
+                "city": "Providence",
+                "state": "RI",
+                "zip_code": "02903"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.10565,
+                        42.365817
+                    ],
+                    [
+                        -71.10565,
+                        42.365817
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Public Lot 8, dual port level 2 charging station",
+                "ocm_id": [
+                    128789
+                ],
+                "street_address": "375 Green Street",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.106243,
+                        42.365913
+                    ],
+                    [
+                        -71.106243,
+                        42.365913
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Public Lot 9",
+                "ocm_id": [
+                    128788
+                ],
+                "street_address": "400 green street",
+                "city": "cambridge",
+                "state": "MA",
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.08856,
+                        42.372485
+                    ],
+                    [
+                        -71.08856,
+                        42.372485
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Public lot 12, dual port level 2 charging station",
+                "ocm_id": [
+                    128790
+                ],
+                "street_address": "7 Warren Street",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.101856,
+                        42.365467
+                    ],
+                    [
+                        -71.101856,
+                        42.365467
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Public lot 5, dual head leveling 2 charging station",
+                "ocm_id": [
+                    128791
+                ],
+                "street_address": "84 Bishop Allen Drive",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02139",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.978417,
                     42.232606
                 ]
@@ -922,6 +4619,1172 @@
                 "osm_id": [
                     11976450688
                 ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.99149,
+                    42.25353
+                ]
+            },
+            "properties": {
+                "name": "Quirk Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45911
+                ],
+                "street_address": "600 Southern Artery",
+                "city": "Quincy",
+                "state": "MA",
+                "zip_code": "02169"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.473988,
+                    41.697387
+                ]
+            },
+            "properties": {
+                "name": "RI OER RT117 DCFC1",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    228047
+                ],
+                "street_address": "Rt117 park and ride",
+                "city": "Warwick",
+                "state": "RI",
+                "zip_code": "02886"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ],
+                    [
+                        -71.437705,
+                        41.727961
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Red Beam Garage C",
+                "network": "TESLA_DESTINATION",
+                "ocm_id": [
+                    104428
+                ],
+                "street_address": "2000 Post Road",
+                "city": "Warwick",
+                "state": "RI",
+                "zip_code": "02886",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.154901,
+                        42.36291
+                    ],
+                    [
+                        -71.154901,
+                        42.36291
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residence Inn Boston Watertown",
+                "ocm_id": [
+                    73139
+                ],
+                "street_address": "570 Arsenal Street",
+                "city": "Watertown",
+                "state": "MA",
+                "zip_code": "02472",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.013106,
+                    42.407851
+                ]
+            },
+            "properties": {
+                "name": "Revere City Hall",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    145474
+                ],
+                "street_address": "281 Broadway",
+                "city": "Revere",
+                "state": "MA",
+                "zip_code": "02151"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.70076,
+                    42.51942
+                ]
+            },
+            "properties": {
+                "name": "Ron Bouchard's Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45893
+                ],
+                "street_address": "490 Old Union Turnpike",
+                "city": "Lancaster",
+                "state": "MA",
+                "zip_code": "01523"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.645875,
+                    42.283625
+                ]
+            },
+            "properties": {
+                "name": "Route 9 Nissan",
+                "network": "AMPUP",
+                "nrel_id": [
+                    230650
+                ],
+                "street_address": "273 Turnpike Road",
+                "city": "Westborough",
+                "state": "MA",
+                "zip_code": "01581"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.372229,
+                    41.894298
+                ]
+            },
+            "properties": {
+                "name": "STEINGOLDVOLVO DC250-EXPRESS-2",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    246899
+                ],
+                "street_address": "1001 Roosevelt Avenue",
+                "city": "Pawtucket",
+                "state": "RI",
+                "zip_code": "02861"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.213591,
+                        42.709634
+                    ],
+                    [
+                        -73.213591,
+                        42.709634
+                    ],
+                    [
+                        -73.213591,
+                        42.709634
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Sabin Drive",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    195426
+                ],
+                "street_address": "Sabin Drive",
+                "city": "Williamstown",
+                "state": "MA",
+                "zip_code": "01267",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.593841,
+                    41.569611
+                ]
+            },
+            "properties": {
+                "name": "School",
+                "network": "AMPUP",
+                "nrel_id": [
+                    335334
+                ],
+                "street_address": "340 Teaticket Highway",
+                "city": "Teaticket",
+                "state": "MA",
+                "zip_code": "02536"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.295011,
+                    41.66438
+                ]
+            },
+            "properties": {
+                "name": "Simon Cape Cod Mall (Hyannis, MA)",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    263158
+                ],
+                "street_address": "226 Falmouth Road",
+                "city": "Hyannis",
+                "state": "MA",
+                "zip_code": "02601"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.23348,
+                    42.76631
+                ]
+            },
+            "properties": {
+                "name": "Simon Mall at Rockingham Park (Salem, NH)",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    229945
+                ],
+                "street_address": "99 Rockingham Park Boulevard",
+                "city": "Salem",
+                "state": "NH",
+                "zip_code": "03079"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.499666,
+                    42.828148
+                ]
+            },
+            "properties": {
+                "name": "Simon Merrimack PO (Merrimack, NH)",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    277681
+                ],
+                "street_address": "80 Premium Outlet Boulevard",
+                "city": "Merrimack",
+                "state": "NH",
+                "zip_code": "03054"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.43912,
+                    42.70097
+                ]
+            },
+            "properties": {
+                "name": "Simon Pheasant Lane Mall (Nashua, NH)",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    229802
+                ],
+                "street_address": "310 Daniel Webster Highway",
+                "city": "Nashua",
+                "state": "NH",
+                "zip_code": "03060"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.062885,
+                    42.158782
+                ]
+            },
+            "properties": {
+                "name": "Sonesta Select Boston Stoughton",
+                "network": "RED_E",
+                "nrel_id": [
+                    351278
+                ],
+                "street_address": "200 Technology Canter Drive",
+                "city": "Stoughton",
+                "state": "MA",
+                "zip_code": "02072"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.42514,
+                    42.3742
+                ]
+            },
+            "properties": {
+                "name": "Sudbury Department of Public Works",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    330031
+                ],
+                "street_address": "275 Old Lancaster Road",
+                "city": "Sudbury",
+                "state": "MA",
+                "zip_code": "01776"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.41764,
+                    42.38399
+                ]
+            },
+            "properties": {
+                "name": "Sudbury Police Department",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    330032
+                ],
+                "street_address": "75 Hudson Road",
+                "city": "Sudbury",
+                "state": "MA",
+                "zip_code": "01776"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7127,
+                    41.976052
+                ]
+            },
+            "properties": {
+                "name": "Sullivan Brothers Nissan",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    45891
+                ],
+                "street_address": "1 Cranberry Road",
+                "city": "Kingston",
+                "state": "MA",
+                "zip_code": "02364"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.215244,
+                    41.639717
+                ]
+            },
+            "properties": {
+                "name": "Surfcomber",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    98542
+                ],
+                "street_address": "107 South Shore Drive",
+                "city": "South Yarmotuh",
+                "state": "MA",
+                "zip_code": "02664"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.215161,
+                        41.64002
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Surfcomber on the Ocean",
+                "ocm_id": [
+                    104375
+                ],
+                "street_address": "107",
+                "city": "South Yarmouth",
+                "state": "MA",
+                "zip_code": "02664",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.223175,
+                    42.769438
+                ]
+            },
+            "properties": {
+                "name": "TUSCAN VILLAGE BEACH PLUM 2",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    229954
+                ],
+                "street_address": "8 S Village Drive",
+                "city": "Salem",
+                "state": "NH",
+                "zip_code": "03079"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.493049,
+                    41.706949
+                ]
+            },
+            "properties": {
+                "name": "Target Warwick #T1188",
+                "network": "EVGO",
+                "ocm_id": [
+                    246749
+                ],
+                "street_address": "1245 Bald Hill Road",
+                "city": "Warwick",
+                "state": "RI",
+                "zip_code": "02886"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.46021,
+                    42.08172
+                ]
+            },
+            "properties": {
+                "name": "The Curtis Apartments",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    334049
+                ],
+                "street_address": "161 Mechanic Street",
+                "city": "Bellingham",
+                "state": "MA",
+                "zip_code": "02019"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.594347,
+                        41.631265
+                    ],
+                    [
+                        -70.594347,
+                        41.631265
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "The Golf Club of Cape Cod",
+                "network": "TESLA_DESTINATION",
+                "ocm_id": [
+                    81510
+                ],
+                "street_address": "132 Falmouth Woods Road",
+                "city": "Falmouth",
+                "state": "MA",
+                "zip_code": "02536",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.556316,
+                        41.812335
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "The Promenade Shops At Evergreen Walk",
+                "network": "TESLA_DESTINATION",
+                "ocm_id": [
+                    84281
+                ],
+                "street_address": "401 Evergreen Wy",
+                "city": "South Windsor",
+                "state": "CT",
+                "zip_code": "06074",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.173618,
+                        42.321902
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "The Shops at Chestnut Hill",
+                "network": "EVGO",
+                "ocm_id": [
+                    85237
+                ],
+                "street_address": "199 Boylston Street",
+                "city": "Chestnut Hill",
+                "state": "MA",
+                "zip_code": "02467",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.313498,
+                        41.48793
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "The Vanderbilt Grace Hotel",
+                "network": "TESLA_DESTINATION",
+                "ocm_id": [
+                    79937
+                ],
+                "street_address": "41 Mary Street",
+                "city": "Newport",
+                "state": "RI",
+                "zip_code": "02840",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ],
+                    [
+                        -72.542489,
+                        41.801169
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "The Vintage at the Grove",
+                "network": "AMPUP",
+                "ocm_id": [
+                    299984
+                ],
+                "street_address": "1500 Horizon Way",
+                "city": "Manchester",
+                "state": "CT",
+                "zip_code": "06042",
+                "charging_points:count": 6,
+                "charging_points:capacity": "1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.027851,
+                    42.366128
+                ]
+            },
+            "properties": {
+                "name": "Transportation Way - Boston MA",
+                "network": "SHELL_RECHARGE",
+                "ocm_id": [
+                    247300
+                ],
+                "street_address": "45 Transportation Way",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02128"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.152761,
+                        42.18493
+                    ],
+                    [
+                        -71.152761,
+                        42.18493
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Trillium Brewing Company",
+                "network": "TESLA_DESTINATION",
+                "ocm_id": [
+                    97396
+                ],
+                "street_address": "110 Shawmut Street",
+                "city": "Canton",
+                "state": "MA",
+                "zip_code": "02021",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.223549,
+                        42.770714
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Tuscan Village, Tuscan Market",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    296286
+                ],
+                "street_address": "9 Via Toscana",
+                "city": "Salem",
+                "state": "NY",
+                "zip_code": "03079",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.244079,
+                    42.44928
+                ]
+            },
+            "properties": {
+                "name": "USESI/HZ ELECTRIC PITTSFIELD",
+                "network": "AMPUP",
+                "nrel_id": [
+                    230458
+                ],
+                "street_address": "485 Fenn Street",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.15054,
+                    41.6987
+                ]
+            },
+            "properties": {
+                "name": "Union Medical Developers",
+                "network": "EV_GATEWAY",
+                "nrel_id": [
+                    334100
+                ],
+                "street_address": "315 Pleasant Street",
+                "city": "Fall River",
+                "state": "MA",
+                "zip_code": "02721"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.053944,
+                    42.063012
+                ]
+            },
+            "properties": {
+                "name": "VISN 1 / Boston HCS / Brockton",
+                "network": "NON_NETWORKED",
+                "nrel_id": [
+                    184319
+                ],
+                "street_address": "940 Belmont Street",
+                "city": "Brockton",
+                "state": "MA",
+                "zip_code": "02301"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.189378,
+                    41.643898
+                ]
+            },
+            "properties": {
+                "name": "VITI PUBLIC LEFT",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    227966
+                ],
+                "street_address": "975 Fish Road",
+                "city": "Tiverton",
+                "state": "RI",
+                "zip_code": "02878"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.28997,
+                        42.564478
+                    ],
+                    [
+                        -73.28997,
+                        42.564478
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Vacation Villages In The Berkshires",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    265893
+                ],
+                "street_address": "276 Brodie Mountain Road",
+                "city": "Hancock",
+                "state": "MA",
+                "zip_code": "01237",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.495841,
+                    41.831076
+                ]
+            },
+            "properties": {
+                "name": "Vernon, CT",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    269898
+                ],
+                "street_address": "145 Talcottville Road",
+                "city": "Vernon",
+                "state": "CT",
+                "zip_code": "06066"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.456337,
+                    41.756367
+                ]
+            },
+            "properties": {
+                "name": "WHOLE FOODS MKT",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    62219
+                ],
+                "street_address": "151 Sockanosset Cross Road",
+                "city": "Cranston",
+                "state": "RI",
+                "zip_code": "02920"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.285101,
+                        42.356323
+                    ],
+                    [
+                        -73.285101,
+                        42.356323
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Walker Street",
+                "ocm_id": [
+                    266683
+                ],
+                "street_address": "6 Walker Street",
+                "city": "Lenox",
+                "state": "MA",
+                "zip_code": "01242",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.539282,
+                    41.807014
+                ]
+            },
+            "properties": {
+                "name": "Walmart 1891 - Manchester, CT",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    228240
+                ],
+                "street_address": "420 Buckland Hills Drive",
+                "city": "Manchester",
+                "state": "CT",
+                "zip_code": "06042"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.417753,
+                    41.845166
+                ]
+            },
+            "properties": {
+                "name": "Walmart 3301 - Providence, RI",
+                "network": "ELECTRIFY_AMERICA",
+                "ocm_id": [
+                    142863
+                ],
+                "street_address": "51 Silver Spring Street",
+                "city": "Providence",
+                "state": "RI",
+                "zip_code": "02904"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.238656,
+                    42.369822
+                ]
+            },
+            "properties": {
+                "name": "Walnut Street Lot Charging Station",
+                "network": "NON_NETWORKED",
+                "osm_id": [
+                    10087776655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.492424,
+                    41.664299
+                ]
+            },
+            "properties": {
+                "name": "Warwick, RI - Division Street Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    277369
+                ],
+                "street_address": "1149 Division Street",
+                "city": "Warwick",
+                "state": "RI",
+                "zip_code": "02818"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.436149,
+                    41.732853
+                ]
+            },
+            "properties": {
+                "name": "Warwick, RI Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "ocm_id": [
+                    246783
+                ],
+                "street_address": "1776 Post Road",
+                "city": "Warwick",
+                "state": "RI",
+                "zip_code": "02888"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.386504,
+                        42.301379
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Wegmans Parking Deck A1;Wegmans food court",
+                "network": "VOLTA",
+                "ocm_id": [
+                    191889,
+                    191890
+                ],
+                "street_address": "Natick Mall Road",
+                "city": "Natick",
+                "state": "MA",
+                "zip_code": "01760",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.55494,
+                    41.81502
+                ]
+            },
+            "properties": {
+                "name": "Whole Foods South Windsor",
+                "network": "EVGO",
+                "ocm_id": [
+                    294748
+                ],
+                "street_address": "801 Evergreen Way",
+                "city": "South Windsor",
+                "state": "CT",
+                "zip_code": "06074"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.289691,
+                        42.557174
+                    ],
+                    [
+                        -73.289691,
+                        42.557174
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Wyndham Resort at Bentley Brook",
+                "ocm_id": [
+                    265892
+                ],
+                "street_address": "Mountainside Drive",
+                "city": "Hancock",
+                "state": "MA",
+                "zip_code": "01237",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
             }
         }
     ]

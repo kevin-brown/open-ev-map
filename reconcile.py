@@ -897,6 +897,9 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         if ocm_station["DataProviderID"] in [15, ]:
             continue
 
+        if ocm_station.get("StatusTypeID") in [100, ]:
+            continue
+
         station = Station()
         station.ocm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), ocm_station["ID"]))
         ocm_address = ocm_station["AddressInfo"]
@@ -1299,7 +1302,21 @@ for station in combined_data:
     )
     station_features["features"].append(station_feature)
 
-    if not station.nrel_id.get() and station.osm_id.get() and station.network is not ChargingNetwork.NON_NETWORKED:
+    id_count = 0
+
+    if station.nrel_id.get():
+        id_count += 1
+
+    if station.osm_id.get():
+        id_count += 1
+
+    if station.ocm_id.get():
+        id_count += 1
+
+    if station.network_id.get():
+        id_count += 1
+
+    if id_count <= 1:
         non_reconciled_station_features["features"].append(station_feature)
 
 with open("stations.geojson", "w") as stations_fh:

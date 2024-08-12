@@ -70,22 +70,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.274309,
-                    42.297097
-                ]
-            },
-            "properties": {
-                "network": "AUTEL",
-                "osm_id": [
-                    5254161513
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -73.274902,
                     42.298416
                 ]
@@ -1221,13 +1205,17 @@
                 ]
             },
             "properties": {
-                "name": "10 St James Parking Garage",
+                "name": "10 St James Parking Garage;10 St. James Ave. / 75 Arlington ST",
                 "network": "BLINK",
                 "nrel_id": [
+                    148116,
                     193831
                 ],
+                "ocm_id": [
+                    143101
+                ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000005467",
-                "street_address": "10 Saint James Avenue",
+                "street_address": "10 Saint James Avenue;10 St. James Avenue",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02116",
@@ -1235,29 +1223,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.070954,
-                    42.350377
-                ]
-            },
-            "properties": {
-                "name": "10 St. James Ave. / 75 Arlington ST",
-                "nrel_id": [
-                    148116
-                ],
-                "ocm_id": [
-                    143101
-                ],
-                "street_address": "10 St. James Avenue",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02116"
             }
         },
         {
@@ -1484,7 +1449,11 @@
                 "name": "100 High Street",
                 "network": "BLINK",
                 "nrel_id": [
+                    72536,
                     148119
+                ],
+                "ocm_id": [
+                    62296
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000001295",
                 "street_address": "100 High Street",
@@ -1495,29 +1464,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.055401,
-                    42.354474
-                ]
-            },
-            "properties": {
-                "name": "100 High Street",
-                "nrel_id": [
-                    72536
-                ],
-                "ocm_id": [
-                    62296
-                ],
-                "street_address": "100 High Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02110"
             }
         },
         {
@@ -2419,7 +2365,11 @@
                 "name": "130 Turner Street",
                 "network": "BLINK",
                 "nrel_id": [
+                    67789,
                     148096
+                ],
+                "ocm_id": [
+                    48278
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000001068",
                 "street_address": "130 Turner Street",
@@ -2430,29 +2380,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.266907,
-                    42.362222
-                ]
-            },
-            "properties": {
-                "name": "130 Turner Street",
-                "nrel_id": [
-                    67789
-                ],
-                "ocm_id": [
-                    48278
-                ],
-                "street_address": "130 Turner Street",
-                "city": "Waltham",
-                "state": "MA",
-                "zip_code": "02453"
             }
         },
         {
@@ -2494,24 +2421,33 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.277862,
-                    42.485385
+                    [
+                        -71.277862,
+                        42.485385
+                    ]
                 ]
             },
             "properties": {
-                "name": "135 south Road",
+                "name": "135 south Road;Exeter 135 South",
+                "network": "BLINK",
                 "nrel_id": [
-                    148090
+                    148090,
+                    311709
                 ],
                 "ocm_id": [
                     143178
                 ],
+                "network_id": "95e598ad-fa72-42a5-ae65-9fd02296d862",
                 "street_address": "135 South Road",
                 "city": "Bedford",
                 "state": "MA",
-                "zip_code": "01730"
+                "zip_code": "01730",
+                "charging_points:count": 1,
+                "charging_points:capacity": "4",
+                "charging_points:plugs_count": "4",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -6320,7 +6256,11 @@
                 "name": "55 Cambridge Parkway LLC",
                 "network": "BLINK",
                 "nrel_id": [
+                    148111,
                     191330
+                ],
+                "ocm_id": [
+                    143115
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000001615",
                 "street_address": "55 Cambridge Parkway",
@@ -6331,29 +6271,6 @@
                 "charging_points:capacity": "8",
                 "charging_points:plugs_count": "8",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.075879,
-                    42.365792
-                ]
-            },
-            "properties": {
-                "name": "55 Cambridge Parkway LLC",
-                "nrel_id": [
-                    148111
-                ],
-                "ocm_id": [
-                    143115
-                ],
-                "street_address": "55 Cambridge Parkway",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142"
             }
         },
         {
@@ -19144,7 +19061,11 @@
                 "name": "Buckley Transportation Center",
                 "network": "BLINK",
                 "nrel_id": [
+                    148087,
                     195396
+                ],
+                "ocm_id": [
+                    143274
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000003825",
                 "street_address": "99 Amesbury Street",
@@ -19155,29 +19076,6 @@
                 "charging_points:capacity": "6",
                 "charging_points:plugs_count": "6",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.162954,
-                    42.708302
-                ]
-            },
-            "properties": {
-                "name": "Buckley Transportation Center",
-                "nrel_id": [
-                    148087
-                ],
-                "ocm_id": [
-                    143274
-                ],
-                "street_address": "99 Amesbury Street",
-                "city": "Lawrence",
-                "state": "MA",
-                "zip_code": "01840"
             }
         },
         {
@@ -20064,6 +19962,7 @@
                 ],
                 "ocm_id": [
                     2950,
+                    3435,
                     3577
                 ],
                 "street_address": "1681 Quaker Lane",
@@ -23521,11 +23420,19 @@
                     [
                         -71.105566,
                         42.365907
+                    ],
+                    [
+                        -71.10565,
+                        42.365817
+                    ],
+                    [
+                        -71.10565,
+                        42.365817
                     ]
                 ]
             },
             "properties": {
-                "name": "CITYOFCAMBRIDGE 375 GREEN LOT 8",
+                "name": "CITYOFCAMBRIDGE 375 GREEN LOT 8;Public Lot 8, dual port level 2 charging station",
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     10906095726
@@ -23533,14 +23440,17 @@
                 "nrel_id": [
                     123463
                 ],
+                "ocm_id": [
+                    128789
+                ],
                 "network_id": "USCPIL1781731",
                 "street_address": "375 Green Street",
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02139",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;1;1",
+                "charging_points:plugs_count": "2;1;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -23649,24 +23559,31 @@
                     [
                         -71.105316,
                         42.367058
+                    ],
+                    [
+                        -71.105306,
+                        42.367038
                     ]
                 ]
             },
             "properties": {
-                "name": "CITYOFCAMBRIDGE CITY HALL;CITYOFCAMBRIDGE CITY HALL # 2",
+                "name": "CITYOFCAMBRIDGE CITY HALL;CITYOFCAMBRIDGE CITY HALL # 2;City Hall,",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     161831,
                     262302
                 ],
+                "ocm_id": [
+                    128792
+                ],
                 "network_id": "USCPIL13747671;USCPIL199997",
-                "street_address": "795 Massachusetts Avenue",
-                "city": "Cambridge",
+                "street_address": "795 Massachusetts Avenue;Dorthy Dottie Doyle Way",
+                "city": "Cambridge;cambridge",
                 "state": "MA",
                 "zip_code": "02139",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
+                "charging_points:count": 3,
+                "charging_points:capacity": "1;1;1",
+                "charging_points:plugs_count": "1;1;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -26447,26 +26364,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.501131,
-                    41.670064
-                ]
-            },
-            "properties": {
-                "name": "Cardi's Furniture Superstore",
-                "ocm_id": [
-                    3435
-                ],
-                "street_address": "1681 Quaker Lane",
-                "city": "West Warwick",
-                "state": "RI",
-                "zip_code": "02893"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.908102,
                     41.916161
                 ]
@@ -26772,7 +26669,11 @@
                 "name": "Chapel Bridge Park",
                 "network": "BLINK",
                 "nrel_id": [
+                    72630,
                     148099
+                ],
+                "ocm_id": [
+                    62303
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000001301",
                 "street_address": "55 Chapel Street",
@@ -26783,29 +26684,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.202312,
-                    42.363774
-                ]
-            },
-            "properties": {
-                "name": "Chapel Bridge Park",
-                "nrel_id": [
-                    72630
-                ],
-                "ocm_id": [
-                    62303
-                ],
-                "street_address": "55 Chapel Street",
-                "city": "Newton",
-                "state": "MA",
-                "zip_code": "02458"
             }
         },
         {
@@ -27124,7 +27002,11 @@
                 ]
             },
             "properties": {
-                "name": "Charlton Service Plaza Westbound",
+                "name": "Charlton Service Plaza Westbound;I-90 Westbound Charlton",
+                "network": "AUTEL",
+                "osm_id": [
+                    11899479952
+                ],
                 "ocm_id": [
                     105803
                 ],
@@ -27502,32 +27384,6 @@
                 "city": "Riverside",
                 "state": "RI",
                 "zip_code": "02915"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.105306,
-                        42.367038
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "City Hall,",
-                "ocm_id": [
-                    128792
-                ],
-                "street_address": "Dorthy Dottie Doyle Way",
-                "city": "cambridge",
-                "state": "MA",
-                "zip_code": "02139",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -34664,34 +34520,6 @@
                 "city": "Billerica",
                 "state": "MA",
                 "zip_code": "01821"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.277862,
-                        42.485385
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Exeter 135 South",
-                "network": "BLINK",
-                "nrel_id": [
-                    311709
-                ],
-                "network_id": "95e598ad-fa72-42a5-ae65-9fd02296d862",
-                "street_address": "135 South Road",
-                "city": "Bedford",
-                "state": "MA",
-                "zip_code": "01730",
-                "charging_points:count": 1,
-                "charging_points:capacity": "4",
-                "charging_points:plugs_count": "4",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -42206,23 +42034,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.964521,
-                    42.156118
-                ]
-            },
-            "properties": {
-                "name": "I-90 Westbound Charlton",
-                "network": "AUTEL",
-                "osm_id": [
-                    11899479952
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -46260,6 +46071,10 @@
             },
             "properties": {
                 "name": "Lee Service Plaza Eastbound",
+                "network": "AUTEL",
+                "osm_id": [
+                    5254161513
+                ],
                 "ocm_id": [
                     125807
                 ],
@@ -55878,7 +55693,11 @@
                 "name": "Mercantile Center Garage",
                 "network": "BLINK",
                 "nrel_id": [
+                    148092,
                     194835
+                ],
+                "ocm_id": [
+                    143035
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000001787",
                 "street_address": "201 Commercial Street",
@@ -55889,29 +55708,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.799131,
-                    42.26359
-                ]
-            },
-            "properties": {
-                "name": "Mercantile Center Garage",
-                "nrel_id": [
-                    148092
-                ],
-                "ocm_id": [
-                    143035
-                ],
-                "street_address": "201 Commercial Street",
-                "city": "Worcester",
-                "state": "MA",
-                "zip_code": "01608"
             }
         },
         {
@@ -56078,7 +55874,11 @@
                 "name": "MetroMark Apartments",
                 "network": "BLINK",
                 "nrel_id": [
+                    92173,
                     148127
+                ],
+                "ocm_id": [
+                    102928
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000002155",
                 "street_address": "3611 Washington Street",
@@ -56089,29 +55889,6 @@
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "4",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.11144,
-                    42.302729
-                ]
-            },
-            "properties": {
-                "name": "MetroMark Apartments",
-                "nrel_id": [
-                    92173
-                ],
-                "ocm_id": [
-                    102928
-                ],
-                "street_address": "3611 Washington Street",
-                "city": "Jamaica Plains",
-                "state": "MA",
-                "zip_code": "02130"
             }
         },
         {
@@ -56206,7 +55983,11 @@
                 "name": "Midtown Hotel",
                 "network": "BLINK",
                 "nrel_id": [
+                    72599,
                     148120
+                ],
+                "ocm_id": [
+                    62288
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000001298",
                 "street_address": "220 Huntington Avenue",
@@ -56217,29 +55998,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.083958,
-                    42.343261
-                ]
-            },
-            "properties": {
-                "name": "Midtown Hotel",
-                "nrel_id": [
-                    72599
-                ],
-                "ocm_id": [
-                    62288
-                ],
-                "street_address": "220 Huntington Avenue",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02115"
             }
         },
         {
@@ -60368,27 +60126,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.169088,
-                    42.35654
-                ]
-            },
-            "properties": {
-                "name": "New Balance",
-                "network": "AMPUP",
-                "nrel_id": [
-                    335435
-                ],
-                "street_address": "145 Newton Street",
-                "city": "Brighton",
-                "state": "MA",
-                "zip_code": "02135"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.14466,
                     42.35676
                 ]
@@ -60404,6 +60141,31 @@
                 ],
                 "street_address": "91 Guest Street",
                 "city": "Boston",
+                "state": "MA",
+                "zip_code": "02135"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.169102,
+                    42.356504
+                ]
+            },
+            "properties": {
+                "name": "New Balance;XL Hybrids Inc",
+                "network": "AMPUP",
+                "nrel_id": [
+                    72013,
+                    335435
+                ],
+                "ocm_id": [
+                    62298
+                ],
+                "street_address": "145 Newton Street",
+                "city": "Boston;Brighton",
                 "state": "MA",
                 "zip_code": "02135"
             }
@@ -60912,29 +60674,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.67125,
-                    42.290765
-                ]
-            },
-            "properties": {
-                "name": "Northborough Crossing",
-                "nrel_id": [
-                    151876
-                ],
-                "ocm_id": [
-                    159971
-                ],
-                "street_address": "9012 Shops Way",
-                "city": "Northborough",
-                "state": "MA",
-                "zip_code": "01532"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -60944,13 +60683,17 @@
                 ]
             },
             "properties": {
-                "name": "Northborough Crossing Wegmans",
+                "name": "Northborough Crossing;Northborough Crossing Wegmans",
                 "network": "VOLTA",
                 "osm_id": [
                     7828185845
                 ],
                 "nrel_id": [
+                    151876,
                     321399
+                ],
+                "ocm_id": [
+                    159971
                 ],
                 "network_id": "c1f0380c-c344-4574-a963-5756a2a1f21e",
                 "street_address": "9012 Shops Way",
@@ -64871,7 +64614,11 @@
                 "name": "Princeton Westford Appartments",
                 "network": "BLINK",
                 "nrel_id": [
+                    148088,
                     194834
+                ],
+                "ocm_id": [
+                    143213
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000003578",
                 "street_address": "Princeton Way",
@@ -64882,29 +64629,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.397102,
-                    42.574408
-                ]
-            },
-            "properties": {
-                "name": "Princeton Westford Appartments",
-                "nrel_id": [
-                    148088
-                ],
-                "ocm_id": [
-                    143213
-                ],
-                "street_address": "Princeton Way",
-                "city": "Westford",
-                "state": "MA",
-                "zip_code": "01886"
             }
         },
         {
@@ -65072,36 +64796,6 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "6",
                 "charging_points:plugs_count": "6",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.10565,
-                        42.365817
-                    ],
-                    [
-                        -71.10565,
-                        42.365817
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Public Lot 8, dual port level 2 charging station",
-                "ocm_id": [
-                    128789
-                ],
-                "street_address": "375 Green Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02139",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -69235,7 +68929,11 @@
                 "name": "Riverfront Office Park Garage",
                 "network": "BLINK",
                 "nrel_id": [
+                    92172,
                     148113
+                ],
+                "ocm_id": [
+                    110696
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000002097",
                 "street_address": "101 Main Street",
@@ -69246,29 +68944,6 @@
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "4",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.08101,
-                    42.362296
-                ]
-            },
-            "properties": {
-                "name": "Riverfront Office Park Garage",
-                "nrel_id": [
-                    92172
-                ],
-                "ocm_id": [
-                    110696
-                ],
-                "street_address": "101 Main Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02142"
             }
         },
         {
@@ -70235,29 +69910,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.041195,
-                    42.347393
-                ]
-            },
-            "properties": {
-                "name": "SBWTC",
-                "nrel_id": [
-                    148123
-                ],
-                "ocm_id": [
-                    143098
-                ],
-                "street_address": "500 D Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02210"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -70274,8 +69926,12 @@
                 "name": "SBWTC;SBWTC (BAE906599- free)",
                 "network": "BLINK",
                 "nrel_id": [
+                    148123,
                     225278,
                     349849
+                ],
+                "ocm_id": [
+                    143098
                 ],
                 "network_id": "371ea742-91f2-4ebe-b01d-1cbcae8642e3;d0e864cf-fb2a-3dbf-1307-c00000002265",
                 "street_address": "500 D Street",
@@ -81723,7 +81379,11 @@
                 "name": "The Tremont",
                 "network": "BLINK",
                 "nrel_id": [
+                    149269,
                     195578
+                ],
+                "ocm_id": [
+                    143085
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000003958",
                 "street_address": "1480 Tremont Street",
@@ -81734,29 +81394,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.098524,
-                    42.331645
-                ]
-            },
-            "properties": {
-                "name": "The Tremont",
-                "nrel_id": [
-                    149269
-                ],
-                "ocm_id": [
-                    143085
-                ],
-                "street_address": "1480 Tremont Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02120"
             }
         },
         {
@@ -81872,7 +81509,11 @@
                 "name": "The Westin Boston Waterfront",
                 "network": "BLINK",
                 "nrel_id": [
+                    148125,
                     195320
+                ],
+                "ocm_id": [
+                    143095
                 ],
                 "network_id": "d0e864cf-fb2a-3dbf-1307-c00000001861",
                 "street_address": "425 Summer Street",
@@ -81883,29 +81524,6 @@
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.04328,
-                    42.346086
-                ]
-            },
-            "properties": {
-                "name": "The Westin Boston Waterfront",
-                "nrel_id": [
-                    148125
-                ],
-                "ocm_id": [
-                    143095
-                ],
-                "street_address": "425 Summer Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02210"
             }
         },
         {
@@ -89543,29 +89161,6 @@
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.169102,
-                    42.356504
-                ]
-            },
-            "properties": {
-                "name": "XL Hybrids Inc",
-                "nrel_id": [
-                    72013
-                ],
-                "ocm_id": [
-                    62298
-                ],
-                "street_address": "145 Newton Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02135"
             }
         },
         {

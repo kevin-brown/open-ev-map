@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from geopy import distance
-from typing import NamedTuple, Self
+from typing import NamedTuple, Optional, Self
 import dataclasses
 import enum
 import geojson
@@ -161,7 +161,7 @@ class Station:
     charging_points: list[ChargingPoint] = dataclasses.field(default_factory=list)
 
     name: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
-    network: ChargingNetwork = None
+    network: Optional[ChargingNetwork] = None
 
     location: SourcedAttribute[Location] = dataclasses.field(default_factory=SourcedAttribute)
     street_address: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
@@ -1155,6 +1155,27 @@ def combine_non_networked_stations_close_by(all_stations: list[Station]) -> list
 
     return combine_stations_with_check(all_stations, check_non_networked_close_by)
 
+def combine_networked_stations_with_unknown_ones_near_by(all_stations: list[Station]) -> list[Station]:
+    def check_unknown_networked_close_by(first_station: Station, second_station: Station) -> bool:
+        if first_station.network is not None and second_station.network is not None:
+            return False
+
+        if first_station.network is ChargingNetwork.NON_NETWORKED or second_station.network is ChargingNetwork.NON_NETWORKED:
+            return False
+
+        if first_station.network is None and second_station.network is None:
+            return False
+
+        station_distance = get_station_distance(first_station, second_station)
+
+        if station_distance.miles > 0.01:
+            return False
+
+        return True
+
+    return combine_stations_with_check(all_stations, check_unknown_networked_close_by)
+
+
 def station_networks_match(first_station: Station, second_station: Station) -> bool:
     if first_station.network is None or first_station.network is ChargingNetwork.NON_NETWORKED:
         return False
@@ -1245,6 +1266,7 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
     all_stations = combine_networked_stations_close_by(all_stations)
 
     all_stations = combine_non_networked_stations_close_by(all_stations)
+    all_stations = combine_networked_stations_with_unknown_ones_near_by(all_stations)
 
     return all_stations
 

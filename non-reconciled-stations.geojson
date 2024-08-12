@@ -70,22 +70,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.274309,
-                    42.297097
-                ]
-            },
-            "properties": {
-                "network": "AUTEL",
-                "osm_id": [
-                    5254161513
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -73.274902,
                     42.298416
                 ]
@@ -1818,26 +1802,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.501131,
-                    41.670064
-                ]
-            },
-            "properties": {
-                "name": "Cardi's Furniture Superstore",
-                "ocm_id": [
-                    3435
-                ],
-                "street_address": "1681 Quaker Lane",
-                "city": "West Warwick",
-                "state": "RI",
-                "zip_code": "02893"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.06,
                     42.36
                 ]
@@ -1942,62 +1906,6 @@
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
                 "charging_points:plugs_type": "J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.964487,
-                        42.156095
-                    ],
-                    [
-                        -71.964487,
-                        42.156095
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Charlton Service Plaza Westbound",
-                "ocm_id": [
-                    105803
-                ],
-                "street_address": "6 Massachusettts Turnpike",
-                "city": "Charlton",
-                "state": "MA",
-                "zip_code": "01507",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.105306,
-                        42.367038
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "City Hall,",
-                "ocm_id": [
-                    128792
-                ],
-                "street_address": "Dorthy Dottie Doyle Way",
-                "city": "cambridge",
-                "state": "MA",
-                "zip_code": "02139",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -2789,23 +2697,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.964521,
-                    42.156118
-                ]
-            },
-            "properties": {
-                "name": "I-90 Westbound Charlton",
-                "network": "AUTEL",
-                "osm_id": [
-                    11899479952
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.427895,
                     41.830008
                 ]
@@ -2978,32 +2869,6 @@
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.274303,
-                        42.297105
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Lee Service Plaza Eastbound",
-                "ocm_id": [
-                    125807
-                ],
-                "street_address": "Lee Service Plaza Eastbound",
-                "city": "Lee",
-                "state": "MA",
-                "zip_code": "01238-1612",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
                 "charging_points:plugs_type": "J1772_COMBO"
             }
         },
@@ -3623,27 +3488,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.169088,
-                    42.35654
-                ]
-            },
-            "properties": {
-                "name": "New Balance",
-                "network": "AMPUP",
-                "nrel_id": [
-                    335435
-                ],
-                "street_address": "145 Newton Street",
-                "city": "Brighton",
-                "state": "MA",
-                "zip_code": "02135"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.061654,
                     42.118685
                 ]
@@ -3930,36 +3774,6 @@
                 "city": "Providence",
                 "state": "RI",
                 "zip_code": "02903"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.10565,
-                        42.365817
-                    ],
-                    [
-                        -71.10565,
-                        42.365817
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Public Lot 8, dual port level 2 charging station",
-                "ocm_id": [
-                    128789
-                ],
-                "street_address": "375 Green Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02139",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {

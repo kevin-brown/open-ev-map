@@ -460,6 +460,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.122648,
+                    42.343868
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "osm_id": [
+                    11450848667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -72.530676,
                     42.346372
                 ]
@@ -1355,27 +1371,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.657191,
-                    41.933121
-                ]
-            },
-            "properties": {
-                "name": "Alltown Fresh Convenience Market",
-                "network": "ELECTRIFY_AMERICA",
-                "ocm_id": [
-                    121643
-                ],
-                "street_address": "22 Long Pond Road",
-                "city": "Plymouth",
-                "state": "MA",
-                "zip_code": "02360"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.30305,
                     41.93772
                 ]
@@ -1880,37 +1875,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -72.024713,
-                        42.140107
-                    ],
-                    [
-                        -72.024713,
-                        42.140107
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Charlton Service Plaza Eastbound",
-                "network": "EVGO",
-                "ocm_id": [
-                    110657
-                ],
-                "street_address": "Mile Marker 80 Eastbound",
-                "city": "Charlton",
-                "state": "MA",
-                "zip_code": "01507",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.15043,
@@ -2164,33 +2128,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.837426,
-                        42.202165
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "EVgo Auburn Mall",
-                "network": "EVGO",
-                "ocm_id": [
-                    297722
-                ],
-                "street_address": "Southbridge Street",
-                "city": "Auburn",
-                "state": "MA",
-                "zip_code": "01501",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.497242,
@@ -2338,6 +2275,37 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.612113,
+                        42.597053
+                    ],
+                    [
+                        -72.612113,
+                        42.597053
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Franklin County Sheriff's Office",
+                "network": "CHARGEPOINT",
+                "ocm_id": [
+                    110719
+                ],
+                "street_address": "160 Elm Street",
+                "city": "Greenfield",
+                "state": "MA",
+                "zip_code": "01301",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.99696,
@@ -2354,26 +2322,6 @@
                 "city": "Gardner",
                 "state": "MA",
                 "zip_code": "01440"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.636827,
-                    42.181871
-                ]
-            },
-            "properties": {
-                "name": "Gary Rome Hyundai",
-                "ocm_id": [
-                    77820
-                ],
-                "street_address": "150 Whiting Farms Road",
-                "city": "Holyoke",
-                "state": "MA",
-                "zip_code": "01040"
             }
         },
         {
@@ -2680,23 +2628,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.024642,
-                    42.140087
-                ]
-            },
-            "properties": {
-                "name": "I-90 Eastbound Charlton",
-                "network": "AUTEL",
-                "osm_id": [
-                    11899494210
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.427895,
                     41.830008
                 ]
@@ -2875,6 +2806,36 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.285101,
+                        42.356323
+                    ],
+                    [
+                        -73.285101,
+                        42.356323
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Lenox Town Hall",
+                "ocm_id": [
+                    266683
+                ],
+                "street_address": "6 Walker Street",
+                "city": "Lenox",
+                "state": "MA",
+                "zip_code": "01240",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.064251,
@@ -2891,27 +2852,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02114"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.029756,
-                    42.370578
-                ]
-            },
-            "properties": {
-                "name": "MASSPORT TNC 5",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    270001
-                ],
-                "street_address": "226 Porter Street",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02128"
             }
         },
         {
@@ -2975,57 +2915,6 @@
                 "city": "Holyoke",
                 "state": "MA",
                 "zip_code": "01040"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.767422,
-                    41.702508
-                ]
-            },
-            "properties": {
-                "name": "Marion Town House",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    216287
-                ],
-                "street_address": "2 Spring Street",
-                "city": "Marion",
-                "state": "MA",
-                "zip_code": "02738"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.767426,
-                        41.702491
-                    ],
-                    [
-                        -70.767426,
-                        41.702491
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Marion Town House",
-                "ocm_id": [
-                    133715
-                ],
-                "street_address": "2 Spring Street",
-                "city": "Marion",
-                "state": "MA",
-                "zip_code": "02738",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -3110,27 +2999,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02128"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.0293,
-                    42.3701
-                ]
-            },
-            "properties": {
-                "name": "MassPort TNC Lot (Ride App Staging Lot)",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    325250
-                ],
-                "street_address": "1 Harborside Drive",
-                "city": "Boston",
-                "state": "MA",
-                "zip_code": "02129"
             }
         },
         {
@@ -3549,6 +3417,37 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.67125,
+                        42.290765
+                    ],
+                    [
+                        -71.67125,
+                        42.290765
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Northborough Crossing",
+                "network": "VOLTA",
+                "ocm_id": [
+                    159971
+                ],
+                "street_address": "9102 Shops Way",
+                "city": "Northborough",
+                "state": "MA",
+                "zip_code": "01532",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.485882,
@@ -3779,97 +3678,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.106243,
-                        42.365913
-                    ],
-                    [
-                        -71.106243,
-                        42.365913
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Public Lot 9",
-                "network": "NON_NETWORKED",
-                "ocm_id": [
-                    128788
-                ],
-                "street_address": "400 green street",
-                "city": "cambridge",
-                "state": "MA",
-                "zip_code": "02139",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.08856,
-                        42.372485
-                    ],
-                    [
-                        -71.08856,
-                        42.372485
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Public lot 12, dual port level 2 charging station",
-                "ocm_id": [
-                    128790
-                ],
-                "street_address": "7 Warren Street",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02139",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.101856,
-                        42.365467
-                    ],
-                    [
-                        -71.101856,
-                        42.365467
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Public lot 5, dual head leveling 2 charging station",
-                "ocm_id": [
-                    128791
-                ],
-                "street_address": "84 Bishop Allen Drive",
-                "city": "Cambridge",
-                "state": "MA",
-                "zip_code": "02139",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -70.978417,
@@ -3974,36 +3782,6 @@
                 "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
                 "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
                 "charging_points:plugs_type": "NACS"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.154901,
-                        42.36291
-                    ],
-                    [
-                        -71.154901,
-                        42.36291
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Residence Inn Boston Watertown",
-                "ocm_id": [
-                    73139
-                ],
-                "street_address": "570 Arsenal Street",
-                "city": "Watertown",
-                "state": "MA",
-                "zip_code": "02472",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -4119,7 +3897,7 @@
                 "ocm_id": [
                     263158
                 ],
-                "street_address": "226 Falmouth Road",
+                "street_address": "769 Lyannough Road",
                 "city": "Hyannis",
                 "state": "MA",
                 "zip_code": "02601"
@@ -4285,10 +4063,11 @@
             },
             "properties": {
                 "name": "Surfcomber on the Ocean",
+                "network": "NON_NETWORKED",
                 "ocm_id": [
                     104375
                 ],
-                "street_address": "107",
+                "street_address": "107 South Shore Drive",
                 "city": "South Yarmouth",
                 "state": "MA",
                 "zip_code": "02664",
@@ -4754,36 +4533,6 @@
                 "city": "Cranston",
                 "state": "RI",
                 "zip_code": "02920"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.285101,
-                        42.356323
-                    ],
-                    [
-                        -73.285101,
-                        42.356323
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Walker Street",
-                "ocm_id": [
-                    266683
-                ],
-                "street_address": "6 Walker Street",
-                "city": "Lenox",
-                "state": "MA",
-                "zip_code": "01242",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {

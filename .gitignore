@@ -162,3 +162,8 @@ cython_debug/
 #.idea/
 
 config.json
+
+nrel.json
+ocm.json
+osm.json
+supercharge.json

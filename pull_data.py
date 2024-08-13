@@ -49,12 +49,68 @@ def clean_nrel_data(data):
     return data
 
 def clean_ocm_data(data):
+    for station in data:
+        del station["DateCreated"]
+        del station["DateLastVerified"]
+        del station["DateLastStatusUpdate"]
+        del station["IsRecentlyVerified"]
+
+        del station["SubmissionStatus"]["ID"]
+
+        if "AddressInfo" in station:
+            del station["AddressInfo"]["Country"]["ID"]
+
+        if "DateLastConfirmed" in station:
+            del station["DateLastConfirmed"]
+
+        if "DataProvider" in station:
+            del station["DataProvider"]["ID"]
+            del station["DataProvider"]["DataProviderStatusType"]
+            del station["DataProvider"]["IsRestrictedEdit"]
+
+            if "DateLastImported" in station["DataProvider"]:
+                del station["DataProvider"]["DateLastImported"]
+
+        if "OperatorInfo" in station:
+            del station["OperatorInfo"]["ID"]
+            if "IsRestrictedEdit" in station["OperatorInfo"]:
+                del station["OperatorInfo"]["IsRestrictedEdit"]
+
+        if "StatusType" in station:
+            del station["StatusType"]["ID"]
+            del station["StatusType"]["IsUserSelectable"]
+
+        if "UsageType" in station:
+            del station["UsageType"]["ID"]
+
+        for connection in station["Connections"]:
+            if "ConnectionType" in connection:
+                del connection["ConnectionType"]["ID"]
+
+            if "CurrentType" in connection:
+                del connection["CurrentType"]["ID"]
+
+            if "Level" in connection:
+                del connection["Level"]["ID"]
+                del connection["Level"]["Comments"]
+
     return data
 
 def clean_osm_data(data):
+    del data["generator"]
+    del data["version"]
+
+    del data["osm3s"]["timestamp_osm_base"]
+    del data["osm3s"]["timestamp_areas_base"]
+
     return data
 
 def clean_supercharge_data(data):
+    for station in data:
+        del station["counted"]
+        del station["statusDays"]
+        del station["urlDiscuss"]
+
     return data
 
 CLEANERS = {

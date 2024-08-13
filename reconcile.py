@@ -915,7 +915,7 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
 
         if "OperatorInfo" in ocm_station:
             ocm_operator = ocm_station["OperatorInfo"]
-            station.network = OCM_OPERATOR_TO_NETWORK_MAP[ocm_operator["ID"]]
+            station.network = OCM_OPERATOR_TO_NETWORK_MAP[ocm_station["OperatorID"]]
 
         station_state = ocm_address.get("StateOrProvince")
         station_zip_code = ocm_address.get("Postcode")
@@ -1271,16 +1271,16 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
     return all_stations
 
 
-with open("nrel.json", "r") as nrel_fh:
+with open("nrel-clean.json", "r") as nrel_fh:
     nrel_raw_data = json.load(nrel_fh)
 
-with open("osm.json", "r") as osm_fh:
+with open("osm-clean.json", "r") as osm_fh:
     osm_raw_data = json.load(osm_fh)
 
-with open("ocm.json", "r") as ocm_fh:
+with open("ocm-clean.json", "r") as ocm_fh:
     ocm_raw_data = json.load(ocm_fh)
 
-with open("supercharge.json", "r") as supercharge_fh:
+with open("supercharge-clean.json", "r") as supercharge_fh:
     supercharge_raw_data = json.load(supercharge_fh)
 
 nrel_data = normalize_nrel_data(nrel_raw_data)

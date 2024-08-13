@@ -31,6 +31,7 @@ def clean_nrel_data(data):
     ]
 
     del data["station_counts"]
+    del data["total_results"]
 
     for station in data["fuel_stations"]:
         for field_name in list(station.keys()):
@@ -45,6 +46,9 @@ def clean_nrel_data(data):
 
             if to_remove:
                 del station[field_name]
+
+        del station["date_last_confirmed"]
+        del station["updated_at"]
 
     return data
 
@@ -94,6 +98,10 @@ def clean_ocm_data(data):
                 del connection["Level"]["ID"]
                 del connection["Level"]["Comments"]
 
+            if "StatusType" in connection:
+                del connection["StatusType"]["ID"]
+                del connection["StatusType"]["IsUserSelectable"]
+
     return data
 
 def clean_osm_data(data):
@@ -130,5 +138,5 @@ def clean_new_data():
         with open(f"{data_provider}-clean.json", "w") as data_fh:
             json.dump(cleaned_data, data_fh, ensure_ascii=False, indent=2)
 
-# pull_new_data()
+pull_new_data()
 clean_new_data()

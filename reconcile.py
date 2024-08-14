@@ -1174,6 +1174,23 @@ def combine_networked_stations_with_unknown_ones_near_by(all_stations: list[Stat
 
     return combine_stations_with_check(all_stations, check_unknown_networked_close_by)
 
+def combine_non_networked_stations_with_unknown_ones_near_by(all_stations: list[Station]) -> list[Station]:
+    def check_unknown_networked_close_by(first_station: Station, second_station: Station) -> bool:
+        if first_station.network is not None and second_station.network is not None:
+            return False
+
+        if first_station.network is not ChargingNetwork.NON_NETWORKED and second_station.network is not ChargingNetwork.NON_NETWORKED:
+            return False
+
+        station_distance = get_station_distance(first_station, second_station)
+
+        if station_distance.miles > 0.01:
+            return False
+
+        return True
+
+    return combine_stations_with_check(all_stations, check_unknown_networked_close_by)
+
 
 def station_networks_match(first_station: Station, second_station: Station) -> bool:
     if first_station.network is None or first_station.network is ChargingNetwork.NON_NETWORKED:
@@ -1266,6 +1283,7 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
 
     all_stations = combine_non_networked_stations_close_by(all_stations)
     all_stations = combine_networked_stations_with_unknown_ones_near_by(all_stations)
+    all_stations = combine_non_networked_stations_with_unknown_ones_near_by(all_stations)
 
     return all_stations
 

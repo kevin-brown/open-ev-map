@@ -2755,26 +2755,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.119302,
-                    42.499069
-                ]
-            },
-            "properties": {
-                "name": "Kelly Nissan",
-                "ocm_id": [
-                    143185
-                ],
-                "street_address": "95 Cedar Street",
-                "city": "Woburn",
-                "state": "MA",
-                "zip_code": "01801"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -4418,27 +4398,6 @@
                 "city": "Fall River",
                 "state": "MA",
                 "zip_code": "02721"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.053944,
-                    42.063012
-                ]
-            },
-            "properties": {
-                "name": "VISN 1 / Boston HCS / Brockton",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    184319
-                ],
-                "street_address": "940 Belmont Street",
-                "city": "Brockton",
-                "state": "MA",
-                "zip_code": "02301"
             }
         },
         {

@@ -43792,26 +43792,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.119302,
-                    42.499069
-                ]
-            },
-            "properties": {
-                "name": "Kelly Nissan",
-                "ocm_id": [
-                    143185
-                ],
-                "street_address": "95 Cedar Street",
-                "city": "Woburn",
-                "state": "MA",
-                "zip_code": "01801"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.008978,
                     42.509982
                 ]
@@ -43854,7 +43834,8 @@
                     149486
                 ],
                 "ocm_id": [
-                    143184
+                    143184,
+                    143185
                 ],
                 "street_address": "95 Cedar Street",
                 "city": "Stoneham;Woburn",
@@ -84588,15 +84569,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.053944,
-                    42.063012
+                    -71.053955,
+                    42.063005
                 ]
             },
             "properties": {
-                "name": "VISN 1 / Boston HCS / Brockton",
+                "name": "VISN 1 / Boston HCS / Brockton;Veterans Affairs Boston Healthcare System",
                 "network": "NON_NETWORKED",
                 "nrel_id": [
+                    98668,
                     184319
+                ],
+                "ocm_id": [
+                    142957
                 ],
                 "street_address": "940 Belmont Street",
                 "city": "Brockton",
@@ -84959,29 +84944,6 @@
                 "city": "Vernon",
                 "state": "CT",
                 "zip_code": "06066"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.053955,
-                    42.063005
-                ]
-            },
-            "properties": {
-                "name": "Veterans Affairs Boston Healthcare System",
-                "nrel_id": [
-                    98668
-                ],
-                "ocm_id": [
-                    142957
-                ],
-                "street_address": "940 Belmont Street",
-                "city": "Brockton",
-                "state": "MA",
-                "zip_code": "02301"
             }
         },
         {

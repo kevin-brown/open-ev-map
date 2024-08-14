@@ -1669,27 +1669,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.620077,
-                    42.585207
-                ]
-            },
-            "properties": {
-                "name": "Big Y",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    115998
-                ],
-                "street_address": "237 Mohawk Trail",
-                "city": "Greenfield",
-                "state": "MA",
-                "zip_code": "01301"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.571078,
                     41.991001
                 ]
@@ -3809,41 +3788,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.213591,
-                        42.709634
-                    ],
-                    [
-                        -73.213591,
-                        42.709634
-                    ],
-                    [
-                        -73.213591,
-                        42.709634
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Sabin Drive",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    195426
-                ],
-                "street_address": "Sabin Drive",
-                "city": "Williamstown",
-                "state": "MA",
-                "zip_code": "01267",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -70.593841,
@@ -4298,37 +4242,6 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02128"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.152761,
-                        42.18493
-                    ],
-                    [
-                        -71.152761,
-                        42.18493
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Trillium Brewing Company",
-                "network": "TESLA_DESTINATION",
-                "ocm_id": [
-                    97396
-                ],
-                "street_address": "110 Shawmut Street",
-                "city": "Canton",
-                "state": "MA",
-                "zip_code": "02021",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "NACS"
             }
         },
         {

@@ -7643,6 +7643,39 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -73.118143,
+                        42.624568
+                    ],
+                    [
+                        -73.118158,
+                        42.624531
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "ADAMS V CENTER STATION 1;ADAMS V CENTER STATION 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    352507,
+                    352508
+                ],
+                "network_id": "USCPIL16214241;USCPIL16214271",
+                "street_address": "3 Hoosac Street",
+                "city": "Adams",
+                "state": "MA",
+                "zip_code": "01220",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.18174,
                         42.211685
                     ]
@@ -13340,24 +13373,35 @@
                     [
                         -72.62547,
                         42.587032
+                    ],
+                    [
+                        -72.625669,
+                        42.587085
+                    ],
+                    [
+                        -72.625669,
+                        42.587085
                     ]
                 ]
             },
             "properties": {
-                "name": "BIG Y FOODS GREENFIELD 63",
+                "name": "BIG Y FOODS GREENFIELD 63;Big Y",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     312622
+                ],
+                "ocm_id": [
+                    115998
                 ],
                 "network_id": "USCPIL14162641",
                 "street_address": "225-245 Mohawk Trail",
                 "city": "Greenfield",
                 "state": "MA",
                 "zip_code": "01301",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points:count": 3,
+                "charging_points:capacity": "1;1;1",
+                "charging_points:plugs_count": "1;1;1",
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {
@@ -17996,27 +18040,6 @@
                 "city": "Pittsfield",
                 "state": "MA",
                 "zip_code": "01201"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.620077,
-                    42.585207
-                ]
-            },
-            "properties": {
-                "name": "Big Y",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    115998
-                ],
-                "street_address": "237 Mohawk Trail",
-                "city": "Greenfield",
-                "state": "MA",
-                "zip_code": "01301"
             }
         },
         {
@@ -24072,25 +24095,40 @@
                     [
                         -73.213554,
                         42.70968
+                    ],
+                    [
+                        -73.213591,
+                        42.709634
+                    ],
+                    [
+                        -73.213591,
+                        42.709634
+                    ],
+                    [
+                        -73.213591,
+                        42.709634
                     ]
                 ]
             },
             "properties": {
-                "name": "CLARK CLARK ART 1.1;CLARK CLARK ART 1.2;CLARK CLARK ART 1.3",
+                "name": "CLARK CLARK ART 1.1;CLARK CLARK ART 1.2;CLARK CLARK ART 1.3;Clark Art Institute",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     170119,
                     181930,
                     181931
                 ],
+                "ocm_id": [
+                    195426
+                ],
                 "network_id": "USCPIL5523701;USCPIL5523721;USCPIL5523771",
                 "street_address": "225 South Street",
                 "city": "Williamstown",
                 "state": "MA",
                 "zip_code": "01267",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
+                "charging_points:count": 6,
+                "charging_points:capacity": "2;2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -40227,6 +40265,34 @@
                 "city": "Halifax",
                 "state": "MA",
                 "zip_code": "02338"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.581972,
+                        42.093972
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Hampton Inn & Suites Springfield/Downtown",
+                "network": "FLO",
+                "nrel_id": [
+                    352603
+                ],
+                "network_id": "4339f52a-4eb1-4138-8a2f-7ff326623419",
+                "street_address": "851 E Columbus Avenue",
+                "city": "Springfield",
+                "state": "MA",
+                "zip_code": "01105",
+                "charging_points:count": 1,
+                "charging_points:capacity": "8",
+                "charging_points:plugs_count": "8",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -73003,41 +73069,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -73.213591,
-                        42.709634
-                    ],
-                    [
-                        -73.213591,
-                        42.709634
-                    ],
-                    [
-                        -73.213591,
-                        42.709634
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Sabin Drive",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    195426
-                ],
-                "street_address": "Sabin Drive",
-                "city": "Williamstown",
-                "state": "MA",
-                "zip_code": "01267",
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -70.184988,
                         42.052871
                     ],
@@ -82197,37 +82228,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.152761,
-                        42.18493
-                    ],
-                    [
-                        -71.152761,
-                        42.18493
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Trillium Brewing Company",
-                "network": "TESLA_DESTINATION",
-                "ocm_id": [
-                    97396
-                ],
-                "street_address": "110 Shawmut Street",
-                "city": "Canton",
-                "state": "MA",
-                "zip_code": "02021",
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "NACS"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.150391,
@@ -82239,9 +82239,6 @@
                 "network": "TESLA_DESTINATION",
                 "nrel_id": [
                     150702
-                ],
-                "ocm_id": [
-                    143002
                 ],
                 "network_id": "507745",
                 "street_address": "50 Hudson Road",

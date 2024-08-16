@@ -130,6 +130,34 @@ CLEANERS = {
     "supercharge": clean_supercharge_data,
 }
 
+def fix_nrel_data(data, fixes):
+    fix_map = {}
+
+    for fix in fixes:
+        fix_map[fix["id"]] = fix
+
+    for station in data["fuel_stations"]:
+        if station["id"] in fix_map:
+            station.update(fix_map[station["id"]])
+
+    return data
+
+def fix_ocm_data(data, fixes):
+    return data
+
+def fix_osm_data(data, fixes):
+    return data
+
+def fix_supercharge_data(data, fixes):
+    return data
+
+FIXERS = {
+    "nrel": fix_nrel_data,
+    "ocm": fix_ocm_data,
+    "osm": fix_osm_data,
+    "supercharge": fix_supercharge_data,
+}
+
 def clean_new_data():
     for data_provider, provider_config in configuration_data["data_providers"].items():
         with open(f"{data_provider}.json", "r") as data_fh:
@@ -140,5 +168,19 @@ def clean_new_data():
         with open(f"{data_provider}-clean.json", "w") as data_fh:
             json.dump(cleaned_data, data_fh, ensure_ascii=False, indent=2)
 
+def apply_fixes():
+    for data_provider, provider_config in configuration_data["data_providers"].items():
+        with open(f"{data_provider}-clean.json", "r") as data_fh:
+            provider_data = json.load(data_fh)
+
+        with open(f"{data_provider}-fixes.json", "r") as fixes_fh:
+            fixes_data = json.load(fixes_fh)
+
+        cleaned_data = FIXERS[data_provider](provider_data, fixes_data)
+
+        with open(f"{data_provider}-clean.json", "w") as data_fh:
+            json.dump(cleaned_data, data_fh, ensure_ascii=False, indent=2)
+
 pull_new_data()
 clean_new_data()
+apply_fixes()

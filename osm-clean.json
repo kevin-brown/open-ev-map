@@ -114,14 +114,20 @@
       "lat": 41.6743266,
       "lon": -70.3017188,
       "tags": {
+        "access": "customers",
         "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "description": "ChargePoint station located in the parking lot near Kohl's main entrance. ChargePoint RFID card available free at Kohl's customer service desk.",
+        "fee": "yes",
         "name": "ChargePoint",
         "opening_hours": "24/7",
-        "socket:type1": "2"
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "ref:afdc": "182819",
+        "ref:ocm": "228016",
+        "socket:type1_cable": "2"
       }
     },
     {

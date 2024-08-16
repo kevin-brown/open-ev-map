@@ -14,6 +14,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     3289222573
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/3289222573"
                 ]
             }
         },
@@ -30,6 +33,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     3644487244
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/3644487244"
                 ]
             }
         },
@@ -46,6 +52,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     3644495142
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/3644495142"
                 ]
             }
         },
@@ -62,6 +71,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     4747126524
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/4747126524"
                 ]
             }
         },
@@ -78,6 +90,9 @@
                 "network": "AUTEL",
                 "osm_id": [
                     5254161514
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/5254161514"
                 ]
             }
         },
@@ -94,6 +109,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     5503840130
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/5503840130"
                 ]
             }
         },
@@ -110,6 +128,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     5503840131
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/5503840131"
                 ]
             }
         },
@@ -126,6 +147,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     6321830139
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/6321830139"
                 ]
             }
         },
@@ -146,7 +170,11 @@
                 ],
                 "street_address": "83 Cambridge Street",
                 "city": "Boston",
-                "zip_code": "02114"
+                "zip_code": "02114",
+                "urls": [
+                    "https://www.openstreetmap.org/node/7814651585",
+                    "https://www.openstreetmap.org/node/7814651586"
+                ]
             }
         },
         {
@@ -162,6 +190,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     8567261202
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/8567261202"
                 ]
             }
         },
@@ -178,6 +209,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     8567318223
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/8567318223"
                 ]
             }
         },
@@ -209,6 +243,9 @@
                 "osm_id": [
                     8646200249
                 ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/8646200249"
+                ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
@@ -228,6 +265,9 @@
                 "network": "SHELL_RECHARGE",
                 "osm_id": [
                     9374531074
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/9374531074"
                 ]
             }
         },
@@ -244,6 +284,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     10656398789
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/10656398789"
                 ]
             }
         },
@@ -260,6 +303,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     10671569288
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/10671569288"
                 ]
             }
         },
@@ -276,6 +322,9 @@
                 "network": "AMPUP",
                 "osm_id": [
                     10991298174
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/10991298174"
                 ]
             }
         },
@@ -292,6 +341,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     11351252999
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351252999"
                 ]
             }
         },
@@ -308,6 +360,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     11351253000
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351253000"
                 ]
             }
         },
@@ -324,6 +379,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     11351253002
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351253002"
                 ]
             }
         },
@@ -340,6 +398,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     11351253003
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351253003"
                 ]
             }
         },
@@ -356,6 +417,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     11351253004
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351253004"
                 ]
             }
         },
@@ -372,6 +436,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     11351253005
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351253005"
                 ]
             }
         },
@@ -388,6 +455,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     11351253006
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351253006"
                 ]
             }
         },
@@ -404,6 +474,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     11351253007
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351253007"
                 ]
             }
         },
@@ -420,6 +493,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     11351253008
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11351253008"
                 ]
             }
         },
@@ -436,6 +512,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     11450848667
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11450848667"
                 ]
             }
         },
@@ -451,6 +530,9 @@
             "properties": {
                 "osm_id": [
                     11731010018
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11731010018"
                 ]
             }
         },
@@ -467,6 +549,9 @@
                 "network": "AUTEL",
                 "osm_id": [
                     11899989951
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11899989951"
                 ]
             }
         },
@@ -483,6 +568,9 @@
                 "network": "AUTEL",
                 "osm_id": [
                     11899989952
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11899989952"
                 ]
             }
         },
@@ -499,6 +587,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     11902579102
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11902579102"
                 ]
             }
         },
@@ -515,6 +606,9 @@
                 "network": "EVPASSPORT",
                 "osm_id": [
                     11902604146
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11902604146"
                 ]
             }
         },
@@ -531,6 +625,9 @@
                 "network": "ELECTRIFY_AMERICA",
                 "osm_id": [
                     11902604154
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11902604154"
                 ]
             }
         },
@@ -547,6 +644,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     11952490213
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11952490213"
                 ]
             }
         },
@@ -563,6 +663,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     11952490215
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11952490215"
                 ]
             }
         },
@@ -579,6 +682,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     11952518225
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11952518225"
                 ]
             }
         },
@@ -599,7 +705,10 @@
                 "street_address": "1 Nashua Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02114"
+                "zip_code": "02114",
+                "urls": [
+                    "https://www.openstreetmap.org/node/12081492885"
+                ]
             }
         },
         {
@@ -615,6 +724,9 @@
                 "network": "EV_CONNECT",
                 "osm_id": [
                     954423391
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/954423391"
                 ]
             }
         },
@@ -631,6 +743,9 @@
                 "network": "AMPUP",
                 "osm_id": [
                     1215687168
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1215687168"
                 ]
             }
         },
@@ -647,6 +762,9 @@
                 "network": "AMPUP",
                 "osm_id": [
                     1247446183
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1247446183"
                 ]
             }
         },
@@ -678,6 +796,9 @@
                 "osm_id": [
                     1288971321
                 ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1288971321"
+                ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2",
@@ -703,6 +824,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     1301016160
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1301016160"
                 ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
@@ -730,6 +854,9 @@
                 "osm_id": [
                     1304537856
                 ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1304537856"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -756,6 +883,9 @@
                 "osm_id": [
                     1304537857
                 ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1304537857"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -781,6 +911,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     1304720180
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1304720180"
                 ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
@@ -820,6 +953,9 @@
                 "osm_id": [
                     1304749577
                 ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1304749577"
+                ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
@@ -857,6 +993,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     1304749578
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1304749578"
                 ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
@@ -896,6 +1035,9 @@
                 "osm_id": [
                     1304749579
                 ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1304749579"
+                ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2",
@@ -929,6 +1071,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     1304749580
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1304749580"
                 ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "2;2;2;2",
@@ -967,6 +1112,9 @@
                 "network": "ENEL_X",
                 "osm_id": [
                     1304749581
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1304749581"
                 ],
                 "charging_points:count": 5,
                 "charging_points:capacity": "2;2;2;2;2",
@@ -1014,6 +1162,9 @@
                 "osm_id": [
                     1305332114
                 ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/1305332114"
+                ],
                 "charging_points:count": 7,
                 "charging_points:capacity": "2;2;2;2;2;2;2",
                 "charging_points:plugs_count": "2;2;2;2;2;2;2",
@@ -1044,6 +1195,9 @@
                 "osm_id": [
                     17891343
                 ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/17891343"
+                ],
                 "charging_points:count": 3,
                 "charging_points:capacity": "2;2;2",
                 "charging_points:plugs_count": "2;2;2",
@@ -1068,7 +1222,10 @@
                 "street_address": "111 Speen Street",
                 "city": "Framingham",
                 "state": "MA",
-                "zip_code": "01701"
+                "zip_code": "01701",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335283"
+                ]
             }
         },
         {
@@ -1089,7 +1246,10 @@
                 "street_address": "116 Flanders Road",
                 "city": "Westborough",
                 "state": "MA",
-                "zip_code": "01581"
+                "zip_code": "01581",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335315"
+                ]
             }
         },
         {
@@ -1110,7 +1270,10 @@
                 "street_address": "2400 Computer Drive",
                 "city": "Westborough",
                 "state": "MA",
-                "zip_code": "01581"
+                "zip_code": "01581",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335313"
+                ]
             }
         },
         {
@@ -1131,7 +1294,10 @@
                 "street_address": "40 Washington Street",
                 "city": "Westborough",
                 "state": "MA",
-                "zip_code": "01581"
+                "zip_code": "01581",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335314"
+                ]
             }
         },
         {
@@ -1152,7 +1318,10 @@
                 "street_address": "400 Beaver Brook Road",
                 "city": "Boxborough",
                 "state": "MA",
-                "zip_code": "01719"
+                "zip_code": "01719",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/348894"
+                ]
             }
         },
         {
@@ -1173,7 +1342,10 @@
                 "street_address": "500 Staples Drive",
                 "city": "Framingham",
                 "state": "MA",
-                "zip_code": "01702"
+                "zip_code": "01702",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/348843"
+                ]
             }
         },
         {
@@ -1194,7 +1366,10 @@
                 "street_address": "623 Main Street",
                 "city": "Tewksbury",
                 "state": "MA",
-                "zip_code": "01876"
+                "zip_code": "01876",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/8124"
+                ]
             }
         },
         {
@@ -1215,7 +1390,10 @@
                 "street_address": "905 Main Street",
                 "city": "Concord",
                 "state": "MA",
-                "zip_code": "01742"
+                "zip_code": "01742",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335428"
+                ]
             }
         },
         {
@@ -1239,6 +1417,9 @@
                 "city": "Bloomfield",
                 "state": "CT",
                 "zip_code": "06002",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228326"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
@@ -1263,7 +1444,10 @@
                 "street_address": "395 Chestnut Hill Avenue",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02135"
+                "zip_code": "02135",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/348877"
+                ]
             }
         },
         {
@@ -1284,7 +1468,10 @@
                 "street_address": "95 Station Landing",
                 "city": "Medford",
                 "state": "MA",
-                "zip_code": "02155"
+                "zip_code": "02155",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/348874"
+                ]
             }
         },
         {
@@ -1328,6 +1515,9 @@
                 "city": "Cambridge",
                 "state": "MA",
                 "zip_code": "02138",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/9168"
+                ],
                 "charging_points:count": 6,
                 "charging_points:capacity": "1;1;1;1;1;1",
                 "charging_points:plugs_count": "1;1;1;1;1;1",
@@ -1352,7 +1542,10 @@
                 "street_address": "100 Rathbun Willard Drive",
                 "city": "Attleboro",
                 "state": "MA",
-                "zip_code": "02703"
+                "zip_code": "02703",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/333849"
+                ]
             }
         },
         {
@@ -1374,7 +1567,11 @@
                 "street_address": "80 Massachusetts Turnpike",
                 "city": "Charlton",
                 "state": "MA",
-                "zip_code": "01507"
+                "zip_code": "01507",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/333461",
+                    "https://afdc.energy.gov/stations#/station/333714"
+                ]
             }
         },
         {
@@ -1395,7 +1592,10 @@
                 "street_address": "623 Main Street",
                 "city": "Tewksbury",
                 "state": "MA",
-                "zip_code": "01876"
+                "zip_code": "01876",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/312006"
+                ]
             }
         },
         {
@@ -1416,7 +1616,10 @@
                 "street_address": "114 Massachusetts Turnpike",
                 "city": "Framingham",
                 "state": "MA",
-                "zip_code": "01701"
+                "zip_code": "01701",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/333463"
+                ]
             }
         },
         {
@@ -1439,6 +1642,9 @@
                 "city": "Framingham",
                 "state": "MA",
                 "zip_code": "01701",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/300499"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -1463,7 +1669,10 @@
                 "street_address": "Massachusetts Turnpike",
                 "city": "Lee",
                 "state": "MA",
-                "zip_code": "01238"
+                "zip_code": "01238",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/333716"
+                ]
             }
         },
         {
@@ -1484,7 +1693,10 @@
                 "street_address": "Massachusetts Turnpike",
                 "city": "Lee",
                 "state": "MA",
-                "zip_code": "01238"
+                "zip_code": "01238",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/333462"
+                ]
             }
         },
         {
@@ -1505,7 +1717,10 @@
                 "street_address": "117 Massachusetts Turnpike",
                 "city": "Natick",
                 "state": "MA",
-                "zip_code": "01760"
+                "zip_code": "01760",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/333715"
+                ]
             }
         },
         {
@@ -1532,6 +1747,9 @@
                 "city": "Natick",
                 "state": "MA",
                 "zip_code": "01760",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/143062"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -1556,7 +1774,10 @@
                 "street_address": "283 County Road",
                 "city": "Barrington",
                 "state": "RI",
-                "zip_code": "02806"
+                "zip_code": "02806",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228136"
+                ]
             }
         },
         {
@@ -1584,6 +1805,9 @@
                 "city": "Pittsfield",
                 "state": "MA",
                 "zip_code": "01201",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/279788"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -1608,7 +1832,10 @@
                 "street_address": "21 Parker Drive",
                 "city": "Avon",
                 "state": "MA",
-                "zip_code": "02322"
+                "zip_code": "02322",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335447"
+                ]
             }
         },
         {
@@ -1629,7 +1856,10 @@
                 "street_address": "200 West Street",
                 "city": "Pittsfield",
                 "state": "MA",
-                "zip_code": "01201"
+                "zip_code": "01201",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/143159"
+                ]
             }
         },
         {
@@ -1650,7 +1880,10 @@
                 "street_address": "51 Palomba Drive",
                 "city": "Enfield",
                 "state": "CT",
-                "zip_code": "06082"
+                "zip_code": "06082",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/294785"
+                ]
             }
         },
         {
@@ -1674,6 +1907,9 @@
                 "city": "Lenox",
                 "state": "MA",
                 "zip_code": "01240",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/62287"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -1694,6 +1930,9 @@
                 "network": "BLINK",
                 "osm_id": [
                     9102222617
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/9102222617"
                 ]
             }
         },
@@ -1715,7 +1954,10 @@
                 "street_address": "353 Cambridge Street",
                 "city": "Winchester",
                 "state": "MA",
-                "zip_code": "01890"
+                "zip_code": "01890",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/63711"
+                ]
             }
         },
         {
@@ -1736,7 +1978,10 @@
                 "street_address": "75 Middlesex Turnpike #1015B",
                 "city": "Burlington",
                 "state": "MA",
-                "zip_code": "01803"
+                "zip_code": "01803",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/247366"
+                ]
             }
         },
         {
@@ -1757,7 +2002,10 @@
                 "street_address": "30 Somerset Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02114"
+                "zip_code": "02114",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/319333"
+                ]
             }
         },
         {
@@ -1774,6 +2022,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     10991334435
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/10991334435"
                 ]
             }
         },
@@ -1795,7 +2046,10 @@
                 "street_address": "63 Kendrick Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02109"
+                "zip_code": "02109",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/334232"
+                ]
             }
         },
         {
@@ -1816,7 +2070,10 @@
                 "street_address": "38 Hillside Street",
                 "city": "Fall River",
                 "state": "MA",
-                "zip_code": "02720"
+                "zip_code": "02720",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335297"
+                ]
             }
         },
         {
@@ -1837,7 +2094,10 @@
                 "street_address": "467 Main Street",
                 "city": "Woburn",
                 "state": "MA",
-                "zip_code": "01801"
+                "zip_code": "01801",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/334170"
+                ]
             }
         },
         {
@@ -1858,7 +2118,10 @@
                 "street_address": "200 E Main Street",
                 "city": "Marlborough",
                 "state": "MA",
-                "zip_code": "01752"
+                "zip_code": "01752",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335328"
+                ]
             }
         },
         {
@@ -1878,7 +2141,10 @@
                 "street_address": "Cell Phone Lot",
                 "city": "Windsor Locks",
                 "state": "CT",
-                "zip_code": "06096"
+                "zip_code": "06096",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/74598"
+                ]
             }
         },
         {
@@ -1899,7 +2165,10 @@
                 "street_address": "5 Jericho Road",
                 "city": "Woburn",
                 "state": "MA",
-                "zip_code": "01801"
+                "zip_code": "01801",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/334180"
+                ]
             }
         },
         {
@@ -1921,7 +2190,11 @@
                 "street_address": "40 Russell Street",
                 "city": "Hadley",
                 "state": "MA",
-                "zip_code": "01035"
+                "zip_code": "01035",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/45886",
+                    "https://afdc.energy.gov/stations#/station/45887"
+                ]
             }
         },
         {
@@ -1941,7 +2214,10 @@
                 "street_address": "707 Lyannough Road",
                 "city": "Hyannis",
                 "state": "MA",
-                "zip_code": "02601"
+                "zip_code": "02601",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/331364"
+                ]
             }
         },
         {
@@ -1958,6 +2234,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     10991334434
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/10991334434"
                 ]
             }
         },
@@ -1979,7 +2258,10 @@
                 "street_address": "1 Ashburton Place",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02108"
+                "zip_code": "02108",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/325229"
+                ]
             }
         },
         {
@@ -2000,7 +2282,10 @@
                 "street_address": "29 Legate Hill Road",
                 "city": "Leominster",
                 "state": "MA",
-                "zip_code": "01564"
+                "zip_code": "01564",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/348796"
+                ]
             }
         },
         {
@@ -2090,7 +2375,10 @@
                 "street_address": "1000 Division Street",
                 "city": "East Greenwich",
                 "state": "RI",
-                "zip_code": "02818-1626"
+                "zip_code": "02818-1626",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/246720"
+                ]
             }
         },
         {
@@ -2111,7 +2399,10 @@
                 "street_address": "605 Broadway",
                 "city": "Saugus",
                 "state": "MA",
-                "zip_code": "01906"
+                "zip_code": "01906",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/349774"
+                ]
             }
         },
         {
@@ -2132,7 +2423,10 @@
                 "street_address": "60 Cross St E",
                 "city": "Somerville",
                 "state": "MA",
-                "zip_code": "02145"
+                "zip_code": "02145",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335310"
+                ]
             }
         },
         {
@@ -2153,7 +2447,10 @@
                 "street_address": "75 Sam Fonzo Drive",
                 "city": "Beverly",
                 "state": "MA",
-                "zip_code": "01915"
+                "zip_code": "01915",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/251540"
+                ]
             }
         },
         {
@@ -2174,7 +2471,10 @@
                 "street_address": "30 Collins Avenue",
                 "city": "Saugus",
                 "state": "MA",
-                "zip_code": "01906"
+                "zip_code": "01906",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/229720"
+                ]
             }
         },
         {
@@ -2195,7 +2495,10 @@
                 "street_address": "215 Monsignor O'Brien Highway",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02141"
+                "zip_code": "02141",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/348873"
+                ]
             }
         },
         {
@@ -2216,7 +2519,10 @@
                 "street_address": "160 Elm Street",
                 "city": "Greenfield",
                 "state": "MA",
-                "zip_code": "01300"
+                "zip_code": "01300",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/325213"
+                ]
             }
         },
         {
@@ -2244,6 +2550,9 @@
                 "city": "Greenfield",
                 "state": "MA",
                 "zip_code": "01301",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/110719"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
@@ -2268,7 +2577,10 @@
                 "street_address": "50 Manca Drive",
                 "city": "Gardner",
                 "state": "MA",
-                "zip_code": "01440"
+                "zip_code": "01440",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/331147"
+                ]
             }
         },
         {
@@ -2289,7 +2601,10 @@
                 "street_address": "165 Green Street",
                 "city": "Melrose",
                 "state": "MA",
-                "zip_code": "02176"
+                "zip_code": "02176",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/229699"
+                ]
             }
         },
         {
@@ -2310,7 +2625,10 @@
                 "street_address": "944 Salem Street",
                 "city": "Groveland",
                 "state": "MA",
-                "zip_code": "01834"
+                "zip_code": "01834",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335373"
+                ]
             }
         },
         {
@@ -2331,7 +2649,10 @@
                 "street_address": "23 School Street",
                 "city": "Groveland",
                 "state": "MA",
-                "zip_code": "01834"
+                "zip_code": "01834",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335312"
+                ]
             }
         },
         {
@@ -2363,6 +2684,9 @@
                 "city": "Newport",
                 "state": "RI",
                 "zip_code": "02840",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/114164"
+                ],
                 "charging_points:count": 3,
                 "charging_points:capacity": "1;1;1",
                 "charging_points:plugs_count": "1;1;1",
@@ -2387,7 +2711,10 @@
                 "street_address": "100 Twin River Road",
                 "city": "Lincoln",
                 "state": "RI",
-                "zip_code": "02865"
+                "zip_code": "02865",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228365"
+                ]
             }
         },
         {
@@ -2411,6 +2738,9 @@
                 "city": "Pittsfield",
                 "state": "MA",
                 "zip_code": "01201",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/260177"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -2435,7 +2765,10 @@
                 "street_address": "60 Fenwood Road",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02115"
+                "zip_code": "02115",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/261675"
+                ]
             }
         },
         {
@@ -2456,7 +2789,10 @@
                 "street_address": "39 Main Street",
                 "city": "Medway",
                 "state": "MA",
-                "zip_code": "02053"
+                "zip_code": "02053",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/333816"
+                ]
             }
         },
         {
@@ -2477,7 +2813,10 @@
                 "street_address": "333 Coney Street",
                 "city": "East Walpole",
                 "state": "MA",
-                "zip_code": "02032"
+                "zip_code": "02032",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/333789"
+                ]
             }
         },
         {
@@ -2498,7 +2837,10 @@
                 "street_address": "1032 S Street",
                 "city": "Pittsfield",
                 "state": "MA",
-                "zip_code": "01201"
+                "zip_code": "01201",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/229723"
+                ]
             }
         },
         {
@@ -2522,6 +2864,9 @@
                 "city": "Holyoke",
                 "state": "Ma",
                 "zip_code": "01040",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/16220"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -2546,7 +2891,10 @@
                 "street_address": "5 Knoll Road",
                 "city": "Lynnfield",
                 "state": "MA",
-                "zip_code": "01940"
+                "zip_code": "01940",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335317"
+                ]
             }
         },
         {
@@ -2567,7 +2915,10 @@
                 "street_address": "54 Fourth Avenue",
                 "city": "Waltham",
                 "state": "MA",
-                "zip_code": "02451"
+                "zip_code": "02451",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/334206"
+                ]
             }
         },
         {
@@ -2588,7 +2939,10 @@
                 "street_address": "36 Pleasant Valley Parkway",
                 "city": "Providence",
                 "state": "RI",
-                "zip_code": "02908"
+                "zip_code": "02908",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228277"
+                ]
             }
         },
         {
@@ -2610,7 +2964,11 @@
                 "street_address": "500 Riverdale Street",
                 "city": "West Springfield",
                 "state": "MA",
-                "zip_code": "01089"
+                "zip_code": "01089",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/45812",
+                    "https://afdc.energy.gov/stations#/station/45813"
+                ]
             }
         },
         {
@@ -2631,7 +2989,10 @@
                 "street_address": "37 Corey Road",
                 "city": "Hancock",
                 "state": "MA",
-                "zip_code": "01237"
+                "zip_code": "01237",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/319340"
+                ]
             }
         },
         {
@@ -2667,6 +3028,9 @@
                 "city": "Hancock",
                 "state": "MA",
                 "zip_code": "01237",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/97879"
+                ],
                 "charging_points:count": 4,
                 "charging_points:capacity": "1;1;1;1",
                 "charging_points:plugs_count": "1;1;1;1",
@@ -2693,6 +3057,9 @@
                 "city": "Pittsfield",
                 "state": "MA",
                 "zip_code": "01201",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/8017"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -2724,6 +3091,9 @@
                 "city": "Lee",
                 "state": "MA",
                 "zip_code": "01238",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/247114"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -2754,6 +3124,9 @@
                 "city": "Lenox",
                 "state": "MA",
                 "zip_code": "01240",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/266683"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -2778,7 +3151,10 @@
                 "street_address": "60 Staniford Street",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02114"
+                "zip_code": "02114",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/82462"
+                ]
             }
         },
         {
@@ -2868,7 +3244,10 @@
                 "street_address": "99 Rockingham Park Boulevard",
                 "city": "Salem",
                 "state": "NH",
-                "zip_code": "03079"
+                "zip_code": "03079",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/143308"
+                ]
             }
         },
         {
@@ -2889,7 +3268,10 @@
                 "street_address": "1470 Pleasant Valley Road",
                 "city": "Manchester",
                 "state": "CT",
-                "zip_code": "06042-8764"
+                "zip_code": "06042-8764",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/97526"
+                ]
             }
         },
         {
@@ -2910,7 +3292,10 @@
                 "street_address": "1025 Main Street",
                 "city": "Holyoke",
                 "state": "MA",
-                "zip_code": "01040"
+                "zip_code": "01040",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/60865"
+                ]
             }
         },
         {
@@ -2931,7 +3316,10 @@
                 "street_address": "I-95 N, Mile Marker 46.3",
                 "city": "Lexington",
                 "state": "MA",
-                "zip_code": "02421"
+                "zip_code": "02421",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/325217"
+                ]
             }
         },
         {
@@ -2952,7 +3340,10 @@
                 "street_address": "1 Harborside Drive",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02128"
+                "zip_code": "02128",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/325253"
+                ]
             }
         },
         {
@@ -2973,7 +3364,10 @@
                 "street_address": "1 Harborside Drive",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02128"
+                "zip_code": "02128",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/325251"
+                ]
             }
         },
         {
@@ -2994,7 +3388,10 @@
                 "street_address": "1 Harborside Drive",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02128"
+                "zip_code": "02128",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/325252"
+                ]
             }
         },
         {
@@ -3015,7 +3412,10 @@
                 "street_address": "1255 New State Highway",
                 "city": "Raynham",
                 "state": "MA",
-                "zip_code": "02767"
+                "zip_code": "02767",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/251560"
+                ]
             }
         },
         {
@@ -3036,7 +3436,10 @@
                 "street_address": "1 Westinghouse Plaza",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02136"
+                "zip_code": "02136",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/229717"
+                ]
             }
         },
         {
@@ -3063,6 +3466,9 @@
                 "city": "Beverly",
                 "state": "MA",
                 "zip_code": "01915",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/11851"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -3093,6 +3499,9 @@
                 "city": "Beverly ",
                 "state": "MA",
                 "zip_code": "01915",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/13502"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -3116,7 +3525,10 @@
                 "street_address": "69 Milk Street",
                 "city": "Westborough",
                 "state": "MA",
-                "zip_code": "01581"
+                "zip_code": "01581",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/13503"
+                ]
             }
         },
         {
@@ -3138,7 +3550,11 @@
                 "street_address": "80 Andover Street",
                 "city": "Danvers",
                 "state": "MA",
-                "zip_code": "01923"
+                "zip_code": "01923",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/48856",
+                    "https://afdc.energy.gov/stations#/station/145553"
+                ]
             }
         },
         {
@@ -3159,7 +3575,10 @@
                 "street_address": "320 E Main Street",
                 "city": "Milford",
                 "state": "MA",
-                "zip_code": "01757"
+                "zip_code": "01757",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/50831"
+                ]
             }
         },
         {
@@ -3179,7 +3598,10 @@
                 "street_address": "320 E Main Street",
                 "city": "Milford",
                 "state": "MA",
-                "zip_code": "01757"
+                "zip_code": "01757",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/16051"
+                ]
             }
         },
         {
@@ -3203,6 +3625,9 @@
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02109",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/62300"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -3226,7 +3651,10 @@
                 "street_address": "111 Silver Lake Boulevard",
                 "city": "Pittsfield",
                 "state": "MA",
-                "zip_code": "01201"
+                "zip_code": "01201",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/273267"
+                ]
             }
         },
         {
@@ -3247,7 +3675,10 @@
                 "street_address": "29 Pond Street",
                 "city": "Natick",
                 "state": "MA",
-                "zip_code": "01760"
+                "zip_code": "01760",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/76530"
+                ]
             }
         },
         {
@@ -3267,7 +3698,10 @@
                 "street_address": "16 West Central Street",
                 "city": "Natick",
                 "state": "MA",
-                "zip_code": "01760"
+                "zip_code": "01760",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/60504"
+                ]
             }
         },
         {
@@ -3294,6 +3728,9 @@
                 "city": "Natick",
                 "state": "MA",
                 "zip_code": "01760",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/94782"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -3317,7 +3754,10 @@
                 "street_address": "1245 Worcester Street",
                 "city": "Natick",
                 "state": "MA",
-                "zip_code": "01760"
+                "zip_code": "01760",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/159978"
+                ]
             }
         },
         {
@@ -3341,6 +3781,9 @@
                 "city": "Lowell",
                 "state": "MA",
                 "zip_code": "01852",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/85235"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
@@ -3365,7 +3808,10 @@
                 "street_address": "195 Charlton Road",
                 "city": "Sturbridge",
                 "state": "MA",
-                "zip_code": "01566"
+                "zip_code": "01566",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335332"
+                ]
             }
         },
         {
@@ -3386,7 +3832,10 @@
                 "street_address": "11 East Main Street",
                 "city": "North Canaan",
                 "state": "CT",
-                "zip_code": "06018"
+                "zip_code": "06018",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/155556"
+                ]
             }
         },
         {
@@ -3407,7 +3856,10 @@
                 "street_address": "9 - 41 Smithfield Road N",
                 "city": "Providence",
                 "state": "RI",
-                "zip_code": "02904"
+                "zip_code": "02904",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228313"
+                ]
             }
         },
         {
@@ -3435,6 +3887,9 @@
                 "city": "Northborough",
                 "state": "MA",
                 "zip_code": "01532",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/159971"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -3459,7 +3914,10 @@
                 "street_address": "94 George Waterman Road",
                 "city": "Johnston",
                 "state": "RI",
-                "zip_code": "02919"
+                "zip_code": "02919",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228292"
+                ]
             }
         },
         {
@@ -3487,6 +3945,9 @@
                 "city": "South Windsor",
                 "state": "CT",
                 "zip_code": "06074",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/277419"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -3511,7 +3972,10 @@
                 "street_address": "51 North Street",
                 "city": "Georgetown",
                 "state": "MA",
-                "zip_code": "01833"
+                "zip_code": "01833",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/329860"
+                ]
             }
         },
         {
@@ -3539,6 +4003,9 @@
                 "city": "Nashua",
                 "state": "NH",
                 "zip_code": "03060",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/85232"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "3;3",
@@ -3563,7 +4030,10 @@
                 "street_address": "380 Longwood Avenue",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02215"
+                "zip_code": "02215",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/230202"
+                ]
             }
         },
         {
@@ -3584,7 +4054,10 @@
                 "street_address": "222 Main Street",
                 "city": "Groveland",
                 "state": "MA",
-                "zip_code": "01834"
+                "zip_code": "01834",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335296"
+                ]
             }
         },
         {
@@ -3605,7 +4078,10 @@
                 "street_address": "19 Thompson Road",
                 "city": "Webster",
                 "state": "MA",
-                "zip_code": "01570"
+                "zip_code": "01570",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/351683"
+                ]
             }
         },
         {
@@ -3626,7 +4102,10 @@
                 "street_address": "1060 Pleasant Street",
                 "city": "Athol",
                 "state": "MA",
-                "zip_code": "01331"
+                "zip_code": "01331",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/330960"
+                ]
             }
         },
         {
@@ -3647,7 +4126,10 @@
                 "street_address": "3302 E Main Road",
                 "city": "Portsmouth",
                 "state": "RI",
-                "zip_code": "02871"
+                "zip_code": "02871",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/282723"
+                ]
             }
         },
         {
@@ -3668,7 +4150,10 @@
                 "street_address": "288 Kinsley Avenue",
                 "city": "Providence",
                 "state": "RI",
-                "zip_code": "02903"
+                "zip_code": "02903",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228273"
+                ]
             }
         },
         {
@@ -3685,6 +4170,9 @@
                 "network": "CHARGEPOINT",
                 "osm_id": [
                     11976450688
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/11976450688"
                 ]
             }
         },
@@ -3706,7 +4194,10 @@
                 "street_address": "Rt117 park and ride",
                 "city": "Warwick",
                 "state": "RI",
-                "zip_code": "02886"
+                "zip_code": "02886",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228047"
+                ]
             }
         },
         {
@@ -3774,6 +4265,9 @@
                 "city": "Warwick",
                 "state": "RI",
                 "zip_code": "02886",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/104428"
+                ],
                 "charging_points:count": 12,
                 "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
                 "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
@@ -3798,7 +4292,10 @@
                 "street_address": "273 Turnpike Road",
                 "city": "Westborough",
                 "state": "MA",
-                "zip_code": "01581"
+                "zip_code": "01581",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/230650"
+                ]
             }
         },
         {
@@ -3819,7 +4316,10 @@
                 "street_address": "1001 Roosevelt Avenue",
                 "city": "Pawtucket",
                 "state": "RI",
-                "zip_code": "02861"
+                "zip_code": "02861",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/246899"
+                ]
             }
         },
         {
@@ -3840,7 +4340,10 @@
                 "street_address": "340 Teaticket Highway",
                 "city": "Teaticket",
                 "state": "MA",
-                "zip_code": "02536"
+                "zip_code": "02536",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/335334"
+                ]
             }
         },
         {
@@ -3861,7 +4364,10 @@
                 "street_address": "769 Lyannough Road",
                 "city": "Hyannis",
                 "state": "MA",
-                "zip_code": "02601"
+                "zip_code": "02601",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/263158"
+                ]
             }
         },
         {
@@ -3882,7 +4388,10 @@
                 "street_address": "99 Rockingham Park Boulevard",
                 "city": "Salem",
                 "state": "NH",
-                "zip_code": "03079"
+                "zip_code": "03079",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/229945"
+                ]
             }
         },
         {
@@ -3903,7 +4412,10 @@
                 "street_address": "80 Premium Outlet Boulevard",
                 "city": "Merrimack",
                 "state": "NH",
-                "zip_code": "03054"
+                "zip_code": "03054",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/277681"
+                ]
             }
         },
         {
@@ -3924,7 +4436,10 @@
                 "street_address": "310 Daniel Webster Highway",
                 "city": "Nashua",
                 "state": "NH",
-                "zip_code": "03060"
+                "zip_code": "03060",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/229802"
+                ]
             }
         },
         {
@@ -3945,7 +4460,10 @@
                 "street_address": "200 Technology Canter Drive",
                 "city": "Stoughton",
                 "state": "MA",
-                "zip_code": "02072"
+                "zip_code": "02072",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/351278"
+                ]
             }
         },
         {
@@ -3966,7 +4484,10 @@
                 "street_address": "275 Old Lancaster Road",
                 "city": "Sudbury",
                 "state": "MA",
-                "zip_code": "01776"
+                "zip_code": "01776",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/330031"
+                ]
             }
         },
         {
@@ -3987,7 +4508,10 @@
                 "street_address": "75 Hudson Road",
                 "city": "Sudbury",
                 "state": "MA",
-                "zip_code": "01776"
+                "zip_code": "01776",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/330032"
+                ]
             }
         },
         {
@@ -4008,7 +4532,10 @@
                 "street_address": "107 South Shore Drive",
                 "city": "South Yarmotuh",
                 "state": "MA",
-                "zip_code": "02664"
+                "zip_code": "02664",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/98542"
+                ]
             }
         },
         {
@@ -4032,6 +4559,9 @@
                 "city": "South Yarmouth",
                 "state": "MA",
                 "zip_code": "02664",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/104375"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -4056,7 +4586,10 @@
                 "street_address": "8 S Village Drive",
                 "city": "Salem",
                 "state": "NH",
-                "zip_code": "03079"
+                "zip_code": "03079",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/229954"
+                ]
             }
         },
         {
@@ -4077,7 +4610,10 @@
                 "street_address": "1245 Bald Hill Road",
                 "city": "Warwick",
                 "state": "RI",
-                "zip_code": "02886"
+                "zip_code": "02886",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/246749"
+                ]
             }
         },
         {
@@ -4098,7 +4634,10 @@
                 "street_address": "161 Mechanic Street",
                 "city": "Bellingham",
                 "state": "MA",
-                "zip_code": "02019"
+                "zip_code": "02019",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/334049"
+                ]
             }
         },
         {
@@ -4126,6 +4665,9 @@
                 "city": "Falmouth",
                 "state": "MA",
                 "zip_code": "02536",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/81510"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -4153,6 +4695,9 @@
                 "city": "South Windsor",
                 "state": "CT",
                 "zip_code": "06074",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/84281"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -4180,6 +4725,9 @@
                 "city": "Chestnut Hill",
                 "state": "MA",
                 "zip_code": "02467",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/85237"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
@@ -4207,6 +4755,9 @@
                 "city": "Newport",
                 "state": "RI",
                 "zip_code": "02840",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/79937"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -4254,6 +4805,9 @@
                 "city": "Manchester",
                 "state": "CT",
                 "zip_code": "06042",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/299984"
+                ],
                 "charging_points:count": 6,
                 "charging_points:capacity": "1;1;1;1;1;1",
                 "charging_points:plugs_count": "1;1;1;1;1;1",
@@ -4278,7 +4832,10 @@
                 "street_address": "45 Transportation Way",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02128"
+                "zip_code": "02128",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/247300"
+                ]
             }
         },
         {
@@ -4302,6 +4859,9 @@
                 "city": "Salem",
                 "state": "NY",
                 "zip_code": "03079",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/296286"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
@@ -4326,7 +4886,10 @@
                 "street_address": "485 Fenn Street",
                 "city": "Pittsfield",
                 "state": "MA",
-                "zip_code": "01201"
+                "zip_code": "01201",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/230458"
+                ]
             }
         },
         {
@@ -4347,7 +4910,10 @@
                 "street_address": "315 Pleasant Street",
                 "city": "Fall River",
                 "state": "MA",
-                "zip_code": "02721"
+                "zip_code": "02721",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/334100"
+                ]
             }
         },
         {
@@ -4368,7 +4934,10 @@
                 "street_address": "975 Fish Road",
                 "city": "Tiverton",
                 "state": "RI",
-                "zip_code": "02878"
+                "zip_code": "02878",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/227966"
+                ]
             }
         },
         {
@@ -4396,6 +4965,9 @@
                 "city": "Hancock",
                 "state": "MA",
                 "zip_code": "01237",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/265893"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
@@ -4420,7 +4992,10 @@
                 "street_address": "145 Talcottville Road",
                 "city": "Vernon",
                 "state": "CT",
-                "zip_code": "06066"
+                "zip_code": "06066",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/269898"
+                ]
             }
         },
         {
@@ -4441,7 +5016,10 @@
                 "street_address": "151 Sockanosset Cross Road",
                 "city": "Cranston",
                 "state": "RI",
-                "zip_code": "02920"
+                "zip_code": "02920",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/62219"
+                ]
             }
         },
         {
@@ -4462,7 +5040,10 @@
                 "street_address": "420 Buckland Hills Drive",
                 "city": "Manchester",
                 "state": "CT",
-                "zip_code": "06042"
+                "zip_code": "06042",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/228240"
+                ]
             }
         },
         {
@@ -4483,7 +5064,10 @@
                 "street_address": "51 Silver Spring Street",
                 "city": "Providence",
                 "state": "RI",
-                "zip_code": "02904"
+                "zip_code": "02904",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/142863"
+                ]
             }
         },
         {
@@ -4500,6 +5084,9 @@
                 "network": "NON_NETWORKED",
                 "osm_id": [
                     10087776655
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/10087776655"
                 ]
             }
         },
@@ -4521,7 +5108,10 @@
                 "street_address": "1149 Division Street",
                 "city": "Warwick",
                 "state": "RI",
-                "zip_code": "02818"
+                "zip_code": "02818",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/277369"
+                ]
             }
         },
         {
@@ -4542,7 +5132,10 @@
                 "street_address": "1776 Post Road",
                 "city": "Warwick",
                 "state": "RI",
-                "zip_code": "02888"
+                "zip_code": "02888",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/246783"
+                ]
             }
         },
         {
@@ -4567,6 +5160,10 @@
                 "city": "Natick",
                 "state": "MA",
                 "zip_code": "01760",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/191889",
+                    "https://openchargemap.org/site/poi/details/191890"
+                ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
@@ -4591,7 +5188,10 @@
                 "street_address": "801 Evergreen Way",
                 "city": "South Windsor",
                 "state": "CT",
-                "zip_code": "06074"
+                "zip_code": "06074",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/294748"
+                ]
             }
         },
         {
@@ -4618,6 +5218,9 @@
                 "city": "Hancock",
                 "state": "MA",
                 "zip_code": "01237",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/265892"
+                ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",

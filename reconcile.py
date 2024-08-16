@@ -1355,16 +1355,24 @@ for station in combined_data:
 
     station_properties = {}
 
+    station_urls = []
+
     if station.name.get():
         station_properties["name"] = station.name.get()
     if station.network:
         station_properties["network"] = station.network.name
     if station.osm_id.get():
         station_properties["osm_id"] = station.osm_id.get()
+        for osm_id in station.osm_id.get():
+            station_urls.append(f"https://www.openstreetmap.org/node/{osm_id}")
     if station.nrel_id.get():
         station_properties["nrel_id"] = station.nrel_id.get()
+        for nrel_id in station.nrel_id.get():
+            station_urls.append(f"https://afdc.energy.gov/stations#/station/{nrel_id}")
     if station.ocm_id.get():
         station_properties["ocm_id"] = station.ocm_id.get()
+        for ocm_id in station.ocm_id.get():
+            station_urls.append(f"https://openchargemap.org/site/poi/details/{ocm_id}")
     if station.network_id.get():
         station_properties["network_id"] = station.network_id.get()
 
@@ -1376,6 +1384,9 @@ for station in combined_data:
         station_properties["state"] = station.state.get()
     if station.zip_code.get():
         station_properties["zip_code"] = station.zip_code.get()
+
+    if station_urls:
+        station_properties["urls"] = station_urls
 
     if station.charging_points:
         station_properties["charging_points:count"] = len(station.charging_points)

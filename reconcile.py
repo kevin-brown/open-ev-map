@@ -504,6 +504,14 @@ def osm_parse_charging_station(osm_element) -> Station:
     if "addr:postcode" in tags:
         station.zip_code.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), tags["addr:postcode"]))
 
+    if "ref:ocm" in tags:
+        for ocm_id in tags["ref:ocm"].split(";"):
+            station.ocm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), int(ocm_id)))
+
+    if "ref:afdc" in tags:
+        for nrel_id in tags["ref:afdc"].split(";"):
+            station.nrel_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), int(nrel_id)))
+
     station.network = network_from_osm_tags(tags)
 
     return station

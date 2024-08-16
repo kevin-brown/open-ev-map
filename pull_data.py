@@ -119,6 +119,8 @@ def clean_supercharge_data(data):
         del station["statusDays"]
         del station["urlDiscuss"]
 
+    data = sorted(data, key=lambda s: s["id"])
+
     return data
 
 CLEANERS = {

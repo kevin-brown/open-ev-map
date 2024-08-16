@@ -8259,6 +8259,26 @@
       }
     },
     {
+      "type": "node",
+      "id": 12110753465,
+      "lat": 42.6544387,
+      "lon": -71.3247982,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12110753466,
+      "lat": 42.6544281,
+      "lon": -71.3247471,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "1"
+      }
+    },
+    {
       "type": "way",
       "id": 954423391,
       "bounds": {

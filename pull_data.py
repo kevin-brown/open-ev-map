@@ -143,6 +143,20 @@ def fix_nrel_data(data, fixes):
     return data
 
 def fix_ocm_data(data, fixes):
+    fix_map = {}
+
+    for fix in fixes:
+        fix_map[fix["ID"]] = fix
+
+    for station in data:
+        if station["ID"] not in fix_map:
+            continue
+
+        station_fixes = fix_map[station["ID"]]
+
+        if "AddressInfo" in station_fixes:
+            station["AddressInfo"].update(station_fixes["AddressInfo"])
+
     return data
 
 def fix_osm_data(data, fixes):

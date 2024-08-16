@@ -44,25 +44,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.301719,
-                    41.674327
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    3644495142
-                ],
-                "urls": [
-                    "https://www.openstreetmap.org/node/3644495142"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.209635,
                     42.485084
                 ]
@@ -4351,30 +4332,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.295011,
-                    41.66438
-                ]
-            },
-            "properties": {
-                "name": "Simon Cape Cod Mall (Hyannis, MA)",
-                "network": "ELECTRIFY_AMERICA",
-                "ocm_id": [
-                    263158
-                ],
-                "street_address": "769 Lyannough Road",
-                "city": "Hyannis",
-                "state": "MA",
-                "zip_code": "02601",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/263158"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.23348,
                     42.76631
                 ]
@@ -4638,40 +4595,6 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/334049"
                 ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.594347,
-                        41.631265
-                    ],
-                    [
-                        -70.594347,
-                        41.631265
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "The Golf Club of Cape Cod",
-                "network": "TESLA_DESTINATION",
-                "ocm_id": [
-                    81510
-                ],
-                "street_address": "132 Falmouth Woods Road",
-                "city": "Falmouth",
-                "state": "MA",
-                "zip_code": "02536",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/81510"
-                ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "NACS"
             }
         },
         {

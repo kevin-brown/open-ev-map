@@ -44,25 +44,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.301719,
-                    41.674327
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "osm_id": [
-                    3644495142
-                ],
-                "urls": [
-                    "https://www.openstreetmap.org/node/3644495142"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.209635,
                     42.485084
                 ]
@@ -50056,6 +50037,9 @@
             "properties": {
                 "name": "KOHL'S - CHPT 1506 HYANNIS",
                 "network": "CHARGEPOINT",
+                "osm_id": [
+                    3644495142
+                ],
                 "nrel_id": [
                     182819
                 ],
@@ -50068,6 +50052,7 @@
                 "state": "MA",
                 "zip_code": "02601",
                 "urls": [
+                    "https://www.openstreetmap.org/node/3644495142",
                     "https://afdc.energy.gov/stations#/station/182819",
                     "https://openchargemap.org/site/poi/details/228016"
                 ],
@@ -84501,42 +84486,22 @@
                 "nrel_id": [
                     259019
                 ],
+                "ocm_id": [
+                    263158
+                ],
                 "network_id": "110040",
                 "street_address": "769 Iyannough Road",
                 "city": "Hyannis",
                 "state": "MA",
                 "zip_code": "02601",
                 "urls": [
-                    "https://afdc.energy.gov/stations#/station/259019"
+                    "https://afdc.energy.gov/stations#/station/259019",
+                    "https://openchargemap.org/site/poi/details/263158"
                 ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "4",
                 "charging_points:plugs_count": "8",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.295011,
-                    41.66438
-                ]
-            },
-            "properties": {
-                "name": "Simon Cape Cod Mall (Hyannis, MA)",
-                "network": "ELECTRIFY_AMERICA",
-                "ocm_id": [
-                    263158
-                ],
-                "street_address": "769 Lyannough Road",
-                "city": "Hyannis",
-                "state": "MA",
-                "zip_code": "02601",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/263158"
-                ]
             }
         },
         {
@@ -93019,47 +92984,27 @@
                 ]
             },
             "properties": {
-                "name": "The Golf Club of Cape Cod",
+                "name": "The Golf Club of Cape Cod;The Golf Club of Cape Cod - Tesla Destination",
                 "network": "TESLA_DESTINATION",
+                "nrel_id": [
+                    114335
+                ],
                 "ocm_id": [
                     81510
                 ],
+                "network_id": "513279",
                 "street_address": "132 Falmouth Woods Road",
                 "city": "Falmouth",
                 "state": "MA",
                 "zip_code": "02536",
                 "urls": [
+                    "https://afdc.energy.gov/stations#/station/114335",
                     "https://openchargemap.org/site/poi/details/81510"
                 ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
                 "charging_points:plugs_type": "NACS"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.594347,
-                    41.631265
-                ]
-            },
-            "properties": {
-                "name": "The Golf Club of Cape Cod - Tesla Destination",
-                "network": "TESLA_DESTINATION",
-                "nrel_id": [
-                    114335
-                ],
-                "network_id": "513279",
-                "street_address": "132 Falmouth Road",
-                "city": "Falmouth",
-                "state": "MA",
-                "zip_code": "02536",
-                "urls": [
-                    "https://afdc.energy.gov/stations#/station/114335"
-                ]
             }
         },
         {

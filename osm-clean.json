@@ -8261,21 +8261,19 @@
     {
       "type": "node",
       "id": 12110753465,
-      "lat": 42.6544387,
-      "lon": -71.3247982,
+      "lat": 42.6544377,
+      "lon": -71.3247584,
       "tags": {
+        "access": "permit",
         "amenity": "charging_station",
-        "capacity": "1"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12110753466,
-      "lat": 42.6544281,
-      "lon": -71.3247471,
-      "tags": {
-        "amenity": "charging_station",
-        "capacity": "1"
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "ChargePoint",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "2"
       }
     },
     {

@@ -8585,6 +8585,110 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.512998,
+                    42.371293
+                ]
+            },
+            "properties": {
+                "name": "AMHERST COLLEGE",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    121699
+                ],
+                "ocm_id": [
+                    143123
+                ],
+                "street_address": "21 East Drive",
+                "city": "Amherst",
+                "state": "AL",
+                "zip_code": "01002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.516885,
+                    42.372893
+                ]
+            },
+            "properties": {
+                "name": "AMHERST COLLEGE",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    85772
+                ],
+                "ocm_id": [
+                    89945
+                ],
+                "street_address": "55 College Street",
+                "city": "Amherst",
+                "state": "MA",
+                "zip_code": "01002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.516885,
+                        42.372893
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "AMHERST COLLEGE STATION 1",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    161852
+                ],
+                "network_id": "USCPIL183577",
+                "street_address": "55 College Street Grosvenor parking lot",
+                "city": "Amherst",
+                "state": "MA",
+                "zip_code": "01002",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.513271,
+                        42.371435
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "AMHERST COLLEGE STATION 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    330007
+                ],
+                "network_id": "USCPIL15577981",
+                "street_address": "21 East Dr Science Center - North location",
+                "city": "Amherst",
+                "state": "MA",
+                "zip_code": "01002",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -8603,7 +8707,7 @@
                     229201
                 ],
                 "network_id": "USCPIL12790961",
-                "street_address": "300 MA-116",
+                "street_address": "300 MA-116;300 MA-116 Orr Rink parking lot",
                 "city": "Amherst",
                 "state": "MA",
                 "zip_code": "01002",
@@ -8634,7 +8738,7 @@
                     247310
                 ],
                 "network_id": "USCPIL12790601",
-                "street_address": "53 College Street",
+                "street_address": "53 College St Converse parking lot;53 College Street",
                 "city": "Amherst",
                 "state": "MA",
                 "zip_code": "01002",
@@ -8667,77 +8771,13 @@
                     332194
                 ],
                 "network_id": "USCPIL15719121;USCPIL15719141",
-                "street_address": "165 College Street",
+                "street_address": "165 College St Seymour Shed charging station",
                 "city": "Amherst",
                 "state": "MA",
                 "zip_code": "01002",
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
                 "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -72.516885,
-                        42.372893
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "AMHERST COLLEGE;AMHERST COLLEGE STATION 1",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    85772,
-                    161852
-                ],
-                "ocm_id": [
-                    89945
-                ],
-                "network_id": "USCPIL183577",
-                "street_address": "55 College Street",
-                "city": "Amherst",
-                "state": "MA",
-                "zip_code": "01002",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -72.513271,
-                        42.371435
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "AMHERST COLLEGE;AMHERST COLLEGE STATION2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    121699,
-                    330007
-                ],
-                "ocm_id": [
-                    143123
-                ],
-                "network_id": "USCPIL15577981",
-                "street_address": "21 East Drive",
-                "city": "Amherst",
-                "state": "AL;MA",
-                "zip_code": "01002",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -15306,20 +15346,81 @@
                     [
                         -71.088502,
                         42.347229
+                    ],
+                    [
+                        -71.088434,
+                        42.347225
                     ]
                 ]
             },
             "properties": {
-                "name": "BOYLSTON P2-202",
+                "name": "BOYLSTON P2-202;BOYLSTON P2-203",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    350501
+                    350501,
+                    352720
                 ],
-                "network_id": "USCPIL15438761",
+                "network_id": "USCPIL15438761;USCPIL16093561",
                 "street_address": "1014 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02215",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.088499,
+                        42.347204
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BOYLSTON P2-206",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    352719
+                ],
+                "network_id": "USCPIL16093491",
+                "street_address": "1000 Boylston Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02215",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.088489,
+                        42.347351
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BOYLSTON P2-207",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    352721
+                ],
+                "network_id": "USCPIL16093611",
+                "street_address": "750 Boylston Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02199",
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
                 "charging_points:plugs_count": "2",
@@ -17215,10 +17316,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -71.141779,
-                    42.354598
+                    [
+                        -71.141779,
+                        42.354598
+                    ]
                 ]
             },
             "properties": {
@@ -17230,10 +17333,15 @@
                 "ocm_id": [
                     282875
                 ],
+                "network_id": "USCPIL12413421",
                 "street_address": "61 N Beacon St 61 NB Parking Lot",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02134"
+                "zip_code": "02134",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -17872,23 +17980,28 @@
                     [
                         -71.364181,
                         42.298878
+                    ],
+                    [
+                        -71.364181,
+                        42.298878
                     ]
                 ]
             },
             "properties": {
-                "name": "Bernardi Honda",
+                "name": "Bernardi Honda;Bernardi Honda - Series 7's",
                 "network": "BLINK",
                 "nrel_id": [
+                    333398,
                     334537
                 ],
-                "network_id": "1d85b9d5-ce06-420f-872f-b24a337780d6",
+                "network_id": "1d85b9d5-ce06-420f-872f-b24a337780d6;e7f71f66-e5b8-4d89-8601-b5031fdab51d",
                 "street_address": "960 Worcester Street",
                 "city": "Natick",
                 "state": "MA",
                 "zip_code": "01760",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "4",
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;2",
+                "charging_points:plugs_count": "1;4",
                 "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
@@ -19223,81 +19336,6 @@
                 "charging_points:capacity": "4;2;2;2",
                 "charging_points:plugs_count": "4;2;2;2",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ],
-                    [
-                        -71.14591,
-                        42.68723
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Bulger Veterinary Hospital - Tesla Supercharger;Lawrence, MA",
-                "network": "TESLA_SUPERCHARGER",
-                "osm_id": [
-                    11895687100
-                ],
-                "nrel_id": [
-                    346182
-                ],
-                "network_id": "32420",
-                "street_address": "141 Winthrop Avenue",
-                "city": "Lawrence",
-                "state": "MA",
-                "zip_code": "01843",
-                "charging_points:count": 12,
-                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -22289,12 +22327,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -71.072263,
-                        42.426477
-                    ]
+                    -71.072263,
+                    42.426477
                 ]
             },
             "properties": {
@@ -22306,15 +22342,10 @@
                 "ocm_id": [
                     229317
                 ],
-                "network_id": "USCPIL1934171",
                 "street_address": "180 Exchange Street",
                 "city": "Malden",
                 "state": "MA",
-                "zip_code": "02148",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "zip_code": "02148"
             }
         },
         {
@@ -26031,7 +26062,7 @@
                 ]
             },
             "properties": {
-                "name": "Cambridge, MA;Cambridge, MA - Tesla Supercharger;Cambridge, Ma Supercharger",
+                "name": "Cambridge, MA;Cambridge, MA (Pay to Park, Floor G1) - Tesla Supercharger;Cambridge, Ma Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "osm_id": [
                     6615082487
@@ -34540,12 +34571,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -72.613784,
-                        42.094149
-                    ]
+                    -72.613784,
+                    42.094149
                 ]
             },
             "properties": {
@@ -34557,15 +34586,10 @@
                 "ocm_id": [
                     228603
                 ],
-                "network_id": "USCPIL7550221",
                 "street_address": "989 Memorial Avenue",
                 "city": "West Springfield",
                 "state": "MA",
-                "zip_code": "01089",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "zip_code": "01089"
             }
         },
         {
@@ -35929,7 +35953,7 @@
                 ]
             },
             "properties": {
-                "name": "Framingham - Concord St, MA;Framingham, MA - Concord Street Supercharger;Old Path Village Plaza - Tesla Supercharger",
+                "name": "Framingham - Concord St, MA;Framingham, MA - Concord Street Supercharger;Old Path Village - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     324002
@@ -35938,7 +35962,7 @@
                     290338
                 ],
                 "network_id": "34871",
-                "street_address": "961 Concord Street;969 Concord Street;971 Concord Street",
+                "street_address": "961 Concord Street;971 Concord Street",
                 "city": "Framingham",
                 "state": "MA",
                 "zip_code": "01701",
@@ -37371,12 +37395,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -72.628784,
-                        42.599752
-                    ]
+                    -72.628784,
+                    42.599752
                 ]
             },
             "properties": {
@@ -37388,15 +37410,10 @@
                 "ocm_id": [
                     229612
                 ],
-                "network_id": "USCPIL5365001",
                 "street_address": "1 College Drive",
                 "city": "Greenfield",
                 "state": "MA",
-                "zip_code": "01301",
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+                "zip_code": "01301"
             }
         },
         {
@@ -42893,12 +42910,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -71.104825,
-                        42.764704
-                    ]
+                    -71.104825,
+                    42.764704
                 ]
             },
             "properties": {
@@ -42910,15 +42925,10 @@
                 "ocm_id": [
                     229942
                 ],
-                "network_id": "USCPIL12412421",
                 "street_address": "600 River Street",
                 "city": "Haverhill",
                 "state": "MA",
-                "zip_code": "01832",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
+                "zip_code": "01832"
             }
         },
         {
@@ -46027,6 +46037,81 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ],
+                    [
+                        -71.14591,
+                        42.68723
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Lawrence, MA;Lawrence, MA - Tesla Supercharger",
+                "network": "TESLA_SUPERCHARGER",
+                "osm_id": [
+                    11895687100
+                ],
+                "nrel_id": [
+                    346182
+                ],
+                "network_id": "32420",
+                "street_address": "141 Winthrop Avenue",
+                "city": "Lawrence",
+                "state": "MA",
+                "zip_code": "01843",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -73.274941,
                         42.298432
                     ],
@@ -46768,6 +46853,75 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ],
+                    [
+                        -71.324464,
+                        42.616102
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Lowell, MA",
+                "network": "TESLA_SUPERCHARGER",
+                "network_id": "30752",
+                "street_address": "850 Chelmsford Street",
+                "city": "Lowell",
+                "state": "MA",
+                "zip_code": "01851",
+                "charging_points:count": 12,
+                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
+                "charging_points:plugs_type": "NACS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -70.922335,
                         42.245718
                     ]
@@ -46877,13 +47031,13 @@
                 ]
             },
             "properties": {
-                "name": "Lynnfield - US-1, MA;Lynnfield Marketplace - Tesla Supercharger",
+                "name": "Lynnfield - US-1, MA;Lynnfield Plaza - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "nrel_id": [
                     331821
                 ],
                 "network_id": "35698",
-                "street_address": "28 Broadway",
+                "street_address": "24 Broadway;28 Broadway",
                 "city": "Lynnfield",
                 "state": "MA",
                 "zip_code": "01940",
@@ -65324,8 +65478,8 @@
                 "state": "MA",
                 "zip_code": "02148",
                 "charging_points:count": 1,
-                "charging_points:capacity": "11",
-                "charging_points:plugs_count": "11",
+                "charging_points:capacity": "12",
+                "charging_points:plugs_count": "12",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -65496,33 +65650,25 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -71.144828,
-                        42.361494
-                    ]
+                    -71.144828,
+                    42.361494
                 ]
             },
             "properties": {
-                "name": "RADIUS APTS;RADIUS APTS STATION 1",
+                "name": "RADIUS APTS",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    144049,
-                    214973
+                    144049
                 ],
                 "ocm_id": [
                     143112
                 ],
-                "network_id": "USCPIL805791",
                 "street_address": "530 Western Avenue",
                 "city": "Boston",
                 "state": "MA",
-                "zip_code": "02135",
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
+                "zip_code": "02135"
             }
         },
         {
@@ -73148,8 +73294,8 @@
                 "state": "MA",
                 "zip_code": "01890",
                 "charging_points:count": 1,
-                "charging_points:capacity": "3",
-                "charging_points:plugs_count": "3",
+                "charging_points:capacity": "6",
+                "charging_points:plugs_count": "6",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -83476,6 +83622,10 @@
             "properties": {
                 "name": "UMASS LOWELL PINANSKI LOT",
                 "network": "CHARGEPOINT",
+                "osm_id": [
+                    12110753465,
+                    12110753466
+                ],
                 "nrel_id": [
                     167511
                 ],

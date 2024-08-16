@@ -236,38 +236,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.183661,
-                    42.4021
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": [
-                    9587696282
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.904715,
-                    42.455606
-                ]
-            },
-            "properties": {
-                "network": "NON_NETWORKED",
-                "osm_id": [
-                    9793281675
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.873891,
                     42.8121
                 ]
@@ -40153,6 +40121,9 @@
             "properties": {
                 "name": "Habitat Education Center and Wildlife Sanctuary",
                 "network": "NON_NETWORKED",
+                "osm_id": [
+                    9587696282
+                ],
                 "nrel_id": [
                     147091
                 ],
@@ -55031,7 +55002,6 @@
             },
             "properties": {
                 "name": "MassDOT Harwich Park & Ride",
-                "network": "NON_NETWORKED",
                 "nrel_id": [
                     325199
                 ],
@@ -60845,8 +60815,8 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -72.636129,
-                        42.336671
+                        -72.636164,
+                        42.336754
                     ]
                 ]
             },
@@ -88193,6 +88163,9 @@
             "properties": {
                 "name": "Wachusett Meadow Wildlife Sanctuary",
                 "network": "NON_NETWORKED",
+                "osm_id": [
+                    9793281675
+                ],
                 "nrel_id": [
                     147092
                 ],

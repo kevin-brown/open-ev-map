@@ -1145,6 +1145,32 @@ def combine_networked_stations_close_by(all_stations: list[Station]) -> list[Sta
 
     return combine_stations_with_check(all_stations, check_close_location)
 
+def combine_non_networked_stations_at_same_address(all_stations: list[Station]) -> list[Station]:
+    def check_same_address(first_station: Station, second_station: Station) -> bool:
+        if first_station.network is not ChargingNetwork.NON_NETWORKED:
+            return False
+
+        if second_station.network is not ChargingNetwork.NON_NETWORKED:
+            return False
+
+        first_addresses = set(map(str.lower, first_station.street_address.all()))
+        second_addresses = set(map(str.lower, second_station.street_address.all()))
+
+        if not first_addresses and not second_addresses:
+            return False
+
+        if first_addresses and second_addresses:
+            return False
+
+        station_distance = get_station_distance(first_station, second_station)
+
+        if station_distance.miles > 0.1:
+            return False
+
+        return True
+
+    return combine_stations_with_check(all_stations, check_same_address)
+
 def combine_non_networked_stations_close_by(all_stations: list[Station]) -> list[Station]:
     def check_non_networked_close_by(first_station: Station, second_station: Station) -> bool:
         if first_station.network is not ChargingNetwork.NON_NETWORKED:
@@ -1289,6 +1315,7 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
     all_stations = combine_networked_stations_near_known_address(all_stations)
     all_stations = combine_networked_stations_close_by(all_stations)
 
+    all_stations = combine_non_networked_stations_at_same_address(all_stations)
     all_stations = combine_non_networked_stations_close_by(all_stations)
     all_stations = combine_networked_stations_with_unknown_ones_near_by(all_stations)
     all_stations = combine_non_networked_stations_with_unknown_ones_near_by(all_stations)

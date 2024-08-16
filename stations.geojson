@@ -26610,6 +26610,34 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.91042,
+                        42.84756
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Carriagetown Marketplace",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352865
+                ],
+                "network_id": "5311",
+                "street_address": "100 Macy Street",
+                "city": "Amesbury",
+                "state": "MA",
+                "zip_code": "01913",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -72.500907,
@@ -27905,6 +27933,34 @@
                     333368
                 ],
                 "network_id": "2ddd5704-e0a2-4aa0-b7b8-b2244f5b1fe5",
+                "street_address": "400 Chief Justice Cushing Highway",
+                "city": "Cohasset",
+                "state": "MA",
+                "zip_code": "02025",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.820819,
+                        42.233671
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Cohasset Plaza",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352871
+                ],
+                "network_id": "5319",
                 "street_address": "400 Chief Justice Cushing Highway",
                 "city": "Cohasset",
                 "state": "MA",
@@ -64228,6 +64284,34 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -70.811777,
+                        42.067355
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Pembroke Center Plaza",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352892
+                ],
+                "network_id": "5348",
+                "street_address": "24 Mattakeesett Street",
+                "city": "Pembroke",
+                "state": "MA",
+                "zip_code": "02359",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -70.80866,
                         42.070046
                     ]
@@ -67547,6 +67631,34 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.497975,
+                        42.019228
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "RK Plaza Bellingham",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352896
+                ],
+                "network_id": "5355",
+                "street_address": "70 Pulaski Boulevard",
+                "city": "Bellingham",
+                "state": "MA",
+                "zip_code": "02019",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.241938,
                         42.157131
                     ],
@@ -67580,6 +67692,34 @@
                 "charging_points:count": 3,
                 "charging_points:capacity": "2;1;1",
                 "charging_points:plugs_count": "2;1;1",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.241938,
+                        42.157131
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "RK Stop and Shop Walpole",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352898
+                ],
+                "network_id": "5357",
+                "street_address": "565 Main Street)",
+                "city": "Walpole",
+                "state": "MA",
+                "zip_code": "02081",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -75271,6 +75411,426 @@
                     228577
                 ],
                 "network_id": "70715f5d-6965-4740-8275-9a59377ed91a",
+                "street_address": "475 Bedford Street",
+                "city": "Whitman",
+                "state": "MA",
+                "zip_code": "02382",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.020711,
+                        42.42979
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 043 - Revere Squire Rd",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352782
+                ],
+                "network_id": "5182",
+                "street_address": "540 Squire Road",
+                "city": "Revere",
+                "state": "MA",
+                "zip_code": "02151",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.790973,
+                        42.326779
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 085 - Worcester",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352789
+                ],
+                "network_id": "5191",
+                "street_address": "940 West Boylston Street",
+                "city": "Worcester",
+                "state": "MA",
+                "zip_code": "01606",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.942698,
+                        41.678972
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 1001 Kings Highway",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352796
+                ],
+                "network_id": "5201",
+                "street_address": "1001 Kings Highway",
+                "city": "New Bedford",
+                "state": "MA",
+                "zip_code": "02745",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.67444,
+                        42.067864
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 1282 Springfield Street",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352813
+                ],
+                "network_id": "5228",
+                "street_address": "1282 Springfield Street",
+                "city": "Feeding Hills",
+                "state": "MA",
+                "zip_code": "01030",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.848256,
+                        41.9951
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 341 Plymouth Street",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352851
+                ],
+                "network_id": "5291",
+                "street_address": "341 Plymouth Street",
+                "city": "Halifax",
+                "state": "MA",
+                "zip_code": "02338",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.236866,
+                        42.032499
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 377 Chauncy Street",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352772
+                ],
+                "network_id": "5165",
+                "street_address": "377 Chauncy Street",
+                "city": "Mansfield",
+                "state": "MA",
+                "zip_code": "02048",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.170412,
+                        41.729758
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 421 - Somerset",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352874
+                ],
+                "network_id": "5322",
+                "street_address": "815 Grand Army of the Republic Highway",
+                "city": "Somerset",
+                "state": "MA",
+                "zip_code": "02726",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.664675,
+                        41.758255
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 474",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352886
+                ],
+                "network_id": "5339",
+                "street_address": "2991 Cranberry Highway",
+                "city": "East Wareham",
+                "state": "MA",
+                "zip_code": "02538",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.92955,
+                        42.109691
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 54 Abington",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352902
+                ],
+                "network_id": "5361",
+                "street_address": "375 Centre Avenue",
+                "city": "Abington",
+                "state": "MA",
+                "zip_code": "02351",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.509412,
+                        41.767024
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 65 Massachusetts 6A",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352777
+                ],
+                "network_id": "5173",
+                "street_address": "65 Massachusetts 6A",
+                "city": "Sandwich",
+                "state": "MA",
+                "zip_code": "02563",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.958483,
+                        42.470013
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 67 - Lynn",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352903
+                ],
+                "network_id": "5362",
+                "street_address": "35 Washington Street",
+                "city": "Lynn",
+                "state": "MA",
+                "zip_code": "01904",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.165655,
+                        42.699555
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 784",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352905
+                ],
+                "network_id": "5364",
+                "street_address": "876 State Road",
+                "city": "North Adams",
+                "state": "MA",
+                "zip_code": "01247",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.57374,
+                        42.606672
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 89 French King Highway",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352780
+                ],
+                "network_id": "5177",
+                "street_address": "89 French King Highway",
+                "city": "Greenfield",
+                "state": "MA",
+                "zip_code": "01301",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.109431,
+                        42.660366
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 92 - North Andover",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352790
+                ],
+                "network_id": "5193",
+                "street_address": "757 Turnpike Street",
+                "city": "North Andover",
+                "state": "MA",
+                "zip_code": "01845",
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.946607,
+                        42.07429
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop Whitman",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    352814
+                ],
+                "network_id": "5229",
                 "street_address": "475 Bedford Street",
                 "city": "Whitman",
                 "state": "MA",
@@ -83623,8 +84183,7 @@
                 "name": "UMASS LOWELL PINANSKI LOT",
                 "network": "CHARGEPOINT",
                 "osm_id": [
-                    12110753465,
-                    12110753466
+                    12110753465
                 ],
                 "nrel_id": [
                     167511

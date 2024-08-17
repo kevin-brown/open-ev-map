@@ -163,6 +163,20 @@ def fix_osm_data(data, fixes):
     return data
 
 def fix_supercharge_data(data, fixes):
+    fix_map = {}
+
+    for fix in fixes:
+        fix_map[fix["id"]] = fix
+
+    for station in data:
+        if station["id"] not in fix_map:
+            continue
+
+        station_fixes = fix_map[station["id"]]
+
+        if "address" in station_fixes:
+            station["address"].update(station_fixes["address"])
+
     return data
 
 FIXERS = {

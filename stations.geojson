@@ -5329,67 +5329,40 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -70.740712,
-                        41.359971
+                        -70.743695,
+                        41.344475
+                    ],
+                    [
+                        -70.743664,
+                        41.344453
                     ]
                 ]
             },
             "properties": {
-                "name": "399 PARKING LOT GRANGE LOT 1",
+                "name": "399 PARKING LOT GRANGE LOT 1;399 PARKING LOT GRANGE LOT 2",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
-                    306423
+                    306423,
+                    306424
                 ],
                 "ocm_id": [
-                    277316
+                    277316,
+                    277318
                 ],
-                "network_id": "USCPIL13779641",
-                "street_address": "399 Middle Road",
+                "network_id": "USCPIL13779641;USCPIL13779711",
+                "street_address": "399 Middle Road;399 Middle Road EMS Driveway",
                 "city": "Chilmark",
                 "state": "MA",
                 "zip_code": "02535",
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/306423",
-                    "https://openchargemap.org/site/poi/details/277316"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.743914,
-                        41.362736
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "399 PARKING LOT GRANGE LOT 2",
-                "network": "CHARGEPOINT",
-                "nrel_id": [
-                    306424
-                ],
-                "ocm_id": [
-                    277318
-                ],
-                "network_id": "USCPIL13779711",
-                "street_address": "399 Middle Road",
-                "city": "Chilmark",
-                "state": "MA",
-                "zip_code": "02535",
-                "urls": [
                     "https://afdc.energy.gov/stations#/station/306424",
+                    "https://openchargemap.org/site/poi/details/277316",
                     "https://openchargemap.org/site/poi/details/277318"
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -32189,7 +32162,7 @@
                 ]
             },
             "properties": {
-                "name": "Comfort Inn - Tesla Supercharger;Foxborough, MA",
+                "name": "Comfort Inn - Tesla Supercharger;Foxborough, MA;Foxborough, MA Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "osm_id": [
                     1289237106
@@ -46539,52 +46512,52 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162567,
+                        42.062404
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.16256,
+                        42.06238
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162553,
+                        42.06235
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162544,
+                        42.062323
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162539,
+                        42.062302
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162533,
+                        42.062279
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162528,
+                        42.062252
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162521,
+                        42.06223
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162296,
+                        42.062271
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162289,
+                        42.06225
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162282,
+                        42.062227
                     ],
                     [
-                        -70.162513,
-                        42.062319
+                        -70.162276,
+                        42.062204
                     ]
                 ]
             },
@@ -52682,52 +52655,52 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.14591,
-                        42.68723
+                        -71.14602,
+                        42.687239
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145984,
+                        42.687216
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145943,
+                        42.68719
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145904,
+                        42.687166
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145877,
+                        42.687149
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145854,
+                        42.687136
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145826,
+                        42.68712
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145801,
+                        42.687104
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145775,
+                        42.687087
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145752,
+                        42.687071
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145724,
+                        42.687056
                     ],
                     [
-                        -71.14591,
-                        42.68723
+                        -71.145696,
+                        42.687039
                     ]
                 ]
             },
@@ -52735,7 +52708,7 @@
                 "name": "Lawrence, MA;Lawrence, MA - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "osm_id": [
-                    11895687100
+                    1308351296
                 ],
                 "nrel_id": [
                     346182
@@ -52746,7 +52719,7 @@
                 "state": "MA",
                 "zip_code": "01843",
                 "urls": [
-                    "https://www.openstreetmap.org/node/11895687100",
+                    "https://www.openstreetmap.org/node/1308351296",
                     "https://afdc.energy.gov/stations#/station/346182"
                 ],
                 "charging_points:count": 12,
@@ -53590,63 +53563,69 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324269,
+                        42.61596
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324315,
+                        42.615983
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324397,
+                        42.616024
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.32459,
+                        42.61612
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324529,
+                        42.61609
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324478,
+                        42.616065
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324423,
+                        42.616037
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324365,
+                        42.616008
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324619,
+                        42.616134
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324562,
+                        42.616106
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324505,
+                        42.616078
                     ],
                     [
-                        -71.324464,
-                        42.616102
+                        -71.324452,
+                        42.616051
                     ]
                 ]
             },
             "properties": {
-                "name": "Lowell, MA",
+                "name": "Lowell MA - Tesla Supercharger;Lowell, MA",
                 "network": "TESLA_SUPERCHARGER",
+                "osm_id": [
+                    1308346996
+                ],
                 "network_id": "30752",
                 "street_address": "850 Chelmsford Street",
                 "city": "Lowell",
                 "state": "MA",
                 "zip_code": "01851",
+                "urls": [
+                    "https://www.openstreetmap.org/node/1308346996"
+                ],
                 "charging_points:count": 12,
                 "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
                 "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
@@ -53725,58 +53704,61 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015297,
+                        42.50506
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015267,
+                        42.505058
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015231,
+                        42.505056
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015329,
+                        42.505062
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015362,
+                        42.505062
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015395,
+                        42.505062
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015429,
+                        42.505062
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015462,
+                        42.505064
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.01549,
+                        42.505063
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015518,
+                        42.505065
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015554,
+                        42.505066
                     ],
                     [
-                        -71.015444,
-                        42.505037
+                        -71.015597,
+                        42.505067
                     ]
                 ]
             },
             "properties": {
                 "name": "Lynnfield - US-1, MA;Lynnfield Plaza - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
+                "osm_id": [
+                    1308351836
+                ],
                 "nrel_id": [
                     331821
                 ],
@@ -53786,6 +53768,7 @@
                 "state": "MA",
                 "zip_code": "01940",
                 "urls": [
+                    "https://www.openstreetmap.org/node/1308351836",
                     "https://afdc.energy.gov/stations#/station/331821"
                 ],
                 "charging_points:count": 12,
@@ -80087,6 +80070,109 @@
                 "charging_points:capacity": "2;2",
                 "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.491785,
+                        42.300783
+                    ],
+                    [
+                        -71.4916,
+                        42.300734
+                    ],
+                    [
+                        -71.491987,
+                        42.300832
+                    ],
+                    [
+                        -71.491872,
+                        42.300805
+                    ],
+                    [
+                        -71.491696,
+                        42.300759
+                    ],
+                    [
+                        -71.492018,
+                        42.300959
+                    ],
+                    [
+                        -71.491723,
+                        42.300914
+                    ],
+                    [
+                        -71.491669,
+                        42.301015
+                    ],
+                    [
+                        -71.491698,
+                        42.300987
+                    ],
+                    [
+                        -71.491657,
+                        42.301101
+                    ],
+                    [
+                        -71.491626,
+                        42.301153
+                    ],
+                    [
+                        -71.491677,
+                        42.301053
+                    ],
+                    [
+                        -71.491715,
+                        42.300962
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SANOFI GARAGE ST # 01;SANOFI GARAGE ST # 02;SANOFI GARAGE ST # 03;SANOFI GARAGE ST # 04;SANOFI GARAGE ST # 05;SANOFI GARAGE ST # 06;SANOFI GARAGE ST # 07;SANOFI GARAGE ST # 08;SANOFI GARAGE ST # 09;SANOFI GARAGE ST # 10;SANOFI GARAGE ST # 11;SANOFI GARAGE ST # 12;SANOFI GARAGE ST # 13",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    298813,
+                    298814,
+                    298815,
+                    298816,
+                    298817,
+                    310966,
+                    310967,
+                    311101,
+                    311102,
+                    311103,
+                    311104,
+                    311105,
+                    311106
+                ],
+                "network_id": "USCPIL13350561;USCPIL13350571;USCPIL13350581;USCPIL13350591;USCPIL13350601;USCPIL14088511;USCPIL14088521;USCPIL14090101;USCPIL14090161;USCPIL14090231;USCPIL14090281;USCPIL14090351;USCPIL14090581",
+                "street_address": "57 New York Avenue",
+                "city": "Framingham",
+                "state": "MA",
+                "zip_code": "01701;01772",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/298813",
+                    "https://afdc.energy.gov/stations#/station/298814",
+                    "https://afdc.energy.gov/stations#/station/298815",
+                    "https://afdc.energy.gov/stations#/station/298816",
+                    "https://afdc.energy.gov/stations#/station/298817",
+                    "https://afdc.energy.gov/stations#/station/310966",
+                    "https://afdc.energy.gov/stations#/station/310967",
+                    "https://afdc.energy.gov/stations#/station/311101",
+                    "https://afdc.energy.gov/stations#/station/311102",
+                    "https://afdc.energy.gov/stations#/station/311103",
+                    "https://afdc.energy.gov/stations#/station/311104",
+                    "https://afdc.energy.gov/stations#/station/311105",
+                    "https://afdc.energy.gov/stations#/station/311106"
+                ],
+                "charging_points:count": 13,
+                "charging_points:capacity": "2;2;2;2;2;2;2;1;1;1;1;1;1",
+                "charging_points:plugs_count": "2;2;2;2;2;2;2;1;1;1;1;1;1",
+                "charging_points:plugs_type": "J1772;J1772_COMBO"
             }
         },
         {

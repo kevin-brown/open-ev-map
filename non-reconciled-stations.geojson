@@ -63,25 +63,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.274902,
-                    42.298416
-                ]
-            },
-            "properties": {
-                "network": "AUTEL",
-                "osm_id": [
-                    5254161514
-                ],
-                "urls": [
-                    "https://www.openstreetmap.org/node/5254161514"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.352865,
                     42.299554
                 ]
@@ -727,25 +708,6 @@
                 ],
                 "urls": [
                     "https://www.openstreetmap.org/node/1215687168"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.062035,
-                    42.117907
-                ]
-            },
-            "properties": {
-                "network": "AMPUP",
-                "osm_id": [
-                    1247446183
-                ],
-                "urls": [
-                    "https://www.openstreetmap.org/node/1247446183"
                 ]
             }
         },
@@ -1824,30 +1786,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.25958,
-                    42.44783
-                ]
-            },
-            "properties": {
-                "name": "Big Y",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    143159
-                ],
-                "street_address": "200 West Street",
-                "city": "Pittsfield",
-                "state": "MA",
-                "zip_code": "01201",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/143159"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.571078,
                     41.991001
                 ]
@@ -2328,7 +2266,7 @@
                 "name": "Dartmouth, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "network_id": "DartmouthMASupercharger",
-                "street_address": "380 State Road",
+                "street_address": "83 Faunce Corner Mall Road",
                 "city": "Dartmouth",
                 "state": "MA",
                 "zip_code": "02747",
@@ -2480,64 +2418,6 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/348873"
                 ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.6124,
-                    42.59699
-                ]
-            },
-            "properties": {
-                "name": "Franklin County Sheriff's Office",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    325213
-                ],
-                "street_address": "160 Elm Street",
-                "city": "Greenfield",
-                "state": "MA",
-                "zip_code": "01300",
-                "urls": [
-                    "https://afdc.energy.gov/stations#/station/325213"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -72.612113,
-                        42.597053
-                    ],
-                    [
-                        -72.612113,
-                        42.597053
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Franklin County Sheriff's Office",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    110719
-                ],
-                "street_address": "160 Elm Street",
-                "city": "Greenfield",
-                "state": "MA",
-                "zip_code": "01301",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/110719"
-                ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -2803,30 +2683,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.265547,
-                    42.408304
-                ]
-            },
-            "properties": {
-                "name": "Hilton Garden Inn Lennox Pittsfield",
-                "network": "AMPUP",
-                "nrel_id": [
-                    229723
-                ],
-                "street_address": "1032 S Street",
-                "city": "Pittsfield",
-                "state": "MA",
-                "zip_code": "01201",
-                "urls": [
-                    "https://afdc.energy.gov/stations#/station/229723"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -3045,40 +2901,6 @@
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "1",
                 "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.274941,
-                        42.298432
-                    ],
-                    [
-                        -73.274941,
-                        42.298432
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Lee Service Plaza",
-                "network": "EVGO",
-                "ocm_id": [
-                    247114
-                ],
-                "street_address": "Lee Westbound Massachusetts Turnpike",
-                "city": "Lee",
-                "state": "MA",
-                "zip_code": "01238",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/247114"
-                ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
@@ -3700,30 +3522,6 @@
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.061654,
-                    42.118685
-                ]
-            },
-            "properties": {
-                "name": "Noble Energy Real Estate Holdings - Sturbridge Travel Plaza",
-                "network": "AMPUP",
-                "nrel_id": [
-                    335332
-                ],
-                "street_address": "195 Charlton Road",
-                "city": "Sturbridge",
-                "state": "MA",
-                "zip_code": "01566",
-                "urls": [
-                    "https://afdc.energy.gov/stations#/station/335332"
-                ]
             }
         },
         {

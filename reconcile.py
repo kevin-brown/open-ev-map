@@ -921,7 +921,7 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
         station_location = Location(latitude=ocm_address["Latitude"], longitude=ocm_address["Longitude"])
         station.location.set(SourcedValue(SourceData(SourceLocation.OPEN_CHARGE_MAP, ocm_station["ID"]), station_location))
 
-        if "OperatorInfo" in ocm_station:
+        if "OperatorID" in ocm_station:
             station.network = OCM_OPERATOR_TO_NETWORK_MAP[ocm_station["OperatorID"]]
 
         station_state = ocm_address.get("StateOrProvince")

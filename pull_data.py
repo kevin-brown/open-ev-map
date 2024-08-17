@@ -157,6 +157,10 @@ def fix_ocm_data(data, fixes):
         if "AddressInfo" in station_fixes:
             station["AddressInfo"].update(station_fixes["AddressInfo"])
 
+            del station_fixes["AddressInfo"]
+
+        station.update(station_fixes)
+
     return data
 
 def fix_osm_data(data, fixes):
@@ -176,6 +180,8 @@ def fix_supercharge_data(data, fixes):
 
         if "address" in station_fixes:
             station["address"].update(station_fixes["address"])
+
+            del station_fixes["address"]
 
     return data
 

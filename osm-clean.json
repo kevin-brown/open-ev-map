@@ -9729,12 +9729,16 @@
       ],
       "tags": {
         "access": "yes",
+        "addr:housenumber": "195",
+        "addr:street": "Charlton Road",
         "amenity": "charging_station",
         "brand": "JuiceBar",
         "building": "roof",
         "capacity": "8",
+        "fee": "no",
         "network": "AmpUp",
         "operator": "Noble +EV",
+        "socket:type1_cable": "8",
         "website": "https://noblemarketsusa.com/"
       }
     },

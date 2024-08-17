@@ -63,25 +63,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.274902,
-                    42.298416
-                ]
-            },
-            "properties": {
-                "network": "AUTEL",
-                "osm_id": [
-                    5254161514
-                ],
-                "urls": [
-                    "https://www.openstreetmap.org/node/5254161514"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.352865,
                     42.299554
                 ]
@@ -727,25 +708,6 @@
                 ],
                 "urls": [
                     "https://www.openstreetmap.org/node/1215687168"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.062035,
-                    42.117907
-                ]
-            },
-            "properties": {
-                "network": "AMPUP",
-                "osm_id": [
-                    1247446183
-                ],
-                "urls": [
-                    "https://www.openstreetmap.org/node/1247446183"
                 ]
             }
         },
@@ -15482,20 +15444,24 @@
                 ]
             },
             "properties": {
-                "name": "BIG Y FOODS PITTSFIELD 1;BIG Y FOODS PITTSFIELD 2",
+                "name": "BIG Y FOODS PITTSFIELD 1;BIG Y FOODS PITTSFIELD 2;Big Y",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     150374,
                     174864
                 ],
+                "ocm_id": [
+                    143159
+                ],
                 "network_id": "USCPIL2042571;USCPIL2042581",
-                "street_address": "Big Y Market Pittsfield (in) 200 West Street;Big Y Market Pittsfield (in) 200 west Street",
+                "street_address": "200 West Street",
                 "city": "Pittsfield",
                 "state": "MA",
                 "zip_code": "01201",
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/150374",
-                    "https://afdc.energy.gov/stations#/station/174864"
+                    "https://afdc.energy.gov/stations#/station/174864",
+                    "https://openchargemap.org/site/poi/details/143159"
                 ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "2;2",
@@ -20714,30 +20680,6 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/116949",
                     "https://openchargemap.org/site/poi/details/143218"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.25958,
-                    42.44783
-                ]
-            },
-            "properties": {
-                "name": "Big Y",
-                "network": "CHARGEPOINT",
-                "ocm_id": [
-                    143159
-                ],
-                "street_address": "200 West Street",
-                "city": "Pittsfield",
-                "state": "MA",
-                "zip_code": "01201",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/143159"
                 ]
             }
         },
@@ -34808,7 +34750,7 @@
                 "name": "Dartmouth, MA",
                 "network": "TESLA_SUPERCHARGER",
                 "network_id": "DartmouthMASupercharger",
-                "street_address": "380 State Road",
+                "street_address": "83 Faunce Corner Mall Road",
                 "city": "Dartmouth",
                 "state": "MA",
                 "zip_code": "02747",
@@ -41309,30 +41251,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.6124,
-                    42.59699
-                ]
-            },
-            "properties": {
-                "name": "Franklin County Sheriff's Office",
-                "network": "NON_NETWORKED",
-                "nrel_id": [
-                    325213
-                ],
-                "street_address": "160 Elm Street",
-                "city": "Greenfield",
-                "state": "MA",
-                "zip_code": "01300",
-                "urls": [
-                    "https://afdc.energy.gov/stations#/station/325213"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -41348,14 +41266,18 @@
             "properties": {
                 "name": "Franklin County Sheriff's Office",
                 "network": "CHARGEPOINT",
+                "nrel_id": [
+                    325213
+                ],
                 "ocm_id": [
                     110719
                 ],
                 "street_address": "160 Elm Street",
                 "city": "Greenfield",
                 "state": "MA",
-                "zip_code": "01301",
+                "zip_code": "01300;01301",
                 "urls": [
+                    "https://afdc.energy.gov/stations#/station/325213",
                     "https://openchargemap.org/site/poi/details/110719"
                 ],
                 "charging_points:count": 2,
@@ -47434,10 +47356,11 @@
                 ]
             },
             "properties": {
-                "name": "Hilton Garden Inn - Pittsfield",
+                "name": "Hilton Garden Inn - Pittsfield;Hilton Garden Inn Lennox Pittsfield",
                 "network": "AMPUP",
                 "nrel_id": [
-                    169707
+                    169707,
+                    229723
                 ],
                 "ocm_id": [
                     229295
@@ -47448,6 +47371,7 @@
                 "zip_code": "01201",
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/169707",
+                    "https://afdc.energy.gov/stations#/station/229723",
                     "https://openchargemap.org/site/poi/details/229295"
                 ]
             }
@@ -47481,30 +47405,6 @@
                     "https://afdc.energy.gov/stations#/station/229706",
                     "https://openchargemap.org/site/poi/details/246929",
                     "https://openchargemap.org/site/poi/details/246930"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.265547,
-                    42.408304
-                ]
-            },
-            "properties": {
-                "name": "Hilton Garden Inn Lennox Pittsfield",
-                "network": "AMPUP",
-                "nrel_id": [
-                    229723
-                ],
-                "street_address": "1032 S Street",
-                "city": "Pittsfield",
-                "state": "MA",
-                "zip_code": "01201",
-                "urls": [
-                    "https://afdc.energy.gov/stations#/station/229723"
                 ]
             }
         },
@@ -52745,7 +52645,10 @@
             },
             "properties": {
                 "name": "Lee Service Plaza",
-                "network": "EVGO",
+                "network": "AUTEL",
+                "osm_id": [
+                    5254161514
+                ],
                 "ocm_id": [
                     247114
                 ],
@@ -52754,6 +52657,7 @@
                 "state": "MA",
                 "zip_code": "01238",
                 "urls": [
+                    "https://www.openstreetmap.org/node/5254161514",
                     "https://openchargemap.org/site/poi/details/247114"
                 ],
                 "charging_points:count": 2,
@@ -69302,13 +69206,16 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.061654,
-                    42.118685
+                    -72.062035,
+                    42.117907
                 ]
             },
             "properties": {
                 "name": "Noble Energy Real Estate Holdings - Sturbridge Travel Plaza",
                 "network": "AMPUP",
+                "osm_id": [
+                    1247446183
+                ],
                 "nrel_id": [
                     335332
                 ],
@@ -69317,6 +69224,7 @@
                 "state": "MA",
                 "zip_code": "01566",
                 "urls": [
+                    "https://www.openstreetmap.org/node/1247446183",
                     "https://afdc.energy.gov/stations#/station/335332"
                 ]
             }

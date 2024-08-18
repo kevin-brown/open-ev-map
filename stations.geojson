@@ -2750,6 +2750,37 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.489162,
+                        42.147689
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "139 Medway Rd",
+                "network": "EV_CONNECT",
+                "nrel_id": [
+                    353034
+                ],
+                "network_id": "9ecbcb30-3a79-4fc6-a533-007ab485b53c",
+                "street_address": "139 Medway Road",
+                "city": "Milford",
+                "state": "MA",
+                "zip_code": "01757",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353034"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -69.993539,
                         41.784824
                     ],
@@ -3817,37 +3848,6 @@
                 "charging_points:count": 1,
                 "charging_points:capacity": "6",
                 "charging_points:plugs_count": "6",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.10045,
-                        42.487954
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "211 Main Street",
-                "network": "EV_CONNECT",
-                "nrel_id": [
-                    347422
-                ],
-                "network_id": "6f5dd393-f831-4199-b25c-c74629029913",
-                "street_address": "211 Main Street",
-                "city": "Stoneham",
-                "state": "MA",
-                "zip_code": "02180",
-                "urls": [
-                    "https://afdc.energy.gov/stations#/station/347422"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -85455,6 +85455,37 @@
                 "charging_points:capacity": "4;2",
                 "charging_points:plugs_count": "4;4",
                 "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.100545,
+                        42.487836
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stoneham Ford",
+                "network": "EV_CONNECT",
+                "nrel_id": [
+                    353037
+                ],
+                "network_id": "253e3422-9e91-478a-9ab8-349941f0c144",
+                "street_address": "211 Main Street",
+                "city": "Stoneham",
+                "state": "MA",
+                "zip_code": "02180",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353037"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {

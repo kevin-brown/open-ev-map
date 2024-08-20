@@ -1272,6 +1272,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.90707,
+                    42.5203
+                ]
+            },
+            "properties": {
+                "name": "401 Bridge St",
+                "nrel_id": [
+                    353061
+                ],
+                "street_address": "401 Bridge Street",
+                "city": "Salem",
+                "state": "MA",
+                "zip_code": "01970",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353061"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.488808,
                     42.29163
                 ]

@@ -2770,8 +2770,8 @@
                     "https://afdc.energy.gov/stations#/station/353034"
                 ],
                 "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
+                "charging_points:capacity": "3",
+                "charging_points:plugs_count": "3",
                 "charging_points:plugs_type": "J1772_COMBO"
             }
         },
@@ -6052,6 +6052,29 @@
                 "charging_points:capacity": "1",
                 "charging_points:plugs_count": "2",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.90707,
+                    42.5203
+                ]
+            },
+            "properties": {
+                "name": "401 Bridge St",
+                "nrel_id": [
+                    353061
+                ],
+                "street_address": "401 Bridge Street",
+                "city": "Salem",
+                "state": "MA",
+                "zip_code": "01970",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353061"
+                ]
             }
         },
         {
@@ -46153,8 +46176,8 @@
                     "https://openchargemap.org/site/poi/details/247328"
                 ],
                 "charging_points:count": 1,
-                "charging_points:capacity": "3",
-                "charging_points:plugs_count": "6",
+                "charging_points:capacity": "4",
+                "charging_points:plugs_count": "8",
                 "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
             }
         },

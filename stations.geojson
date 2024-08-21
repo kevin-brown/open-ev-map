@@ -17459,19 +17459,24 @@
                     [
                         -71.088544,
                         42.347245
+                    ],
+                    [
+                        -71.088598,
+                        42.347195
                     ]
                 ]
             },
             "properties": {
-                "name": "BOYLSTON P1-105;BOYLSTON P1-106;BOYLSTON P1-107;BOYLSTON P2-201",
+                "name": "BOYLSTON P1-105;BOYLSTON P1-106;BOYLSTON P1-107;BOYLSTON P2-201;BOYLSTON P2-204",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     350497,
                     350498,
                     350499,
-                    350502
+                    350502,
+                    353079
                 ],
-                "network_id": "USCPIL15438491;USCPIL15438581;USCPIL15438601;USCPIL15438791",
+                "network_id": "USCPIL15438491;USCPIL15438581;USCPIL15438601;USCPIL15438791;USCPIL16093661",
                 "street_address": "1087 Boylston Street",
                 "city": "Boston",
                 "state": "MA",
@@ -17480,11 +17485,12 @@
                     "https://afdc.energy.gov/stations#/station/350497",
                     "https://afdc.energy.gov/stations#/station/350498",
                     "https://afdc.energy.gov/stations#/station/350499",
-                    "https://afdc.energy.gov/stations#/station/350502"
+                    "https://afdc.energy.gov/stations#/station/350502",
+                    "https://afdc.energy.gov/stations#/station/353079"
                 ],
-                "charging_points:count": 4,
-                "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2",
+                "charging_points:count": 5,
+                "charging_points:capacity": "2;2;2;2;2",
+                "charging_points:plugs_count": "2;2;2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -20613,6 +20619,37 @@
                     "https://afdc.energy.gov/stations#/station/229703",
                     "https://openchargemap.org/site/poi/details/229368"
                 ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.31203,
+                        42.434316
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Best Western Pittsfield",
+                "network": "FLO",
+                "nrel_id": [
+                    353423
+                ],
+                "network_id": "59022f3b-73ab-45e2-bea3-c135a146592b",
+                "street_address": "1350 West Housatonic Street",
+                "city": "Pittsfield",
+                "state": "MA",
+                "zip_code": "01201",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353423"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "3",
+                "charging_points:plugs_count": "3",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -44946,12 +44983,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -70.868071,
-                        41.81981
-                    ]
+                    -70.868071,
+                    41.81981
                 ]
             },
             "properties": {
@@ -44963,7 +44998,6 @@
                 "ocm_id": [
                     294749
                 ],
-                "network_id": "USCPIL15251961",
                 "street_address": "40 Albany Turnpike",
                 "city": "Simsbury",
                 "state": "MA",
@@ -44971,11 +45005,7 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/323318",
                     "https://openchargemap.org/site/poi/details/294749"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+                ]
             }
         },
         {
@@ -63723,6 +63753,37 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/166726",
                     "https://openchargemap.org/site/poi/details/228696"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.403836,
+                        42.152051
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Medway Commons",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353289
+                ],
+                "network_id": "5641",
+                "street_address": "65 Main Street",
+                "city": "Medway",
+                "state": "MA",
+                "zip_code": "02053",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353289"
                 ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
@@ -84085,6 +84146,37 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.018642,
+                        42.485003
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Saugus",
+                "network": "EVGO",
+                "nrel_id": [
+                    353136
+                ],
+                "network_id": "66426",
+                "street_address": "334 Broadway - Route 1",
+                "city": "Saugus",
+                "state": "MA",
+                "zip_code": "01906",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353136"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "6",
+                "charging_points:plugs_count": "12",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -70.593841,
@@ -84299,6 +84391,37 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/151785",
                     "https://openchargemap.org/site/poi/details/160025"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.064577,
+                        42.503163
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Shaws 134 Water Street",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353363
+                ],
+                "network_id": "5748",
+                "street_address": "134 Water Street",
+                "city": "Wakefield",
+                "state": "MA",
+                "zip_code": "01880",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353363"
                 ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
@@ -85239,6 +85362,37 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.19067,
+                        42.388357
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Star Market Belmont",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353371
+                ],
+                "network_id": "5756",
+                "street_address": "535 Trapelo Road",
+                "city": "Belmont",
+                "state": "MA",
+                "zip_code": "02478",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353371"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.101514,
                         42.343289
                     ]
@@ -85261,6 +85415,37 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/216382",
                     "https://openchargemap.org/site/poi/details/229124"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.101514,
+                        42.343289
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Star Market Fenway",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353372
+                ],
+                "network_id": "5757",
+                "street_address": "33 Kilarnock Street",
+                "city": "Boston",
+                "state": "MA",
+                "zip_code": "02215",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353372"
                 ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
@@ -86301,6 +86486,37 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -70.853473,
+                        42.158258
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 028 Norwell",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353373
+                ],
+                "network_id": "5758",
+                "street_address": "468 Washington Street",
+                "city": "Norwell",
+                "state": "MA",
+                "zip_code": "02061",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353373"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.020711,
                         42.42979
                     ]
@@ -86505,6 +86721,68 @@
                 "zip_code": "02726",
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/352874"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.48548,
+                        41.701165
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 470",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353376
+                ],
+                "network_id": "5761",
+                "street_address": "71 Quaker Meeting House Road",
+                "city": "Sandwich",
+                "state": "MA",
+                "zip_code": "02563",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353376"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.16457,
+                        41.674088
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Stop and Shop 473",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353377
+                ],
+                "network_id": "5762",
+                "street_address": "333 Marianno Bishop Boulevard",
+                "city": "Fall River",
+                "state": "MA",
+                "zip_code": "02721",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353377"
                 ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
@@ -95479,10 +95757,12 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.526573,
-                    42.396124
+                    [
+                        -72.526283,
+                        42.396536
+                    ]
                 ]
             },
             "properties": {
@@ -95494,46 +95774,68 @@
                 "ocm_id": [
                     229279
                 ],
-                "street_address": "17 Eastman Lane Lot 43",
+                "network_id": "USCPIL5438891",
+                "street_address": "17 Eastman Lane Lot 43;Lot 43, behind Totman Lot 43",
                 "city": "Amherst",
                 "state": "MA",
                 "zip_code": "01003",
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/181201",
                     "https://openchargemap.org/site/poi/details/229279"
-                ]
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
+                "type": "MultiPoint",
                 "coordinates": [
-                    -72.526262,
-                    42.395704
+                    [
+                        -72.526595,
+                        42.396448
+                    ],
+                    [
+                        -72.526523,
+                        42.39646
+                    ],
+                    [
+                        -72.526423,
+                        42.39648
+                    ]
                 ]
             },
             "properties": {
-                "name": "UMASS AMHERST TOTMAN L2 2;UMASS AMHERST TOTMAN L2 4",
+                "name": "UMASS AMHERST TOTMAN L2 2;UMASS AMHERST TOTMAN L2 3;UMASS AMHERST TOTMAN L2 4",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     166201,
+                    181199,
                     181200
                 ],
                 "ocm_id": [
                     229274,
                     229277
                 ],
-                "street_address": "17 Eastman Ln Lot 43",
+                "network_id": "USCPIL5438901;USCPIL5438911;USCPIL5438921",
+                "street_address": "17 Eastman Ln Lot 43;Lot 43 Behind Totman Gym Lot 43;Lot 43, Behind Totman Gym Lot 43",
                 "city": "Amherst",
                 "state": "MA",
                 "zip_code": "01003",
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/166201",
+                    "https://afdc.energy.gov/stations#/station/181199",
                     "https://afdc.energy.gov/stations#/station/181200",
                     "https://openchargemap.org/site/poi/details/229274",
                     "https://openchargemap.org/site/poi/details/229277"
-                ]
+                ],
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
+                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -97712,12 +98014,10 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -70.943994,
-                        42.549501
-                    ]
+                    -70.943994,
+                    42.549501
                 ]
             },
             "properties": {
@@ -97729,7 +98029,6 @@
                 "ocm_id": [
                     277624
                 ],
-                "network_id": "USCPIL12785251",
                 "street_address": "24 Commonwealth Avenue",
                 "city": "Danvers",
                 "state": "MA",
@@ -97737,11 +98036,7 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/294801",
                     "https://openchargemap.org/site/poi/details/277624"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "2",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "J1772"
+                ]
             }
         },
         {

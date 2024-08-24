@@ -63,6 +63,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -73.274902,
+                    42.298416
+                ]
+            },
+            "properties": {
+                "network": "AUTEL",
+                "osm_id": [
+                    5254161514
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/5254161514"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.352865,
                     42.299554
                 ]
@@ -1668,6 +1687,35 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.275019,
+                        42.298115
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Autel - Lee Service Plaza Westbound",
+                "ocm_id": [
+                    247114
+                ],
+                "street_address": "Lee Westbound Massachusetts Turnpike",
+                "city": "Lee",
+                "state": "MA",
+                "zip_code": "01238",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/247114"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.364242,
@@ -1809,6 +1857,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -73.381423,
+                    42.205669
+                ]
+            },
+            "properties": {
+                "name": "Bard College Daniel Arts Center",
+                "network": "RED_E",
+                "nrel_id": [
+                    353820
+                ],
+                "street_address": "84 Alford Road",
+                "city": "Great Barrington",
+                "state": "MA",
+                "zip_code": "01230",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353820"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -72.571078,
                     41.991001
                 ]
@@ -1826,36 +1898,6 @@
                 "urls": [
                     "https://openchargemap.org/site/poi/details/294785"
                 ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.258924,
-                        42.336121
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Blantyre - Tesla",
-                "network": "TESLA_DESTINATION",
-                "ocm_id": [
-                    62287
-                ],
-                "street_address": "16 Blantyre Road",
-                "city": "Lenox",
-                "state": "MA",
-                "zip_code": "01240",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/62287"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -2867,14 +2909,6 @@
                     [
                         -73.292633,
                         42.556087
-                    ],
-                    [
-                        -73.292633,
-                        42.556087
-                    ],
-                    [
-                        -73.292633,
-                        42.556087
                     ]
                 ]
             },
@@ -2891,38 +2925,9 @@
                 "urls": [
                     "https://openchargemap.org/site/poi/details/97879"
                 ],
-                "charging_points:count": 4,
-                "charging_points:capacity": "1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1",
-                "charging_points:plugs_type": "J1772"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.2404,
-                        42.44833
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Johnson Ford",
-                "ocm_id": [
-                    8017
-                ],
-                "street_address": "694 East Street",
-                "city": "Pittsfield",
-                "state": "MA",
-                "zip_code": "01201",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/8017"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -4654,6 +4659,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -72.764652,
+                    42.068521
+                ]
+            },
+            "properties": {
+                "name": "Valvoline Express Care",
+                "network": "RED_E",
+                "nrel_id": [
+                    353821
+                ],
+                "street_address": "657 College Highway",
+                "city": "Southwick",
+                "state": "MA",
+                "zip_code": "01077",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353821"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -72.495841,
                     41.831076
                 ]
@@ -4877,10 +4906,6 @@
                     [
                         -73.289691,
                         42.557174
-                    ],
-                    [
-                        -73.289691,
-                        42.557174
                     ]
                 ]
             },
@@ -4889,16 +4914,16 @@
                 "ocm_id": [
                     265892
                 ],
-                "street_address": "Mountainside Drive",
+                "street_address": "1 Corey Road",
                 "city": "Hancock",
                 "state": "MA",
                 "zip_code": "01237",
                 "urls": [
                     "https://openchargemap.org/site/poi/details/265892"
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
                 "charging_points:plugs_type": "J1772"
             }
         }

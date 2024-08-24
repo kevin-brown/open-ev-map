@@ -63,6 +63,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -73.274902,
+                    42.298416
+                ]
+            },
+            "properties": {
+                "network": "AUTEL",
+                "osm_id": [
+                    5254161514
+                ],
+                "urls": [
+                    "https://www.openstreetmap.org/node/5254161514"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.352865,
                     42.299554
                 ]
@@ -6138,8 +6157,8 @@
                     "https://openchargemap.org/site/poi/details/228019"
                 ],
                 "charging_points:count": 1,
-                "charging_points:capacity": "6",
-                "charging_points:plugs_count": "6",
+                "charging_points:capacity": "5",
+                "charging_points:plugs_count": "5",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -9554,6 +9573,37 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.218772,
+                        42.481329
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "AMC Burlington Cinema 10",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353555
+                ],
+                "network_id": "5407",
+                "street_address": "20 South Avenue",
+                "city": "Burlington",
+                "state": "MA",
+                "zip_code": "01803",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353555"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.390051,
                         42.302889
                     ]
@@ -9576,6 +9626,37 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/151783",
                     "https://openchargemap.org/site/poi/details/159981"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.390051,
+                        42.302889
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "AMC DINE-IN Framingham 16",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353560
+                ],
+                "network_id": "5412",
+                "street_address": "22 Flutie Pass",
+                "city": "Framingham",
+                "state": "MA",
+                "zip_code": "01701",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353560"
                 ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
@@ -11259,8 +11340,8 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.157281,
-                        42.361552
+                        -71.1573,
+                        42.361731
                     ],
                     [
                         -71.157611,
@@ -11280,7 +11361,7 @@
                     247259
                 ],
                 "network_id": "USCPIL8073851;USCPIL8188551",
-                "street_address": "88 Arsenal Yards Blvd Red Garage",
+                "street_address": "88 Arsenal Yards Blvd Red Garage;92 Arsenal Yards Blvd Red Garage",
                 "city": "Watertown",
                 "state": "MA",
                 "zip_code": "02472",
@@ -13255,6 +13336,35 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/333462"
                 ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.275019,
+                        42.298115
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Autel - Lee Service Plaza Westbound",
+                "ocm_id": [
+                    247114
+                ],
+                "street_address": "Lee Westbound Massachusetts Turnpike",
+                "city": "Lee",
+                "state": "MA",
+                "zip_code": "01238",
+                "urls": [
+                    "https://openchargemap.org/site/poi/details/247114"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
+                "charging_points:plugs_type": "J1772_COMBO"
             }
         },
         {
@@ -20131,6 +20241,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -73.381423,
+                    42.205669
+                ]
+            },
+            "properties": {
+                "name": "Bard College Daniel Arts Center",
+                "network": "RED_E",
+                "nrel_id": [
+                    353820
+                ],
+                "street_address": "84 Alford Road",
+                "city": "Great Barrington",
+                "state": "MA",
+                "zip_code": "01230",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353820"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -72.7197,
                     42.1645
                 ]
@@ -21109,36 +21243,6 @@
                     "https://afdc.energy.gov/stations#/station/225705",
                     "https://openchargemap.org/site/poi/details/228813"
                 ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.258924,
-                        42.336121
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Blantyre - Tesla",
-                "network": "TESLA_DESTINATION",
-                "ocm_id": [
-                    62287
-                ],
-                "street_address": "16 Blantyre Road",
-                "city": "Lenox",
-                "state": "MA",
-                "zip_code": "01240",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/62287"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "NACS"
             }
         },
         {
@@ -22557,6 +22661,43 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/333509",
                     "https://afdc.energy.gov/stations#/station/333510"
+                ],
+                "charging_points:count": 2,
+                "charging_points:capacity": "1;1",
+                "charging_points:plugs_count": "2;2",
+                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -69.989361,
+                        41.852832
+                    ],
+                    [
+                        -69.989524,
+                        41.852996
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CAPE_ASSOCIATES STATION 1;CAPE_ASSOCIATES STATION 2",
+                "network": "CHARGEPOINT",
+                "nrel_id": [
+                    353531,
+                    353532
+                ],
+                "network_id": "USCPIL16263131;USCPIL16263171",
+                "street_address": "325 Massasoit Road",
+                "city": "Eastham",
+                "state": "MA",
+                "zip_code": "02642",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353531",
+                    "https://afdc.energy.gov/stations#/station/353532"
                 ],
                 "charging_points:count": 2,
                 "charging_points:capacity": "1;1",
@@ -29839,6 +29980,49 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.077154,
+                        42.368064
+                    ],
+                    [
+                        -71.077074,
+                        42.368138
+                    ],
+                    [
+                        -71.077093,
+                        42.368073
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CambridgeSide Garage Level 1;CambridgeSide Garage Level 2;CambridgeSide Garage Level 3",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353599,
+                    353600,
+                    353601
+                ],
+                "network_id": "5468;5469;5470",
+                "street_address": "100 Cambridgeside Place",
+                "city": "Cambridge",
+                "state": "MA",
+                "zip_code": "02141",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353599",
+                    "https://afdc.energy.gov/stations#/station/353600",
+                    "https://afdc.energy.gov/stations#/station/353601"
+                ],
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;4;2",
+                "charging_points:plugs_count": "2;4;2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -72.537166,
                         42.365301
                     ]
@@ -30073,6 +30257,37 @@
                 "zip_code": "02601",
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/151870"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -70.296184,
+                        41.668322
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Cape Cod Mall",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353602
+                ],
+                "network_id": "5471",
+                "street_address": "769 Iyannough Road",
+                "city": "Hyannis",
+                "state": "MA",
+                "zip_code": "02601",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353602"
                 ],
                 "charging_points:count": 1,
                 "charging_points:capacity": "2",
@@ -30655,12 +30870,12 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.254776,
-                        42.330765
+                        -71.254937,
+                        42.330725
                     ],
                     [
-                        -71.25475,
-                        42.33075
+                        -71.254793,
+                        42.330679
                     ],
                     [
                         -71.254761,
@@ -34724,7 +34939,7 @@
                 ]
             },
             "properties": {
-                "name": "Dartmouth Towne Center Shopping Mall - Tesla Supercharger;Dartmouth, MA",
+                "name": "Dartmouth Towne Center Shopping Mall - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "osm_id": [
                     11763760615
@@ -34736,7 +34951,7 @@
                     246707
                 ],
                 "network_id": "19560",
-                "street_address": "386 State Rd #6;83 Faunce Corner Mall Road",
+                "street_address": "83 Faunce Corner Mall Road",
                 "city": "Dartmouth",
                 "state": "MA",
                 "zip_code": "02747",
@@ -49448,14 +49663,6 @@
                     [
                         -73.292633,
                         42.556087
-                    ],
-                    [
-                        -73.292633,
-                        42.556087
-                    ],
-                    [
-                        -73.292633,
-                        42.556087
                     ]
                 ]
             },
@@ -49472,9 +49679,9 @@
                 "urls": [
                     "https://openchargemap.org/site/poi/details/97879"
                 ],
-                "charging_points:count": 4,
-                "charging_points:capacity": "1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1",
+                "charging_points:count": 2,
+                "charging_points:capacity": "2;2",
+                "charging_points:plugs_count": "2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -49505,35 +49712,6 @@
                     "https://afdc.energy.gov/stations#/station/114337",
                     "https://openchargemap.org/site/poi/details/277632"
                 ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.2404,
-                        42.44833
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Johnson Ford",
-                "ocm_id": [
-                    8017
-                ],
-                "street_address": "694 East Street",
-                "city": "Pittsfield",
-                "state": "MA",
-                "zip_code": "01201",
-                "urls": [
-                    "https://openchargemap.org/site/poi/details/8017"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
             }
         },
         {
@@ -51458,20 +51636,25 @@
                     [
                         -71.22416,
                         42.447315
+                    ],
+                    [
+                        -71.224554,
+                        42.446848
                     ]
                 ]
             },
             "properties": {
-                "name": "LEXINGTON MA TOWN HALL 1;LEXINGTON MA TOWN HALL 2",
+                "name": "LEXINGTON MA TOWN HALL 1;LEXINGTON MA TOWN HALL 2;LEXINGTON MA TOWN HALL 3",
                 "network": "CHARGEPOINT",
                 "nrel_id": [
                     200936,
-                    200937
+                    200937,
+                    353467
                 ],
                 "ocm_id": [
                     247348
                 ],
-                "network_id": "USCPIL11489391;USCPIL11489421",
+                "network_id": "USCPIL11489391;USCPIL11489421;USCPIL16260981",
                 "street_address": "1625 Massachusetts Avenue",
                 "city": "Lexington",
                 "state": "MA",
@@ -51479,11 +51662,12 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/200936",
                     "https://afdc.energy.gov/stations#/station/200937",
+                    "https://afdc.energy.gov/stations#/station/353467",
                     "https://openchargemap.org/site/poi/details/247348"
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
+                "charging_points:count": 3,
+                "charging_points:capacity": "2;2;2",
+                "charging_points:plugs_count": "2;2;2",
                 "charging_points:plugs_type": "J1772"
             }
         },
@@ -52687,44 +52871,6 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -73.274941,
-                        42.298432
-                    ],
-                    [
-                        -73.274941,
-                        42.298432
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Lee Service Plaza",
-                "network": "AUTEL",
-                "osm_id": [
-                    5254161514
-                ],
-                "ocm_id": [
-                    247114
-                ],
-                "street_address": "Lee Westbound Massachusetts Turnpike",
-                "city": "Lee",
-                "state": "MA",
-                "zip_code": "01238",
-                "urls": [
-                    "https://www.openstreetmap.org/node/5254161514",
-                    "https://openchargemap.org/site/poi/details/247114"
-                ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772_COMBO"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
                         -73.274303,
                         42.297105
                     ]
@@ -52847,40 +52993,28 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -71.080086,
-                        42.34905
-                    ]
+                    -71.080086,
+                    42.34905
                 ]
             },
             "properties": {
                 "name": "Lenox Hotel",
-                "network": "VOLTA",
-                "osm_id": [
-                    12048266252
-                ],
                 "nrel_id": [
                     167923
                 ],
                 "ocm_id": [
                     247203
                 ],
-                "network_id": "fc373855-9fb0-42a6-9419-69908f3d4ea8",
                 "street_address": "61 Exeter Street",
                 "city": "Boston",
                 "state": "MA",
                 "zip_code": "02116",
                 "urls": [
-                    "https://www.openstreetmap.org/node/12048266252",
                     "https://afdc.energy.gov/stations#/station/167923",
                     "https://openchargemap.org/site/poi/details/247203"
-                ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                ]
             }
         },
         {
@@ -53570,10 +53704,13 @@
                 ]
             },
             "properties": {
-                "name": "Lowell MA - Tesla Supercharger;Lowell, MA",
+                "name": "Lowell MA - Tesla Supercharger;Lowell, MA;Lowell, MA - Tesla Supercharger",
                 "network": "TESLA_SUPERCHARGER",
                 "osm_id": [
                     1308346996
+                ],
+                "nrel_id": [
+                    353810
                 ],
                 "network_id": "30752",
                 "street_address": "850 Chelmsford Street",
@@ -53581,7 +53718,8 @@
                 "state": "MA",
                 "zip_code": "01851",
                 "urls": [
-                    "https://www.openstreetmap.org/node/1308346996"
+                    "https://www.openstreetmap.org/node/1308346996",
+                    "https://afdc.energy.gov/stations#/station/353810"
                 ],
                 "charging_points:count": 12,
                 "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
@@ -69636,6 +69774,37 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.67125,
+                        42.290765
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Northborough Crossing Wegmans",
+                "network": "SHELL_RECHARGE",
+                "nrel_id": [
+                    353685
+                ],
+                "network_id": "5658",
+                "street_address": "9012 Shops Way",
+                "city": "Northborough",
+                "state": "MA",
+                "zip_code": "01532",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353685"
+                ],
+                "charging_points:count": 1,
+                "charging_points:capacity": "2",
+                "charging_points:plugs_count": "2",
+                "charging_points:plugs_type": "J1772"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -72.739,
@@ -74327,6 +74496,9 @@
             "properties": {
                 "name": "Prudential Parking Garage",
                 "network": "VOLTA",
+                "osm_id": [
+                    12048266252
+                ],
                 "nrel_id": [
                     194547
                 ],
@@ -74339,6 +74511,7 @@
                 "state": "MA",
                 "zip_code": "02199",
                 "urls": [
+                    "https://www.openstreetmap.org/node/12048266252",
                     "https://afdc.energy.gov/stations#/station/194547",
                     "https://openchargemap.org/site/poi/details/247200"
                 ],
@@ -85671,8 +85844,8 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.100545,
-                        42.487836
+                        -71.100453,
+                        42.48795
                     ]
                 ]
             },
@@ -95821,7 +95994,7 @@
                     229277
                 ],
                 "network_id": "USCPIL5438901;USCPIL5438911;USCPIL5438921",
-                "street_address": "17 Eastman Ln Lot 43;Lot 43 Behind Totman Gym Lot 43;Lot 43, Behind Totman Gym Lot 43",
+                "street_address": "17 Eastman Ln Lot 43;Lot 43 Behind Totman Gym Lot 43;Lot 43, Behind Totman Gym Lot 43;Lot 43, behind Totman Gym Lot 43",
                 "city": "Amherst",
                 "state": "MA",
                 "zip_code": "01003",
@@ -98097,6 +98270,30 @@
                 "urls": [
                     "https://afdc.energy.gov/stations#/station/220672",
                     "https://openchargemap.org/site/poi/details/228225"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.764652,
+                    42.068521
+                ]
+            },
+            "properties": {
+                "name": "Valvoline Express Care",
+                "network": "RED_E",
+                "nrel_id": [
+                    353821
+                ],
+                "street_address": "657 College Highway",
+                "city": "Southwick",
+                "state": "MA",
+                "zip_code": "01077",
+                "urls": [
+                    "https://afdc.energy.gov/stations#/station/353821"
                 ]
             }
         },
@@ -102837,10 +103034,6 @@
                     [
                         -73.289691,
                         42.557174
-                    ],
-                    [
-                        -73.289691,
-                        42.557174
                     ]
                 ]
             },
@@ -102849,16 +103042,16 @@
                 "ocm_id": [
                     265892
                 ],
-                "street_address": "Mountainside Drive",
+                "street_address": "1 Corey Road",
                 "city": "Hancock",
                 "state": "MA",
                 "zip_code": "01237",
                 "urls": [
                     "https://openchargemap.org/site/poi/details/265892"
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
+                "charging_points:count": 1,
+                "charging_points:capacity": "1",
+                "charging_points:plugs_count": "1",
                 "charging_points:plugs_type": "J1772"
             }
         },

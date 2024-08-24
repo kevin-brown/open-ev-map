@@ -94,12 +94,6 @@ class SourcedValue[T](NamedTuple):
     source: SourceData
     value: T
 
-    def __eq__(self, other):
-        if not isinstance(other, SourcedValue):
-            return False
-
-        return other.value == self.value
-
     def __repr__(self):
         return f"<SourcedValue({self.source.location!r}, {self.value!r})>"
 
@@ -1341,7 +1335,7 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
 def sourced_attribute_to_geojson_property(sourced_attribute: SourcedAttribute) -> list:
     property_values = []
 
-    for sourced_value in sourced_attribute.values:
+    for sourced_value in sorted(sourced_attribute.values, key=lambda v: (v.value, v.source.url)):
         source = sourced_value.source
 
         property_value = {
@@ -1383,7 +1377,7 @@ def addresses_from_station(station: Station) -> list:
             }
         })
 
-    return addresses
+    return sorted(addresses, key=lambda a: (-len(a["address"]), a["source"]["url"]))
 
 
 with open("nrel-clean.json", "r") as nrel_fh:
@@ -1435,7 +1429,7 @@ for station in combined_data:
     station_references.extend(sourced_attribute_to_geojson_property(station.osm_id))
 
     if station_references:
-        station_properties["references"] = [ref["source"] for ref in station_references]
+        station_properties["references"] = [ref["source"] for ref in sorted(station_references, key=lambda r: r["source"]["url"])]
 
     if station.charging_points:
         station_properties["charging_points:count"] = len(station.charging_points)

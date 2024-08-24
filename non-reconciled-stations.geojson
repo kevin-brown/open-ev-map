@@ -148,15 +148,6 @@
                 "address": [
                     {
                         "address": {
-                            "street_address": "83 Cambridge Street"
-                        },
-                        "source": {
-                            "name": "OPEN_STREET_MAP",
-                            "url": "https://www.openstreetmap.org/node/7814651586"
-                        }
-                    },
-                    {
-                        "address": {
                             "street_address": "83 Cambridge Street",
                             "city": "Boston",
                             "zip_code": "02114"
@@ -165,16 +156,25 @@
                             "name": "OPEN_STREET_MAP",
                             "url": "https://www.openstreetmap.org/node/7814651585"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "83 Cambridge Street"
+                        },
+                        "source": {
+                            "name": "OPEN_STREET_MAP",
+                            "url": "https://www.openstreetmap.org/node/7814651586"
+                        }
                     }
                 ],
                 "references": [
                     {
                         "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/7814651586"
+                        "url": "https://www.openstreetmap.org/node/7814651585"
                     },
                     {
                         "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/7814651585"
+                        "url": "https://www.openstreetmap.org/node/7814651586"
                     }
                 ]
             }
@@ -1846,15 +1846,6 @@
                 "address": [
                     {
                         "address": {
-                            "street_address": "80 Massachusetts Turnpike"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333714"
-                        }
-                    },
-                    {
-                        "address": {
                             "street_address": "80 Massachusetts Turnpike",
                             "city": "Charlton",
                             "state": "MA",
@@ -1863,6 +1854,15 @@
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                             "url": "https://afdc.energy.gov/stations#/station/333461"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "80 Massachusetts Turnpike"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                            "url": "https://afdc.energy.gov/stations#/station/333714"
                         }
                     }
                 ],
@@ -2901,14 +2901,14 @@
                         "value": "Country Nissan",
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/45887"
+                            "url": "https://afdc.energy.gov/stations#/station/45886"
                         }
                     },
                     {
                         "value": "Country Nissan",
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/45886"
+                            "url": "https://afdc.energy.gov/stations#/station/45887"
                         }
                     }
                 ],
@@ -2916,7 +2916,10 @@
                 "address": [
                     {
                         "address": {
-                            "street_address": "40 Russell Street"
+                            "street_address": "40 Russell Street",
+                            "city": "Hadley",
+                            "state": "MA",
+                            "zip_code": "01035"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
@@ -2925,10 +2928,7 @@
                     },
                     {
                         "address": {
-                            "street_address": "40 Russell Street",
-                            "city": "Hadley",
-                            "state": "MA",
-                            "zip_code": "01035"
+                            "street_address": "40 Russell Street"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
@@ -4077,28 +4077,19 @@
                         "value": "Jerry Rome Nissan",
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/45813"
+                            "url": "https://afdc.energy.gov/stations#/station/45812"
                         }
                     },
                     {
                         "value": "Jerry Rome Nissan",
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/45812"
+                            "url": "https://afdc.energy.gov/stations#/station/45813"
                         }
                     }
                 ],
                 "network": "NON_NETWORKED",
                 "address": [
-                    {
-                        "address": {
-                            "street_address": "500 Riverdale Street"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/45813"
-                        }
-                    },
                     {
                         "address": {
                             "street_address": "500 Riverdale Street",
@@ -4109,6 +4100,15 @@
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                             "url": "https://afdc.energy.gov/stations#/station/45812"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "500 Riverdale Street"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                            "url": "https://afdc.energy.gov/stations#/station/45813"
                         }
                     }
                 ],
@@ -4847,28 +4847,19 @@
                         "value": "Michaud Mitsubishi",
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/48856"
+                            "url": "https://afdc.energy.gov/stations#/station/145553"
                         }
                     },
                     {
                         "value": "Michaud Mitsubishi",
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/145553"
+                            "url": "https://afdc.energy.gov/stations#/station/48856"
                         }
                     }
                 ],
                 "network": "NON_NETWORKED",
                 "address": [
-                    {
-                        "address": {
-                            "street_address": "80 Andover Street"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/48856"
-                        }
-                    },
                     {
                         "address": {
                             "street_address": "80 Andover Street",
@@ -4880,16 +4871,25 @@
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                             "url": "https://afdc.energy.gov/stations#/station/145553"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "80 Andover Street"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                            "url": "https://afdc.energy.gov/stations#/station/48856"
+                        }
                     }
                 ],
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/48856"
+                        "url": "https://afdc.energy.gov/stations#/station/145553"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/145553"
+                        "url": "https://afdc.energy.gov/stations#/station/48856"
                     }
                 ]
             }
@@ -7437,31 +7437,22 @@
             "properties": {
                 "name": [
                     {
-                        "value": "Wegmans food court",
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/191889"
-                        }
-                    },
-                    {
                         "value": "Wegmans Parking Deck A1",
                         "source": {
                             "name": "OPEN_CHARGE_MAP",
                             "url": "https://openchargemap.org/site/poi/details/191890"
                         }
+                    },
+                    {
+                        "value": "Wegmans food court",
+                        "source": {
+                            "name": "OPEN_CHARGE_MAP",
+                            "url": "https://openchargemap.org/site/poi/details/191889"
+                        }
                     }
                 ],
                 "network": "VOLTA",
                 "address": [
-                    {
-                        "address": {
-                            "street_address": "Natick Mall Road"
-                        },
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/191890"
-                        }
-                    },
                     {
                         "address": {
                             "street_address": "Natick Mall Road",
@@ -7473,16 +7464,25 @@
                             "name": "OPEN_CHARGE_MAP",
                             "url": "https://openchargemap.org/site/poi/details/191889"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "Natick Mall Road"
+                        },
+                        "source": {
+                            "name": "OPEN_CHARGE_MAP",
+                            "url": "https://openchargemap.org/site/poi/details/191890"
+                        }
                     }
                 ],
                 "references": [
                     {
                         "name": "OPEN_CHARGE_MAP",
-                        "url": "https://openchargemap.org/site/poi/details/191890"
+                        "url": "https://openchargemap.org/site/poi/details/191889"
                     },
                     {
                         "name": "OPEN_CHARGE_MAP",
-                        "url": "https://openchargemap.org/site/poi/details/191889"
+                        "url": "https://openchargemap.org/site/poi/details/191890"
                     }
                 ],
                 "charging_points:count": 1,

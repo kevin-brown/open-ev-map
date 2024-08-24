@@ -64,7 +64,7 @@
 
     if (stationAddress.zip_code) {
       if (address) {
-        address += ", ";
+        address += " ";
       }
 
       address += stationAddress.zip_code;

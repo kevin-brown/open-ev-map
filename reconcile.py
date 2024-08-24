@@ -1,3 +1,4 @@
+from collections import defaultdict
 from dataclasses import dataclass
 from geopy import distance
 from typing import NamedTuple, Optional, Self
@@ -73,6 +74,20 @@ class SourceLocation(enum.Enum):
 class SourceData(NamedTuple):
     location: SourceLocation
     reference: str
+
+    @property
+    def url(self):
+        if self.location == SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER:
+            return f"https://afdc.energy.gov/stations#/station/{self.reference}"
+
+        if self.location == SourceLocation.OPEN_CHARGE_MAP:
+            return f"https://openchargemap.org/site/poi/details/{self.reference}"
+
+        if self.location == SourceLocation.OPEN_STREET_MAP:
+            return f"https://www.openstreetmap.org/node/{self.reference}"
+
+        if self.location == SourceLocation.SUPERCHARGE:
+            return f"https://supercharge.info/map?siteID={self.reference}"
 
 
 class SourcedValue[T](NamedTuple):
@@ -1323,6 +1338,54 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
     return all_stations
 
 
+def sourced_attribute_to_geojson_property(sourced_attribute: SourcedAttribute) -> list:
+    property_values = []
+
+    for sourced_value in sourced_attribute.values:
+        source = sourced_value.source
+
+        property_value = {
+            "value": sourced_value.value,
+            "source": {
+                "name": source.location.name,
+                "url": source.url,
+            }
+        }
+
+        property_values.append(property_value)
+
+    return property_values
+
+
+def addresses_from_station(station: Station) -> list:
+    addresses = []
+
+    sourced_information: dict[SourceData, ] = defaultdict(dict)
+
+    for street_address in station.street_address.values:
+        sourced_information[street_address.source]["street_address"] = street_address.value
+
+    for city in station.city.values:
+        sourced_information[street_address.source]["city"] = city.value
+
+    for state in station.state.values:
+        sourced_information[street_address.source]["state"] = state.value
+
+    for zip_code in station.zip_code.values:
+        sourced_information[street_address.source]["zip_code"] = zip_code.value
+
+    for source, address in sourced_information.items():
+        addresses.append({
+            "address": address,
+            "source": {
+                "name": source.location.name,
+                "url": source.url,
+            }
+        })
+
+    return addresses
+
+
 with open("nrel-clean.json", "r") as nrel_fh:
     nrel_raw_data = json.load(nrel_fh)
 
@@ -1355,38 +1418,24 @@ for station in combined_data:
 
     station_properties = {}
 
-    station_urls = []
-
     if station.name.get():
-        station_properties["name"] = station.name.get()
+        station_properties["name"] = sourced_attribute_to_geojson_property(station.name)
     if station.network:
         station_properties["network"] = station.network.name
-    if station.osm_id.get():
-        station_properties["osm_id"] = station.osm_id.get()
-        for osm_id in station.osm_id.get():
-            station_urls.append(f"https://www.openstreetmap.org/node/{osm_id}")
-    if station.nrel_id.get():
-        station_properties["nrel_id"] = station.nrel_id.get()
-        for nrel_id in station.nrel_id.get():
-            station_urls.append(f"https://afdc.energy.gov/stations#/station/{nrel_id}")
-    if station.ocm_id.get():
-        station_properties["ocm_id"] = station.ocm_id.get()
-        for ocm_id in station.ocm_id.get():
-            station_urls.append(f"https://openchargemap.org/site/poi/details/{ocm_id}")
     if station.network_id.get():
-        station_properties["network_id"] = station.network_id.get()
+        station_properties["network_id"] = sourced_attribute_to_geojson_property(station.network_id)
 
-    if station.street_address.get():
-        station_properties["street_address"] = station.street_address.get()
-    if station.city.get():
-        station_properties["city"] = station.city.get()
-    if station.state.get():
-        station_properties["state"] = station.state.get()
-    if station.zip_code.get():
-        station_properties["zip_code"] = station.zip_code.get()
+    if station_addresses := addresses_from_station(station):
+        station_properties["address"] = station_addresses
 
-    if station_urls:
-        station_properties["urls"] = station_urls
+    station_references = list()
+
+    station_references.extend(sourced_attribute_to_geojson_property(station.nrel_id))
+    station_references.extend(sourced_attribute_to_geojson_property(station.ocm_id))
+    station_references.extend(sourced_attribute_to_geojson_property(station.osm_id))
+
+    if station_references:
+        station_properties["references"] = [ref["source"] for ref in station_references]
 
     if station.charging_points:
         station_properties["charging_points:count"] = len(station.charging_points)

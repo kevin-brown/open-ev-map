@@ -528,6 +528,10 @@ def osm_parse_charging_station(osm_element) -> Station:
         for nrel_id in tags["ref:afdc"].split(";"):
             station.nrel_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), int(nrel_id)))
 
+    if "ref:ocpi" in tags:
+        for network_id in tags["ref:ocpi"].split(";"):
+            station.network_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), network_id))
+
     station.network = network_from_osm_tags(tags)
 
     return station
@@ -710,6 +714,10 @@ def osm_parse_charging_point(osm_element) -> ChargingPoint:
     charging_point.charging_port_groups = charging_port_groups
 
     charging_point._osm_network = network_from_osm_tags(osm_tags)
+
+    if "ref:ocpi" in osm_tags:
+        for network_id in osm_tags["ref:ocpi"].split(";"):
+            charging_point.network_id = network_id
 
     return charging_point
 
@@ -1367,13 +1375,13 @@ def addresses_from_station(station: Station) -> list:
         sourced_information[street_address.source]["street_address"] = street_address.value
 
     for city in station.city.values:
-        sourced_information[street_address.source]["city"] = city.value
+        sourced_information[city.source]["city"] = city.value
 
     for state in station.state.values:
-        sourced_information[street_address.source]["state"] = state.value
+        sourced_information[state.source]["state"] = state.value
 
     for zip_code in station.zip_code.values:
-        sourced_information[street_address.source]["zip_code"] = zip_code.value
+        sourced_information[zip_code.source]["zip_code"] = zip_code.value
 
     for source, address in sourced_information.items():
         addresses.append({

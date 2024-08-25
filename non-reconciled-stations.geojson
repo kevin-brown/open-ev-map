@@ -159,7 +159,9 @@
                     },
                     {
                         "address": {
-                            "street_address": "83 Cambridge Street"
+                            "street_address": "83 Cambridge Street",
+                            "city": "Boston",
+                            "zip_code": "02114"
                         },
                         "source": {
                             "name": "OPEN_STREET_MAP",
@@ -1853,16 +1855,19 @@
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333714"
+                            "url": "https://afdc.energy.gov/stations#/station/333461"
                         }
                     },
                     {
                         "address": {
-                            "street_address": "80 Massachusetts Turnpike"
+                            "street_address": "80 Massachusetts Turnpike",
+                            "city": "Charlton",
+                            "state": "MA",
+                            "zip_code": "01507"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333461"
+                            "url": "https://afdc.energy.gov/stations#/station/333714"
                         }
                     }
                 ],
@@ -2928,7 +2933,10 @@
                     },
                     {
                         "address": {
-                            "street_address": "40 Russell Street"
+                            "street_address": "40 Russell Street",
+                            "city": "Hadley",
+                            "state": "MA",
+                            "zip_code": "01035"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
@@ -4099,16 +4107,19 @@
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/45813"
+                            "url": "https://afdc.energy.gov/stations#/station/45812"
                         }
                     },
                     {
                         "address": {
-                            "street_address": "500 Riverdale Street"
+                            "street_address": "500 Riverdale Street",
+                            "city": "West Springfield",
+                            "state": "MA",
+                            "zip_code": "01089"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/45812"
+                            "url": "https://afdc.energy.gov/stations#/station/45813"
                         }
                     }
                 ],
@@ -4874,7 +4885,10 @@
                     },
                     {
                         "address": {
-                            "street_address": "80 Andover Street"
+                            "street_address": "80 Andover Street",
+                            "city": "Danvers",
+                            "state": "MA",
+                            "zip_code": "01923"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
@@ -7467,7 +7481,9 @@
                     },
                     {
                         "address": {
-                            "street_address": "Natick Mall Road"
+                            "street_address": "Natick Mall Road",
+                            "city": "Natick",
+                            "state": "MA"
                         },
                         "source": {
                             "name": "OPEN_CHARGE_MAP",

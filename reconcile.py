@@ -64,6 +64,13 @@ class ChargingNetwork(enum.Enum):
     NON_NETWORKED = enum.auto()
 
 
+class SourceLocationQualityScore(enum.Enum):
+    ALTERNATIVE_FUELS_DATA_CENTER = 10
+    OPEN_CHARGE_MAP = 20
+    OPEN_STREET_MAP = 40
+    SUPERCHARGE = 30
+
+
 class SourceLocation(enum.Enum):
     ALTERNATIVE_FUELS_DATA_CENTER = enum.auto()
     OPEN_CHARGE_MAP = enum.auto()
@@ -1335,7 +1342,7 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
 def sourced_attribute_to_geojson_property(sourced_attribute: SourcedAttribute) -> list:
     property_values = []
 
-    for sourced_value in sorted(sourced_attribute.values, key=lambda v: (v.value, v.source.url)):
+    for sourced_value in sorted(sourced_attribute.values, key=lambda v: (SourceLocationQualityScore[v.source.location.name].value, v.value, v.source.url)):
         source = sourced_value.source
 
         property_value = {
@@ -1377,7 +1384,7 @@ def addresses_from_station(station: Station) -> list:
             }
         })
 
-    return sorted(addresses, key=lambda a: (-len(a["address"]), a["source"]["url"]))
+    return sorted(addresses, key=lambda a: (SourceLocationQualityScore[a["source"]["name"]].value, -len(a["address"]), a["source"]["url"]))
 
 
 with open("nrel-clean.json", "r") as nrel_fh:

@@ -119,7 +119,7 @@
               {#each stationMarker.properties.name as name}
               <li>
                 {name.value}<br />
-                <span class="italic">from <a href={name.source.url} class="underline">{formatSourceName(name.source.name)}</a></span>
+                <span class="italic">from <a href={name.source.url} class="underline" target="_blank">{formatSourceName(name.source.name)}</a></span>
               </li>
               {/each}
             </ul>
@@ -132,7 +132,7 @@
               {#each stationMarker.properties.address as address}
               <li>
                 {formatStationAddress(address.address)}<br />
-                <span class="italic">from <a href={address.source.url} class="underline">{formatSourceName(address.source.name)}</a></span>
+                <span class="italic">from <a href={address.source.url} class="underline" target="_blank">{formatSourceName(address.source.name)}</a></span>
               </li>
               {/each}
             </ul>
@@ -143,7 +143,7 @@
             </h4>
             <ul class="list-disc">
               {#each stationMarker.properties.references as reference}
-              <li><a href={reference.url} class="underline">{formatSourceName(reference.name)}</a></li>
+              <li><a href={reference.url} class="underline" target="_blank">{formatSourceName(reference.name)}</a></li>
               {/each}
               </ul>
             {/if}

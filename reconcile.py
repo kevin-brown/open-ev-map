@@ -1443,6 +1443,10 @@ for station in combined_data:
     station_references.extend(sourced_attribute_to_geojson_property(station.ocm_id))
     station_references.extend(sourced_attribute_to_geojson_property(station.osm_id))
 
+    station_references_unique = set()
+
+    station_references = [reference for reference in station_references if reference["source"]["url"] not in station_references_unique and not station_references_unique.add(reference["source"]["url"])]
+
     if station_references:
         station_properties["references"] = [ref["source"] for ref in sorted(station_references, key=lambda r: r["source"]["url"])]
 

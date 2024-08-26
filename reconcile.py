@@ -274,8 +274,8 @@ def combine_charging_points(first_points: list[ChargingPoint], second_points: li
     if len(first_points) != len(second_points):
         return [*first_points, *second_points]
 
-    first_network_ids = set(point.network_id for point in first_points if point.network_id)
-    second_network_ids = set(point.network_id for point in second_points if point.network_id)
+    first_network_ids = set(point.network_id.get() for point in first_points if point.network_id.get())
+    second_network_ids = set(point.network_id.get() for point in second_points if point.network_id.get())
 
     if first_network_ids or second_network_ids:
         if first_network_ids != second_network_ids:

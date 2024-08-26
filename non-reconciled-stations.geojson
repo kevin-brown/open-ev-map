@@ -268,7 +268,7 @@
                                 ]
                             }
                         ],
-                        "name": "",
+                        "name": "ChargePoint",
                         "osm_id": [
                             {
                                 "value": 7705586790,
@@ -296,7 +296,7 @@
                                 ]
                             }
                         ],
-                        "name": "",
+                        "name": "ChargePoint",
                         "osm_id": [
                             {
                                 "value": 8646200247,
@@ -324,7 +324,7 @@
                                 ]
                             }
                         ],
-                        "name": "",
+                        "name": "ChargePoint",
                         "osm_id": [
                             {
                                 "value": 8646200248,
@@ -352,7 +352,7 @@
                                 ]
                             }
                         ],
-                        "name": "",
+                        "name": "ChargePoint",
                         "osm_id": [
                             {
                                 "value": 12048327327,
@@ -1338,7 +1338,7 @@
                                 ]
                             }
                         ],
-                        "name": "",
+                        "name": "Tesla Destination Charger",
                         "osm_id": [
                             {
                                 "value": 8710873600,
@@ -9705,10 +9705,6 @@
                     [
                         -71.386504,
                         42.301379
-                    ],
-                    [
-                        -71.385618,
-                        42.302631
                     ]
                 ]
             },
@@ -9766,18 +9762,6 @@
                     }
                 ],
                 "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": ""
-                    },
                     {
                         "charging_groups": [
                             {

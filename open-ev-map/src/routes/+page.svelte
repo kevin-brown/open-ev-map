@@ -165,9 +165,9 @@
                   <tr>
                     <td colspan={Math.min(chargingPoint.charging_groups.length, 4)}>
                       {chargingPoint.name}
-                      {#if chargingPoint.network_id}
+                      {#if chargingPoint.network_id?.length > 0}
                       <br />
-                      ({chargingPoint.network_id})
+                      ({firstPropertyValueForDisplay(chargingPoint.network_id)})
                       {/if}
                     </td>
                   </tr>

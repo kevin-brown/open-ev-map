@@ -165,11 +165,11 @@ class ChargingPoint:
     name: str = ""
     location: SourcedAttribute[Location] = dataclasses.field(default_factory=SourcedAttribute)
 
-    osm_id: int = None
-    nrel_id: int = None
-    ocm_id: int = None
+    ocm_id: SourcedAttribute[int] = dataclasses.field(default_factory=SourcedAttribute)
+    osm_id: SourcedAttribute[int] = dataclasses.field(default_factory=SourcedAttribute)
+    nrel_id: SourcedAttribute[int] = dataclasses.field(default_factory=SourcedAttribute)
 
-    network_id: str = ""
+    network_id: SourcedAttribute[str] = dataclasses.field(default_factory=SourcedAttribute)
 
 
 @dataclass
@@ -465,13 +465,14 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
                     charging_port_groups.append(charging_port_group)
 
                 charging_point = ChargingPoint(
-                    network_id=station.network_id.get(),
-                    nrel_id=nrel_station["id"],
                     name=station.name.get(),
                     charging_port_groups=charging_port_groups,
                 )
                 charging_point_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
                 charging_point.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), charging_point_location))
+
+                charging_point.network_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), station.network_id.get()))
+                charging_point.nrel_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["id"]))
 
                 charging_points.append(charging_point)
 
@@ -688,12 +689,17 @@ def osm_parse_charging_point(osm_element) -> ChargingPoint:
 
     osm_tags = osm_element["tags"]
 
-    charging_point = ChargingPoint(
-        osm_id=osm_element["id"],
-    )
+    charging_point = ChargingPoint()
 
     charging_point_location = Location(latitude=osm_element["lat"], longitude=osm_element["lon"])
     charging_point.location.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), charging_point_location))
+
+    charging_point.osm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), osm_element["id"]))
+
+    if "name" in osm_tags:
+        charging_point.name = osm_tags["name"]
+    elif "ref" in osm_tags:
+        charging_point.name = osm_tags["ref"]
 
     socket_counts: dict[PlugType, int] = {}
 
@@ -717,7 +723,7 @@ def osm_parse_charging_point(osm_element) -> ChargingPoint:
 
     if "ref:ocpi" in osm_tags:
         for network_id in osm_tags["ref:ocpi"].split(";"):
-            charging_point.network_id = network_id
+            charging_point.network_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), network_id))
 
     return charging_point
 
@@ -992,7 +998,7 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
             station.charging_points = guess_charging_point_groups(charge_point_count, plug_counts)
 
         for charging_point in station.charging_points:
-            charging_point.location = station.location
+            charging_point.location.extend(station.location)
 
         stations.append(station)
 
@@ -1058,7 +1064,7 @@ def normalize_supercharge_data(supercharge_raw_data) -> list[Station]:
         station.charging_points = guess_charging_point_groups(capacity, plug_counts)
 
         for charging_point in station.charging_points:
-            charging_point.location = station.location
+            charging_point.location.extend(station.location)
 
         stations.append(station)
 
@@ -1459,8 +1465,17 @@ for station in combined_data:
                 "name": station_charging_point.name,
             }
 
-            if station_charging_point.network_id:
-                charging_point["network_id"] = station_charging_point.network_id
+            if station_charging_point.network_id.get():
+                charging_point["network_id"] = sourced_attribute_to_geojson_property(station_charging_point.network_id)
+
+            if station_charging_point.ocm_id.get():
+                charging_point["ocm_id"] = sourced_attribute_to_geojson_property(station_charging_point.ocm_id)
+
+            if station_charging_point.osm_id.get():
+                charging_point["osm_id"] = sourced_attribute_to_geojson_property(station_charging_point.osm_id)
+
+            if station_charging_point.nrel_id.get():
+                charging_point["nrel_id"] = sourced_attribute_to_geojson_property(station_charging_point.nrel_id)
 
             for station_charging_group in station_charging_point.charging_port_groups:
                 charging_group = {

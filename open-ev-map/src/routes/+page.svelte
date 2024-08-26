@@ -95,6 +95,12 @@
 
     return SOURCE_NAME_DISPLAY[sourceName];
   }
+
+  function* chunks<T>(arr: T[], n: number): Generator<T[], void> {
+    for (let i = 0; i < arr.length; i += n) {
+      yield arr.slice(i, i + n);
+    }
+  }
 </script>
 
 <h1>Welcome to Open EV Map</h1>
@@ -143,23 +149,51 @@
             </h4>
             {#each stationMarker.properties.charging_points as chargingPoint}
             <div>
-              {chargingPoint.name}
-              {#if chargingPoint.network_id}
-              ({chargingPoint.network_id})
-              {/if}
-              {#each chargingPoint.charging_groups as chargingGroup}
-              <div>
-                Charging Group
-                {#if chargingGroup.network_id}
-                ({chargingGroup.network_id})
-                {/if}
-                {#each chargingGroup.ports as chargingPort}
-                <div>
-                  {chargingPort.plug_type}
-                </div>
-                {/each}
-              </div>
-              {/each}
+              <table class="border">
+                <thead>
+                  <tr>
+                    <td colspan={Math.min(chargingPoint.charging_groups.length, 4)}>
+                      {chargingPoint.name}
+                      {#if chargingPoint.network_id}
+                      ({chargingPoint.network_id})
+                      {/if}
+                    </td>
+                  </tr>
+                </thead>
+                <tbody>
+                  {#each chunks(chargingPoint.charging_groups, 4) as chargingGroupsChunk}
+                  <tr>
+                    {#each chargingGroupsChunk as chargingGroup}
+                    <td class="border">
+                      <table class="border">
+                        <thead>
+                          <tr>
+                            <td colspan={Math.min(chargingGroup.ports.length, 4)} class="border-b">
+                              Charging Group
+                              {#if chargingGroup.network_id}
+                              ({chargingGroup.network_id})
+                              {/if}
+                            </td>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {#each chunks(chargingGroup.ports, 4) as groupPortsChunk}
+                          <tr>
+                            {#each groupPortsChunk as chargingPort}
+                            <td class="border">
+                              {chargingPort.plug_type}
+                            </td>
+                            {/each}
+                          </tr>
+                          {/each}
+                        </tbody>
+                      </table>
+                    </td>
+                    {/each}
+                  </tr>
+                  {/each}
+                </tbody>
+              </table>
             </div>
             {/each}
             {/if}

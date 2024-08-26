@@ -96,6 +96,17 @@
     return SOURCE_NAME_DISPLAY[sourceName];
   }
 
+  function iconPathForPlugType(plugType: string): string {
+    const PLUG_TYPE_MAP = {
+      'CHADEMO': 'chademo',
+      'J1772': 'j1772',
+      'J1772_COMBO': 'j1772-combo',
+      'NACS': 'nacs',
+    }
+
+    return base + '/icons/plug-' + PLUG_TYPE_MAP[plugType] + '.svg';
+  }
+
   function* chunks<T>(arr: T[], n: number): Generator<T[], void> {
     for (let i = 0; i < arr.length; i += n) {
       yield arr.slice(i, i + n);
@@ -155,6 +166,7 @@
                     <td colspan={Math.min(chargingPoint.charging_groups.length, 4)}>
                       {chargingPoint.name}
                       {#if chargingPoint.network_id}
+                      <br />
                       ({chargingPoint.network_id})
                       {/if}
                     </td>
@@ -171,6 +183,7 @@
                             <td colspan={Math.min(chargingGroup.ports.length, 4)} class="border-b">
                               Charging Group
                               {#if chargingGroup.network_id}
+                              <br />
                               ({chargingGroup.network_id})
                               {/if}
                             </td>
@@ -181,7 +194,7 @@
                           <tr>
                             {#each groupPortsChunk as chargingPort}
                             <td class="border">
-                              {chargingPort.plug_type}
+                              <img src={iconPathForPlugType(chargingPort.plug_type)} alt={chargingPort.plug_type} height="50px" width="50px" class="mx-auto" />
                             </td>
                             {/each}
                           </tr>

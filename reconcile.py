@@ -1451,18 +1451,37 @@ for station in combined_data:
         station_properties["references"] = [ref["source"] for ref in sorted(station_references, key=lambda r: r["source"]["url"])]
 
     if station.charging_points:
-        station_properties["charging_points:count"] = len(station.charging_points)
-        station_properties["charging_points:capacity"] = ";".join(str(len(charging_point.charging_port_groups)) for charging_point in station.charging_points)
-        station_properties["charging_points:plugs_count"] = ";".join(str(sum(len(port_groups.charging_ports) for port_groups in charging_point.charging_port_groups)) for charging_point in station.charging_points)
+        charging_points = []
 
-        plug_types = set()
+        for station_charging_point in station.charging_points:
+            charging_point = {
+                "charging_groups": [],
+                "name": station_charging_point.name,
+            }
 
-        for charging_point in station.charging_points:
-            for charging_port_group in charging_point.charging_port_groups:
-                for charging_port in charging_port_group.charging_ports:
-                    plug_types.add(charging_port.plug.name)
+            if station_charging_point.network_id:
+                charging_point["network_id"] = station_charging_point.network_id
 
-        station_properties["charging_points:plugs_type"] = ";".join(sorted(plug_types))
+            for station_charging_group in station_charging_point.charging_port_groups:
+                charging_group = {
+                    "ports": [],
+                }
+
+                if station_charging_group.network_id:
+                    charging_group["network_id"] = station_charging_group.network_id
+
+                for station_charging_port in station_charging_group.charging_ports:
+                    charging_port = {
+                        "plug_type": station_charging_port.plug.name,
+                    }
+
+                    charging_group["ports"].append(charging_port)
+
+                charging_point["charging_groups"].append(charging_group)
+
+            charging_points.append(charging_point)
+
+        station_properties["charging_points"] = charging_points
 
         charging_point_coordinates = [
             (charging_point.location.get().longitude, charging_point.location.get().latitude)

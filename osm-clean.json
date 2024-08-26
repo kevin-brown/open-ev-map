@@ -3962,30 +3962,6 @@
     },
     {
       "type": "node",
-      "id": 11073594136,
-      "lat": 42.3699846,
-      "lon": -71.7869516,
-      "tags": {
-        "access": "yes",
-        "amenity": "charging_station",
-        "brand": "ChargePoint",
-        "brand:wikidata": "Q5176149",
-        "capacity": "2",
-        "charging_station:output": "125 kW",
-        "fee": "yes",
-        "name": "WB Goodale Park",
-        "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149",
-        "payment:app": "yes",
-        "payment:contactless": "yes",
-        "socket:chademo": "2",
-        "socket:type1_combo": "2",
-        "socket:type1_combo:output": "125 kW",
-        "website": "https://driver.chargepoint.com/stations/14283091"
-      }
-    },
-    {
-      "type": "node",
       "id": 11103398296,
       "lat": 41.7813687,
       "lon": -70.7436791,
@@ -9228,6 +9204,56 @@
       }
     },
     {
+      "type": "node",
+      "id": 12136012791,
+      "lat": 42.3699955,
+      "lon": -71.7869526,
+      "tags": {
+        "access": "yes",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "1",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "WB Goodale Park 2",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "payment:app": "yes",
+        "payment:contactless": "yes",
+        "ref:ocpi": "USCPIL14283031",
+        "socket:chademo": "1",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "125 kW",
+        "website": "https://driver.chargepoint.com/stations/14283031"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12136012792,
+      "lat": 42.3699485,
+      "lon": -71.786937,
+      "tags": {
+        "access": "yes",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "1",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "WB Goodale Park 1",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "payment:app": "yes",
+        "payment:contactless": "yes",
+        "ref:ocpi": "USCPIL14283091",
+        "socket:chademo": "1",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "125 kW",
+        "website": "https://driver.chargepoint.com/stations/14283091"
+      }
+    },
+    {
       "type": "way",
       "id": 954423391,
       "bounds": {
@@ -11861,6 +11887,85 @@
         "socket:tesla_supercharger:output": "250 kW",
         "socket:type1_combo": "12",
         "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1311069818,
+      "bounds": {
+        "minlat": 42.369934,
+        "minlon": -71.7869656,
+        "maxlat": 42.3700233,
+        "maxlon": -71.786855
+      },
+      "nodes": [
+        11073594136,
+        12136012793,
+        12136012788,
+        12136012797,
+        12136012795,
+        12136012789,
+        12136012794,
+        12136012790,
+        11073594136
+      ],
+      "geometry": [
+        {
+          "lat": 42.370009,
+          "lon": -71.7869656
+        },
+        {
+          "lat": 42.3700113,
+          "lon": -71.7869515
+        },
+        {
+          "lat": 42.3700233,
+          "lon": -71.7868772
+        },
+        {
+          "lat": 42.3699982,
+          "lon": -71.7868698
+        },
+        {
+          "lat": 42.3699741,
+          "lon": -71.7868626
+        },
+        {
+          "lat": 42.3699482,
+          "lon": -71.786855
+        },
+        {
+          "lat": 42.3699361,
+          "lon": -71.7869301
+        },
+        {
+          "lat": 42.369934,
+          "lon": -71.7869434
+        },
+        {
+          "lat": 42.370009,
+          "lon": -71.7869656
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "ChargePoint",
+        "brand:wikidata": "Q5176149",
+        "capacity": "2",
+        "charging_station:output": "125 kW",
+        "covered": "no",
+        "fee": "yes",
+        "name": "West Boylston Goodale Park",
+        "operator": "ChargePoint",
+        "operator:wikidata": "Q5176149",
+        "payment:app": "yes",
+        "payment:contactless": "yes",
+        "ref:ocpi": "USCPIL14283031;USCPIL14283091",
+        "socket:chademo": "2",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "125 kW"
       }
     },
     {

@@ -115,7 +115,7 @@
             <h4 class="font-bold">
               Names
             </h4>
-            <ul class="list-disc">
+            <ul class="list-disc px-4">
               {#each stationMarker.properties.name as name}
               <li>
                 {name.value}<br />
@@ -128,7 +128,7 @@
             <h4 class="font-bold">
               Addresses
             </h4>
-            <ul class="list-disc">
+            <ul class="list-disc px-4">
               {#each stationMarker.properties.address as address}
               <li>
                 {formatStationAddress(address.address)}<br />
@@ -137,11 +137,37 @@
               {/each}
             </ul>
             {/if}
+            {#if stationMarker.properties.charging_points?.length > 0}
+            <h4 class="font-bold">
+              Charging Points
+            </h4>
+            {#each stationMarker.properties.charging_points as chargingPoint}
+            <div>
+              {chargingPoint.name}
+              {#if chargingPoint.network_id}
+              ({chargingPoint.network_id})
+              {/if}
+              {#each chargingPoint.charging_groups as chargingGroup}
+              <div>
+                Charging Group
+                {#if chargingGroup.network_id}
+                ({chargingGroup.network_id})
+                {/if}
+                {#each chargingGroup.ports as chargingPort}
+                <div>
+                  {chargingPort.plug_type}
+                </div>
+                {/each}
+              </div>
+              {/each}
+            </div>
+            {/each}
+            {/if}
             {#if stationMarker.properties.references?.length > 0}
             <h4 class="font-bold">
               Sources
             </h4>
-            <ul class="list-disc">
+            <ul class="list-disc px-4">
               {#each stationMarker.properties.references as reference}
               <li><a href={reference.url} class="underline" target="_blank">{formatSourceName(reference.name)}</a></li>
               {/each}

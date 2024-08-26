@@ -250,10 +250,84 @@
                         "url": "https://www.openstreetmap.org/node/8646200249"
                     }
                 ],
-                "charging_points:count": 4,
-                "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2",
-                "charging_points:plugs_type": "J1772_SOCKET"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -794,10 +868,84 @@
                         "url": "https://www.openstreetmap.org/node/1288971321"
                     }
                 ],
-                "charging_points:count": 4,
-                "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2",
-                "charging_points:plugs_type": "J1772_SOCKET"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -823,10 +971,46 @@
                         "url": "https://www.openstreetmap.org/node/1301016160"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -852,10 +1036,46 @@
                         "url": "https://www.openstreetmap.org/node/1304537856"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -881,10 +1101,46 @@
                         "url": "https://www.openstreetmap.org/node/1304537857"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_SOCKET"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_SOCKET"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -910,10 +1166,46 @@
                         "url": "https://www.openstreetmap.org/node/1304720180"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772;NACS"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -951,10 +1243,103 @@
                         "url": "https://www.openstreetmap.org/node/1304749577"
                     }
                 ],
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -992,10 +1377,103 @@
                         "url": "https://www.openstreetmap.org/node/1304749578"
                     }
                 ],
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -1033,10 +1511,103 @@
                         "url": "https://www.openstreetmap.org/node/1304749579"
                     }
                 ],
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -1070,10 +1641,84 @@
                         "url": "https://www.openstreetmap.org/node/1304749580"
                     }
                 ],
-                "charging_points:count": 4,
-                "charging_points:capacity": "2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -1111,10 +1756,103 @@
                         "url": "https://www.openstreetmap.org/node/1304749581"
                     }
                 ],
-                "charging_points:count": 5,
-                "charging_points:capacity": "2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -1160,10 +1898,141 @@
                         "url": "https://www.openstreetmap.org/node/1305332114"
                     }
                 ],
-                "charging_points:count": 7,
-                "charging_points:capacity": "2;2;2;2;2;2;2",
-                "charging_points:plugs_count": "2;2;2;2;2;2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -1193,10 +2062,65 @@
                         "url": "https://www.openstreetmap.org/node/17891343"
                     }
                 ],
-                "charging_points:count": 3,
-                "charging_points:capacity": "2;2;2",
-                "charging_points:plugs_count": "2;2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -1618,10 +2542,23 @@
                         "url": "https://openchargemap.org/site/poi/details/228326"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -1770,10 +2707,80 @@
                         "url": "https://openchargemap.org/site/poi/details/9168"
                     }
                 ],
-                "charging_points:count": 6,
-                "charging_points:capacity": "1;1;1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1;1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -2008,10 +3015,20 @@
                         "url": "https://openchargemap.org/site/poi/details/300499"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772_COMBO"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -2139,10 +3156,20 @@
                         "url": "https://openchargemap.org/site/poi/details/247114"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772_COMBO"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -2232,10 +3259,46 @@
                         "url": "https://openchargemap.org/site/poi/details/143062"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772_COMBO"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -2326,10 +3389,46 @@
                         "url": "https://openchargemap.org/site/poi/details/279788"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -3198,10 +4297,152 @@
                         }
                     }
                 ],
-                "charging_points:count": 12,
-                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_type": "NACS"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -3674,10 +4915,44 @@
                         "url": "https://openchargemap.org/site/poi/details/114164"
                     }
                 ],
-                "charging_points:count": 3,
-                "charging_points:capacity": "1;1;1",
-                "charging_points:plugs_count": "1;1;1",
-                "charging_points:plugs_type": "NACS"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -3764,10 +5039,20 @@
                         "url": "https://openchargemap.org/site/poi/details/260177"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -3938,10 +5223,20 @@
                         "url": "https://openchargemap.org/site/poi/details/16220"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -4223,10 +5518,46 @@
                         "url": "https://openchargemap.org/site/poi/details/97879"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "2;2",
-                "charging_points:plugs_count": "2;2",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -4274,10 +5605,32 @@
                         "url": "https://openchargemap.org/site/poi/details/266683"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -4745,10 +6098,32 @@
                         "url": "https://openchargemap.org/site/poi/details/11851"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -4796,10 +6171,32 @@
                         "url": "https://openchargemap.org/site/poi/details/13502"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -5033,10 +6430,20 @@
                         "url": "https://openchargemap.org/site/poi/details/62300"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "NACS"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -5208,10 +6615,32 @@
                         "url": "https://openchargemap.org/site/poi/details/94782"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -5297,10 +6726,23 @@
                         "url": "https://openchargemap.org/site/poi/details/85235"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    },
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -5433,10 +6875,32 @@
                         "url": "https://openchargemap.org/site/poi/details/159971"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -5527,10 +6991,32 @@
                         "url": "https://openchargemap.org/site/poi/details/277419"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -5621,10 +7107,44 @@
                         "url": "https://openchargemap.org/site/poi/details/85232"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "3;3",
-                "charging_points:plugs_type": "CHADEMO;J1772;J1772_COMBO"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    },
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    },
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -6035,10 +7555,152 @@
                         "url": "https://openchargemap.org/site/poi/details/104428"
                     }
                 ],
-                "charging_points:count": 12,
-                "charging_points:capacity": "1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1;1;1;1;1;1;1;1;1",
-                "charging_points:plugs_type": "NACS"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -6503,10 +8165,20 @@
                         "url": "https://openchargemap.org/site/poi/details/104375"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -6677,10 +8349,20 @@
                         "url": "https://openchargemap.org/site/poi/details/84281"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "NACS"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -6725,10 +8407,23 @@
                         "url": "https://openchargemap.org/site/poi/details/85237"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    },
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -6773,10 +8468,20 @@
                         "url": "https://openchargemap.org/site/poi/details/79937"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "NACS"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "NACS"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -6841,10 +8546,80 @@
                         "url": "https://openchargemap.org/site/poi/details/299984"
                     }
                 ],
-                "charging_points:count": 6,
-                "charging_points:capacity": "1;1;1;1;1;1",
-                "charging_points:plugs_count": "1;1;1;1;1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -6931,10 +8706,23 @@
                         "url": "https://openchargemap.org/site/poi/details/296286"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "2",
-                "charging_points:plugs_type": "CHADEMO;J1772_COMBO"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    },
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -7109,10 +8897,32 @@
                         "url": "https://openchargemap.org/site/poi/details/265893"
                     }
                 ],
-                "charging_points:count": 2,
-                "charging_points:capacity": "1;1",
-                "charging_points:plugs_count": "1;1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -7501,10 +9311,20 @@
                         "url": "https://openchargemap.org/site/poi/details/191890"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         },
         {
@@ -7590,10 +9410,20 @@
                         "url": "https://openchargemap.org/site/poi/details/265892"
                     }
                 ],
-                "charging_points:count": 1,
-                "charging_points:capacity": "1",
-                "charging_points:plugs_count": "1",
-                "charging_points:plugs_type": "J1772"
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
             }
         }
     ]

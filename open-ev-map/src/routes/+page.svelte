@@ -158,57 +158,59 @@
             <h4 class="font-bold">
               Charging Points
             </h4>
-            {#each stationMarker.properties.charging_points as chargingPoint}
-            <div>
-              <table class="border">
-                <thead>
-                  <tr>
-                    <td colspan={Math.min(chargingPoint.charging_groups.length, 4)}>
-                      {chargingPoint.name}
-                      {#if chargingPoint.network_id?.length > 0}
-                      <br />
-                      ({firstPropertyValueForDisplay(chargingPoint.network_id)})
-                      {/if}
-                    </td>
-                  </tr>
-                </thead>
-                <tbody>
-                  {#each chunks(chargingPoint.charging_groups, 4) as chargingGroupsChunk}
-                  <tr>
-                    {#each chargingGroupsChunk as chargingGroup}
-                    <td class="border">
-                      <table class="border">
-                        <thead>
-                          <tr>
-                            <td colspan={Math.min(chargingGroup.ports.length, 4)} class="border-b">
-                              Charging Group
-                              {#if chargingGroup.network_id}
-                              <br />
-                              ({chargingGroup.network_id})
-                              {/if}
-                            </td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {#each chunks(chargingGroup.ports, 4) as groupPortsChunk}
-                          <tr>
-                            {#each groupPortsChunk as chargingPort}
-                            <td class="border">
-                              <img src={iconPathForPlugType(chargingPort.plug_type)} alt={chargingPort.plug_type} height="50px" width="50px" class="mx-auto" />
-                            </td>
+            <div class="grid grid-cols-{Math.min(stationMarker.properties.charging_points.length, 3)} gap-4">
+              {#each stationMarker.properties.charging_points as chargingPoint}
+              <div>
+                <table class="border">
+                  <thead>
+                    <tr>
+                      <td colspan={Math.min(chargingPoint.charging_groups.length, 4)}>
+                        {chargingPoint.name}
+                        {#if chargingPoint.network_id?.length > 0}
+                        <br />
+                        ({firstPropertyValueForDisplay(chargingPoint.network_id)})
+                        {/if}
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {#each chunks(chargingPoint.charging_groups, 4) as chargingGroupsChunk}
+                    <tr>
+                      {#each chargingGroupsChunk as chargingGroup}
+                      <td class="border">
+                        <table class="border">
+                          <thead>
+                            <tr>
+                              <td colspan={Math.min(chargingGroup.ports.length, 4)} class="border-b">
+                                Charging Group
+                                {#if chargingGroup.network_id}
+                                <br />
+                                ({chargingGroup.network_id})
+                                {/if}
+                              </td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {#each chunks(chargingGroup.ports, 4) as groupPortsChunk}
+                            <tr>
+                              {#each groupPortsChunk as chargingPort}
+                              <td class="border">
+                                <img src={iconPathForPlugType(chargingPort.plug_type)} alt={chargingPort.plug_type} height="50px" width="50px" class="mx-auto" />
+                              </td>
+                              {/each}
+                            </tr>
                             {/each}
-                          </tr>
-                          {/each}
-                        </tbody>
-                      </table>
-                    </td>
+                          </tbody>
+                        </table>
+                      </td>
+                      {/each}
+                    </tr>
                     {/each}
-                  </tr>
-                  {/each}
-                </tbody>
-              </table>
+                  </tbody>
+                </table>
+              </div>
+              {/each}
             </div>
-            {/each}
             {/if}
             {#if stationMarker.properties.references?.length > 0}
             <h4 class="font-bold">

@@ -2221,6 +2221,75 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.241991,
+                        42.157126
+                    ],
+                    [
+                        -71.241922,
+                        42.157166
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "VOLTA",
+                "references": [
+                    {
+                        "name": "OPEN_STREET_MAP",
+                        "url": "https://www.openstreetmap.org/node/1304749833"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 11262957165,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/11262957165"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 11262957166,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/11262957166"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.118227,
                         42.333752
                     ],
@@ -2451,6 +2520,75 @@
                                 "source": {
                                     "name": "OPEN_STREET_MAP",
                                     "url": "https://www.openstreetmap.org/node/12089773934"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.790835,
+                        42.327008
+                    ],
+                    [
+                        -71.791077,
+                        42.326548
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "VOLTA",
+                "references": [
+                    {
+                        "name": "OPEN_STREET_MAP",
+                        "url": "https://www.openstreetmap.org/node/17891285"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 10087702388,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/10087702388"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 10087702389,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/10087702389"
                                 }
                             }
                         ]
@@ -3718,26 +3856,12 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ]
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ]
                             }
                         ],
                         "name": ""
                     },
                     {
                         "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ]
-                            },
                             {
                                 "ports": [
                                     {
@@ -7282,80 +7406,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.67125,
-                        42.290765
-                    ],
-                    [
-                        -71.67125,
-                        42.290765
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Northborough Crossing",
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/159971"
-                        }
-                    }
-                ],
-                "network": "VOLTA",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "9102 Shops Way",
-                            "city": "Northborough",
-                            "state": "MA",
-                            "zip_code": "01532"
-                        },
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/159971"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "OPEN_CHARGE_MAP",
-                        "url": "https://openchargemap.org/site/poi/details/159971"
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": ""
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": ""
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.485882,
@@ -8443,6 +8493,48 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/351278"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.946607,
+                    42.07429
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Stop & Shop Whitman",
+                        "source": {
+                            "name": "OPEN_CHARGE_MAP",
+                            "url": "https://openchargemap.org/site/poi/details/228577"
+                        }
+                    }
+                ],
+                "network": "VOLTA",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "475 Bedford Street",
+                            "city": "Whitman",
+                            "state": "MA",
+                            "zip_code": "02382"
+                        },
+                        "source": {
+                            "name": "OPEN_CHARGE_MAP",
+                            "url": "https://openchargemap.org/site/poi/details/228577"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "OPEN_CHARGE_MAP",
+                        "url": "https://openchargemap.org/site/poi/details/228577"
                     }
                 ]
             }

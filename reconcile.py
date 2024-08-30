@@ -1459,7 +1459,7 @@ for station in combined_data:
     if station.charging_points:
         charging_points = []
 
-        for station_charging_point in station.charging_points:
+        for station_charging_point in sorted(station.charging_points, key=lambda c: (c.name, c.network_id.get())):
             charging_point = {
                 "charging_groups": [],
                 "name": station_charging_point.name,

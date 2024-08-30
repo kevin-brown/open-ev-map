@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from "$app/paths";
 
-  import { DefaultMarker, MapLibre, Popup } from "svelte-maplibre";
+  import { Marker, MapLibre, Popup } from "svelte-maplibre";
 
   async function fetchStations() {
     const response = await fetch(base + '/stations.geojson');
@@ -107,6 +107,32 @@
     return base + '/icons/plug-' + PLUG_TYPE_MAP[plugType] + '.svg';
   }
 
+  function stationMarkerColor(station): string {
+    if (!station.properties.references) {
+      return "gray";
+    }
+
+    if (station.properties.references.length < 1) {
+      return "gray";
+    }
+
+    let referenceSources = station.properties.references.map((r) => r.name);
+
+    if (referenceSources.includes("OPEN_STREET_MAP")) {
+      return "green";
+    }
+
+    if (referenceSources.includes("OPEN_CHARGE_MAP")) {
+      return "blue";
+    }
+
+    if (referenceSources.includes("ALTERNATIVE_FUELS_DATA_CENTER")) {
+      return "orange";
+    }
+
+    return "yellow";
+  }
+
   function* chunks<T>(arr: T[], n: number): Generator<T[], void> {
     for (let i = 0; i < arr.length; i += n) {
       yield arr.slice(i, i + n);
@@ -121,7 +147,14 @@
   Loading
   {:then stationMarkers}
     {#each stationMarkers as stationMarker}
-      <DefaultMarker lngLat={latLngForStation(stationMarker)}>
+      <Marker lngLat={latLngForStation(stationMarker)}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path
+            fill={stationMarkerColor(stationMarker)}
+            d="M14 11.5A2.5 2.5 0 0 0 16.5 9A2.5 2.5 0 0 0 14 6.5A2.5 2.5 0 0 0 11.5 9a2.5 2.5 0 0 0 2.5 2.5M14 2c3.86 0 7 3.13 7 7c0 5.25-7 13-7 13S7 14.25 7 9a7 7 0 0 1 7-7M5 9c0 4.5 5.08 10.66 6 11.81L10 22S3 14.25 3 9c0-3.17 2.11-5.85 5-6.71C6.16 3.94 5 6.33 5 9Z"
+          />
+        </svg>
+
         <Popup openOn="click">
             <h3 class="font-bold text-lg">{ firstPropertyValueForDisplay(stationMarker.properties.name) }</h3>
             <p>{ stationMarker.properties.network }</p>
@@ -223,7 +256,7 @@
               </ul>
             {/if}
         </Popup>
-      </DefaultMarker>
+      </Marker>
     {/each}
   {/await}
 </MapLibre>

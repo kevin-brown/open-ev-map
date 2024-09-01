@@ -371,25 +371,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.161761,
-                    42.364481
-                ]
-            },
-            "properties": {
-                "network": "SHELL_RECHARGE",
-                "references": [
-                    {
-                        "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/9374531074"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.873891,
                     42.8121
                 ]
@@ -2533,6 +2514,185 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.171483,
+                        42.364444
+                    ],
+                    [
+                        -71.17155,
+                        42.364452
+                    ],
+                    [
+                        -71.171617,
+                        42.36446
+                    ],
+                    [
+                        -71.17168,
+                        42.364467
+                    ],
+                    [
+                        -71.171749,
+                        42.364474
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "references": [
+                    {
+                        "name": "OPEN_STREET_MAP",
+                        "url": "https://www.openstreetmap.org/node/1312337445"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956285,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956285"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956286,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956286"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956287,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956287"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956288,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956288"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956289,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956289"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.790835,
                         42.327008
                     ],
@@ -2704,6 +2864,121 @@
                                 "source": {
                                     "name": "OPEN_STREET_MAP",
                                     "url": "https://www.openstreetmap.org/node/12084171184"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.16177,
+                        42.364477
+                    ],
+                    [
+                        -71.161801,
+                        42.364435
+                    ],
+                    [
+                        -71.161633,
+                        42.364571
+                    ]
+                ]
+            },
+            "properties": {
+                "network": "SHELL_RECHARGE",
+                "references": [
+                    {
+                        "name": "OPEN_STREET_MAP",
+                        "url": "https://www.openstreetmap.org/node/17990533"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 9374531074,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/9374531074"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956260,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956260"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956261,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956261"
                                 }
                             }
                         ]
@@ -8898,67 +9173,6 @@
                                 "ports": [
                                     {
                                         "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": ""
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.173618,
-                        42.321902
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Shops at Chestnut Hill",
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/85237"
-                        }
-                    }
-                ],
-                "network": "EVGO",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "199 Boylston Street",
-                            "city": "Chestnut Hill",
-                            "state": "MA",
-                            "zip_code": "02467"
-                        },
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/85237"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "OPEN_CHARGE_MAP",
-                        "url": "https://openchargemap.org/site/poi/details/85237"
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    },
-                                    {
-                                        "plug_type": "CHADEMO"
                                     }
                                 ]
                             }

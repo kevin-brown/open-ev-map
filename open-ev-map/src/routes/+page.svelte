@@ -142,7 +142,7 @@
 
 <h1>Welcome to Open EV Map</h1>
 
-<MapLibre style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" center={[-71.75, 42.25]} zoom={8}>
+<MapLibre style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json" center={[-71.75, 42.25]} zoom={8} standardControls>
   {#await stationRequest}
   Loading
   {:then stationMarkers}

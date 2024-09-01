@@ -991,10 +991,10 @@
         "network": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2",
-        "socket:type1:current": "32 A",
-        "socket:type1:output": "6.6 kW",
-        "socket:type1:voltage": "208V"
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6.6 kW",
+        "socket:type1_cable:voltage": "208V"
       }
     },
     {
@@ -1384,10 +1384,10 @@
         "network": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2",
-        "socket:type1:current": "32 A",
-        "socket:type1:output": "6.6 kW",
-        "socket:type1:voltage": "208V"
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6.6 kW",
+        "socket:type1_cable:voltage": "208V"
       }
     },
     {
@@ -1404,10 +1404,10 @@
         "network": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2",
-        "socket:type1:current": "32 A",
-        "socket:type1:output": "6.6 kW",
-        "socket:type1:voltage": "208V"
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6.6 kW",
+        "socket:type1_cable:voltage": "208V"
       }
     },
     {
@@ -1431,10 +1431,10 @@
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
         "scooter": "no",
-        "socket:type1": "8",
-        "socket:type1:current": "32 A",
-        "socket:type1:output": "6.6 kW",
-        "socket:type1:voltage": "208V"
+        "socket:type1_cable": "8",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6.6 kW",
+        "socket:type1_cable:voltage": "208V"
       }
     },
     {
@@ -2786,7 +2786,7 @@
         "fee": "no",
         "man_made": "charge_point",
         "no:network": "yes",
-        "socket:type1": "2"
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -2801,7 +2801,7 @@
         "fee": "no",
         "man_made": "charge_point",
         "no:network": "yes",
-        "socket:type1": "2"
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -7119,10 +7119,10 @@
         "network": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2",
-        "socket:type1:current": "32 A",
-        "socket:type1:output": "6.6 kW",
-        "socket:type1:voltage": "208V"
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:output": "6.6 kW",
+        "socket:type1_cable:voltage": "208V"
       }
     },
     {
@@ -11135,7 +11135,7 @@
         "capacity": "4",
         "fee": "no",
         "no:network": "yes",
-        "socket:type1": "4"
+        "socket:type1_cable": "4"
       }
     },
     {

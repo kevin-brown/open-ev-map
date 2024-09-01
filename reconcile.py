@@ -277,11 +277,60 @@ def combine_charging_points(first_points: list[ChargingPoint], second_points: li
     first_network_ids = set(point.network_id.get() for point in first_points if point.network_id.get())
     second_network_ids = set(point.network_id.get() for point in second_points if point.network_id.get())
 
-    if first_network_ids or second_network_ids:
-        if first_network_ids != second_network_ids:
-            return [*first_points, *second_points]
+    if not first_network_ids and not second_network_ids:
+        return first_points
 
-    return first_points
+    network_ids_to_charging_points = defaultdict(list)
+
+    for charging_point in [*first_points, *second_points]:
+        network_ids_to_charging_points[charging_point.network_id.get()].append(charging_point)
+
+    combined_points = []
+
+    for network_id, charging_points in network_ids_to_charging_points.items():
+        if not network_id:
+            combined_points.extend(charging_points)
+
+            continue
+
+        combined_point = charging_points[0]
+
+        if len(charging_points) > 1:
+            for charging_point in charging_points:
+                combined_point = merge_charging_points(combined_point, charging_point)
+
+        combined_points.append(combined_point)
+
+    return combined_points
+
+
+def merge_charging_points(first_point: ChargingPoint, second_point: ChargingPoint) -> ChargingPoint:
+    combined_charging_point = ChargingPoint()
+
+    if first_point.name:
+        combined_charging_point.name = first_point.name
+
+    if second_point.name:
+        combined_charging_point.name = second_point.name
+
+    combined_charging_point.location.extend(first_point.location)
+    combined_charging_point.location.extend(second_point.location)
+
+    combined_charging_point.nrel_id.extend(first_point.nrel_id)
+    combined_charging_point.nrel_id.extend(second_point.nrel_id)
+
+    combined_charging_point.ocm_id.extend(first_point.ocm_id)
+    combined_charging_point.ocm_id.extend(second_point.ocm_id)
+
+    combined_charging_point.osm_id.extend(first_point.osm_id)
+    combined_charging_point.osm_id.extend(second_point.osm_id)
+
+    combined_charging_point.network_id.extend(first_point.network_id)
+    combined_charging_point.network_id.extend(second_point.network_id)
+
+    combined_charging_point.charging_port_groups = first_point.charging_port_groups
+
+    return combined_charging_point
 
 
 def nrel_group_chargepoint(nrel_stations: list[Station]) -> list[Station]:

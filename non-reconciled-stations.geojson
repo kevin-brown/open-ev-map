@@ -256,14 +256,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -284,14 +284,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -312,14 +312,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -340,14 +340,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -1196,14 +1196,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -1224,14 +1224,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }

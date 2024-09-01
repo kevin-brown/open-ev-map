@@ -127,7 +127,7 @@ class SourcedAttribute[T]:
             return sorted(set(self.all()))
 
         if not self.values:
-            return None
+            return ""
 
         raw_values = list(sorted(set(self.all())))
 
@@ -305,7 +305,9 @@ def combine_charging_points(first_points: list[ChargingPoint], second_points: li
 
 
 def merge_charging_points(first_point: ChargingPoint, second_point: ChargingPoint) -> ChargingPoint:
-    combined_charging_point = ChargingPoint()
+    combined_charging_point = ChargingPoint(
+        name="",
+    )
 
     if first_point.name:
         combined_charging_point.name = first_point.name
@@ -456,6 +458,10 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         "Volta": ChargingNetwork.VOLTA,
     }
 
+    NREL_NETWORK_TO_CHARGE_POINT_PARSER = {
+        ChargingNetwork.EVGO: nrel_parse_charging_points_evgo,
+    }
+
     stations = []
 
     for nrel_station in nrel_raw_data["fuel_stations"]:
@@ -479,13 +485,68 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 
         station.network_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station.get("ev_network_ids", {}).get("station", [None])[0]))
 
-        station.charging_points = nrel_parse_charging_points_default(nrel_station, station)
+        if station.network in NREL_NETWORK_TO_CHARGE_POINT_PARSER:
+            charging_point_parser = NREL_NETWORK_TO_CHARGE_POINT_PARSER[station.network]
+
+            station.charging_points = charging_point_parser(nrel_station, station)
+        else:
+            station.charging_points = nrel_parse_charging_points_default(nrel_station, station)
 
         stations.append(station)
 
     stations = nrel_group_chargepoint(stations)
 
     return stations
+
+
+def nrel_parse_charging_points_evgo(nrel_station, station: Station) -> list[ChargingPoint]:
+    NREL_PLUG_MAP = {
+        "CHADEMO": PlugType.CHADEMO,
+        "TESLA": PlugType.NACS,
+
+        "J1772": PlugType.J1772,
+        "J1772COMBO": PlugType.J1772_COMBO,
+    }
+
+    charging_points = []
+
+    if "ev_network_ids" not in nrel_station:
+        return []
+
+    for nrel_post_id in nrel_station["ev_network_ids"].get("posts", []):
+        charging_port_groups = []
+
+        if len(nrel_station["ev_connector_types"]) == 1:
+            charging_ports = []
+
+            for nrel_plug_type in nrel_station["ev_connector_types"]:
+                if nrel_plug_type not in NREL_PLUG_MAP:
+                    continue
+
+                charging_port = ChargingPort(
+                    plug=NREL_PLUG_MAP[nrel_plug_type],
+                )
+
+                charging_ports.append(charging_port)
+
+            charging_port_group = ChargingPortGroup(
+                charging_ports=charging_ports
+            )
+
+            charging_port_groups.append(charging_port_group)
+
+        charging_point = ChargingPoint(
+            name="",
+            charging_port_groups=charging_port_groups,
+        )
+        charging_point.location.extend(station.location)
+        charging_point.nrel_id.extend(station.nrel_id)
+
+        charging_point.network_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_post_id))
+
+        charging_points.append(charging_point)
+
+    return charging_points
 
 
 def nrel_parse_charging_points_default(nrel_station, station: Station) -> list[ChargingPoint]:
@@ -510,16 +571,15 @@ def nrel_parse_charging_points_default(nrel_station, station: Station) -> list[C
     for nrel_post_id in nrel_station["ev_network_ids"].get("posts", []):
         charging_ports = []
 
-        if len(nrel_station["ev_connector_types"]) == 1 or station.network not in [ChargingNetwork.EVGO]:
-            for nrel_plug_type in nrel_station["ev_connector_types"]:
-                if nrel_plug_type not in NREL_PLUG_MAP:
-                    continue
+        for nrel_plug_type in nrel_station["ev_connector_types"]:
+            if nrel_plug_type not in NREL_PLUG_MAP:
+                continue
 
-                charging_port = ChargingPort(
-                    plug=NREL_PLUG_MAP[nrel_plug_type],
-                )
+            charging_port = ChargingPort(
+                plug=NREL_PLUG_MAP[nrel_plug_type],
+            )
 
-                charging_ports.append(charging_port)
+            charging_ports.append(charging_port)
 
         charging_port_group = ChargingPortGroup(
             network_id=nrel_post_id,
@@ -1517,7 +1577,7 @@ for station in combined_data:
     if station.charging_points:
         charging_points = []
 
-        for station_charging_point in sorted(station.charging_points, key=lambda c: (c.name, c.network_id.get())):
+        for station_charging_point in sorted(station.charging_points, key=lambda c: (c.name, (c.network_id.get() or ""))):
             charging_point = {
                 "charging_groups": [],
                 "name": station_charging_point.name,

@@ -428,14 +428,6 @@ def normalize_address_street_address(street_address: str) -> str:
 
 
 def normalize_nrel_data(nrel_raw_data) -> list[Station]:
-    NREL_PLUG_MAP = {
-        "CHADEMO": PlugType.CHADEMO,
-        "TESLA": PlugType.NACS,
-
-        "J1772": PlugType.J1772,
-        "J1772COMBO": PlugType.J1772_COMBO,
-    }
-
     NREL_NETWORK_MAP = {
         "7CHARGE": ChargingNetwork.SEVEN_CHARGE,
         "ABM": ChargingNetwork.ABM,
@@ -485,54 +477,70 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         station.state.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["state"]))
         station.zip_code.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), station_zip_code))
 
-        charging_points = []
+        station.network_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station.get("ev_network_ids", {}).get("station", [None])[0]))
 
-        if "ev_network_ids" in nrel_station:
-            station.network_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["ev_network_ids"].get("station", [None])[0]))
-
-            charging_port_groups = []
-
-            if station.network not in [ChargingNetwork.TESLA_SUPERCHARGER, ChargingNetwork.TESLA_DESTINATION]:
-                for nrel_post_id in nrel_station["ev_network_ids"].get("posts", []):
-                    charging_ports = []
-
-                    if len(nrel_station["ev_connector_types"]) == 1 or station.network not in [ChargingNetwork.EVGO]:
-                        for nrel_plug_type in nrel_station["ev_connector_types"]:
-                            if nrel_plug_type not in NREL_PLUG_MAP:
-                                continue
-
-                            charging_port = ChargingPort(
-                                plug=NREL_PLUG_MAP[nrel_plug_type],
-                            )
-
-                            charging_ports.append(charging_port)
-
-                    charging_port_group = ChargingPortGroup(
-                        network_id=nrel_post_id,
-                        charging_ports=charging_ports
-                    )
-
-                    charging_port_groups.append(charging_port_group)
-
-                charging_point = ChargingPoint(
-                    name=station.name.get(),
-                    charging_port_groups=charging_port_groups,
-                )
-                charging_point_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
-                charging_point.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), charging_point_location))
-
-                charging_point.network_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), station.network_id.get()))
-                charging_point.nrel_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["id"]))
-
-                charging_points.append(charging_point)
-
-        station.charging_points = charging_points
+        station.charging_points = nrel_parse_charging_points_default(nrel_station, station)
 
         stations.append(station)
 
     stations = nrel_group_chargepoint(stations)
 
     return stations
+
+
+def nrel_parse_charging_points_default(nrel_station, station: Station) -> list[ChargingPoint]:
+    NREL_PLUG_MAP = {
+        "CHADEMO": PlugType.CHADEMO,
+        "TESLA": PlugType.NACS,
+
+        "J1772": PlugType.J1772,
+        "J1772COMBO": PlugType.J1772_COMBO,
+    }
+
+    charging_points = []
+
+    if "ev_network_ids" not in nrel_station:
+        return []
+
+    charging_port_groups = []
+
+    if station.network in [ChargingNetwork.TESLA_SUPERCHARGER, ChargingNetwork.TESLA_DESTINATION]:
+        return []
+
+    for nrel_post_id in nrel_station["ev_network_ids"].get("posts", []):
+        charging_ports = []
+
+        if len(nrel_station["ev_connector_types"]) == 1 or station.network not in [ChargingNetwork.EVGO]:
+            for nrel_plug_type in nrel_station["ev_connector_types"]:
+                if nrel_plug_type not in NREL_PLUG_MAP:
+                    continue
+
+                charging_port = ChargingPort(
+                    plug=NREL_PLUG_MAP[nrel_plug_type],
+                )
+
+                charging_ports.append(charging_port)
+
+        charging_port_group = ChargingPortGroup(
+            network_id=nrel_post_id,
+            charging_ports=charging_ports
+        )
+
+        charging_port_groups.append(charging_port_group)
+
+    charging_point = ChargingPoint(
+        name=station.name.get(),
+        charging_port_groups=charging_port_groups,
+    )
+    charging_point_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
+    charging_point.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), charging_point_location))
+
+    charging_point.network_id.extend(station.network_id)
+    charging_point.nrel_id.extend(station.nrel_id)
+
+    charging_points.append(charging_point)
+
+    return charging_points
 
 
 def osm_parse_charging_station(osm_element) -> Station:

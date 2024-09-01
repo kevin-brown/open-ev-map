@@ -271,13 +271,13 @@ def combine_charging_points(first_points: list[ChargingPoint], second_points: li
     if not first_points and not second_points:
         return []
 
-    if len(first_points) != len(second_points):
-        return [*first_points, *second_points]
-
     first_network_ids = set(point.network_id.get() for point in first_points if point.network_id.get())
     second_network_ids = set(point.network_id.get() for point in second_points if point.network_id.get())
 
     if not first_network_ids and not second_network_ids:
+        if len(first_points) != len(second_points):
+            return [*first_points, *second_points]
+
         return first_points
 
     network_ids_to_charging_points = defaultdict(list)

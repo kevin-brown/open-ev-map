@@ -496,15 +496,16 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
                 for nrel_post_id in nrel_station["ev_network_ids"].get("posts", []):
                     charging_ports = []
 
-                    for nrel_plug_type in nrel_station["ev_connector_types"]:
-                        if nrel_plug_type not in NREL_PLUG_MAP:
-                            continue
+                    if len(nrel_station["ev_connector_types"]) == 1 or station.network not in [ChargingNetwork.EVGO]:
+                        for nrel_plug_type in nrel_station["ev_connector_types"]:
+                            if nrel_plug_type not in NREL_PLUG_MAP:
+                                continue
 
-                        charging_port = ChargingPort(
-                            plug=NREL_PLUG_MAP[nrel_plug_type],
-                        )
+                            charging_port = ChargingPort(
+                                plug=NREL_PLUG_MAP[nrel_plug_type],
+                            )
 
-                        charging_ports.append(charging_port)
+                            charging_ports.append(charging_port)
 
                     charging_port_group = ChargingPortGroup(
                         network_id=nrel_post_id,

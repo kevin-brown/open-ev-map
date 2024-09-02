@@ -164,6 +164,7 @@ cython_debug/
 config.json
 
 electricera.json
+electrifyamerica.json
 nrel.json
 ocm.json
 osm.json

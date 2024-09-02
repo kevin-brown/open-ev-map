@@ -22,6 +22,7 @@ def clean_electricera_data(data):
     del data["timestamp"]
 
     for station in data["data"]:
+        del station["last_updated"]
         del station["operator"]["logo"]
 
         for evse in station["evses"]:
@@ -32,6 +33,9 @@ def clean_electricera_data(data):
             for connector in evse["connectors"]:
                 del connector["last_updated"]
 
+    return data
+
+def clean_electrify_america_data(data):
     return data
 
 def clean_nrel_data(data):
@@ -141,6 +145,7 @@ def clean_supercharge_data(data):
 
 CLEANERS = {
     "electricera": clean_electricera_data,
+    "electrifyamerica": clean_electrify_america_data,
     "nrel": clean_nrel_data,
     "ocm": clean_ocm_data,
     "osm": clean_osm_data,
@@ -148,6 +153,9 @@ CLEANERS = {
 }
 
 def fix_electricera_data(data, fixes):
+    return data
+
+def fix_electrify_america_data(data, fixes):
     return data
 
 def fix_nrel_data(data, fixes):
@@ -207,6 +215,7 @@ def fix_supercharge_data(data, fixes):
 
 FIXERS = {
     "electricera": fix_electricera_data,
+    "electrifyamerica": fix_electrify_america_data,
     "nrel": fix_nrel_data,
     "ocm": fix_ocm_data,
     "osm": fix_osm_data,
@@ -236,6 +245,6 @@ def apply_fixes():
         with open(f"{data_provider}-clean.json", "w") as data_fh:
             json.dump(cleaned_data, data_fh, ensure_ascii=False, indent=2)
 
-pull_new_data()
+# pull_new_data()
 clean_new_data()
 apply_fixes()

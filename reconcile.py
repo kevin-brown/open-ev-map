@@ -459,7 +459,9 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
     }
 
     NREL_NETWORK_TO_CHARGE_POINT_PARSER = {
-        ChargingNetwork.EVGO: nrel_parse_charging_points_evgo,
+        ChargingNetwork.BLINK: nrel_parse_charging_points_multiple_posts,
+        ChargingNetwork.ELECTRIFY_AMERICA: nrel_parse_charging_points_multiple_posts,
+        ChargingNetwork.EVGO: nrel_parse_charging_points_multiple_posts,
     }
 
     stations = []
@@ -490,7 +492,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
 
             station.charging_points = charging_point_parser(nrel_station, station)
         else:
-            station.charging_points = nrel_parse_charging_points_default(nrel_station, station)
+            station.charging_points = nrel_parse_charging_points_single_post(nrel_station, station)
 
         stations.append(station)
 
@@ -499,7 +501,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
     return stations
 
 
-def nrel_parse_charging_points_evgo(nrel_station, station: Station) -> list[ChargingPoint]:
+def nrel_parse_charging_points_multiple_posts(nrel_station, station: Station) -> list[ChargingPoint]:
     NREL_PLUG_MAP = {
         "CHADEMO": PlugType.CHADEMO,
         "TESLA": PlugType.NACS,
@@ -549,7 +551,7 @@ def nrel_parse_charging_points_evgo(nrel_station, station: Station) -> list[Char
     return charging_points
 
 
-def nrel_parse_charging_points_default(nrel_station, station: Station) -> list[ChargingPoint]:
+def nrel_parse_charging_points_single_post(nrel_station, station: Station) -> list[ChargingPoint]:
     NREL_PLUG_MAP = {
         "CHADEMO": PlugType.CHADEMO,
         "TESLA": PlugType.NACS,

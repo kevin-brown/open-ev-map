@@ -1,0 +1,1289 @@
+{
+  "status_code": 1000,
+  "data": [
+    {
+      "country_code": "US",
+      "party_id": "ALL",
+      "id": "0",
+      "publish": true,
+      "name": "Plaid Pantry Electric Era EV Fast Charging Station",
+      "address": "6060 NE Columbia Blvd",
+      "city": "Portland",
+      "postal_code": "97218",
+      "state": "Oregon",
+      "country": "USA",
+      "coordinates": {
+        "latitude": "45.5682999",
+        "longitude": "-122.5996726"
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "2B",
+          "evse_id": "US*ALL*E0000002B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 300,
+              "max_electric_power": 150000,
+              "tariff_ids": [
+                "8"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "45.56829990002B",
+            "longitude": "-122.59967260002B"
+          },
+          "physical_reference": "2B",
+          "serial_number": "DP100520200003",
+          "manufacturer": "SK Signet",
+          "model": "FC150K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "2C",
+          "evse_id": "US*ALL*E0000002C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 500,
+              "max_amperage": 200,
+              "max_electric_power": 100000,
+              "tariff_ids": [
+                "8"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "45.56829990002C",
+            "longitude": "-122.59967260002C"
+          },
+          "physical_reference": "2C",
+          "serial_number": "DP100520200003",
+          "manufacturer": "SK Signet",
+          "model": "FC150K",
+          "power_sharing_enabled": false
+        }
+      ],
+      "directions": [],
+      "operator": {
+        "name": "Plaid Pantry Electric Era EV Fast",
+        "phone_number": "(888) 409-2980"
+      },
+      "time_zone": "America/Los_Angeles",
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "last_updated": "2024-09-01T23:59:19.544Z",
+      "station_type": "PUBLIC",
+      "support_name": "Electric Era Technologies",
+      "support_phone": "(888) 409-2980",
+      "payment_methods": [
+        "VISA",
+        "MC",
+        "AMEX",
+        "DISC",
+        "CREDIT",
+        "DEBIT",
+        "APPLE_PAY",
+        "ANDROID_PAY"
+      ],
+      "payment_technologies": [
+        "RFID",
+        "CARD_SWIPE",
+        "EMV_CHIP",
+        "CONTACTLESS",
+        "OTHER"
+      ]
+    },
+    {
+      "country_code": "US",
+      "party_id": "ALL",
+      "id": "1",
+      "publish": true,
+      "name": "Moberly Motors Electric Era EV Fast Charging Station",
+      "address": "1520 N Morley St",
+      "city": "Moberly",
+      "postal_code": "65270",
+      "state": "Missouri",
+      "country": "USA",
+      "coordinates": {
+        "latitude": "39.436951",
+        "longitude": "-92.4318543"
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "133B",
+          "evse_id": "US*ALL*E0000133B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "41"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "39.436951000133B",
+            "longitude": "-92.4318543000133B"
+          },
+          "physical_reference": "133B",
+          "serial_number": "Q112420230004",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "133C",
+          "evse_id": "US*ALL*E0000133C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "41"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "39.436951000133C",
+            "longitude": "-92.4318543000133C"
+          },
+          "physical_reference": "133C",
+          "serial_number": "Q112420230004",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "136B",
+          "evse_id": "US*ALL*E0000136B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "41"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "39.436951000136B",
+            "longitude": "-92.4318543000136B"
+          },
+          "physical_reference": "136B",
+          "serial_number": "Q02262024004T",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "136C",
+          "evse_id": "US*ALL*E0000136C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "41"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "39.436951000136C",
+            "longitude": "-92.4318543000136C"
+          },
+          "physical_reference": "136C",
+          "serial_number": "Q02262024004T",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        }
+      ],
+      "directions": [],
+      "operator": {
+        "name": "Moberly Motors Electric Era EV Fast",
+        "phone_number": "(888) 409-2980"
+      },
+      "time_zone": "America/Chicago",
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "last_updated": "2024-09-01T23:59:19.914Z",
+      "station_type": "PUBLIC",
+      "support_name": "Electric Era Technologies",
+      "support_phone": "(888) 409-2980",
+      "payment_methods": [
+        "VISA",
+        "MC",
+        "AMEX",
+        "DISC",
+        "CREDIT",
+        "DEBIT",
+        "APPLE_PAY",
+        "ANDROID_PAY"
+      ],
+      "payment_technologies": [
+        "RFID",
+        "CARD_SWIPE",
+        "EMV_CHIP",
+        "CONTACTLESS",
+        "OTHER"
+      ]
+    },
+    {
+      "country_code": "US",
+      "party_id": "ALL",
+      "id": "2",
+      "publish": true,
+      "name": "Space Age Electric Era EV Fast Charging Station",
+      "address": "16875 SW Pacific Hwy",
+      "city": "Portland",
+      "postal_code": "97224",
+      "state": "Oregon",
+      "country": "USA",
+      "coordinates": {
+        "latitude": "45.398548",
+        "longitude": "-122.7995742"
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "6B",
+          "evse_id": "US*ALL*E0000006B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "42"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "45.3985480006B",
+            "longitude": "-122.79957420006B"
+          },
+          "physical_reference": "6B",
+          "serial_number": "Q112420230003",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "6C",
+          "evse_id": "US*ALL*E0000006C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "42"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "45.3985480006C",
+            "longitude": "-122.79957420006C"
+          },
+          "physical_reference": "6C",
+          "serial_number": "Q112420230003",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        }
+      ],
+      "directions": [],
+      "operator": {
+        "name": "Space Age Electric Era EV Fast",
+        "phone_number": "(888) 409-2980"
+      },
+      "time_zone": "America/Los_Angeles",
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "last_updated": "2024-09-01T23:59:19.347Z",
+      "station_type": "PUBLIC",
+      "support_name": "Electric Era Technologies",
+      "support_phone": "(888) 409-2980",
+      "payment_methods": [
+        "VISA",
+        "MC",
+        "AMEX",
+        "DISC",
+        "CREDIT",
+        "DEBIT",
+        "APPLE_PAY",
+        "ANDROID_PAY"
+      ],
+      "payment_technologies": [
+        "RFID",
+        "CARD_SWIPE",
+        "EMV_CHIP",
+        "CONTACTLESS",
+        "OTHER"
+      ]
+    },
+    {
+      "country_code": "US",
+      "party_id": "ALL",
+      "id": "6",
+      "publish": true,
+      "name": "Quik Charge Electric Era EV Fast Charging Station",
+      "address": "850 Washington Street",
+      "city": "Weymouth",
+      "postal_code": "02189",
+      "state": "Massachusetts",
+      "country": "USA",
+      "coordinates": {
+        "latitude": "42.2008076",
+        "longitude": "-70.942073"
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "13B",
+          "evse_id": "US*ALL*E0000013B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "44"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.200807600013B",
+            "longitude": "-70.94207300013B"
+          },
+          "physical_reference": "13B",
+          "serial_number": "Q112420230010",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "13C",
+          "evse_id": "US*ALL*E0000013C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "44"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.200807600013C",
+            "longitude": "-70.94207300013C"
+          },
+          "physical_reference": "13C",
+          "serial_number": "Q112420230010",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        }
+      ],
+      "directions": [],
+      "operator": {
+        "name": "Quik Charge Electric Era EV Fast",
+        "phone_number": "(888) 409-2980"
+      },
+      "time_zone": "America/New_York",
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "last_updated": "2024-09-01T23:59:19.448Z",
+      "station_type": "PUBLIC",
+      "support_name": "Electric Era Technologies",
+      "support_phone": "(888) 409-2980",
+      "payment_methods": [
+        "VISA",
+        "MC",
+        "AMEX",
+        "DISC",
+        "CREDIT",
+        "DEBIT",
+        "APPLE_PAY",
+        "ANDROID_PAY"
+      ],
+      "payment_technologies": [
+        "RFID",
+        "CARD_SWIPE",
+        "EMV_CHIP",
+        "CONTACTLESS",
+        "OTHER"
+      ]
+    },
+    {
+      "country_code": "US",
+      "party_id": "ALL",
+      "id": "48",
+      "publish": true,
+      "name": "Seven Feathers Electric Era EV Fast Charging Station",
+      "address": "130 Creekside Rd",
+      "city": "Canyonville",
+      "postal_code": "97417",
+      "state": "Oregon",
+      "country": "USA",
+      "coordinates": {
+        "latitude": "42.9401233",
+        "longitude": "-123.2907758"
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "85B",
+          "evse_id": "US*ALL*E0000085B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300085B",
+            "longitude": "-123.290775800085B"
+          },
+          "physical_reference": "85B",
+          "serial_number": "Q112420230002",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "85C",
+          "evse_id": "US*ALL*E0000085C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300085C",
+            "longitude": "-123.290775800085C"
+          },
+          "physical_reference": "85C",
+          "serial_number": "Q112420230002",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "86B",
+          "evse_id": "US*ALL*E0000086B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300086B",
+            "longitude": "-123.290775800086B"
+          },
+          "physical_reference": "86B",
+          "serial_number": "Q112420230001",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "86C",
+          "evse_id": "US*ALL*E0000086C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300086C",
+            "longitude": "-123.290775800086C"
+          },
+          "physical_reference": "86C",
+          "serial_number": "Q112420230001",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "87B",
+          "evse_id": "US*ALL*E0000087B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300087B",
+            "longitude": "-123.290775800087B"
+          },
+          "physical_reference": "87B",
+          "serial_number": "Q112420230007",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "87C",
+          "evse_id": "US*ALL*E0000087C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300087C",
+            "longitude": "-123.290775800087C"
+          },
+          "physical_reference": "87C",
+          "serial_number": "Q112420230007",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "88B",
+          "evse_id": "US*ALL*E0000088B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300088B",
+            "longitude": "-123.290775800088B"
+          },
+          "physical_reference": "88B",
+          "serial_number": "Q112420230006",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "88C",
+          "evse_id": "US*ALL*E0000088C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300088C",
+            "longitude": "-123.290775800088C"
+          },
+          "physical_reference": "88C",
+          "serial_number": "Q112420230006",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "89B",
+          "evse_id": "US*ALL*E0000089B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300089B",
+            "longitude": "-123.290775800089B"
+          },
+          "physical_reference": "89B",
+          "serial_number": "Q112420230005",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "89C",
+          "evse_id": "US*ALL*E0000089C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300089C",
+            "longitude": "-123.290775800089C"
+          },
+          "physical_reference": "89C",
+          "serial_number": "Q112420230005",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "90B",
+          "evse_id": "US*ALL*E0000090B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300090B",
+            "longitude": "-123.290775800090B"
+          },
+          "physical_reference": "90B",
+          "serial_number": "Q112420230008",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "90C",
+          "evse_id": "US*ALL*E0000090C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "4"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "42.940123300090C",
+            "longitude": "-123.290775800090C"
+          },
+          "physical_reference": "90C",
+          "serial_number": "Q112420230008",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        }
+      ],
+      "directions": [],
+      "operator": {
+        "name": "Seven Feathers Electric Era EV Fast",
+        "phone_number": "(888) 409-2980"
+      },
+      "time_zone": "America/Los_Angeles",
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "last_updated": "2024-09-01T23:59:19.407Z",
+      "station_type": "PUBLIC",
+      "support_name": "Electric Era Technologies",
+      "support_phone": "(888) 409-2980",
+      "payment_methods": [
+        "VISA",
+        "MC",
+        "AMEX",
+        "DISC",
+        "CREDIT",
+        "DEBIT",
+        "APPLE_PAY",
+        "ANDROID_PAY"
+      ],
+      "payment_technologies": [
+        "RFID",
+        "CARD_SWIPE",
+        "EMV_CHIP",
+        "CONTACTLESS",
+        "OTHER"
+      ]
+    },
+    {
+      "country_code": "US",
+      "party_id": "ALL",
+      "id": "50",
+      "publish": true,
+      "name": "Skycharger Electric Era EV Fast Charging Station",
+      "address": "25 N Weed Blvd",
+      "city": "Weed",
+      "postal_code": "96094",
+      "state": "California",
+      "country": "USA",
+      "coordinates": {
+        "latitude": "41.4223117",
+        "longitude": "-122.3858078"
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "91B",
+          "evse_id": "US*ALL*E0000091B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "6"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "41.422311700091B",
+            "longitude": "-122.385807800091B"
+          },
+          "physical_reference": "91B",
+          "serial_number": "Q02262024004V",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "91C",
+          "evse_id": "US*ALL*E0000091C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "6"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "41.422311700091C",
+            "longitude": "-122.385807800091C"
+          },
+          "physical_reference": "91C",
+          "serial_number": "Q02262024004V",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "92B",
+          "evse_id": "US*ALL*E0000092B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "6"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "41.422311700092B",
+            "longitude": "-122.385807800092B"
+          },
+          "physical_reference": "92B",
+          "serial_number": "Q0422202400QP",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "92C",
+          "evse_id": "US*ALL*E0000092C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "6"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "41.422311700092C",
+            "longitude": "-122.385807800092C"
+          },
+          "physical_reference": "92C",
+          "serial_number": "Q0422202400QP",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "93B",
+          "evse_id": "US*ALL*E0000093B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "6"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "41.422311700093B",
+            "longitude": "-122.385807800093B"
+          },
+          "physical_reference": "93B",
+          "serial_number": "Q02262024004U",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "93C",
+          "evse_id": "US*ALL*E0000093C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "6"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "41.422311700093C",
+            "longitude": "-122.385807800093C"
+          },
+          "physical_reference": "93C",
+          "serial_number": "Q02262024004U",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "94B",
+          "evse_id": "US*ALL*E0000094B",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "6"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "41.422311700094B",
+            "longitude": "-122.385807800094B"
+          },
+          "physical_reference": "94B",
+          "serial_number": "Q0422202400QU",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        },
+        {
+          "uid": "94C",
+          "evse_id": "US*ALL*E0000094C",
+          "capabilities": [
+            "CHIP_CARD_SUPPORT",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE",
+            "DEBIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T1_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 350,
+              "max_electric_power": 200000,
+              "tariff_ids": [
+                "6"
+              ]
+            }
+          ],
+          "coordinates": {
+            "latitude": "41.422311700094C",
+            "longitude": "-122.385807800094C"
+          },
+          "physical_reference": "94C",
+          "serial_number": "Q0422202400QU",
+          "manufacturer": "SK Signet",
+          "model": "FC200K",
+          "power_sharing_enabled": false
+        }
+      ],
+      "directions": [],
+      "operator": {
+        "name": "Skycharger Electric Era EV Fast",
+        "phone_number": "(888) 409-2980"
+      },
+      "time_zone": "America/Los_Angeles",
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "last_updated": "2024-09-01T23:59:19.446Z",
+      "station_type": "PUBLIC",
+      "support_name": "Electric Era Technologies",
+      "support_phone": "(888) 409-2980",
+      "payment_methods": [
+        "VISA",
+        "MC",
+        "AMEX",
+        "DISC",
+        "CREDIT",
+        "DEBIT",
+        "APPLE_PAY",
+        "ANDROID_PAY"
+      ],
+      "payment_technologies": [
+        "RFID",
+        "CARD_SWIPE",
+        "EMV_CHIP",
+        "CONTACTLESS",
+        "OTHER"
+      ]
+    }
+  ]
+}

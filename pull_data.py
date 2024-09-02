@@ -18,6 +18,22 @@ def pull_new_data():
         with open(f"{data_provider}.json", "w") as data_fh:
             json.dump(response.json(), data_fh, ensure_ascii=False, indent=2)
 
+def clean_electricera_data(data):
+    del data["timestamp"]
+
+    for station in data["data"]:
+        del station["operator"]["logo"]
+
+        for evse in station["evses"]:
+            del evse["activation_date"]
+            del evse["last_updated"]
+            del evse["status"]
+
+            for connector in evse["connectors"]:
+                del connector["last_updated"]
+
+    return data
+
 def clean_nrel_data(data):
     CLEAN_PREFIXES = [
         "bd_",
@@ -124,11 +140,15 @@ def clean_supercharge_data(data):
     return data
 
 CLEANERS = {
+    "electricera": clean_electricera_data,
     "nrel": clean_nrel_data,
     "ocm": clean_ocm_data,
     "osm": clean_osm_data,
     "supercharge": clean_supercharge_data,
 }
+
+def fix_electricera_data(data, fixes):
+    return data
 
 def fix_nrel_data(data, fixes):
     fix_map = {}
@@ -186,6 +206,7 @@ def fix_supercharge_data(data, fixes):
     return data
 
 FIXERS = {
+    "electricera": fix_electricera_data,
     "nrel": fix_nrel_data,
     "ocm": fix_ocm_data,
     "osm": fix_osm_data,
@@ -196,7 +217,7 @@ def clean_new_data():
     for data_provider, provider_config in configuration_data["data_providers"].items():
         with open(f"{data_provider}.json", "r") as data_fh:
             provider_data = json.load(data_fh)
-        
+
         cleaned_data = CLEANERS[data_provider](provider_data)
 
         with open(f"{data_provider}-clean.json", "w") as data_fh:

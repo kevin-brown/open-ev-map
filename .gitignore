@@ -163,6 +163,7 @@ cython_debug/
 
 config.json
 
+electricera.json
 nrel.json
 ocm.json
 osm.json

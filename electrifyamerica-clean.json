@@ -11,7 +11,6 @@
       "longitude": -118.23718,
       "latitude": 34.06331
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -29,7 +28,6 @@
       "longitude": -118.29117,
       "latitude": 34.06855
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -47,7 +45,6 @@
       "longitude": -118.25597,
       "latitude": 34.12608
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -65,7 +62,6 @@
       "longitude": -118.32747,
       "latitude": 34.08364
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -83,7 +79,6 @@
       "longitude": -118.23379,
       "latitude": 34.14244
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -101,7 +96,6 @@
       "longitude": -118.13393,
       "latitude": 34.06601
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -119,7 +113,6 @@
       "longitude": -118.15129,
       "latitude": 34.11513
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -137,7 +130,6 @@
       "longitude": -118.12415,
       "latitude": 34.03118
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -155,7 +147,6 @@
       "longitude": -118.18774,
       "latitude": 33.95418
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -173,7 +164,6 @@
       "longitude": -118.37645,
       "latitude": 34.05367
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -191,7 +181,6 @@
       "longitude": -118.14963,
       "latitude": 34.14662
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -209,7 +198,6 @@
       "longitude": -118.10495,
       "latitude": 33.98645
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -227,7 +215,6 @@
       "longitude": -118.08359,
       "latitude": 34.0509
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -245,7 +232,6 @@
       "longitude": -118.32674,
       "latitude": 33.92931
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -263,7 +249,6 @@
       "longitude": -118.39429,
       "latitude": 33.98688
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -281,7 +266,6 @@
       "longitude": -118.34377,
       "latitude": 34.1682
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -299,7 +283,6 @@
       "longitude": -118.41993,
       "latitude": 34.05794
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -317,7 +300,6 @@
       "longitude": -118.32651,
       "latitude": 34.18859
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -335,7 +317,6 @@
       "longitude": -118.12801,
       "latitude": 33.92341
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -353,7 +334,6 @@
       "longitude": -118.07413,
       "latitude": 33.97439
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -371,7 +351,6 @@
       "longitude": -118.42726,
       "latitude": 33.99637
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -389,7 +368,6 @@
       "longitude": -118.31617,
       "latitude": 33.88727
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -407,7 +385,6 @@
       "longitude": -118.24909,
       "latitude": 34.23076
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -425,7 +402,6 @@
       "longitude": -118.05287,
       "latitude": 34.13626
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -443,7 +419,6 @@
       "longitude": -118.37007,
       "latitude": 34.19998
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -461,7 +436,6 @@
       "longitude": -118.43972,
       "latitude": 34.14994
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -479,7 +453,6 @@
       "longitude": -118.0244,
       "latitude": 34.10725
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -497,7 +470,6 @@
       "longitude": -117.97825,
       "latitude": 34.07071
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -515,7 +487,6 @@
       "longitude": -118.39531,
       "latitude": 33.86583
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -533,7 +504,6 @@
       "longitude": -118.34759,
       "latitude": 33.83162
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -551,7 +521,6 @@
       "longitude": -118.46044,
       "latitude": 34.21338
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -569,7 +538,6 @@
       "longitude": -118.28686,
       "latitude": 33.80912
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -587,7 +555,6 @@
       "longitude": -118.00825,
       "latitude": 33.89572
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -605,7 +572,6 @@
       "longitude": -118.52062,
       "latitude": 34.16273
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -623,7 +589,6 @@
       "longitude": -118.34122,
       "latitude": 33.79022
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -641,7 +606,6 @@
       "longitude": -118.00085,
       "latitude": 33.85652
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -659,7 +623,6 @@
       "longitude": -117.96153,
       "latitude": 33.87811
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -677,7 +640,6 @@
       "longitude": -118.37069,
       "latitude": 33.77076
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -695,7 +657,6 @@
       "longitude": -118.07304,
       "latitude": 33.78155
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -713,7 +674,6 @@
       "longitude": -118.0141,
       "latitude": 33.80391
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -731,7 +691,6 @@
       "longitude": -117.88354,
       "latitude": 33.91472
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -749,7 +708,6 @@
       "longitude": -118.09959,
       "latitude": 33.74483
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -767,7 +725,6 @@
       "longitude": -118.60523,
       "latitude": 34.19098
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -785,7 +742,6 @@
       "longitude": -117.93942,
       "latitude": 33.83604
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -803,7 +759,6 @@
       "longitude": -117.82342,
       "latitude": 34.10325
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -821,7 +776,6 @@
       "longitude": -117.82223,
       "latitude": 34.00436
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -839,7 +793,6 @@
       "longitude": -118.01319,
       "latitude": 33.74523
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -857,7 +810,6 @@
       "longitude": -117.94144,
       "latitude": 33.78777
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -875,7 +827,6 @@
       "longitude": -118.68393,
       "latitude": 34.03606
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -893,7 +844,6 @@
       "longitude": -118.0267,
       "latitude": 33.72977
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -911,7 +861,6 @@
       "longitude": -117.89161,
       "latitude": 33.80387
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -929,7 +878,6 @@
       "longitude": -117.89244,
       "latitude": 33.78024
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -947,7 +895,6 @@
       "longitude": -117.91635,
       "latitude": 33.73662
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -965,7 +912,6 @@
       "longitude": -117.74131,
       "latitude": 34.01463
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -983,7 +929,6 @@
       "longitude": -117.95404,
       "latitude": 33.70962
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1001,7 +946,6 @@
       "longitude": -117.835,
       "latitude": 33.80336
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1019,7 +963,6 @@
       "longitude": -118.57355,
       "latitude": 34.38381
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1037,7 +980,6 @@
       "longitude": -118.75711,
       "latitude": 34.1546
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1055,7 +997,6 @@
       "longitude": -117.75102,
       "latitude": 33.8778
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -1073,7 +1014,6 @@
       "longitude": -118.55725,
       "latitude": 34.41362
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1091,7 +1031,6 @@
       "longitude": -117.83594,
       "latitude": 33.76059
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -1109,7 +1048,6 @@
       "longitude": -117.95509,
       "latitude": 33.67158
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1127,7 +1065,6 @@
       "longitude": -117.9163,
       "latitude": 33.69104
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1145,7 +1082,6 @@
       "longitude": -117.88674,
       "latitude": 33.70354
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -1163,7 +1099,6 @@
       "longitude": -118.57715,
       "latitude": 34.44415
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1181,7 +1116,6 @@
       "longitude": -117.66101,
       "latitude": 34.10835
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1199,7 +1133,6 @@
       "longitude": -118.82629,
       "latitude": 34.15231
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1217,7 +1150,6 @@
       "longitude": -117.63264,
       "latitude": 34.03738
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1235,7 +1167,6 @@
       "longitude": -117.7611,
       "latitude": 33.71318
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1253,7 +1184,6 @@
       "longitude": -117.87675,
       "latitude": 33.61764
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1271,11 +1201,10 @@
       "longitude": -117.76321,
       "latitude": 33.69673
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "100040",
@@ -1289,7 +1218,6 @@
       "longitude": -117.54753,
       "latitude": 34.07424
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1307,7 +1235,6 @@
       "longitude": -117.74389,
       "latitude": 33.64812
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1325,7 +1252,6 @@
       "longitude": -117.67077,
       "latitude": 33.68106
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -1343,7 +1269,6 @@
       "longitude": -117.54037,
       "latitude": 33.85631
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1361,7 +1286,6 @@
       "longitude": -117.51769,
       "latitude": 33.89048
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1379,7 +1303,6 @@
       "longitude": -117.68901,
       "latitude": 33.60568
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1397,7 +1320,6 @@
       "longitude": -117.46934,
       "latitude": 33.90492
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -1415,7 +1337,6 @@
       "longitude": -117.59864,
       "latitude": 33.64218
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -1433,7 +1354,6 @@
       "longitude": -117.71758,
       "latitude": 33.52809
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1451,7 +1371,6 @@
       "longitude": -117.66801,
       "latitude": 33.55726
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1469,7 +1388,6 @@
       "longitude": -119.06452,
       "latitude": 34.21794
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1487,7 +1405,6 @@
       "longitude": -117.66397,
       "latitude": 33.4938
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1505,7 +1422,6 @@
       "longitude": -119.0804,
       "latitude": 34.34499
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1523,7 +1439,6 @@
       "longitude": -117.30764,
       "latitude": 34.04963
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1541,7 +1456,6 @@
       "longitude": -119.17816,
       "latitude": 34.24328
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1559,7 +1473,6 @@
       "longitude": -117.60665,
       "latitude": 33.45483
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -1577,7 +1490,6 @@
       "longitude": -117.2856,
       "latitude": 33.93972
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1595,7 +1507,6 @@
       "longitude": -117.28943,
       "latitude": 33.91044
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -1613,7 +1524,6 @@
       "longitude": -117.37148,
       "latitude": 34.42454
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1631,7 +1541,6 @@
       "longitude": -119.21071,
       "latitude": 34.26524
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1649,7 +1558,6 @@
       "longitude": -117.33339,
       "latitude": 33.69454
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1667,7 +1575,6 @@
       "longitude": -119.2498,
       "latitude": 34.2693
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1685,7 +1592,6 @@
       "longitude": -117.17875,
       "latitude": 34.05713
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1703,7 +1609,6 @@
       "longitude": -117.18716,
       "latitude": 33.8955
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -1721,7 +1626,6 @@
       "longitude": -117.33079,
       "latitude": 34.52926
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1739,7 +1643,6 @@
       "longitude": -119.25891,
       "latitude": 34.44201
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1757,7 +1660,6 @@
       "longitude": -117.24781,
       "latitude": 33.5961
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1775,7 +1677,6 @@
       "longitude": -118.15599,
       "latitude": 35.04536
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1793,7 +1694,6 @@
       "longitude": -117.17063,
       "latitude": 33.60041
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1811,7 +1711,6 @@
       "longitude": -117.17677,
       "latitude": 33.55405
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1829,7 +1728,6 @@
       "longitude": -117.16628,
       "latitude": 33.52404
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -1847,7 +1745,6 @@
       "longitude": -117.34571,
       "latitude": 33.18074
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1865,7 +1762,6 @@
       "longitude": -117.28459,
       "latitude": 33.18394
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1883,7 +1779,6 @@
       "longitude": -117.22491,
       "latitude": 33.21947
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1901,7 +1796,6 @@
       "longitude": -116.8113,
       "latitude": 33.92677
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1919,7 +1813,6 @@
       "longitude": -117.32123,
       "latitude": 33.12819
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -1937,7 +1830,6 @@
       "longitude": -117.2219,
       "latitude": 33.16662
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -1955,7 +1847,6 @@
       "longitude": -117.22793,
       "latitude": 33.1368
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -1973,7 +1864,6 @@
       "longitude": -117.28279,
       "latitude": 33.03477
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -1991,7 +1881,6 @@
       "longitude": -117.25937,
       "latitude": 33.04919
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -2009,7 +1898,6 @@
       "longitude": -119.74609,
       "latitude": 34.44092
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2027,7 +1915,6 @@
       "longitude": -116.99251,
       "latitude": 34.88372
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2045,7 +1932,6 @@
       "longitude": -117.07439,
       "latitude": 33.10314
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -2063,7 +1949,6 @@
       "longitude": -117.06644,
       "latitude": 33.07039
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2081,7 +1966,6 @@
       "longitude": -119.87304,
       "latitude": 34.42891
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2099,7 +1983,6 @@
       "longitude": -117.2163,
       "latitude": 32.92028
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -2117,7 +2000,6 @@
       "longitude": -117.07431,
       "latitude": 33.01964
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2135,7 +2017,6 @@
       "longitude": -116.54636,
       "latitude": 33.81521
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2153,7 +2034,6 @@
       "longitude": -117.08845,
       "latitude": 32.97771
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2171,7 +2051,6 @@
       "longitude": -119.04254,
       "latitude": 35.35348
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -2189,7 +2068,6 @@
       "longitude": -118.95118,
       "latitude": 35.39516
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -2207,7 +2085,6 @@
       "longitude": -117.21186,
       "latitude": 32.86849
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2225,7 +2102,6 @@
       "longitude": -119.10003,
       "latitude": 35.34052
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -2243,7 +2119,6 @@
       "longitude": -119.25296,
       "latitude": 35.26653
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2261,7 +2136,6 @@
       "longitude": -119.05085,
       "latitude": 35.36755
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2279,7 +2153,6 @@
       "longitude": -119.00862,
       "latitude": 35.39353
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -2297,7 +2170,6 @@
       "longitude": -117.03943,
       "latitude": 32.9583
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -2315,7 +2187,6 @@
       "longitude": -119.12582,
       "latitude": 35.34897
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2333,7 +2204,6 @@
       "longitude": -117.21609,
       "latitude": 32.75122
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2351,7 +2221,6 @@
       "longitude": -117.11514,
       "latitude": 32.8046
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -2369,7 +2238,6 @@
       "longitude": -116.40206,
       "latitude": 33.72481
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2387,7 +2255,6 @@
       "longitude": -117.16404,
       "latitude": 32.76931
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -2405,7 +2272,6 @@
       "longitude": -117.14993,
       "latitude": 32.76738
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2423,7 +2289,6 @@
       "longitude": -117.12603,
       "latitude": 32.78007
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -2441,7 +2306,6 @@
       "longitude": -117.1574,
       "latitude": 32.74814
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2459,7 +2323,6 @@
       "longitude": -116.98332,
       "latitude": 32.84225
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -2477,7 +2340,6 @@
       "longitude": -117.12678,
       "latitude": 32.74757
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2495,7 +2357,6 @@
       "longitude": -116.96808,
       "latitude": 32.80797
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2513,7 +2374,6 @@
       "longitude": -117.05656,
       "latitude": 32.74145
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -2531,7 +2391,6 @@
       "longitude": -120.13038,
       "latitude": 34.59819
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2549,7 +2408,6 @@
       "longitude": -116.90067,
       "latitude": 32.82299
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2567,7 +2425,6 @@
       "longitude": -116.2821,
       "latitude": 33.71072
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -2585,7 +2442,6 @@
       "longitude": -117.09773,
       "latitude": 32.67507
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -2603,7 +2459,6 @@
       "longitude": -116.22888,
       "latitude": 33.74143
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2621,7 +2476,6 @@
       "longitude": -117.06449,
       "latitude": 32.65716
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2639,7 +2493,6 @@
       "longitude": -117.03404,
       "latitude": 32.58078
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -2657,7 +2510,6 @@
       "longitude": -117.04159,
       "latitude": 32.54525
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2675,7 +2527,6 @@
       "longitude": -120.27643,
       "latitude": 34.74434
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2693,7 +2544,6 @@
       "longitude": -119.24511,
       "latitude": 35.74633
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -2711,7 +2561,6 @@
       "longitude": -119.65834,
       "latitude": 35.61541
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2729,7 +2578,6 @@
       "longitude": -120.43303,
       "latitude": 34.92237
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2747,7 +2595,6 @@
       "longitude": -117.94566,
       "latitude": 36.04731
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2765,7 +2612,6 @@
       "longitude": -116.0811,
       "latitude": 35.26226
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2783,7 +2629,6 @@
       "longitude": -120.62934,
       "latitude": 35.13678
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2801,7 +2646,6 @@
       "longitude": -120.69161,
       "latitude": 35.25211
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -2819,7 +2663,6 @@
       "longitude": -119.32921,
       "latitude": 36.22745
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2837,7 +2680,6 @@
       "longitude": -119.96013,
       "latitude": 35.98918
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2855,7 +2697,6 @@
       "longitude": -120.6982,
       "latitude": 35.51331
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2873,7 +2714,6 @@
       "longitude": -120.84331,
       "latitude": 35.36845
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2891,7 +2731,6 @@
       "longitude": -120.6921,
       "latitude": 35.6306
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2909,7 +2748,6 @@
       "longitude": -115.56768,
       "latitude": 32.79327
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2927,7 +2765,6 @@
       "longitude": -120.10081,
       "latitude": 36.20709
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -2945,7 +2782,6 @@
       "longitude": -115.18283,
       "latitude": 34.81707
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -2963,7 +2799,6 @@
       "longitude": -119.31346,
       "latitude": 36.62357
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -2981,7 +2816,6 @@
       "longitude": -119.4506,
       "latitude": 36.59518
     },
-    "status": "UNAVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -2999,7 +2833,6 @@
       "longitude": -120.23752,
       "latitude": 36.25414
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3017,7 +2850,6 @@
       "longitude": -119.61246,
       "latitude": 36.56817
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -3035,7 +2867,6 @@
       "longitude": -119.63377,
       "latitude": 36.57693
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3053,7 +2884,6 @@
       "longitude": -119.54678,
       "latitude": 36.60782
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -3071,7 +2901,6 @@
       "longitude": -115.38901,
       "latitude": 35.60602
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3089,7 +2918,6 @@
       "longitude": -119.68587,
       "latitude": 36.62211
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -3107,7 +2935,6 @@
       "longitude": -119.5634,
       "latitude": 36.70573
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -3125,7 +2952,6 @@
       "longitude": -119.7212,
       "latitude": 36.73682
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3143,7 +2969,6 @@
       "longitude": -119.70321,
       "latitude": 36.80783
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3161,7 +2986,6 @@
       "longitude": -119.8633,
       "latitude": 36.77166
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3179,7 +3003,6 @@
       "longitude": -119.77423,
       "latitude": 36.8059
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3197,7 +3020,6 @@
       "longitude": -119.77134,
       "latitude": 36.82196
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3215,7 +3037,6 @@
       "longitude": -119.84893,
       "latitude": 36.80953
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -3233,7 +3054,6 @@
       "longitude": -120.05975,
       "latitude": 36.72212
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -3251,7 +3071,6 @@
       "longitude": -119.80214,
       "latitude": 36.83835
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -3269,7 +3088,6 @@
       "longitude": -114.60962,
       "latitude": 34.83871
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3287,7 +3105,6 @@
       "longitude": -115.31058,
       "latitude": 36.11481
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3305,7 +3122,6 @@
       "longitude": -115.24718,
       "latitude": 36.06457
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3323,7 +3139,6 @@
       "longitude": -120.38275,
       "latitude": 36.75451
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -3341,7 +3156,6 @@
       "longitude": -115.16854,
       "latitude": 36.05657
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3359,7 +3173,6 @@
       "longitude": -115.32396,
       "latitude": 36.2199
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3377,7 +3190,6 @@
       "longitude": -120.6256,
       "latitude": 36.63769
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3395,7 +3207,6 @@
       "longitude": -115.17691,
       "latitude": 36.11974
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3413,7 +3224,6 @@
       "longitude": -115.13926,
       "latitude": 36.11569
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3431,7 +3241,6 @@
       "longitude": -120.0818,
       "latitude": 36.97527
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3449,7 +3258,6 @@
       "longitude": -115.26441,
       "latitude": 36.28015
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -3467,7 +3275,6 @@
       "longitude": -115.09156,
       "latitude": 36.11673
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3485,7 +3292,6 @@
       "longitude": -115.03353,
       "latitude": 36.06208
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3503,7 +3309,6 @@
       "longitude": -114.60716,
       "latitude": 32.70411
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3521,7 +3326,6 @@
       "longitude": -118.39343,
       "latitude": 37.37368
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3539,7 +3343,6 @@
       "longitude": -115.09644,
       "latitude": 36.17386
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3557,7 +3360,6 @@
       "longitude": -120.463,
       "latitude": 36.86846
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -3575,7 +3377,6 @@
       "longitude": -114.24142,
       "latitude": 33.65756
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3593,7 +3394,6 @@
       "longitude": -115.11261,
       "latitude": 36.24109
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3611,7 +3411,6 @@
       "longitude": -121.32015,
       "latitude": 36.41501
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3629,7 +3428,6 @@
       "longitude": -119.65786,
       "latitude": 37.32986
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3647,7 +3445,6 @@
       "longitude": -118.98685,
       "latitude": 37.64986
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -3665,7 +3462,6 @@
       "longitude": -114.03596,
       "latitude": 35.22417
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3683,7 +3479,6 @@
       "longitude": -120.87648,
       "latitude": 37.05477
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3701,7 +3496,6 @@
       "longitude": -120.61014,
       "latitude": 37.34246
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3719,7 +3513,6 @@
       "longitude": -121.65052,
       "latitude": 36.71885
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3737,7 +3530,6 @@
       "longitude": -121.92102,
       "latitude": 36.60415
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3755,7 +3547,6 @@
       "longitude": -121.56286,
       "latitude": 37.02431
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3773,7 +3564,6 @@
       "longitude": -120.05887,
       "latitude": 37.81756
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3791,7 +3581,6 @@
       "longitude": -121.77655,
       "latitude": 36.91587
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3809,7 +3598,6 @@
       "longitude": -120.87274,
       "latitude": 37.50834
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3827,7 +3615,6 @@
       "longitude": -113.54067,
       "latitude": 32.79896
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3845,7 +3632,6 @@
       "longitude": -121.14128,
       "latitude": 37.46225
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3863,7 +3649,6 @@
       "longitude": -121.87776,
       "latitude": 36.95269
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3881,7 +3666,6 @@
       "longitude": -122.02409,
       "latitude": 36.97447
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3899,7 +3683,6 @@
       "longitude": -119.23194,
       "latitude": 38.25569
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3917,7 +3700,6 @@
       "longitude": -121.77614,
       "latitude": 37.22859
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3935,7 +3717,6 @@
       "longitude": -121.0503,
       "latitude": 37.70606
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -3953,7 +3734,6 @@
       "longitude": -121.86325,
       "latitude": 37.22184
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -3971,7 +3751,6 @@
       "longitude": -121.86587,
       "latitude": 37.25125
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -3989,7 +3768,6 @@
       "longitude": -114.10714,
       "latitude": 36.80689
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4007,7 +3785,6 @@
       "longitude": -121.87151,
       "latitude": 37.25914
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4025,7 +3802,6 @@
       "longitude": -121.88928,
       "latitude": 37.24593
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4043,7 +3819,6 @@
       "longitude": -121.85435,
       "latitude": 37.27544
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4061,7 +3836,6 @@
       "longitude": -121.98187,
       "latitude": 37.22793
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4079,7 +3853,6 @@
       "longitude": -121.84269,
       "latitude": 37.35818
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4097,7 +3870,6 @@
       "longitude": -121.91359,
       "latitude": 37.32267
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4115,7 +3887,6 @@
       "longitude": -121.8585,
       "latitude": 37.38815
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4133,7 +3904,6 @@
       "longitude": -121.94336,
       "latitude": 37.3267
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4151,7 +3921,6 @@
       "longitude": -121.98169,
       "latitude": 37.29978
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4169,7 +3938,6 @@
       "longitude": -121.92393,
       "latitude": 37.34986
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -4187,7 +3955,6 @@
       "longitude": -121.24627,
       "latitude": 37.79826
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -4205,7 +3972,6 @@
       "longitude": -121.898,
       "latitude": 37.41336
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4223,7 +3989,6 @@
       "longitude": -121.92806,
       "latitude": 37.39435
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4241,7 +4006,6 @@
       "longitude": -121.89388,
       "latitude": 37.43313
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4259,7 +4023,6 @@
       "longitude": -121.91823,
       "latitude": 37.4229
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4277,7 +4040,6 @@
       "longitude": -121.99531,
       "latitude": 37.38381
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4295,7 +4057,6 @@
       "longitude": -121.47246,
       "latitude": 37.75304
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4313,7 +4074,6 @@
       "longitude": -122.01636,
       "latitude": 37.40684
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4331,7 +4091,6 @@
       "longitude": -121.94216,
       "latitude": 37.51092
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4349,7 +4108,6 @@
       "longitude": -122.10866,
       "latitude": 37.40098
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4367,7 +4125,6 @@
       "longitude": -122.10888,
       "latitude": 37.41875
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4385,7 +4142,6 @@
       "longitude": -121.781,
       "latitude": 37.66102
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4403,7 +4159,6 @@
       "longitude": -121.99236,
       "latitude": 37.51923
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4421,7 +4176,6 @@
       "longitude": -122.13921,
       "latitude": 37.46108
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -4439,7 +4193,6 @@
       "longitude": -122.16977,
       "latitude": 37.44208
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4457,7 +4210,6 @@
       "longitude": -122.02416,
       "latitude": 37.56716
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4475,7 +4227,6 @@
       "longitude": -121.87458,
       "latitude": 37.67564
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4493,7 +4244,6 @@
       "longitude": -121.84093,
       "latitude": 37.70005
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4511,7 +4261,6 @@
       "longitude": -121.29534,
       "latitude": 38.01914
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -4529,7 +4278,6 @@
       "longitude": -121.8844,
       "latitude": 37.70068
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4547,7 +4295,6 @@
       "longitude": -121.91727,
       "latitude": 37.69528
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -4565,7 +4312,6 @@
       "longitude": -121.91819,
       "latitude": 37.7011
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4583,7 +4329,6 @@
       "longitude": -122.06859,
       "latitude": 37.60423
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4601,7 +4346,6 @@
       "longitude": -121.3767,
       "latitude": 38.05044
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4619,7 +4363,6 @@
       "longitude": -122.06332,
       "latitude": 37.64528
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4637,7 +4380,6 @@
       "longitude": -122.27482,
       "latitude": 37.5193
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4655,7 +4397,6 @@
       "longitude": -112.55893,
       "latitude": 33.43603
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4673,11 +4414,10 @@
       "longitude": -122.08156,
       "latitude": 37.69479
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "210054",
@@ -4691,7 +4431,6 @@
       "longitude": -122.3029,
       "latitude": 37.54004
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4709,7 +4448,6 @@
       "longitude": -121.97348,
       "latitude": 37.78269
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4727,7 +4465,6 @@
       "longitude": -122.33819,
       "latitude": 37.52048
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4745,7 +4482,6 @@
       "longitude": -112.45589,
       "latitude": 34.54541
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -4763,7 +4499,6 @@
       "longitude": -122.42984,
       "latitude": 37.46211
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4781,7 +4516,6 @@
       "longitude": -122.15392,
       "latitude": 37.72408
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4799,7 +4533,6 @@
       "longitude": -122.17783,
       "latitude": 37.71528
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4817,7 +4550,6 @@
       "longitude": -113.51969,
       "latitude": 37.1273
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4835,7 +4567,6 @@
       "longitude": -122.0731,
       "latitude": 37.87853
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4853,7 +4584,6 @@
       "longitude": -121.96502,
       "latitude": 37.95408
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4871,7 +4601,6 @@
       "longitude": -122.05708,
       "latitude": 37.89661
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4889,7 +4618,6 @@
       "longitude": -121.89038,
       "latitude": 38.01162
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4907,7 +4635,6 @@
       "longitude": -122.25313,
       "latitude": 37.79966
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4925,7 +4652,6 @@
       "longitude": -122.28003,
       "latitude": 37.78958
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4943,7 +4669,6 @@
       "longitude": -122.07315,
       "latitude": 37.93447
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -4961,7 +4686,6 @@
       "longitude": -122.02904,
       "latitude": 37.97854
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -4979,7 +4703,6 @@
       "longitude": -122.05625,
       "latitude": 37.97006
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -4997,7 +4720,6 @@
       "longitude": -122.09395,
       "latitude": 37.95791
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -5015,7 +4737,6 @@
       "longitude": -122.27974,
       "latitude": 37.83268
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5033,7 +4754,6 @@
       "longitude": -112.26593,
       "latitude": 33.50927
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5051,7 +4771,6 @@
       "longitude": -112.23514,
       "latitude": 33.65174
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5069,7 +4788,6 @@
       "longitude": -122.42203,
       "latitude": 37.74291
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -5087,7 +4805,6 @@
       "longitude": -122.40272,
       "latitude": 37.77856
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5105,7 +4822,6 @@
       "longitude": -122.48944,
       "latitude": 37.73241
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -5123,7 +4839,6 @@
       "longitude": -122.4313,
       "latitude": 37.78365
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -5141,7 +4856,6 @@
       "longitude": -121.39095,
       "latitude": 38.41118
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -5159,7 +4873,6 @@
       "longitude": -122.13251,
       "latitude": 37.9999
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -5177,7 +4890,6 @@
       "longitude": -122.48867,
       "latitude": 37.75397
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5195,7 +4907,6 @@
       "longitude": -112.15362,
       "latitude": 33.87042
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5213,7 +4924,6 @@
       "longitude": -121.41814,
       "latitude": 38.43898
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5231,7 +4941,6 @@
       "longitude": -119.96981,
       "latitude": 38.94503
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5249,7 +4958,6 @@
       "longitude": -122.32935,
       "latitude": 37.93182
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5267,7 +4975,6 @@
       "longitude": -120.80303,
       "latitude": 38.72688
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5285,7 +4992,6 @@
       "longitude": -112.1971,
       "latitude": 35.25147
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5303,7 +5009,6 @@
       "longitude": -122.2697,
       "latitude": 38.00789
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5321,7 +5026,6 @@
       "longitude": -122.27165,
       "latitude": 38.01479
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -5339,7 +5043,6 @@
       "longitude": -122.31927,
       "latitude": 37.98352
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5357,7 +5060,6 @@
       "longitude": -121.4342,
       "latitude": 38.49821
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5375,7 +5077,6 @@
       "longitude": -121.12172,
       "latitude": 38.64752
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -5393,7 +5094,6 @@
       "longitude": -121.13504,
       "latitude": 38.64411
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -5411,7 +5111,6 @@
       "longitude": -121.28856,
       "latitude": 38.57994
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -5429,7 +5128,6 @@
       "longitude": -121.18864,
       "latitude": 38.64298
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5447,7 +5145,6 @@
       "longitude": -121.98961,
       "latitude": 38.24263
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -5465,7 +5162,6 @@
       "longitude": -122.53033,
       "latitude": 37.89389
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -5483,7 +5179,6 @@
       "longitude": -121.42751,
       "latitude": 38.54908
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5501,7 +5196,6 @@
       "longitude": -112.01168,
       "latitude": 33.64197
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5519,7 +5213,6 @@
       "longitude": -121.38807,
       "latitude": 38.59482
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -5537,7 +5230,6 @@
       "longitude": -121.46848,
       "latitude": 38.56462
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -5555,7 +5247,6 @@
       "longitude": -121.40186,
       "latitude": 38.60037
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5573,7 +5264,6 @@
       "longitude": -121.49766,
       "latitude": 38.56284
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5591,7 +5281,6 @@
       "longitude": -121.48573,
       "latitude": 38.57614
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5609,7 +5298,6 @@
       "longitude": -111.98413,
       "latitude": 33.47925
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -5627,7 +5315,6 @@
       "longitude": -121.38488,
       "latitude": 38.64967
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5645,7 +5332,6 @@
       "longitude": -121.95685,
       "latitude": 38.36731
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5663,7 +5349,6 @@
       "longitude": -122.56423,
       "latitude": 37.98071
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -5681,7 +5366,6 @@
       "longitude": -121.55108,
       "latitude": 38.58899
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5699,7 +5383,6 @@
       "longitude": -121.938,
       "latitude": 38.38874
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -5717,7 +5400,6 @@
       "longitude": -111.96659,
       "latitude": 33.37958
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5735,7 +5417,6 @@
       "longitude": -111.97245,
       "latitude": 33.28631
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5753,7 +5434,6 @@
       "longitude": -111.90397,
       "latitude": 33.67042
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5771,7 +5451,6 @@
       "longitude": -121.28907,
       "latitude": 38.72787
     },
-    "status": "UNAVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -5789,7 +5468,6 @@
       "longitude": -121.25076,
       "latitude": 38.74662
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -5807,7 +5485,6 @@
       "longitude": -121.4992,
       "latitude": 38.63995
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5825,7 +5502,6 @@
       "longitude": -121.52284,
       "latitude": 38.64114
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5843,7 +5519,6 @@
       "longitude": -121.53259,
       "latitude": 38.64163
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5861,7 +5536,6 @@
       "longitude": -121.74202,
       "latitude": 38.54566
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5879,7 +5553,6 @@
       "longitude": -121.27043,
       "latitude": 38.77165
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5897,7 +5570,6 @@
       "longitude": -122.27921,
       "latitude": 38.25318
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -5915,7 +5587,6 @@
       "longitude": -121.20763,
       "latitude": 38.80499
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5933,7 +5604,6 @@
       "longitude": -122.571,
       "latitude": 38.1031
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5951,7 +5621,6 @@
       "longitude": -121.58925,
       "latitude": 38.67789
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5969,7 +5638,6 @@
       "longitude": -122.30294,
       "latitude": 38.29665
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -5987,7 +5655,6 @@
       "longitude": -112.12712,
       "latitude": 35.97479
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6005,7 +5672,6 @@
       "longitude": -111.84259,
       "latitude": 33.38004
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -6023,7 +5689,6 @@
       "longitude": -111.85946,
       "latitude": 33.27598
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6041,7 +5706,6 @@
       "longitude": -121.06016,
       "latitude": 38.92252
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6059,7 +5723,6 @@
       "longitude": -111.78539,
       "latitude": 34.87041
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -6077,7 +5740,6 @@
       "longitude": -121.29604,
       "latitude": 38.85526
     },
-    "status": "AVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -6095,7 +5757,6 @@
       "longitude": -122.4587,
       "latitude": 38.29122
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6113,7 +5774,6 @@
       "longitude": -111.74273,
       "latitude": 33.3043
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6131,7 +5791,6 @@
       "longitude": -120.20852,
       "latitude": 39.31959
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6149,7 +5808,6 @@
       "longitude": -122.65122,
       "latitude": 38.25744
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6167,7 +5825,6 @@
       "longitude": -113.08677,
       "latitude": 37.65479
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6185,7 +5842,6 @@
       "longitude": -111.6156,
       "latitude": 35.19912
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6203,7 +5859,6 @@
       "longitude": -111.71228,
       "latitude": 32.87867
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6221,7 +5876,6 @@
       "longitude": -119.71844,
       "latitude": 39.53492
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6239,7 +5893,6 @@
       "longitude": -119.21622,
       "latitude": 39.6098
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6257,7 +5910,6 @@
       "longitude": -122.71497,
       "latitude": 38.36805
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6275,7 +5927,6 @@
       "longitude": -119.8637,
       "latitude": 39.53586
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6293,7 +5944,6 @@
       "longitude": -122.71778,
       "latitude": 38.43861
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6311,7 +5961,6 @@
       "longitude": -121.97246,
       "latitude": 38.88232
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6329,7 +5978,6 @@
       "longitude": -122.82705,
       "latitude": 38.40445
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -6347,7 +5995,6 @@
       "longitude": -111.31799,
       "latitude": 34.24115
     },
-    "status": "FULL",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -6365,7 +6012,6 @@
       "longitude": -121.63456,
       "latitude": 39.14638
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6383,7 +6029,6 @@
       "longitude": -122.87287,
       "latitude": 38.60976
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6401,7 +6046,6 @@
       "longitude": -118.47624,
       "latitude": 40.18013
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6419,7 +6063,6 @@
       "longitude": -112.65367,
       "latitude": 38.29373
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6437,7 +6080,6 @@
       "longitude": -111.10152,
       "latitude": 32.37417
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6455,7 +6097,6 @@
       "longitude": -110.77735,
       "latitude": 33.39377
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -6473,7 +6114,6 @@
       "longitude": -110.70177,
       "latitude": 35.04197
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6491,7 +6131,6 @@
       "longitude": -122.21859,
       "latitude": 39.52549
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6509,7 +6148,6 @@
       "longitude": -121.84034,
       "latitude": 39.72766
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6527,7 +6165,6 @@
       "longitude": -116.94306,
       "latitude": 40.64808
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6545,7 +6182,6 @@
       "longitude": -123.3501,
       "latitude": 39.40408
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6563,7 +6199,6 @@
       "longitude": -110.03248,
       "latitude": 34.25067
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -6581,7 +6216,6 @@
       "longitude": -112.08631,
       "latitude": 38.74781
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6599,7 +6233,6 @@
       "longitude": -117.74686,
       "latitude": 40.95467
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6617,7 +6250,6 @@
       "longitude": -110.31471,
       "latitude": 31.9698
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6635,7 +6267,6 @@
       "longitude": -115.79092,
       "latitude": 40.8401
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6653,7 +6284,6 @@
       "longitude": -111.85365,
       "latitude": 38.93144
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6671,7 +6301,6 @@
       "longitude": -112.1167,
       "latitude": 39.25554
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6689,7 +6318,6 @@
       "longitude": -122.28927,
       "latitude": 40.45346
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6707,7 +6335,6 @@
       "longitude": -123.79012,
       "latitude": 40.00969
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6725,7 +6352,6 @@
       "longitude": -114.07747,
       "latitude": 40.73939
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6743,7 +6369,6 @@
       "longitude": -108.76895,
       "latitude": 35.52794
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6761,7 +6386,6 @@
       "longitude": -111.64027,
       "latitude": 40.12414
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6779,7 +6403,6 @@
       "longitude": -108.74179,
       "latitude": 32.34937
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6797,7 +6420,6 @@
       "longitude": -110.16171,
       "latitude": 38.99578
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6815,7 +6437,6 @@
       "longitude": -124.19025,
       "latitude": 40.77697
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6833,7 +6454,6 @@
       "longitude": -124.19059,
       "latitude": 40.7793
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -6851,7 +6471,6 @@
       "longitude": -111.93849,
       "latitude": 40.6841
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -6869,7 +6488,6 @@
       "longitude": -109.57577,
       "latitude": 38.60227
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -6887,7 +6505,6 @@
       "longitude": -111.89792,
       "latitude": 40.72787
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6905,7 +6522,6 @@
       "longitude": -111.79643,
       "latitude": 40.68773
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -6923,7 +6539,6 @@
       "longitude": -122.64512,
       "latitude": 41.69938
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6941,7 +6556,6 @@
       "longitude": -111.54691,
       "latitude": 40.72331
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -6959,7 +6573,6 @@
       "longitude": -107.82477,
       "latitude": 35.12527
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6977,7 +6590,6 @@
       "longitude": -112.02923,
       "latitude": 41.48497
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -6995,7 +6607,6 @@
       "longitude": -107.74673,
       "latitude": 32.26955
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7013,7 +6624,6 @@
       "longitude": -124.18975,
       "latitude": 41.77408
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7031,7 +6641,6 @@
       "longitude": -122.87142,
       "latitude": 42.35268
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7049,7 +6658,6 @@
       "longitude": -110.96956,
       "latitude": 41.25464
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7067,7 +6675,6 @@
       "longitude": -113.73045,
       "latitude": 42.57256
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7085,7 +6692,6 @@
       "longitude": -108.58333,
       "latitude": 39.08244
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7103,7 +6709,6 @@
       "longitude": -123.30214,
       "latitude": 42.43579
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7121,7 +6726,6 @@
       "longitude": -115.66852,
       "latitude": 43.13547
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7139,7 +6743,6 @@
       "longitude": -109.53001,
       "latitude": 40.45502
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -7157,7 +6760,6 @@
       "longitude": -106.62188,
       "latitude": 35.07556
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -7175,7 +6777,6 @@
       "longitude": -106.60626,
       "latitude": 35.11274
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7193,7 +6794,6 @@
       "longitude": -116.28359,
       "latitude": 43.59142
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7211,7 +6811,6 @@
       "longitude": -106.5674,
       "latitude": 35.10421
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -7229,7 +6828,6 @@
       "longitude": -112.4651,
       "latitude": 42.90954
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7247,7 +6845,6 @@
       "longitude": -106.03192,
       "latitude": 35.61839
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7265,7 +6862,6 @@
       "longitude": -123.33938,
       "latitude": 43.3868
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7283,7 +6879,6 @@
       "longitude": -106.3415,
       "latitude": 31.75124
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7301,7 +6896,6 @@
       "longitude": -121.31675,
       "latitude": 44.02256
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7319,7 +6913,6 @@
       "longitude": -107.34483,
       "latitude": 39.55613
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7337,7 +6930,6 @@
       "longitude": -121.30091,
       "latitude": 44.1043
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -7355,7 +6947,6 @@
       "longitude": -117.26859,
       "latitude": 44.35113
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7373,7 +6964,6 @@
       "longitude": -109.26113,
       "latitude": 41.58215
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7391,7 +6981,6 @@
       "longitude": -124.23628,
       "latitude": 43.40576
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7409,7 +6998,6 @@
       "longitude": -112.05057,
       "latitude": 43.49262
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7427,7 +7015,6 @@
       "longitude": -123.04522,
       "latitude": 44.07104
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7445,7 +7032,6 @@
       "longitude": -123.14305,
       "latitude": 44.04819
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7463,7 +7049,6 @@
       "longitude": -121.12891,
       "latitude": 44.64422
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7481,7 +7066,6 @@
       "longitude": -106.58748,
       "latitude": 39.64848
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7499,7 +7083,6 @@
       "longitude": -124.10359,
       "latitude": 43.9728
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -7517,7 +7100,6 @@
       "longitude": -106.09525,
       "latitude": 39.58664
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7535,7 +7117,6 @@
       "longitude": -123.04942,
       "latitude": 44.62701
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7553,7 +7134,6 @@
       "longitude": -104.63823,
       "latitude": 34.94721
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7571,7 +7151,6 @@
       "longitude": -104.70736,
       "latitude": 36.01036
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7589,7 +7168,6 @@
       "longitude": -118.05945,
       "latitude": 45.33658
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7607,7 +7185,6 @@
       "longitude": -112.70081,
       "latitude": 44.72538
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7625,7 +7202,6 @@
       "longitude": -122.98536,
       "latitude": 44.9655
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7643,7 +7219,6 @@
       "longitude": -124.05349,
       "latitude": 44.65562
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7661,7 +7236,6 @@
       "longitude": -104.52232,
       "latitude": 37.13771
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7679,7 +7253,6 @@
       "longitude": -107.21669,
       "latitude": 41.7951
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7697,7 +7270,6 @@
       "longitude": -122.87591,
       "latitude": 45.15742
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7715,7 +7287,6 @@
       "longitude": -104.82397,
       "latitude": 31.04012
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7733,7 +7304,6 @@
       "longitude": -105.35702,
       "latitude": 39.69335
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7751,7 +7321,6 @@
       "longitude": -119.32211,
       "latitude": 45.78711
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7769,7 +7338,6 @@
       "longitude": -122.29418,
       "latitude": 45.40309
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7787,7 +7355,6 @@
       "longitude": -122.77226,
       "latitude": 45.29992
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7805,7 +7372,6 @@
       "longitude": -104.61373,
       "latitude": 38.31849
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7823,7 +7389,6 @@
       "longitude": -104.78309,
       "latitude": 38.76909
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7841,7 +7406,6 @@
       "longitude": -105.1489,
       "latitude": 39.60833
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -7859,7 +7423,6 @@
       "longitude": -122.83439,
       "latitude": 45.36525
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -7877,7 +7440,6 @@
       "longitude": -122.57103,
       "latitude": 45.43203
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7895,7 +7457,6 @@
       "longitude": -122.66756,
       "latitude": 45.42054
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7913,7 +7474,6 @@
       "longitude": -105.0804,
       "latitude": 39.56754
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7931,7 +7491,6 @@
       "longitude": -122.75368,
       "latitude": 45.43267
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7949,7 +7508,6 @@
       "longitude": -105.15458,
       "latitude": 39.7331
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -7967,7 +7525,6 @@
       "longitude": -122.69156,
       "latitude": 45.47058
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -7985,7 +7542,6 @@
       "longitude": -122.38973,
       "latitude": 45.54296
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -8003,7 +7559,6 @@
       "longitude": -121.53991,
       "latitude": 45.71181
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8021,7 +7576,6 @@
       "longitude": -122.62407,
       "latitude": 45.51349
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8039,7 +7593,6 @@
       "longitude": -105.25708,
       "latitude": 40.01844
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8057,7 +7610,6 @@
       "longitude": -122.596,
       "latitude": 45.52667
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8075,7 +7627,6 @@
       "longitude": -122.7886,
       "latitude": 45.48692
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -8093,7 +7644,6 @@
       "longitude": -105.10315,
       "latitude": 39.80117
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8111,7 +7661,6 @@
       "longitude": -104.96203,
       "latitude": 39.57938
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8129,7 +7678,6 @@
       "longitude": -105.0548,
       "latitude": 39.74583
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8147,7 +7695,6 @@
       "longitude": -105.17402,
       "latitude": 39.95541
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8165,7 +7712,6 @@
       "longitude": -104.85716,
       "latitude": 39.40762
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8183,7 +7729,6 @@
       "longitude": -104.98909,
       "latitude": 39.65515
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8201,7 +7746,6 @@
       "longitude": -105.13551,
       "latitude": 39.93243
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8219,7 +7763,6 @@
       "longitude": -122.8399,
       "latitude": 45.51837
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8237,7 +7780,6 @@
       "longitude": -104.91247,
       "latitude": 39.56171
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8255,7 +7797,6 @@
       "longitude": -122.47814,
       "latitude": 45.61776
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -8273,7 +7814,6 @@
       "longitude": -103.70172,
       "latitude": 35.15832
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8291,7 +7831,6 @@
       "longitude": -122.67968,
       "latitude": 45.5761
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8309,7 +7848,6 @@
       "longitude": -105.05244,
       "latitude": 39.86435
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8327,7 +7865,6 @@
       "longitude": -104.88263,
       "latitude": 39.59369
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -8345,7 +7882,6 @@
       "longitude": -122.73873,
       "latitude": 45.58512
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8363,7 +7899,6 @@
       "longitude": -122.90134,
       "latitude": 45.55119
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8381,7 +7916,6 @@
       "longitude": -104.93314,
       "latitude": 39.70915
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8399,7 +7933,6 @@
       "longitude": -104.88405,
       "latitude": 39.62657
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -8417,7 +7950,6 @@
       "longitude": -105.10381,
       "latitude": 40.00632
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8435,7 +7967,6 @@
       "longitude": -123.06802,
       "latitude": 45.52151
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -8453,7 +7984,6 @@
       "longitude": -122.59341,
       "latitude": 45.64992
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8471,7 +8001,6 @@
       "longitude": -104.98436,
       "latitude": 39.87568
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8489,7 +8018,6 @@
       "longitude": -104.78379,
       "latitude": 39.55953
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8507,7 +8035,6 @@
       "longitude": -104.81337,
       "latitude": 39.6136
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8525,7 +8052,6 @@
       "longitude": -104.89856,
       "latitude": 39.77068
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8543,7 +8069,6 @@
       "longitude": -104.99204,
       "latitude": 39.94115
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8561,7 +8086,6 @@
       "longitude": -105.01135,
       "latitude": 40.00247
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8579,7 +8103,6 @@
       "longitude": -104.82568,
       "latitude": 39.70318
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -8597,7 +8120,6 @@
       "longitude": -122.66091,
       "latitude": 45.68739
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8615,7 +8137,6 @@
       "longitude": -105.09973,
       "latitude": 40.20397
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8633,7 +8154,6 @@
       "longitude": -104.70639,
       "latitude": 39.60584
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8651,7 +8171,6 @@
       "longitude": -104.79538,
       "latitude": 39.78083
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8669,7 +8188,6 @@
       "longitude": -119.16163,
       "latitude": 46.19719
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8687,7 +8205,6 @@
       "longitude": -104.7709,
       "latitude": 39.79994
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8705,7 +8222,6 @@
       "longitude": -104.813,
       "latitude": 39.88749
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8723,7 +8239,6 @@
       "longitude": -104.6724,
       "latitude": 39.84893
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -8741,7 +8256,6 @@
       "longitude": -105.00398,
       "latitude": 40.40828
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8759,7 +8273,6 @@
       "longitude": -104.74446,
       "latitude": 40.39503
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8777,7 +8290,6 @@
       "longitude": -122.90126,
       "latitude": 46.13988
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8795,7 +8307,6 @@
       "longitude": -120.47924,
       "latitude": 46.60252
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8813,7 +8324,6 @@
       "longitude": -103.48466,
       "latitude": 31.40279
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8831,7 +8341,6 @@
       "longitude": -112.6082,
       "latitude": 46.00874
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8849,7 +8358,6 @@
       "longitude": -104.80089,
       "latitude": 41.16133
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8867,7 +8375,6 @@
       "longitude": -106.26431,
       "latitude": 42.84764
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8885,7 +8392,6 @@
       "longitude": -123.90215,
       "latitude": 46.16189
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8903,7 +8409,6 @@
       "longitude": -111.07007,
       "latitude": 45.71078
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8921,7 +8426,6 @@
       "longitude": -120.54343,
       "latitude": 46.9789
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8939,7 +8443,6 @@
       "longitude": -118.36271,
       "latitude": 47.11948
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8957,7 +8460,6 @@
       "longitude": -103.77111,
       "latitude": 40.26144
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8975,7 +8477,6 @@
       "longitude": -114.04056,
       "latitude": 46.88442
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -8993,7 +8494,6 @@
       "longitude": -103.06136,
       "latitude": 39.28731
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9011,7 +8511,6 @@
       "longitude": -102.90741,
       "latitude": 30.89499
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9029,7 +8528,6 @@
       "longitude": -122.82386,
       "latitude": 46.99476
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9047,7 +8545,6 @@
       "longitude": -112.02071,
       "latitude": 46.62084
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9065,7 +8562,6 @@
       "longitude": -122.83194,
       "latitude": 47.04119
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -9083,7 +8579,6 @@
       "longitude": -122.77201,
       "latitude": 47.05966
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9101,7 +8596,6 @@
       "longitude": -101.94083,
       "latitude": 35.18517
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9119,7 +8613,6 @@
       "longitude": -122.29757,
       "latitude": 47.15598
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9137,7 +8630,6 @@
       "longitude": -122.93618,
       "latitude": 47.04545
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9155,7 +8647,6 @@
       "longitude": -122.48025,
       "latitude": 47.23947
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9173,7 +8664,6 @@
       "longitude": -116.1854,
       "latitude": 47.54414
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9191,7 +8681,6 @@
       "longitude": -122.24928,
       "latitude": 47.29764
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9209,7 +8698,6 @@
       "longitude": -122.30889,
       "latitude": 47.29149
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9227,7 +8715,6 @@
       "longitude": -123.80708,
       "latitude": 46.97642
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9245,7 +8732,6 @@
       "longitude": -117.36062,
       "latitude": 47.65198
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9263,7 +8749,6 @@
       "longitude": -122.10773,
       "latitude": 47.36029
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9281,7 +8766,6 @@
       "longitude": -117.19014,
       "latitude": 47.66565
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9299,7 +8783,6 @@
       "longitude": -122.58017,
       "latitude": 47.3067
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9317,7 +8800,6 @@
       "longitude": -120.64588,
       "latitude": 47.59736
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9335,7 +8817,6 @@
       "longitude": -122.23618,
       "latitude": 47.3833
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9353,7 +8834,6 @@
       "longitude": -121.79356,
       "latitude": 47.49129
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9371,7 +8851,6 @@
       "longitude": -102.07257,
       "latitude": 31.97452
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9389,7 +8868,6 @@
       "longitude": -122.25738,
       "latitude": 47.45571
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9407,7 +8885,6 @@
       "longitude": -122.1993,
       "latitude": 47.49729
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9425,7 +8902,6 @@
       "longitude": -122.05203,
       "latitude": 47.54187
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9443,7 +8919,6 @@
       "longitude": -122.27056,
       "latitude": 47.52317
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9461,7 +8936,6 @@
       "longitude": -122.31837,
       "latitude": 47.54795
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9479,7 +8953,6 @@
       "longitude": -122.62941,
       "latitude": 47.50453
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9497,7 +8970,6 @@
       "longitude": -122.20062,
       "latitude": 47.61332
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9515,7 +8987,6 @@
       "longitude": -122.14277,
       "latitude": 47.63187
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9533,7 +9004,6 @@
       "longitude": -122.31477,
       "latitude": 47.61388
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9551,7 +9021,6 @@
       "longitude": -108.4742,
       "latitude": 45.80578
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9569,7 +9038,6 @@
       "longitude": -122.35829,
       "latitude": 47.62482
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9587,7 +9055,6 @@
       "longitude": -122.10457,
       "latitude": 47.67179
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9605,7 +9072,6 @@
       "longitude": -122.02566,
       "latitude": 47.69937
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9623,7 +9089,6 @@
       "longitude": -122.29641,
       "latitude": 47.66149
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9641,7 +9106,6 @@
       "longitude": -122.36947,
       "latitude": 47.6594
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9659,7 +9123,6 @@
       "longitude": -122.19086,
       "latitude": 47.71142
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9677,7 +9140,6 @@
       "longitude": -122.32489,
       "latitude": 47.70846
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9695,7 +9157,6 @@
       "longitude": -122.29212,
       "latitude": 47.72305
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9713,7 +9174,6 @@
       "longitude": -122.15115,
       "latitude": 47.75422
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9731,7 +9191,6 @@
       "longitude": -122.34776,
       "latitude": 47.76193
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -9749,7 +9208,6 @@
       "longitude": -122.20601,
       "latitude": 47.80743
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9767,7 +9225,6 @@
       "longitude": -121.97318,
       "latitude": 47.86516
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9785,7 +9242,6 @@
       "longitude": -122.66051,
       "latitude": 47.75648
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9803,7 +9259,6 @@
       "longitude": -122.26733,
       "latitude": 47.83199
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9821,7 +9276,6 @@
       "longitude": -122.256,
       "latitude": 47.8935
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9839,7 +9293,6 @@
       "longitude": -122.21331,
       "latitude": 47.91349
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9857,7 +9310,6 @@
       "longitude": -105.49096,
       "latitude": 44.28153
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9875,7 +9327,6 @@
       "longitude": -122.10064,
       "latitude": 47.99823
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -9893,7 +9344,6 @@
       "longitude": -122.1869,
       "latitude": 48.09546
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9911,7 +9361,6 @@
       "longitude": -123.36134,
       "latitude": 48.10993
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9929,7 +9378,6 @@
       "longitude": -122.34476,
       "latitude": 48.44174
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9947,7 +9395,6 @@
       "longitude": -101.04661,
       "latitude": 39.36643
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9965,7 +9412,6 @@
       "longitude": -101.20571,
       "latitude": 30.7067
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -9983,7 +9429,6 @@
       "longitude": -101.71872,
       "latitude": 41.11293
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10001,7 +9446,6 @@
       "longitude": -100.39383,
       "latitude": 32.45294
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10019,7 +9463,6 @@
       "longitude": -122.4632,
       "latitude": 48.7443
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10037,7 +9480,6 @@
       "longitude": -122.5123,
       "latitude": 48.78928
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10055,7 +9497,6 @@
       "longitude": -99.8696,
       "latitude": 35.2244
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10073,7 +9514,6 @@
       "longitude": -103.18777,
       "latitude": 44.09795
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10091,7 +9531,6 @@
       "longitude": -100.75956,
       "latitude": 41.12043
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10109,7 +9548,6 @@
       "longitude": -105.82135,
       "latitude": 46.39769
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10127,7 +9565,6 @@
       "longitude": -102.23771,
       "latitude": 43.98729
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10145,7 +9582,6 @@
       "longitude": -99.31972,
       "latitude": 38.90292
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10163,7 +9599,6 @@
       "longitude": -99.75377,
       "latitude": 30.49183
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10181,7 +9616,6 @@
       "longitude": -98.68943,
       "latitude": 35.52334
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10199,7 +9633,6 @@
       "longitude": -99.74156,
       "latitude": 40.74595
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10217,7 +9650,6 @@
       "longitude": -98.79289,
       "latitude": 32.40331
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10235,7 +9667,6 @@
       "longitude": -104.73746,
       "latitude": 47.11604
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10253,7 +9684,6 @@
       "longitude": -97.54285,
       "latitude": 35.52362
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10271,7 +9701,6 @@
       "longitude": -97.49379,
       "latitude": 35.32169
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10289,7 +9718,6 @@
       "longitude": -97.46117,
       "latitude": 35.6583
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -10307,7 +9735,6 @@
       "longitude": -98.37956,
       "latitude": 40.81642
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10325,7 +9752,6 @@
       "longitude": -97.33646,
       "latitude": 36.81105
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10343,7 +9769,6 @@
       "longitude": -98.597,
       "latitude": 29.60607
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -10361,7 +9786,6 @@
       "longitude": -97.59375,
       "latitude": 38.84936
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10379,7 +9803,6 @@
       "longitude": -97.24516,
       "latitude": 37.6843
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10397,7 +9820,6 @@
       "longitude": -97.43069,
       "latitude": 32.7543
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10415,7 +9837,6 @@
       "longitude": -98.40876,
       "latitude": 29.55241
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10433,7 +9854,6 @@
       "longitude": -97.14552,
       "latitude": 34.19332
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10451,7 +9871,6 @@
       "longitude": -97.3189,
       "latitude": 32.90007
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -10469,9 +9888,25 @@
       "longitude": -97.16808,
       "latitude": 33.23157
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
+    "isCcs": true,
+    "isChademo": true
+  },
+  {
+    "id": "220233",
+    "siteId": "220233",
+    "name": "Simon North East Mall (Hurst, TX)",
+    "address": "1101 Melbourne Rd",
+    "city": "Hurst",
+    "postalCode": "76053-6205",
+    "state": "Texas",
+    "coordinates": {
+      "longitude": -97.19943,
+      "latitude": 32.83076
+    },
+    "type": "COMING_SOON",
+    "isL2": true,
     "isCcs": true,
     "isChademo": true
   },
@@ -10487,7 +9922,6 @@
       "longitude": -99.31168,
       "latitude": 43.77263
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10505,7 +9939,6 @@
       "longitude": -97.16902,
       "latitude": 32.75916
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -10523,7 +9956,6 @@
       "longitude": -98.0749,
       "latitude": 29.73097
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10541,7 +9973,6 @@
       "longitude": -97.6916,
       "latitude": 30.56638
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10559,7 +9990,6 @@
       "longitude": -97.02215,
       "latitude": 32.69056
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -10577,7 +10007,6 @@
       "longitude": -97.99257,
       "latitude": 29.58115
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10595,7 +10024,6 @@
       "longitude": -97.60494,
       "latitude": 30.45214
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -10613,7 +10041,6 @@
       "longitude": -97.10585,
       "latitude": 31.60057
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10631,7 +10058,6 @@
       "longitude": -96.3958,
       "latitude": 35.84323
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10649,7 +10075,6 @@
       "longitude": -96.62012,
       "latitude": 32.33207
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10667,7 +10092,6 @@
       "longitude": -96.34252,
       "latitude": 32.96482
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10685,11 +10109,27 @@
       "longitude": -96.7491,
       "latitude": 40.81449
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
     "isChademo": false
+  },
+  {
+    "id": "240388",
+    "siteId": "240388",
+    "name": "Simon Tulsa Premium Outlets (Jenks, OK)",
+    "address": "801 East 103rd Street South",
+    "city": "Jenks",
+    "postalCode": "74037",
+    "state": "Oklahoma",
+    "coordinates": {
+      "longitude": -95.96186,
+      "latitude": 36.01474
+    },
+    "type": "COMING_SOON",
+    "isL2": true,
+    "isCcs": true,
+    "isChademo": true
   },
   {
     "id": "240119",
@@ -10703,7 +10143,6 @@
       "longitude": -95.77624,
       "latitude": 36.06593
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10721,7 +10160,6 @@
       "longitude": -96.17613,
       "latitude": 31.71802
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10739,7 +10177,6 @@
       "longitude": -95.76304,
       "latitude": 39.03872
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10757,7 +10194,6 @@
       "longitude": -96.31408,
       "latitude": 30.61026
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10775,7 +10211,6 @@
       "longitude": -96.19386,
       "latitude": 41.23512
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10793,7 +10228,6 @@
       "longitude": -96.50432,
       "latitude": 29.70835
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10811,7 +10245,6 @@
       "longitude": -95.14128,
       "latitude": 36.63202
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10829,7 +10262,6 @@
       "longitude": -96.46192,
       "latitude": 42.494
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10847,7 +10279,6 @@
       "longitude": -95.89588,
       "latitude": 30.95689
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10865,7 +10296,6 @@
       "longitude": -95.84654,
       "latitude": 41.22747
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10883,7 +10313,6 @@
       "longitude": -96.76748,
       "latitude": 43.60709
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10901,7 +10330,6 @@
       "longitude": -94.96941,
       "latitude": 33.15124
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10919,7 +10347,6 @@
       "longitude": -95.56978,
       "latitude": 30.71455
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10937,7 +10364,6 @@
       "longitude": -95.81079,
       "latitude": 29.77579
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10955,7 +10381,6 @@
       "longitude": -97.08374,
       "latitude": 44.88822
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -10973,7 +10398,6 @@
       "longitude": -98.71783,
       "latitude": 46.88057
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -10991,7 +10415,6 @@
       "longitude": -94.59178,
       "latitude": 39.04196
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -11009,7 +10432,6 @@
       "longitude": -95.45727,
       "latitude": 30.12472
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -11027,7 +10449,6 @@
       "longitude": -95.57278,
       "latitude": 29.64283
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -11045,7 +10466,6 @@
       "longitude": -94.37021,
       "latitude": 39.04954
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11063,7 +10483,6 @@
       "longitude": -94.15126,
       "latitude": 36.28078
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11081,7 +10500,6 @@
       "longitude": -95.39988,
       "latitude": 29.77261
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11099,7 +10517,6 @@
       "longitude": -95.38409,
       "latitude": 29.55706
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -11117,7 +10534,6 @@
       "longitude": -95.59459,
       "latitude": 43.64008
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11135,7 +10551,6 @@
       "longitude": -95.17644,
       "latitude": 29.76944
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11153,7 +10568,6 @@
       "longitude": -93.82565,
       "latitude": 37.09273
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11171,7 +10585,6 @@
       "longitude": -95.09094,
       "latitude": 29.46938
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -11189,7 +10602,6 @@
       "longitude": -93.45964,
       "latitude": 35.4498
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11207,7 +10619,6 @@
       "longitude": -93.61562,
       "latitude": 33.68172
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11225,7 +10636,6 @@
       "longitude": -93.85265,
       "latitude": 41.574
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11243,7 +10653,6 @@
       "longitude": -93.75594,
       "latitude": 41.60351
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11261,7 +10670,6 @@
       "longitude": -93.69711,
       "latitude": 41.63984
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11279,7 +10687,6 @@
       "longitude": -94.01403,
       "latitude": 30.14292
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11297,7 +10704,6 @@
       "longitude": -92.66491,
       "latitude": 37.67072
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11315,7 +10721,6 @@
       "longitude": -92.74092,
       "latitude": 38.95011
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11333,7 +10738,6 @@
       "longitude": -95.38053,
       "latitude": 45.84851
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -11351,7 +10755,6 @@
       "longitude": -97.06767,
       "latitude": 47.88877
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11369,7 +10772,6 @@
       "longitude": -92.37668,
       "latitude": 34.66868
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11387,7 +10789,6 @@
       "longitude": -93.32685,
       "latitude": 30.23358
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11405,7 +10806,6 @@
       "longitude": -93.3365,
       "latitude": 43.65452
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11423,7 +10823,6 @@
       "longitude": -92.45954,
       "latitude": 31.28094
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11441,7 +10840,6 @@
       "longitude": -93.66541,
       "latitude": 45.24445
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11459,7 +10857,6 @@
       "longitude": -92.07079,
       "latitude": 32.49903
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11477,7 +10874,6 @@
       "longitude": -93.32186,
       "latitude": 44.87482
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11495,7 +10891,6 @@
       "longitude": -92.00921,
       "latitude": 41.69064
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11513,7 +10908,6 @@
       "longitude": -93.2174,
       "latitude": 44.81487
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11531,7 +10925,6 @@
       "longitude": -92.48445,
       "latitude": 43.87151
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -11549,7 +10942,6 @@
       "longitude": -91.1552,
       "latitude": 38.2222
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11567,7 +10959,6 @@
       "longitude": -92.89834,
       "latitude": 44.94571
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11585,7 +10976,6 @@
       "longitude": -92.97976,
       "latitude": 45.81871
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11603,7 +10993,6 @@
       "longitude": -91.91221,
       "latitude": 30.29301
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11621,7 +11010,6 @@
       "longitude": -90.79463,
       "latitude": 35.02918
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11639,7 +11027,6 @@
       "longitude": -90.66226,
       "latitude": 38.6778
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -11657,7 +11044,6 @@
       "longitude": -90.61597,
       "latitude": 38.79608
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -11675,7 +11061,6 @@
       "longitude": -90.52773,
       "latitude": 38.78364
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11693,7 +11078,6 @@
       "longitude": -90.245,
       "latitude": 38.63358
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -11711,7 +11095,6 @@
       "longitude": -90.01758,
       "latitude": 38.67575
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11729,7 +11112,6 @@
       "longitude": -89.98093,
       "latitude": 38.59521
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -11747,7 +11129,6 @@
       "longitude": -91.42838,
       "latitude": 44.77477
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11765,7 +11146,6 @@
       "longitude": -90.15709,
       "latitude": 41.43266
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11783,7 +11163,6 @@
       "longitude": -89.86256,
       "latitude": 35.10194
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11801,7 +11180,6 @@
       "longitude": -89.79382,
       "latitude": 35.20177
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11819,7 +11197,6 @@
       "longitude": -92.16078,
       "latitude": 46.74172
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -11837,7 +11214,6 @@
       "longitude": -90.27064,
       "latitude": 32.28853
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11855,7 +11231,6 @@
       "longitude": -89.64086,
       "latitude": 39.74575
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11873,7 +11248,6 @@
       "longitude": -90.50856,
       "latitude": 44.01925
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11891,7 +11265,6 @@
       "longitude": -90.46279,
       "latitude": 30.48084
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11909,7 +11282,6 @@
       "longitude": -88.95806,
       "latitude": 38.31026
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11927,7 +11299,6 @@
       "longitude": -89.04125,
       "latitude": 40.48811
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11945,7 +11316,6 @@
       "longitude": -88.85308,
       "latitude": 35.66807
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11963,7 +11333,6 @@
       "longitude": -88.68949,
       "latitude": 37.07368
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11981,7 +11350,6 @@
       "longitude": -89.31153,
       "latitude": 43.11022
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -11999,7 +11367,6 @@
       "longitude": -88.57131,
       "latitude": 39.13839
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12017,7 +11384,6 @@
       "longitude": -88.97829,
       "latitude": 42.26657
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12035,7 +11401,6 @@
       "longitude": -89.59204,
       "latitude": 44.90765
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12053,7 +11418,6 @@
       "longitude": -88.25935,
       "latitude": 40.14621
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12071,7 +11435,6 @@
       "longitude": -88.31163,
       "latitude": 41.70053
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12089,7 +11452,6 @@
       "longitude": -88.3367,
       "latitude": 42.1693
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12107,7 +11469,6 @@
       "longitude": -88.20774,
       "latitude": 41.76915
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12125,7 +11486,6 @@
       "longitude": -88.14111,
       "latitude": 41.52061
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12143,7 +11503,6 @@
       "longitude": -89.09767,
       "latitude": 30.43054
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12161,7 +11520,6 @@
       "longitude": -88.12231,
       "latitude": 41.95389
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12179,7 +11537,6 @@
       "longitude": -88.0381,
       "latitude": 41.77151
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -12197,7 +11554,6 @@
       "longitude": -88.1094,
       "latitude": 42.19072
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12215,7 +11571,6 @@
       "longitude": -88.04451,
       "latitude": 42.0524
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12233,7 +11588,6 @@
       "longitude": -87.84915,
       "latitude": 41.15888
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12251,7 +11605,6 @@
       "longitude": -87.96243,
       "latitude": 41.87287
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12269,7 +11622,6 @@
       "longitude": -87.8484,
       "latitude": 41.61712
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12287,7 +11639,6 @@
       "longitude": -87.86105,
       "latitude": 41.78151
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -12305,7 +11656,6 @@
       "longitude": -87.86579,
       "latitude": 41.97545
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12323,7 +11673,6 @@
       "longitude": -88.04546,
       "latitude": 42.99589
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12341,7 +11690,6 @@
       "longitude": -87.79148,
       "latitude": 41.8656
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12359,7 +11707,6 @@
       "longitude": -87.81453,
       "latitude": 42.10326
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -12377,7 +11724,6 @@
       "longitude": -87.79876,
       "latitude": 42.18758
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12395,7 +11741,6 @@
       "longitude": -87.68338,
       "latitude": 41.72509
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12413,7 +11758,6 @@
       "longitude": -87.74697,
       "latitude": 42.06173
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12431,7 +11775,6 @@
       "longitude": -87.96531,
       "latitude": 43.01742
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12449,7 +11792,6 @@
       "longitude": -87.71133,
       "latitude": 41.9324
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12467,7 +11809,6 @@
       "longitude": -87.91421,
       "latitude": 42.90008
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12485,7 +11826,6 @@
       "longitude": -87.71181,
       "latitude": 42.00976
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -12503,7 +11843,6 @@
       "longitude": -87.67318,
       "latitude": 41.83555
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12521,7 +11860,6 @@
       "longitude": -87.6554,
       "latitude": 41.8768
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -12539,7 +11877,6 @@
       "longitude": -87.64352,
       "latitude": 41.90421
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12557,7 +11894,6 @@
       "longitude": -87.33582,
       "latitude": 39.43795
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12575,7 +11911,6 @@
       "longitude": -87.2897,
       "latitude": 36.59519
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12593,7 +11928,6 @@
       "longitude": -88.0773,
       "latitude": 44.53653
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12611,7 +11945,6 @@
       "longitude": -88.09711,
       "latitude": 30.80069
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12629,7 +11962,6 @@
       "longitude": -86.82607,
       "latitude": 40.41454
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12647,7 +11979,6 @@
       "longitude": -86.81549,
       "latitude": 36.10775
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -12665,7 +11996,6 @@
       "longitude": -86.81945,
       "latitude": 35.94053
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12683,7 +12013,6 @@
       "longitude": -86.95852,
       "latitude": 34.78737
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12701,7 +12030,6 @@
       "longitude": -87.25145,
       "latitude": 33.19015
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12719,7 +12047,6 @@
       "longitude": -86.89188,
       "latitude": 41.67383
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12737,7 +12064,6 @@
       "longitude": -86.72716,
       "latitude": 36.1098
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12755,7 +12081,6 @@
       "longitude": -86.69245,
       "latitude": 36.19963
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12773,7 +12098,6 @@
       "longitude": -86.37494,
       "latitude": 37.0033
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12791,7 +12115,6 @@
       "longitude": -86.81305,
       "latitude": 33.50717
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -12809,7 +12132,6 @@
       "longitude": -86.80281,
       "latitude": 33.23676
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12827,7 +12149,6 @@
       "longitude": -86.15214,
       "latitude": 39.97195
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12845,7 +12166,6 @@
       "longitude": -86.08414,
       "latitude": 39.7002
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12863,7 +12183,6 @@
       "longitude": -86.5883,
       "latitude": 33.54444
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -12881,7 +12200,6 @@
       "longitude": -86.02101,
       "latitude": 39.92699
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12899,7 +12217,6 @@
       "longitude": -86.19083,
       "latitude": 41.72124
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12917,7 +12234,6 @@
       "longitude": -85.96582,
       "latitude": 39.77505
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12935,7 +12251,6 @@
       "longitude": -86.07977,
       "latitude": 35.47422
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12953,7 +12268,6 @@
       "longitude": -85.86135,
       "latitude": 38.11301
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12971,7 +12285,6 @@
       "longitude": -87.2256,
       "latitude": 30.48827
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -12989,7 +12302,6 @@
       "longitude": -85.75879,
       "latitude": 38.33054
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13007,7 +12319,6 @@
       "longitude": -86.64626,
       "latitude": 31.84996
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13025,7 +12336,6 @@
       "longitude": -85.55558,
       "latitude": 38.29917
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13043,7 +12353,6 @@
       "longitude": -85.86462,
       "latitude": 42.84354
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13061,7 +12370,6 @@
       "longitude": -85.50762,
       "latitude": 36.13346
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13079,7 +12387,6 @@
       "longitude": -86.21456,
       "latitude": 32.36606
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13097,7 +12404,6 @@
       "longitude": -85.58807,
       "latitude": 42.21405
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13112,14 +12418,13 @@
     "postalCode": "49544-1956",
     "state": "Michigan",
     "coordinates": {
-      "longitude": -85.69127,
-      "latitude": 43.00865
+      "longitude": -85.69024,
+      "latitude": 43.00943
     },
-    "status": "UNAVAILABLE",
-    "type": "COMING_SOON",
-    "isL2": true,
+    "type": "PUBLIC",
+    "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "110044",
@@ -13133,7 +12438,6 @@
       "longitude": -85.83407,
       "latitude": 33.59962
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13151,7 +12455,6 @@
       "longitude": -85.21815,
       "latitude": 41.07299
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13169,7 +12472,6 @@
       "longitude": -85.31822,
       "latitude": 35.03686
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13187,7 +12489,6 @@
       "longitude": -85.31522,
       "latitude": 35.05545
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13205,7 +12506,6 @@
       "longitude": -85.12893,
       "latitude": 35.07662
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13223,7 +12523,6 @@
       "longitude": -85.40309,
       "latitude": 44.28257
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13241,7 +12540,6 @@
       "longitude": -85.06368,
       "latitude": 35.0825
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13259,7 +12557,6 @@
       "longitude": -84.65874,
       "latitude": 39.1935
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13277,7 +12574,6 @@
       "longitude": -85.49769,
       "latitude": 32.57185
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13295,7 +12591,6 @@
       "longitude": -84.53689,
       "latitude": 38.23025
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13313,7 +12608,6 @@
       "longitude": -84.42672,
       "latitude": 39.16256
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13331,7 +12625,6 @@
       "longitude": -84.40676,
       "latitude": 39.34197
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -13349,7 +12642,6 @@
       "longitude": -84.67381,
       "latitude": 42.7392
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13367,7 +12659,6 @@
       "longitude": -84.32953,
       "latitude": 39.27275
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13385,7 +12676,6 @@
       "longitude": -84.4086,
       "latitude": 41.60305
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13403,7 +12693,6 @@
       "longitude": -84.40672,
       "latitude": 41.60599
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13421,7 +12710,6 @@
       "longitude": -84.76336,
       "latitude": 33.72407
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13439,7 +12727,6 @@
       "longitude": -85.54826,
       "latitude": 30.75339
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13457,7 +12744,6 @@
       "longitude": -84.09999,
       "latitude": 39.8628
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13475,7 +12761,6 @@
       "longitude": -84.07372,
       "latitude": 39.77739
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -13493,7 +12778,6 @@
       "longitude": -84.17001,
       "latitude": 36.72056
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13511,7 +12795,6 @@
       "longitude": -84.57233,
       "latitude": 34.011
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13529,7 +12812,6 @@
       "longitude": -84.5326,
       "latitude": 33.8757
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13547,7 +12829,6 @@
       "longitude": -84.72219,
       "latitude": 45.02526
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13565,7 +12846,6 @@
       "longitude": -84.48222,
       "latitude": 34.08662
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13583,7 +12863,6 @@
       "longitude": -84.48888,
       "latitude": 33.90911
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13601,7 +12880,6 @@
       "longitude": -84.59845,
       "latitude": 33.40042
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13619,7 +12897,6 @@
       "longitude": -84.42408,
       "latitude": 34.06344
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13637,7 +12914,6 @@
       "longitude": -84.06107,
       "latitude": 35.92626
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13655,7 +12931,6 @@
       "longitude": -84.36439,
       "latitude": 33.96079
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -13673,7 +12948,6 @@
       "longitude": -84.41572,
       "latitude": 33.67975
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13691,7 +12965,6 @@
       "longitude": -84.37239,
       "latitude": 33.80123
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13709,7 +12982,6 @@
       "longitude": -84.36042,
       "latitude": 33.84471
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13727,7 +12999,6 @@
       "longitude": -84.30476,
       "latitude": 34.03882
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13745,7 +13016,6 @@
       "longitude": -84.33099,
       "latitude": 33.89368
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13763,7 +13033,6 @@
       "longitude": -84.36063,
       "latitude": 33.74184
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13781,7 +13050,6 @@
       "longitude": -84.24504,
       "latitude": 33.84567
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13799,7 +13067,6 @@
       "longitude": -84.21455,
       "latitude": 33.97871
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13817,7 +13084,6 @@
       "longitude": -84.16912,
       "latitude": 34.07001
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13835,7 +13101,6 @@
       "longitude": -84.14242,
       "latitude": 33.96082
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13853,7 +13118,6 @@
       "longitude": -84.23486,
       "latitude": 33.5059
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13871,7 +13135,6 @@
       "longitude": -83.93223,
       "latitude": 43.62244
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13889,7 +13152,6 @@
       "longitude": -84.083,
       "latitude": 33.97892
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13907,7 +13169,6 @@
       "longitude": -83.64926,
       "latitude": 42.22952
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13925,7 +13186,6 @@
       "longitude": -83.98365,
       "latitude": 34.06342
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13943,7 +13203,6 @@
       "longitude": -83.61025,
       "latitude": 35.98602
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13961,7 +13220,6 @@
       "longitude": -84.01466,
       "latitude": 33.63349
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13979,7 +13237,6 @@
       "longitude": -83.37038,
       "latitude": 41.48961
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -13997,7 +13254,6 @@
       "longitude": -83.36674,
       "latitude": 41.49108
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14015,7 +13271,6 @@
       "longitude": -83.4726,
       "latitude": 42.48204
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14033,7 +13288,6 @@
       "longitude": -83.33101,
       "latitude": 42.37759
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -14051,7 +13305,6 @@
       "longitude": -83.14674,
       "latitude": 39.98232
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14069,7 +13322,6 @@
       "longitude": -83.94197,
       "latitude": 33.04105
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14087,7 +13339,6 @@
       "longitude": -82.96697,
       "latitude": 40.15048
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -14105,7 +13356,6 @@
       "longitude": -83.45774,
       "latitude": 34.24706
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14123,7 +13373,6 @@
       "longitude": -82.90906,
       "latitude": 42.42705
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -14141,7 +13390,6 @@
       "longitude": -82.90668,
       "latitude": 42.5222
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14159,7 +13407,6 @@
       "longitude": -84.24832,
       "latitude": 30.51117
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14177,7 +13424,6 @@
       "longitude": -83.76263,
       "latitude": 31.96344
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14195,7 +13441,6 @@
       "longitude": -82.50931,
       "latitude": 40.69089
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14213,7 +13458,6 @@
       "longitude": -82.5816,
       "latitude": 35.59119
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14231,7 +13475,6 @@
       "longitude": -82.52381,
       "latitude": 35.5136
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -14249,7 +13492,6 @@
       "longitude": -82.07973,
       "latitude": 41.42689
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14267,7 +13509,6 @@
       "longitude": -82.12762,
       "latitude": 36.63576
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14285,7 +13526,6 @@
       "longitude": -82.28901,
       "latitude": 34.82479
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14303,7 +13543,6 @@
       "longitude": -82.14361,
       "latitude": 35.63771
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14321,7 +13560,6 @@
       "longitude": -83.31805,
       "latitude": 30.82641
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14339,7 +13577,6 @@
       "longitude": -81.57502,
       "latitude": 39.98872
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14357,7 +13594,6 @@
       "longitude": -81.45345,
       "latitude": 41.53918
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -14375,7 +13611,6 @@
       "longitude": -82.1967,
       "latitude": 33.48084
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14393,7 +13628,6 @@
       "longitude": -81.37651,
       "latitude": 41.65984
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14411,7 +13645,6 @@
       "longitude": -81.09526,
       "latitude": 36.95963
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14429,7 +13662,6 @@
       "longitude": -82.63821,
       "latitude": 30.23862
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14447,7 +13679,6 @@
       "longitude": -80.72128,
       "latitude": 41.14364
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14465,7 +13696,6 @@
       "longitude": -80.87331,
       "latitude": 35.8101
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14483,7 +13713,6 @@
       "longitude": -81.15225,
       "latitude": 34.07511
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14501,7 +13730,6 @@
       "longitude": -80.83331,
       "latitude": 35.21312
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14519,7 +13747,6 @@
       "longitude": -82.38437,
       "latitude": 29.62063
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14537,7 +13764,6 @@
       "longitude": -80.83473,
       "latitude": 35.15119
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14555,7 +13781,6 @@
       "longitude": -80.75655,
       "latitude": 35.29555
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14573,7 +13798,6 @@
       "longitude": -80.72248,
       "latitude": 35.36689
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14591,7 +13815,6 @@
       "longitude": -80.10595,
       "latitude": 40.68598
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14609,7 +13832,6 @@
       "longitude": -80.05534,
       "latitude": 40.34223
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -14627,7 +13849,6 @@
       "longitude": -80.08185,
       "latitude": 42.0523
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14645,7 +13866,6 @@
       "longitude": -81.24328,
       "latitude": 32.14257
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14663,7 +13883,6 @@
       "longitude": -81.48659,
       "latitude": 31.21352
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14681,7 +13900,6 @@
       "longitude": -82.73344,
       "latitude": 27.79235
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14699,7 +13917,6 @@
       "longitude": -79.81747,
       "latitude": 40.186
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14717,7 +13934,6 @@
       "longitude": -82.39154,
       "latitude": 28.19295
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14735,7 +13951,6 @@
       "longitude": -82.36635,
       "latitude": 28.13091
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14753,7 +13968,6 @@
       "longitude": -82.13859,
       "latitude": 28.6668
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14771,7 +13985,6 @@
       "longitude": -79.83778,
       "latitude": 37.45544
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14789,7 +14002,6 @@
       "longitude": -81.55227,
       "latitude": 30.18337
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14807,7 +14019,6 @@
       "longitude": -80.68932,
       "latitude": 32.9332
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14825,7 +14036,6 @@
       "longitude": -81.50464,
       "latitude": 30.16943
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -14843,7 +14053,6 @@
       "longitude": -82.50739,
       "latitude": 27.53748
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14861,7 +14070,6 @@
       "longitude": -79.39453,
       "latitude": 41.18947
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14879,7 +14087,6 @@
       "longitude": -82.45221,
       "latitude": 27.38603
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14897,7 +14104,6 @@
       "longitude": -79.79819,
       "latitude": 36.00315
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14915,7 +14121,6 @@
       "longitude": -79.31118,
       "latitude": 42.45379
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14933,7 +14138,6 @@
       "longitude": -81.97458,
       "latitude": 28.09892
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14951,7 +14155,6 @@
       "longitude": -81.66536,
       "latitude": 28.54797
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14969,7 +14172,6 @@
       "longitude": -79.82282,
       "latitude": 34.19281
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -14987,7 +14189,6 @@
       "longitude": -81.65724,
       "latitude": 28.24366
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15005,7 +14206,6 @@
       "longitude": -78.98236,
       "latitude": 43.09735
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15023,7 +14223,6 @@
       "longitude": -78.98118,
       "latitude": 43.08827
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -15041,7 +14240,6 @@
       "longitude": -80.0371,
       "latitude": 32.93526
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15059,7 +14257,6 @@
       "longitude": -79.04716,
       "latitude": 38.13504
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15077,7 +14274,6 @@
       "longitude": -81.48953,
       "latitude": 28.3904
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15095,7 +14291,6 @@
       "longitude": -81.42664,
       "latitude": 28.48296
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -15113,7 +14308,6 @@
       "longitude": -82.04687,
       "latitude": 27.02385
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15131,7 +14325,6 @@
       "longitude": -81.11366,
       "latitude": 29.25815
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15149,7 +14342,6 @@
       "longitude": -78.73875,
       "latitude": 41.12688
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15167,7 +14359,6 @@
       "longitude": -81.39505,
       "latitude": 28.44832
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15185,7 +14376,6 @@
       "longitude": -78.7447,
       "latitude": 42.9096
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15203,7 +14393,6 @@
       "longitude": -79.08008,
       "latitude": 36.05707
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15221,7 +14410,6 @@
       "longitude": -81.02788,
       "latitude": 29.10885
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15239,7 +14427,6 @@
       "longitude": -78.51045,
       "latitude": 40.05353
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15257,7 +14444,6 @@
       "longitude": -78.45919,
       "latitude": 42.07654
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -15275,7 +14461,6 @@
       "longitude": -78.52963,
       "latitude": 38.86963
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15293,7 +14478,6 @@
       "longitude": -81.869,
       "latitude": 26.5435
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15311,7 +14495,6 @@
       "longitude": -78.78737,
       "latitude": 35.90312
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -15329,7 +14512,6 @@
       "longitude": -79.00666,
       "latitude": 34.66506
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15347,7 +14529,6 @@
       "longitude": -78.73923,
       "latitude": 35.7586
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15365,7 +14546,6 @@
       "longitude": -78.70359,
       "latitude": 35.85731
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15383,7 +14563,6 @@
       "longitude": -78.14575,
       "latitude": 42.20258
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -15401,7 +14580,6 @@
       "longitude": -78.21719,
       "latitude": 39.08216
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15419,7 +14597,6 @@
       "longitude": -81.75798,
       "latitude": 26.33072
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -15437,7 +14614,6 @@
       "longitude": -80.79314,
       "latitude": 28.36139
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15455,7 +14631,6 @@
       "longitude": -78.53398,
       "latitude": 35.95154
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -15473,7 +14648,6 @@
       "longitude": -78.21062,
       "latitude": 37.97958
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15491,7 +14665,6 @@
       "longitude": -78.4423,
       "latitude": 36.33455
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15509,7 +14682,6 @@
       "longitude": -81.6875,
       "latitude": 26.14908
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15527,7 +14699,6 @@
       "longitude": -77.92264,
       "latitude": 40.81091
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15545,7 +14716,6 @@
       "longitude": -78.92352,
       "latitude": 33.70239
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -15563,7 +14733,6 @@
       "longitude": -77.88418,
       "latitude": 43.10296
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -15581,7 +14750,6 @@
       "longitude": -78.31505,
       "latitude": 35.50811
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15599,7 +14767,6 @@
       "longitude": -77.73218,
       "latitude": 39.60018
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15617,7 +14784,6 @@
       "longitude": -77.64589,
       "latitude": 38.8192
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15635,7 +14801,6 @@
       "longitude": -77.53838,
       "latitude": 39.10914
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15653,7 +14818,6 @@
       "longitude": -77.43829,
       "latitude": 43.01855
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -15671,7 +14835,6 @@
       "longitude": -77.52265,
       "latitude": 38.93505
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15689,7 +14852,6 @@
       "longitude": -77.47907,
       "latitude": 39.01712
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -15707,7 +14869,6 @@
       "longitude": -77.89565,
       "latitude": 35.97208
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15725,7 +14886,6 @@
       "longitude": -77.40949,
       "latitude": 39.39557
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15743,7 +14903,6 @@
       "longitude": -77.51235,
       "latitude": 38.29396
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15761,7 +14920,6 @@
       "longitude": -77.44386,
       "latitude": 38.88847
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15779,7 +14937,6 @@
       "longitude": -77.43259,
       "latitude": 38.99783
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -15797,7 +14954,6 @@
       "longitude": -77.42589,
       "latitude": 38.97793
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15815,7 +14971,6 @@
       "longitude": -77.37881,
       "latitude": 38.95744
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -15833,7 +14988,6 @@
       "longitude": -77.36899,
       "latitude": 38.95524
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15851,7 +15005,6 @@
       "longitude": -77.41656,
       "latitude": 38.47234
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15869,7 +15022,6 @@
       "longitude": -77.36227,
       "latitude": 38.95457
     },
-    "status": "UNAVAILABLE",
     "type": "L2",
     "isL2": true,
     "isCcs": false,
@@ -15887,7 +15039,6 @@
       "longitude": -77.35847,
       "latitude": 38.95083
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15905,7 +15056,6 @@
       "longitude": -77.52742,
       "latitude": 37.53453
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -15923,7 +15073,6 @@
       "longitude": -77.33128,
       "latitude": 38.85651
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15941,7 +15090,6 @@
       "longitude": -77.28548,
       "latitude": 39.22984
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15959,7 +15107,6 @@
       "longitude": -77.32118,
       "latitude": 38.79888
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15977,7 +15124,6 @@
       "longitude": -77.45814,
       "latitude": 37.63222
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -15995,7 +15141,6 @@
       "longitude": -81.76364,
       "latitude": 24.56119
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16013,7 +15158,6 @@
       "longitude": -77.27574,
       "latitude": 38.86169
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16031,7 +15175,6 @@
       "longitude": -77.29826,
       "latitude": 38.64524
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16049,7 +15192,6 @@
       "longitude": -77.16318,
       "latitude": 40.2218
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16067,7 +15209,6 @@
       "longitude": -77.24553,
       "latitude": 38.93018
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16085,7 +15226,6 @@
       "longitude": -80.40313,
       "latitude": 27.31399
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16103,7 +15243,6 @@
       "longitude": -77.54609,
       "latitude": 36.70684
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16121,7 +15260,6 @@
       "longitude": -77.22058,
       "latitude": 38.91694
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16139,7 +15277,6 @@
       "longitude": -77.20934,
       "latitude": 39.01887
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16157,7 +15294,6 @@
       "longitude": -77.15671,
       "latitude": 39.06153
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16175,7 +15311,6 @@
       "longitude": -77.1487,
       "latitude": 39.02491
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16193,7 +15328,6 @@
       "longitude": -77.172,
       "latitude": 38.77602
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -16211,7 +15345,6 @@
       "longitude": -77.14268,
       "latitude": 38.86735
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16229,7 +15362,6 @@
       "longitude": -80.27299,
       "latitude": 27.24244
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16247,7 +15379,6 @@
       "longitude": -77.0867,
       "latitude": 38.74252
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -16265,7 +15396,6 @@
       "longitude": -77.05425,
       "latitude": 39.0381
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16283,7 +15413,6 @@
       "longitude": -76.92097,
       "latitude": 42.95593
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16301,7 +15430,6 @@
       "longitude": -77.06432,
       "latitude": 38.90484
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16319,7 +15447,6 @@
       "longitude": -77.05753,
       "latitude": 38.82139
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16337,7 +15464,6 @@
       "longitude": -77.04632,
       "latitude": 38.81116
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16355,7 +15481,6 @@
       "longitude": -77.02679,
       "latitude": 38.96148
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -16373,7 +15498,6 @@
       "longitude": -76.85995,
       "latitude": 42.38516
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -16391,7 +15515,6 @@
       "longitude": -77.83054,
       "latitude": 34.24368
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -16409,7 +15532,6 @@
       "longitude": -76.82595,
       "latitude": 42.15769
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -16427,7 +15549,6 @@
       "longitude": -76.95425,
       "latitude": 38.96909
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16445,7 +15566,6 @@
       "longitude": -76.801,
       "latitude": 40.31285
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -16463,7 +15583,6 @@
       "longitude": -76.81916,
       "latitude": 39.28201
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16481,7 +15600,6 @@
       "longitude": -76.79785,
       "latitude": 39.4335
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16499,7 +15617,6 @@
       "longitude": -76.81819,
       "latitude": 39.19639
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16517,7 +15634,6 @@
       "longitude": -80.20582,
       "latitude": 26.71035
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16535,7 +15651,6 @@
       "longitude": -76.72288,
       "latitude": 39.15882
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16553,7 +15668,6 @@
       "longitude": -76.73699,
       "latitude": 38.94281
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -16571,7 +15685,6 @@
       "longitude": -80.09441,
       "latitude": 26.85102
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16589,7 +15702,6 @@
       "longitude": -76.63351,
       "latitude": 39.13363
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16607,7 +15719,6 @@
       "longitude": -76.59938,
       "latitude": 39.26811
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16625,7 +15736,6 @@
       "longitude": -80.27775,
       "latitude": 26.30482
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16643,7 +15753,6 @@
       "longitude": -80.25345,
       "latitude": 26.29727
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16661,7 +15770,6 @@
       "longitude": -80.35845,
       "latitude": 26.03019
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -16679,7 +15787,6 @@
       "longitude": -76.4116,
       "latitude": 41.01228
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16697,7 +15804,6 @@
       "longitude": -76.55072,
       "latitude": 38.98946
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16715,7 +15821,6 @@
       "longitude": -80.09669,
       "latitude": 26.53033
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16733,7 +15838,6 @@
       "longitude": -76.48964,
       "latitude": 39.33691
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16751,7 +15855,6 @@
       "longitude": -80.25318,
       "latitude": 26.11524
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16769,7 +15872,6 @@
       "longitude": -80.13172,
       "latitude": 26.36263
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16787,7 +15889,6 @@
       "longitude": -80.08558,
       "latitude": 26.43834
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16805,7 +15906,6 @@
       "longitude": -80.25048,
       "latitude": 26.04741
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -16823,7 +15923,6 @@
       "longitude": -80.29529,
       "latitude": 25.93415
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16841,7 +15940,6 @@
       "longitude": -80.36582,
       "latitude": 25.78529
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16859,7 +15957,6 @@
       "longitude": -77.0962,
       "latitude": 35.10203
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -16877,7 +15974,6 @@
       "longitude": -80.09195,
       "latitude": 26.30199
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16895,7 +15991,6 @@
       "longitude": -80.17423,
       "latitude": 26.12003
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16913,7 +16008,6 @@
       "longitude": -80.47343,
       "latitude": 25.45646
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16931,7 +16025,6 @@
       "longitude": -80.20575,
       "latitude": 26.00829
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16949,7 +16042,6 @@
       "longitude": -76.31509,
       "latitude": 39.4634
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16967,7 +16059,6 @@
       "longitude": -80.25004,
       "latitude": 25.84427
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -16985,7 +16076,6 @@
       "longitude": -80.33831,
       "latitude": 25.64622
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17003,7 +16093,6 @@
       "longitude": -76.16967,
       "latitude": 43.09225
     },
-    "status": "FULL",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17021,7 +16110,6 @@
       "longitude": -80.31092,
       "latitude": 25.68933
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17039,7 +16127,6 @@
       "longitude": -76.13435,
       "latitude": 42.74797
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17057,7 +16144,6 @@
       "longitude": -76.13654,
       "latitude": 43.01672
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17075,7 +16161,6 @@
       "longitude": -80.17042,
       "latitude": 25.92712
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -17093,7 +16178,6 @@
       "longitude": -76.11932,
       "latitude": 43.56658
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -17111,7 +16195,6 @@
       "longitude": -76.06693,
       "latitude": 43.04606
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17129,7 +16212,6 @@
       "longitude": -76.50742,
       "latitude": 37.11959
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17147,7 +16229,6 @@
       "longitude": -80.12551,
       "latitude": 25.88764
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17165,7 +16246,6 @@
       "longitude": -80.42166,
       "latitude": 25.11364
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17183,7 +16263,6 @@
       "longitude": -76.15973,
       "latitude": 38.98214
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17201,7 +16280,6 @@
       "longitude": -75.91721,
       "latitude": 42.23186
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17219,7 +16297,6 @@
       "longitude": -75.91355,
       "latitude": 42.09037
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17237,7 +16314,6 @@
       "longitude": -75.83634,
       "latitude": 42.10129
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17255,7 +16331,6 @@
       "longitude": -75.6707,
       "latitude": 41.41466
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17273,7 +16348,6 @@
       "longitude": -75.57329,
       "latitude": 40.23592
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17291,7 +16365,6 @@
       "longitude": -75.52636,
       "latitude": 40.59764
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17309,7 +16382,6 @@
       "longitude": -75.56265,
       "latitude": 39.70932
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17327,7 +16399,6 @@
       "longitude": -75.29439,
       "latitude": 41.95615
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17345,7 +16416,6 @@
       "longitude": -75.38863,
       "latitude": 40.08558
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17363,7 +16433,6 @@
       "longitude": -75.30678,
       "latitude": 40.09439
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -17381,7 +16450,6 @@
       "longitude": -75.27929,
       "latitude": 40.11691
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17399,7 +16467,6 @@
       "longitude": -75.18282,
       "latitude": 40.99116
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17417,7 +16484,6 @@
       "longitude": -75.23149,
       "latitude": 40.04493
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17435,7 +16501,6 @@
       "longitude": -75.04848,
       "latitude": 42.44734
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17453,7 +16518,6 @@
       "longitude": -75.18597,
       "latitude": 39.91828
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17471,7 +16535,6 @@
       "longitude": -75.17532,
       "latitude": 40.01032
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17489,7 +16552,6 @@
       "longitude": -75.14395,
       "latitude": 39.93286
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17507,7 +16569,6 @@
       "longitude": -75.12297,
       "latitude": 40.14159
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17525,7 +16586,6 @@
       "longitude": -74.99188,
       "latitude": 43.01881
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17543,7 +16603,6 @@
       "longitude": -75.0991,
       "latitude": 39.83314
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17561,7 +16620,6 @@
       "longitude": -74.99042,
       "latitude": 44.66645
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17579,7 +16637,6 @@
       "longitude": -75.05251,
       "latitude": 39.78303
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -17597,7 +16654,6 @@
       "longitude": -75.02644,
       "latitude": 39.93478
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -17615,7 +16671,6 @@
       "longitude": -75.02287,
       "latitude": 39.8541
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17633,7 +16688,6 @@
       "longitude": -74.9644,
       "latitude": 40.08778
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17651,7 +16705,6 @@
       "longitude": -74.9946,
       "latitude": 39.74633
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17669,7 +16722,6 @@
       "longitude": -74.85638,
       "latitude": 40.49768
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17687,7 +16739,6 @@
       "longitude": -74.68061,
       "latitude": 40.28869
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17705,7 +16756,6 @@
       "longitude": -74.53896,
       "latitude": 42.64189
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -17723,7 +16773,6 @@
       "longitude": -74.5537,
       "latitude": 40.56189
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -17741,7 +16790,6 @@
       "longitude": -74.47822,
       "latitude": 40.89403
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17759,7 +16807,6 @@
       "longitude": -74.39923,
       "latitude": 40.45732
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17777,7 +16824,6 @@
       "longitude": -74.36425,
       "latitude": 40.74087
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -17795,7 +16841,6 @@
       "longitude": -74.29353,
       "latitude": 41.00742
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17813,7 +16858,6 @@
       "longitude": -74.28467,
       "latitude": 40.96872
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -17831,7 +16875,6 @@
       "longitude": -74.26989,
       "latitude": 40.88975
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -17849,7 +16892,6 @@
       "longitude": -74.29782,
       "latitude": 40.25039
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17867,7 +16909,6 @@
       "longitude": -74.22765,
       "latitude": 40.93161
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17885,7 +16926,6 @@
       "longitude": -74.17895,
       "latitude": 40.79687
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17903,7 +16943,6 @@
       "longitude": -74.17328,
       "latitude": 40.66244
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17921,7 +16960,6 @@
       "longitude": -74.12405,
       "latitude": 41.31402
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17939,7 +16977,6 @@
       "longitude": -74.15123,
       "latitude": 40.72831
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17957,7 +16994,6 @@
       "longitude": -74.13632,
       "latitude": 40.82427
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -17975,7 +17011,6 @@
       "longitude": -74.13629,
       "latitude": 40.74863
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -17993,7 +17028,6 @@
       "longitude": -74.07319,
       "latitude": 41.49776
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18011,7 +17045,6 @@
       "longitude": -74.02619,
       "latitude": 41.93691
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18029,7 +17062,6 @@
       "longitude": -74.07394,
       "latitude": 40.91612
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18047,7 +17079,6 @@
       "longitude": -74.15026,
       "latitude": 40.05859
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18065,7 +17096,6 @@
       "longitude": -74.09433,
       "latitude": 40.22734
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18083,7 +17113,6 @@
       "longitude": -74.04193,
       "latitude": 40.79215
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -18101,7 +17130,6 @@
       "longitude": -74.03008,
       "latitude": 40.90456
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18119,7 +17147,6 @@
       "longitude": -74.03978,
       "latitude": 40.72773
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18137,7 +17164,6 @@
       "longitude": -73.96823,
       "latitude": 40.85037
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18155,11 +17181,10 @@
       "longitude": -73.95284,
       "latitude": 41.04588
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "100285",
@@ -18173,7 +17198,6 @@
       "longitude": -73.84844,
       "latitude": 42.69456
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18191,7 +17215,6 @@
       "longitude": -73.87038,
       "latitude": 40.73487
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -18209,7 +17232,6 @@
       "longitude": -73.7505,
       "latitude": 43.09823
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -18227,7 +17249,6 @@
       "longitude": -73.74811,
       "latitude": 42.65321
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18245,7 +17266,6 @@
       "longitude": -73.73449,
       "latitude": 43.95113
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18263,7 +17283,6 @@
       "longitude": -73.8363,
       "latitude": 40.75619
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -18281,7 +17300,6 @@
       "longitude": -73.78709,
       "latitude": 41.0322
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -18299,7 +17317,6 @@
       "longitude": -73.70019,
       "latitude": 42.64565
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18317,7 +17334,6 @@
       "longitude": -73.79149,
       "latitude": 40.94924
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18335,7 +17351,6 @@
       "longitude": -73.80809,
       "latitude": 40.65608
     },
-    "status": "FULL",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18353,7 +17368,6 @@
       "longitude": -73.63052,
       "latitude": 43.32945
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18371,7 +17385,6 @@
       "longitude": -73.6748,
       "latitude": 41.29401
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18389,7 +17402,6 @@
       "longitude": -73.72316,
       "latitude": 40.662
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -18407,7 +17419,6 @@
       "longitude": -73.53867,
       "latitude": 44.28177
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -18425,7 +17436,6 @@
       "longitude": -73.63095,
       "latitude": 40.70601
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18443,7 +17453,6 @@
       "longitude": -73.61688,
       "latitude": 40.74809
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18461,7 +17470,6 @@
       "longitude": -73.50311,
       "latitude": 44.70554
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18479,7 +17487,6 @@
       "longitude": -73.48529,
       "latitude": 44.69408
     },
-    "status": "FULL",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18497,7 +17504,6 @@
       "longitude": -73.54655,
       "latitude": 41.0691
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18515,7 +17521,6 @@
       "longitude": -73.40535,
       "latitude": 40.68853
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18533,7 +17538,6 @@
       "longitude": -73.23413,
       "latitude": 42.29523
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18551,7 +17555,6 @@
       "longitude": -73.29381,
       "latitude": 40.80751
     },
-    "status": "FULL",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18569,7 +17572,6 @@
       "longitude": -73.22394,
       "latitude": 41.22895
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18587,7 +17589,6 @@
       "longitude": -73.24514,
       "latitude": 40.73685
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18605,7 +17606,6 @@
       "longitude": -73.23815,
       "latitude": 40.80694
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18623,7 +17623,6 @@
       "longitude": -73.12234,
       "latitude": 41.19802
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18641,7 +17640,6 @@
       "longitude": -73.12875,
       "latitude": 40.86245
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -18659,7 +17657,6 @@
       "longitude": -73.04291,
       "latitude": 40.92417
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18677,7 +17674,6 @@
       "longitude": -72.99042,
       "latitude": 40.8262
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18695,7 +17691,6 @@
       "longitude": -72.87249,
       "latitude": 41.35647
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18713,7 +17708,6 @@
       "longitude": -72.80709,
       "latitude": 40.82474
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18731,7 +17725,6 @@
       "longitude": -72.7184,
       "latitude": 41.66298
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -18749,7 +17742,6 @@
       "longitude": -72.64556,
       "latitude": 41.76802
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18767,7 +17759,6 @@
       "longitude": -72.65019,
       "latitude": 41.67481
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18785,7 +17776,6 @@
       "longitude": -72.70879,
       "latitude": 40.92402
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18803,7 +17793,6 @@
       "longitude": -72.57286,
       "latitude": 42.17567
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18821,7 +17810,6 @@
       "longitude": -72.66044,
       "latitude": 40.91888
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18839,7 +17827,6 @@
       "longitude": -72.5391,
       "latitude": 41.80631
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18857,7 +17844,6 @@
       "longitude": -72.32365,
       "latitude": 43.62543
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18875,7 +17861,6 @@
       "longitude": -72.30366,
       "latitude": 40.93502
     },
-    "status": "AVAILABLE",
     "type": "COMMERCIAL",
     "isL2": false,
     "isCcs": true,
@@ -18893,7 +17878,6 @@
       "longitude": -72.15035,
       "latitude": 41.38014
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18911,7 +17895,6 @@
       "longitude": -71.94349,
       "latitude": 41.03591
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18929,7 +17912,6 @@
       "longitude": -71.83804,
       "latitude": 42.20219
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18947,11 +17929,10 @@
       "longitude": -71.65541,
       "latitude": 42.28407
     },
-    "status": "UNAVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "210238",
@@ -18965,7 +17946,6 @@
       "longitude": -157.97384,
       "latitude": 21.39799
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -18983,7 +17963,6 @@
       "longitude": -71.58996,
       "latitude": 42.33832
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19001,7 +17980,6 @@
       "longitude": -71.49976,
       "latitude": 42.82795
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19019,7 +17997,6 @@
       "longitude": -71.43332,
       "latitude": 42.95682
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19037,7 +18014,6 @@
       "longitude": -71.43912,
       "latitude": 42.70097
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19055,7 +18031,6 @@
       "longitude": -71.41775,
       "latitude": 41.84517
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19073,7 +18048,6 @@
       "longitude": -71.34951,
       "latitude": 42.03938
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19091,7 +18065,6 @@
       "longitude": -71.30522,
       "latitude": 42.18623
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19109,7 +18082,6 @@
       "longitude": -71.2673,
       "latitude": 42.62363
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19127,7 +18099,6 @@
       "longitude": -71.23348,
       "latitude": 42.76631
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19145,7 +18116,6 @@
       "longitude": -71.25148,
       "latitude": 42.06408
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19163,7 +18133,6 @@
       "longitude": -71.21243,
       "latitude": 42.48298
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -19181,7 +18150,6 @@
       "longitude": -71.15402,
       "latitude": 42.41645
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19199,7 +18167,6 @@
       "longitude": -71.07787,
       "latitude": 42.39426
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -19217,7 +18184,6 @@
       "longitude": -71.04638,
       "latitude": 42.28473
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19235,7 +18201,6 @@
       "longitude": -71.02366,
       "latitude": 42.47204
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -19253,7 +18218,6 @@
       "longitude": -71.02189,
       "latitude": 42.22253
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
@@ -19271,7 +18235,6 @@
       "longitude": -70.94341,
       "latitude": 42.54289
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
@@ -19289,7 +18252,6 @@
       "longitude": -70.99049,
       "latitude": 41.64246
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19307,7 +18269,6 @@
       "longitude": -70.86584,
       "latitude": 42.8937
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19325,7 +18286,6 @@
       "longitude": -70.72757,
       "latitude": 43.1172
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19343,7 +18303,6 @@
       "longitude": -70.65755,
       "latitude": 41.93281
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19361,7 +18320,6 @@
       "longitude": -70.34379,
       "latitude": 43.62295
     },
-    "status": "AVAILABLE",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19379,7 +18337,6 @@
       "longitude": -70.29492,
       "latitude": 41.66449
     },
-    "status": "FULL",
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
@@ -19397,7 +18354,6 @@
       "longitude": -69.66551,
       "latitude": 44.54405
     },
-    "status": "UNAVAILABLE",
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,

@@ -3672,19 +3672,6 @@
     },
     {
       "type": "node",
-      "id": 10991298174,
-      "lat": 42.3617574,
-      "lon": -71.2428136,
-      "tags": {
-        "access": "private",
-        "amenity": "charging_station",
-        "capacity": "4",
-        "network": "AmpUp",
-        "private": "employees"
-      }
-    },
-    {
-      "type": "node",
       "id": 10991334433,
       "lat": 42.3469177,
       "lon": -71.2070438,
@@ -9630,6 +9617,34 @@
       }
     },
     {
+      "type": "node",
+      "id": 12150656228,
+      "lat": 42.3617488,
+      "lon": -71.2428291,
+      "tags": {
+        "access": "employees",
+        "capacity": "2",
+        "fee": "no",
+        "man_made": "charge_point",
+        "network": "AmpUp",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150656229,
+      "lat": 42.3617453,
+      "lon": -71.2428207,
+      "tags": {
+        "access": "employees",
+        "capacity": "2",
+        "fee": "no",
+        "man_made": "charge_point",
+        "network": "AmpUp",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
       "type": "way",
       "id": 954423391,
       "bounds": {
@@ -12814,6 +12829,59 @@
         "operator:wikidata": "Q5176149",
         "socket:chademo": "2",
         "socket:type1_combo": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1312711364,
+      "bounds": {
+        "minlat": 42.361698,
+        "minlon": -71.242902,
+        "maxlat": 42.3617961,
+        "maxlon": -71.242753
+      },
+      "nodes": [
+        10991298174,
+        12150656225,
+        12150656226,
+        12150656227,
+        10991298174
+      ],
+      "geometry": [
+        {
+          "lat": 42.3617961,
+          "lon": -71.2428627
+        },
+        {
+          "lat": 42.3617397,
+          "lon": -71.242753
+        },
+        {
+          "lat": 42.361698,
+          "lon": -71.2427923
+        },
+        {
+          "lat": 42.3617545,
+          "lon": -71.242902
+        },
+        {
+          "lat": 42.3617961,
+          "lon": -71.2428627
+        }
+      ],
+      "tags": {
+        "access": "employees",
+        "addr:city": "Waltham",
+        "addr:housenumber": "48",
+        "addr:postcode": "02453",
+        "addr:state": "MA",
+        "addr:street": "Woerd Avenue",
+        "amenity": "charging_station",
+        "brand": "JuiceBar",
+        "capacity": "4",
+        "network": "AmpUp",
+        "private": "employees",
+        "socket:type1_cable": "4"
       }
     },
     {

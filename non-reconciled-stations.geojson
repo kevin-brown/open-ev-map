@@ -409,6 +409,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.22538,
+                    42.486913
+                ]
+            },
+            "properties": {
+                "network": "VOLTA",
+                "references": [
+                    {
+                        "name": "OPEN_STREET_MAP",
+                        "url": "https://www.openstreetmap.org/node/10764288611"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -72.750072,
                     42.122536
                 ]

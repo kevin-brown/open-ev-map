@@ -330,7 +330,10 @@ def merge_charging_points(first_point: ChargingPoint, second_point: ChargingPoin
     combined_charging_point.network_id.extend(first_point.network_id)
     combined_charging_point.network_id.extend(second_point.network_id)
 
-    combined_charging_point.charging_port_groups = first_point.charging_port_groups
+    if first_point.charging_port_groups:
+        combined_charging_point.charging_port_groups = first_point.charging_port_groups
+    elif second_point.charging_port_groups:
+        combined_charging_point.charging_port_groups = second_point.charging_port_groups
 
     return combined_charging_point
 

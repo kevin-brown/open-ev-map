@@ -4597,7 +4597,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3D",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4613,7 +4615,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3C",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4629,7 +4633,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3B",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4645,7 +4651,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3A",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4661,7 +4669,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2D",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4677,7 +4687,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2C",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4693,7 +4705,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2B",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4709,7 +4723,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2A",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4725,7 +4741,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1D",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4741,7 +4759,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1C",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4757,7 +4777,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1B",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4773,7 +4795,9 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1A",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -4817,7 +4841,20 @@
       "lat": 42.1138836,
       "lon": -72.0848235,
       "tags": {
-        "man_made": "charge_point"
+        "access": "yes",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "1",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "NALLELI",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "ref:ocpi": "96969",
+        "socket:chademo": "1",
+        "socket:chademo:output": "100 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "200 kW"
       }
     },
     {
@@ -4826,7 +4863,20 @@
       "lat": 42.1138887,
       "lon": -72.0847915,
       "tags": {
-        "man_made": "charge_point"
+        "access": "yes",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "1",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "EMBETH",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "ref:ocpi": "96971",
+        "socket:chademo": "1",
+        "socket:chademo:output": "100 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "200 kW"
       }
     },
     {
@@ -4835,7 +4885,20 @@
       "lat": 42.1138967,
       "lon": -72.0847548,
       "tags": {
-        "man_made": "charge_point"
+        "access": "yes",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "1",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "TANNER",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "ref:ocpi": "96973",
+        "socket:chademo": "1",
+        "socket:chademo:output": "100 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "200 kW"
       }
     },
     {
@@ -4844,7 +4907,20 @@
       "lat": 42.1139012,
       "lon": -72.0846854,
       "tags": {
-        "man_made": "charge_point"
+        "access": "yes",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "1",
+        "fee": "yes",
+        "man_made": "charge_point",
+        "name": "RADIA",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "ref:ocpi": "96975",
+        "socket:chademo": "1",
+        "socket:chademo:output": "100 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "200 kW"
       }
     },
     {
@@ -5049,11 +5125,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1A",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5064,11 +5143,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1B",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5079,11 +5161,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1C",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5094,11 +5179,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1D",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5109,11 +5197,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2A",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5124,11 +5215,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2B",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5139,11 +5233,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2C",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5154,11 +5251,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2D",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5169,11 +5269,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3A",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5184,11 +5287,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3B",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5199,11 +5305,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3C",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -5214,11 +5323,14 @@
       "tags": {
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
+        "capacity": "1",
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3D",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
       }
     },
     {
@@ -10098,12 +10210,22 @@
         }
       ],
       "tags": {
+        "access": "yes",
         "amenity": "charging_station",
         "brand": "EVgo",
         "brand:wikidata": "Q61803820",
+        "capacity": "4",
+        "fee": "yes",
         "name": "EVgo",
         "operator": "EVgo",
-        "operator:wikidata": "Q61803820"
+        "operator:wikidata": "Q61803820",
+        "ref:afdc": "228781",
+        "ref:ocm": "142978",
+        "ref:ocpi": "1893",
+        "socket:chademo": "4",
+        "socket:chademo:output": "100 kW",
+        "socket:type1_combo": "4",
+        "socket:type1_combo:output": "200 kW"
       }
     },
     {
@@ -13317,6 +13439,8 @@
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "site": "parking",
+        "socket:tesla_supercharger": "12",
+        "socket:tesla_supercharger:output": "250 kW",
         "type": "site"
       }
     },
@@ -14056,6 +14180,8 @@
         "payment:contactless": "yes",
         "short_name": "Tesla",
         "site": "parking",
+        "socket:tesla_supercharger": "12",
+        "socket:tesla_supercharger:output": "250 kW",
         "type": "site",
         "website": "https://www.tesla.com/findus/location/supercharger/BurlingtonMAsupercharger"
       }

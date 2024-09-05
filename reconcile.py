@@ -447,6 +447,7 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         "LOOP": ChargingNetwork.LOOP,
         "NOODOE": ChargingNetwork.NOODOE,
         "Non-Networked": ChargingNetwork.NON_NETWORKED,
+        "OpConnect": None,
         "POWER_NODE": ChargingNetwork.ELECTRIC_ERA,
         "RED_E": ChargingNetwork.RED_E,
         "RIVIAN_ADVENTURE": ChargingNetwork.RIVIAN_ADVENTURE,

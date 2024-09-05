@@ -409,25 +409,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.242814,
-                    42.361757
-                ]
-            },
-            "properties": {
-                "network": "AMPUP",
-                "references": [
-                    {
-                        "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/10991298174"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.750072,
                     42.122536
                 ]

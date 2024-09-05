@@ -36,6 +36,9 @@ def clean_electricera_data(data):
     return data
 
 def clean_electrify_america_data(data):
+    for station in data:
+        del station["status"]
+
     return data
 
 def clean_nrel_data(data):
@@ -245,6 +248,6 @@ def apply_fixes():
         with open(f"{data_provider}-clean.json", "w") as data_fh:
             json.dump(cleaned_data, data_fh, ensure_ascii=False, indent=2)
 
-# pull_new_data()
+pull_new_data()
 clean_new_data()
 apply_fixes()

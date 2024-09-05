@@ -13223,7 +13223,7 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "100227",

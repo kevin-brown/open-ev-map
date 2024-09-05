@@ -63,25 +63,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.274902,
-                    42.298416
-                ]
-            },
-            "properties": {
-                "network": "AUTEL",
-                "references": [
-                    {
-                        "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/5254161514"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.352865,
                     42.299554
                 ]
@@ -636,44 +617,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.364236,
-                    42.311748
-                ]
-            },
-            "properties": {
-                "network": "AUTEL",
-                "references": [
-                    {
-                        "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/11899989951"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.429326,
-                    42.311904
-                ]
-            },
-            "properties": {
-                "network": "AUTEL",
-                "references": [
-                    {
-                        "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/11899989952"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.072738,
                     42.150504
                 ]
@@ -891,14 +834,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -919,14 +862,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -947,14 +890,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -975,14 +918,14 @@
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             },
                             {
                                 "ports": [
                                     {
-                                        "plug_type": "J1772_SOCKET"
+                                        "plug_type": "J1772"
                                     }
                                 ]
                             }
@@ -2537,6 +2480,20 @@
             },
             "properties": {
                 "network": "CHARGEPOINT",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "250 Arsenal Street",
+                            "city": "Watertown",
+                            "state": "MA",
+                            "zip_code": "02472"
+                        },
+                        "source": {
+                            "name": "OPEN_STREET_MAP",
+                            "url": "https://www.openstreetmap.org/node/1312337445"
+                        }
+                    }
+                ],
                 "references": [
                     {
                         "name": "OPEN_STREET_MAP",
@@ -3703,13 +3660,6 @@
                         "value": "Autel - Charlton Service Plaza Eastbound",
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333461"
-                        }
-                    },
-                    {
-                        "value": "Autel - Charlton Service Plaza Eastbound",
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                             "url": "https://afdc.energy.gov/stations#/station/333714"
                         }
                     }
@@ -3725,27 +3675,11 @@
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333461"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "80 Massachusetts Turnpike",
-                            "city": "Charlton",
-                            "state": "MA",
-                            "zip_code": "01507"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                             "url": "https://afdc.energy.gov/stations#/station/333714"
                         }
                     }
                 ],
                 "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/333461"
-                    },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/333714"
@@ -3791,361 +3725,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/312006"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.429324,
-                    42.311917
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Autel - Framingham Rest Stop Westbound",
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333463"
-                        }
-                    }
-                ],
-                "network": "NON_NETWORKED",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "114 Massachusetts Turnpike",
-                            "city": "Framingham",
-                            "state": "MA",
-                            "zip_code": "01701"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333463"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/333463"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.429016,
-                        42.311934
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Autel - Framingham Rest Stop Westbound",
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/300499"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "114 Massachusetts Turnpike",
-                            "city": "Framingham",
-                            "state": "MA",
-                            "zip_code": "01701"
-                        },
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/300499"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "OPEN_CHARGE_MAP",
-                        "url": "https://openchargemap.org/site/poi/details/300499"
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": ""
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.274255,
-                    42.297173
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Autel - Lee Service Plaza Eastbound",
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333716"
-                        }
-                    }
-                ],
-                "network": "NON_NETWORKED",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "Massachusetts Turnpike",
-                            "city": "Lee",
-                            "state": "MA",
-                            "zip_code": "01238"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333716"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/333716"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.274937,
-                    42.29844
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Autel - Lee Service Plaza Westbound",
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333462"
-                        }
-                    }
-                ],
-                "network": "NON_NETWORKED",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "Massachusetts Turnpike",
-                            "city": "Lee",
-                            "state": "MA",
-                            "zip_code": "01238"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333462"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/333462"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.275019,
-                        42.298115
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Autel - Lee Service Plaza Westbound",
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/247114"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "Lee Westbound Massachusetts Turnpike",
-                            "city": "Lee",
-                            "state": "MA",
-                            "zip_code": "01238"
-                        },
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/247114"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "OPEN_CHARGE_MAP",
-                        "url": "https://openchargemap.org/site/poi/details/247114"
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": ""
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.364242,
-                    42.311757
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Autel - Natick Service Plaza Eastbound",
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333715"
-                        }
-                    }
-                ],
-                "network": "NON_NETWORKED",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "117 Massachusetts Turnpike",
-                            "city": "Natick",
-                            "state": "MA",
-                            "zip_code": "01760"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                            "url": "https://afdc.energy.gov/stations#/station/333715"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/333715"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.364493,
-                        42.311627
-                    ],
-                    [
-                        -71.364493,
-                        42.311627
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Autel - Natick Service Plaza Eastbound",
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/143062"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "I-90 E Mile Marker 118.4",
-                            "city": "Natick",
-                            "state": "MA",
-                            "zip_code": "01760"
-                        },
-                        "source": {
-                            "name": "OPEN_CHARGE_MAP",
-                            "url": "https://openchargemap.org/site/poi/details/143062"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "OPEN_CHARGE_MAP",
-                        "url": "https://openchargemap.org/site/poi/details/143062"
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": ""
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": ""
                     }
                 ]
             }
@@ -6478,6 +6057,144 @@
                             }
                         ],
                         "name": ""
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.168502,
+                        42.364367
+                    ],
+                    [
+                        -71.168532,
+                        42.364324
+                    ],
+                    [
+                        -71.170053,
+                        42.364542
+                    ]
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Lexus of Watertown",
+                        "source": {
+                            "name": "OPEN_STREET_MAP",
+                            "url": "https://www.openstreetmap.org/node/17990534"
+                        }
+                    }
+                ],
+                "network": "CHARGEPOINT",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "330 Arsenal Street",
+                            "city": "Watertown",
+                            "state": "MA",
+                            "zip_code": "02472"
+                        },
+                        "source": {
+                            "name": "OPEN_STREET_MAP",
+                            "url": "https://www.openstreetmap.org/node/17990534"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "OPEN_STREET_MAP",
+                        "url": "https://www.openstreetmap.org/node/17990534"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956273,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956273"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956274,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956274"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "",
+                        "osm_id": [
+                            {
+                                "value": 12146956275,
+                                "source": {
+                                    "name": "OPEN_STREET_MAP",
+                                    "url": "https://www.openstreetmap.org/node/12146956275"
+                                }
+                            }
+                        ]
                     }
                 ]
             }

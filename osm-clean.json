@@ -232,6 +232,8 @@
         "payment:apple_pay": "yes",
         "payment:contactless": "yes",
         "payment:google_pay": "yes",
+        "ref:afdc": "333716",
+        "ref:ocm": "125807",
         "socket:type1_combo": "2",
         "socket:type1_combo:output": "60"
       }
@@ -255,6 +257,8 @@
         "payment:apple_pay": "yes",
         "payment:contactless": "yes",
         "payment:google_pay": "yes",
+        "ref:afdc": "333462",
+        "ref:ocm": "247114",
         "socket:type1_combo": "2",
         "socket:type1_combo:output": "60"
       }
@@ -495,8 +499,8 @@
     {
       "type": "node",
       "id": 6615092207,
-      "lat": 42.2956928,
-      "lon": -73.2391622,
+      "lat": 42.295731,
+      "lon": -73.23924,
       "tags": {
         "access": "yes",
         "amenity": "charging_station",
@@ -2986,7 +2990,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2"
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -3004,7 +3008,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2"
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -3022,7 +3026,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2"
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -3040,7 +3044,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2"
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -3058,7 +3062,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2"
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -3076,7 +3080,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2"
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -3125,6 +3129,9 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "205713",
+        "ref:ocm": "247402",
+        "ref:ocpi": "USCPIL12448411",
         "socket:type1_cable": "2"
       }
     },
@@ -3144,6 +3151,9 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "205714",
+        "ref:ocm": "247404",
+        "ref:ocpi": "USCPIL12448421",
         "socket:type1_cable": "2"
       }
     },
@@ -3770,6 +3780,8 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "202756",
+        "ref:ocpi": "USCPIL12131081",
         "scooter": "no",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
@@ -3807,6 +3819,8 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "202751",
+        "ref:ocpi": "USCPIL12130621",
         "scooter": "no",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
@@ -3844,6 +3858,8 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:ocm": "228195",
+        "ref:ocpi": "USCPIL12130681",
         "scooter": "no",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
@@ -3881,6 +3897,8 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "202752",
+        "ref:ocpi": "USCPIL12130631",
         "scooter": "no",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
@@ -3918,6 +3936,7 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:ocpi": "USCPIL12130831",
         "scooter": "no",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
@@ -4020,9 +4039,10 @@
         "capacity": "2",
         "fee": "yes",
         "man_made": "charge_point",
-        "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "206969",
+        "ref:ocpi": "USCPIL12496291",
         "socket:type1_cable": "2"
       }
     },
@@ -4038,9 +4058,12 @@
         "capacity": "2",
         "fee": "yes",
         "man_made": "charge_point",
-        "name": "ChargePoint",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "ref:afdc": "202466",
+        "ref:ocm": "247346",
+        "ref:ocpi": "USCPIL10311311",
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -4055,9 +4078,11 @@
         "capacity": "2",
         "fee": "yes",
         "man_made": "charge_point",
-        "name": "ChargePoint",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "ref:afdc": "202465",
+        "ref:ocpi": "USCPIL10309291",
+        "socket:type1_cable": "2"
       }
     },
     {
@@ -5095,6 +5120,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "262743",
+        "ref:ocpi": "USCPIL13784831",
         "socket:chademo": "1",
         "socket:chademo:output": "50 kW",
         "socket:type1_combo": "1"
@@ -5112,6 +5139,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "262742",
+        "ref:ocpi": "USCPIL13784811",
         "socket:chademo": "1",
         "socket:chademo:output": "50 kW",
         "socket:type1_combo": "1"
@@ -5559,6 +5588,8 @@
         "parking:fee": "no",
         "payment:app": "yes",
         "payment:contactless": "yes",
+        "ref:afdc": "333461;333714",
+        "ref:ocm": "110657",
         "scooter": "no",
         "socket:type1_combo": "2"
       }
@@ -5585,6 +5616,8 @@
         "parking:fee": "no",
         "payment:app": "yes",
         "payment:contactless": "yes",
+        "ref:afdc": "333715",
+        "ref:ocm": "143062",
         "scooter": "no",
         "socket:type1_combo": "2"
       }
@@ -5611,6 +5644,8 @@
         "parking:fee": "no",
         "payment:app": "yes",
         "payment:contactless": "yes",
+        "ref:afdc": "333463",
+        "ref:ocm": "300499",
         "scooter": "no",
         "socket:type1_combo": "2"
       }
@@ -5745,7 +5780,7 @@
         "amenity": "charging_station",
         "bicycle": "no",
         "brand": "Tesla Supercharger",
-        "brand:wikidata": "Q478214",
+        "brand:wikidata": "Q17089620",
         "bus": "no",
         "capacity": "12",
         "fee": "yes",
@@ -5807,10 +5842,16 @@
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
-        "capacity": "1",
+        "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "ref:afdc": "196507",
+        "ref:ocm": "228698",
+        "ref:ocpi": "USCPIL9889531",
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:voltage": "200 V"
       }
     },
     {
@@ -5821,10 +5862,16 @@
       "tags": {
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
-        "capacity": "1",
+        "capacity": "2",
         "man_made": "charge_point",
         "operator": "ChargePoint",
-        "operator:wikidata": "Q5176149"
+        "operator:wikidata": "Q5176149",
+        "ref:afdc": "224592",
+        "ref:ocm": "228700",
+        "ref:ocpi": "USCPIL9987391",
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32 A",
+        "socket:type1_cable:voltage": "200 V"
       }
     },
     {
@@ -6129,10 +6176,10 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2",
-        "socket:type1:current": "32",
-        "socket:type1:output": "6 kW",
-        "socket:type1:voltage": "208"
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32",
+        "socket:type1_cable:output": "6 kW",
+        "socket:type1_cable:voltage": "208"
       }
     },
     {
@@ -6149,10 +6196,10 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2",
-        "socket:type1:current": "32",
-        "socket:type1:output": "6 kW",
-        "socket:type1:voltage": "208"
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32",
+        "socket:type1_cable:output": "6 kW",
+        "socket:type1_cable:voltage": "208"
       }
     },
     {
@@ -6169,10 +6216,10 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2",
-        "socket:type1:current": "32",
-        "socket:type1:output": "6 kW",
-        "socket:type1:voltage": "208"
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32",
+        "socket:type1_cable:output": "6 kW",
+        "socket:type1_cable:voltage": "208"
       }
     },
     {
@@ -6189,10 +6236,10 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "2",
-        "socket:type1:current": "32",
-        "socket:type1:output": "6 kW",
-        "socket:type1:voltage": "208"
+        "socket:type1_cable": "2",
+        "socket:type1_cable:current": "32",
+        "socket:type1_cable:output": "6 kW",
+        "socket:type1_cable:voltage": "208"
       }
     },
     {
@@ -6821,6 +6868,9 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "179967",
+        "ref:ocm": "247053",
+        "ref:ocpi": "USCPIL163983",
         "socket:type1_cable": "2"
       }
     },
@@ -6838,6 +6888,8 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "161870",
+        "ref:ocpi": "USCPIL167149",
         "socket:type1_cable": "2"
       }
     },
@@ -6961,6 +7013,7 @@
         "operator": "Electrify America",
         "operator:wikidata": "Q59773555",
         "parking:fee": "no",
+        "ref:ocpi": "210114-04",
         "scooter": "no",
         "socket:type1_combo": "2",
         "socket:type1_combo:output": "150 kW"
@@ -6986,6 +7039,7 @@
         "operator": "Electrify America",
         "operator:wikidata": "Q59773555",
         "parking:fee": "no",
+        "ref:ocpi": "210114-03",
         "scooter": "no",
         "socket:type1_combo": "2",
         "socket:type1_combo:output": "150 kW"
@@ -7011,6 +7065,7 @@
         "operator": "Electrify America",
         "operator:wikidata": "Q59773555",
         "parking:fee": "no",
+        "ref:ocpi": "210114-02",
         "scooter": "no",
         "socket:type1_combo": "2",
         "socket:type1_combo:output": "150 kW"
@@ -7036,6 +7091,7 @@
         "operator": "Electrify America",
         "operator:wikidata": "Q59773555",
         "parking:fee": "no",
+        "ref:ocpi": "210114-01",
         "scooter": "no",
         "socket:chademo": "1",
         "socket:chademo:output": "50 kW",
@@ -7055,6 +7111,9 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "207940",
+        "ref:ocm": "228727",
+        "ref:ocpi": "USCPIL12012661",
         "socket:type1_cable": "2"
       }
     },
@@ -7070,6 +7129,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "207939",
+        "ref:ocpi": "USCPIL12012421",
         "socket:type1_cable": "2"
       }
     },
@@ -7085,6 +7146,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "207938",
+        "ref:ocpi": "USCPIL12012291",
         "socket:type1_cable": "2"
       }
     },
@@ -7100,6 +7163,9 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "207937",
+        "ref:ocm": "228725",
+        "ref:ocpi": "USCPIL12012091",
         "socket:type1_cable": "2"
       }
     },
@@ -7115,6 +7181,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "220246",
+        "ref:ocpi": "USCPIL12776291",
         "socket:type1_cable": "2"
       }
     },
@@ -7130,6 +7198,9 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "220247",
+        "ref:ocm": "247025",
+        "ref:ocpi": "USCPIL12776311",
         "socket:type1_cable": "2"
       }
     },
@@ -7145,6 +7216,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "220248",
+        "ref:ocpi": "USCPIL12776341",
         "socket:type1_cable": "2"
       }
     },
@@ -7160,6 +7233,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "220245",
+        "ref:ocpi": "USCPIL12776271",
         "socket:type1_cable": "2"
       }
     },
@@ -7804,9 +7879,10 @@
         "capacity": "2",
         "fee": "yes",
         "man_made": "charge_point",
-        "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "218521",
+        "ref:ocpi": "USCPIL12805691",
         "socket:type1_cable": "2"
       }
     },
@@ -9470,6 +9546,7 @@
         "man_made": "charge_point",
         "operator": "EVgo",
         "operator:wikidata": "Q61803820",
+        "ref:ocpi": "105335",
         "socket:type1_cable": "1"
       }
     },
@@ -9486,6 +9563,7 @@
         "name": "LUCERO",
         "operator": "EVgo",
         "operator:wikidata": "Q61803820",
+        "ref:ocpi": "1081",
         "socket:chademo": "1",
         "socket:chademo:output": "50 kW",
         "socket:tesla_supercharger": "1",
@@ -9507,6 +9585,7 @@
         "name": "ABBY",
         "operator": "EVgo",
         "operator:wikidata": "Q61803820",
+        "ref:ocpi": "617",
         "socket:chademo": "1",
         "socket:chademo:output": "50 kW",
         "socket:tesla_supercharger": "1",
@@ -9584,6 +9663,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "198155",
+        "ref:ocpi": "USCPIL10323011",
         "socket:chademo": "1",
         "socket:type1_combo": "1"
       }
@@ -9600,6 +9681,9 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "198156",
+        "ref:ocm": "228461",
+        "ref:ocpi": "USCPIL10323561",
         "socket:chademo": "1",
         "socket:type1_combo": "1"
       }
@@ -9616,6 +9700,8 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "198157",
+        "ref:ocpi": "USCPIL10325541",
         "socket:chademo": "1",
         "socket:type1_combo": "1"
       }
@@ -9632,6 +9718,9 @@
         "man_made": "charge_point",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "ref:afdc": "198158",
+        "ref:ocm": "228462",
+        "ref:ocpi": "USCPIL10326351",
         "socket:chademo": "1",
         "socket:type1_combo": "1"
       }
@@ -9653,6 +9742,8 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "316445",
+        "ref:ocpi": "USCPIL14246201",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
         "socket:type1_cable:output": "6 kW",
@@ -9676,6 +9767,9 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "316444",
+        "ref:ocm": "282841",
+        "ref:ocpi": "USCPIL14246181",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
         "socket:type1_cable:output": "6 kW",
@@ -9699,6 +9793,8 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "316443",
+        "ref:ocpi": "USCPIL14246141",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
         "socket:type1_cable:output": "6 kW",
@@ -9722,6 +9818,8 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
+        "ref:afdc": "316442",
+        "ref:ocpi": "USCPIL14246111",
         "socket:type1_cable": "2",
         "socket:type1_cable:current": "32 A",
         "socket:type1_cable:output": "6 kW",
@@ -10348,6 +10446,7 @@
         "parking:fee": "no",
         "payment:app": "yes",
         "payment:contactless": "yes",
+        "ref:ocm": "300501",
         "scooter": "no",
         "socket:chademo": "2",
         "socket:chademo:output": "50 kW",
@@ -10489,10 +10588,10 @@
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
         "scooter": "no",
-        "socket:type1": "8",
-        "socket:type1:current": "32",
-        "socket:type1:output": "6 kW",
-        "socket:type1:voltage": "208"
+        "socket:type1_cable": "8",
+        "socket:type1_cable:current": "32",
+        "socket:type1_cable:output": "6 kW",
+        "socket:type1_cable:voltage": "208"
       }
     },
     {
@@ -10825,7 +10924,7 @@
         "brand:wikidata": "Q5176149",
         "capacity": "4",
         "fee": "no",
-        "name": "ChargePoint",
+        "name": "Braintree Electric Light Department",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "parking:fee": "no",
@@ -10886,6 +10985,7 @@
         "operator": "Electrify America",
         "operator:wikidata": "Q59773555",
         "parking:fee": "no",
+        "ref:ofcpi": "210114",
         "scooter": "no",
         "socket:chademo": "1",
         "socket:chademo:output": "50 kW",
@@ -11031,7 +11131,7 @@
         "brand:wikidata": "Q5176149",
         "capacity": "10",
         "fee": "no",
-        "name": "ChargePoint",
+        "name": "Sagamore Bridge Park and Ride",
         "network": "ChargePoint",
         "opening_hours": "24/7",
         "operator": "ChargePoint",
@@ -11089,7 +11189,7 @@
         "capacity": "4",
         "charging_station:output": "6.2 kW",
         "fee": "no",
-        "name": "ChargePoint",
+        "name": "MassDOT Greenfield",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "socket:type1_cable": "4"
@@ -11909,6 +12009,11 @@
       ],
       "tags": {
         "access": "yes",
+        "addr:city": "Canton",
+        "addr:housenumber": "79",
+        "addr:postcode": "02021",
+        "addr:state": "MA",
+        "addr:street": "Pleasant Street",
         "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
@@ -11970,6 +12075,11 @@
       ],
       "tags": {
         "access": "yes",
+        "addr:city": "Canton",
+        "addr:housenumber": "92",
+        "addr:postcode": "02021",
+        "addr:state": "MA",
+        "addr:street": "Pleasant Street",
         "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
@@ -12059,7 +12169,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "4"
+        "socket:type1_cable": "4"
       }
     },
     {
@@ -12135,7 +12245,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "4"
+        "socket:type1_cable": "4"
       }
     },
     {
@@ -12212,7 +12322,7 @@
         "name": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
-        "socket:type1": "4"
+        "socket:type1_cable": "4"
       }
     },
     {
@@ -12531,6 +12641,11 @@
       ],
       "tags": {
         "access": "yes",
+        "addr:city": "Watertown",
+        "addr:housenumber": "250",
+        "addr:postcode": "02472",
+        "addr:state": "MA",
+        "addr:street": "Arsenal Street",
         "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
@@ -12669,7 +12784,8 @@
         "operator": "EVgo",
         "operator:wikidata": "Q61803820",
         "ref:afdc": "228337",
-        "ref:ocm": "85237"
+        "ref:ocm": "85237",
+        "ref:ocpi": "429"
       }
     },
     {
@@ -12884,7 +13000,7 @@
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "fee": "yes",
-        "name": "ChargePoint",
+        "name": "Bridgewater Service Plaza Northbound",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "socket:chademo": "2",
@@ -12946,7 +13062,7 @@
         "brand:wikidata": "Q5176149",
         "capacity": "2",
         "fee": "yes",
-        "name": "ChargePoint",
+        "name": "Bridgewater Service Plaza Southbound",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "socket:chademo": "2",
@@ -14543,7 +14659,7 @@
         "brand:wikidata": "Q5176149",
         "capacity": "4",
         "fee": "yes",
-        "name": "ChargePoint",
+        "name": "Town of Maynard Public Parking",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "socket:type1_cable": "4",
@@ -14638,9 +14754,10 @@
         "brand:wikidata": "Q5176149",
         "capacity": "4",
         "fee": "yes",
-        "name": "ChargePoint",
+        "name": "Town of Maynard Library",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
+        "socket:type1_cable": "4",
         "type": "multipolygon"
       }
     },
@@ -14819,11 +14936,17 @@
         }
       ],
       "tags": {
+        "access": "private",
+        "addr:city": "Watertown",
+        "addr:housenumber": "330",
+        "addr:postcode": "02472",
+        "addr:state": "MA",
+        "addr:street": "Arsenal Street",
         "amenity": "charging_station",
         "brand": "ChargePoint",
         "brand:wikidata": "Q5176149",
         "capacity": "6",
-        "name": "ChargePoint",
+        "name": "Lexus of Watertown",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "socket:type1_cable": "6",

@@ -289,7 +289,7 @@ def combine_charging_points(first_points: list[ChargingPoint], second_points: li
 
     for network_id, charging_points in network_ids_to_charging_points.items():
         if not network_id:
-            combined_points.extend(charging_points)
+            # combined_points.extend(charging_points)
 
             continue
 
@@ -865,9 +865,10 @@ def guess_charging_port_groups(capacity: int, plug_counts: dict[PlugType, int]) 
     elif capacity == 1 and plug_counts:
         charging_port_group = ChargingPortGroup()
 
-        for socket_type in plug_counts.keys():
-            charging_port = ChargingPort(plug=socket_type)
-            charging_port_group.charging_ports.append(charging_port)
+        for socket_type, socket_count in plug_counts.items():
+            for _ in range(socket_count):
+                charging_port = ChargingPort(plug=socket_type)
+                charging_port_group.charging_ports.append(charging_port)
 
         charging_port_groups.append(charging_port_group)
     elif capacity and plug_counts:

@@ -629,7 +629,7 @@ def osm_parse_charging_station(osm_element) -> Station:
     if "name" in tags:
         station_name = tags["name"]
 
-        if station_name.lower() not in ["chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
+        if station_name.lower() not in ["evgo", "chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
             station.name.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), station_name))
 
     if "addr:housenumber" in tags and "addr:street" in tags:
@@ -820,7 +820,7 @@ def osm_parse_charging_point(osm_element) -> ChargingPoint:
 
     charging_point.osm_id.set(SourcedValue(SourceData(SourceLocation.OPEN_STREET_MAP, osm_element["id"]), osm_element["id"]))
 
-    if "name" in osm_tags:
+    if "name" in osm_tags and osm_tags["name"].lower() not in ["evgo", "chargepoint", "tesla supercharger", "tesla supercharging station", "tesla destination charger"]:
         charging_point.name = osm_tags["name"]
     elif "ref" in osm_tags:
         charging_point.name = osm_tags["ref"]

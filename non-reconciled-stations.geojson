@@ -249,7 +249,7 @@
                                 ]
                             }
                         ],
-                        "name": "ChargePoint",
+                        "name": "",
                         "osm_id": [
                             {
                                 "value": 7705586790,
@@ -277,7 +277,7 @@
                                 ]
                             }
                         ],
-                        "name": "ChargePoint",
+                        "name": "",
                         "osm_id": [
                             {
                                 "value": 8646200247,
@@ -305,7 +305,7 @@
                                 ]
                             }
                         ],
-                        "name": "ChargePoint",
+                        "name": "",
                         "osm_id": [
                             {
                                 "value": 8646200248,
@@ -333,7 +333,7 @@
                                 ]
                             }
                         ],
-                        "name": "ChargePoint",
+                        "name": "",
                         "osm_id": [
                             {
                                 "value": 12048327327,
@@ -1262,7 +1262,7 @@
                                 ]
                             }
                         ],
-                        "name": "Tesla Destination Charger",
+                        "name": "",
                         "osm_id": [
                             {
                                 "value": 8710873600,

@@ -447,21 +447,6 @@
     },
     {
       "type": "node",
-      "id": 6615039204,
-      "lat": 42.2022274,
-      "lon": -71.8374227,
-      "tags": {
-        "amenity": "charging_station",
-        "brand": "EVgo",
-        "brand:wikidata": "Q61803820",
-        "capacity": "3",
-        "name": "eVgo",
-        "operator": "EVgo",
-        "operator:wikidata": "Q61803820"
-      }
-    },
-    {
-      "type": "node",
       "id": 6615041292,
       "lat": 42.3449194,
       "lon": -71.0993783,
@@ -4014,21 +3999,6 @@
     },
     {
       "type": "node",
-      "id": 11170732692,
-      "lat": 42.202363,
-      "lon": -71.8379174,
-      "tags": {
-        "amenity": "charging_station",
-        "capacity": "8",
-        "fee": "yes",
-        "operator": "Electrify America",
-        "operator:wikidata": "Q59773555",
-        "payment:app": "yes",
-        "payment:contactless": "yes"
-      }
-    },
-    {
-      "type": "node",
       "id": 11179692520,
       "lat": 42.4331759,
       "lon": -71.4520408,
@@ -5662,7 +5632,10 @@
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "ref": "1A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
       }
     },
     {
@@ -5677,7 +5650,10 @@
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "ref": "1B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
       }
     },
     {
@@ -5692,7 +5668,10 @@
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "ref": "1C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
       }
     },
     {
@@ -5707,7 +5686,10 @@
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "ref": "1D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
       }
     },
     {
@@ -5722,7 +5704,10 @@
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "ref": "2A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
       }
     },
     {
@@ -5737,7 +5722,10 @@
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "ref": "2B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
       }
     },
     {
@@ -5752,7 +5740,10 @@
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "ref": "2C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
       }
     },
     {
@@ -5767,7 +5758,10 @@
         "man_made": "charge_point",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "ref": "2D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
       }
     },
     {
@@ -8028,7 +8022,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1A",
@@ -8047,7 +8040,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1B",
@@ -8066,7 +8058,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1C",
@@ -8085,7 +8076,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "1D",
@@ -8104,7 +8094,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2A",
@@ -8123,7 +8112,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2B",
@@ -8142,7 +8130,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2C",
@@ -8161,7 +8148,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "2D",
@@ -8180,7 +8166,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "4C",
@@ -8199,7 +8184,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "4B",
@@ -8218,7 +8202,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "4A",
@@ -8237,7 +8220,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3D",
@@ -8256,7 +8238,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3C",
@@ -8275,7 +8256,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3B",
@@ -8294,7 +8274,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "3A",
@@ -8313,7 +8292,6 @@
         "brand:wikidata": "Q17089620",
         "capacity": "1",
         "man_made": "charge_point",
-        "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "ref": "4D",
@@ -9855,6 +9833,169 @@
       }
     },
     {
+      "type": "node",
+      "id": 12158643997,
+      "lat": 42.2022478,
+      "lon": -71.8373906,
+      "tags": {
+        "access": "yes",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "name": "DAVIS",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "ref:ocpi": "633",
+        "socket:chademo": "1",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "50 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158643998,
+      "lat": 42.2022277,
+      "lon": -71.8373829,
+      "tags": {
+        "access": "yes",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "name": "LAYLA",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "ref:ocpi": "44415",
+        "socket:chademo": "1",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "50 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158743802,
+      "lat": 42.2024561,
+      "lon": -71.8378165,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "100289-08",
+        "socket:chademo": "1",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158743803,
+      "lat": 42.2024352,
+      "lon": -71.8378402,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "100289-07",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158743804,
+      "lat": 42.2023976,
+      "lon": -71.8378828,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "100289-06",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158743805,
+      "lat": 42.2023746,
+      "lon": -71.8379073,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "100289-05",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158743806,
+      "lat": 42.2023518,
+      "lon": -71.837931,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "100289-04",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158743807,
+      "lat": 42.2023306,
+      "lon": -71.8379558,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "100289-03",
+        "socket:type1_combo": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158743808,
+      "lat": 42.2023081,
+      "lon": -71.8379791,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "100289-02",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12158743809,
+      "lat": 42.2022848,
+      "lon": -71.8380047,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "100289-01",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "350 kW"
+      }
+    },
+    {
       "type": "way",
       "id": 954423391,
       "bounds": {
@@ -10505,7 +10646,7 @@
         "fee": "yes",
         "hgv": "no",
         "motorcar": "yes",
-        "name": "Tesla Supercharger",
+        "name": "Dedham Tesla Supercharger",
         "network": "Tesla",
         "opening_hours": "24/7",
         "operator": "Tesla, Inc.",
@@ -10519,7 +10660,7 @@
         "scooter": "no",
         "short_name": "Tesla",
         "socket:tesla_supercharger": "8",
-        "socket:tesla_supercharger:output": "120 kW",
+        "socket:tesla_supercharger:output": "150 kW",
         "website": "https://www.teslamotors.com/findus/location/supercharger/dedham"
       }
     },
@@ -10985,7 +11126,7 @@
         "operator": "Electrify America",
         "operator:wikidata": "Q59773555",
         "parking:fee": "no",
-        "ref:ofcpi": "210114",
+        "ref:ocpi": "210114",
         "scooter": "no",
         "socket:chademo": "1",
         "socket:chademo:output": "50 kW",
@@ -11961,7 +12102,7 @@
         "brand:wikidata": "Q17089620",
         "capacity": "16",
         "fee": "yes",
-        "name": "Tesla Supercharger",
+        "name": "Auburn, MA Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
         "short_name": "Tesla",
@@ -13120,6 +13261,135 @@
         "network": "AmpUp",
         "private": "employees",
         "socket:type1_cable": "4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1313606550,
+      "bounds": {
+        "minlat": 42.2021815,
+        "minlon": -71.8374733,
+        "maxlat": 42.2022739,
+        "maxlon": -71.8373572
+      },
+      "nodes": [
+        6615039204,
+        12158643988,
+        12158643989,
+        12158643990,
+        12158643991,
+        12158643992,
+        12158643996,
+        12158643993,
+        6615039204
+      ],
+      "geometry": [
+        {
+          "lat": 42.202256,
+          "lon": -71.8374733
+        },
+        {
+          "lat": 42.2022698,
+          "lon": -71.837407
+        },
+        {
+          "lat": 42.2022739,
+          "lon": -71.837387
+        },
+        {
+          "lat": 42.2022002,
+          "lon": -71.8373572
+        },
+        {
+          "lat": 42.2021955,
+          "lon": -71.8373797
+        },
+        {
+          "lat": 42.2021815,
+          "lon": -71.8374436
+        },
+        {
+          "lat": 42.2022068,
+          "lon": -71.837454
+        },
+        {
+          "lat": 42.20223,
+          "lon": -71.8374635
+        },
+        {
+          "lat": 42.202256,
+          "lon": -71.8374733
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "EVgo",
+        "brand:wikidata": "Q61803820",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "EVgo Auburn Mall",
+        "operator": "EVgo",
+        "operator:wikidata": "Q61803820",
+        "ref:afdc": "228522",
+        "ref:ocm": "297722",
+        "ref:ocpi": "619",
+        "socket:chademo": "2",
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "2",
+        "socket:type1_combo:output": "50 kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1313606554,
+      "bounds": {
+        "minlat": 42.2022378,
+        "minlon": -71.8380207,
+        "maxlat": 42.2024815,
+        "maxlon": -71.837732
+      },
+      "nodes": [
+        11170732692,
+        12158643999,
+        12158644000,
+        12158743801,
+        11170732692
+      ],
+      "geometry": [
+        {
+          "lat": 42.2022378,
+          "lon": -71.8379548
+        },
+        {
+          "lat": 42.202442,
+          "lon": -71.837732
+        },
+        {
+          "lat": 42.2024815,
+          "lon": -71.8377979
+        },
+        {
+          "lat": 42.2022772,
+          "lon": -71.8380207
+        },
+        {
+          "lat": 42.2022378,
+          "lon": -71.8379548
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "8",
+        "fee": "yes",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "payment:app": "yes",
+        "payment:contactless": "yes",
+        "ref:afdc": "166960",
+        "ref:ocm": "143014",
+        "ref:ocpi": "100289"
       }
     },
     {

@@ -476,6 +476,10 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
         )
 
         station.name.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["station_name"]))
+
+        if nrel_station["nps_unit_name"]:
+            station.name.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["nps_unit_name"]))
+
         station.nrel_id.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), nrel_station["id"]))
         station_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])
         station.location.set(SourcedValue(SourceData(SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER, nrel_station["id"]), station_location))
@@ -595,7 +599,7 @@ def nrel_parse_charging_points_single_post(nrel_station, station: Station) -> li
         charging_port_groups.append(charging_port_group)
 
     charging_point = ChargingPoint(
-        name=station.name.get(),
+        name=nrel_station["station_name"],
         charging_port_groups=charging_port_groups,
     )
     charging_point_location = Location(latitude=nrel_station["latitude"], longitude=nrel_station["longitude"])

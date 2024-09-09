@@ -15011,23 +15011,6 @@
     "isChademo": true
   },
   {
-    "id": "700062",
-    "siteId": "700062",
-    "name": "Volkswagen Group of America",
-    "address": "1950 Opportunity Way",
-    "city": "Reston",
-    "postalCode": "20191",
-    "state": "Virginia",
-    "coordinates": {
-      "longitude": -77.36227,
-      "latitude": 38.95457
-    },
-    "type": "L2",
-    "isL2": true,
-    "isCcs": false,
-    "isChademo": false
-  },
-  {
     "id": "700001",
     "siteId": "700001",
     "name": "Reston Office",

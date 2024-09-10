@@ -465,7 +465,9 @@ def normalize_nrel_data(nrel_raw_data) -> list[Station]:
     NREL_NETWORK_TO_CHARGE_POINT_PARSER = {
         ChargingNetwork.BLINK: nrel_parse_charging_points_multiple_posts,
         ChargingNetwork.ELECTRIFY_AMERICA: nrel_parse_charging_points_multiple_posts,
+        ChargingNetwork.EV_CONNECT: nrel_parse_charging_points_multiple_posts,
         ChargingNetwork.EVGO: nrel_parse_charging_points_multiple_posts,
+        ChargingNetwork.FLO: nrel_parse_charging_points_multiple_posts,
     }
 
     stations = []

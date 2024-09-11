@@ -7342,24 +7342,6 @@
     },
     {
       "type": "node",
-      "id": 12063299595,
-      "lat": 42.29521,
-      "lon": -73.2340062,
-      "tags": {
-        "access": "yes",
-        "amenity": "charging_station",
-        "capacity": "6",
-        "fee": "yes",
-        "network": "Electrify America",
-        "network:wikidata": "Q59773555",
-        "operator": "Electrify America",
-        "operator:wikidata": "Q59773555",
-        "socket:type1_combo": "6",
-        "socket:type1_combo:output": "350"
-      }
-    },
-    {
-      "type": "node",
       "id": 12063299596,
       "lat": 42.2960936,
       "lon": -73.2401579,
@@ -9992,6 +9974,154 @@
         "operator:wikidata": "Q59773555",
         "ref:ocpi": "100289-01",
         "socket:type1_combo": "2",
+        "socket:type1_combo:output": "350 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12166878091,
+      "lat": 42.3969275,
+      "lon": -71.1740996,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "FreeWire",
+        "brand:wikidata": "Q114901666",
+        "capacity": "2",
+        "fee": "yes",
+        "name": "Claflin Street Lot",
+        "network": "EV Connect",
+        "network:wikidata": "Q126652985",
+        "operator": "Belmont Light",
+        "ref:afdc": "302190",
+        "ref:ocpi": "2958da5a-ec7c-4e3b-8ad0-1b1d0452a150",
+        "socket:chademo": "1",
+        "socket:chademo:output": "100 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "200 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12166878098,
+      "lat": 42.3969699,
+      "lon": -71.1742269,
+      "tags": {
+        "brand": "FLO",
+        "brand:wikidata": "Q64971203",
+        "capacity": "2",
+        "man_made": "charge_point",
+        "network": "FLO",
+        "network:wikidata": "Q64971203",
+        "operator": "FLO",
+        "operator:wikidata": "Q64971203",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12166878099,
+      "lat": 42.3969572,
+      "lon": -71.1741835,
+      "tags": {
+        "brand": "FLO",
+        "brand:wikidata": "Q64971203",
+        "capacity": "2",
+        "man_made": "charge_point",
+        "network": "FLO",
+        "network:wikidata": "Q64971203",
+        "operator": "FLO",
+        "operator:wikidata": "Q64971203",
+        "socket:type1_cable": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12167179771,
+      "lat": 42.295192,
+      "lon": -73.2342316,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "140021-05",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "350 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12167179772,
+      "lat": 42.2951901,
+      "lon": -73.2342399,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "140021-06",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "350 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12167179773,
+      "lat": 42.2952058,
+      "lon": -73.2341486,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "140021-04",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "350 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12167179774,
+      "lat": 42.2952082,
+      "lon": -73.2341375,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "140021-03",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "350 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12167179775,
+      "lat": 42.2952251,
+      "lon": -73.2340529,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "140021-02",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "350 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12167179776,
+      "lat": 42.295227,
+      "lon": -73.2340437,
+      "tags": {
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:ocpi": "140021-01",
+        "socket:type1_combo": "1",
         "socket:type1_combo:output": "350 kW"
       }
     },
@@ -13390,6 +13520,218 @@
         "ref:afdc": "166960",
         "ref:ocm": "143014",
         "ref:ocpi": "100289"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314506812,
+      "bounds": {
+        "minlat": 42.3969319,
+        "minlon": -71.1742613,
+        "maxlat": 42.397019,
+        "maxlon": -71.1741138
+      },
+      "nodes": [
+        12166878092,
+        12166878093,
+        12166878094,
+        12166878095,
+        12166878096,
+        12166878097,
+        12166878092
+      ],
+      "geometry": [
+        {
+          "lat": 42.3969846,
+          "lon": -71.1741138
+        },
+        {
+          "lat": 42.397019,
+          "lon": -71.1742287
+        },
+        {
+          "lat": 42.3969804,
+          "lon": -71.1742538
+        },
+        {
+          "lat": 42.3969686,
+          "lon": -71.1742613
+        },
+        {
+          "lat": 42.3969319,
+          "lon": -71.1741432
+        },
+        {
+          "lat": 42.3969442,
+          "lon": -71.1741361
+        },
+        {
+          "lat": 42.3969846,
+          "lon": -71.1741138
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "FLO",
+        "brand:wikidata": "Q64971203",
+        "capacity": "4",
+        "fee": "yes",
+        "name": "Claflin Street Lot",
+        "operator": "FLO",
+        "operator:wikidata": "Q64971203",
+        "ref:afdc": "260199",
+        "ref:ocpi": "cedbd2dc-c0dd-459a-bdb0-044323cd7d7e",
+        "socket:type1_cable": "4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314526736,
+      "bounds": {
+        "minlat": 42.2951329,
+        "minlon": -73.2343015,
+        "maxlat": 42.2952815,
+        "maxlon": -73.2339846
+      },
+      "nodes": [
+        12063299595,
+        8756913887,
+        12167179766,
+        12167179779,
+        12167179783,
+        12167179784,
+        12167179781,
+        12167179767,
+        12167179768,
+        12167179769,
+        8756913878,
+        8756913877,
+        8756913876,
+        8756913886,
+        12167179770,
+        12167179795,
+        12167179794,
+        12167179791,
+        12167179792,
+        12167179788,
+        12167179785,
+        12167179786,
+        12167179782,
+        12063299595
+      ],
+      "geometry": [
+        {
+          "lat": 42.2952203,
+          "lon": -73.2343015
+        },
+        {
+          "lat": 42.2951985,
+          "lon": -73.2342933
+        },
+        {
+          "lat": 42.2951674,
+          "lon": -73.2342816
+        },
+        {
+          "lat": 42.2951743,
+          "lon": -73.2342476
+        },
+        {
+          "lat": 42.2951763,
+          "lon": -73.2342383
+        },
+        {
+          "lat": 42.2951797,
+          "lon": -73.2342217
+        },
+        {
+          "lat": 42.2951808,
+          "lon": -73.2342163
+        },
+        {
+          "lat": 42.2951873,
+          "lon": -73.2341842
+        },
+        {
+          "lat": 42.2951329,
+          "lon": -73.2341652
+        },
+        {
+          "lat": 42.2951686,
+          "lon": -73.2339992
+        },
+        {
+          "lat": 42.2951844,
+          "lon": -73.2340054
+        },
+        {
+          "lat": 42.2952208,
+          "lon": -73.2340184
+        },
+        {
+          "lat": 42.2952276,
+          "lon": -73.2339846
+        },
+        {
+          "lat": 42.2952642,
+          "lon": -73.2339976
+        },
+        {
+          "lat": 42.2952815,
+          "lon": -73.2340041
+        },
+        {
+          "lat": 42.2952712,
+          "lon": -73.2340544
+        },
+        {
+          "lat": 42.295267,
+          "lon": -73.2340745
+        },
+        {
+          "lat": 42.2952597,
+          "lon": -73.2341101
+        },
+        {
+          "lat": 42.2952522,
+          "lon": -73.2341466
+        },
+        {
+          "lat": 42.2952481,
+          "lon": -73.2341668
+        },
+        {
+          "lat": 42.2952409,
+          "lon": -73.2342018
+        },
+        {
+          "lat": 42.2952329,
+          "lon": -73.2342405
+        },
+        {
+          "lat": 42.2952294,
+          "lon": -73.2342577
+        },
+        {
+          "lat": 42.2952203,
+          "lon": -73.2343015
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "6",
+        "fee": "yes",
+        "name": "Electrify America - Lee Premium Outlets",
+        "network": "Electrify America",
+        "network:wikidata": "Q59773555",
+        "operator": "Electrify America",
+        "operator:wikidata": "Q59773555",
+        "ref:afdc": "316262",
+        "ref:ocpi": "140021",
+        "socket:type1_combo": "6",
+        "socket:type1_combo:output": "350 kW"
       }
     },
     {

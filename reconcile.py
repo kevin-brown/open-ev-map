@@ -697,7 +697,9 @@ def network_from_osm_tags(osm_tags) -> ChargingNetwork:
         "Q59773555": ChargingNetwork.ELECTRIFY_AMERICA,
         "Q61803820": ChargingNetwork.EVGO,
         "Q62065645": ChargingNetwork.BLINK,
+        "Q64971203": ChargingNetwork.FLO,
         "Q109307156": ChargingNetwork.VOLTA,
+        "Q126652985": ChargingNetwork.EV_CONNECT,
     }
 
     OSM_OPERATOR_NAME_MAP = {
@@ -732,6 +734,7 @@ def network_from_osm_tags(osm_tags) -> ChargingNetwork:
         "Q59773555": ChargingNetwork.ELECTRIFY_AMERICA,
         "Q61803820": ChargingNetwork.EVGO,
         "Q62065645": ChargingNetwork.BLINK,
+        "Q64971203": ChargingNetwork.FLO,
         "Q105883058": ChargingNetwork.SHELL_RECHARGE,
         "Q109307156": ChargingNetwork.VOLTA,
     }

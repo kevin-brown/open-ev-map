@@ -12412,8 +12412,8 @@
   {
     "id": "240149",
     "siteId": "240149",
-    "name": "\t Meijer #20 (Grand Rapids, MI)",
-    "address": "\t2425 Alpine Ave NW",
+    "name": "Meijer #20 (Grand Rapids, MI)",
+    "address": "2425 Alpine Ave NW",
     "city": "Grand Rapids",
     "postalCode": "49544-1956",
     "state": "Michigan",
@@ -13087,7 +13087,7 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "210090",
@@ -14192,7 +14192,7 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "110072",
@@ -14957,7 +14957,7 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "0",

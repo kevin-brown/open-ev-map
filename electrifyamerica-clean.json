@@ -3935,13 +3935,13 @@
     "postalCode": "95110",
     "state": "California",
     "coordinates": {
-      "longitude": -121.92393,
-      "latitude": 37.34986
+      "longitude": -121.92287,
+      "latitude": 37.35049
     },
-    "type": "COMING_SOON",
-    "isL2": true,
+    "type": "PUBLIC",
+    "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "710010",
@@ -12254,7 +12254,7 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "240144",
@@ -12815,7 +12815,7 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "110074",
@@ -15450,7 +15450,7 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "200225",
@@ -16148,6 +16148,23 @@
     "isL2": true,
     "isCcs": true,
     "isChademo": false
+  },
+  {
+    "id": "701193",
+    "siteId": "701193",
+    "name": "NYPA - Parish Mirabito (Parish, NY)",
+    "address": "2877 E Main Street",
+    "city": "Parish",
+    "postalCode": "13131",
+    "state": "New York",
+    "coordinates": {
+      "longitude": -76.11936,
+      "latitude": 43.40452
+    },
+    "type": "COMING_SOON",
+    "isL2": true,
+    "isCcs": true,
+    "isChademo": true
   },
   {
     "id": "701191",

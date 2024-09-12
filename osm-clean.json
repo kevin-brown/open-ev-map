@@ -819,24 +819,6 @@
     },
     {
       "type": "node",
-      "id": 7657523801,
-      "lat": 42.3985274,
-      "lon": -71.0001492,
-      "tags": {
-        "amenity": "charging_station",
-        "brand": "Tesla Supercharger",
-        "brand:wikidata": "Q17089620",
-        "capacity": "8",
-        "name": "Tesla Supercharger",
-        "operator": "Tesla, Inc.",
-        "operator:wikidata": "Q478214",
-        "operator:wikipedia": "en:Tesla, Inc.",
-        "short_name": "Tesla",
-        "website": "https://www.tesla.com/findus/location/supercharger/reveremasupercharger"
-      }
-    },
-    {
-      "type": "node",
       "id": 7659257400,
       "lat": 42.3927595,
       "lon": -71.0363477,
@@ -2255,37 +2237,6 @@
         "no:network": "yes",
         "operator": "Mass Audubon",
         "socket:type1_cable": "2"
-      }
-    },
-    {
-      "type": "node",
-      "id": 9846181510,
-      "lat": 42.1567878,
-      "lon": -71.9628976,
-      "tags": {
-        "access": "yes",
-        "addr:street": "Massachusetts Avenue",
-        "amenity": "charging_station",
-        "bicycle": "no",
-        "brand": "Tesla Supercharger",
-        "brand:wikidata": "Q478214",
-        "bus": "no",
-        "capacity": "8",
-        "fee": "yes",
-        "hgv": "no",
-        "motorcar": "yes",
-        "name": "Tesla Supercharger",
-        "network": "Tesla",
-        "opening_hours": "24/7",
-        "operator": "Tesla, Inc.",
-        "operator:wikidata": "Q478214",
-        "parking:fee": "no",
-        "scooter": "no",
-        "short_name": "Tesla",
-        "socket:tesla_supercharger": "1",
-        "socket:tesla_supercharger:output": "250 kW",
-        "voltage": "400",
-        "website": "https://www.tesla.com/findus/location/supercharger/charltonmasupercharger"
       }
     },
     {
@@ -3722,6 +3673,11 @@
       "lon": -71.1193767,
       "tags": {
         "access": "yes",
+        "addr:city": "Stoneham",
+        "addr:housenumber": "95",
+        "addr:postcode": "02180",
+        "addr:state": "MA",
+        "addr:street": "Cedar Street",
         "amenity": "charging_station",
         "brand": "ABB",
         "brand:wikidata": "Q52825",
@@ -3732,7 +3688,9 @@
         "operator": "ABB",
         "operator:wikidata": "Q52825",
         "socket:chademo": "1",
-        "socket:type1_combo": "1"
+        "socket:chademo:output": "50 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "50 kW"
       }
     },
     {
@@ -4345,22 +4303,6 @@
         "network": "ChargePoint",
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11331265964,
-      "lat": 42.0985327,
-      "lon": -72.0726092,
-      "tags": {
-        "amenity": "charging_station",
-        "brand": "Tesla Supercharger",
-        "brand:wikidata": "Q17089620",
-        "name": "Tesla Supercharger",
-        "operator": "Tesla, Inc.",
-        "operator:wikidata": "Q478214",
-        "short_name": "Tesla",
-        "website": "https://www.tesla.com/findus/location/supercharger/26672"
       }
     },
     {
@@ -5473,41 +5415,6 @@
         "fee": "yes",
         "network": "Electric Era",
         "socket:type1_combo": "2"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11895665325,
-      "lat": 42.2061895,
-      "lon": -71.1211522,
-      "tags": {
-        "access": "yes",
-        "amenity": "charging_station",
-        "bicycle": "no",
-        "brand": "Tesla Supercharger",
-        "brand:wikidata": "Q17089620",
-        "bus": "no",
-        "capacity": "20",
-        "fee": "yes",
-        "hgv": "no",
-        "motorcar": "yes",
-        "name": "Tesla Supercharger",
-        "network": "Tesla",
-        "opening_hours": "24/7",
-        "operator": "Tesla, Inc.",
-        "operator:wikidata": "Q478214",
-        "parking:fee": "no",
-        "payment:app": "yes",
-        "payment:cards": "yes",
-        "payment:cash": "no",
-        "payment:membership_card": "no",
-        "payment:qr_code": "no",
-        "scooter": "no",
-        "short_name": "Tesla",
-        "socket:tesla_supercharger": "20",
-        "socket:tesla_supercharger:output": "250 kW",
-        "socket:type1_combo": "20",
-        "socket:type1_combo:output": "250kW"
       }
     },
     {
@@ -7321,23 +7228,6 @@
         "operator": "ChargePoint",
         "operator:wikidata": "Q5176149",
         "socket:type1_cable": "2"
-      }
-    },
-    {
-      "type": "node",
-      "id": 12056394911,
-      "lat": 42.1392213,
-      "lon": -72.025773,
-      "tags": {
-        "amenity": "charging_station",
-        "brand": "Tesla Supercharger",
-        "brand:wikidata": "Q17089620",
-        "capacity": "8",
-        "name": "Tesla Supercharger",
-        "operator": "Tesla, Inc.",
-        "operator:wikidata": "Q478214",
-        "short_name": "Tesla",
-        "website": "https://www.tesla.com/findus/location/supercharger/charltonmaebsupercharger"
       }
     },
     {
@@ -10126,6 +10016,1218 @@
       }
     },
     {
+      "type": "node",
+      "id": 12169116340,
+      "lat": 42.3219135,
+      "lon": -71.172243,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169116341,
+      "lat": 42.3218996,
+      "lon": -71.1722771,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169116342,
+      "lat": 42.3219504,
+      "lon": -71.1724303,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169116343,
+      "lat": 42.3219725,
+      "lon": -71.1724448,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169116344,
+      "lat": 42.3219956,
+      "lon": -71.1724644,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169116345,
+      "lat": 42.3220154,
+      "lon": -71.1724794,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "4A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169116346,
+      "lat": 42.3220372,
+      "lon": -71.1724973,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "4B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169116347,
+      "lat": 42.3219271,
+      "lon": -71.1724146,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180422,
+      "lat": 42.3984817,
+      "lon": -71.0001353,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180423,
+      "lat": 42.3984617,
+      "lon": -71.0001553,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180424,
+      "lat": 42.3984439,
+      "lon": -71.0001768,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180425,
+      "lat": 42.3984234,
+      "lon": -71.0001972,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180426,
+      "lat": 42.3984043,
+      "lon": -71.0002157,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180427,
+      "lat": 42.398384,
+      "lon": -71.0002364,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180428,
+      "lat": 42.398364,
+      "lon": -71.0002564,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180429,
+      "lat": 42.3983449,
+      "lon": -71.0002739,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180435,
+      "lat": 42.1568615,
+      "lon": -71.9629967,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180436,
+      "lat": 42.156843,
+      "lon": -71.9629717,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180437,
+      "lat": 42.1568267,
+      "lon": -71.962949,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180438,
+      "lat": 42.1568082,
+      "lon": -71.9629254,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180439,
+      "lat": 42.1567911,
+      "lon": -71.9629019,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180440,
+      "lat": 42.1567748,
+      "lon": -71.9628791,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180441,
+      "lat": 42.1567564,
+      "lon": -71.9628554,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180442,
+      "lat": 42.1567394,
+      "lon": -71.9628331,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180444,
+      "lat": 42.1392756,
+      "lon": -72.0258411,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180445,
+      "lat": 42.1392581,
+      "lon": -72.0258216,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180446,
+      "lat": 42.1392368,
+      "lon": -72.0258004,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180447,
+      "lat": 42.1392186,
+      "lon": -72.02578,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180448,
+      "lat": 42.1391987,
+      "lon": -72.0257597,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180449,
+      "lat": 42.1391787,
+      "lon": -72.0257378,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180450,
+      "lat": 42.1391603,
+      "lon": -72.0257169,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180453,
+      "lat": 42.1391491,
+      "lon": -72.0256233,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180459,
+      "lat": 42.0985152,
+      "lon": -72.0726924,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180460,
+      "lat": 42.0985244,
+      "lon": -72.0726428,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180461,
+      "lat": 42.0985321,
+      "lon": -72.0726125,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180462,
+      "lat": 42.0985379,
+      "lon": -72.0725807,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180463,
+      "lat": 42.0985448,
+      "lon": -72.0725477,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180464,
+      "lat": 42.0985722,
+      "lon": -72.0724201,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180465,
+      "lat": 42.0985784,
+      "lon": -72.0723888,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180466,
+      "lat": 42.098585,
+      "lon": -72.0723591,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180467,
+      "lat": 42.098552,
+      "lon": -72.0725201,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180468,
+      "lat": 42.0985592,
+      "lon": -72.0724873,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180469,
+      "lat": 42.0985653,
+      "lon": -72.072457,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180470,
+      "lat": 42.0985924,
+      "lon": -72.0723291,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180477,
+      "lat": 42.2061043,
+      "lon": -71.1213137,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180478,
+      "lat": 42.206118,
+      "lon": -71.1212646,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180479,
+      "lat": 42.2062515,
+      "lon": -71.1214379,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180480,
+      "lat": 42.206267,
+      "lon": -71.1213882,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "1D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180481,
+      "lat": 42.2062756,
+      "lon": -71.1213592,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180482,
+      "lat": 42.2062832,
+      "lon": -71.1213298,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180483,
+      "lat": 42.2062911,
+      "lon": -71.1212999,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180484,
+      "lat": 42.2063005,
+      "lon": -71.1212664,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "2D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180485,
+      "lat": 42.2063078,
+      "lon": -71.1212404,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180486,
+      "lat": 42.2063191,
+      "lon": -71.1212015,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180487,
+      "lat": 42.2063262,
+      "lon": -71.1211742,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180488,
+      "lat": 42.2063355,
+      "lon": -71.1211452,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "3D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180489,
+      "lat": 42.2063455,
+      "lon": -71.121112,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "4A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180490,
+      "lat": 42.2063539,
+      "lon": -71.12108,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "4B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180491,
+      "lat": 42.2063623,
+      "lon": -71.1210477,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "4C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180492,
+      "lat": 42.2063709,
+      "lon": -71.1210174,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "4D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180493,
+      "lat": 42.2063796,
+      "lon": -71.1209884,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "5A",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180494,
+      "lat": 42.2063882,
+      "lon": -71.120957,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "5B",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180495,
+      "lat": 42.2063967,
+      "lon": -71.1209253,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "5C",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169180496,
+      "lat": 42.2064044,
+      "lon": -71.1208929,
+      "tags": {
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "ref": "5D",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "1",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "1",
+        "socket:type1_combo:output": "250 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169187401,
+      "lat": 42.4991508,
+      "lon": -71.1194145,
+      "tags": {
+        "brand": "AeroVironment",
+        "brand:wikidata": "Q919300",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "no:network": "yes",
+        "socket:type1_cable": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12169187402,
+      "lat": 42.4991664,
+      "lon": -71.119395,
+      "tags": {
+        "brand": "AeroVironment",
+        "brand:wikidata": "Q919300",
+        "capacity": "1",
+        "man_made": "charge_point",
+        "no:network": "yes",
+        "socket:type1_cable": "1"
+      }
+    },
+    {
       "type": "way",
       "id": 954423391,
       "bounds": {
@@ -10232,48 +11334,63 @@
       "type": "way",
       "id": 1188488551,
       "bounds": {
-        "minlat": 42.3218319,
-        "minlon": -71.1725622,
-        "maxlat": 42.3221613,
-        "maxlon": -71.1722809
+        "minlat": 42.3218574,
+        "minlon": -71.17254,
+        "maxlat": 42.3221099,
+        "maxlon": -71.1722183
       },
       "nodes": [
         11035966129,
         11035966128,
         11035966127,
+        12169116339,
+        12169116338,
         11035966126,
         11035966129
       ],
       "geometry": [
         {
-          "lat": 42.3221337,
-          "lon": -71.1725622
+          "lat": 42.3220782,
+          "lon": -71.17254
         },
         {
-          "lat": 42.3218319,
-          "lon": -71.1723541
+          "lat": 42.3218574,
+          "lon": -71.1723715
         },
         {
-          "lat": 42.3218595,
-          "lon": -71.1722809
+          "lat": 42.3219154,
+          "lon": -71.1722183
         },
         {
-          "lat": 42.3221613,
-          "lon": -71.172489
+          "lat": 42.3219715,
+          "lon": -71.1722585
         },
         {
-          "lat": 42.3221337,
-          "lon": -71.1725622
+          "lat": 42.3219414,
+          "lon": -71.1723309
+        },
+        {
+          "lat": 42.3221099,
+          "lon": -71.1724664
+        },
+        {
+          "lat": 42.3220782,
+          "lon": -71.17254
         }
       ],
       "tags": {
         "access": "yes",
+        "addr:city": "Chestnut Hill",
+        "addr:housenumber": "55",
+        "addr:postcode": "02467",
+        "addr:state": "MA",
+        "addr:street": "Boylston Street",
         "amenity": "charging_station",
         "brand": "Tesla Supercharger",
         "brand:wikidata": "Q17089620",
         "capacity": "8",
         "fee": "yes",
-        "name": "Tesla Supercharger",
+        "name": "Chestnut Hill, MA - Tesla Supercharger",
         "opening_hours": "24/7",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
@@ -13732,6 +14849,415 @@
         "ref:ocpi": "140021",
         "socket:type1_combo": "6",
         "socket:type1_combo:output": "350 kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314754177,
+      "bounds": {
+        "minlat": 42.3983402,
+        "minlon": -71.0003414,
+        "maxlat": 42.3985394,
+        "maxlon": -71.0001075
+      },
+      "nodes": [
+        12169180419,
+        12169180420,
+        7657523801,
+        12169180421,
+        12169180419
+      ],
+      "geometry": [
+        {
+          "lat": 42.3983402,
+          "lon": -71.0002719
+        },
+        {
+          "lat": 42.3983802,
+          "lon": -71.0003414
+        },
+        {
+          "lat": 42.3985394,
+          "lon": -71.0001775
+        },
+        {
+          "lat": 42.3984976,
+          "lon": -71.0001075
+        },
+        {
+          "lat": 42.3983402,
+          "lon": -71.0002719
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "fee": "yes",
+        "name": "Revere, MA - Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "250 kW",
+        "website": "https://www.tesla.com/findus/location/supercharger/reveremasupercharger"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314754178,
+      "bounds": {
+        "minlat": 42.1566992,
+        "minlon": -71.9630639,
+        "maxlat": 42.1568864,
+        "maxlon": -71.9628221
+      },
+      "nodes": [
+        9846181510,
+        12169180430,
+        12169180431,
+        12169180432,
+        12169180433,
+        12169180434,
+        9846181510
+      ],
+      "geometry": [
+        {
+          "lat": 42.1566992,
+          "lon": -71.962877
+        },
+        {
+          "lat": 42.1567355,
+          "lon": -71.962832
+        },
+        {
+          "lat": 42.1567441,
+          "lon": -71.9628221
+        },
+        {
+          "lat": 42.1568864,
+          "lon": -71.9630067
+        },
+        {
+          "lat": 42.1568755,
+          "lon": -71.9630196
+        },
+        {
+          "lat": 42.1568427,
+          "lon": -71.9630639
+        },
+        {
+          "lat": 42.1566992,
+          "lon": -71.962877
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:street": "Massachusetts Avenue",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "bus": "no",
+        "capacity": "8",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "Charlton Service Plaza Westbound - Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "parking:fee": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "250 kW",
+        "voltage": "400",
+        "website": "https://www.tesla.com/findus/location/supercharger/charltonmasupercharger"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314754179,
+      "bounds": {
+        "minlat": 42.1391141,
+        "minlon": -72.0258497,
+        "maxlat": 42.1393148,
+        "maxlon": -72.0256004
+      },
+      "nodes": [
+        12056394911,
+        8751234099,
+        12169180451,
+        12169180452,
+        3517584080,
+        12169180443,
+        12056394911
+      ],
+      "geometry": [
+        {
+          "lat": 42.1393148,
+          "lon": -72.0257826
+        },
+        {
+          "lat": 42.1391612,
+          "lon": -72.025607
+        },
+        {
+          "lat": 42.139155,
+          "lon": -72.0256004
+        },
+        {
+          "lat": 42.1391141,
+          "lon": -72.0256677
+        },
+        {
+          "lat": 42.1391201,
+          "lon": -72.0256745
+        },
+        {
+          "lat": 42.1392746,
+          "lon": -72.0258497
+        },
+        {
+          "lat": 42.1393148,
+          "lon": -72.0257826
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "8",
+        "fee": "yes",
+        "name": "Charlton Service Plaza Eastbound - Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "8",
+        "socket:tesla_supercharger:output": "250 kW",
+        "website": "https://www.tesla.com/findus/location/supercharger/charltonmaebsupercharger"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314754180,
+      "bounds": {
+        "minlat": 42.0984427,
+        "minlon": -72.0727593,
+        "maxlat": 42.0986096,
+        "maxlon": -72.0722756
+      },
+      "nodes": [
+        11331265964,
+        12169180454,
+        12169180455,
+        12169180456,
+        12169180457,
+        12169180458,
+        11331265964
+      ],
+      "geometry": [
+        {
+          "lat": 42.0984427,
+          "lon": -72.0727371
+        },
+        {
+          "lat": 42.0985404,
+          "lon": -72.0722756
+        },
+        {
+          "lat": 42.0986019,
+          "lon": -72.0722991
+        },
+        {
+          "lat": 42.0986096,
+          "lon": -72.0723025
+        },
+        {
+          "lat": 42.098515,
+          "lon": -72.0727593
+        },
+        {
+          "lat": 42.098506,
+          "lon": -72.072756
+        },
+        {
+          "lat": 42.0984427,
+          "lon": -72.0727371
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "capacity": "12",
+        "fee": "yes",
+        "name": "Tesla Supercharger",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "12",
+        "socket:tesla_supercharger:output": "250 kW",
+        "website": "https://www.tesla.com/findus/location/supercharger/26672"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314754181,
+      "bounds": {
+        "minlat": 42.206082,
+        "minlon": -71.1214529,
+        "maxlat": 42.2064246,
+        "maxlon": -71.1208597
+      },
+      "nodes": [
+        11895665325,
+        11895665294,
+        11895665295,
+        12169180471,
+        12169180472,
+        12169180473,
+        12169180474,
+        12169180475,
+        11895665321,
+        11895665322,
+        12169180476,
+        11895665325
+      ],
+      "geometry": [
+        {
+          "lat": 42.2062771,
+          "lon": -71.1214529
+        },
+        {
+          "lat": 42.2062479,
+          "lon": -71.1214403
+        },
+        {
+          "lat": 42.206135,
+          "lon": -71.121394
+        },
+        {
+          "lat": 42.206082,
+          "lon": -71.1213731
+        },
+        {
+          "lat": 42.2061226,
+          "lon": -71.1212281
+        },
+        {
+          "lat": 42.2061305,
+          "lon": -71.1212334
+        },
+        {
+          "lat": 42.2062367,
+          "lon": -71.1212929
+        },
+        {
+          "lat": 42.206359,
+          "lon": -71.1208597
+        },
+        {
+          "lat": 42.2063656,
+          "lon": -71.1208624
+        },
+        {
+          "lat": 42.2064022,
+          "lon": -71.1208858
+        },
+        {
+          "lat": 42.2064246,
+          "lon": -71.1208992
+        },
+        {
+          "lat": 42.2062771,
+          "lon": -71.1214529
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Tesla Supercharger",
+        "brand:wikidata": "Q17089620",
+        "bus": "no",
+        "capacity": "20",
+        "fee": "yes",
+        "hgv": "no",
+        "motorcar": "yes",
+        "name": "Tesla Supercharger",
+        "network": "Tesla",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "parking:fee": "no",
+        "payment:app": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "no",
+        "payment:membership_card": "no",
+        "payment:qr_code": "no",
+        "scooter": "no",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger": "20",
+        "socket:tesla_supercharger:output": "250 kW",
+        "socket:type1_combo": "20",
+        "socket:type1_combo:output": "250kW"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314754823,
+      "bounds": {
+        "minlat": 42.499138,
+        "minlon": -71.1194757,
+        "maxlat": 42.4992066,
+        "maxlon": -71.1193828
+      },
+      "nodes": [
+        12169179097,
+        12169179098,
+        12169179099,
+        12169179100,
+        12169179097
+      ],
+      "geometry": [
+        {
+          "lat": 42.4991702,
+          "lon": -71.1194757
+        },
+        {
+          "lat": 42.499138,
+          "lon": -71.1194275
+        },
+        {
+          "lat": 42.4991745,
+          "lon": -71.1193828
+        },
+        {
+          "lat": 42.4992066,
+          "lon": -71.119431
+        },
+        {
+          "lat": 42.4991702,
+          "lon": -71.1194757
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "AeroVironment",
+        "brand:wikidata": "Q919300",
+        "capacity": "2",
+        "fee": "no",
+        "no:network": "yes",
+        "socket:type1_cable": "2"
       }
     },
     {

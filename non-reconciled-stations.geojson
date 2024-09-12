@@ -580,25 +580,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.122648,
-                    42.343868
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "references": [
-                    {
-                        "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/11450848667"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.530676,
                     42.346372
                 ]

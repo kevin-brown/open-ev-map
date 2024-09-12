@@ -191,6 +191,7 @@
             <h4 class="font-bold">
               Charging Points
             </h4>
+            <div class="grid-cols-1 grid-cols-2 grid-cols-3"></div>
             <div class="grid grid-cols-{Math.min(stationMarker.properties.charging_points.length, 3)} gap-4">
               {#each stationMarker.properties.charging_points as chargingPoint}
               <div>
@@ -212,17 +213,15 @@
                       {#each chargingGroupsChunk as chargingGroup}
                       <td class="border">
                         <table class="border">
+                          {#if chargingGroup.network_id}
                           <thead>
                             <tr>
                               <td colspan={Math.min(chargingGroup.ports.length, 4)} class="border-b">
-                                Charging Group
-                                {#if chargingGroup.network_id}
-                                <br />
-                                ({chargingGroup.network_id})
-                                {/if}
+                                {chargingGroup.network_id}
                               </td>
                             </tr>
                           </thead>
+                          {/if}
                           <tbody>
                             {#each chunks(chargingGroup.ports, 4) as groupPortsChunk}
                             <tr>

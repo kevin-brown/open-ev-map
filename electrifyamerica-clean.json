@@ -2397,6 +2397,23 @@
     "isChademo": true
   },
   {
+    "id": "210439",
+    "siteId": "210439",
+    "name": "Inventrust Pavilion At LaQuinta (LaQuinta, CA)",
+    "address": "79220 Hwy 111",
+    "city": "LaQuinta",
+    "postalCode": "92253",
+    "state": "California",
+    "coordinates": {
+      "longitude": -116.28595,
+      "latitude": 33.70966
+    },
+    "type": "PUBLIC",
+    "isL2": false,
+    "isCcs": true,
+    "isChademo": true
+  },
+  {
     "id": "100045",
     "siteId": "100045",
     "name": "Walmart 2253 El Cajon",
@@ -2410,23 +2427,6 @@
     },
     "type": "PUBLIC",
     "isL2": false,
-    "isCcs": true,
-    "isChademo": true
-  },
-  {
-    "id": "210439",
-    "siteId": "210439",
-    "name": "Inventrust Pavilion At LaQuinta (LaQuinta, CA)",
-    "address": "79220 Hwy 111",
-    "city": "LaQuinta",
-    "postalCode": "92253",
-    "state": "California",
-    "coordinates": {
-      "longitude": -116.2821,
-      "latitude": 33.71072
-    },
-    "type": "COMING_SOON",
-    "isL2": true,
     "isCcs": true,
     "isChademo": true
   },

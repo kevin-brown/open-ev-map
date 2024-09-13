@@ -4725,6 +4725,12 @@
                         }
                     }
                 ],
+                "references": [
+                    {
+                        "name": "SUPERCHARGE",
+                        "url": "https://supercharge.info/map?siteID=3962"
+                    }
+                ],
                 "charging_points": [
                     {
                         "charging_groups": [

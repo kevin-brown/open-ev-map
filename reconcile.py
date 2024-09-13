@@ -65,14 +65,22 @@ class ChargingNetwork(enum.Enum):
 
 
 class SourceLocationQualityScore(enum.Enum):
+    """
+    0  - 10: Automated sources without manual remediation processes
+    11 - 20: Automated sources with manual remediation processes
+    21 - 30: Manually curated source without manual remediation process
+    31 - 40: Manually curated source with manual remediation process
+    """
     ALTERNATIVE_FUELS_DATA_CENTER = 10
+    ELECTRIFY_AMERICA = 30
     OPEN_CHARGE_MAP = 20
     OPEN_STREET_MAP = 40
-    SUPERCHARGE = 30
+    SUPERCHARGE = 35
 
 
 class SourceLocation(enum.Enum):
     ALTERNATIVE_FUELS_DATA_CENTER = enum.auto()
+    ELECTRIFY_AMERICA = enum.auto()
     OPEN_CHARGE_MAP = enum.auto()
     OPEN_STREET_MAP = enum.auto()
     SUPERCHARGE = enum.auto()
@@ -95,6 +103,9 @@ class SourceData(NamedTuple):
 
         if self.location == SourceLocation.SUPERCHARGE:
             return f"https://supercharge.info/map?siteID={self.reference}"
+
+        if self.location == SourceLocation.ELECTRIFY_AMERICA:
+            return f"https://www.electrifyamerica.com/locate-charger/state/city/address/{self.reference}/"
 
 
 class SourcedValue[T](NamedTuple):
@@ -430,6 +441,41 @@ def normalize_address_street_address(street_address: str) -> str:
         street_address = street_address[:-1]
 
     return street_address
+
+
+# TODO: Find a package that provides this
+US_LONG_STATE_TO_ABBR_MAP = {
+    "Massachusetts": "MA",
+}
+
+
+def normalize_electrify_america_data(ee_raw_data) -> list[Station]:
+    stations = []
+
+    for ee_station in ee_raw_data:
+        if ee_station["type"] == "COMING_SOON":
+            continue
+
+        if ee_station["state"] != "Massachusetts":
+            continue
+
+        station = Station(
+            network=ChargingNetwork.ELECTRIFY_AMERICA,
+        )
+        station.name.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), ee_station["name"]))
+        station.network_id.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), ee_station["siteId"]))
+
+        station_location = Location(latitude=ee_station["coordinates"]["latitude"], longitude=ee_station["coordinates"]["longitude"])
+        station.location.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), station_location))
+
+        station.street_address.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), normalize_address_street_address(ee_station["address"])))
+        station.city.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), ee_station["city"]))
+        station.state.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), US_LONG_STATE_TO_ABBR_MAP[ee_station["state"]]))
+        station.zip_code.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), ee_station["postalCode"]))
+
+        stations.append(station)
+
+    return stations
 
 
 def normalize_nrel_data(nrel_raw_data) -> list[Station]:
@@ -1535,6 +1581,9 @@ def addresses_from_station(station: Station) -> list:
     return sorted(addresses, key=lambda a: (-SourceLocationQualityScore[a["source"]["name"]].value, -len(a["address"]), a["source"]["url"]))
 
 
+with open("electrifyamerica-clean.json", "r") as ee_fh:
+    electrifyamerica_raw_data = json.load(ee_fh)
+
 with open("nrel-clean.json", "r") as nrel_fh:
     nrel_raw_data = json.load(nrel_fh)
 
@@ -1547,12 +1596,13 @@ with open("ocm-clean.json", "r") as ocm_fh:
 with open("supercharge-clean.json", "r") as supercharge_fh:
     supercharge_raw_data = json.load(supercharge_fh)
 
+electrifyamerica_data = normalize_electrify_america_data(electrifyamerica_raw_data)
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 ocm_data = normalize_ocm_data(ocm_raw_data)
 supercharge_data = normalize_supercharge_data(supercharge_raw_data)
 
-combined_data = combine_stations([*nrel_data, *osm_data, *ocm_data, *supercharge_data])
+combined_data = combine_stations([*electrifyamerica_data, *nrel_data, *osm_data, *ocm_data, *supercharge_data])
 
 combined_data = sorted(combined_data, key=lambda x: x.name.get() or '')
 
@@ -1582,6 +1632,7 @@ for station in combined_data:
     station_references.extend(sourced_attribute_to_geojson_property(station.nrel_id))
     station_references.extend(sourced_attribute_to_geojson_property(station.ocm_id))
     station_references.extend(sourced_attribute_to_geojson_property(station.osm_id))
+    station_references.extend(sourced_attribute_to_geojson_property(station.network_id))
 
     station_references_unique = set()
 

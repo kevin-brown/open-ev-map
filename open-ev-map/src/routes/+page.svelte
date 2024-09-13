@@ -88,6 +88,7 @@
   function formatSourceName(sourceName: string): string {
     const SOURCE_NAME_DISPLAY = {
       "ALTERNATIVE_FUELS_DATA_CENTER": "Alternative Fuels Data Center",
+      "ELECTRIFY_AMERICA": "Electrify America",
       "OPEN_CHARGE_MAP": "Open Charge Map",
       "OPEN_STREET_MAP": "OpenStreetMap",
       "SUPERCHARGE": "supercharge.info",

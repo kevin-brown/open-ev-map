@@ -11879,6 +11879,17 @@
       }
     },
     {
+      "type": "node",
+      "id": 12176891629,
+      "lat": 42.4089197,
+      "lon": -71.3297543,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "6.6",
+        "fee": "yes"
+      }
+    },
+    {
       "type": "way",
       "id": 954423391,
       "bounds": {

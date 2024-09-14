@@ -10922,13 +10922,13 @@
     "postalCode": "55976-1395",
     "state": "Minnesota",
     "coordinates": {
-      "longitude": -92.48445,
-      "latitude": 43.87151
+      "longitude": -92.48553,
+      "latitude": 43.87155
     },
-    "type": "COMING_SOON",
-    "isL2": true,
+    "type": "PUBLIC",
+    "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "100171",
@@ -16634,13 +16634,13 @@
     "postalCode": "08012-3827",
     "state": "New Jersey",
     "coordinates": {
-      "longitude": -75.05251,
-      "latitude": 39.78303
+      "longitude": -75.05115,
+      "latitude": 39.7836
     },
-    "type": "COMING_SOON",
-    "isL2": true,
+    "type": "PUBLIC",
+    "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": false
   },
   {
     "id": "200115",

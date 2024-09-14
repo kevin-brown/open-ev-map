@@ -1,0 +1,1516 @@
+[
+  {
+    "id": "140021",
+    "siteId": "140021",
+    "name": "Simon Lee Premium Outlets (Lee, MA)",
+    "address": "17 Premium Outlets Boulevard",
+    "city": "Lee",
+    "postalCode": "01238",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -73.23413,
+      "latitude": 42.29523
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "North side of shopping center near the Polo Ralph Lauren and the Bath and Body Works stores.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "140021-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-05",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-06",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100288",
+    "siteId": "100288",
+    "name": "Chicopee Marketplace",
+    "address": "591 Memorial Drive",
+    "city": "Chicopee",
+    "postalCode": "01020",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -72.57286,
+      "latitude": 42.17567
+    },
+    "status": "FULL",
+    "type": "PUBLIC",
+    "description": "Chargers are located to the left of Home Depot (when standing in front of the store and looking out to the parking lot).",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "100288-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100288-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100288-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100288-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100289",
+    "siteId": "100289",
+    "name": "Auburn Mall",
+    "address": "385 Southbridge Street",
+    "city": "Auburn",
+    "postalCode": "01501",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.83804,
+      "latitude": 42.20219
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located on the parking lot (Pole 21) of Sears close to the Parking Garage.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "100289-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100289-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100289-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-05",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-06",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-07",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-08",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "200003",
+    "siteId": "200003",
+    "name": "Walmart 2158 - Northborough, MA",
+    "address": "200 Otis Street",
+    "city": "Northborough",
+    "postalCode": "01532",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.65541,
+      "latitude": 42.28407
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located at the Walmart parking lot near the Home & Pharmacy section.\n",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200003-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200003-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200003-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200003-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210113",
+    "siteId": "210113",
+    "name": "BOA MA6-255 (Marlborough, MA)",
+    "address": "190 BOSTON POST RD W",
+    "city": "MARLBOROUGH",
+    "postalCode": "01752",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.58996,
+      "latitude": 42.33832
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located in the back parking lot.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210113-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210113-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210113-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210113-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210309",
+    "siteId": "210309",
+    "name": "Wrentham Village Premium Outlets (Wrentham, MA)",
+    "address": "1 Premium Outlets Blvd",
+    "city": "Wrentham",
+    "postalCode": "02093",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.34951,
+      "latitude": 42.03938
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located at the side of the Parking lot closer to RH Outlet",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210309-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210309-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210309-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210309-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210119",
+    "siteId": "210119",
+    "name": "BOA Medfield MA6-277 (Medfield, MA)",
+    "address": "478 Main St",
+    "city": "Medfield",
+    "postalCode": "02052",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.30522,
+      "latitude": 42.18623
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located at the Bank of America near the Medfield Public Library",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210119-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210119-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210119-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210119-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210112",
+    "siteId": "210112",
+    "name": "Walmart 2222 (Tewksbury, MA)",
+    "address": "333 Main St",
+    "city": "Tewksbury",
+    "postalCode": "01876",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.2673,
+      "latitude": 42.62363
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located on the east side of the Walmart parking lot, near Citizens Bank.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210112-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "210112-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "210112-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "210112-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210118",
+    "siteId": "210118",
+    "name": "BOA Foxborough MA6-296 (Foxborough, MA)",
+    "address": "16 SCHOOL STREET",
+    "city": "Foxborough",
+    "postalCode": "02035",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.25148,
+      "latitude": 42.06408
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "\nLocated at the Parking Lot at the back of Bank of America bank near to Market Street.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210118-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210118-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210118-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210118-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "200001",
+    "siteId": "200001",
+    "name": "Burlington Mall",
+    "address": "73 Burlington Mall Road",
+    "city": "Burlington",
+    "postalCode": "01803",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.21243,
+      "latitude": 42.48298
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located on the west side of the parking lot facing Legal Sea Foods.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200001-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200001-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200001-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200001-50",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1",
+            "voltage": 240,
+            "amperage": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210272",
+    "siteId": "210272",
+    "name": "BOA Arlington Financial MA6-167 (Arlington, MA)",
+    "address": "655 Massachusetts Ave",
+    "city": "Arlington",
+    "postalCode": "02476",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.15402,
+      "latitude": 42.41645
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located at the parking lot behind the Bank of America building.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210272-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210272-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210272-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "200304",
+    "siteId": "200304",
+    "name": "Federal Realty - Assembly Row",
+    "address": "449 Canal Street",
+    "city": "Somerville",
+    "postalCode": "02145",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.07787,
+      "latitude": 42.39426
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Chargers are located inside the garage at the first floor.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200304-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200304-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200304-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200304-50",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1",
+            "voltage": 240,
+            "amperage": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210114",
+    "siteId": "210114",
+    "name": "BOA Gallivan MA5-131 (Dorchester, MA)",
+    "address": "740 GALLIVAN BOULEVARD",
+    "city": "Dorchester",
+    "postalCode": "02122",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.04638,
+      "latitude": 42.28473
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located on East side of Bank of America Parking lot",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210114-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210114-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210114-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210114-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "200002",
+    "siteId": "200002",
+    "name": "Walmart 3114 - Saugus, MA",
+    "address": "770 Broadway",
+    "city": "Saugus",
+    "postalCode": "01906-3202",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.02366,
+      "latitude": 42.47204
+    },
+    "status": "UNAVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located on the right side of the Walmart building close at the entrance of the parking garage.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200002-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "200002-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200002-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200002-50",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1",
+            "voltage": 240,
+            "amperage": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "200005",
+    "siteId": "200005",
+    "name": "South Shore Plaza",
+    "address": "250 Granite Street",
+    "city": "Braintree",
+    "postalCode": "02184",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -71.02189,
+      "latitude": 42.22253
+    },
+    "status": "FULL",
+    "type": "PUBLIC",
+    "description": "Charging station is located inside the ground floor of the three stories parking lot next to South Shore Plaza",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200005-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "200005-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "200005-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "200005-50",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1",
+            "voltage": 240,
+            "amperage": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210116",
+    "siteId": "210116",
+    "name": "Simon Northshore Mall (Peabody, MA)",
+    "address": "210 Andover St",
+    "city": "Peabody",
+    "postalCode": "01960",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -70.94341,
+      "latitude": 42.54289
+    },
+    "status": "UNAVAILABLE",
+    "type": "COMING_SOON",
+    "description": "Located at the Parking Lot at the Lifetime Gym across the street from The Container Store Building (Written with bold blue).",
+    "pricing": null,
+    "evses": []
+  },
+  {
+    "id": "210121",
+    "siteId": "210121",
+    "name": "PREIT Dartmouth Mall (Dartmouth, MA)",
+    "address": "200 N. Dartmouth Mall Rd",
+    "city": "Dartmouth",
+    "postalCode": "02747",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -70.99049,
+      "latitude": 41.64246
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located next to Party City and JCPenney store",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210121-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210121-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210121-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210121-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100053",
+    "siteId": "100053",
+    "name": "Alltown Fresh Convenience Market",
+    "address": "24 Long Pond Road",
+    "city": "Plymouth",
+    "postalCode": "02360",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -70.65755,
+      "latitude": 41.93281
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located at the Alltown Gas Station sharing wall with the Plymouth Police Department.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "100053-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100053-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100053-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100053-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "110040",
+    "siteId": "110040",
+    "name": "Simon Cape Cod Mall (Hyannis, MA)",
+    "address": "769 Iyannough Rd",
+    "city": "Hyannis",
+    "postalCode": "02601",
+    "state": "Massachusetts",
+    "country": "USA",
+    "coordinates": {
+      "longitude": -70.29492,
+      "latitude": 41.66449
+    },
+    "status": "AVAILABLE",
+    "type": "PUBLIC",
+    "description": "Located by the TD Bank Parking Lot",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "110040-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "110040-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "110040-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "110040-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
+  }
+]

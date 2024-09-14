@@ -17541,7 +17541,78 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": false
+    "isChademo": false,
+    "country": "USA",
+    "description": "North side of shopping center near the Polo Ralph Lauren and the Bath and Body Works stores.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "140021-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-05",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "140021-06",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "700017",
@@ -17796,7 +17867,62 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Chargers are located to the left of Home Depot (when standing in front of the store and looking out to the parking lot).",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "100288-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100288-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100288-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100288-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "700069",
@@ -17915,7 +18041,148 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located on the parking lot (Pole 21) of Sears close to the Parking Garage.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "100289-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100289-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100289-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-05",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-06",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-07",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100289-08",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "200003",
@@ -17932,7 +18199,56 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": false
+    "isChademo": false,
+    "country": "USA",
+    "description": "Located at the Walmart parking lot near the Home & Pharmacy section.\n",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200003-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200003-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200003-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200003-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "210238",
@@ -17966,7 +18282,80 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located in the back parking lot.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210113-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210113-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210113-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210113-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "240074",
@@ -18051,7 +18440,80 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located at the side of the Parking lot closer to RH Outlet",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210309-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210309-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210309-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210309-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "210119",
@@ -18068,7 +18530,80 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located at the Bank of America near the Medfield Public Library",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210119-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210119-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210119-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210119-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "210112",
@@ -18085,7 +18620,56 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": false
+    "isChademo": false,
+    "country": "USA",
+    "description": "Located on the east side of the Walmart parking lot, near Citizens Bank.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210112-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "210112-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "210112-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "210112-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "210397",
@@ -18119,7 +18703,80 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "\nLocated at the Parking Lot at the back of Bank of America bank near to Market Street.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210118-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210118-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210118-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210118-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "200001",
@@ -18136,7 +18793,56 @@
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
-    "isChademo": false
+    "isChademo": false,
+    "country": "USA",
+    "description": "Located on the west side of the parking lot facing Legal Sea Foods.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200001-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200001-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200001-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200001-50",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1",
+            "voltage": 240,
+            "amperage": 30
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "210272",
@@ -18153,7 +18859,63 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located at the parking lot behind the Bank of America building.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210272-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210272-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210272-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "200304",
@@ -18170,7 +18932,56 @@
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
-    "isChademo": false
+    "isChademo": false,
+    "country": "USA",
+    "description": "Chargers are located inside the garage at the first floor.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200304-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200304-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200304-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200304-50",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1",
+            "voltage": 240,
+            "amperage": 30
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "210114",
@@ -18187,7 +18998,80 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located on East side of Bank of America Parking lot",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210114-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "210114-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210114-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210114-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "200002",
@@ -18204,7 +19088,62 @@
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located on the right side of the Walmart building close at the entrance of the parking garage.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200002-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "200002-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200002-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "200002-50",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1",
+            "voltage": 240,
+            "amperage": 30
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "200005",
@@ -18221,7 +19160,74 @@
     "type": "PUBLIC",
     "isL2": true,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Charging station is located inside the ground floor of the three stories parking lot next to South Shore Plaza",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "200005-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "200005-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "200005-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "200005-50",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1",
+            "voltage": 240,
+            "amperage": 30
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "210116",
@@ -18238,7 +19244,11 @@
     "type": "COMING_SOON",
     "isL2": true,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located at the Parking Lot at the Lifetime Gym across the street from The Container Store Building (Written with bold blue).",
+    "pricing": null,
+    "evses": []
   },
   {
     "id": "210121",
@@ -18255,7 +19265,80 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": false
+    "isChademo": false,
+    "country": "USA",
+    "description": "Located next to Party City and JCPenney store",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "210121-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210121-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210121-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "210121-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "100623",
@@ -18306,7 +19389,80 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located at the Alltown Gas Station sharing wall with the Plymouth Police Department.",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "100053-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      },
+      {
+        "id": "100053-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100053-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "100053-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "100634",
@@ -18340,7 +19496,80 @@
     "type": "PUBLIC",
     "isL2": false,
     "isCcs": true,
-    "isChademo": true
+    "isChademo": true,
+    "country": "USA",
+    "description": "Located by the TD Bank Parking Lot",
+    "pricing": null,
+    "evses": [
+      {
+        "id": "110040-01",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "CHADEMO",
+            "voltage": 400,
+            "amperage": 125
+          }
+        ]
+      },
+      {
+        "id": "110040-02",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "110040-03",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 1000,
+            "amperage": 350
+          }
+        ]
+      },
+      {
+        "id": "110040-04",
+        "connectors": [
+          {
+            "id": "1",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          },
+          {
+            "id": "2",
+            "standard": "IEC_62196_T1_COMBO",
+            "voltage": 500,
+            "amperage": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "140127",

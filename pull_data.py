@@ -235,7 +235,17 @@ def clean_new_data():
         with open(f"{data_provider}-clean.json", "w") as data_fh:
             json.dump(cleaned_data, data_fh, ensure_ascii=False, indent=2)
 
-def apply_fixes():
+def clean_existing_data():
+    for data_provider in ["electrifyamerica"]:
+        with open(f"{data_provider}-clean.json", "r") as data_fh:
+            provider_data = json.load(data_fh)
+
+        cleaned_data = CLEANERS[data_provider](provider_data)
+
+        with open(f"{data_provider}-clean.json", "w") as data_fh:
+            json.dump(cleaned_data, data_fh, ensure_ascii=False, indent=2)
+
+def apply_fixes_for_data():
     for data_provider, provider_config in configuration_data["data_providers"].items():
         with open(f"{data_provider}-clean.json", "r") as data_fh:
             provider_data = json.load(data_fh)
@@ -248,6 +258,96 @@ def apply_fixes():
         with open(f"{data_provider}-clean.json", "w") as data_fh:
             json.dump(cleaned_data, data_fh, ensure_ascii=False, indent=2)
 
+def detect_diffs_electrify_america(data: list[dict], extras) -> list[str]:
+    extras_dict = {}
+
+    for extra in extras:
+        extras_dict[extra["siteId"]] = extra
+
+    differing_ids = []
+
+    for station in data:
+        if station["state"] != "Massachusetts":
+            continue
+
+        extra = extras_dict.get(station["siteId"], {})
+
+        if not extra:
+            differing_ids.append(station["siteId"])
+            continue
+
+        attrs = ["id", "name", "address", "city", "postalCode", "state", "type"]
+
+        for attr in attrs:
+            if station[attr] != extra[attr]:
+                differing_ids.append(station["siteId"])
+                break
+
+    return differing_ids
+
+def retrieve_extras_electrify_america(config: dict, different_ids: list[str]) -> list[dict]:
+    extras = []
+
+    for id in different_ids:
+        extras_url = config["extras_api"].format(id=id)
+
+        response = requests.get(extras_url)
+
+        extras.append(response.json())
+
+    return extras
+
+def retrieve_extras():
+    with open("electrifyamerica.json", "r") as data_fh:
+        provider_data = json.load(data_fh)
+
+    with open("electrifyamerica-extras.json", "r") as extras_fh:
+        provider_extras: list[dict] = json.load(extras_fh)
+
+    different_ids = detect_diffs_electrify_america(provider_data, provider_extras)
+
+    new_extras = retrieve_extras_electrify_america(configuration_data["data_providers"]["electrifyamerica"], different_ids)
+
+    for extra in new_extras:
+        existing_extra = False
+
+        for old_extra in provider_extras:
+            if extra["id"] != old_extra["id"]:
+                continue
+
+            old_extra.update(extra)
+            existing_extra = True
+
+            break
+
+        if existing_extra:
+            break
+
+        provider_extras.append(extra)
+
+    with open("electrifyamerica-extras.json", "w") as extras_fh:
+        json.dump(provider_extras, extras_fh, ensure_ascii=False, indent=2)
+
+def combine_data_with_extra():
+    with open("electrifyamerica.json", "r") as data_fh:
+        provider_data = json.load(data_fh)
+
+    with open("electrifyamerica-extras.json", "r") as extras_fh:
+        provider_extras: list[dict] = json.load(extras_fh)
+
+    for extra in provider_extras:
+        for station in provider_data:
+            if station["id"] != extra["id"]:
+                continue
+
+            station.update(extra)
+
+        with open(f"electrifyamerica-clean.json", "w") as data_fh:
+            json.dump(provider_data, data_fh, ensure_ascii=False, indent=2)
+
 pull_new_data()
 clean_new_data()
-apply_fixes()
+apply_fixes_for_data()
+retrieve_extras()
+combine_data_with_extra()
+clean_existing_data()

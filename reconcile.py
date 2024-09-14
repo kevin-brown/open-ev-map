@@ -72,6 +72,7 @@ class SourceLocationQualityScore(enum.Enum):
     31 - 40: Manually curated source with manual remediation process
     """
     ALTERNATIVE_FUELS_DATA_CENTER = 10
+    ELECTRIC_ERA = 30
     ELECTRIFY_AMERICA = 30
     OPEN_CHARGE_MAP = 20
     OPEN_STREET_MAP = 40
@@ -80,6 +81,7 @@ class SourceLocationQualityScore(enum.Enum):
 
 class SourceLocation(enum.Enum):
     ALTERNATIVE_FUELS_DATA_CENTER = enum.auto()
+    ELECTRIC_ERA = enum.auto()
     ELECTRIFY_AMERICA = enum.auto()
     OPEN_CHARGE_MAP = enum.auto()
     OPEN_STREET_MAP = enum.auto()
@@ -106,6 +108,9 @@ class SourceData(NamedTuple):
 
         if self.location == SourceLocation.ELECTRIFY_AMERICA:
             return f"https://www.electrifyamerica.com/locate-charger/state/city/address/{self.reference}/"
+
+        if self.location == SourceLocation.ELECTRIC_ERA:
+            return "https://electriceratechnologies.com"
 
 
 class SourcedValue[T](NamedTuple):
@@ -1185,6 +1190,75 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
     return stations
 
 
+def normalize_ocpi_data(source_location: SourceLocation, ocpi_raw_data) -> list[Station]:
+    OCPI_CONNECTOR_TO_PLUG_MAP = {
+        "IEC_62196_T1_COMBO": PlugType.J1772_COMBO,
+    }
+
+    OCPI_PARTY_ID_TO_NETWORK_MAP = {
+        "ALL": ChargingNetwork.ELECTRIC_ERA,
+    }
+
+    stations = []
+
+    for ocpi_station in ocpi_raw_data["data"]:
+        if ocpi_station["state"] != "Massachusetts":
+            continue
+
+        station = Station(
+            network=OCPI_PARTY_ID_TO_NETWORK_MAP[ocpi_station["party_id"]],
+        )
+
+        station.name.set(SourcedValue(SourceData(source_location, ocpi_station["id"]), ocpi_station["name"]))
+
+        station.network_id.set(SourcedValue(SourceData(source_location, ocpi_station["id"]), ocpi_station["id"]))
+
+        station_location = Location(
+            latitude=float(ocpi_station["coordinates"]["latitude"]),
+            longitude=float(ocpi_station["coordinates"]["longitude"]),
+        )
+        station.location.set(SourcedValue(SourceData(source_location, ocpi_station["id"]), station_location))
+
+        station.street_address.set(SourcedValue(SourceData(source_location, ocpi_station["id"]), normalize_address_street_address(ocpi_station["address"])))
+        station.city.set(SourcedValue(SourceData(source_location, ocpi_station["id"]), ocpi_station["city"]))
+        station.state.set(SourcedValue(SourceData(source_location, ocpi_station["id"]), US_LONG_STATE_TO_ABBR_MAP[ocpi_station["state"]]))
+        station.zip_code.set(SourcedValue(SourceData(source_location, ocpi_station["id"]), ocpi_station["postal_code"]))
+
+        charging_points = []
+
+        evses_by_serial_number = defaultdict(list)
+
+        for ocpi_evse in ocpi_station["evses"]:
+            charging_port_group = ChargingPortGroup(
+                network_id=ocpi_evse["evse_id"],
+            )
+
+            charging_ports = []
+
+            for connector in ocpi_evse["connectors"]:
+                charging_port = ChargingPort(plug=OCPI_CONNECTOR_TO_PLUG_MAP[connector["standard"]])
+
+                charging_ports.append(charging_port)
+
+            charging_port_group.charging_ports = charging_ports
+
+            evses_by_serial_number[ocpi_evse["serial_number"]].append(charging_port_group)
+
+        for evse_list in evses_by_serial_number.values():
+            charging_point = ChargingPoint()
+            charging_point.location.extend(station.location)
+
+            charging_point.charging_port_groups = evse_list
+
+            charging_points.append(charging_point)
+
+        station.charging_points = charging_points
+
+        stations.append(station)
+
+    return stations
+
+
 def normalize_supercharge_data(supercharge_raw_data) -> list[Station]:
     SC_PLUG_TYPE_TO_PLUG_MAP = {
         "ccs1": PlugType.J1772_COMBO,
@@ -1581,6 +1655,9 @@ def addresses_from_station(station: Station) -> list:
     return sorted(addresses, key=lambda a: (-SourceLocationQualityScore[a["source"]["name"]].value, -len(a["address"]), a["source"]["url"]))
 
 
+with open("electricera-clean.json", "r") as ee_fh:
+    electricera_raw_data = json.load(ee_fh)
+
 with open("electrifyamerica-clean.json", "r") as ee_fh:
     electrifyamerica_raw_data = json.load(ee_fh)
 
@@ -1596,13 +1673,14 @@ with open("ocm-clean.json", "r") as ocm_fh:
 with open("supercharge-clean.json", "r") as supercharge_fh:
     supercharge_raw_data = json.load(supercharge_fh)
 
+electricera_data = normalize_ocpi_data(SourceLocation.ELECTRIC_ERA, electricera_raw_data)
 electrifyamerica_data = normalize_electrify_america_data(electrifyamerica_raw_data)
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 ocm_data = normalize_ocm_data(ocm_raw_data)
 supercharge_data = normalize_supercharge_data(supercharge_raw_data)
 
-combined_data = combine_stations([*electrifyamerica_data, *nrel_data, *osm_data, *ocm_data, *supercharge_data])
+combined_data = combine_stations([*electricera_data, *electrifyamerica_data, *nrel_data, *osm_data, *ocm_data, *supercharge_data])
 
 combined_data = sorted(combined_data, key=lambda x: x.name.get() or '')
 

@@ -88,6 +88,7 @@
   function formatSourceName(sourceName: string): string {
     const SOURCE_NAME_DISPLAY = {
       "ALTERNATIVE_FUELS_DATA_CENTER": "Alternative Fuels Data Center",
+      "ELECTRIC_ERA": "Electric Era",
       "ELECTRIFY_AMERICA": "Electrify America",
       "OPEN_CHARGE_MAP": "Open Charge Map",
       "OPEN_STREET_MAP": "OpenStreetMap",
@@ -251,7 +252,9 @@
             </h4>
             <ul class="list-disc px-4">
               {#each stationMarker.properties.references as reference}
-              <li><a href={reference.url} class="underline" target="_blank">{formatSourceName(reference.name)}</a></li>
+              <li>
+                <a href={reference.url} class="underline" target="_blank">{formatSourceName(reference.name)}</a>
+              </li>
               {/each}
               </ul>
             {/if}

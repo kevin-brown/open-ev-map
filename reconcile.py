@@ -1235,6 +1235,9 @@ def normalize_ocpi_data(source_location: SourceLocation, ocpi_raw_data) -> list[
 
             charging_points.append(charging_point)
 
+            for evse in evse_list:
+                charging_point.network_id.set(SourcedValue(SourceData(source_location, ocpi_station["id"]), evse.network_id))
+
         station.charging_points = charging_points
 
         stations.append(station)

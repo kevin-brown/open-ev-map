@@ -390,7 +390,7 @@ def combine_data_with_extra():
         with open(f"electrifyamerica-clean.json", "w") as data_fh:
             json.dump(provider_data, data_fh, ensure_ascii=False, indent=2)
 
-# pull_new_data()
+pull_new_data()
 clean_new_data()
 apply_fixes_for_data()
 retrieve_extras()

@@ -454,35 +454,6 @@ US_LONG_STATE_TO_ABBR_MAP = {
 }
 
 
-def normalize_electrify_america_data(ee_raw_data) -> list[Station]:
-    stations = []
-
-    for ee_station in ee_raw_data:
-        if ee_station["type"] == "COMING_SOON":
-            continue
-
-        if ee_station["state"] != "Massachusetts":
-            continue
-
-        station = Station(
-            network=ChargingNetwork.ELECTRIFY_AMERICA,
-        )
-        station.name.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), ee_station["name"]))
-        station.network_id.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), ee_station["siteId"]))
-
-        station_location = Location(latitude=ee_station["coordinates"]["latitude"], longitude=ee_station["coordinates"]["longitude"])
-        station.location.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), station_location))
-
-        station.street_address.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), normalize_address_street_address(ee_station["address"])))
-        station.city.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), ee_station["city"]))
-        station.state.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), US_LONG_STATE_TO_ABBR_MAP[ee_station["state"]]))
-        station.zip_code.set(SourcedValue(SourceData(SourceLocation.ELECTRIFY_AMERICA, ee_station["id"]), ee_station["postalCode"]))
-
-        stations.append(station)
-
-    return stations
-
-
 def normalize_nrel_data(nrel_raw_data) -> list[Station]:
     NREL_NETWORK_MAP = {
         "7CHARGE": ChargingNetwork.SEVEN_CHARGE,
@@ -1192,17 +1163,24 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
 
 def normalize_ocpi_data(source_location: SourceLocation, ocpi_raw_data) -> list[Station]:
     OCPI_CONNECTOR_TO_PLUG_MAP = {
+        "CHADEMO": PlugType.CHADEMO,
         "IEC_62196_T1_COMBO": PlugType.J1772_COMBO,
+        "IEC_62196_T1": PlugType.J1772,
     }
 
     OCPI_PARTY_ID_TO_NETWORK_MAP = {
         "ALL": ChargingNetwork.ELECTRIC_ERA,
+        "ELA": ChargingNetwork.ELECTRIFY_AMERICA,
+        "EVG": ChargingNetwork.EVGO,
     }
 
     stations = []
 
     for ocpi_station in ocpi_raw_data["data"]:
         if ocpi_station["state"] != "Massachusetts":
+            continue
+
+        if ocpi_station.get("type") == "COMING_SOON":
             continue
 
         station = Station(
@@ -1242,7 +1220,12 @@ def normalize_ocpi_data(source_location: SourceLocation, ocpi_raw_data) -> list[
 
             charging_port_group.charging_ports = charging_ports
 
-            evses_by_serial_number[ocpi_evse["serial_number"]].append(charging_port_group)
+            if "serial_number" in ocpi_evse:
+                serial_number = ocpi_evse["serial_number"]
+            else:
+                serial_number = ocpi_evse["uid"]
+
+            evses_by_serial_number[serial_number].append(charging_port_group)
 
         for evse_list in evses_by_serial_number.values():
             charging_point = ChargingPoint()
@@ -1674,7 +1657,7 @@ with open("supercharge-clean.json", "r") as supercharge_fh:
     supercharge_raw_data = json.load(supercharge_fh)
 
 electricera_data = normalize_ocpi_data(SourceLocation.ELECTRIC_ERA, electricera_raw_data)
-electrifyamerica_data = normalize_electrify_america_data(electrifyamerica_raw_data)
+electrifyamerica_data = normalize_ocpi_data(SourceLocation.ELECTRIFY_AMERICA, electrifyamerica_raw_data)
 nrel_data = normalize_nrel_data(nrel_raw_data)
 osm_data = normalize_osm_data(osm_raw_data)
 ocm_data = normalize_ocm_data(ocm_raw_data)

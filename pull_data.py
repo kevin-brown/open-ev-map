@@ -18,26 +18,71 @@ def pull_new_data():
         with open(f"{data_provider}.json", "w") as data_fh:
             json.dump(response.json(), data_fh, ensure_ascii=False, indent=2)
 
-def clean_electricera_data(data):
-    del data["timestamp"]
+def clean_ocpi_data(data):
+    data.pop("timestamp", None)
 
     for station in data["data"]:
-        del station["last_updated"]
-        del station["operator"]["logo"]
+        station.pop("last_updated", None)
+
+        station["operator"].pop("logo", None)
 
         for evse in station["evses"]:
-            del evse["activation_date"]
-            del evse["last_updated"]
-            del evse["status"]
+            evse.pop("activation_date", None)
+            evse.pop("last_updated", None)
+            evse.pop("status", None)
 
             for connector in evse["connectors"]:
-                del connector["last_updated"]
+                connector.pop("last_updated", None)
 
     return data
 
 def clean_electrify_america_data(data):
     for station in data:
         del station["status"]
+
+        if "party_id" not in station:
+            station["party_id"] = "ELA"
+
+        if "country" not in station:
+            station["country"] = "USA"
+
+        if "operator" not in station:
+            station["operator"] = {
+                "name": "Electrify America",
+                "website": "https://www.electrifyamerica.com/",
+            }
+
+        if "postalCode" in station:
+            station["postal_code"] = station["postalCode"]
+            del station["postalCode"]
+
+        if "evses" not in station:
+            station["evses"] = []
+
+        for evse in station["evses"]:
+            if "uid" not in evse:
+                evse["uid"] = evse["id"]
+                del evse["id"]
+
+            if "evse_id" not in evse:
+                evse["evse_id"] = evse["uid"]
+
+            for connector in evse["connectors"]:
+                if "voltage" in connector:
+                    connector["max_voltage"] = connector["voltage"]
+                    del connector["voltage"]
+
+                if "amperage" in connector:
+                    connector["max_amperage"] = connector["amperage"]
+                    del connector["amperage"]
+
+                if "format" not in connector:
+                    connector["format"] = "CABLE"
+
+    data = {
+        "data": data,
+    }
+    data = clean_ocpi_data(data)
 
     return data
 
@@ -147,7 +192,7 @@ def clean_supercharge_data(data):
     return data
 
 CLEANERS = {
-    "electricera": clean_electricera_data,
+    "electricera": clean_ocpi_data,
     "electrifyamerica": clean_electrify_america_data,
     "nrel": clean_nrel_data,
     "ocm": clean_ocm_data,
@@ -262,7 +307,7 @@ def detect_diffs_electrify_america(data: list[dict], extras) -> list[str]:
     extras_dict = {}
 
     for extra in extras:
-        extras_dict[extra["siteId"]] = extra
+        extras_dict[extra["id"]] = extra
 
     differing_ids = []
 
@@ -270,17 +315,17 @@ def detect_diffs_electrify_america(data: list[dict], extras) -> list[str]:
         if station["state"] != "Massachusetts":
             continue
 
-        extra = extras_dict.get(station["siteId"], {})
+        extra = extras_dict.get(station["id"], {})
 
         if not extra:
-            differing_ids.append(station["siteId"])
+            differing_ids.append(station["id"])
             continue
 
-        attrs = ["id", "name", "address", "city", "postalCode", "state", "type"]
+        attrs = ["siteId", "name", "address", "city", "postalCode", "state", "type"]
 
         for attr in attrs:
             if station[attr] != extra[attr]:
-                differing_ids.append(station["siteId"])
+                differing_ids.append(station["id"])
                 break
 
     return differing_ids
@@ -345,7 +390,7 @@ def combine_data_with_extra():
         with open(f"electrifyamerica-clean.json", "w") as data_fh:
             json.dump(provider_data, data_fh, ensure_ascii=False, indent=2)
 
-pull_new_data()
+# pull_new_data()
 clean_new_data()
 apply_fixes_for_data()
 retrieve_extras()

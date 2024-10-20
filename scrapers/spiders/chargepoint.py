@@ -6,7 +6,7 @@ import json
 import urllib
 
 
-class ChargepointSpider(scrapy.Spider):
+class ChargePointSpider(scrapy.Spider):
     name = "chargepoint"
 
     CONNECTOR_TYPE_TO_PLUG_TYPE_MAP = {

@@ -34,7 +34,6 @@ class ChargingPointFeature(scrapy.Item):
 
 class StationFeature(scrapy.Item):
     name = scrapy.Field()
-    network = scrapy.Field()
 
     location = scrapy.Field()
     address = scrapy.Field()

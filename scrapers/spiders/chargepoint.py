@@ -112,7 +112,7 @@ class ChargePointSpider(scrapy.Spider):
         for summary in station_list.get("summaries"):
             station_name = " ".join(summary.get("station_name", [])) or None
 
-            location = LocationFeature(**{                
+            location = LocationFeature(**{
                 "latitude": summary["lat"],
                 "longitude": summary["lon"],
             })
@@ -124,7 +124,7 @@ class ChargePointSpider(scrapy.Spider):
 
             evses = []
 
-            for outlet in summary["port_status"].values():
+            for key, outlet in summary["port_status"].items():
                 plugs = []
 
                 plug_types = [key for key in outlet.keys() if key.startswith("plug_type")]
@@ -141,9 +141,10 @@ class ChargePointSpider(scrapy.Spider):
                         })
                         plugs.append(plug)
 
-                evse = EvseFeature(**{
-                    "plugs": plugs
-                })
+                evse = EvseFeature(
+                    network_id=f"US*CPI*E{summary["device_id"]}*{key[7:]}",
+                    plugs=plugs,
+                )
                 evses.append(evse)
 
             charging_point = ChargingPointFeature(**{
@@ -153,7 +154,7 @@ class ChargePointSpider(scrapy.Spider):
             })
 
             properties = {
-                "network_id": summary["device_id"],
+                "network_id": f"US*CPI*L{summary["device_id"]}",
                 "name": station_name,
                 "address": address,
                 "location": location,

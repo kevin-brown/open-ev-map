@@ -10,6 +10,7 @@ shapely = "*"
 
 [dev-packages]
 requests = "*"
+scrapy = "*"
 
 [requires]
 python_version = "3.12"

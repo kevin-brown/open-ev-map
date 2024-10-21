@@ -16,6 +16,9 @@ class LocationFeature(scrapy.Item):
 class ChargingPortFeature(scrapy.Item):
     plug = scrapy.Field()
 
+    amperage = scrapy.Field()
+    voltage = scrapy.Field()
+    output = scrapy.Field()
 
 class EvseFeature(scrapy.Item):
     plugs = scrapy.Field()

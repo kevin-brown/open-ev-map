@@ -139,6 +139,10 @@ class ChargePointSpider(scrapy.Spider):
                         plug = ChargingPortFeature(**{
                             "plug": PORT_TYPE_TO_PLUG_TYPE_MAP[outlet[plug_type]["port_type"]],
                         })
+
+                        if max_output := outlet[plug_type].get("available_power"):
+                            plug["output"] = int(float(max_output) * 1000)
+
                         plugs.append(plug)
 
                 evse = EvseFeature(

@@ -51,6 +51,10 @@ class ElectrifyAmericaSpider(scrapy.Spider):
             for connector in station_evse["connectors"]:
                 plug = ChargingPortFeature(
                     plug=self.STANDARD_TO_PLUG_TYPE_MAP[connector["standard"]],
+
+                    amperage=connector["amperage"],
+                    voltage=connector["voltage"],
+                    output=connector["amperage"] * connector["voltage"],
                 )
                 plugs.append(plug)
 

@@ -68,6 +68,7 @@ class ElectrifyAmericaSpider(scrapy.Spider):
 
         yield StationFeature(
             name=station["name"],
+            network="ELECTRIFY_AMERICA",
             network_id=station["id"],
             location=location,
             address=address,

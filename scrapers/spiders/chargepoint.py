@@ -154,6 +154,7 @@ class ChargePointSpider(scrapy.Spider):
             })
 
             properties = {
+                "network": "CHARGEPOINT",
                 "network_id": f"US*CPI*L{summary["device_id"]}",
                 "name": station_name,
                 "address": address,

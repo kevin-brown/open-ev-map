@@ -1,11 +1,13 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, StationFeature
+from scrapers.spiders.ocpi import OcpiSpider
 
 import scrapy
 
 
-class ElectrifyAmericaSpider(scrapy.Spider):
+class ElectrifyAmericaSpider(OcpiSpider):
     name = "electrifyamerica"
     start_urls = ["https://api-prod.electrifyamerica.com/v2/locations"]
+    network = "ELECTRIFY_AMERICA"
 
     STANDARD_TO_PLUG_TYPE_MAP = {
         "IEC_62196_T1": "J1772",
@@ -34,47 +36,14 @@ class ElectrifyAmericaSpider(scrapy.Spider):
 
     def parse_station(self, response):
         station = response.json()
+        station["postal_code"] = station["postalCode"]
 
-        location = LocationFeature(**station["coordinates"])
-        address = AddressFeature(
-            street_address=station["address"],
-            city=station["city"],
-            state=station["state"],
-            zip_code=station["postalCode"],
-        )
+        for evse in station["evses"]:
+            evse["evse_id"] = evse["id"]
+            evse["physical_reference"] = evse["id"]
 
-        charging_points = []
+            for connector in evse["connectors"]:
+                connector["max_amperage"] = connector["amperage"]
+                connector["max_voltage"] = connector["voltage"]
 
-        for station_evse in station["evses"]:
-            plugs = []
-
-            for connector in station_evse["connectors"]:
-                plug = ChargingPortFeature(
-                    plug=self.STANDARD_TO_PLUG_TYPE_MAP[connector["standard"]],
-
-                    amperage=connector["amperage"],
-                    voltage=connector["voltage"],
-                    output=connector["amperage"] * connector["voltage"],
-                )
-                plugs.append(plug)
-
-            evse = EvseFeature(
-                plugs=plugs,
-            )
-
-            charging_point = ChargingPointFeature(
-                name=station_evse["id"],
-                network_id=station_evse["id"],
-                location=location,
-                evses=[evse],
-            )
-            charging_points.append(charging_point)
-
-        yield StationFeature(
-            name=station["name"],
-            network="ELECTRIFY_AMERICA",
-            network_id=station["id"],
-            location=location,
-            address=address,
-            charging_points=charging_points,
-        )
+        yield from self.station_to_feature(station)

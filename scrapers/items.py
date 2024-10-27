@@ -13,8 +13,11 @@ class LocationFeature(scrapy.Item):
     longitude = scrapy.Field()
 
 
-class ChargingPortFeature(scrapy.Item):
-    plug = scrapy.Field()
+class HardwareFeature(scrapy.Item):
+    manufacturer = scrapy.Field()
+    model = scrapy.Field()
+    brand = scrapy.Field()
+
 
 class PowerFeature(scrapy.Item):
     amperage = scrapy.Field()
@@ -40,6 +43,8 @@ class ChargingPointFeature(scrapy.Item):
     network_id = scrapy.Field()
 
     evses = scrapy.Field()
+
+    hardware = scrapy.Field()
 
 
 class StationFeature(scrapy.Item):

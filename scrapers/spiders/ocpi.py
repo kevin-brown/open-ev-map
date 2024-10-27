@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
 
 import scrapy
 
@@ -47,11 +47,23 @@ class OcpiSpider(scrapy.Spider):
                 plugs=plugs,
             )
 
+            hardware = HardwareFeature()
+
+            if "manufacturer" in station_evse:
+                hardware["manufacturer"] = station_evse["manufacturer"]
+
+            if "model" in station_evse:
+                hardware["model"] = station_evse["model"]
+
+            if "brand" in station_evse:
+                hardware["brand"] = station_evse["brand"]
+
             charging_point = ChargingPointFeature(
                 name=station_evse["physical_reference"],
                 network_id=station_evse["evse_id"],
                 location=location,
                 evses=[evse],
+                hardware=hardware,
             )
             charging_points.append(charging_point)
 

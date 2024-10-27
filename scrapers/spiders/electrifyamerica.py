@@ -42,6 +42,8 @@ class ElectrifyAmericaSpider(OcpiSpider):
             evse["evse_id"] = evse["id"]
             evse["physical_reference"] = evse["id"]
 
+            evse["brand"] = "Electrify America"
+
             for connector in evse["connectors"]:
                 connector["max_amperage"] = connector["amperage"]
                 connector["max_voltage"] = connector["voltage"]

@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, StationFeature
 
 import scrapy
 import shapely
@@ -154,9 +154,13 @@ class FloSpider(scrapy.Spider):
             ports = []
 
             for connector in station["connectors"]:
+                power = PowerFeature(
+                    output=connector["power"],
+                )
+
                 port = ChargingPortFeature(
                     plug=self.STANDARD_TO_PLUG_TYPE_MAP[connector["type"]],
-                    output=connector["power"],
+                    power=power,
                 )
                 ports.append(port)
 

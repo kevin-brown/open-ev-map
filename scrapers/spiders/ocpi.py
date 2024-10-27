@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, StationFeature
 
 import scrapy
 
@@ -30,12 +30,16 @@ class OcpiSpider(scrapy.Spider):
                 else:
                     output = connector["max_amperage"] * connector["max_voltage"]
 
-                plug = ChargingPortFeature(
-                    plug=self.STANDARD_TO_PLUG_TYPE_MAP[connector["standard"]],
-
+                power = PowerFeature(
                     amperage=connector["max_amperage"],
                     voltage=connector["max_voltage"],
                     output=output,
+                )
+
+                plug = ChargingPortFeature(
+                    plug=self.STANDARD_TO_PLUG_TYPE_MAP[connector["standard"]],
+
+                    power=power,
                 )
                 plugs.append(plug)
 

@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, StationFeature
 
 import scrapy
 
@@ -141,7 +141,9 @@ class ChargePointSpider(scrapy.Spider):
                         })
 
                         if max_output := outlet[plug_type].get("available_power"):
-                            plug["output"] = int(float(max_output) * 1000)
+                            plug["power"] = PowerFeature(
+                                output=int(float(max_output) * 1000)
+                            )
 
                         plugs.append(plug)
 

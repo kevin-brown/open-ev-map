@@ -217,12 +217,20 @@ class BlinkSpider(scrapy.Spider):
                 model = model_map[model_number]
             else:
                 raise Exception(charger)
-        elif serial_number.startswith("CTX"):
+        elif serial_number.startswith("CTX") or serial_number.startswith("2022"):
             manufacturer = "TELLUS_POWER_GREEN"
             model = f"TP5-{int(charger["maxPower"] / 1000)}-480"
         elif serial_number.startswith("NAMT53"):
             manufacturer = "ABB"
             model = "Terra 53"
+        elif serial_number.startswith("1210"):
+            manufacturer = "TRITIUM"
+            model = "RT50"
+        elif serial_number.startswith("3221"):
+            manufacturer = "TRITIUM"
+            model = "RT175-S"
+        elif serial_number[0].isdigit():
+            raise Exception(charger)
         else:
             raise Exception(charger)
 

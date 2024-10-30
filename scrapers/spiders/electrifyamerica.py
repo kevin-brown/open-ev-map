@@ -10,7 +10,7 @@ class ElectrifyAmericaSpider(OcpiSpider):
     network = "ELECTRIFY_AMERICA"
 
     STANDARD_TO_PLUG_TYPE_MAP = {
-        "IEC_62196_T1": "J1772",
+        "IEC_62196_T1": "J1772_CABLE",
         "IEC_62196_T1_COMBO": "J1772_COMBO",
         "CHADEMO": "CHADEMO",
     }

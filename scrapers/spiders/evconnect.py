@@ -12,6 +12,7 @@ class EvconnectSpider(scrapy.Spider):
     CONNECTOR_TO_PLUG_MAP = {
         "SAE": "J1772_CABLE",
         "CCS": "J1772_COMBO",
+        "CCS2": None,
         "CHADEMO": "CHADEMO",
     }
 
@@ -48,8 +49,6 @@ class EvconnectSpider(scrapy.Spider):
     def parse_locations(self, response):
         locations = response.json()
 
-        print(locations)
-
         location_identifiers = []
 
         for location in locations:
@@ -81,6 +80,12 @@ class EvconnectSpider(scrapy.Spider):
         locations = response.json()
 
         for location in locations:
+            address_parts = location["address"].split()
+            state = address_parts[-2]
+
+            if state != "MA":
+                continue
+
             for port in location["ports"]:
                 yield scrapy.http.JsonRequest(
                     url=f"https://api.evconnect.com/mobile/rest/v6/users/current/station-ports?qrCode={port["qrCode"]}",
@@ -94,25 +99,42 @@ class EvconnectSpider(scrapy.Spider):
                     callback=self.parse_ports,
                 )
 
-            return
-
     def parse_ports(self, response):
         location = response.json()
 
+        print(location)
+
+        address_parts = location["address"].split()
+        zip_code = address_parts[-1]
+        state = address_parts[-2]
+
+        address = AddressFeature(
+            state=state,
+            zip_code=zip_code,
+        )
+
         coordinates = LocationFeature(**location["geoLocation"])
 
-        plugs = []
+        evses = []
 
         for connector in location["connectors"]:
-            plugs.append(ChargingPortFeature(
+            power = PowerFeature(
+                output=int(connector["outputKiloWatts"] * 1000),
+            )
+
+            plug = ChargingPortFeature(
                 plug=self.CONNECTOR_TO_PLUG_MAP[connector["connectorType"]],
-            ))
+                power=power,
+            )
+            evses.append([EvseFeature(
+                plugs=[plug],
+                network_id=connector["externalId"],
+            )])
+
 
         charging_point = ChargingPointFeature(
             name=location["qrCode"],
-            evses=[EvseFeature(
-                plugs=plugs,
-            )]
+            evses=evses,
         )
 
         yield StationFeature(
@@ -121,4 +143,5 @@ class EvconnectSpider(scrapy.Spider):
             network_id=location["locationId"],
             location=coordinates,
             charging_points=[charging_point],
+            address=address,
         )

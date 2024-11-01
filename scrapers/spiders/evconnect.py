@@ -102,8 +102,6 @@ class EvconnectSpider(scrapy.Spider):
     def parse_ports(self, response):
         location = response.json()
 
-        print(location)
-
         address_parts = location["address"].split()
         zip_code = address_parts[-1]
         state = address_parts[-2]
@@ -126,15 +124,16 @@ class EvconnectSpider(scrapy.Spider):
                 plug=self.CONNECTOR_TO_PLUG_MAP[connector["connectorType"]],
                 power=power,
             )
-            evses.append([EvseFeature(
+            evses.append(EvseFeature(
                 plugs=[plug],
                 network_id=connector["externalId"],
-            )])
+            ))
 
 
         charging_point = ChargingPointFeature(
             name=location["qrCode"],
             evses=evses,
+            network_id=f"US*EVC*E{location["evseId"]}",
         )
 
         yield StationFeature(

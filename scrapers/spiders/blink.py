@@ -1,5 +1,6 @@
-from collections import defaultdict
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
+
+from collections import defaultdict
 
 import scrapy
 

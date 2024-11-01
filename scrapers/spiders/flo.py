@@ -57,9 +57,6 @@ class FloSpider(scrapy.Spider):
     def parse(self, response):
         response_data = response.json()
 
-        print(response_data)
-        print(response.meta)
-
         if response_data["parks"]:
             yield from self.parse_parks(response)
 
@@ -172,7 +169,7 @@ class FloSpider(scrapy.Spider):
 
             charging_point = ChargingPointFeature(
                 name=station["name"],
-                network_id=station["id"],
+                network_id=f"US*FL2*E{station["name"]}*1",
                 evses=evses,
             )
             charging_points.append(charging_point)

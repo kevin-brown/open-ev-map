@@ -1,0 +1,159 @@
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
+
+import scrapy
+
+import re
+
+
+class TeslaSpider(scrapy.Spider):
+    name = "tesla"
+    custom_settings = {
+        'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/130.0',
+    }
+
+    def start_requests(self):
+        yield scrapy.http.JsonRequest(
+            url="https://www.tesla.com/cua-api/tesla-locations?translate=en_US&usetrt=true",
+            callback=self.parse_locations,
+        )
+
+    def parse_locations(self, response):
+        locations = response.json()
+
+        for location in locations[0:250]:
+            if location["open_soon"] == "1":
+                continue
+
+            charger_types = ["destination charger", "supercharger"]
+
+            for charger_type in charger_types:
+                if charger_type not in location["location_type"]:
+                    continue
+
+                yield scrapy.http.JsonRequest(
+                    url=f"https://www.tesla.com/cua-api/tesla-location?translate=en_US&usetrt=true&id={location["location_id"]}",
+                    callback=self.parse_location_response,
+                )
+
+    def parse_location_response(self, response):
+        location = response.json()
+
+        if location["country_code"] != "US":
+            return
+
+        # if location["province_state"] != "MA":
+        #     return
+
+        if "destination charger" in location["location_type"]:
+            yield from self.parse_destination_charger(location)
+
+        if "supercharger" in location["location_type"] and "superchargerTitle" in location:
+            yield from self.parse_supercharger(location)
+
+    def parse_address(self, charger_address):
+        return AddressFeature(
+            street_address=charger_address["address_line_1"],
+            city=charger_address["city"],
+            state=charger_address.get("province_state"),
+            zip_code=charger_address["postal_code"],
+        )
+
+    def parse_location(self, location):
+        return LocationFeature(
+            latitude=location["latitude"],
+            longitude=location["longitude"],
+        )
+
+    def parse_charging_point(self, charger_power, plug_types):
+        plugs = []
+
+        for plug in plug_types:
+            plugs.append(
+                ChargingPortFeature(
+                    plug=plug,
+                    power=PowerFeature(
+                        output=charger_power * 1000,
+                    ),
+                )
+            )
+
+        hardware = HardwareFeature(
+            manufacturer="TESLA",
+            brand="TESLA",
+        )
+
+        if charger_power == 72:
+            hardware["model"] = "Urban Charger"
+        elif charger_power == 150:
+            hardware["model"] = "V2 Charger"
+        elif charger_power == 250 and "J1772_COMBO" not in plug_types:
+            hardware["model"] = "V3 Charger"
+
+        if charger_power > 50:
+            hardware["brand"] = "TESLA_SUPERCHARGER"
+
+        return ChargingPointFeature(
+            evses=[
+                EvseFeature(
+                    plugs=plugs,
+                )
+            ],
+            hardware=hardware,
+        )
+
+    def parse_destination_charger(self, location):
+        charger_info = location["destChargers"]
+        charger_count_matches = re.findall(r"(\d+) Connectors up to (\d+)kW", charger_info)
+
+        charging_points = []
+
+        charger_speeds = []
+
+        if charger_count_matches:
+            for match in charger_count_matches:
+                charger_speeds.append([int(match[0]), int(match[1])])
+
+        for charger_count, charger_power in charger_speeds:
+            for _ in range(charger_count):
+                charging_points.append(
+                    self.parse_charging_point(charger_power, ["NACS"])
+                )
+
+        yield StationFeature(
+            name=location["destinationChargerTitle"],
+            network="TESLA_DESTINATION",
+            network_id=location["location_id"],
+            address=self.parse_address(location["destinationChargerAddress"]),
+            location=self.parse_location(location),
+            charging_points=charging_points,
+        )
+
+    def parse_supercharger(self, location):
+        charger_info = location["chargers"]
+        charger_count_matches = re.findall(r"(\d+) Superchargers up to (\d+)kW(, Available 24/7)?(</p><br /><i>NACS Adapter Required to Charge at this Supercharger. This Supercharger is Open to Tesla and NACS Enabled Vehicles with CCS Compatibility)?", charger_info)
+
+        charging_points = []
+
+        charger_speeds = []
+
+        if charger_count_matches:
+            for match in charger_count_matches:
+                charger_speeds.append([int(match[0]), int(match[1]), bool(match[3])])
+
+        for charger_count, charger_power, has_ccs in charger_speeds:
+            plugs = ["NACS"]
+            if has_ccs:
+                plugs.append("J1772_COMBO")
+            for _ in range(charger_count):
+                charging_points.append(
+                    self.parse_charging_point(charger_power, plugs)
+                )
+
+        yield StationFeature(
+            name=location["superchargerTitle"],
+            network="TESLA_SUPERCHARGER",
+            network_id=location["location_id"],
+            address=self.parse_address(location["chargerAddress"]),
+            location=self.parse_location(location),
+            charging_points=charging_points,
+        )

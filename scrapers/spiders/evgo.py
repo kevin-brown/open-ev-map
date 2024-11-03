@@ -9,6 +9,7 @@ class EvgoSpider(scrapy.Spider):
     CONNECTOR_TO_PLUG_MAP = {
         "CCS Combo": "J1772_COMBO",
         "CCS Combo A": "J1772_COMBO",
+        "CCS Combo B": None,
         "CHAdeMO": "CHADEMO",
         "Tesla": "NACS",
         "L2": "J1772_CABLE",

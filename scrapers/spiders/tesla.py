@@ -3,6 +3,7 @@ from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFea
 import scrapy
 
 import re
+import string
 
 
 class TeslaSpider(scrapy.Spider):
@@ -41,8 +42,8 @@ class TeslaSpider(scrapy.Spider):
         if location["country_code"] != "US":
             return
 
-        # if location["province_state"] != "MA":
-        #     return
+        if location["province_state"] != "MA":
+            return
 
         if "destination charger" in location["location_type"]:
             yield from self.parse_destination_charger(location)
@@ -50,11 +51,11 @@ class TeslaSpider(scrapy.Spider):
         if "supercharger" in location["location_type"] and "superchargerTitle" in location:
             yield from self.parse_supercharger(location)
 
-    def parse_address(self, charger_address):
+    def parse_address(self, location, charger_address):
         return AddressFeature(
             street_address=charger_address["address_line_1"],
             city=charger_address["city"],
-            state=charger_address.get("province_state"),
+            state=location["province_state"],
             zip_code=charger_address["postal_code"],
         )
 
@@ -123,7 +124,7 @@ class TeslaSpider(scrapy.Spider):
             name=location["destinationChargerTitle"],
             network="TESLA_DESTINATION",
             network_id=location["location_id"],
-            address=self.parse_address(location["destinationChargerAddress"]),
+            address=self.parse_address(location, location["destinationChargerAddress"]),
             location=self.parse_location(location),
             charging_points=charging_points,
         )
@@ -149,11 +150,25 @@ class TeslaSpider(scrapy.Spider):
                     self.parse_charging_point(charger_power, plugs)
                 )
 
+        if len(charger_speeds) == 1:
+            charger_count, charger_power, _ = charger_speeds[0]
+            for i in range(charger_count):
+                if charger_power == 150:
+                    letter = string.ascii_uppercase[(i % 2)]
+                    number = (i // 2) + 1
+
+                    charging_points[i]["name"] = f"{number}{letter}"
+                elif charger_power == 250:
+                    letter = string.ascii_uppercase[(i % 4)]
+                    number = (i // 4) + 1
+
+                    charging_points[i]["name"] = f"{number}{letter}"
+
         yield StationFeature(
             name=location["superchargerTitle"],
             network="TESLA_SUPERCHARGER",
             network_id=location["location_id"],
-            address=self.parse_address(location["chargerAddress"]),
+            address=self.parse_address(location, location["chargerAddress"]),
             location=self.parse_location(location),
             charging_points=charging_points,
         )

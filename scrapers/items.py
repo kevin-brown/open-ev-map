@@ -2,71 +2,71 @@ import scrapy
 
 
 class ReferenceFeature(scrapy.Item):
-    identifier = scrapy.Field()
-    system = scrapy.Field()
+    identifier: str = scrapy.Field()
+    system: str = scrapy.Field()
 
 
 class SourceFeature(scrapy.Item):
-    quality = scrapy.Field()
-    system = scrapy.Field()
+    quality: str = scrapy.Field()
+    system: str = scrapy.Field()
 
 
 class AddressFeature(scrapy.Item):
-    street_address = scrapy.Field()
-    city = scrapy.Field()
-    state = scrapy.Field()
-    zip_code = scrapy.Field()
+    street_address: str = scrapy.Field()
+    city: str = scrapy.Field()
+    state: str = scrapy.Field()
+    zip_code: str = scrapy.Field()
 
 
 class LocationFeature(scrapy.Item):
-    latitude = scrapy.Field()
-    longitude = scrapy.Field()
+    latitude: float = scrapy.Field()
+    longitude: float = scrapy.Field()
 
 
 class HardwareFeature(scrapy.Item):
-    manufacturer = scrapy.Field()
-    model = scrapy.Field()
-    brand = scrapy.Field()
+    manufacturer: str = scrapy.Field()
+    model: str = scrapy.Field()
+    brand: str = scrapy.Field()
 
 
 class PowerFeature(scrapy.Item):
-    amperage = scrapy.Field()
-    voltage = scrapy.Field()
-    output = scrapy.Field()
+    amperage: int = scrapy.Field()
+    voltage: int = scrapy.Field()
+    output: int = scrapy.Field()
 
 
 class ChargingPortFeature(scrapy.Item):
-    plug = scrapy.Field()
+    plug: str = scrapy.Field()
 
-    power = scrapy.Field()
+    power: PowerFeature = scrapy.Field()
 
 class EvseFeature(scrapy.Item):
-    plugs = scrapy.Field()
+    plugs: list[ChargingPortFeature] = scrapy.Field()
 
-    network_id = scrapy.Field()
+    network_id: str = scrapy.Field()
 
 
 class ChargingPointFeature(scrapy.Item):
-    name = scrapy.Field()
-    location = scrapy.Field()
+    name: str = scrapy.Field()
+    location: LocationFeature = scrapy.Field()
 
-    network_id = scrapy.Field()
+    network_id: str = scrapy.Field()
 
-    evses = scrapy.Field()
+    evses: list[EvseFeature] = scrapy.Field()
 
-    hardware = scrapy.Field()
+    hardware: HardwareFeature = scrapy.Field()
 
 
 class StationFeature(scrapy.Item):
-    name = scrapy.Field()
+    name: str = scrapy.Field()
 
-    location = scrapy.Field()
-    address = scrapy.Field()
+    location: LocationFeature = scrapy.Field()
+    address: AddressFeature = scrapy.Field()
 
-    network = scrapy.Field()
-    network_id = scrapy.Field()
+    network: str = scrapy.Field()
+    network_id: str = scrapy.Field()
 
-    charging_points = scrapy.Field()
+    charging_points: list[ChargingPointFeature] = scrapy.Field()
 
-    references = scrapy.Field()
-    source = scrapy.Field()
+    references: list[ReferenceFeature] = scrapy.Field()
+    source: SourceFeature = scrapy.Field()

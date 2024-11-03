@@ -8,6 +8,7 @@ class ElectricEraSpider(OcpiSpider):
     name = "electricera"
     start_urls = ["https://ocpi-http.app.electricera.tech/ocpi/2.2/locations"]
     network = "ELECTRIC_ERA"
+    system = "ELECTRIC_ERA"
 
     def parse(self, response):
         stations = response.json()["data"]

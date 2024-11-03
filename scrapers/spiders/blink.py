@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 from collections import defaultdict
 
@@ -131,6 +131,10 @@ class BlinkSpider(scrapy.Spider):
             address=address,
             location=coordinates,
             charging_points=charging_points,
+            source=SourceFeature(
+                quality="ORIGINAL",
+                system="BLINK",
+            ),
         )
 
     def hardware_for_serial_number(self, serial_number, charger):

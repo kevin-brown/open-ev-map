@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, SourceFeature, StationFeature
 
 import scrapy
 
@@ -45,4 +45,8 @@ class SuperchargeSpider(scrapy.Spider):
                 network_id=station["locationId"],
                 address=address,
                 location=location,
+                source=SourceFeature(
+                    quality="CURATED",
+                    system="SUPERCHARGE",
+                ),
             )

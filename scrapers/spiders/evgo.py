@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 import scrapy
 
@@ -201,4 +201,8 @@ class EvgoSpider(scrapy.Spider):
             location=coordinates,
             address=address,
             charging_points=charging_points,
+            source=SourceFeature(
+                quality="ORIGINAL",
+                system="EVGO",
+            ),
         )

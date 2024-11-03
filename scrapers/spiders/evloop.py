@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 import scrapy
 
@@ -76,4 +76,8 @@ class EvloopSpider(scrapy.Spider):
                 location=location,
                 address=address,
                 charging_points=charging_points,
+                source=SourceFeature(
+                    quality="ORIGINAL",
+                    system="EV_LOOP",
+                ),
             )

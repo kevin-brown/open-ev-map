@@ -8,6 +8,7 @@ class ElectrifyAmericaSpider(OcpiSpider):
     name = "electrifyamerica"
     start_urls = ["https://api-prod.electrifyamerica.com/v2/locations"]
     network = "ELECTRIFY_AMERICA"
+    system = "ELECTRIFY_AMERICA"
 
     STANDARD_TO_PLUG_TYPE_MAP = {
         "IEC_62196_T1": "J1772_CABLE",

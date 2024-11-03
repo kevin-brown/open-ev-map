@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 import scrapy
 
@@ -21,7 +21,7 @@ class TeslaSpider(scrapy.Spider):
     def parse_locations(self, response):
         locations = response.json()
 
-        for location in locations[0:250]:
+        for location in locations:
             if location["open_soon"] == "1":
                 continue
 
@@ -127,6 +127,10 @@ class TeslaSpider(scrapy.Spider):
             address=self.parse_address(location, location["destinationChargerAddress"]),
             location=self.parse_location(location),
             charging_points=charging_points,
+            source=SourceFeature(
+                quality="ORIGINAL",
+                system="TESLA",
+            ),
         )
 
     def parse_supercharger(self, location):
@@ -171,4 +175,8 @@ class TeslaSpider(scrapy.Spider):
             address=self.parse_address(location, location["chargerAddress"]),
             location=self.parse_location(location),
             charging_points=charging_points,
+            source=SourceFeature(
+                quality="ORIGINAL",
+                system="TESLA",
+            ),
         )

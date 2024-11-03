@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 import scrapy
 import urllib.parse
@@ -143,4 +143,8 @@ class EvconnectSpider(scrapy.Spider):
             location=coordinates,
             charging_points=[charging_point],
             address=address,
+            source=SourceFeature(
+                quality="ORIGINAL",
+                system="EV_CONNECT",
+            ),
         )

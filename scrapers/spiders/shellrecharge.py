@@ -7,6 +7,7 @@ import scrapy
 class ShellRechargeSpider(OcpiSpider):
     name = "shellrecharge"
     network="SHELL_RECHARGE"
+    system = "SHELL_RECHARGE_GREENLOTS"
 
     PLUG_TYPE_TO_STANDARD_MAP = {
         "SAEJ1772": "IEC_62196_T1",

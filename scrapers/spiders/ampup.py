@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 import scrapy
 import urllib.parse
@@ -144,4 +144,8 @@ class AmpupSpider(scrapy.Spider):
             address=address,
             location=coordinates,
             charging_points=charging_points,
+            source=SourceFeature(
+                quality="ORIGINAL",
+                system="AMP_UP",
+            ),
         )

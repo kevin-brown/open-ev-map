@@ -1,6 +1,16 @@
 import scrapy
 
 
+class ReferenceFeature(scrapy.Item):
+    identifier = scrapy.Field()
+    system = scrapy.Field()
+
+
+class SourceFeature(scrapy.Item):
+    quality = scrapy.Field()
+    system = scrapy.Field()
+
+
 class AddressFeature(scrapy.Item):
     street_address = scrapy.Field()
     city = scrapy.Field()
@@ -57,3 +67,6 @@ class StationFeature(scrapy.Item):
     network_id = scrapy.Field()
 
     charging_points = scrapy.Field()
+
+    references = scrapy.Field()
+    source = scrapy.Field()

@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 import scrapy
 
@@ -166,6 +166,10 @@ class ChargePointSpider(scrapy.Spider):
                 "address": address,
                 "location": location,
                 "charging_points": [charging_point],
+                "source": SourceFeature(
+                    quality="ORIGINAL",
+                    system="CHARGEPOINT_MAP_V1",
+                ),
             }
 
             yield StationFeature(**properties)

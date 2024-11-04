@@ -91,3 +91,8 @@ DOWNLOAD_DELAY = 3
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+try:
+    from scrapers.local_settings import NREL_API_KEY
+except ImportError:
+    NREL_API_KEY = ""

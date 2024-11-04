@@ -14,7 +14,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
         "7CHARGE": "SEVEN_CHARGE",
         "ABM": "ABM",
         "AMPED_UP": "AMPED_UP",
-        "AMPUP": "AMPUP",
+        "AMPUP": "AMP_UP",
         "Blink Network": "BLINK",
         "CHARGELAB": "CHARGE_LAB",
         "ChargePoint Network": "CHARGEPOINT",
@@ -65,6 +65,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
     def parse(self, response):
         CHARGING_POINTS_PARSER = {
             "CHARGEPOINT": self.parse_charging_points_chargepoint,
+            "ELECTRIFY_AMERICA": self.parse_charging_points_electrify_america,
             "EV_CONNECT": self.parse_charging_points_ev_connect,
             "FLO": self.parse_charging_points_flo,
             "SHELL_RECHARGE": self.parse_charging_points_shell_recharge,
@@ -72,6 +73,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
 
         NETWORK_ID_PARSER = {
             "CHARGEPOINT": self.parse_network_id_chargepoint,
+            "ELECTRIFY_AMERICA": self.parse_network_id_first,
             "EV_CONNECT": self.parse_network_id_first,
             "FLO": self.parse_network_id_first,
             "SHELL_RECHARGE": self.parse_network_id_first,
@@ -175,6 +177,18 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             return [charging_point]
 
         return []
+
+    def parse_charging_points_electrify_america(self, station):
+        charging_points = []
+
+        for post_id in station["ev_network_ids"]["posts"]:
+            charging_points.append(
+                ChargingPointFeature(
+                    network_id=post_id,
+                )
+            )
+
+        return charging_points
 
     def parse_charging_points_ev_connect(self, station):
         if "ev_network_ids" not in station:

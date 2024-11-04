@@ -129,7 +129,6 @@ class EvconnectSpider(scrapy.Spider):
                 network_id=connector["externalId"],
             ))
 
-
         charging_point = ChargingPointFeature(
             name=location["qrCode"],
             evses=evses,

@@ -1,9 +1,10 @@
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, ReferenceFeature, StationFeature
+
 from scrapy.utils.project import get_project_settings
 import scrapy
 
+from collections import defaultdict
 from urllib.parse import urlencode
-
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, ReferenceFeature, StationFeature
 
 
 class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
@@ -207,7 +208,58 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
         return []
 
     def parse_charging_points_shell_recharge(self, station):
+        if "ev_network_ids" not in station:
+            print(station)
+            raise
 
+        connector_types = station["ev_connector_types"]
+
+        if len(connector_types) > 1:
+            print(station)
+            raise
+
+        post_ids = station["ev_network_ids"]["posts"]
+
+        if l2_count := station["ev_level2_evse_num"]:
+            charging_points = []
+
+            post_id_groups = defaultdict(list)
+
+            for post_id in post_ids:
+                if "*" in post_id:
+                    prefix, _ = post_id.split("*")
+                    post_id_groups[prefix].append(post_id)
+                else:
+                    post_id_groups[post_id].append(post_id)
+
+            for charging_point_id, evse_ids in post_id_groups.items():
+                evses = []
+
+                for evse_id in evse_ids:
+                    plugs = []
+
+                    for connector_type in connector_types:
+                        plugs.append(
+                            ChargingPortFeature(
+                                plug=self.CONNECTOR_TO_PLUG_MAP[connector_type],
+                            )
+                        )
+
+                    evses.append(
+                        EvseFeature(
+                            plugs=plugs,
+                            network_id=evse_id,
+                        )
+                    )
+
+                charging_points.append(
+                    ChargingPointFeature(
+                        evses=evses,
+                        network_id=charging_point_id,
+                    )
+                )
+
+            return charging_points
 
         return []
 

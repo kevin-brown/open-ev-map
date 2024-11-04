@@ -1,10 +1,10 @@
-from scrapers.items import ChargingPointFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, LocationFeature, ReferenceFeature, SourceFeature, StationFeature
 
 import scrapy
 import shapely
 
 
-class OpenstreetmapSpider(scrapy.Spider):
+class OpenStreetMapSpider(scrapy.Spider):
     name = "openstreetmap"
 
     def start_requests(self):
@@ -13,7 +13,7 @@ class OpenstreetmapSpider(scrapy.Spider):
         )
 
     def parse(self, response):
-        elements = response.json()
+        elements = response.json()["elements"]
 
         stations: dict[int, StationFeature] = {}
 
@@ -32,6 +32,8 @@ class OpenstreetmapSpider(scrapy.Spider):
         for element in elements:
             if element["tags"].get("man_made") != "charge_point":
                 continue
+
+            continue
 
             charge_point = self.parse_charge_point(element)
 
@@ -85,7 +87,7 @@ class OpenstreetmapSpider(scrapy.Spider):
 
         yield from stations.values()
 
-    def parse_charging_station_bounds(self, element):
+    def parse_charging_station_bounds(self, element) -> shapely.Polygon:
         return shapely.box(
             xmin=element["bounds"]["minlat"],
             xmax=element["bounds"]["maxlat"],
@@ -96,8 +98,227 @@ class OpenstreetmapSpider(scrapy.Spider):
     def get_station_distance(self, station, charging_point):
         pass
 
-    def parse_charging_station(self, element):
-        pass
+    def network_from_osm_tags(self, tags) -> str:
+        OSM_NETWORK_NAME_MAP = {
+            "AmpUp": "AMP_UP",
+            "Autel": "AUTEL",
+            "Blink": "BLINK",
+            "ChargePoint": "CHARGEPOINT",
+            "Electrify America": "ELECTRIFY_AMERICA",
+            "Enel X": "ENEL_X",
+            "EV Connect": "EV_CONNECT",
+            "EVgo": "EVGO",
+            "Electric Era": "ELECTRIC_ERA",
+            "EVPassport": "EV_PASSPORT",
+            "Greenspot": "GREENSPOT",
+            "Loop": "LOOP",
+            "Tesla": None, # Ambiguous
+            "Tesla, Inc.": None, # Ambiguous
+            "Tesla Supercharger": "TESLA_SUPERCHARGER",
+            "Volta": "SHELL_RECHARGE",
+        }
 
-    def parse_charge_point(self, element):
+        OSM_NETWORK_WIKIDATA_MAP = {
+            # Tesla, Inc., currently ambiguous
+            "Q478214": None,
+
+            "Q17089620": "TESLA_SUPERCHARGER",
+            "Q5176149": "CHARGEPOINT",
+            "Q59773555": "ELECTRIFY_AMERICA",
+            "Q61803820": "EVGO",
+            "Q62065645": "BLINK",
+            "Q64971203": "FLO",
+            "Q105883058": "SHELL_RECHARGE",
+            "Q109307156": "SHELL_RECHARGE", # Volta
+            "Q126652985": "EV_CONNECT",
+        }
+
+        OSM_OPERATOR_NAME_MAP = {
+            "Bread Euphoria": None, # Non-networked
+            "City of Melrose": None, # ChargePoint via Brand
+            "City of Newton": None, # ChargePoint via Brand
+            "National Grid": None, # Non-networked
+            "Regus": None,  # Non-networked
+            "Town of Bolton": None,
+            "Whole Foods": None,
+            "Mass Audubon": None,
+
+            "Tesla, Inc.": None, # Ambiguous
+            "Tesla Motors": None, # Ambiguous
+
+            "AmpUp": "AMP_UP",
+            "ChargePoint": "CHARGEPOINT",
+            "Shell Recharge Solutions": "SHELL_RECHARGE",
+        }
+
+        OSM_OPERATOR_WIKIDATA_NETWORK_MAP = {
+            # ABB Group
+            "Q52825": None,
+            # Tesla, Inc., currently ambiguous
+            "Q478214": None,
+            # AeroVironment
+            "Q919300": None,
+            # NRG Energy, most likely EVgo
+            "Q6955139": "EVGO",
+
+            "Q5176149": "CHARGEPOINT",
+            "Q59773555": "ELECTRIFY_AMERICA",
+            "Q61803820": "EVGO",
+            "Q62065645": "BLINK",
+            "Q64971203": "FLO",
+            "Q105883058": "SHELL_RECHARGE",
+            "Q109307156": "SHELL_RECHARGE", # Volta
+        }
+
+        OSM_BRAND_NAME_NETWORK_MAP = {
+            "ABB": None, # Non-networked
+            "ChargePoint": "CHARGEPOINT",
+            "Enel": "ENEL_X",
+            "Tesla, Inc.": None, # Ambiguous
+            "Tesla Supercharger": "TESLA_SUPERCHARGER",
+            "Volta": "SHELL_RECHARGE",
+            "WattZilla": None, # Non-networked
+        }
+
+        OSM_BRAND_WIKIDATA_NETWORK_MAP = {
+            # ABB Group
+            "Q52825": None,
+            # Tesla, Inc., currently ambiguous
+            "Q478214": None,
+            # AeroVironment
+            "Q919300": None,
+
+            "Q5176149": "CHARGEPOINT",
+            "Q17089620": "TESLA_SUPERCHARGER",
+            "Q61803820": "EVGO",
+            "Q105883058": "SHELL_RECHARGE",
+        }
+
+        if "no:network" in tags:
+            return "NON_NETWORKED"
+
+        if "network:wikidata" in tags:
+            if network := OSM_NETWORK_WIKIDATA_MAP[tags["network:wikidata"]]:
+                return network
+
+        if "network" in tags:
+            if network := OSM_NETWORK_NAME_MAP[tags["network"]]:
+                return network
+
+        if "operator:wikidata" in tags:
+            if network := OSM_OPERATOR_WIKIDATA_NETWORK_MAP[tags["operator:wikidata"]]:
+                return network
+
+        if "operator" in tags:
+            if network := OSM_OPERATOR_NAME_MAP[tags["operator"]]:
+                return network
+
+        if "brand:wikidata" in tags:
+            if network := OSM_BRAND_WIKIDATA_NETWORK_MAP[tags["brand:wikidata"]]:
+                return network
+
+        if "brand" in tags:
+            if network := OSM_BRAND_NAME_NETWORK_MAP[tags["brand"]]:
+                return network
+
+        if "name" in tags:
+            station_name = tags["name"].lower()
+
+            if "supercharger" in station_name or "super charger" in station_name:
+                return "TESLA_SUPERCHARGER"
+
+            if "tesla" in station_name and "destination" in station_name:
+                return "TESLA_DESTINATION"
+
+        return None
+
+
+    def parse_charging_station(self, element) -> StationFeature:
+        station = StationFeature(
+            address=AddressFeature(),
+            source=SourceFeature(
+                quality="CURATED",
+                system="OPEN_STREET_MAP",
+            ),
+            references=[],
+        )
+        station["references"].append(
+            ReferenceFeature(
+                identifier=f"{element["type"]}:{element["id"]}",
+                system="OPEN_STREET_MAP",
+            )
+        )
+
+        if element["type"] == "node":
+            station["location"] = LocationFeature(
+                latitude=element["lat"],
+                longitude=element["lon"],
+            )
+
+        if element["type"] in ["way", "relation"]:
+            station["location"] = LocationFeature(
+                latitude=(element["bounds"]["minlat"] + element["bounds"]["maxlat"]) / 2,
+                longitude=(element["bounds"]["minlon"] + element["bounds"]["maxlon"]) / 2,
+            )
+
+        tags = element["tags"]
+
+        if "name" in tags:
+            station_name = tags["name"]
+
+            EXCLUDED_NAMES = [
+                "evgo",
+                "chargepoint",
+                "tesla destination charger",
+                "tesla supercharger",
+                "tesla supercharging station",
+            ]
+
+            if station_name.lower() not in EXCLUDED_NAMES:
+                station["name"] = station_name
+
+        if "addr:housenumber" in tags and "addr:street" in tags:
+            station["address"]["street_address"] = f'{tags["addr:housenumber"]} {tags["addr:street"]}'
+
+        if "addr:city" in tags:
+            station["address"]["city"] = tags["addr:city"]
+
+        if "addr:state" in tags:
+            station["address"]["state"] = tags["addr:state"]
+
+        if "addr:postcode" in tags:
+            station["address"]["zip_code"] = tags["addr:postcode"]
+
+        if "ref:ocm" in tags:
+            for ocm_id in tags["ref:ocm"].split(";"):
+                station["references"].append(
+                    ReferenceFeature(
+                        identifier=ocm_id,
+                        system="OPEN_CHARGE_MAP",
+                    )
+                )
+
+        if "ref:afdc" in tags:
+            for nrel_id in tags["ref:afdc"].split(";"):
+                station["references"].append(
+                    ReferenceFeature(
+                        identifier=nrel_id,
+                        system="ALTERNATIVE_FUEL_DATA_CENTER",
+                    )
+                )
+
+        if "ref:ocpi" in tags:
+            for network_id in tags["ref:ocpi"].split(";"):
+                station["references"].append(
+                    ReferenceFeature(
+                        identifier=network_id,
+                        system="OCPI",
+                    )
+                )
+
+        station["network"] = self.network_from_osm_tags(tags)
+
+        return station
+
+    def parse_charge_point(self, element) -> ChargingPointFeature:
         pass

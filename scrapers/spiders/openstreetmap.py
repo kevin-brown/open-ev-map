@@ -1,11 +1,20 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, LocationFeature, ReferenceFeature, SourceFeature, StationFeature
 
+from geopy import distance
 import scrapy
 import shapely
 
 
 class OpenStreetMapSpider(scrapy.Spider):
     name = "openstreetmap"
+
+    EXCLUDED_NAMES = [
+        "evgo",
+        "chargepoint",
+        "tesla destination charger",
+        "tesla supercharger",
+        "tesla supercharging station",
+    ]
 
     def start_requests(self):
         yield scrapy.http.JsonRequest(
@@ -33,15 +42,13 @@ class OpenStreetMapSpider(scrapy.Spider):
             if element["tags"].get("man_made") != "charge_point":
                 continue
 
-            continue
-
             charge_point = self.parse_charge_point(element)
 
             charge_point_associated = False
 
             for station_id, station_boundary in station_bounds.items():
-                if shapely.contains(station_boundary, charge_point.location.get().point):
-                    stations[station_id].charging_points.append(charge_point)
+                if shapely.contains(station_boundary, charge_point["location"].point()):
+                    stations[station_id]["charging_points"].append(charge_point)
 
                     charge_point_associated = True
 
@@ -59,7 +66,7 @@ class OpenStreetMapSpider(scrapy.Spider):
 
             for member in element["members"]:
                 if member["ref"] in charge_points:
-                    stations[element["id"]].charging_points.append(charge_points[member["ref"]])
+                    stations[element["id"]]["charging_points"].append(charge_points[member["ref"]])
                     del charge_points[member["ref"]]
 
         charge_points_found = []
@@ -68,7 +75,7 @@ class OpenStreetMapSpider(scrapy.Spider):
             charge_point_network = charge_point._osm_network
 
             for station_id, station in stations.items():
-                if charge_point_network != station.network:
+                if charge_point_network != station["network"]:
                     continue
 
                 charge_point_distance_to_station = self.get_station_distance(station, charge_point)
@@ -76,7 +83,7 @@ class OpenStreetMapSpider(scrapy.Spider):
                 if charge_point_distance_to_station.miles > 0.05:
                     continue
 
-                station.charging_points.append(charge_point)
+                station["charging_points"].append(charge_point)
 
                 charge_points_found.append(charge_point_id)
 
@@ -96,7 +103,15 @@ class OpenStreetMapSpider(scrapy.Spider):
         )
 
     def get_station_distance(self, station, charging_point):
-        pass
+        first_location = station["location"]
+        second_location = charging_point["location"]
+
+        first_coordinates = first_location.coordinates()
+        second_coordinates = second_location.coordinates()
+
+        station_distance = distance.great_circle(first_coordinates, second_coordinates)
+
+        return station_distance
 
     def network_from_osm_tags(self, tags) -> str:
         OSM_NETWORK_NAME_MAP = {
@@ -236,6 +251,7 @@ class OpenStreetMapSpider(scrapy.Spider):
     def parse_charging_station(self, element) -> StationFeature:
         station = StationFeature(
             address=AddressFeature(),
+            charging_points=[],
             source=SourceFeature(
                 quality="CURATED",
                 system="OPEN_STREET_MAP",
@@ -266,15 +282,7 @@ class OpenStreetMapSpider(scrapy.Spider):
         if "name" in tags:
             station_name = tags["name"]
 
-            EXCLUDED_NAMES = [
-                "evgo",
-                "chargepoint",
-                "tesla destination charger",
-                "tesla supercharger",
-                "tesla supercharging station",
-            ]
-
-            if station_name.lower() not in EXCLUDED_NAMES:
+            if station_name.lower() not in self.EXCLUDED_NAMES:
                 station["name"] = station_name
 
         if "addr:housenumber" in tags and "addr:street" in tags:
@@ -321,4 +329,37 @@ class OpenStreetMapSpider(scrapy.Spider):
         return station
 
     def parse_charge_point(self, element) -> ChargingPointFeature:
-        pass
+        tags = element["tags"]
+
+        charging_point = ChargingPointFeature(
+            location=LocationFeature(
+                latitude=element["lat"],
+                longitude=element["lon"],
+            ),
+            references=[],
+        )
+
+        charging_point["references"].append(
+            ReferenceFeature(
+                identifier=f"{element["type"]}:{element["id"]}",
+                system="OPEN_STREET_MAP",
+            )
+        )
+
+        if "name" in tags and tags["name"].lower() not in self.EXCLUDED_NAMES:
+            charging_point["name"] = tags["name"]
+        elif "ref" in tags:
+            charging_point["name"] = tags["ref"]
+
+        charging_point._osm_network = self.network_from_osm_tags(tags)
+
+        if "ref:ocpi" in tags:
+            for network_id in tags["ref:ocpi"].split(";"):
+                charging_point["references"].append(
+                    ReferenceFeature(
+                        identifier=network_id,
+                        system="OCPI",
+                    )
+                )
+
+        return charging_point

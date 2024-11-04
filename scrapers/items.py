@@ -1,4 +1,5 @@
 import scrapy
+import shapely
 
 
 class ReferenceFeature(scrapy.Item):
@@ -21,6 +22,12 @@ class AddressFeature(scrapy.Item):
 class LocationFeature(scrapy.Item):
     latitude: float = scrapy.Field()
     longitude: float = scrapy.Field()
+
+    def coordinates(self):
+        return (self["latitude"], self["longitude"])
+
+    def point(self) -> shapely.Point:
+        return shapely.Point(self["latitude"], self["longitude"])
 
 
 class HardwareFeature(scrapy.Item):
@@ -55,6 +62,7 @@ class ChargingPointFeature(scrapy.Item):
     evses: list[EvseFeature] = scrapy.Field()
 
     hardware: HardwareFeature = scrapy.Field()
+    references: list[ReferenceFeature] = scrapy.Field()
 
 
 class StationFeature(scrapy.Item):

@@ -99,15 +99,27 @@ class SuperchargeSpider(scrapy.Spider):
 
                     max_power = min(self.MAX_STALL_POWER[stall_type], station["powerKilowatt"])
 
+                    power = PowerFeature(
+                        output=int(max_power * 1000),
+                    )
+
+                    if stall_type == "v2":
+                        power["voltage"] = 410
+                        power["amperage"] = 350
+                    elif stall_type == "v3":
+                        power["voltage"] = 500
+                        power["amperage"] = 631
+                    elif stall_type == "v4":
+                        power["voltage"] = 1000
+                        power["amperage"] = 615
+
                     plugs = []
 
                     for plug_type in plug_types:
                         plugs.append(
                             ChargingPortFeature(
                                 plug=plug_type,
-                                power=PowerFeature(
-                                    output=int(max_power * 1000),
-                                ),
+                                power=power,
                             )
                         )
 

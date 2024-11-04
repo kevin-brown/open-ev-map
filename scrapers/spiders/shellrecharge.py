@@ -48,7 +48,7 @@ class ShellRechargeSpider(scrapy.Spider):
             charging_points = []
 
             for station_evse in station["evses"]:
-                plugs = []
+                evses = []
 
                 for connector in station_evse["ports"]:
                     power = PowerFeature(
@@ -62,11 +62,18 @@ class ShellRechargeSpider(scrapy.Spider):
 
                         power=power,
                     )
-                    plugs.append(plug)
 
-                evse = EvseFeature(
-                    plugs=plugs,
-                )
+                    evse_id = station_evse["evseEmaid"]
+
+                    if len(station_evse["ports"]) > 1:
+                        evse_id += f"*{connector["portName"]}"
+
+                    evse = EvseFeature(
+                        plugs=[plug],
+                        network_id=evse_id,
+                    )
+
+                    evses.append(evse)
 
                 hardware = HardwareFeature(
                     manufacturer=station_evse["evseManufacturerName"],
@@ -77,7 +84,7 @@ class ShellRechargeSpider(scrapy.Spider):
                     name=station_evse["evseDisplayId"],
                     network_id=station_evse["evseEmaid"],
                     location=location,
-                    evses=[evse],
+                    evses=evses,
                     hardware=hardware,
                 )
                 charging_points.append(charging_point)

@@ -64,10 +64,13 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
     def parse(self, response):
         CHARGING_POINTS_PARSER = {
             "CHARGEPOINT": self.parse_charging_points_chargepoint,
+            "FLO": self.parse_charging_points_flo,
+            "SHELL_RECHARGE": self.parse_charging_points_shell_recharge,
         }
 
         NETWORK_ID_PARSER = {
             "CHARGEPOINT": self.parse_network_id_chargepoint,
+            "SHELL_RECHARGE": self.parse_network_id_first,
         }
 
         stations = response.json()["fuel_stations"]
@@ -164,6 +167,61 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             return [charging_point]
 
         return []
+
+    def parse_charging_points_flo(self, station):
+        connector_types = station["ev_connector_types"]
+
+        if l2_count := station["ev_level2_evse_num"]:
+            charging_points = []
+
+            if "ev_network_ids" in station:
+                station_ids = station["ev_network_ids"]["station"]
+
+                if len(station_ids) > 1:
+                    print(station)
+                    raise
+
+                plugs = []
+
+                for connector_type in connector_types:
+                    plugs.append(
+                        ChargingPortFeature(
+                            plug=self.CONNECTOR_TO_PLUG_MAP[connector_type],
+                        )
+                    )
+
+                for i in range(l2_count):
+                    charging_point = ChargingPointFeature(
+                        name=station["station_name"],
+                        evses=[
+                            EvseFeature(
+                                plugs=plugs,
+                            ),
+                        ],
+                    )
+
+                    charging_points.append(charging_point)
+
+            return charging_points
+
+        return []
+
+    def parse_charging_points_shell_recharge(self, station):
+
+
+        return []
+
+    def parse_network_id_first(self, station):
+        if "ev_network_ids" not in station:
+            return ""
+
+        station_ids = station["ev_network_ids"]["station"]
+
+        if len(station_ids) > 1:
+            print(station)
+            raise
+
+        return station_ids[0]
 
     def parse_network_id_chargepoint(self, station):
         if "ev_network_ids" not in station:

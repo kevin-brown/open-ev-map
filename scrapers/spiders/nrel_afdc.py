@@ -71,6 +71,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
 
         NETWORK_ID_PARSER = {
             "CHARGEPOINT": self.parse_network_id_chargepoint,
+            "FLO": self.parse_network_id_first,
             "SHELL_RECHARGE": self.parse_network_id_first,
         }
 

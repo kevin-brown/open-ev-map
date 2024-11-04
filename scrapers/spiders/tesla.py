@@ -1,6 +1,7 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 import scrapy
+import shapely
 
 import re
 import string
@@ -21,8 +22,20 @@ class TeslaSpider(scrapy.Spider):
     def parse_locations(self, response):
         locations = response.json()
 
+        MA_BOUNDARY = shapely.box(
+            xmin=43.0,
+            xmax=-69.6,
+            ymin=41.0,
+            ymax=-73.6,
+        )
+
         for location in locations:
             if location["open_soon"] == "1":
+                continue
+
+            coordinates = shapely.Point(location["latitude"], location["longitude"])
+
+            if not MA_BOUNDARY.contains(coordinates):
                 continue
 
             charger_types = ["destination charger", "supercharger"]
@@ -135,7 +148,9 @@ class TeslaSpider(scrapy.Spider):
 
     def parse_supercharger(self, location):
         charger_info = location["chargers"]
-        charger_count_matches = re.findall(r"(\d+) Superchargers up to (\d+)kW(, Available 24/7)?(</p><br /><i>NACS Adapter Required to Charge at this Supercharger. This Supercharger is Open to Tesla and NACS Enabled Vehicles with CCS Compatibility)?", charger_info)
+        charger_count_matches = re.findall(r"(\d+) Superchargers up to (\d+)kW(, Available 24/7)?", charger_info)
+
+        has_ccs = "Other EVs with CCS compatibility" in charger_info
 
         charging_points = []
 
@@ -143,9 +158,9 @@ class TeslaSpider(scrapy.Spider):
 
         if charger_count_matches:
             for match in charger_count_matches:
-                charger_speeds.append([int(match[0]), int(match[1]), bool(match[3])])
+                charger_speeds.append([int(match[0]), int(match[1])])
 
-        for charger_count, charger_power, has_ccs in charger_speeds:
+        for charger_count, charger_power in charger_speeds:
             plugs = ["NACS"]
             if has_ccs:
                 plugs.append("J1772_COMBO")
@@ -155,7 +170,7 @@ class TeslaSpider(scrapy.Spider):
                 )
 
         if len(charger_speeds) == 1:
-            charger_count, charger_power, _ = charger_speeds[0]
+            charger_count, charger_power = charger_speeds[0]
             for i in range(charger_count):
                 if charger_power == 150:
                     letter = string.ascii_uppercase[(i % 2)]

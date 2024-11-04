@@ -3,7 +3,7 @@ import scrapy
 
 from urllib.parse import urlencode
 
-from scrapers.items import AddressFeature, LocationFeature, ReferenceFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, ReferenceFeature, StationFeature
 
 
 class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
@@ -40,6 +40,13 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
         "Volta": "VOLTA",
     }
 
+    CONNECTOR_TO_PLUG_MAP = {
+        "CHADEMO": "CHADEMO",
+        "TESLA": "NACS",
+        "J1772": "J1772_CABLE",
+        "J1772COMBO": "J1772_COMBO",
+    }
+
     def start_requests(self):
         settings = get_project_settings()
 
@@ -55,6 +62,14 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
         )
 
     def parse(self, response):
+        CHARGING_POINTS_PARSER = {
+            "CHARGEPOINT": self.parse_charging_points_chargepoint,
+        }
+
+        NETWORK_ID_PARSER = {
+            "CHARGEPOINT": self.parse_network_id_chargepoint,
+        }
+
         stations = response.json()["fuel_stations"]
 
         for station in stations:
@@ -80,14 +95,24 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             )
 
             network = self.NETWORK_MAP[station["ev_network"]]
-            network_id = ""
-            charging_points = []
 
-            if network == "CHARGEPOINT":
-                network_id = self.parse_network_id_chargepoint(station)
+            if network in NETWORK_ID_PARSER:
+                network_id = NETWORK_ID_PARSER[network](station)
+            else:
+                network_id = ""
+
+            if network in CHARGING_POINTS_PARSER:
+                charging_points = CHARGING_POINTS_PARSER[network](station)
+            else:
+                charging_points = []
+
+            if station["nps_unit_name"]:
+                station_name = station["nps_unit_name"]
+            else:
+                station_name = station["station_name"]
 
             yield StationFeature(
-                name=station["station_name"],
+                name=station_name,
                 address=address,
                 location=coordinates,
                 network=network,
@@ -95,6 +120,50 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
                 charging_points=charging_points,
                 references=references,
             )
+
+    def parse_charging_points_chargepoint(self, station):
+        connector_types = station["ev_connector_types"]
+
+        if l2_count := station["ev_level2_evse_num"]:
+            evses = []
+
+            if "ev_network_ids" in station:
+                if "NEMA515" in connector_types:
+                    return []
+
+                station_ids = station["ev_network_ids"]["station"]
+
+                if len(station_ids) > 1:
+                    print(station)
+                    raise
+
+                cp_id = station_ids[0][6:]
+
+                plugs = []
+
+                for connector_type in connector_types:
+                    plugs.append(
+                        ChargingPortFeature(
+                            plug=self.CONNECTOR_TO_PLUG_MAP[connector_type],
+                        )
+                    )
+
+                for i in range(l2_count):
+                    evses.append(
+                        EvseFeature(
+                            plugs=plugs,
+                            network_id=f"US*CPI*E{cp_id}*{i+1}"
+                        )
+                    )
+
+            charging_point = ChargingPointFeature(
+                name=station["station_name"],
+                evses=evses,
+            )
+
+            return [charging_point]
+
+        return []
 
     def parse_network_id_chargepoint(self, station):
         if "ev_network_ids" not in station:

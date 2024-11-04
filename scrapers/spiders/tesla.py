@@ -100,8 +100,6 @@ class TeslaSpider(scrapy.Spider):
             hardware["model"] = "Urban Charger"
         elif charger_power == 150:
             hardware["model"] = "V2 Charger"
-        elif charger_power == 250 and "J1772_COMBO" not in plug_types:
-            hardware["model"] = "V3 Charger"
 
         if charger_power > 50:
             hardware["brand"] = "TESLA_SUPERCHARGER"

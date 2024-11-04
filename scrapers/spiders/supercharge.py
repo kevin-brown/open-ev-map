@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, SourceFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, ReferenceFeature, SourceFeature, StationFeature
 
 import scrapy
 
@@ -30,6 +30,15 @@ class SuperchargeSpider(scrapy.Spider):
             if station_address["state"] != "MA":
                 continue
 
+            references = None
+            if "osmId" in station:
+                references = [
+                    ReferenceFeature(
+                        identifier=f"node:{station["osmId"]}",
+                        system="OPEN_STREET_MAP",
+                    )
+                ]
+
             address = AddressFeature(
                 street_address=station_address["street"],
                 city=station_address["city"],
@@ -49,4 +58,5 @@ class SuperchargeSpider(scrapy.Spider):
                     quality="CURATED",
                     system="SUPERCHARGE",
                 ),
+                references=references,
             )

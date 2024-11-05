@@ -65,6 +65,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
     def parse(self, response):
         CHARGING_POINTS_PARSER = {
             "CHARGEPOINT": self.parse_charging_points_chargepoint,
+            "ELECTRIC_ERA": self.parse_charging_points_electric_era,
             "ELECTRIFY_AMERICA": self.parse_charging_points_electrify_america,
             "EV_CONNECT": self.parse_charging_points_ev_connect,
             "FLO": self.parse_charging_points_flo,
@@ -177,6 +178,33 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             return [charging_point]
 
         return []
+
+    def parse_charging_points_electric_era(self, station):
+        charging_points = []
+
+        for _ in range(station["ev_dc_fast_num"] // 2):
+            charging_points.append(
+                ChargingPointFeature(
+                    evses=[
+                        EvseFeature(
+                            plugs=[
+                                ChargingPortFeature(
+                                    plug="J1772_COMBO",
+                                ),
+                            ],
+                        ),
+                        EvseFeature(
+                            plugs=[
+                                ChargingPortFeature(
+                                    plug="J1772_COMBO",
+                                ),
+                            ],
+                        ),
+                    ]
+                )
+            )
+
+        return charging_points
 
     def parse_charging_points_electrify_america(self, station):
         charging_points = []

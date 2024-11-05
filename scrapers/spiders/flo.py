@@ -164,12 +164,12 @@ class FloSpider(scrapy.Spider):
             evses = [
                 EvseFeature(
                     plugs=ports,
+                    network_id=f"US*FL2*E{station["name"]}*1",
                 )
             ]
 
             charging_point = ChargingPointFeature(
                 name=station["name"],
-                network_id=f"US*FL2*E{station["name"]}*1",
                 evses=evses,
             )
             charging_points.append(charging_point)

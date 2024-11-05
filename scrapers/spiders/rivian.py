@@ -1,6 +1,6 @@
 import scrapy
 
-from scrapers.items import AddressFeature, LocationFeature, StationFeature
+from scrapers.items import AddressFeature, LocationFeature, SourceFeature, StationFeature
 
 
 class RivianSpider(scrapy.Spider):
@@ -119,4 +119,8 @@ class RivianSpider(scrapy.Spider):
                 network=network,
                 location=coordinates,
                 address=address,
+                source=SourceFeature(
+                    quality="ORIGINAL",
+                    system="RIVIAN_EG_MAP",
+                ),
             )

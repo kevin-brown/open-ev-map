@@ -64,6 +64,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
 
     def parse(self, response):
         CHARGING_POINTS_PARSER = {
+            "BLINK": self.parse_charging_points_blink,
             "CHARGEPOINT": self.parse_charging_points_chargepoint,
             "ELECTRIC_ERA": self.parse_charging_points_electric_era,
             "ELECTRIFY_AMERICA": self.parse_charging_points_electrify_america,
@@ -74,6 +75,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
         }
 
         NETWORK_ID_PARSER = {
+            "BLINK": self.parse_network_id_first,
             "CHARGEPOINT": self.parse_network_id_chargepoint,
             "ELECTRIFY_AMERICA": self.parse_network_id_first,
             "EV_CONNECT": self.parse_network_id_first,
@@ -135,6 +137,33 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
                     system="ALTERNATIVE_FUEL_DATA_CENTER",
                 ),
             )
+
+    def parse_charging_points_blink(self, station):
+        connector_types = station["ev_connector_types"]
+        plugs = []
+
+        for connector_type in connector_types:
+            plugs.append(
+                ChargingPortFeature(
+                    plug=self.CONNECTOR_TO_PLUG_MAP[connector_type],
+                )
+            )
+
+        charging_points = []
+
+        for post_id in station["ev_network_ids"]["posts"]:
+            charging_points.append(
+                ChargingPointFeature(
+                    evses=[
+                        EvseFeature(
+                            plugs=plugs,
+                            network_id=post_id,
+                        )
+                    ]
+                )
+            )
+
+        return charging_points
 
     def parse_charging_points_chargepoint(self, station):
         connector_types = station["ev_connector_types"]

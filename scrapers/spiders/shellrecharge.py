@@ -31,6 +31,7 @@ class ShellRechargeSpider(scrapy.Spider):
                     "GRL",
 
                     "EVC",
+                    "FL2",
                 ]
             },
             method="POST",
@@ -44,6 +45,8 @@ class ShellRechargeSpider(scrapy.Spider):
                 yield self.parse_station_greenlots(station)
             elif station["cpoId"] == "EVC":
                 yield self.parse_station_evconnect(station)
+            elif station["cpoId"] == "FL2":
+                yield self.parse_station_flo(station)
             else:
                 raise
 
@@ -94,6 +97,60 @@ class ShellRechargeSpider(scrapy.Spider):
             charging_points[charging_point_name]["evses"] = evses
 
         parsed_station["charging_points"] = list(charging_points.values())
+
+        return parsed_station
+
+    def parse_station_flo(self, station):
+        parsed_station = self.parse_base_station(station)
+
+        parsed_station["network"] = "FLO"
+        parsed_station["network_id"] = station["locationId"][4:]
+
+        parsed_station["source"] = SourceFeature(
+            quality="PARTNER",
+            system="SHELL_RECHARGE_GREENLOTS",
+        )
+
+        charging_points = []
+
+        for station_evse in station["evses"]:
+            evses = []
+
+            plugs_for_evse = defaultdict(list)
+
+            for connector in station_evse["ports"]:
+                power = PowerFeature(
+                    amperage=int(connector["current"]),
+                    voltage=connector["voltage"],
+                    output=int(connector["maxElectricPower"]),
+                )
+
+                plug = ChargingPortFeature(
+                    plug=self.PLUG_TYPE_TO_PLUG_MAP[connector["plugType"]],
+
+                    power=power,
+                )
+
+                evse_id = station_evse["evseEmaid"]
+
+                plugs_for_evse[evse_id].append(plug)
+
+            for evse_id, plugs in plugs_for_evse.items():
+                evse = EvseFeature(
+                    plugs=plugs,
+                    network_id=evse_id,
+                )
+
+                evses.append(evse)
+
+            charging_point = ChargingPointFeature(
+                name=station_evse["evseDisplayId"],
+                location=parsed_station["location"],
+                evses=evses,
+            )
+            charging_points.append(charging_point)
+
+        parsed_station["charging_points"] = charging_points
 
         return parsed_station
 

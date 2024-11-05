@@ -79,6 +79,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             "CHARGEPOINT": self.parse_network_id_chargepoint,
             "ELECTRIFY_AMERICA": self.parse_network_id_first,
             "EV_CONNECT": self.parse_network_id_first,
+            "EVGO": self.parse_network_id_first,
             "FLO": self.parse_network_id_first,
             "SHELL_RECHARGE": self.parse_network_id_first,
         }

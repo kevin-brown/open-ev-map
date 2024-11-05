@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, ReferenceFeature, SourceFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, ReferenceFeature, SourceFeature, StationFeature
 
 from scrapy.utils.project import get_project_settings
 import scrapy
@@ -69,6 +69,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             "ELECTRIFY_AMERICA": self.parse_charging_points_electrify_america,
             "EV_CONNECT": self.parse_charging_points_ev_connect,
             "FLO": self.parse_charging_points_flo,
+            "RIVIAN_ADVENTURE": self.parse_charging_points_rivian_adventure,
             "SHELL_RECHARGE": self.parse_charging_points_shell_recharge,
         }
 
@@ -299,6 +300,35 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             return charging_points
 
         return []
+
+    def parse_charging_points_rivian_adventure(self, station):
+        connector_types = station["ev_connector_types"]
+        plugs = []
+
+        for connector_type in connector_types:
+            plugs.append(
+                ChargingPortFeature(
+                    plug=self.CONNECTOR_TO_PLUG_MAP[connector_type],
+                )
+            )
+
+        charging_point_name = station["station_name"].split("(", 1)[1][:-1]
+
+        return [
+            ChargingPointFeature(
+                name=charging_point_name,
+                network_id=station["ev_network_ids"]["station"][0],
+                evses=[
+                    EvseFeature(
+                        plugs=plugs,
+                        network_id=station["ev_network_ids"]["posts"][0],
+                    )
+                ],
+                hardware=HardwareFeature(
+                    brand="RIVIAN",
+                )
+            )
+        ]
 
     def parse_charging_points_shell_recharge(self, station):
         if "ev_network_ids" not in station:

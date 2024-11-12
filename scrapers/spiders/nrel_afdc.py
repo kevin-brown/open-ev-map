@@ -20,6 +20,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
         "ChargePoint Network": "CHARGEPOINT",
         "CHARGESMART_EV": None,
         "Electrify America": "ELECTRIFY_AMERICA",
+        "Enel X Way": "ENEL_X",
         "EV Connect": "EV_CONNECT",
         "EVGATEWAY": "EV_GATEWAY",
         "eVgo Network": "EVGO",

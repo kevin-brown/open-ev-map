@@ -1,4 +1,4 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
+from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
 import scrapy
 
@@ -17,40 +17,73 @@ class ChargePointSpider(scrapy.Spider):
         "SAE-Combo-CCS1": "J1772_COMBO",
 
         "NEMA": None,
+        "Combo": "J1772_COMBO",
+        "SAE-Combo-CCS1": "J1772_COMBO",
     }
 
-    def _query_for_bounding_box(self, query_type, sw_lon, sw_lat, ne_lon, ne_lat):
+    def _filter_for_query(self):
         return {
-            query_type: {
-                "screen_width": 1024,
-                "screen_height": 1024,
-                "sw_lon": sw_lon,
-                "sw_lat": sw_lat,
-                "ne_lon": ne_lon,
+            "price_free": False,
+            "status_available": False,
+            "dc_fast_charging": False,
+            "disabled_parking": False,
+            "van_accessible": False,
+            "connector_my_EV": False,
+            "network_bchydro": False,
+            "network_blink": False,
+            "network_chargepoint": True,
+            "network_circuitelectric": False,
+            "network_evconnect": False,
+            "network_evgo": False,
+            "network_flo": False,
+            "network_greenlots": False,
+            "network_mercedes": False,
+            "network_semacharge": False,
+            "connector_l1": False,
+            "connector_l2": False,
+            "connector_l2_nema_1450": False,
+            "connector_l2_tesla": False,
+            "connector_chademo": False,
+            "connector_combo": False,
+            "connector_tesla": False
+        }
+
+    def _map_query_for_bounding_box(self, sw_lon, sw_lat, ne_lon, ne_lat):
+        return {
+            "map_data": {
+                "screen_width": 1150,
+                "screen_height": 1255,
                 "ne_lat": ne_lat,
-                "filter": {
-                    "connector_l1": False,
-                    "connector_l2": False,
-                    "is_bmw_dc_program": False,
-                    "is_nctc_program": False,
-                    "connector_chademo": False,
-                    "connector_combo": False,
-                    "connector_tesla": False,
-                    "price_free": False,
-                    "status_available": False,
-                    "network_chargepoint": True,
-                    "network_blink": False,
-                    "network_semacharge": False,
-                    "network_evgo": False,
-                    "connector_l2_nema_1450": False,
-                    "connector_l2_tesla": False,
-                },
+                "ne_lon": ne_lon,
+                "sw_lat": sw_lat,
+                "sw_lon": sw_lon,
+                "filter": self._filter_for_query(),
+                "bound_output": True,
+            }
+        }
+
+    def _station_query_for_bounding_box(self, sw_lon, sw_lat, ne_lon, ne_lat):
+        return {
+            "station_list": {
+                "screen_width": 1150,
+                "screen_height": 1255,
+                "ne_lat": ne_lat,
+                "ne_lon": ne_lon,
+                "sw_lat": sw_lat,
+                "sw_lon": sw_lon,
+                "page_size": 10,
+                "page_offset": "",
+                "sort_by": "distance",
+                "reference_lat": (sw_lat + ne_lat) / 2,
+                "reference_lon": (sw_lon + ne_lon) / 2,
+                "include_map_bound": True,
+                "filter": self._filter_for_query(),
+                "bound_output": True,
             }
         }
 
     def start_requests(self):
-        query = self._query_for_bounding_box(
-            "map_data",
+        query = self._map_query_for_bounding_box(
             ne_lat=43.0,
             ne_lon=-69.6,
             sw_lat=41.0,
@@ -58,15 +91,17 @@ class ChargePointSpider(scrapy.Spider):
         )
 
         yield scrapy.http.JsonRequest(
-            url="https://mc.chargepoint.com/map-prod/get?" + urllib.parse.quote(json.dumps(query).encode("utf8")),
-            method="GET",
+            url="https://mc.chargepoint.com/map-prod/v2?" + json.dumps(query, separators=(',', ':')),
+            method="POST",
+            callback=self.parse_map_data,
         )
 
-    def parse(self, response):
+    def parse_map_data(self, response):
         response_data = response.json()["map_data"]
 
-        for summary in response_data.get("summaries"):
-            port_count = summary.get("port_count", {}).get("total", 0)
+        for summary in response_data.get("blobs"):
+            port_count = sum(list(summary.get("port_count", {}).values()))
+            bounds = summary["bounds"]
 
             if port_count < 100:
                 # If there's a small-ish number of ports in this summary bounding box
@@ -75,101 +110,114 @@ class ChargePointSpider(scrapy.Spider):
                 # If there's a single station here, the bounding box will have zero area
                 # around the point, and the API doesn't like that. So we make it a little
                 # bigger manually.
-                if summary["ne_lon"] - summary["sw_lon"] < 0.001:
-                    summary["ne_lon"] += 0.01
-                    summary["sw_lon"] -= 0.01
-                if summary["ne_lat"] - summary["sw_lat"] < 0.001:
-                    summary["ne_lat"] += 0.01
-                    summary["sw_lat"] -= 0.01
+                if bounds["ne_lon"] - bounds["sw_lon"] < 0.001:
+                    bounds["ne_lon"] += 0.01
+                    bounds["sw_lon"] -= 0.01
+                if bounds["ne_lat"] - bounds["sw_lat"] < 0.001:
+                    bounds["ne_lat"] += 0.01
+                    bounds["sw_lat"] -= 0.01
 
-                query = self._query_for_bounding_box("station_list", summary["sw_lon"], summary["sw_lat"], summary["ne_lon"], summary["ne_lat"])
+                query = self._station_query_for_bounding_box(bounds["sw_lon"], bounds["sw_lat"], bounds["ne_lon"], bounds["ne_lat"])
 
                 yield scrapy.http.JsonRequest(
-                    url="https://mc.chargepoint.com/map-prod/get?"
-                    + urllib.parse.quote(json.dumps(query).encode("utf8")),
-                    method="GET",
+                    url="https://mc.chargepoint.com/map-prod/v2?"
+                    + json.dumps(query, separators=(',', ':')),
+                    method="POST",
                     callback=self.parse_station_list,
                 )
-
             else:
                 # Otherwise make another map data request for the summary bounding box, simulating zooming in
-                query = self._query_for_bounding_box("map_data", summary["sw_lon"], summary["sw_lat"], summary["ne_lon"], summary["ne_lat"])
+                query = self._map_query_for_bounding_box(bounds["sw_lon"], bounds["sw_lat"], bounds["ne_lon"], bounds["ne_lat"])
 
                 yield scrapy.http.JsonRequest(
-                    url="https://mc.chargepoint.com/map-prod/get?"
-                    + urllib.parse.quote(json.dumps(query).encode("utf8")),
-                    method="GET",
+                    url="https://mc.chargepoint.com/map-prod/v2?"
+                    + json.dumps(query, separators=(',', ':')),
+                    method="POST",
+                    callback=self.parse_map_data,
                 )
 
     def parse_station_list(self, response):
         station_list = response.json()["station_list"]
 
-        PORT_TYPE_TO_PLUG_TYPE_MAP = {}
+        for station in station_list["stations"]:
+            yield scrapy.http.JsonRequest(
+                url=f"https://mc.chargepoint.com/map-prod/v3/station/info?deviceId={station["device_id"]}",
+                method="GET",
+                callback=self.parse_device_info,
+            )
 
-        for port_type_id, port_details in station_list.get("port_type_info", {}).items():
-            PORT_TYPE_TO_PLUG_TYPE_MAP[int(port_type_id)] = self.CONNECTOR_TYPE_TO_PLUG_TYPE_MAP[port_details["name"]]
+    def parse_device_info(self, response):
+        data = response.json()
 
-        for summary in station_list.get("summaries"):
-            station_name = " ".join(summary.get("station_name", [])) or None
+        if data["network"]["name"] == "ChargePoint Network":
+            yield from self.parse_device_chargpoint(data)
+        else:
+            print(data)
+            raise
 
-            location = LocationFeature(**{
-                "latitude": summary["lat"],
-                "longitude": summary["lon"],
-            })
-            address = AddressFeature(**{
-                "city": summary.get("address", {}).get("city"),
-                "state": summary.get("address", {}).get("state_name"),
-                "street_address": summary.get("address", {}).get("address1"),
-            })
+    def parse_device_chargpoint(self, data):
+        station_name = " ".join(data["name"])
 
-            evses = []
+        location = LocationFeature(**{
+            "latitude": data["latitude"],
+            "longitude": data["longitude"],
+        })
+        address = AddressFeature(**{
+            "city": data.get("address", {}).get("city"),
+            "state": data.get("address", {}).get("state"),
+            "street_address": data.get("address", {}).get("address1"),
+        })
 
-            for key, outlet in summary["port_status"].items():
-                plugs = []
+        evses = []
 
-                plug_types = [key for key in outlet.keys() if key.startswith("plug_type")]
+        for port in data["portsInfo"]["ports"]:
+            plugs = []
 
-                if not plug_types:
-                    plug = ChargingPortFeature(**{
-                        "plug": PORT_TYPE_TO_PLUG_TYPE_MAP[outlet["port_type"]],
-                    })
-                    plugs.append(plug)
-                else:
-                    for plug_type in plug_types:
-                        plug = ChargingPortFeature(**{
-                            "plug": PORT_TYPE_TO_PLUG_TYPE_MAP[outlet[plug_type]["port_type"]],
-                        })
+            max_output = port["powerRange"]["max"]
+            port_power = PowerFeature(
+                output=int(float(max_output) * 1000)
+            )
 
-                        if max_output := outlet[plug_type].get("available_power"):
-                            plug["power"] = PowerFeature(
-                                output=int(float(max_output) * 1000)
-                            )
+            for connector in port["connectorList"]:
+                plug_type = connector["plugType"]
 
-                        plugs.append(plug)
+                if plug_type not in self.CONNECTOR_TYPE_TO_PLUG_TYPE_MAP:
+                    plug_type = connector["displayPlugType"]
 
-                evse = EvseFeature(
-                    network_id=f"US*CPI*E{summary["device_id"]}*{key[7:]}",
-                    plugs=plugs,
+                plug = ChargingPortFeature(
+                    plug=self.CONNECTOR_TYPE_TO_PLUG_TYPE_MAP[plug_type],
+                    power=port_power,
                 )
-                evses.append(evse)
 
-            charging_point = ChargingPointFeature(**{
-                "name": station_name,
-                "location": location,
-                "evses": evses,
-            })
+                plugs.append(plug)
 
-            properties = {
-                "network": "CHARGEPOINT",
-                "network_id": f"US*CPI*L{summary["device_id"]}",
-                "name": station_name,
-                "address": address,
-                "location": location,
-                "charging_points": [charging_point],
-                "source": SourceFeature(
-                    quality="ORIGINAL",
-                    system="CHARGEPOINT_MAP_V1",
-                ),
-            }
+            evse = EvseFeature(
+                network_id=f"US*CPI*E{data["deviceId"]}*{port["outletNumber"]}",
+                plugs=plugs,
+            )
+            evses.append(evse)
 
-            yield StationFeature(**properties)
+        charging_point = ChargingPointFeature(
+            name=station_name,
+            location=location,
+            evses=evses,
+            hardware=HardwareFeature(
+                manufacturer="CHARGEPOINT",
+                model=data["modelNumber"],
+            )
+        )
+
+        properties = {
+            "network": "CHARGEPOINT",
+            "network_id": f"US*CPI*L{data["deviceId"]}",
+            "name": station_name,
+            "address": address,
+            "location": location,
+            "charging_points": [charging_point],
+            "source": SourceFeature(
+                quality="ORIGINAL",
+                system="CHARGEPOINT_MAP_V3",
+            ),
+        }
+
+        yield StationFeature(**properties)

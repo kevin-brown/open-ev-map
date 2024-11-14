@@ -142,6 +142,13 @@ class FloSpider(scrapy.Spider):
             zip_code=park["address"]["postalCode"],
         )
 
+        if park["networkId"] == 1:
+            cpo_country = "CA"
+            cpo_id = "FLO"
+        elif park["networkId"] == 6:
+            cpo_country = "US"
+            cpo_id = "FL2"
+
         location = LocationFeature(**park["geoCoordinates"])
 
         charging_points = []
@@ -164,7 +171,7 @@ class FloSpider(scrapy.Spider):
             evses = [
                 EvseFeature(
                     plugs=ports,
-                    network_id=f"US*FL2*E{station["name"]}*1",
+                    network_id=f"{cpo_country}*{cpo_id}*E{station["name"]}*1",
                 )
             ]
 

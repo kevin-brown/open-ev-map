@@ -48,7 +48,7 @@ class ShellRechargeSpider(scrapy.Spider):
                 yield self.parse_station_evconnect(station)
             elif station["cpoId"] == "EVG":
                 yield self.parse_station_evgo(station)
-            elif station["cpoId"] == "FL2":
+            elif station["cpoId"] in ["FLO", "FL2"]:
                 yield self.parse_station_flo(station)
             else:
                 raise

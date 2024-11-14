@@ -4,8 +4,11 @@ import scrapy
 import urllib.parse
 
 
-class EvconnectSpider(scrapy.Spider):
+class EvConnectSpider(scrapy.Spider):
     name = "evconnect"
+    ev_connect_network = "ev-connect"
+    network_name = "EV_CONNECT"
+    ocpi_cpo_id = "EVC"
 
     handle_httpstatus_list = [200, 400]
 
@@ -18,7 +21,7 @@ class EvconnectSpider(scrapy.Spider):
 
     def start_requests(self):
         yield scrapy.http.JsonRequest(
-            url="https://api.evconnect.com/mobile/rest/v6/networks/ev-connect/auth/guest",
+            url=f"https://api.evconnect.com/mobile/rest/v6/networks/{self.ev_connect_network}/auth/guest",
             method="POST",
         )
 
@@ -26,7 +29,7 @@ class EvconnectSpider(scrapy.Spider):
         auth_data = response.json()
 
         yield scrapy.http.JsonRequest(
-            url="https://api.evconnect.com/mobile/rest/v6/networks/ev-connect/locations-geo-search?" + urllib.parse.urlencode({
+            url=f"https://api.evconnect.com/mobile/rest/v6/networks/{self.ev_connect_network}/locations-geo-search?" + urllib.parse.urlencode({
                 "longitude": -71.76,
                 "latitude": 42.13,
                 "distance": 150,
@@ -58,7 +61,7 @@ class EvconnectSpider(scrapy.Spider):
             })
 
         yield scrapy.http.JsonRequest(
-            url="https://api.evconnect.com/mobile/rest/v6/networks/ev-connect/locations",
+            url=f"https://api.evconnect.com/mobile/rest/v6/networks/{self.ev_connect_network}/locations",
             data={
                 "locationIdentifiers": location_identifiers,
                 "powerLevels": [],
@@ -132,12 +135,12 @@ class EvconnectSpider(scrapy.Spider):
         charging_point = ChargingPointFeature(
             name=location["qrCode"],
             evses=evses,
-            network_id=f"US*EVC*E{location["evseId"]}",
+            network_id=f"US*{self.ocpi_cpo_id}*E{location["evseId"]}",
         )
 
         yield StationFeature(
             name=location["locationName"],
-            network="EV_CONNECT",
+            network=self.network_name,
             network_id=location["locationId"],
             location=coordinates,
             charging_points=[charging_point],

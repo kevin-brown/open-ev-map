@@ -47,6 +47,7 @@ class ChargingPortFeature(scrapy.Item):
 
     power: PowerFeature = scrapy.Field()
 
+
 class EvseFeature(scrapy.Item):
     plugs: list[ChargingPortFeature] = scrapy.Field()
 

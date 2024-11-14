@@ -7,6 +7,19 @@ from urllib.parse import urlencode
 import base64
 import json
 
+# AA8
+# AC7 = JuiceNet from eMotorWerks
+# B77
+# D74
+# 64E
+# 64F
+# 0D6 = Enel X post integration
+# 1C9
+# 275 = Enel X Way
+# 6AB =
+# 64F
+# 7FE = JuiceNet from eMotorWerks
+
 
 class EnelXSpider(scrapy.Spider):
     name = "enelx"
@@ -105,6 +118,9 @@ class EnelXSpider(scrapy.Spider):
             if cluster["num"] == 1:
                 auth_data = response.meta["auth"]
 
+                if "CPI" in cluster["serialNumber"]:
+                    continue
+
                 yield scrapy.http.JsonRequest(
                     url=f"https://emobility-us.enelx.com/api/emobility/asset/v2/charging-station/sn/{cluster["serialNumber"]}",
                     headers={
@@ -143,8 +159,6 @@ class EnelXSpider(scrapy.Spider):
 
     def parse_station(self, response):
         data = response.json()["result"]
-
-        print(data)
 
         station = self.parse_station_base(data)
 
@@ -215,7 +229,11 @@ class EnelXSpider(scrapy.Spider):
 
     def parse_station_enel_x(self, data, station):
         station["network"] = "ENEL_X"
-        station["network_id"] = f"{data["country"]}*275*L{data["serialNumber"]}"
+
+        evse_id = data["evses"][0]["evseId"]
+        cpo_id = evse_id[3:6]
+
+        station["network_id"] = f"{data["country"]}*{cpo_id}*L{data["serialNumber"]}"
 
         return station
 

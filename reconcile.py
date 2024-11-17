@@ -66,60 +66,23 @@ class ChargingNetwork(enum.Enum):
 
 
 class SourceLocationQualityScore(enum.Enum):
-    """
-    0  - 10: Automated sources without manual remediation processes
-    11 - 20: Automated sources with manual remediation processes
-    21 - 30: Manually curated source without manual remediation process
-    31 - 40: Manually curated source with manual remediation process
-    """
-    ALTERNATIVE_FUELS_DATA_CENTER = 10
-    ELECTRIC_ERA = 30
-    ELECTRIFY_AMERICA = 30
-    OPEN_CHARGE_MAP = 20
-    OPEN_STREET_MAP = 40
-    SUPERCHARGE = 35
+    CURATED = 40
+    ORIGINAL = 30
+    PARTNER = 20
+    AGGREGATED = 10
 
 
-class SourceLocation(enum.Enum):
-    ALTERNATIVE_FUELS_DATA_CENTER = enum.auto()
-    ELECTRIC_ERA = enum.auto()
-    ELECTRIFY_AMERICA = enum.auto()
-    OPEN_CHARGE_MAP = enum.auto()
-    OPEN_STREET_MAP = enum.auto()
-    SUPERCHARGE = enum.auto()
-
-
-class SourceData(NamedTuple):
-    location: SourceLocation
-    reference: str
-
-    @property
-    def url(self):
-        if self.location == SourceLocation.ALTERNATIVE_FUELS_DATA_CENTER:
-            return f"https://afdc.energy.gov/stations#/station/{self.reference}"
-
-        if self.location == SourceLocation.OPEN_CHARGE_MAP:
-            return f"https://openchargemap.org/site/poi/details/{self.reference}"
-
-        if self.location == SourceLocation.OPEN_STREET_MAP:
-            return f"https://www.openstreetmap.org/node/{self.reference}"
-
-        if self.location == SourceLocation.SUPERCHARGE:
-            return f"https://supercharge.info/map?siteID={self.reference}"
-
-        if self.location == SourceLocation.ELECTRIFY_AMERICA:
-            return f"https://www.electrifyamerica.com/locate-charger/state/city/address/{self.reference}/"
-
-        if self.location == SourceLocation.ELECTRIC_ERA:
-            return "https://electriceratechnologies.com"
+class SourceLocation(NamedTuple):
+    system: str
+    quality: SourceLocationQualityScore
 
 
 class SourcedValue[T](NamedTuple):
-    source: SourceData
+    source: SourceLocation
     value: T
 
     def __repr__(self):
-        return f"<SourcedValue({self.source.location!r}, {self.value!r})>"
+        return f"<SourcedValue({self.source.system!r}, {self.value!r})>"
 
 
 class SourcedAttribute[T]:
@@ -874,14 +837,14 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
 def sourced_attribute_to_geojson_property(sourced_attribute: SourcedAttribute) -> list:
     property_values = []
 
-    for sourced_value in sorted(sourced_attribute.values, key=lambda v: (-SourceLocationQualityScore[v.source.location.name].value, v.value, v.source.url)):
+    for sourced_value in sorted(sourced_attribute.values, key=lambda v: (-v.source.quality.value, v.value)):
         source = sourced_value.source
 
         property_value = {
             "value": sourced_value.value,
             "source": {
-                "name": source.location.name,
-                "url": source.url,
+                "name": source.system,
+                "quality": source.quality.name,
             }
         }
 
@@ -893,7 +856,7 @@ def sourced_attribute_to_geojson_property(sourced_attribute: SourcedAttribute) -
 def addresses_from_station(station: Station) -> list:
     addresses = []
 
-    sourced_information: dict[SourceData, ] = defaultdict(dict)
+    sourced_information: dict[SourceLocation, ] = defaultdict(dict)
 
     for street_address in station.street_address.values:
         sourced_information[street_address.source]["street_address"] = street_address.value
@@ -911,17 +874,55 @@ def addresses_from_station(station: Station) -> list:
         addresses.append({
             "address": address,
             "source": {
-                "name": source.location.name,
-                "url": source.url,
+                "name": source.system,
+                "quality": source.quality.name,
             }
         })
 
-    return sorted(addresses, key=lambda a: (-SourceLocationQualityScore[a["source"]["name"]].value, -len(a["address"]), a["source"]["url"]))
+    return sorted(addresses, key=lambda a: (-SourceLocationQualityScore[a["source"]["quality"]].value, -len(a["address"]), a["source"]["name"]))
 
 
 def parse_stations(raw_contents):
-    pass
+    stations = []
 
+    for raw_station in raw_contents:
+        station = Station()
+
+        print(raw_station)
+
+        source_data = SourceLocation(
+            system=raw_station["source"]["system"],
+            quality=SourceLocationQualityScore[raw_station["source"]["quality"]],
+        )
+
+        if station_name := raw_station.get("name"):
+            station.name.set(SourcedValue(source_data, station_name))
+
+        station_location = Location(
+            latitude=float(raw_station["location"]["latitude"]),
+            longitude=float(raw_station["location"]["longitude"]),
+        )
+        station.location.set(SourcedValue(source_data, station_location))
+
+        if raw_address := raw_station.get("address"):
+            if street_address := raw_address.get("street_address"):
+                if street_address.strip():
+                    station.street_address.set(SourcedValue(source_data, normalize_address_street_address(street_address)))
+
+            if city := raw_address.get("city"):
+                station.city.set(SourcedValue(source_data, city))
+
+            if state := raw_address.get("state"):
+                station.state.set(SourcedValue(source_data, state))
+
+            if zip_code := raw_address.get("zip_code"):
+                station.zip_code.set(SourcedValue(source_data, zip_code))
+
+        station.network = raw_station["network"]
+
+        stations.append(station)
+
+    return stations
 
 scraped_data = pathlib.Path("./scraped_data/")
 
@@ -956,7 +957,7 @@ for station in combined_data:
     if station.name.get():
         station_properties["name"] = sourced_attribute_to_geojson_property(station.name)
     if station.network:
-        station_properties["network"] = station.network.name
+        station_properties["network"] = station.network
     if station.network_id.get():
         station_properties["network_id"] = sourced_attribute_to_geojson_property(station.network_id)
 

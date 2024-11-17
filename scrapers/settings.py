@@ -93,6 +93,6 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 try:
-    from scrapers.local_settings import NREL_API_KEY
+    from scrapers.local_settings import *
 except ImportError:
-    NREL_API_KEY = ""
+    pass

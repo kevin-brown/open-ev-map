@@ -1025,6 +1025,9 @@ for data_file in scraped_data.glob("*.json"):
     if not data_file.is_file():
         continue
 
+    if data_file.name in []:
+        continue
+
     with data_file.open() as fh:
         contents = json.load(fh)
 

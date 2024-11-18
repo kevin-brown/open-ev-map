@@ -139,6 +139,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.256222,
+                    42.528199
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "references": [
+                    {
+                        "name": "OPEN_STREET_MAP",
+                        "url": "https://www.openstreetmap.org/node/6040386533"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.662619,
                     42.61378
                 ]
@@ -3416,7 +3435,7 @@
                         }
                     }
                 ],
-                "network": "EV_CONNECT",
+                "network": "SKYCHARGER",
                 "network_id": [
                     {
                         "value": "f478a73e-43db-4f4a-b37c-a4d1b5e686cc",
@@ -3449,7 +3468,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391ff4c"
+                                "network_id": "US*SKY*E6334036b769d34776391ff4c"
                             },
                             {
                                 "ports": [
@@ -3457,7 +3476,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391ff4d"
+                                "network_id": "US*SKY*E6334036b769d34776391ff4d"
                             }
                         ],
                         "name": "SKY0047"
@@ -3470,7 +3489,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391ff54"
+                                "network_id": "US*SKY*E6334036b769d34776391ff54"
                             },
                             {
                                 "ports": [
@@ -3478,7 +3497,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391ff55"
+                                "network_id": "US*SKY*E6334036b769d34776391ff55"
                             }
                         ],
                         "name": "SKY0051"
@@ -7346,7 +7365,7 @@
                         }
                     }
                 ],
-                "network": "EV_CONNECT",
+                "network": "SKYCHARGER",
                 "network_id": [
                     {
                         "value": "0116cbe1-627f-4c73-807f-81d7d609fa5d",
@@ -7379,7 +7398,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391fef7"
+                                "network_id": "US*SKY*E6334036b769d34776391fef7"
                             },
                             {
                                 "ports": [
@@ -7387,7 +7406,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391fef8"
+                                "network_id": "US*SKY*E6334036b769d34776391fef8"
                             }
                         ],
                         "name": "SKY0006"
@@ -7456,6 +7475,7 @@
                         }
                     }
                 ],
+                "network": "SWTCH",
                 "address": [
                     {
                         "address": {
@@ -8057,14 +8077,6 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/330945"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/330941"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/330944"
                     },
                     {
@@ -8090,6 +8102,14 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/330948"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/330945"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/330941"
                     }
                 ],
                 "charging_points": [
@@ -11454,7 +11474,7 @@
                         }
                     }
                 ],
-                "network": "EV_CONNECT",
+                "network": "SKYCHARGER",
                 "network_id": [
                     {
                         "value": "7f79c072-8916-4320-b6ab-495de07b5bc0",
@@ -11487,7 +11507,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391fefb"
+                                "network_id": "US*SKY*E6334036b769d34776391fefb"
                             },
                             {
                                 "ports": [
@@ -11495,7 +11515,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391fefc"
+                                "network_id": "US*SKY*E6334036b769d34776391fefc"
                             }
                         ],
                         "name": "SKY0009"
@@ -11508,7 +11528,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391fefd"
+                                "network_id": "US*SKY*E6334036b769d34776391fefd"
                             },
                             {
                                 "ports": [
@@ -11516,7 +11536,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "US*sky*E6334036b769d34776391fefe"
+                                "network_id": "US*SKY*E6334036b769d34776391fefe"
                             }
                         ],
                         "name": "SKY0010"
@@ -15897,11 +15917,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45874"
+                        "url": "https://afdc.energy.gov/stations#/station/45875"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45875"
+                        "url": "https://afdc.energy.gov/stations#/station/45874"
                     }
                 ]
             }
@@ -16847,7 +16867,7 @@
                     {
                         "address": {
                             "street_address": "8 West Main Street",
-                            "city": "NA",
+                            "city": "North Adams",
                             "state": "MA",
                             "zip_code": "01247"
                         },
@@ -18757,11 +18777,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45899"
+                        "url": "https://afdc.energy.gov/stations#/station/45898"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45898"
+                        "url": "https://afdc.energy.gov/stations#/station/45899"
                     }
                 ]
             }
@@ -19040,6 +19060,7 @@
                         }
                     }
                 ],
+                "network": "SWTCH",
                 "address": [
                     {
                         "address": {
@@ -19170,226 +19191,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/45882"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.566584,
-                        42.274307
-                    ],
-                    [
-                        -71.566584,
-                        42.274307
-                    ],
-                    [
-                        -71.566584,
-                        42.274307
-                    ],
-                    [
-                        -71.566584,
-                        42.274307
-                    ],
-                    [
-                        -71.566584,
-                        42.274307
-                    ],
-                    [
-                        -71.566584,
-                        42.274307
-                    ],
-                    [
-                        -71.566584,
-                        42.274307
-                    ],
-                    [
-                        -71.566584,
-                        42.274307
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Cytiva EV Westborough",
-                        "source": {
-                            "name": "FLO",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "Cytiva EV Westborough",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "network": "FLO",
-                "network_id": [
-                    {
-                        "value": "a255fbcb-c6fb-4c67-ba73-43f941f1149d",
-                        "source": {
-                            "name": "FLO",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "a255fbcb-c6fb-4c67-ba73-43f941f1149d",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "14 Walkup Drive",
-                            "city": "Westborough",
-                            "state": "MA",
-                            "zip_code": "01581"
-                        },
-                        "source": {
-                            "name": "FLO",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "14 Walkup Drive",
-                            "city": "Westborough",
-                            "state": "MA",
-                            "zip_code": "01581"
-                        },
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20490*1"
-                            }
-                        ],
-                        "name": "AUB-20490"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20535*1"
-                            }
-                        ],
-                        "name": "AUB-20535"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20535*1"
-                            }
-                        ],
-                        "name": "AUB-20535"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20541*1"
-                            }
-                        ],
-                        "name": "AUB-20541"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20542*1"
-                            }
-                        ],
-                        "name": "AUB-20542"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20553*1"
-                            }
-                        ],
-                        "name": "AUB-20553"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20554*1"
-                            }
-                        ],
-                        "name": "AUB-20554"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20560*1"
-                            }
-                        ],
-                        "name": "AUB-20560"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*FL2*EAUB-20562*1"
-                            }
-                        ],
-                        "name": "AUB-20562"
                     }
                 ]
             }
@@ -19808,11 +19609,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/251395"
+                        "url": "https://afdc.energy.gov/stations#/station/262109"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/262109"
+                        "url": "https://afdc.energy.gov/stations#/station/251395"
                     }
                 ]
             }
@@ -20788,119 +20589,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.51412,
-                        42.140969
-                    ],
-                    [
-                        -71.51412,
-                        42.140969
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "EV Fast Charge At Accent Limo",
-                        "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "RED_E",
-                "network_id": [
-                    {
-                        "value": "696",
-                        "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "48 Pond Street",
-                            "city": "Milford",
-                            "state": "MA",
-                            "zip_code": "01757"
-                        },
-                        "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2314
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2315
-                            }
-                        ],
-                        "name": "DC 1",
-                        "network_id": [
-                            {
-                                "value": "DL0120B1GR4V000605",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2255
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2256
-                            }
-                        ],
-                        "name": "DC 2",
-                        "network_id": [
-                            {
-                                "value": "DL0120B1GR3V00001X",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.755804,
@@ -21745,7 +21433,7 @@
                     {
                         "address": {
                             "street_address": "52 2nd Avenue",
-                            "city": "Waltham",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02451"
                         },
@@ -23710,11 +23398,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45908"
+                        "url": "https://afdc.energy.gov/stations#/station/45909"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45909"
+                        "url": "https://afdc.energy.gov/stations#/station/45908"
                     }
                 ]
             }
@@ -25527,7 +25215,7 @@
                     {
                         "address": {
                             "street_address": "64 Holden Street",
-                            "city": "NA",
+                            "city": "Shrewsbury",
                             "state": "MA",
                             "zip_code": "01545"
                         },
@@ -27326,11 +27014,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/319395"
+                        "url": "https://afdc.energy.gov/stations#/station/319400"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/319401"
+                        "url": "https://afdc.energy.gov/stations#/station/319395"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
@@ -27338,7 +27026,7 @@
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/319400"
+                        "url": "https://afdc.energy.gov/stations#/station/319401"
                     }
                 ]
             }
@@ -27577,75 +27265,6 @@
                             }
                         ],
                         "name": "LIA TOYOTA NH OUTSIDE EV #1"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.97077,
-                        42.550122
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "LOT E CHARGER STATION 1",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "CHARGEPOINT",
-                "network_id": [
-                    {
-                        "value": "US*CPI*L16658021",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "100 Brooksby Village Drive",
-                            "city": "Peabody",
-                            "state": "MA"
-                        },
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16658021*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16658021*2"
-                            }
-                        ],
-                        "name": "LOT E CHARGER STATION 1"
                     }
                 ]
             }
@@ -29418,7 +29037,7 @@
                             "street_address": "1 MGM Wy",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01105"
+                            "zip_code": "01103"
                         },
                         "source": {
                             "name": "AMP_UP",
@@ -32854,11 +32473,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45880"
+                        "url": "https://afdc.energy.gov/stations#/station/45881"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45881"
+                        "url": "https://afdc.energy.gov/stations#/station/45880"
                     }
                 ]
             }
@@ -35885,11 +35504,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45893"
+                        "url": "https://afdc.energy.gov/stations#/station/45892"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45892"
+                        "url": "https://afdc.energy.gov/stations#/station/45893"
                     }
                 ]
             }
@@ -36192,109 +35811,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.898576,
-                        42.472673
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "SWAMPSCOTT SES 1",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "SWAMPSCOTT SES 2",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "SWAMPSCOTT SES 3",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "SWAMPSCOTT SES 4",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "CHARGEPOINT",
-                "network_id": [
-                    {
-                        "value": "US*CPI*L16184251",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "US*CPI*L16184261",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "US*CPI*L16184271",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "US*CPI*L16189331",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "10 Whitman Road",
-                            "city": "Swampscott",
-                            "state": "MA"
-                        },
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16189331*1"
-                            }
-                        ],
-                        "name": "SWAMPSCOTT SES 1"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.0368,
@@ -36311,6 +35827,7 @@
                         }
                     }
                 ],
+                "network": "SWTCH",
                 "address": [
                     {
                         "address": {
@@ -37781,7 +37298,7 @@
                     {
                         "address": {
                             "street_address": "59 Willow Street",
-                            "city": "Hamilton",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01982"
                         },
@@ -39078,6 +38595,7 @@
                         }
                     }
                 ],
+                "network": "SWTCH",
                 "address": [
                     {
                         "address": {
@@ -39119,6 +38637,7 @@
                         }
                     }
                 ],
+                "network": "SWTCH",
                 "address": [
                     {
                         "address": {
@@ -39160,6 +38679,7 @@
                         }
                     }
                 ],
+                "network": "SWTCH",
                 "address": [
                     {
                         "address": {
@@ -39201,6 +38721,7 @@
                         }
                     }
                 ],
+                "network": "SWTCH",
                 "address": [
                     {
                         "address": {
@@ -39219,89 +38740,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/313655"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -72.608745,
-                        42.478096
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "TOWN DEERFIELD LEARLOT 3",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "TOWN DEERFIELD LEARYLOT 2",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "CHARGEPOINT",
-                "network_id": [
-                    {
-                        "value": "US*CPI*L16641831",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "US*CPI*L16642281",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "59 North Main Street",
-                            "city": "Deerfield",
-                            "state": "MA"
-                        },
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16642281*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16642281*2"
-                            }
-                        ],
-                        "name": "TOWN DEERFIELD LEARYLOT 2"
                     }
                 ]
             }
@@ -39407,89 +38845,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -70.926245,
-                        42.747108
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "TOWNOFNEWBURY 81 CENTRAL 1",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "TOWNOFNEWBURY 81 CENTRAL 2",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "CHARGEPOINT",
-                "network_id": [
-                    {
-                        "value": "US*CPI*L16642401",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "US*CPI*L16642461",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "81 Central Street",
-                            "city": "Newbury",
-                            "state": "MA"
-                        },
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16642401*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16642401*2"
-                            }
-                        ],
-                        "name": "TOWNOFNEWBURY 81 CENTRAL 2"
                     }
                 ]
             }
@@ -42912,7 +42267,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01119"
+                            "zip_code": "01109"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",

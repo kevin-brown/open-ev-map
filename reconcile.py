@@ -961,6 +961,31 @@ def parse_stations(raw_contents):
                 if reference["system"] == "OPEN_CHARGE_MAP":
                     charging_point.ocm_id.set(SourcedValue(source_data, reference["identifier"]))
 
+            groups = []
+
+            for raw_evse in raw_point.get("evses", []):
+                charging_point_group = ChargingPortGroup(
+                    network_id=raw_evse.get("network_id"),
+                )
+
+                ports = []
+
+                for raw_port in raw_evse.get("plugs", []):
+                    if plug := raw_port["plug"]:
+                        if plug in ["J1772_CABLE", "J1722_CABLE"]:
+                            plug = "J1772"
+
+                        port = ChargingPort(
+                            plug=PlugType[plug],
+                        )
+
+                        ports.append(port)
+
+                charging_point_group.charging_ports = ports
+
+                groups.append(charging_point_group)
+
+            charging_point.charging_port_groups = groups
 
             charging_points.append(charging_point)
 

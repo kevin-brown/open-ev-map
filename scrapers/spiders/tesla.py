@@ -65,8 +65,13 @@ class TeslaSpider(scrapy.Spider):
             yield from self.parse_supercharger(location)
 
     def parse_address(self, location, charger_address):
+        street_address = charger_address["address_line_1"]
+
+        if "<br />" in street_address:
+            street_address = charger_address["address_line_1"].split("<br />")[-1]
+
         return AddressFeature(
-            street_address=charger_address["address_line_1"],
+            street_address=street_address,
             city=charger_address["city"],
             state=location["province_state"],
             zip_code=charger_address["postal_code"],

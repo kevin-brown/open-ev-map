@@ -56,8 +56,13 @@ class SuperchargeSpider(scrapy.Spider):
                     )
                 )
 
+            street_address = station_address["street"]
+
+            if ", " in street_address:
+                street_address = street_address.split(", ")[-1]
+
             address = AddressFeature(
-                street_address=station_address["street"],
+                street_address=street_address,
                 city=station_address["city"],
                 state=station_address["state"],
                 zip_code=station_address["zip"],

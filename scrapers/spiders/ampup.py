@@ -1,7 +1,12 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+from uszipcode import SearchEngine
 import scrapy
+
 import urllib.parse
+
+
+zip_search = SearchEngine()
 
 
 class AmpupSpider(scrapy.Spider):
@@ -21,6 +26,7 @@ class AmpupSpider(scrapy.Spider):
         "phihong": "PHIHONG",
         "evbox": "EV_BOX",
         "longhorn": "LONGHORN_INTELLIGENT_TECH",
+        "ledvance": "LEDVANCE",
     }
 
     def _query_for_station_list(self, lat_min, lat_max, lng_min, lng_max, zoom):
@@ -108,8 +114,22 @@ class AmpupSpider(scrapy.Spider):
                 state=state_zip[0],
                 zip_code=state_zip[1],
             )
+
+            if state_zip[0] != "MA":
+                return
         elif len(address_parts) > 1 and address_parts[-1][0].isdigit():
+            zip_info = zip_search.by_zipcode(address_parts[-1])
+
+            if zip_info is None:
+                return
+
+            state = zip_info.state
+
+            if state != "MA":
+                return
+
             address = AddressFeature(
+                state=state,
                 zip_code=address_parts[-1],
             )
         else:

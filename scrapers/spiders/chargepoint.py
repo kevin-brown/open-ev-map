@@ -14,6 +14,7 @@ class ChargePointSpider(scrapy.Spider):
         "CCS1": "J1772_COMBO",
         "CHAdeMO": "CHADEMO",
         "NACS": "NACS",
+        "NACS (Tesla)": "NACS",
         "SAE-Combo-CCS1": "J1772_COMBO",
 
         "NEMA": None,

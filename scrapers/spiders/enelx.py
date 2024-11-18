@@ -190,8 +190,15 @@ class EnelXSpider(scrapy.Spider):
             longitude=data["csGeoLon"],
         )
 
+        street_address = data["address"]
+        if ", " in data["address"]:
+            address_parts = data["address"].rsplit(", ", 1)
+
+            if address_parts[1].isdigit():
+                street_address = f"{address_parts[1]} {address_parts[0]}"
+
         address = AddressFeature(
-            street_address=data["address"],
+            street_address=street_address,
             city=data["city"],
             zip_code=data["postalcode"],
         )

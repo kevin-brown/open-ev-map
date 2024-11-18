@@ -818,8 +818,27 @@ def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station
     return combined_stations
 
 
+def combine_matches_networked_stations_by_network_ids(all_stations: list[Station]) -> list[Station]:
+    def check_network_ids(first_station: Station, second_station: Station) -> bool:
+        if not station_networks_match(first_station, second_station):
+            return False
+
+        if not (first_network := first_station.network_id.all()):
+            return False
+
+        if not (second_network := second_station.network_id.all()):
+            return False
+
+        if set(map(str.lower, first_network)) & set(map(str.lower, second_network)):
+            return True
+
+        return False
+
+    return combine_stations_with_check(all_stations, check_network_ids)
+
 def combine_stations(all_stations: list[Station]) -> list[Station]:
     all_stations = combine_matched_stations_by_ids(all_stations)
+    all_stations = combine_matches_networked_stations_by_network_ids(all_stations)
     all_stations = combine_tesla_superchargers(all_stations)
 
     all_stations = combine_networked_stations_at_same_address(all_stations)

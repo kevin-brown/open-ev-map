@@ -904,6 +904,11 @@ def parse_stations(raw_contents):
         )
         station.location.set(SourcedValue(source_data, station_location))
 
+        if station_network_id := raw_station.get("network_id"):
+            station.network_id.set(SourcedValue(source_data, station_network_id))
+
+        station.network = raw_station["network"]
+
         if raw_address := raw_station.get("address"):
             if street_address := raw_address.get("street_address"):
                 if street_address.strip():
@@ -918,7 +923,48 @@ def parse_stations(raw_contents):
             if zip_code := raw_address.get("zip_code"):
                 station.zip_code.set(SourcedValue(source_data, zip_code))
 
-        station.network = raw_station["network"]
+        for reference in raw_station.get("references", []):
+            if reference["system"] == "ALTERNATIVE_FUEL_DATA_CENTER":
+                station.nrel_id.set(SourcedValue(source_data, int(reference["identifier"])))
+
+            if reference["system"] == "OPEN_STREET_MAP":
+                station.osm_id.set(SourcedValue(source_data, reference["identifier"]))
+
+            if reference["system"] == "OPEN_CHARGE_MAP":
+                station.ocm_id.set(SourcedValue(source_data, reference["identifier"]))
+
+        charging_points = []
+
+        for raw_point in raw_station.get("charging_points", []):
+            charging_point = ChargingPoint()
+
+            if charger_name := raw_point.get("name"):
+                charging_point.name = charger_name
+
+            if raw_location := raw_point.get("location"):
+                charger_location = Location(
+                    latitude=float(raw_location["latitude"]),
+                    longitude=float(raw_location["longitude"]),
+                )
+                charging_point.location.set(SourcedValue(source_data, charger_location))
+
+            if point_network_id := raw_point.get("network_id"):
+                charging_point.network_id.set(SourcedValue(source_data, point_network_id))
+
+            for reference in raw_point.get("references", []):
+                if reference["system"] == "ALTERNATIVE_FUEL_DATA_CENTER":
+                    charging_point.nrel_id.set(SourcedValue(source_data, int(reference["identifier"])))
+
+                if reference["system"] == "OPEN_STREET_MAP":
+                    charging_point.osm_id.set(SourcedValue(source_data, reference["identifier"]))
+
+                if reference["system"] == "OPEN_CHARGE_MAP":
+                    charging_point.ocm_id.set(SourcedValue(source_data, reference["identifier"]))
+
+
+            charging_points.append(charging_point)
+
+        station.charging_points = charging_points
 
         stations.append(station)
 
@@ -973,10 +1019,10 @@ for station in combined_data:
 
     station_references_unique = set()
 
-    station_references = [reference for reference in station_references if reference["source"]["url"] not in station_references_unique and not station_references_unique.add(reference["source"]["url"])]
+    station_references = [reference for reference in station_references if reference["source"]["name"] not in station_references_unique and not station_references_unique.add(reference["source"]["name"])]
 
     if station_references:
-        station_properties["references"] = [ref["source"] for ref in sorted(station_references, key=lambda r: r["source"]["url"])]
+        station_properties["references"] = [ref["source"] for ref in sorted(station_references, key=lambda r: r["source"]["name"])]
 
     if station.charging_points:
         charging_points = []
@@ -1020,13 +1066,20 @@ for station in combined_data:
 
         station_properties["charging_points"] = charging_points
 
-        charging_point_coordinates = [
-            (charging_point.location.get().longitude, charging_point.location.get().latitude)
-            for charging_point in station.charging_points
-        ]
-        station_point = geojson.MultiPoint(
-            coordinates=charging_point_coordinates,
-        )
+        charging_point_coordinates = []
+
+        for charging_point in station.charging_points:
+            point_location = charging_point.location.get()
+
+            if not point_location:
+                continue
+
+            charging_point_coordinates.append((point_location.longitude, point_location.latitude))
+
+        if charging_point_coordinates:
+            station_point = geojson.MultiPoint(
+                coordinates=charging_point_coordinates,
+            )
 
     station_feature = geojson.Feature(
         geometry=station_point,

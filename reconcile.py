@@ -1035,19 +1035,30 @@ for station in combined_data:
     if station_addresses := addresses_from_station(station):
         station_properties["address"] = station_addresses
 
-    station_references = list()
+    references = []
 
-    station_references.extend(sourced_attribute_to_geojson_property(station.nrel_id))
-    station_references.extend(sourced_attribute_to_geojson_property(station.ocm_id))
-    station_references.extend(sourced_attribute_to_geojson_property(station.osm_id))
-    station_references.extend(sourced_attribute_to_geojson_property(station.network_id))
+    for osm_id in station.osm_id.all():
+        osm_type, ref = osm_id.split(":")
 
-    station_references_unique = set()
+        references.append({
+            "name": "OPEN_STREET_MAP",
+            "url": f"https://www.openstreetmap.org/{osm_type}/{ref}",
+        })
 
-    station_references = [reference for reference in station_references if reference["source"]["name"] not in station_references_unique and not station_references_unique.add(reference["source"]["name"])]
+    for ocm_id in station.ocm_id.all():
+        references.append({
+            "name": "OPEN_CHARGE_MAP",
+            "url": f"https://openchargemap.org/site/poi/details/{ocm_id}",
+        })
 
-    if station_references:
-        station_properties["references"] = [ref["source"] for ref in sorted(station_references, key=lambda r: r["source"]["name"])]
+    for nrel_id in station.nrel_id.all():
+        references.append({
+            "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+            "url": f"https://afdc.energy.gov/stations#/station/{nrel_id}",
+        })
+
+    if references:
+        station_properties["references"] = references
 
     if station.charging_points:
         charging_points = []

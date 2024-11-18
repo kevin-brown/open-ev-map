@@ -1,5 +1,6 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT
 import scrapy
 
 
@@ -164,7 +165,7 @@ class EvgoSpider(scrapy.Spider):
         address = AddressFeature(
             street_address=station["address1"],
             city=station["locality"],
-            state=station["administrativeArea"],
+            state=MAPPER_STATE_ABBR_LONG_TO_SHORT[station["administrativeArea"]],
             zip_code=station["postalCode"],
         )
 

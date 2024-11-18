@@ -1,8 +1,9 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
-from collections import defaultdict
-
+from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT
 import scrapy
+
+from collections import defaultdict
 
 
 class BlinkSpider(scrapy.Spider):
@@ -78,7 +79,7 @@ class BlinkSpider(scrapy.Spider):
         address = AddressFeature(
             street_address=station["address"]["addressLine1"],
             city=station["address"]["city"],
-            state=station["address"]["state"],
+            state=MAPPER_STATE_ABBR_LONG_TO_SHORT[station["address"]["state"]],
             zip_code=station["address"]["postalCode"],
         )
 

@@ -1,5 +1,6 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT
 import scrapy
 
 import json
@@ -165,7 +166,7 @@ class ChargePointSpider(scrapy.Spider):
         })
         address = AddressFeature(**{
             "city": data.get("address", {}).get("city"),
-            "state": data.get("address", {}).get("state"),
+            "state": MAPPER_STATE_ABBR_LONG_TO_SHORT.get(data.get("address", {}).get("state")),
             "street_address": data.get("address", {}).get("address1"),
         })
 

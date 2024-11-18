@@ -1,5 +1,6 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT
 import scrapy
 
 
@@ -40,7 +41,7 @@ class EvpassportSpider(scrapy.Spider):
         address = AddressFeature(
             street_address=location["address"],
             city=location["city"],
-            state=location["state"],
+            state=MAPPER_STATE_ABBR_LONG_TO_SHORT[location["state"]],
             zip_code=location["postalCode"],
         )
 

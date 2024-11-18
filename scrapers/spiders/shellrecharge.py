@@ -1,5 +1,6 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT, MAPPER_STATE_ABBR_SHORT_TO_LONG
 import scrapy
 
 from collections import defaultdict
@@ -277,10 +278,17 @@ class ShellRechargeSpider(scrapy.Spider):
             latitude=station["latitude"],
             longitude=station["longitude"],
         )
+
+        if state := station["state"]:
+            if state.upper() in MAPPER_STATE_ABBR_SHORT_TO_LONG:
+                state = state.upper()
+            else:
+                state = MAPPER_STATE_ABBR_LONG_TO_SHORT[state]
+
         address = AddressFeature(
             street_address=station["address"],
             city=station["city"],
-            state=station["state"],
+            state=state,
             zip_code=station["zipCode"],
         )
 

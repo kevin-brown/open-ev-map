@@ -1,5 +1,6 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT
 import scrapy
 
 
@@ -15,7 +16,7 @@ class OcpiSpider(scrapy.Spider):
         address = AddressFeature(
             street_address=station["address"],
             city=station["city"],
-            state=station["state"],
+            state=MAPPER_STATE_ABBR_LONG_TO_SHORT[station["state"]],
             zip_code=station["postal_code"],
         )
 

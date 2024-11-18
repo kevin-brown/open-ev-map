@@ -10,7 +10,7 @@ class BlinkSpider(scrapy.Spider):
     name = "blink"
 
     PLUG_FOR_CONNECTOR_TYPE = {
-        "J1772": "J1772",
+        "J1772": "J1772_CABLE",
         "CHAdeMO": "CHADEMO",
         "CCS1": "J1772_COMBO",
     }

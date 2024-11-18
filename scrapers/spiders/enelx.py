@@ -34,7 +34,7 @@ class EnelXSpider(scrapy.Spider):
     TYPOLOGY_TO_PLUG_TYPE = {
         "CHADEMO": "CHADEMO",
         "CCS1": "J1772_COMBO",
-        "TYPE_1": "J1722_CABLE",
+        "TYPE_1": "J1772_CABLE",
     }
 
     def _get_query_params(self, ne_lat, ne_lon, sw_lat, sw_lon, zoom):

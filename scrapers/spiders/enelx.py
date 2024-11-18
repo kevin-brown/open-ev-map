@@ -1,11 +1,15 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+from uszipcode import SearchEngine
 import rsa
 import scrapy
 
 from urllib.parse import urlencode
 import base64
 import json
+
+
+zip_search = SearchEngine()
 
 
 class EnelXSpider(scrapy.Spider):
@@ -149,6 +153,9 @@ class EnelXSpider(scrapy.Spider):
 
         station = self.parse_station_base(data)
 
+        if station["address"]["state"] != "MA":
+            return
+
         if data["managed"] == "OCPI_WORKFORCE":
             station["source"] = SourceFeature(
                 system="ENEL_X_EMOBILITY_US",
@@ -184,9 +191,13 @@ class EnelXSpider(scrapy.Spider):
             if address_parts[1].isdigit():
                 street_address = f"{address_parts[1]} {address_parts[0]}"
 
+        zip_info = zip_search.by_zipcode(data["postalcode"])
+        state = zip_info.state
+
         address = AddressFeature(
             street_address=street_address,
             city=data["city"],
+            state=state,
             zip_code=data["postalcode"],
         )
 

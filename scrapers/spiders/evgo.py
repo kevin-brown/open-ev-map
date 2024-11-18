@@ -157,6 +157,9 @@ class EvgoSpider(scrapy.Spider):
         response_data = response.json()
         station = response_data["data"]["siteForMobile"]
 
+        if station["administrativeArea"] != "Massachusetts":
+            return
+
         coordinates = LocationFeature(
             longitude=station["longitude"],
             latitude=station["latitude"],

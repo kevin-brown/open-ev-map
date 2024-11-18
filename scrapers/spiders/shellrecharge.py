@@ -43,6 +43,9 @@ class ShellRechargeSpider(scrapy.Spider):
         stations = response.json()["data"]
 
         for station in stations:
+            if station["state"] != "Massachusetts":
+                continue
+
             if station["cpoId"] == "GRL":
                 yield self.parse_station_greenlots(station)
             elif station["cpoId"] == "EVC":

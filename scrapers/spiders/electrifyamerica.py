@@ -1,4 +1,3 @@
-from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, StationFeature
 from scrapers.spiders.ocpi import OcpiSpider
 
 import scrapy

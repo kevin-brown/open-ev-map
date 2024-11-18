@@ -100,6 +100,9 @@ class RivianSpider(scrapy.Spider):
         rivian_chargers = rivian_locations["locationsCollection"]["items"]
 
         for charger in rivian_chargers:
+            if charger["stateOrProvince"] != "MA":
+                continue
+
             coordinates = LocationFeature(
                 latitude=charger["lat"],
                 longitude=charger["lon"],

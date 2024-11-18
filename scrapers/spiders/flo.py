@@ -135,6 +135,9 @@ class FloSpider(scrapy.Spider):
     def parse_station(self, response):
         park = response.json()
 
+        if park["address"]["province"] != "MA":
+            return
+
         address = AddressFeature(
             street_address=park["address"]["address1"],
             city=park["address"]["city"],

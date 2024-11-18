@@ -151,13 +151,16 @@ class ChargePointSpider(scrapy.Spider):
     def parse_device_info(self, response):
         data = response.json()
 
+        if data.get("address", {}).get("state") != "Massachusetts":
+            return
+
         if data["network"]["name"] == "ChargePoint Network":
-            yield from self.parse_device_chargpoint(data)
+            yield from self.parse_device_chargepoint(data)
         else:
             print(data)
             raise
 
-    def parse_device_chargpoint(self, data):
+    def parse_device_chargepoint(self, data):
         station_name = " ".join(data["name"])
 
         location = LocationFeature(**{

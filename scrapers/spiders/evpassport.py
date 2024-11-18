@@ -33,6 +33,9 @@ class EvpassportSpider(scrapy.Spider):
         location = response.json()["content"]
         meta_location = response.meta["location"]
 
+        if location["state"] != "Massachusetts":
+            return
+
         coordinates = LocationFeature(
             latitude=meta_location["coordinates"]["lat"],
             longitude=meta_location["coordinates"]["lng"],

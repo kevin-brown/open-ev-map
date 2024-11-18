@@ -315,16 +315,16 @@ class OpenStreetMapSpider(scrapy.Spider):
                     )
                 )
 
+        station["network"] = self.network_from_osm_tags(tags)
+
         if "ref:ocpi" in tags:
             for network_id in tags["ref:ocpi"].split(";"):
                 station["references"].append(
                     ReferenceFeature(
-                        identifier=network_id,
+                        identifier=self.normalize_ocpi_id(network_id, "L", "US", station["network"]),
                         system="OCPI",
                     )
                 )
-
-        station["network"] = self.network_from_osm_tags(tags)
 
         return station
 
@@ -357,9 +357,51 @@ class OpenStreetMapSpider(scrapy.Spider):
             for network_id in tags["ref:ocpi"].split(";"):
                 charging_point["references"].append(
                     ReferenceFeature(
-                        identifier=network_id,
+                        identifier=self.normalize_ocpi_id(network_id, "E", "US", charging_point._osm_network),
                         system="OCPI",
                     )
                 )
 
         return charging_point
+
+    def format_ocpi_id(self, original_id, ocpi_type, country_code, network):
+        NETWORK_TO_CPO = {
+            "BLINK": "BLK",
+            "CHARGEPOINT": "CPI",
+            "EV_CONNECT": "EVC",
+            "EVGO": "EVG",
+            "FLO": "FLO",
+        }
+
+        if network not in NETWORK_TO_CPO:
+            return original_id
+
+        cpo_id = NETWORK_TO_CPO[network]
+
+        if cpo_id == "FLO" and country_code == "US":
+            cpo_id = "FL2"
+
+        return f"{country_code}*{cpo_id}*{ocpi_type}{original_id}"
+
+    def normalize_ocpi_id(self, ocpi_id, ocpi_type, country_code, network):
+        if len(ocpi_id) < 7:
+            return self.format_ocpi_id(ocpi_id, ocpi_type, country_code, network)
+
+        if ocpi_id[2] == "*":
+            return self.format_ocpi_id(ocpi_id, ocpi_type, country_code, network)
+
+        ocpi_cc = ocpi_id[0:2]
+
+        if ocpi_cc not in ["US", "CA"]:
+            return self.format_ocpi_id(ocpi_id, ocpi_type, country_code, network)
+
+        cpo_id = ocpi_id[2:5]
+
+        id_type = ocpi_id[5]
+
+        if id_type not in ["L", "E", "P"]:
+            return self.format_ocpi_id(ocpi_id, ocpi_type, country_code, network)
+
+        internal_id = ocpi_id[6:]
+
+        return f"{ocpi_cc}*{cpo_id}*{ocpi_type}{internal_id}"

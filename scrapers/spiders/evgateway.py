@@ -60,6 +60,9 @@ class EvgatewaySpider(scrapy.Spider):
             zip_code=address_parts[-1],
         )
 
+        if address_parts[-3] != "MA":
+            return
+
         charging_points = []
 
         for station in location["stations"]:

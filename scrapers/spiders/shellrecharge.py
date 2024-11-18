@@ -34,6 +34,8 @@ class ShellRechargeSpider(scrapy.Spider):
                     "EVC",
                     "EVG",
                     "FL2",
+
+                    "PRO",
                 ]
             },
             method="POST",
@@ -54,13 +56,22 @@ class ShellRechargeSpider(scrapy.Spider):
                 yield self.parse_station_evgo(station)
             elif station["cpoId"] in ["FLO", "FL2"]:
                 yield self.parse_station_flo(station)
+            elif station["cpoId"] == "PRO":
+                pass
             else:
+                print(station)
                 raise
 
     def parse_station_evconnect(self, station):
         parsed_station = self.parse_base_station(station)
 
-        parsed_station["network"] = "EV_CONNECT"
+        NETWORK_MAP = {
+            "EV Connect": "EV_CONNECT",
+            "SKYCHARGER": "SKYCHARGER",
+            "ChargeSmart EV": "CHARGESMART_EV",
+        }
+
+        parsed_station["network"] = NETWORK_MAP[station["networkOperator"]["name"]]
         parsed_station["network_id"] = station["locationId"][4:]
 
         parsed_station["source"] = SourceFeature(
@@ -87,6 +98,12 @@ class ShellRechargeSpider(scrapy.Spider):
                 )
 
                 evse_id = station_evse["evseEmaid"]
+
+                country_code = evse_id[0:2].upper()
+                cpo_id = evse_id[3:6].upper()
+                evse_identifier = evse_id[7:]
+
+                evse_id = f"{country_code}*{cpo_id}*{evse_identifier}"
 
                 evse = EvseFeature(
                     plugs=[plug],

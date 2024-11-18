@@ -116,8 +116,8 @@ class AmpupSpider(scrapy.Spider):
             address = None
 
         coordinates = LocationFeature(
-            latitude=station["location"]["coordinates"][0],
-            longitude=station["location"]["coordinates"][1],
+            latitude=station["location"]["coordinates"][1],
+            longitude=station["location"]["coordinates"][0],
         )
 
         charging_points = []

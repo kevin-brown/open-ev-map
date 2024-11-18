@@ -557,7 +557,7 @@ def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
     tesla_stations = []
 
     for station in all_stations:
-        if station.network != ChargingNetwork.TESLA_SUPERCHARGER:
+        if station.network != "TESLA_SUPERCHARGER":
             combined_stations.append(station)
         else:
             tesla_stations.append(station)
@@ -658,10 +658,10 @@ def combine_networked_stations_close_by(all_stations: list[Station]) -> list[Sta
 
 def combine_non_networked_stations_at_same_address(all_stations: list[Station]) -> list[Station]:
     def check_same_address(first_station: Station, second_station: Station) -> bool:
-        if first_station.network is not ChargingNetwork.NON_NETWORKED:
+        if first_station.network != "NON_NETWORKED":
             return False
 
-        if second_station.network is not ChargingNetwork.NON_NETWORKED:
+        if second_station.network != "NON_NETWORKED":
             return False
 
         first_addresses = set(map(str.lower, first_station.street_address.all()))
@@ -684,10 +684,10 @@ def combine_non_networked_stations_at_same_address(all_stations: list[Station]) 
 
 def combine_non_networked_stations_close_by(all_stations: list[Station]) -> list[Station]:
     def check_non_networked_close_by(first_station: Station, second_station: Station) -> bool:
-        if first_station.network is not ChargingNetwork.NON_NETWORKED:
+        if first_station.network != "NON_NETWORKED":
             return False
 
-        if second_station.network is not ChargingNetwork.NON_NETWORKED:
+        if second_station.network != "NON_NETWORKED":
             return False
 
         station_distance = get_station_distance(first_station, second_station)
@@ -704,7 +704,7 @@ def combine_networked_stations_with_unknown_ones_near_by(all_stations: list[Stat
         if first_station.network is not None and second_station.network is not None:
             return False
 
-        if first_station.network is ChargingNetwork.NON_NETWORKED or second_station.network is ChargingNetwork.NON_NETWORKED:
+        if first_station.network == "NON_NETWORKED" or second_station.network == "NON_NETWORKED":
             return False
 
         if first_station.network is None and second_station.network is None:
@@ -724,7 +724,7 @@ def combine_non_networked_stations_with_unknown_ones_near_by(all_stations: list[
         if first_station.network is not None and second_station.network is not None:
             return False
 
-        if first_station.network is not ChargingNetwork.NON_NETWORKED and second_station.network is not ChargingNetwork.NON_NETWORKED:
+        if first_station.network != "NON_NETWORKED" and second_station.network != "NON_NETWORKED":
             return False
 
         station_distance = get_station_distance(first_station, second_station)
@@ -738,10 +738,10 @@ def combine_non_networked_stations_with_unknown_ones_near_by(all_stations: list[
 
 
 def station_networks_match(first_station: Station, second_station: Station) -> bool:
-    if first_station.network is None or first_station.network is ChargingNetwork.NON_NETWORKED:
+    if first_station.network is None or first_station.network == "NON_NETWORKED":
         return False
 
-    if second_station.network is None or second_station.network is ChargingNetwork.NON_NETWORKED:
+    if second_station.network is None or second_station.network == "NON_NETWORKED":
         return False
 
     return first_station.network == second_station.network
@@ -905,9 +905,12 @@ def parse_stations(raw_contents):
         station.location.set(SourcedValue(source_data, station_location))
 
         if station_network_id := raw_station.get("network_id"):
-            station.network_id.set(SourcedValue(source_data, station_network_id))
+            station.network_id.set(SourcedValue(source_data, str(station_network_id)))
 
         station.network = raw_station["network"]
+
+        if station.network == "":
+            station.network = None
 
         if raw_address := raw_station.get("address"):
             if street_address := raw_address.get("street_address"):

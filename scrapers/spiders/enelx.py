@@ -7,19 +7,6 @@ from urllib.parse import urlencode
 import base64
 import json
 
-# AA8
-# AC7 = JuiceNet from eMotorWerks
-# B77
-# D74
-# 64E
-# 64F
-# 0D6 = Enel X post integration
-# 1C9
-# 275 = Enel X Way
-# 6AB =
-# 64F
-# 7FE = JuiceNet from eMotorWerks
-
 
 class EnelXSpider(scrapy.Spider):
     name = "enelx"
@@ -269,6 +256,7 @@ class EnelXSpider(scrapy.Spider):
             )
 
         charging_point = ChargingPointFeature(
+            name=data["csName"],
             network_id=data["serialNumber"],
             evses=evses,
         )

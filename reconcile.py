@@ -1037,7 +1037,7 @@ for data_file in scraped_data.glob("*.json"):
 
 combined_data = combine_stations(stations)
 
-combined_data = sorted(combined_data, key=lambda x: x.name.get() or '')
+combined_data = sorted(combined_data, key=lambda x: (x.name.get() or '', x.network or '', x.location.get().longitude))
 
 station_features = geojson.FeatureCollection([])
 non_reconciled_station_features = geojson.FeatureCollection([])
@@ -1083,7 +1083,7 @@ for station in combined_data:
         })
 
     if references:
-        station_properties["references"] = references
+        station_properties["references"] = sorted(references, key=lambda r: (r["name"], r["url"]))
 
     if station.charging_points:
         charging_points = []

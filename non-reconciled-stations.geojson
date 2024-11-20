@@ -237,11 +237,11 @@
                 "references": [
                     {
                         "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/7814651586"
+                        "url": "https://www.openstreetmap.org/node/7814651585"
                     },
                     {
                         "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/7814651585"
+                        "url": "https://www.openstreetmap.org/node/7814651586"
                     }
                 ]
             }
@@ -8077,26 +8077,6 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/330944"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/330947"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/330946"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/330943"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/330949"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/330942"
                     },
                     {
@@ -8110,6 +8090,26 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/330941"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/330944"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/330947"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/330943"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/330946"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/330949"
                     }
                 ],
                 "charging_points": [
@@ -13373,7 +13373,7 @@
                     {
                         "address": {
                             "street_address": "110 Airport Road",
-                            "city": "Montgomery",
+                            "city": "Westfield",
                             "state": "MA",
                             "zip_code": "01085"
                         },
@@ -16867,7 +16867,7 @@
                     {
                         "address": {
                             "street_address": "8 West Main Street",
-                            "city": "North Adams",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01247"
                         },
@@ -18990,11 +18990,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45887"
+                        "url": "https://afdc.energy.gov/stations#/station/45886"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45886"
+                        "url": "https://afdc.energy.gov/stations#/station/45887"
                     }
                 ]
             }
@@ -22377,48 +22377,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.561821,
-                    42.10258
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Ford Charge - Imperial Ford",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "FORD_CHARGE",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "8 Uxbridge Road",
-                            "city": "Mendon",
-                            "state": "MA",
-                            "zip_code": "01756"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/358288"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.22858,
                     42.06211
                 ]
@@ -23398,11 +23356,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45909"
+                        "url": "https://afdc.energy.gov/stations#/station/45908"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45908"
+                        "url": "https://afdc.energy.gov/stations#/station/45909"
                     }
                 ]
             }
@@ -24765,6 +24723,119 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -71.032679,
+                        42.225447
+                    ],
+                    [
+                        -71.032679,
+                        42.225447
+                    ]
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Herb Chambers Ford of Braintree",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "network": "FORD_CHARGE",
+                "network_id": [
+                    {
+                        "value": "6706e549c636fa6ed53336a5",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "75 Granite Street Rte 37, 75 Granite Street",
+                            "city": "Braintree",
+                            "state": "MA",
+                            "zip_code": "02184"
+                        },
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*FPC*EPE_32855235*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*FPC*EPE_32855235*2"
+                            }
+                        ],
+                        "name": "PE_32855235",
+                        "network_id": [
+                            {
+                                "value": "US*FPC*EPE_32855235",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*FPC*EPE_32855279*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*FPC*EPE_32855279*2"
+                            }
+                        ],
+                        "name": "PE_32855279",
+                        "network_id": [
+                            {
+                                "value": "US*FPC*EPE_32855279",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.122164,
@@ -25215,7 +25286,7 @@
                     {
                         "address": {
                             "street_address": "64 Holden Street",
-                            "city": "Shrewsbury",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01545"
                         },
@@ -26010,11 +26081,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/63803"
+                        "url": "https://afdc.energy.gov/stations#/station/76711"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/76711"
+                        "url": "https://afdc.energy.gov/stations#/station/63803"
                     }
                 ]
             }
@@ -26056,11 +26127,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45812"
+                        "url": "https://afdc.energy.gov/stations#/station/45813"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45813"
+                        "url": "https://afdc.energy.gov/stations#/station/45812"
                     }
                 ]
             }
@@ -27022,11 +27093,11 @@
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/319319"
+                        "url": "https://afdc.energy.gov/stations#/station/319401"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/319401"
+                        "url": "https://afdc.energy.gov/stations#/station/319319"
                     }
                 ]
             }
@@ -29037,7 +29108,7 @@
                             "street_address": "1 MGM Wy",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01103"
+                            "zip_code": "01105"
                         },
                         "source": {
                             "name": "AMP_UP",
@@ -29530,11 +29601,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45896"
+                        "url": "https://afdc.energy.gov/stations#/station/45897"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45897"
+                        "url": "https://afdc.energy.gov/stations#/station/45896"
                     }
                 ]
             }
@@ -30819,11 +30890,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/145553"
+                        "url": "https://afdc.energy.gov/stations#/station/48856"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/48856"
+                        "url": "https://afdc.energy.gov/stations#/station/145553"
                     }
                 ]
             }
@@ -32473,11 +32544,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45881"
+                        "url": "https://afdc.energy.gov/stations#/station/45880"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45880"
+                        "url": "https://afdc.energy.gov/stations#/station/45881"
                     }
                 ]
             }
@@ -32519,11 +32590,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45902"
+                        "url": "https://afdc.energy.gov/stations#/station/45903"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45903"
+                        "url": "https://afdc.energy.gov/stations#/station/45902"
                     }
                 ]
             }
@@ -35416,11 +35487,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/145474"
+                        "url": "https://afdc.energy.gov/stations#/station/78663"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/78663"
+                        "url": "https://afdc.energy.gov/stations#/station/145474"
                     }
                 ]
             }
@@ -37298,7 +37369,7 @@
                     {
                         "address": {
                             "street_address": "59 Willow Street",
-                            "city": "NA",
+                            "city": "Hamilton",
                             "state": "MA",
                             "zip_code": "01982"
                         },
@@ -38336,11 +38407,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45890"
+                        "url": "https://afdc.energy.gov/stations#/station/45891"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/45891"
+                        "url": "https://afdc.energy.gov/stations#/station/45890"
                     }
                 ]
             }
@@ -40489,11 +40560,11 @@
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/230459"
+                        "url": "https://afdc.energy.gov/stations#/station/251673"
                     },
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/251673"
+                        "url": "https://afdc.energy.gov/stations#/station/230459"
                     }
                 ]
             }
@@ -42267,7 +42338,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01109"
+                            "zip_code": "01119"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",

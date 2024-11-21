@@ -205,6 +205,7 @@ class ChargePointSpider(scrapy.Spider):
         charging_point = ChargingPointFeature(
             name=station_name,
             location=location,
+            network_id=f"US*CPI*E{data["deviceId"]}",
             evses=evses,
             hardware=HardwareFeature(
                 manufacturer="CHARGEPOINT",

@@ -2527,7 +2527,7 @@
                     {
                         "address": {
                             "street_address": "100 Morrissey Boulevard",
-                            "city": "NA",
+                            "city": "Boston",
                             "state": "MA",
                             "zip_code": "02125"
                         },
@@ -5906,7 +5906,7 @@
                     {
                         "address": {
                             "street_address": "199 13th Street",
-                            "city": "NA",
+                            "city": "Boston",
                             "state": "MA",
                             "zip_code": "02129"
                         },
@@ -12881,7 +12881,16 @@
                                 "network_id": "US*CPI*E11892261*1"
                             }
                         ],
-                        "name": "BDH SERVICE BAY"
+                        "name": "BDH SERVICE BAY",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E11892261",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -12894,6 +12903,10 @@
                     [
                         -71.471521,
                         42.295665
+                    ],
+                    [
+                        -71.471851,
+                        42.295958
                     ]
                 ]
             },
@@ -12950,6 +12963,31 @@
                             {
                                 "ports": [
                                     {
+                                        "plug_type": "J1772_COMBO"
+                                    },
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E13075891*1"
+                            }
+                        ],
+                        "name": "BERNARDI TOYOTA CPE250-1",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E13075891",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
                                         "plug_type": "J1772"
                                     }
                                 ],
@@ -12964,7 +13002,16 @@
                                 "network_id": "US*CPI*E12955161*2"
                             }
                         ],
-                        "name": "BERNARDI TOYOTA TOYOTA- CT4020"
+                        "name": "BERNARDI TOYOTA TOYOTA- CT4020",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12955161",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -16867,7 +16914,7 @@
                     {
                         "address": {
                             "street_address": "8 West Main Street",
-                            "city": "NA",
+                            "city": "North Adams",
                             "state": "MA",
                             "zip_code": "01247"
                         },
@@ -20366,8 +20413,154 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
+                        -71.095141,
+                        42.07541
+                    ],
+                    [
+                        -71.095064,
+                        42.075365
+                    ]
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "EASTON TH EASTON TH1",
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "EASTON TH EASTON TH2",
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "CHARGEPOINT",
+                "network_id": [
+                    {
+                        "value": "US*CPI*L15875541",
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L15875561",
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "136 Elm Street",
+                            "city": "Easton",
+                            "state": "MA"
+                        },
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E15875541*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E15875541*2"
+                            }
+                        ],
+                        "name": "EASTON TH EASTON TH1",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E15875541",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E15875561*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E15875561*2"
+                            }
+                        ],
+                        "name": "EASTON TH EASTON TH2",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E15875561",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
                         -71.043995,
                         42.350502
+                    ],
+                    [
+                        -71.043984,
+                        42.350502
+                    ],
+                    [
+                        -71.043973,
+                        42.350494
+                    ],
+                    [
+                        -71.043941,
+                        42.350486
+                    ],
+                    [
+                        -71.043941,
+                        42.350478
+                    ],
+                    [
+                        -71.043962,
+                        42.350415
                     ]
                 ]
             },
@@ -20483,10 +20676,129 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": "US*CPI*E12634361*1"
+                            }
+                        ],
+                        "name": "ECHELON P1-10",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12634361",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E12634511*1"
+                            }
+                        ],
+                        "name": "ECHELON P1-11",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12634511",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E12634411*1"
+                            }
+                        ],
+                        "name": "ECHELON P1-12",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12634411",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": "US*CPI*E12634431*1"
                             }
                         ],
-                        "name": "ECHELON P1-15"
+                        "name": "ECHELON P1-15",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12634431",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E12634471*1"
+                            }
+                        ],
+                        "name": "ECHELON P1-17",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12634471",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E12634581*1"
+                            }
+                        ],
+                        "name": "ECHELON P1-4",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12634581",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -21433,7 +21745,7 @@
                     {
                         "address": {
                             "street_address": "52 2nd Avenue",
-                            "city": "NA",
+                            "city": "Waltham",
                             "state": "MA",
                             "zip_code": "02451"
                         },
@@ -21768,7 +22080,7 @@
                     {
                         "address": {
                             "street_address": "100 Brickstone Square",
-                            "city": "NA",
+                            "city": "Andover",
                             "state": "MA",
                             "zip_code": "01810"
                         },
@@ -22170,7 +22482,16 @@
                                 "network_id": "US*CPI*E118263*2"
                             }
                         ],
-                        "name": "FEDERAL RESERVE HMC"
+                        "name": "FEDERAL RESERVE HMC",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E118263",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -25286,7 +25607,7 @@
                     {
                         "address": {
                             "street_address": "64 Holden Street",
-                            "city": "NA",
+                            "city": "Shrewsbury",
                             "state": "MA",
                             "zip_code": "01545"
                         },
@@ -27335,7 +27656,16 @@
                                 "network_id": "US*CPI*E12921391*1"
                             }
                         ],
-                        "name": "LIA TOYOTA NH OUTSIDE EV #1"
+                        "name": "LIA TOYOTA NH OUTSIDE EV #1",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12921391",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -33326,7 +33656,16 @@
                                 "network_id": "US*CPI*E13565001*1"
                             }
                         ],
-                        "name": "PATRICK VOLVO CPF50 1"
+                        "name": "PATRICK VOLVO CPF50 1",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E13565001",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -33387,7 +33726,16 @@
                                 "network_id": "US*CPI*E15682561*1"
                             }
                         ],
-                        "name": "PCCJEEP CPF50-1"
+                        "name": "PCCJEEP CPF50-1",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E15682561",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -33400,6 +33748,10 @@
                     [
                         -70.964618,
                         42.449078
+                    ],
+                    [
+                        -70.96438,
+                        42.44921
                     ]
                 ]
             },
@@ -33459,10 +33811,41 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": "US*CPI*E12481021*1"
+                            }
+                        ],
+                        "name": "PHL ENTRANCE",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12481021",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": "US*CPI*E12481391*1"
                             }
                         ],
-                        "name": "PHL SERVICE BAY"
+                        "name": "PHL SERVICE BAY",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E12481391",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -35172,7 +35555,16 @@
                                 "network_id": "US*CPI*E13390061*2"
                             }
                         ],
-                        "name": "R1_EVSE_ MA0183ZZP1"
+                        "name": "R1_EVSE_ MA0183ZZP1",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E13390061",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -35874,7 +36266,16 @@
                                 "network_id": "US*CPI*E187373*1"
                             }
                         ],
-                        "name": "SS MINI SS MINI"
+                        "name": "SS MINI SS MINI",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E187373",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -37369,7 +37770,7 @@
                     {
                         "address": {
                             "street_address": "59 Willow Street",
-                            "city": "NA",
+                            "city": "Hamilton",
                             "state": "MA",
                             "zip_code": "01982"
                         },
@@ -38912,6 +39313,132 @@
                                 "value": "0910042001260540078122620513",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.172675,
+                        42.472427
+                    ],
+                    [
+                        -73.172776,
+                        42.472469
+                    ]
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "TOWN OF DALTON DALTON CRA 1",
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "TOWN OF DALTON DALTON CRA 2",
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "CHARGEPOINT",
+                "network_id": [
+                    {
+                        "value": "US*CPI*L16423121",
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16423221",
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "400 Main Street",
+                            "city": "Dalton",
+                            "state": "MA"
+                        },
+                        "source": {
+                            "name": "CHARGEPOINT_MAP_V3",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16423221*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16423221*2"
+                            }
+                        ],
+                        "name": "TOWN OF DALTON DALTON CRA 1",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16423221",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16423121*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16423121*2"
+                            }
+                        ],
+                        "name": "TOWN OF DALTON DALTON CRA 2",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16423121",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
                                     "quality": "ORIGINAL"
                                 }
                             }
@@ -40675,7 +41202,16 @@
                                 "network_id": "US*CPI*E5555901*2"
                             }
                         ],
-                        "name": "VACHARGER1 NORTHAMPTON ST1"
+                        "name": "VACHARGER1 NORTHAMPTON ST1",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E5555901",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -40688,6 +41224,10 @@
                     [
                         -72.68156,
                         42.34982
+                    ],
+                    [
+                        -72.68163,
+                        42.349785
                     ]
                 ]
             },
@@ -40747,6 +41287,36 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": "US*CPI*E5555911*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E5555911*2"
+                            }
+                        ],
+                        "name": "VACHARGER1 NORTHAMPTON ST2",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E5555911",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": "US*CPI*E5555921*1"
                             },
                             {
@@ -40758,7 +41328,16 @@
                                 "network_id": "US*CPI*E5555921*2"
                             }
                         ],
-                        "name": "VACHARGER1 NORTHAMPTON ST3"
+                        "name": "VACHARGER1 NORTHAMPTON ST3",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E5555921",
+                                "source": {
+                                    "name": "CHARGEPOINT_MAP_V3",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -42338,7 +42917,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01119"
+                            "zip_code": "01109"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",

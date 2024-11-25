@@ -98,7 +98,7 @@ class BlinkSpider(scrapy.Spider):
                 if charger["serialNumber"] not in charging_point_serials:
                     charging_point_serials[charger["serialNumber"]] = ChargingPointFeature(
                         location=coordinates,
-                        network_id=charger["serialNumber"],
+                        network_id=f"{station["address"]["countryCode"]}*BLK*E{charger["serialNumber"]}",
                         hardware=self.hardware_for_serial_number(charger["serialNumber"], charger),
                         evses=[],
                     )

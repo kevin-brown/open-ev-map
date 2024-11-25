@@ -129,13 +129,14 @@ class EvConnectSpider(scrapy.Spider):
             )
             evses.append(EvseFeature(
                 plugs=[plug],
-                network_id=connector["externalId"],
             ))
+
+        if evses:
+            evses[0]["network_id"] = f"US*{self.ocpi_cpo_id}*E{location["evseId"]}"
 
         charging_point = ChargingPointFeature(
             name=location["qrCode"],
             evses=evses,
-            network_id=f"US*{self.ocpi_cpo_id}*E{location["evseId"]}",
         )
 
         yield StationFeature(

@@ -4,7 +4,6 @@ from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT
 import scrapy
 
 import json
-import urllib
 
 
 class ChargePointSpider(scrapy.Spider):

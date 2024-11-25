@@ -6,6 +6,10 @@ from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT
 from uszipcode import SearchEngine
 import scrapy
 
+import json
+import uuid
+
+
 osm_geocoder = Nominatim(
     user_agent='Open EV Map (https://github.com/kevin-brown/open-ev-map)',
 )
@@ -24,7 +28,7 @@ class EvGatewaySpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        device_token = "test-token"
+        device_token = uuid.uuid4().hex
 
         yield scrapy.http.JsonRequest(
             url="https://mobileapi.evgateway.com/api/v3/info/nearMeStations",
@@ -101,7 +105,7 @@ class EvGatewaySpider(scrapy.Spider):
                     "lng": location["longitude"],
                     "network": [],
                     "networkString": [],
-                    "orgId": self.org_id,
+                    "orgId": 1,
                     "price": {
                         "free": False,
                     },
@@ -115,6 +119,22 @@ class EvGatewaySpider(scrapy.Spider):
 
     def parse_site(self, response):
         location = response.json()["data"]
+
+        if location is None:
+            original_request = json.loads(response.request.body)
+
+            if original_request["orgId"] == self.org_id:
+                return
+
+            original_request["orgId"] = self.org_id
+
+            yield scrapy.http.JsonRequest(
+                url="https://mobileapi.evgateway.com/api/v3/info/siteDetails",
+                data=original_request,
+                callback=self.parse_site,
+            )
+
+            return
 
         address_parts = location["address"].split()
         zip_code = None

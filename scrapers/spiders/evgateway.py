@@ -129,7 +129,6 @@ class EvGatewaySpider(scrapy.Spider):
             geocode_data = None
 
         if geocode_data is None:
-            print(zip_code, location["address"])
             zip_info = zip_search.by_zipcode(zip_code)
 
             if zip_info is not None:

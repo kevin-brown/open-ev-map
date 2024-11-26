@@ -23201,27 +23201,17 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": "cd994ddc-3a59-47b9-b5d8-6be0cb637331"
+                                "network_id": "US*EVC*E6334036c769d347763920894"
                             },
                             {
                                 "ports": [
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ],
-                                "network_id": "e00b8103-e56d-461c-8a73-87ac3bfd1681"
+                                ]
                             }
                         ],
-                        "name": "BTC1722",
-                        "network_id": [
-                            {
-                                "value": "US*EVC*E6334036c769d347763920894",
-                                "source": {
-                                    "name": "EV_CONNECT",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
+                        "name": "BTC1722"
                     }
                 ]
             }

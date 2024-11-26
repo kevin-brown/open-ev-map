@@ -210,6 +210,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
 
             charging_point = ChargingPointFeature(
                 name=station["station_name"],
+                network_id=f"US*CPI*E{cp_id}",
                 evses=evses,
             )
 

@@ -1,3 +1,5 @@
+import pathlib
+
 # Scrapy settings for scrapers project
 #
 # For simplicity, this file contains only settings considered important or
@@ -90,7 +92,17 @@ DOWNLOAD_DELAY = 3
 # Set settings whose default value is deprecated to a future-proof value
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
-FEED_EXPORT_ENCODING = "utf-8"
+
+FEED_URI = (pathlib.Path(__file__) / ".." / ".." / "scraped_data").resolve().as_posix() + "/%(name)s.json"
+
+FEEDS = {
+    FEED_URI: {
+        "format": "json",
+        "encoding": "utf-8",
+        "indent": 2,
+        "overwrite": True,
+    }
+}
 
 try:
     from scrapers.local_settings import *

@@ -176,6 +176,8 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
     def parse_charging_points_chargepoint(self, station):
         connector_types = station["ev_connector_types"]
 
+        cp_id = ""
+
         if l2_count := station["ev_level2_evse_num"]:
             evses = []
 
@@ -210,9 +212,11 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
 
             charging_point = ChargingPointFeature(
                 name=station["station_name"],
-                network_id=f"US*CPI*E{cp_id}",
                 evses=evses,
             )
+
+            if cp_id:
+                charging_point["network_id"] = f"US*CPI*E{cp_id}",
 
             return [charging_point]
 

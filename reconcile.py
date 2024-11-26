@@ -254,12 +254,22 @@ def combine_charging_points(first_points: list[ChargingPoint], second_points: li
     first_network_ids = set(point.network_id.get() for point in first_points if point.network_id.get())
     second_network_ids = set(point.network_id.get() for point in second_points if point.network_id.get())
 
-    if not first_network_ids and not second_network_ids:
-        if len(first_points) != len(second_points):
-            return [*first_points, *second_points]
+    if first_network_ids or second_network_ids:
+        return combine_charging_points_by_id(first_points, second_points)
 
-        return first_points
+    first_names = set(point.name for point in first_points if point.name)
+    second_names = set(point.name for point in second_points if point.name)
 
+    if first_names or second_names:
+        return combine_charging_points_by_name(first_points, second_points)
+
+    if len(first_points) != len(second_points):
+        return [*first_points, *second_points]
+
+    return first_points
+
+
+def combine_charging_points_by_id(first_points: list[ChargingPoint], second_points: list[ChargingPoint]) -> list[ChargingPoint]:
     network_ids_to_charging_points = defaultdict(list)
 
     for charging_point in [*first_points, *second_points]:
@@ -269,6 +279,31 @@ def combine_charging_points(first_points: list[ChargingPoint], second_points: li
 
     for network_id, charging_points in network_ids_to_charging_points.items():
         if not network_id:
+            # combined_points.extend(charging_points)
+
+            continue
+
+        combined_point = charging_points[0]
+
+        if len(charging_points) > 1:
+            for charging_point in charging_points:
+                combined_point = merge_charging_points(combined_point, charging_point)
+
+        combined_points.append(combined_point)
+
+    return combined_points
+
+
+def combine_charging_points_by_name(first_points: list[ChargingPoint], second_points: list[ChargingPoint]) -> list[ChargingPoint]:
+    names_to_charging_points = defaultdict(list)
+
+    for charging_point in [*first_points, *second_points]:
+        names_to_charging_points[charging_point.name].append(charging_point)
+
+    combined_points = []
+
+    for name, charging_points in names_to_charging_points.items():
+        if not name:
             # combined_points.extend(charging_points)
 
             continue

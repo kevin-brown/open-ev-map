@@ -2527,7 +2527,7 @@
                     {
                         "address": {
                             "street_address": "100 Morrissey Boulevard",
-                            "city": "Boston",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02125"
                         },
@@ -3584,7 +3584,7 @@
                         }
                     }
                 ],
-                "network": "NON_NETWORKED",
+                "network": "TESLA_DESTINATION",
                 "address": [
                     {
                         "address": {
@@ -6051,7 +6051,7 @@
                     {
                         "address": {
                             "street_address": "199 13th Street",
-                            "city": "Boston",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02129"
                         },
@@ -12485,7 +12485,7 @@
                         }
                     }
                 ],
-                "network": "NON_NETWORKED",
+                "network": "TESLA_DESTINATION",
                 "address": [
                     {
                         "address": {
@@ -13183,48 +13183,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.024655,
-                    42.140146
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Autel - Charlton Service Plaza Eastbound",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "NON_NETWORKED",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "80 Massachusetts Turnpike",
-                            "city": "Charlton",
-                            "state": "MA",
-                            "zip_code": "01507"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/333714"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.250254,
                     42.617914
                 ]
@@ -13239,7 +13197,7 @@
                         }
                     }
                 ],
-                "network": "NON_NETWORKED",
+                "network": "AUTEL",
                 "address": [
                     {
                         "address": {
@@ -13901,7 +13859,7 @@
                     {
                         "address": {
                             "street_address": "110 Airport Road",
-                            "city": "Montgomery",
+                            "city": "Westfield",
                             "state": "MA",
                             "zip_code": "01085"
                         },
@@ -17482,7 +17440,7 @@
                     {
                         "address": {
                             "street_address": "8 West Main Street",
-                            "city": "NA",
+                            "city": "North Adams",
                             "state": "MA",
                             "zip_code": "01247"
                         },
@@ -22219,7 +22177,7 @@
                     {
                         "address": {
                             "street_address": "52 2nd Avenue",
-                            "city": "NA",
+                            "city": "Waltham",
                             "state": "MA",
                             "zip_code": "02451"
                         },
@@ -38249,7 +38207,7 @@
                     {
                         "address": {
                             "street_address": "59 Willow Street",
-                            "city": "NA",
+                            "city": "Hamilton",
                             "state": "MA",
                             "zip_code": "01982"
                         },
@@ -43614,7 +43572,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01109"
+                            "zip_code": "01119"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",

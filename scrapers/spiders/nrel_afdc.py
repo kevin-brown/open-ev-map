@@ -126,6 +126,12 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             else:
                 station_name = station["station_name"]
 
+            if network == "NON_NETWORKED":
+                if station_name.startswith("Autel - "):
+                    network = "AUTEL"
+                elif station_name.endswith(" - Tesla Destination"):
+                    network = "TESLA_DESTINATION"
+
             yield StationFeature(
                 name=station_name,
                 address=address,

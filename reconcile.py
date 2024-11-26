@@ -1162,7 +1162,7 @@ for station in combined_data:
 
         station_properties["charging_points"] = charging_points
 
-        charging_point_coordinates = []
+        charging_point_coordinates = set()
 
         for charging_point in station.charging_points:
             point_location = charging_point.location.get()
@@ -1170,11 +1170,15 @@ for station in combined_data:
             if not point_location:
                 continue
 
-            charging_point_coordinates.append((point_location.longitude, point_location.latitude))
+            charging_point_coordinates.add((point_location.longitude, point_location.latitude))
 
-        if charging_point_coordinates:
+        if len(charging_point_coordinates) > 1:
             station_point = geojson.MultiPoint(
-                coordinates=charging_point_coordinates,
+                coordinates=list(sorted(charging_point_coordinates)),
+            )
+        elif len(charging_point_coordinates) == 1:
+            station_point = geojson.Point(
+                coordinates=charging_point_coordinates.pop(),
             )
 
     station_feature = geojson.Feature(

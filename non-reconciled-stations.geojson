@@ -3424,6 +3424,13 @@
                     {
                         "value": "1225 Iyannough Road (The Cape Codder Resort & Spa)",
                         "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "1225 Iyannough Road (The Cape Codder Resort & Spa)",
+                        "source": {
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
@@ -3434,12 +3441,29 @@
                     {
                         "value": "f478a73e-43db-4f4a-b37c-a4d1b5e686cc",
                         "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "f478a73e-43db-4f4a-b37c-a4d1b5e686cc",
+                        "source": {
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
                     }
                 ],
                 "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "02601"
+                        },
+                        "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
                     {
                         "address": {
                             "street_address": "1225 Iyannough Road",
@@ -4089,6 +4113,139 @@
                                 "value": "US*EVC*E6334036d769d347763920d38",
                                 "source": {
                                     "name": "EV_CONNECT",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.401645,
+                    42.299304
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "161 Worcester",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "ZEPLUG",
+                "network_id": [
+                    {
+                        "value": "1531",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "01701"
+                        },
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22373
+                            }
+                        ],
+                        "name": "#1 - 1014899",
+                        "network_id": [
+                            {
+                                "value": 18415,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22370
+                            }
+                        ],
+                        "name": "#2 - 1014948",
+                        "network_id": [
+                            {
+                                "value": 18412,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22372
+                            }
+                        ],
+                        "name": "#3 - 1014974",
+                        "network_id": [
+                            {
+                                "value": 18414,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22371
+                            }
+                        ],
+                        "name": "4 - 1014959",
+                        "network_id": [
+                            {
+                                "value": 18413,
+                                "source": {
+                                    "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
                                 }
                             }
@@ -7346,6 +7503,13 @@
                     {
                         "value": "400 Chapman St. (Sandri Energy)",
                         "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "400 Chapman St. (Sandri Energy)",
+                        "source": {
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
@@ -7356,12 +7520,29 @@
                     {
                         "value": "0116cbe1-627f-4c73-807f-81d7d609fa5d",
                         "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "0116cbe1-627f-4c73-807f-81d7d609fa5d",
+                        "source": {
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
                     }
                 ],
                 "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "01301"
+                        },
+                        "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
                     {
                         "address": {
                             "street_address": "400 Chapman Street",
@@ -8293,6 +8474,139 @@
                                 "source": {
                                     "name": "ALTERNATIVE_FUEL_DATA_CENTER",
                                     "quality": "AGGREGATED"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.39181,
+                    42.313132
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "492 OCP",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "ZEPLUG",
+                "network_id": [
+                    {
+                        "value": "1532",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "01701"
+                        },
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22363
+                            }
+                        ],
+                        "name": "#1 Left to Right",
+                        "network_id": [
+                            {
+                                "value": 18405,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22366
+                            }
+                        ],
+                        "name": "#2 L to R",
+                        "network_id": [
+                            {
+                                "value": 18408,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22367
+                            }
+                        ],
+                        "name": "#3 L to R",
+                        "network_id": [
+                            {
+                                "value": 18409,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22369
+                            }
+                        ],
+                        "name": "#4 L to R",
+                        "network_id": [
+                            {
+                                "value": 18411,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
                                 }
                             }
                         ]
@@ -11449,6 +11763,13 @@
                     {
                         "value": "99 Millers Falls Road (FirstLight Power)",
                         "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "99 Millers Falls Road (FirstLight Power)",
+                        "source": {
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
@@ -11459,12 +11780,29 @@
                     {
                         "value": "7f79c072-8916-4320-b6ab-495de07b5bc0",
                         "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "7f79c072-8916-4320-b6ab-495de07b5bc0",
+                        "source": {
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
                     }
                 ],
                 "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "01360"
+                        },
+                        "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    },
                     {
                         "address": {
                             "street_address": "99 Millers Falls Road",
@@ -12638,6 +12976,171 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.290499,
+                    41.669811
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Atlantic Aviation HYA",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "EV_GATEWAY",
+                "network_id": [
+                    {
+                        "value": "894",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "02601"
+                        },
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 17644
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 17645
+                            }
+                        ],
+                        "name": "EVB-P20511242",
+                        "network_id": [
+                            {
+                                "value": 14687,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 17648
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 17649
+                            }
+                        ],
+                        "name": "EVB-P21031292",
+                        "network_id": [
+                            {
+                                "value": 14689,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 17642
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 17643
+                            }
+                        ],
+                        "name": "EVB-P21071104",
+                        "network_id": [
+                            {
+                                "value": 14686,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 17640
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 17641
+                            }
+                        ],
+                        "name": "EVB-P21071114",
+                        "network_id": [
+                            {
+                                "value": 14685,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.30305,
                     41.93772
                 ]
@@ -13398,7 +13901,7 @@
                     {
                         "address": {
                             "street_address": "110 Airport Road",
-                            "city": "Westfield",
+                            "city": "Montgomery",
                             "state": "MA",
                             "zip_code": "01085"
                         },
@@ -16240,6 +16743,95 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.798732,
+                    42.256055
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Boston Capital - Worcester",
+                        "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "POWER_CHARGE_CONNECT",
+                "network_id": [
+                    {
+                        "value": "b70d0dec-028b-40da-9e2c-2a109051be6b",
+                        "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "01604"
+                        },
+                        "source": {
+                            "name": "EV_CONNECT",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "7dca7454-db87-4f04-a880-afd42737a041"
+                            }
+                        ],
+                        "name": "114343",
+                        "network_id": [
+                            {
+                                "value": "US*EVC*E6627bed7a86ed70241a200cb",
+                                "source": {
+                                    "name": "EV_CONNECT",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1bfc1dcf-5cc2-47a7-8b51-04ff56866463"
+                            }
+                        ],
+                        "name": "114344",
+                        "network_id": [
+                            {
+                                "value": "US*EVC*E6627c05f7df8947c5c40d7f1",
+                                "source": {
+                                    "name": "EV_CONNECT",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.0456,
                     42.34612
                 ]
@@ -18628,6 +19220,48 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.15043,
+                    42.48173
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "City of Woburn",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EV_GATEWAY",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "467 Main Street",
+                            "city": "Woburn",
+                            "state": "MA",
+                            "zip_code": "01801"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/334170"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.201253,
                     41.688787
                 ]
@@ -20379,131 +21013,13 @@
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        -71.095141,
-                        42.07541
+                        -71.043962,
+                        42.350415
                     ],
                     [
-                        -71.095064,
-                        42.075365
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "EASTON TH EASTON TH1",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "EASTON TH EASTON TH2",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "CHARGEPOINT",
-                "network_id": [
-                    {
-                        "value": "US*CPI*L15875541",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "US*CPI*L15875561",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "136 Elm Street",
-                            "city": "Easton",
-                            "state": "MA"
-                        },
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E15875541*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E15875541*2"
-                            }
-                        ],
-                        "name": "EASTON TH EASTON TH1",
-                        "network_id": [
-                            {
-                                "value": "US*CPI*E15875541",
-                                "source": {
-                                    "name": "CHARGEPOINT_MAP_V3",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E15875561*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E15875561*2"
-                            }
-                        ],
-                        "name": "EASTON TH EASTON TH2",
-                        "network_id": [
-                            {
-                                "value": "US*CPI*E15875561",
-                                "source": {
-                                    "name": "CHARGEPOINT_MAP_V3",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
+                        -71.043941,
+                        42.350478
+                    ],
                     [
                         -71.043995,
                         42.350502
@@ -24857,6 +25373,14 @@
                                     }
                                 ],
                                 "network_id": 22732
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 26607
                             }
                         ],
                         "name": " 40126",
@@ -24879,6 +25403,14 @@
                                     }
                                 ],
                                 "network_id": 22734
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 26599
                             }
                         ],
                         "name": "40131",
@@ -24901,6 +25433,14 @@
                                     }
                                 ],
                                 "network_id": 22740
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 26591
                             }
                         ],
                         "name": "40152",
@@ -24923,6 +25463,14 @@
                                     }
                                 ],
                                 "network_id": 26436
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 26453
                             }
                         ],
                         "name": "40160",
@@ -26225,6 +26773,81 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/334206"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.257419,
+                    42.39438
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Hyatt House",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "EV_GATEWAY",
+                "network_id": [
+                    {
+                        "value": "221",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "02451"
+                        },
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19724
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19725
+                            }
+                        ],
+                        "name": "30197",
+                        "network_id": [
+                            {
+                                "value": 16404,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -29401,7 +30024,15 @@
                     },
                     {
                         "charging_groups": [],
+                        "name": "0013a20040f67564"
+                    },
+                    {
+                        "charging_groups": [],
                         "name": "0013a20040f67568"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "0013a20040f6756a"
                     },
                     {
                         "charging_groups": [],
@@ -29409,7 +30040,15 @@
                     },
                     {
                         "charging_groups": [],
+                        "name": "0013a20040f67570"
+                    },
+                    {
+                        "charging_groups": [],
                         "name": "0013a20040f67571"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "0013a20040f67573"
                     },
                     {
                         "charging_groups": [],
@@ -29441,6 +30080,10 @@
                     },
                     {
                         "charging_groups": [],
+                        "name": "0013a20040fcd90d"
+                    },
+                    {
+                        "charging_groups": [],
                         "name": "0013a20040fcd90e"
                     },
                     {
@@ -29457,6 +30100,10 @@
                     },
                     {
                         "charging_groups": [],
+                        "name": "0013a20040fcd912"
+                    },
+                    {
+                        "charging_groups": [],
                         "name": "0013a20040fcd915"
                     },
                     {
@@ -29469,7 +30116,15 @@
                     },
                     {
                         "charging_groups": [],
+                        "name": "0013a20040fcd919"
+                    },
+                    {
+                        "charging_groups": [],
                         "name": "0013a20040fcd91a"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "0013a20040fcd91b"
                     },
                     {
                         "charging_groups": [],
@@ -37594,7 +38249,7 @@
                     {
                         "address": {
                             "street_address": "59 Willow Street",
-                            "city": "Hamilton",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01982"
                         },
@@ -39128,132 +39783,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -73.172675,
-                        42.472427
-                    ],
-                    [
-                        -73.172776,
-                        42.472469
-                    ]
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "TOWN OF DALTON DALTON CRA 1",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "TOWN OF DALTON DALTON CRA 2",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "CHARGEPOINT",
-                "network_id": [
-                    {
-                        "value": "US*CPI*L16423121",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "US*CPI*L16423221",
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "400 Main Street",
-                            "city": "Dalton",
-                            "state": "MA"
-                        },
-                        "source": {
-                            "name": "CHARGEPOINT_MAP_V3",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16423221*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16423221*2"
-                            }
-                        ],
-                        "name": "TOWN OF DALTON DALTON CRA 1",
-                        "network_id": [
-                            {
-                                "value": "US*CPI*E16423221",
-                                "source": {
-                                    "name": "CHARGEPOINT_MAP_V3",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16423121*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*CPI*E16423121*2"
-                            }
-                        ],
-                        "name": "TOWN OF DALTON DALTON CRA 2",
-                        "network_id": [
-                            {
-                                "value": "US*CPI*E16423121",
-                                "source": {
-                                    "name": "CHARGEPOINT_MAP_V3",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.156825,
@@ -39367,6 +39896,225 @@
                     {
                         "charging_groups": [],
                         "name": "NLJLPN"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.46021,
+                    42.08172
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "The Curtis Apartments",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EV_GATEWAY",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "161 Mechanic Street",
+                            "city": "Bellingham",
+                            "state": "MA",
+                            "zip_code": "02019"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/334049"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.46013,
+                    42.081906
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "The Curtis Apartments",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "ZEPLUG",
+                "network_id": [
+                    {
+                        "value": "852",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "02019"
+                        },
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22063
+                            }
+                        ],
+                        "name": "TCA Wallbox 6",
+                        "network_id": [
+                            {
+                                "value": 18182,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19757
+                            }
+                        ],
+                        "name": "TheCAWallbox 4",
+                        "network_id": [
+                            {
+                                "value": 16422,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 20082
+                            }
+                        ],
+                        "name": "Wallbox 1",
+                        "network_id": [
+                            {
+                                "value": 16667,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 20083
+                            }
+                        ],
+                        "name": "Wallbox 2",
+                        "network_id": [
+                            {
+                                "value": 16668,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19754
+                            }
+                        ],
+                        "name": "Wallbox 3",
+                        "network_id": [
+                            {
+                                "value": 16419,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 22062
+                            }
+                        ],
+                        "name": "Wallbox 5",
+                        "network_id": [
+                            {
+                                "value": 18181,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -40943,12 +41691,159 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        -72.684634,
-                        42.351487
-                    ]
+                    -71.146353,
+                    41.708088
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Union Medical Developers",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "EV_GATEWAY",
+                "network_id": [
+                    {
+                        "value": "691",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "02721"
+                        },
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 15970
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 15971
+                            }
+                        ],
+                        "name": "EVB-P21031253",
+                        "network_id": [
+                            {
+                                "value": 13448,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 15972
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 15973
+                            }
+                        ],
+                        "name": "EVB-P21071195",
+                        "network_id": [
+                            {
+                                "value": 13449,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 15969
+                            }
+                        ],
+                        "name": "WBBA31J054",
+                        "network_id": [
+                            {
+                                "value": 13447,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 15968
+                            }
+                        ],
+                        "name": "WBBA31J124",
+                        "network_id": [
+                            {
+                                "value": 13446,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.684634,
+                    42.351487
                 ]
             },
             "properties": {
@@ -42719,7 +43614,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01109"
+                            "zip_code": "01119"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",

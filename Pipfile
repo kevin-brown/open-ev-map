@@ -6,14 +6,16 @@ name = "pypi"
 [packages]
 geopy = "*"
 geojson = "*"
-shapely = "*"
+scrapyd = "*"
+scrapydweb = "*"
+logparser = "*"
 
 [dev-packages]
+pyzipcode = "*"
 requests = "*"
-scrapy = "*"
 rsa = "*"
-uszipcode = "*"
-sqlalchemy = "<2"
+scrapy = "*"
+scrapyd-client = "*"
 
 [requires]
 python_version = "3.12"

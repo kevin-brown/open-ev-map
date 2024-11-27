@@ -93,10 +93,8 @@ DOWNLOAD_DELAY = 3
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
-FEED_URI = (pathlib.Path(__file__) / ".." / ".." / "scraped_data").resolve().as_posix() + "/%(name)s.json"
-
 FEEDS = {
-    FEED_URI: {
+    (pathlib.Path(__file__) / ".." / ".." / "scraped_data").resolve().as_posix() + "/%(name)s.json": {
         "format": "json",
         "encoding": "utf-8",
         "indent": 2,

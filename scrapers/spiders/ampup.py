@@ -1,12 +1,12 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
-from uszipcode import SearchEngine
+from pyzipcode import ZipCodeDatabase
 import scrapy
 
 import urllib.parse
 
 
-zip_search = SearchEngine()
+zip_search = ZipCodeDatabase()
 
 
 class AmpupSpider(scrapy.Spider):
@@ -118,7 +118,7 @@ class AmpupSpider(scrapy.Spider):
             if state_zip[0] != "MA":
                 return
         elif len(address_parts) > 1 and address_parts[-1][0].isdigit():
-            zip_info = zip_search.by_zipcode(address_parts[-1])
+            zip_info = zip_search.get(address_parts[-1])
 
             if zip_info is None:
                 return

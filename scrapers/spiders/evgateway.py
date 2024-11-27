@@ -1,9 +1,9 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
+from scrapers.utils import MAPPER_STATE_ABBR_LONG_TO_SHORT
 
 from geopy.exc import GeocoderUnavailable
 from geopy.geocoders import Nominatim
-from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT
-from uszipcode import SearchEngine
+from pyzipcode import ZipCodeDatabase
 import scrapy
 
 import json
@@ -14,7 +14,7 @@ osm_geocoder = Nominatim(
     user_agent='Open EV Map (https://github.com/kevin-brown/open-ev-map)',
 )
 
-zip_search = SearchEngine()
+zip_search = ZipCodeDatabase()
 
 class EvGatewaySpider(scrapy.Spider):
     name = "evgateway"
@@ -149,12 +149,12 @@ class EvGatewaySpider(scrapy.Spider):
             geocode_data = None
 
         if geocode_data is None:
-            zip_info = zip_search.by_zipcode(zip_code)
+            zip_info = zip_search.get(zip_code)
 
             if zip_info is not None:
                 address = AddressFeature(
                     state=zip_info.state,
-                    zip_code=zip_info.zipcode,
+                    zip_code=zip_code,
                 )
             else:
                 address = None

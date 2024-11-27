@@ -1,0 +1,4 @@
+geopy
+rsa
+shapely
+pyzipcode

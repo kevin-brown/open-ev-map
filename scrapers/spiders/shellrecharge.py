@@ -1,6 +1,6 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
+from scrapers.utils import MAPPER_STATE_ABBR_LONG_TO_SHORT, MAPPER_STATE_ABBR_SHORT_TO_LONG
 
-from uszipcode.state_abbr import MAPPER_STATE_ABBR_LONG_TO_SHORT, MAPPER_STATE_ABBR_SHORT_TO_LONG
 import scrapy
 
 from collections import defaultdict

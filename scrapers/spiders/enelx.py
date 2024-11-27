@@ -1,6 +1,6 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
-from uszipcode import SearchEngine
+from pyzipcode import ZipCodeDatabase
 import rsa
 import scrapy
 
@@ -9,7 +9,7 @@ import base64
 import json
 
 
-zip_search = SearchEngine()
+zip_search = ZipCodeDatabase()
 
 
 class EnelXSpider(scrapy.Spider):
@@ -191,7 +191,7 @@ class EnelXSpider(scrapy.Spider):
             if address_parts[1].isdigit():
                 street_address = f"{address_parts[1]} {address_parts[0]}"
 
-        zip_info = zip_search.by_zipcode(data["postalcode"])
+        zip_info = zip_search.get(data["postalcode"])
         state = zip_info.state
 
         address = AddressFeature(

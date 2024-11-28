@@ -357,6 +357,7 @@ def normalize_address_street_address(street_address: str) -> str:
     STREET_TYPE_MAP = {
         "ave": "Avenue",
         "blvd": "Boulevard",
+        "cir": "Circle",
         "ct": "Court",
         "dr": "Drive",
         "expy": "Expressway",
@@ -641,7 +642,7 @@ def combine_networked_stations_at_same_address(all_stations: list[Station]) -> l
 
         station_distance = get_station_distance(first_station, second_station)
 
-        if station_distance.miles > 0.1:
+        if station_distance.miles > 0.5:
             return False
 
         return True
@@ -1064,7 +1065,10 @@ for data_file in scraped_data.glob("*.json"):
         continue
 
     with data_file.open() as fh:
-        contents = json.load(fh)
+        try:
+            contents = json.load(fh)
+        except:
+            contents = []
 
     parsed_stations = parse_stations(contents)
 

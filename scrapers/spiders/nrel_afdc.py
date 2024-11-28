@@ -216,7 +216,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
             )
 
             if cp_id:
-                charging_point["network_id"] = f"US*CPI*E{cp_id}",
+                charging_point["network_id"] = f"US*CPI*E{cp_id}"
 
             return [charging_point]
 

@@ -125,7 +125,7 @@ class OpenStreetMapSpider(scrapy.Spider):
             "EVgo": "EVGO",
             "Electric Era": "ELECTRIC_ERA",
             "EVPassport": "EV_PASSPORT",
-            "Greenspot": "GREENSPOT",
+            "Greenspot": "GREEN_SPOT",
             "Loop": "LOOP",
             "Tesla": None, # Ambiguous
             "Tesla, Inc.": None, # Ambiguous

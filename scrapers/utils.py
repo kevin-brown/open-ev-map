@@ -65,7 +65,7 @@ MAPPER_STATE_ABBR_LONG_TO_SHORT = {
     "Northern Mariana Islands": "MP",
     "Puerto Rico": "PR",
     "United States Minor Outlying Islands": "UM",
-    "Virgin Islands, U.S.": "VI",
+    "United States Virgin Islands": "VI",
 }
 
 MAPPER_STATE_ABBR_SHORT_TO_LONG = dict(map(reversed, MAPPER_STATE_ABBR_LONG_TO_SHORT.items()))

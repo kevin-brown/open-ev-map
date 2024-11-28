@@ -159,12 +159,22 @@ class EvGatewaySpider(scrapy.Spider):
             else:
                 address = None
         else:
-            address_parts = geocode_data.raw["address"]
+            geocode_address = geocode_data.raw["address"]
 
             address = AddressFeature(
-                state=MAPPER_STATE_ABBR_LONG_TO_SHORT[address_parts["state"]],
-                zip_code=address_parts["postcode"],
+                state=MAPPER_STATE_ABBR_LONG_TO_SHORT[geocode_address["state"]],
+                zip_code=geocode_address["postcode"],
             )
+
+            if "city" in geocode_address:
+                address["city"] = geocode_address["city"]
+            elif "town" in geocode_address:
+                address["city"] = geocode_address["town"]
+
+            if "house_number" in geocode_address and "road" in geocode_address:
+                address["street_address"] = f"{geocode_address["house_number"]} {geocode_address["road"]}"
+            elif "road" in geocode_address and address_parts[0].isdigit():
+                address["street_address"] = f"{address_parts[0]} {geocode_address["road"]}"
 
         coordinates = LocationFeature(
             latitude=location["latitude"],

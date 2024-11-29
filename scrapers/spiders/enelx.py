@@ -194,9 +194,14 @@ class EnelXSpider(scrapy.Spider):
         zip_info = zip_search.get(data["postalcode"])
         state = zip_info.state
 
+        city = data["city"]
+
+        if city == "NA":
+            city = zip_info.city
+
         address = AddressFeature(
             street_address=street_address,
-            city=data["city"],
+            city=city,
             state=state,
             zip_code=data["postalcode"],
         )

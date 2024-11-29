@@ -3525,6 +3525,8 @@
                 "address": [
                     {
                         "address": {
+                            "street_address": "161 Worcester Road",
+                            "city": "Framingham",
                             "state": "MA",
                             "zip_code": "01701"
                         },
@@ -4769,48 +4771,6 @@
                             }
                         ],
                         "name": "GS38A"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.248309,
-                    42.372603
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "260 Charles",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "260 Charles Street",
-                            "city": "Waltham",
-                            "state": "MA",
-                            "zip_code": "02453"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/230660"
                     }
                 ]
             }
@@ -7848,6 +7808,8 @@
                 "address": [
                     {
                         "address": {
+                            "street_address": "492 Old Connecticut Path",
+                            "city": "Framingham",
                             "state": "MA",
                             "zip_code": "01701"
                         },
@@ -8848,59 +8810,6 @@
                             }
                         ],
                         "name": "GS78A"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.056166,
-                    42.358522
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "53 State St",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "53 State Street",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "53 State Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02109"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229725"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/251680"
                     }
                 ]
             }
@@ -10008,48 +9917,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.569219,
-                    42.110896
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "700 State St",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "700 State Street",
-                            "city": "Springfield",
-                            "state": "MA",
-                            "zip_code": "01109"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229727"
                     }
                 ]
             }
@@ -17251,6 +17118,28 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": 3068
+                            }
+                        ],
+                        "name": "Center St L2 2",
+                        "network_id": [
+                            {
+                                "value": "0910042001260583398022622035",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": 3065
                             }
                         ],
@@ -18295,6 +18184,227 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.213313,
+                    42.297171
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Charles River Place",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "ZEPLUG",
+                "network_id": [
+                    {
+                        "value": "550",
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "state": "MA",
+                            "zip_code": "02109"
+                        },
+                        "source": {
+                            "name": "EV_GATEWAY",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19475
+                            }
+                        ],
+                        "name": "Charles River Place - Wallbox 1",
+                        "network_id": [
+                            {
+                                "value": 16243,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19776
+                            }
+                        ],
+                        "name": "Charles River Place - Wallbox 2",
+                        "network_id": [
+                            {
+                                "value": 16437,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19800
+                            }
+                        ],
+                        "name": "Charles River Place - Wallbox 3",
+                        "network_id": [
+                            {
+                                "value": 16454,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19772
+                            }
+                        ],
+                        "name": "Charles River Place - Wallbox 4",
+                        "network_id": [
+                            {
+                                "value": 16434,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19778
+                            }
+                        ],
+                        "name": "Charles River Place - Wallbox 5",
+                        "network_id": [
+                            {
+                                "value": 16439,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19779
+                            }
+                        ],
+                        "name": "Charles River Place - Wallbox 6",
+                        "network_id": [
+                            {
+                                "value": 16440,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19773
+                            }
+                        ],
+                        "name": "Charles River Place - Wallbox 7",
+                        "network_id": [
+                            {
+                                "value": 16435,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 19780
+                            }
+                        ],
+                        "name": "Charles River Place - Wallbox 8",
+                        "network_id": [
+                            {
+                                "value": 16441,
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.334058,
                     41.98328
                 ]
@@ -18328,48 +18438,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/229715"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.729866,
-                    42.39264
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Cichy's Garage",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "5 Main Street",
-                            "city": "Williamsburg",
-                            "state": "MA",
-                            "zip_code": "01096"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/65681"
                     }
                 ]
             }
@@ -19721,59 +19789,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.005335,
-                    41.640306
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Darthmouth Nissan",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "Dartmouth Nissan",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "483 State Road",
-                            "city": "Dartmouth",
-                            "state": "MA",
-                            "zip_code": "02747"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/251395"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/262109"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.020618,
                     42.107643
                 ]
@@ -20507,59 +20522,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/259806"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.054718,
-                    42.45598
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "E Foster St",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "E Foster St Parking",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "242 E Foster Street",
-                            "city": "Melrose",
-                            "state": "MA",
-                            "zip_code": "02176"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/225853"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229700"
                     }
                 ]
             }
@@ -24842,48 +24804,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.584419,
-                    42.11769
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Heliovaas",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "395 Liberty Street",
-                            "city": "Springfield",
-                            "state": "MA",
-                            "zip_code": "01104"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229726"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.032679,
                     42.225447
                 ]
@@ -25588,59 +25508,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.659158,
-                    41.932295
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Hilton Garden Inn - Plymouth",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "Hilton Garden Inn Plymouth",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "4 Home Depot Drive",
-                            "city": "Plymouth",
-                            "state": "MA",
-                            "zip_code": "02360"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/189278"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229706"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.12713,
                     42.20665
                 ]
@@ -26160,6 +26027,57 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.907869,
+                    42.159877
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Inovis HQ",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "3975",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "94 Reservoir Park Drive",
+                            "city": "Rockland",
+                            "state": "MA",
+                            "zip_code": "02370"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "NNLNHH"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.848472,
                     42.153631
                 ]
@@ -26525,90 +26443,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.595339,
-                    42.338955
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "KS Partners - Boston Post Road",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "293 Boston Post Rd W",
-                            "city": "Marlborough",
-                            "state": "MA",
-                            "zip_code": "01752"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/189268"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.589284,
-                    42.333711
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "KS Partners - Marlborough Tech Park",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "200 Nickerson Road",
-                            "city": "Marlborough",
-                            "state": "MA",
-                            "zip_code": "01752"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/189267"
                     }
                 ]
             }
@@ -28172,48 +28006,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/316181"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.114455,
-                    42.363356
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Lincoln - 19 Blackstone St",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "19 Blackstone Street",
-                            "city": "Cambridge",
-                            "state": "MA",
-                            "zip_code": "02139"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/230674"
                     }
                 ]
             }
@@ -30248,48 +30040,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.131719,
-                    42.246102
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Maverick Corp",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "1 Westinghouse Plaza",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02136"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229717"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.110776,
                     42.414416
                 ]
@@ -31159,28 +30909,6 @@
                         "network_id": [
                             {
                                 "value": "AL0012A1GPCV00558L",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 3702
-                            }
-                        ],
-                        "name": "L2 5",
-                        "network_id": [
-                            {
-                                "value": "AL0012A1GR3V010612",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -33809,48 +33537,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.063085,
-                    42.425772
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Point at 180 Malden",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "180 Eastern Avenue",
-                            "city": "Malden",
-                            "state": "MA",
-                            "zip_code": "02148"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/189269"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.057609,
                     42.357009
                 ]
@@ -34035,6 +33721,28 @@
                         "network_id": [
                             {
                                 "value": "AL0012A1GPCV00423B",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 2072
+                            }
+                        ],
+                        "name": "L2 14",
+                        "network_id": [
+                            {
+                                "value": "AL0012A1GPCV00417E",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -34625,48 +34333,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.591841,
-                    42.104386
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Propark - Worthington",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "215 Worthington Street",
-                            "city": "Springfield",
-                            "state": "MA",
-                            "zip_code": "01103"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/189280"
                     }
                 ]
             }
@@ -36199,6 +35865,61 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.137146,
+                    41.776097
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Somerset Water & Sewer",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "3281",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "3249 County Street",
+                            "city": "Somerset",
+                            "state": "MA",
+                            "zip_code": "02726"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "QQQCGO"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "QQQKOG"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.062885,
                     42.158782
                 ]
@@ -36825,8 +36546,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.161294,
-                    42.725018
+                    -71.158755,
+                    42.722369
                 ]
             },
             "properties": {
@@ -36837,10 +36558,24 @@
                             "name": "AMP_UP",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "value": "Voltrek LLC",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
                     }
                 ],
                 "network": "AMP_UP",
                 "network_id": [
+                    {
+                        "value": "3101",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    },
                     {
                         "value": "4667",
                         "source": {
@@ -36871,6 +36606,69 @@
                     {
                         "charging_groups": [],
                         "name": "1EC5-1-2204-00033"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "NNLJLB"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.174422,
+                    41.730183
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Stateline Subaru",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "4071",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "1451 Brayton Point Road",
+                            "city": "Somerset",
+                            "state": "MA",
+                            "zip_code": "02725"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "NLHRDR"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "NLHRNR"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "NLHRRR"
                     }
                 ]
             }
@@ -37660,6 +37458,57 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.216282,
+                    42.033173
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Station GMC",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "4248",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "2 Chauncy Street",
+                            "city": "Mansfield",
+                            "state": "MA",
+                            "zip_code": "02048"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "AU002001"
                     }
                 ]
             }
@@ -38776,6 +38625,8 @@
                 "address": [
                     {
                         "address": {
+                            "street_address": "161 Mechanic Street",
+                            "city": "Bellingham",
                             "state": "MA",
                             "zip_code": "02019"
                         },
@@ -40178,59 +40029,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.069895,
-                    42.463455
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Tremont St - Pole 674",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "Tremont St Parking",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "130 Tremont Street",
-                            "city": "Melrose",
-                            "state": "MA",
-                            "zip_code": "02176"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/225855"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/230466"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.154018,
                     42.371893
                 ]
@@ -40444,59 +40242,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/325220"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.587858,
-                    42.10975
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "USESI/HZ ELECTRIC SPRINGFIELD",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "USESI/HZ Electric Springfield",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "274 Taylor Street",
-                            "city": "Springfield",
-                            "state": "MA",
-                            "zip_code": "01105"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/230459"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/251673"
                     }
                 ]
             }
@@ -41374,48 +41119,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.691815,
-                    41.756242
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Wareham Elementary School",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "63 Minot Avenue",
-                            "city": "Wareham",
-                            "state": "MA",
-                            "zip_code": "02571"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/230422"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.724219,
                     41.759061
                 ]
@@ -42094,7 +41797,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01119"
+                            "zip_code": "01109"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
@@ -42787,6 +42490,61 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/63609"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.489218,
+                    42.195658
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Zoo parking lot",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "4082",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "62 Nash Hill Road",
+                            "city": "Ludlow",
+                            "state": "MA",
+                            "zip_code": "01056"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "QOACQO"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "QOACSS"
                     }
                 ]
             }

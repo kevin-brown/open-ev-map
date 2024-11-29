@@ -3194,7 +3194,8 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ]
+                                ],
+                                "network_id": "US*SKY*E6334036b769d34776391ff4d"
                             }
                         ],
                         "name": "SKY0047"
@@ -3214,7 +3215,8 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ]
+                                ],
+                                "network_id": "US*SKY*E6334036b769d34776391ff55"
                             }
                         ],
                         "name": "SKY0051"
@@ -4270,6 +4272,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E12176"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E12175"
                             }
                         ],
                         "name": "P5126",
@@ -4292,6 +4302,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E12179"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E12178"
                             }
                         ],
                         "name": "P5128",
@@ -4961,6 +4979,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E11611"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E11610"
                             }
                         ],
                         "name": "P5142",
@@ -4983,6 +5009,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E11614"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E11613"
                             }
                         ],
                         "name": "P5144",
@@ -5005,6 +5039,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E11617"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E11616"
                             }
                         ],
                         "name": "P5146",
@@ -5027,6 +5069,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E11619"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E11620"
                             }
                         ],
                         "name": "P5149",
@@ -7423,7 +7473,8 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ]
+                                ],
+                                "network_id": "US*SKY*E6334036b769d34776391fef8"
                             }
                         ],
                         "name": "SKY0006"
@@ -7526,6 +7577,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E12366"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E12365"
                             }
                         ],
                         "name": "P5642",
@@ -7548,6 +7607,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E12369"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E12368"
                             }
                         ],
                         "name": "P5644",
@@ -10611,6 +10678,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E11765"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E11764"
                             }
                         ],
                         "name": "A4254",
@@ -10633,6 +10708,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E11767"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E11768"
                             }
                         ],
                         "name": "A4257",
@@ -10875,6 +10958,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E12405"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E12404"
                             }
                         ],
                         "name": "P5095",
@@ -10897,6 +10988,14 @@
                                     }
                                 ],
                                 "network_id": "CA*SWT*E12402"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "CA*SWT*E12401"
                             }
                         ],
                         "name": "P5097",
@@ -11947,7 +12046,8 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ]
+                                ],
+                                "network_id": "US*SKY*E6334036b769d34776391fefc"
                             }
                         ],
                         "name": "SKY0009"
@@ -11967,7 +12067,8 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ]
+                                ],
+                                "network_id": "US*SKY*E6334036b769d34776391fefe"
                             }
                         ],
                         "name": "SKY0010"
@@ -14372,7 +14473,7 @@
                     {
                         "address": {
                             "street_address": "110 Airport Road",
-                            "city": "Montgomery",
+                            "city": "Westfield",
                             "state": "MA",
                             "zip_code": "01085"
                         },
@@ -27447,7 +27548,7 @@
                     {
                         "address": {
                             "street_address": "64 Holden Street",
-                            "city": "Shrewsbury",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01545"
                         },
@@ -31006,7 +31107,7 @@
                             "street_address": "1 MGM Wy",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01103"
+                            "zip_code": "01105"
                         },
                         "source": {
                             "name": "AMP_UP",
@@ -32083,7 +32184,7 @@
                             "street_address": "1 Harborside Drive",
                             "city": "Boston",
                             "state": "MA",
-                            "zip_code": "02129"
+                            "zip_code": "02128"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
@@ -45232,7 +45333,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01109"
+                            "zip_code": "01119"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",

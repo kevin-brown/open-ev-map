@@ -94,7 +94,7 @@ DOWNLOAD_DELAY = 3
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
-if "-a" in sys.argv:
+if "-a" not in sys.argv:
     feeds_path = (pathlib.Path(__file__) / ".." / ".." / "scraped_data").resolve().as_posix() + "/%(name)s.json"
 else:
     feeds_path = (pathlib.Path(__file__) / ".." / ".." / "scraped_data").resolve().as_posix() + "/%(name)s/%(time)s.json"

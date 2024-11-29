@@ -345,12 +345,63 @@ def merge_charging_points(first_point: ChargingPoint, second_point: ChargingPoin
     combined_charging_point.network_id.extend(first_point.network_id)
     combined_charging_point.network_id.extend(second_point.network_id)
 
-    if first_point.charging_port_groups:
-        combined_charging_point.charging_port_groups = first_point.charging_port_groups
-    elif second_point.charging_port_groups:
-        combined_charging_point.charging_port_groups = second_point.charging_port_groups
+    combined_charging_point.charging_port_groups = combine_charging_port_groups(first_point.charging_port_groups, second_point.charging_port_groups)
 
     return combined_charging_point
+
+
+def combine_charging_port_groups(first_groups: list[ChargingPortGroup], second_groups: list[ChargingPortGroup]) -> list[ChargingPortGroup]:
+    if not first_groups:
+        return second_groups
+
+    if not second_groups:
+        return first_groups
+
+    network_ids_to_charging_ports = defaultdict(list)
+
+    for charging_port_group in [*first_groups, *second_groups]:
+        network_ids_to_charging_ports[charging_port_group.network_id].append(charging_port_group)
+
+    if len(network_ids_to_charging_ports) == 1:
+        network_id = list(network_ids_to_charging_ports.keys())[0]
+
+        if not network_id:
+            return first_groups
+
+    combined_groups = []
+
+    for network_id, charging_ports in network_ids_to_charging_ports.items():
+        if not network_id:
+            continue
+
+        combined_group = charging_ports[0]
+
+        if len(charging_ports) > 1:
+            for charging_port_group in charging_ports:
+                combined_group = merge_charging_port_groups(combined_group, charging_port_group)
+
+        combined_groups.append(combined_group)
+
+    return combined_groups
+
+
+def merge_charging_port_groups(first_group: ChargingPortGroup, second_group: ChargingPortGroup):
+    combined_group = ChargingPortGroup(
+        charging_ports=[],
+    )
+
+    if first_group.network_id:
+        combined_group.network_id = first_group.network_id
+    elif second_group.network_id:
+        combined_group.network_id = second_group.network_id
+
+    for charging_port in [*first_group.charging_ports, *second_group.charging_ports]:
+        if charging_port in combined_group.charging_ports:
+            continue
+
+        combined_group.charging_ports.append(charging_port)
+
+    return combined_group
 
 
 def normalize_address_street_address(street_address: str) -> str:

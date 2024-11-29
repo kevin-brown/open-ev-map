@@ -943,8 +943,6 @@ def parse_stations(raw_contents):
     for raw_station in raw_contents:
         station = Station()
 
-        print(raw_station)
-
         source_data = SourceLocation(
             system=raw_station["source"]["system"],
             quality=SourceLocationQualityScore[raw_station["source"]["quality"]],

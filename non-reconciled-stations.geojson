@@ -2351,7 +2351,7 @@
                     {
                         "address": {
                             "street_address": "100 Morrissey Boulevard",
-                            "city": "NA",
+                            "city": "Boston",
                             "state": "MA",
                             "zip_code": "02125"
                         },
@@ -3262,48 +3262,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/251383"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.277772,
-                    42.485241
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "135 South Rd - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "135 South Road",
-                            "city": "Bedford",
-                            "state": "MA",
-                            "zip_code": "01730"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/359389"
                     }
                 ]
             }
@@ -5695,7 +5653,7 @@
                     {
                         "address": {
                             "street_address": "199 13th Street",
-                            "city": "NA",
+                            "city": "Boston",
                             "state": "MA",
                             "zip_code": "02129"
                         },
@@ -13092,48 +13050,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.252803,
-                    42.303202
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Applegate Inn, a Select Registry Property - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "279 W Park Street",
-                            "city": "Lee",
-                            "state": "MA",
-                            "zip_code": "01238"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114339"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.836363,
                     41.346797
                 ]
@@ -14473,7 +14389,7 @@
                     {
                         "address": {
                             "street_address": "110 Airport Road",
-                            "city": "Westfield",
+                            "city": "Montgomery",
                             "state": "MA",
                             "zip_code": "01085"
                         },
@@ -17115,48 +17031,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.281833,
-                    42.362848
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Birchwood Inn, a Select Registry Property - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "7 Hubbard Street",
-                            "city": "Lenox",
-                            "state": "MA",
-                            "zip_code": "01240"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114346"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.79586,
                     42.23635
                 ]
@@ -17190,48 +17064,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/225705"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.258924,
-                    42.336121
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Blantyre - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "6 Blantyre Road",
-                            "city": "Lenox",
-                            "state": "MA",
-                            "zip_code": "01240"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114345"
                     }
                 ]
             }
@@ -17799,48 +17631,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.288507,
-                    42.352564
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Brook Farm Inn, a Select Registry Property - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "15 Hawthorne Street",
-                            "city": "Lenox",
-                            "state": "MA",
-                            "zip_code": "01240"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114342"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.186769,
                     42.482463
                 ]
@@ -17874,6 +17664,51 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/322844"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -69.989524,
+                    41.852996
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Cape Associates, Inc.",
+                        "source": {
+                            "name": "TESLA",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "TESLA_DESTINATION",
+                "network_id": [
+                    {
+                        "value": "450653",
+                        "source": {
+                            "name": "TESLA",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "325 Massasoit Road",
+                            "city": "Eastham",
+                            "state": "MA",
+                            "zip_code": "02642"
+                        },
+                        "source": {
+                            "name": "TESLA",
+                            "quality": "ORIGINAL"
+                        }
                     }
                 ]
             }
@@ -18078,48 +17913,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.082652,
-                    41.761818
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Captain Freeman Inn - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "15 Breakwater Road",
-                            "city": "Brewster",
-                            "state": "MA",
-                            "zip_code": "02631"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114330"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -73.115099,
                     42.699799
                 ]
@@ -18204,7 +17997,7 @@
                     {
                         "address": {
                             "street_address": "8 West Main Street",
-                            "city": "North Adams",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01247"
                         },
@@ -20569,48 +20362,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.266561,
-                    42.341095
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Cranwell Resort, Spa & Golf Club - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "55 Lee Road",
-                            "city": "Lenox",
-                            "state": "MA",
-                            "zip_code": "01240"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114344"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.237892,
                     42.370971
                 ]
@@ -21137,197 +20888,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/262109"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.99753,
-                    41.642293
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Dartmouth, MA",
-                        "source": {
-                            "name": "SUPERCHARGE",
-                            "quality": "CURATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_SUPERCHARGER",
-                "network_id": [
-                    {
-                        "value": "DartmouthMASupercharger",
-                        "source": {
-                            "name": "SUPERCHARGE",
-                            "quality": "CURATED"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "380 State Road",
-                            "city": "Dartmouth",
-                            "state": "MA",
-                            "zip_code": "02747"
-                        },
-                        "source": {
-                            "name": "SUPERCHARGE",
-                            "quality": "CURATED"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "1A"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "1B"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "1C"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "1D"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2A"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2B"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2C"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2D"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "3A"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "3B"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "3C"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "NACS"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "3D"
                     }
                 ]
             }
@@ -21953,48 +21513,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.264268,
-                    42.300948
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Devonfield Inn, a Select Registry Property - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "85 Stockbridge Road",
-                            "city": "Lee",
-                            "state": "MA",
-                            "zip_code": "01238"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114341"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.59229,
                     42.10584
                 ]
@@ -22070,174 +21588,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/325224"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.054992,
-                    42.361019
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Dock Square Parking Garage - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "20 Clinton Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02109"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/150640"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.048123,
-                    42.320144
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "DoubleTree Club by Hilton Boston-Bayside - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "240 Mount Vernon Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02125"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114323"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.064651,
-                    42.348958
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "DoubleTree by Hilton Boston - Downtown - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "821 Washington Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02111"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114328"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.2799,
-                    41.66116
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Doubletree by Hilton Cape Cod - Hyannis - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "287 Iyannough Road",
-                            "city": "Barnstable",
-                            "state": "MA",
-                            "zip_code": "02601"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114319"
                     }
                 ]
             }
@@ -23549,7 +22899,7 @@
                     {
                         "address": {
                             "street_address": "52 2nd Avenue",
-                            "city": "Waltham",
+                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02451"
                         },
@@ -24500,48 +23850,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.068673,
-                    42.352135
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Four Seasons Hotel Boston - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "200 Boylston Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02116"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114322"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.22858,
                     42.06211
                 ]
@@ -24993,48 +24301,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.282639,
-                    42.35599
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Gateways Inn, a Select Registry Property - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "51 Walker Street",
-                            "city": "Lenox",
-                            "state": "MA",
-                            "zip_code": "01240"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114343"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.174015,
                     42.722007
                 ]
@@ -25310,48 +24576,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/229714"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.093095,
-                    41.278752
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Great Harbor Yacht Club - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "96 Washington Street",
-                            "city": "Nantucket",
-                            "state": "MA",
-                            "zip_code": "02554"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114351"
                     }
                 ]
             }
@@ -25821,48 +25045,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.908409,
-                    42.847511
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Hampton Inn Amesbury - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "284 Elm Street",
-                            "city": "Amesbury",
-                            "state": "MA",
-                            "zip_code": "01913"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114318"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.999235,
                     42.519323
                 ]
@@ -25940,90 +25122,6 @@
                             }
                         ],
                         "name": "1404"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.993881,
-                    42.526441
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Hampton Inn Boston/Peabody - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "59 Newbury Street",
-                            "city": "Peabody",
-                            "state": "MA",
-                            "zip_code": "01960"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114352"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.281108,
-                    42.354931
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Hampton Terrace Inn - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "91 Walker Street",
-                            "city": "Lenox",
-                            "state": "MA",
-                            "zip_code": "01240"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114347"
                     }
                 ]
             }
@@ -26150,48 +25248,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/325207"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.848065,
-                    42.506009
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Harbor Light Inn, a Select Registry Property - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "58 Washington Street",
-                            "city": "Marblehead",
-                            "state": "MA",
-                            "zip_code": "01945"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114348"
                     }
                 ]
             }
@@ -28269,48 +27325,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.495236,
-                    41.757246
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Isaiah Jones Homestead Bed & Breakfast - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "165 Main Street",
-                            "city": "Sandwich",
-                            "state": "MA",
-                            "zip_code": "02563"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114355"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.848472,
                     42.153631
                 ]
@@ -29027,90 +28041,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/45895"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.060875,
-                    42.357382
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Kimpton Nine Zero Hotel - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "90 Tremont Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02108"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114329"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.660308,
-                    41.928501
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "King Collision Centers - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "48 Holman Road",
-                            "city": "Plymouth",
-                            "state": "MA",
-                            "zip_code": "02360"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/168910"
                     }
                 ]
             }
@@ -31107,7 +30037,7 @@
                             "street_address": "1 MGM Wy",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01105"
+                            "zip_code": "01103"
                         },
                         "source": {
                             "name": "AMP_UP",
@@ -31474,48 +30404,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.082246,
-                    42.348522
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Mandarin Oriental, Boston - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "776 Boylston Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02199"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114327"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.629513,
                     42.180922
                 ]
@@ -31679,48 +30567,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/45897"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.492238,
-                    41.61677
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Mashpee Commons - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "22 Steeple Street",
-                            "city": "Mashpee",
-                            "state": "MA",
-                            "zip_code": "02649"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114349"
                     }
                 ]
             }
@@ -32184,7 +31030,7 @@
                             "street_address": "1 Harborside Drive",
                             "city": "Boston",
                             "state": "MA",
-                            "zip_code": "02128"
+                            "zip_code": "02129"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
@@ -32531,48 +31377,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.110042,
-                    41.746272
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Matouk Factory Store - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "925 Airport Road",
-                            "city": "Fall River",
-                            "state": "MA",
-                            "zip_code": "02720"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/168954"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.131719,
                     42.246102
                 ]
@@ -32606,6 +31410,51 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/229717"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.110776,
+                    42.414416
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Medford Gas",
+                        "source": {
+                            "name": "TESLA",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "TESLA_DESTINATION",
+                "network_id": [
+                    {
+                        "value": "450508",
+                        "source": {
+                            "name": "TESLA",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "151 Main Street",
+                            "city": "Medford",
+                            "state": "MA",
+                            "zip_code": "02155"
+                        },
+                        "source": {
+                            "name": "TESLA",
+                            "quality": "ORIGINAL"
+                        }
                     }
                 ]
             }
@@ -33083,48 +31932,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.056023,
-                    42.360881
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Millennium Bostonian Hotel - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "26 North Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02109"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114324"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.026015,
                     42.243092
                 ]
@@ -33223,48 +32030,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.598013,
-                    41.880154
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Mirbeau Inn & Spa at the Pinehills - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "35 Landmark Drive",
-                            "city": "Plymouth",
-                            "state": "MA",
-                            "zip_code": "02360"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114353"
                     }
                 ]
             }
@@ -37557,48 +36322,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.299337,
-                    42.464791
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Rectrix Aviation - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "777 Virginia Road",
-                            "city": "Concord",
-                            "state": "MA",
-                            "zip_code": "01742"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114333"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.303775,
                     41.699132
                 ]
@@ -37695,48 +36418,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.579451,
-                    42.172326
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Residence Inn by Marriott Springfield Chicopee - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "500 Memorial Drive",
-                            "city": "Chicopee",
-                            "state": "MA",
-                            "zip_code": "01020"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114332"
                     }
                 ]
             }
@@ -38224,48 +36905,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.18499,
-                    42.052869
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Sage Inn & Lounge - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "336 Commercial Street",
-                            "city": "Provincetown",
-                            "state": "MA",
-                            "zip_code": "02494"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114354"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.89057,
                     42.50179
                 ]
@@ -38574,90 +37213,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.084324,
-                    42.346346
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Sheraton Boston Hotel - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "39 Dalton Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02199"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114325"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.123365,
-                    42.377357
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Sheraton Commander Hotel - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "16 Garden Street",
-                            "city": "Cambridge",
-                            "state": "MA",
-                            "zip_code": "02138"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/359517"
                     }
                 ]
             }
@@ -40921,48 +39476,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.128541,
-                    42.363186
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Swissbakers Inc. - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "168 Western Avenue",
-                            "city": "Allston",
-                            "state": "MA",
-                            "zip_code": "02134"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114317"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.518357,
                     42.374729
                 ]
@@ -41277,48 +39790,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.621159,
-                    41.553917
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Captain's Manor Inn - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "27 W Main Street",
-                            "city": "Falmouth",
-                            "state": "MA",
-                            "zip_code": "02540"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/169168"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.123044,
                     42.372245
                 ]
@@ -41389,48 +39860,6 @@
                     {
                         "charging_groups": [],
                         "name": "NLJLPN"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.074024,
-                    42.3488
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Clarendon Garage - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "135 Clarendon Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02116"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/359487"
                     }
                 ]
             }
@@ -41661,132 +40090,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.594347,
-                    41.631265
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Golf Club of Cape Cod - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "132 Falmouth Road",
-                            "city": "Falmouth",
-                            "state": "MA",
-                            "zip_code": "02536"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114335"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.506627,
-                    41.39241
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Harbor View Hotel - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "131 N Water Street",
-                            "city": "Edgartown",
-                            "state": "MA",
-                            "zip_code": "02539"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114334"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.292023,
-                    42.298922
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Inn at Stockbridge, a Select Registry Property - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "30 East Street",
-                            "city": "Lee",
-                            "state": "MA",
-                            "zip_code": "01238"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114340"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.621819,
                     41.555926
                 ]
@@ -41875,132 +40178,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/73903"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.19066,
-                    42.705282
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Orchards Hotel - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "222 Adams Road",
-                            "city": "Williamstown",
-                            "state": "MA",
-                            "zip_code": "01267"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114358"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.620314,
-                    41.555599
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Palmer House Inn, a Select Registry Property - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "81 Palmer Avenue",
-                            "city": "Falmouth",
-                            "state": "MA",
-                            "zip_code": "02540"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114336"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.063099,
-                    42.352784
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Ritz-Carlton, Boston - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "2 Avery Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02111"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/169197"
                     }
                 ]
             }
@@ -42127,90 +40304,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/189270"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.077525,
-                    42.348627
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Westin Copley Place - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "10 Huntington Avenue",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02116"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114320"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.11741,
-                    41.289031
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "The Westmoor Club - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "10 Westmoor Lane",
-                            "city": "Nantucket",
-                            "state": "MA",
-                            "zip_code": "02554"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114350"
                     }
                 ]
             }
@@ -43302,48 +41395,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.150391,
-                    42.183322
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Trillium Brewing Company - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "50 Hudson Road",
-                            "city": "Canton",
-                            "state": "MA",
-                            "zip_code": "02021"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/150702"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.154018,
                     42.371893
                 ]
@@ -43801,48 +41852,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.762347,
-                    42.275364
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "University of Massachusetts Medical School - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "55 N Lake Avenue",
-                            "city": "Worcester",
-                            "state": "MA",
-                            "zip_code": "01605"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/169234"
                     }
                 ]
             }
@@ -44388,48 +42397,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.065264,
-                    42.350938
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "W Boston - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "100 Stuart Street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02116"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114321"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -72.630517,
                     42.321795
                 ]
@@ -44646,48 +42613,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/216288"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -69.997152,
-                    41.722223
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Wequassett Resort and Golf Club - Tesla Destination",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TESLA_DESTINATION",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "2173 MA-28",
-                            "city": "Harwich",
-                            "state": "MA",
-                            "zip_code": "02645"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/114338"
                     }
                 ]
             }
@@ -45333,7 +43258,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01119"
+                            "zip_code": "01109"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",

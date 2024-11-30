@@ -9,6 +9,7 @@ geojson = "*"
 scrapyd = "*"
 scrapydweb = "*"
 logparser = "*"
+websockets = "*"
 
 [dev-packages]
 pyzipcode = "*"

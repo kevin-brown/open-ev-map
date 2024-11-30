@@ -1108,22 +1108,48 @@ scraped_data = pathlib.Path("./scraped_data/")
 
 stations = []
 
-for data_file in scraped_data.glob("*.json"):
+data_file_map = {}
+
+for data_file in scraped_data.glob("*"):
     if not data_file.is_file():
-        continue
+        data_file_map[data_file.name] = "dir"
+    else:
+        data_file_name, _ = data_file.name.split(".", 1)
+        if data_file_name not in data_file_map:
+            data_file_map[data_file_name] = "file"
 
-    if data_file.name in []:
-        continue
+for source_name, data_type in data_file_map.items():
+    if data_type == "file":
+        data_file = scraped_data / f"{source_name}.json"
 
-    with data_file.open() as fh:
-        try:
-            contents = json.load(fh)
-        except:
-            contents = []
+        with data_file.open() as fh:
+            try:
+                contents = json.load(fh)
+            except:
+                contents = []
 
-    parsed_stations = parse_stations(contents)
+        parsed_stations = parse_stations(contents)
 
-    stations.extend(parsed_stations)
+        stations.extend(parsed_stations)
+    elif data_type == "dir":
+        source_dir = scraped_data / source_name
+
+        data_file_names = sorted([data_file.name for data_file in source_dir.glob("*.json")], reverse=True)
+        for data_file_name in data_file_names:
+            data_file = source_dir / data_file_name
+
+            with data_file.open() as fh:
+                try:
+                    contents = json.load(fh)
+                except:
+                    contents = []
+
+            if not contents:
+                continue
+
+            parsed_stations = parse_stations(contents)
+
+            stations.extend(parsed_stations)
 
 combined_data = combine_stations(stations)
 

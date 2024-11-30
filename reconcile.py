@@ -960,20 +960,22 @@ def sourced_attribute_to_geojson_property(sourced_attribute: SourcedAttribute) -
 
 
 def addresses_from_station(station: Station) -> list:
+    from operator import attrgetter
+
     addresses = []
 
     sourced_information: dict[SourceLocation, ] = defaultdict(dict)
 
-    for street_address in station.street_address.values:
+    for street_address in sorted(station.street_address.values, key=attrgetter("value")):
         sourced_information[street_address.source]["street_address"] = street_address.value
 
-    for city in station.city.values:
+    for city in sorted(station.city.values, key=attrgetter("value")):
         sourced_information[city.source]["city"] = city.value
 
-    for state in station.state.values:
+    for state in sorted(station.state.values, key=attrgetter("value")):
         sourced_information[state.source]["state"] = state.value
 
-    for zip_code in station.zip_code.values:
+    for zip_code in sorted(station.zip_code.values, key=attrgetter("value")):
         sourced_information[zip_code.source]["zip_code"] = zip_code.value
 
     for source, address in sourced_information.items():

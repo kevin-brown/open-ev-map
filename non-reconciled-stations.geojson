@@ -12350,7 +12350,6 @@
                     {
                         "address": {
                             "street_address": "66 Central Square",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02324"
                         },
@@ -14389,7 +14388,7 @@
                     {
                         "address": {
                             "street_address": "110 Airport Road",
-                            "city": "Montgomery",
+                            "city": "Westfield",
                             "state": "MA",
                             "zip_code": "01085"
                         },
@@ -17997,7 +17996,7 @@
                     {
                         "address": {
                             "street_address": "8 West Main Street",
-                            "city": "NA",
+                            "city": "North Adams",
                             "state": "MA",
                             "zip_code": "01247"
                         },
@@ -18351,7 +18350,6 @@
                     {
                         "address": {
                             "street_address": "117 Flanders Road",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01581"
                         },
@@ -19114,7 +19112,6 @@
                     {
                         "address": {
                             "street_address": "8 Post Office Square",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01720"
                         },
@@ -19614,7 +19611,6 @@
                     {
                         "address": {
                             "street_address": "North Adams, MA 01247, USA",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01247"
                         },
@@ -22410,7 +22406,6 @@
                     {
                         "address": {
                             "street_address": "Wood Road, 67-99",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02664"
                         },
@@ -22899,7 +22894,7 @@
                     {
                         "address": {
                             "street_address": "52 2nd Avenue",
-                            "city": "NA",
+                            "city": "Waltham",
                             "state": "MA",
                             "zip_code": "02451"
                         },
@@ -26604,7 +26599,7 @@
                     {
                         "address": {
                             "street_address": "64 Holden Street",
-                            "city": "NA",
+                            "city": "Shrewsbury",
                             "state": "MA",
                             "zip_code": "01545"
                         },
@@ -27459,7 +27454,6 @@
                     {
                         "address": {
                             "street_address": "78 Eldredge Park Way",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02653"
                         },
@@ -30037,7 +30031,7 @@
                             "street_address": "1 MGM Wy",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01103"
+                            "zip_code": "01105"
                         },
                         "source": {
                             "name": "AMP_UP",
@@ -33920,7 +33914,6 @@
                     {
                         "address": {
                             "street_address": "295 Burnett Road",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "01020"
                         },
@@ -36364,7 +36357,6 @@
                     {
                         "address": {
                             "street_address": "3195 Main Street",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02630"
                         },
@@ -38350,7 +38342,7 @@
                     {
                         "address": {
                             "street_address": "59 Willow Street",
-                            "city": "NA",
+                            "city": "Hamilton",
                             "state": "MA",
                             "zip_code": "01982"
                         },
@@ -39066,7 +39058,6 @@
                     {
                         "address": {
                             "street_address": "234 Causeway Street",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02114"
                         },
@@ -39686,7 +39677,6 @@
                     {
                         "address": {
                             "street_address": "499 Plymouth Street",
-                            "city": "NA",
                             "state": "MA",
                             "zip_code": "02338"
                         },
@@ -43258,7 +43248,7 @@
                             "street_address": "1110 Wilbraham Road",
                             "city": "Springfield",
                             "state": "MA",
-                            "zip_code": "01109"
+                            "zip_code": "01119"
                         },
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",

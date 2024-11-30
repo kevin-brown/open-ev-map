@@ -129,10 +129,16 @@
     }
 
     if (referenceSources.includes("ALTERNATIVE_FUELS_DATA_CENTER")) {
-      return "orange";
+      if (station.properties.network_id?.length > 0) {
+        return "orange";
+      }
+
+      if (!station.properties.network || station.properties.network == "NON_NETWORKED") {
+        return "orange";
+      }
     }
 
-    return "yellow";
+    return "red";
   }
 
   function* chunks<T>(arr: T[], n: number): Generator<T[], void> {

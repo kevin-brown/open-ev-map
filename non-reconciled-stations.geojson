@@ -4412,36 +4412,6 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2261
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2262
-                            }
-                        ],
-                        "name": "DC 2",
-                        "network_id": [
-                            {
-                                "value": "DL0120B1GR3V000277",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
                     }
                 ]
             }
@@ -15680,48 +15650,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.90753,
-                    41.89222
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Boston - Automotion",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "TURN_ON_GREEN",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "15 Wareham Street",
-                            "city": "Middleborough",
-                            "state": "MA",
-                            "zip_code": "02346"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/320981"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.798732,
                     42.256055
                 ]
@@ -15826,6 +15754,97 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/325249"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.46811,
+                    43.6448
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Bradford Point Condominiums",
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "CHARGE_LAB",
+                "network_id": [
+                    {
+                        "value": "3d80530f-a4e7-4815-8bb3-705331691bf7",
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "286A Bradford Street",
+                            "city": "Provincetown",
+                            "state": "MA",
+                            "zip_code": "02657"
+                        },
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1"
+                            }
+                        ],
+                        "name": "BA-20",
+                        "network_id": [
+                            {
+                                "value": "c3d97614-053d-42a0-83da-c77a49952e4b",
+                                "source": {
+                                    "name": "CHARGE_LAB",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1"
+                            }
+                        ],
+                        "name": "CU-03",
+                        "network_id": [
+                            {
+                                "value": "a155439e-6b2c-4827-99a9-cf8ef82c617b",
+                                "source": {
+                                    "name": "CHARGE_LAB",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -25808,48 +25827,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.392403,
-                    42.279573
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "LR-6 Front",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "CHARGE_LAB",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "18 Village Way",
-                            "city": "Natick",
-                            "state": "MA",
-                            "zip_code": "01760"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/360214"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.19558,
                     42.040036
                 ]
@@ -28449,48 +28426,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/48856"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.479113,
-                    42.480898
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Middle Lot",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "CHARGE_LAB",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "25 Half Moon HL",
-                            "city": "Acton",
-                            "state": "MA",
-                            "zip_code": "01720"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/361747"
                     }
                 ]
             }
@@ -32205,6 +32140,28 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 1712
+                            }
+                        ],
+                        "name": "L2 2",
+                        "network_id": [
+                            {
+                                "value": "CH000023",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -32268,6 +32225,28 @@
                         "network_id": [
                             {
                                 "value": "CH000026",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 1635
+                            }
+                        ],
+                        "name": "L2 2",
+                        "network_id": [
+                            {
+                                "value": "CH000025",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -37798,6 +37777,97 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/72370"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.29626,
+                    41.921873
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "UBH Attleboro Office",
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "EATON",
+                "network_id": [
+                    {
+                        "value": "dfdc94b2-3441-47d1-8c97-9fc76c20a243",
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "453 South Main Street",
+                            "city": "Attleboro",
+                            "state": "MA",
+                            "zip_code": "02703"
+                        },
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1"
+                            }
+                        ],
+                        "name": "babevem2040",
+                        "network_id": [
+                            {
+                                "value": "6283394d-c96a-4053-a97d-0183bfd9d826",
+                                "source": {
+                                    "name": "CHARGE_LAB",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1"
+                            }
+                        ],
+                        "name": "etn-752",
+                        "network_id": [
+                            {
+                                "value": "99e567d3-1355-48c2-9082-e0e6e5741e50",
+                                "source": {
+                                    "name": "CHARGE_LAB",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }

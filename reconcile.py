@@ -915,7 +915,7 @@ def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station
     return combined_stations
 
 
-def combine_matches_networked_stations_by_network_ids(all_stations: list[Station]) -> list[Station]:
+def combine_matched_networked_stations_by_network_ids(all_stations: list[Station]) -> list[Station]:
     def check_network_ids(first_station: Station, second_station: Station) -> bool:
         if not station_networks_match(first_station, second_station):
             return False
@@ -933,10 +933,57 @@ def combine_matches_networked_stations_by_network_ids(all_stations: list[Station
 
     return combine_stations_with_check(all_stations, check_network_ids)
 
+
+def combine_nrel_non_networked_with_unsupported_network_at_same_address(all_stations: list[Station]) -> list[Station]:
+    def check_network_ids(first_station: Station, second_station: Station) -> bool:
+        NREL_UNSUPPORTED_NETWORKS = [
+            "AMP_UP",
+            "ENEL_X",
+            "EV_PASSPORT",
+        ]
+
+        if first_station.network != "NON_NETWORKED" and second_station.network != "NON_NETWORKED":
+            return False
+
+        if first_station.network == "NON_NETWORKED" and second_station.network == "NON_NETWORKED":
+            return False
+
+        if first_station.network not in NREL_UNSUPPORTED_NETWORKS and second_station.network not in NREL_UNSUPPORTED_NETWORKS:
+            return False
+
+        if not first_station.nrel_id.get() and second_station.nrel_id.get():
+            return False
+
+        first_addresses = set(map(str.lower, first_station.street_address.all()))
+        second_addresses = set(map(str.lower, second_station.street_address.all()))
+
+        if not first_addresses or not second_addresses:
+            return False
+
+        if not (first_addresses & second_addresses):
+            return False
+
+        station_distance = get_station_distance(first_station, second_station)
+
+        if station_distance.miles > 0.5:
+            return False
+
+        # Force the network onto the station marked as non-networked
+        if first_station.network == "NON_NETWORKED":
+            first_station.network = second_station.network
+        elif second_station.network == "NON_NETWORKED":
+            second_station.network = first_station.network
+
+        return True
+
+    return combine_stations_with_check(all_stations, check_network_ids)
+
+
 def combine_stations(all_stations: list[Station]) -> list[Station]:
     all_stations = combine_matched_stations_by_ids(all_stations)
-    all_stations = combine_matches_networked_stations_by_network_ids(all_stations)
+    all_stations = combine_matched_networked_stations_by_network_ids(all_stations)
     all_stations = combine_tesla_superchargers(all_stations)
+    all_stations = combine_nrel_non_networked_with_unsupported_network_at_same_address(all_stations)
 
     all_stations = combine_networked_stations_at_same_address(all_stations)
     all_stations = combine_networked_stations_near_known_address(all_stations)

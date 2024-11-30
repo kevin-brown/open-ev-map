@@ -109,11 +109,13 @@ class AmpupSpider(scrapy.Spider):
         if address_parts[-1] == "USA":
             state_zip = address_parts[-2].split(" ")
             address = AddressFeature(
-                street_address=", ".join(address_parts[:-3]),
                 city=address_parts[-3],
                 state=state_zip[0],
                 zip_code=state_zip[1],
             )
+
+            if len(address_parts) >= 4:
+                address["street_address"] = address_parts[-4]
 
             if state_zip[0] != "MA":
                 return

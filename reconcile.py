@@ -943,7 +943,7 @@ def combine_stations(all_stations: list[Station]) -> list[Station]:
 def sourced_attribute_to_geojson_property(sourced_attribute: SourcedAttribute) -> list:
     property_values = []
 
-    for sourced_value in sorted(sourced_attribute.values, key=lambda v: (-v.source.quality.value, v.value)):
+    for sourced_value in sorted(sourced_attribute.values, key=lambda v: (-v.source.quality.value, v.value, v.source.system)):
         source = sourced_value.source
 
         property_value = {

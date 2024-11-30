@@ -18186,48 +18186,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.035032,
-                    42.346568
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "City of Boston - V1 Parking Garage",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "ABM",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "302 Northern Avenue",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02210"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/350789"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.640756,
                     42.629952
                 ]
@@ -30144,48 +30102,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/82461"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.090595,
-                    42.342509
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Northeastern",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "ABM",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "129 hemenway street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02115"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/333101"
                     }
                 ]
             }

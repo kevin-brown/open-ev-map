@@ -426,6 +426,13 @@ def normalize_address_street_address(street_address: str) -> str:
         "One": "1",
     }
 
+    abbreviated_street_names = {
+        "N": "North",
+        "E": "East",
+        "S": "South",
+        "W": "West",
+    }
+
     if " " in street_address:
         address_parts = list(filter(None, street_address.split(" ")))
         street_type = address_parts[-1]
@@ -446,6 +453,9 @@ def normalize_address_street_address(street_address: str) -> str:
 
         if address_parts[0] in PREFIX_NUMBER_MAP:
             address_parts[0] = PREFIX_NUMBER_MAP[address_parts[0]]
+
+        if len(address_parts) > 3 and address_parts[1] in list(abbreviated_street_names.keys()):
+            address_parts[1] = abbreviated_street_names[address_parts[1]]
 
         if is_extension:
             address_parts.append("Extension")

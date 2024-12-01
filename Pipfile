@@ -10,6 +10,7 @@ scrapyd = "*"
 scrapydweb = "*"
 logparser = "*"
 websockets = "*"
+reverse-geocode = "*"
 
 [dev-packages]
 pyzipcode = "*"

@@ -1208,6 +1208,8 @@ for source_name, data_type in data_file_map.items():
 
             stations.extend(parsed_stations)
 
+            break
+
 combined_data = combine_stations(stations)
 
 combined_data = sorted(combined_data, key=lambda x: (x.name.get() or '', x.network or '', x.location.get().longitude))

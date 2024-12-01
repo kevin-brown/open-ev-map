@@ -4,6 +4,7 @@ from scrapers.utils import MAPPER_STATE_ABBR_LONG_TO_SHORT
 from geopy.exc import GeocoderUnavailable
 from geopy.geocoders import Nominatim
 from pyzipcode import ZipCodeDatabase
+import reverse_geocode
 import scrapy
 
 import json
@@ -60,28 +61,44 @@ class EvGatewaySpider(scrapy.Spider):
         )
 
     def parse_near_me(self, response):
+        filter_query = {
+            "capacity": [],
+            "chargerType": [],
+            "connectorType": [],
+            "deviceToken": response.meta["device_token"],
+            "filter": True,
+            "lat": 0,
+            "lng": 0,
+            "networkString": [],
+            "orgId": self.org_id,
+            "price": {
+                "free": False,
+            },
+            "radius": 145,
+            "siteId": 0,
+            "status": [],
+            "uuid": "",
+        }
+
         yield scrapy.http.JsonRequest(
             url="https://mobileapi.evgateway.com/api/v3/info/filter",
             data={
-                "capacity": [],
-                "chargerType": [],
-                "connectorType": [],
-                "deviceToken": response.meta["device_token"],
-                "filter": True,
-                "lat": 0,
-                "lng": 0,
+                **filter_query,
+                "network": [],
+            },
+            meta={
+                "device_token": response.meta["device_token"],
+            },
+            callback=self.parse_locations,
+        )
+
+        yield scrapy.http.JsonRequest(
+            url="https://mobileapi.evgateway.com/api/v3/info/filter",
+            data={
+                **filter_query,
                 "network": [
                     self.org_id,
                 ],
-                "networkString": [],
-                "orgId": self.org_id,
-                "price": {
-                    "free": False,
-                },
-                "radius": 145,
-                "siteId": 0,
-                "status": [],
-                "uuid": "",
             },
             meta={
                 "device_token": response.meta["device_token"],
@@ -90,9 +107,23 @@ class EvGatewaySpider(scrapy.Spider):
         )
 
     def parse_locations(self, response):
+        if response.json()["status_code"] == 500:
+            return
+
         locations = response.json()["data"]
 
         for location in locations:
+            if location["orgId"] != self.org_id:
+                continue
+
+            geocode_data = reverse_geocode.get((location["latitude"], location["longitude"]))
+
+            if geocode_data["country_code"] != "US":
+                continue
+
+            if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
+                continue
+
             yield scrapy.http.JsonRequest(
                 url="https://mobileapi.evgateway.com/api/v3/info/siteDetails",
                 data={

@@ -3539,6 +3539,207 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.033881,
+                    42.220473
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "170-180 Forbes Rd - Braintree - MA",
+                        "source": {
+                            "name": "AMPED_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMPED_UP",
+                "network_id": [
+                    {
+                        "value": "5bbf6c31-737b-4d7e-aa62-256b1cde26f7",
+                        "source": {
+                            "name": "AMPED_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "170-180 Forbes Road",
+                            "city": "Braintree",
+                            "state": "MA",
+                            "zip_code": "02184"
+                        },
+                        "source": {
+                            "name": "AMPED_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "76c92d9f-e64a-4742-baab-64b1594c3be7"
+                            }
+                        ],
+                        "name": "AMP00138",
+                        "network_id": [
+                            {
+                                "value": "AMP00138",
+                                "source": {
+                                    "name": "AMPED_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "410f2e1b-9993-4302-8178-ddcf5255caed"
+                            }
+                        ],
+                        "name": "AMP00148",
+                        "network_id": [
+                            {
+                                "value": "AMP00148",
+                                "source": {
+                                    "name": "AMPED_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "0c57d747-ffb1-4870-b850-297467be9074"
+                            }
+                        ],
+                        "name": "AMP00149",
+                        "network_id": [
+                            {
+                                "value": "AMP00149",
+                                "source": {
+                                    "name": "AMPED_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "540543cf-137c-4f50-b672-1c89dac872eb"
+                            }
+                        ],
+                        "name": "AMP00150",
+                        "network_id": [
+                            {
+                                "value": "AMP00150",
+                                "source": {
+                                    "name": "AMPED_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "d4cc737b-063b-45b7-b750-d834bbd694f4"
+                            }
+                        ],
+                        "name": "AMP00151",
+                        "network_id": [
+                            {
+                                "value": "AMP00151",
+                                "source": {
+                                    "name": "AMPED_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "b25f839b-395e-4ee3-8ce0-98f118c21dd6"
+                            }
+                        ],
+                        "name": "AMP00152",
+                        "network_id": [
+                            {
+                                "value": "AMP00152",
+                                "source": {
+                                    "name": "AMPED_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "bc9307fb-2204-42d9-b7c6-ac92659100bf"
+                            }
+                        ],
+                        "name": "AMP00153",
+                        "network_id": [
+                            {
+                                "value": "AMP00153",
+                                "source": {
+                                    "name": "AMPED_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.571497,
                     42.282591
                 ]
@@ -22854,48 +23055,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.840542,
-                    42.139744
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Hanover Pediatrics",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMPED_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "51 Mill Street",
-                            "city": "Hanover",
-                            "state": "MA",
-                            "zip_code": "02339"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/222952"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.279117,
                     42.463281
                 ]
@@ -31365,61 +31524,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.117726,
-                    41.668588
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Platinum Pebble Boutique Inn",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "network_id": [
-                    {
-                        "value": "6692",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "186 Belmont Road",
-                            "city": "West Harwich",
-                            "state": "MA",
-                            "zip_code": "02671"
-                        },
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [],
-                        "name": "1120108141"
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "1120108213"
                     }
                 ]
             }

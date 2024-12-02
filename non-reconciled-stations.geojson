@@ -33451,36 +33451,6 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2285
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2286
-                            }
-                        ],
-                        "name": "DC 1",
-                        "network_id": [
-                            {
-                                "value": "DL0120B1GR4V000414",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
                                 "network_id": 2267
                             },
                             {
@@ -39472,77 +39442,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/123358"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.630517,
-                    42.321795
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "WHALEN CARPORT",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "network_id": [
-                    {
-                        "value": "6439",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "71 King Street",
-                            "city": "Northampton",
-                            "state": "MA",
-                            "zip_code": "01060"
-                        },
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [],
-                        "name": "0013a200418f92f6"
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "0013a200418f9307"
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "0013a200418f941e"
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "0013a200418f943c"
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "0013a200418f9447"
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "0013a200418f9449"
                     }
                 ]
             }

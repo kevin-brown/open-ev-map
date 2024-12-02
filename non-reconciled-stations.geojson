@@ -4613,6 +4613,36 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": 2261
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": 2262
+                            }
+                        ],
+                        "name": "DC 2",
+                        "network_id": [
+                            {
+                                "value": "DL0120B1GR3V000277",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -16849,50 +16879,6 @@
                         "network_id": [
                             {
                                 "value": "0910042001260583398022622035",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 3065
-                            }
-                        ],
-                        "name": "Center St L2 4",
-                        "network_id": [
-                            {
-                                "value": "0910042001260583995022621923",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 3071
-                            }
-                        ],
-                        "name": "Center St L2 6",
-                        "network_id": [
-                            {
-                                "value": "0910042001260529818321626335",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -29710,28 +29696,6 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 3699
-                            }
-                        ],
-                        "name": "L2 1",
-                        "network_id": [
-                            {
-                                "value": "AL0012A1GPCV00560D",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
                                 "network_id": 3698
                             }
                         ],
@@ -33443,6 +33407,36 @@
                     }
                 ],
                 "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": 2285
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": 2286
+                            }
+                        ],
+                        "name": "DC 1",
+                        "network_id": [
+                            {
+                                "value": "DL0120B1GR4V000414",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
                     {
                         "charging_groups": [
                             {

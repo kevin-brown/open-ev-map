@@ -124,6 +124,16 @@ class EvGatewaySpider(scrapy.Spider):
             if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
                 continue
 
+            has_operative_port = False
+
+            for station in location["stations"]:
+                for port in station.get("ports", []):
+                    if port["status"] not in ["Inoperative"]:
+                        has_operative_port = True
+
+            if not has_operative_port:
+                continue
+
             yield scrapy.http.JsonRequest(
                 url="https://mobileapi.evgateway.com/api/v3/info/siteDetails",
                 data={

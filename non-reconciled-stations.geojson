@@ -62,25 +62,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.766726,
-                    42.284672
-                ]
-            },
-            "properties": {
-                "network": "CHARGEPOINT",
-                "references": [
-                    {
-                        "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/node/10129339745"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.394243,
                     42.456869
                 ]
@@ -26425,54 +26406,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/325242"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.7608,
-                    42.27464
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "MassDOT District Office #3",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "CHARGEPOINT",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "403 Belmont Street",
-                            "city": "Worcester",
-                            "state": "MA",
-                            "zip_code": "01604"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/325231"
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [],
-                        "name": "MassDOT District Office #3"
                     }
                 ]
             }

@@ -7,6 +7,7 @@ import enum
 import geojson
 import json
 import pathlib
+import queue
 import shapely
 
 
@@ -649,6 +650,18 @@ def normalize_ocm_data(ocm_raw_data) -> list[Station]:
     return stations
 
 
+def filter_out_unknown_network(station: Station):
+    return station.network is not None
+
+
+def filter_out_networked(station: Station):
+    return station.network == "NON_NETWORKED"
+
+
+def filter_out_non_networked(station: Station):
+    return station.network != "NON_NETWORKED"
+
+
 def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
     combined_stations = []
     tesla_stations = []
@@ -843,60 +856,78 @@ def station_networks_match(first_station: Station, second_station: Station) -> b
 
     return first_station.network == second_station.network
 
-def combine_stations_with_check(all_stations: list[Station], check) -> list[Station]:
+def combine_stations_with_check(all_stations: list[Station], check, pre_filters=[]) -> list[Station]:
     combined_stations = []
 
-    for first_station in all_stations:
-        if getattr(first_station, "matched_network", False):
+    stations_to_check = queue.Queue()
+    remaining_stations = []
+
+    for station in all_stations:
+        selected_for_check = True
+
+        for filter_fn in pre_filters:
+            if not filter_fn(station):
+                selected_for_check = False
+
+                break
+
+        if selected_for_check:
+            stations_to_check.put(station)
+            remaining_stations.append(station)
+        else:
+            combined_stations.append(station)
+
+    while not stations_to_check.empty():
+        first_station = stations_to_check.get()
+
+        if first_station not in remaining_stations:
+            stations_to_check.task_done()
             continue
 
-        for second_station in all_stations:
-            if getattr(second_station, "matched_network", False):
-                continue
+        remaining_stations.remove(first_station)
 
-            if first_station == second_station:
-                continue
-
+        for second_station in remaining_stations[:]:
             if not check(first_station, second_station):
                 continue
 
             combined_station = merge_stations(first_station, second_station)
 
-            first_station.matched_network = True
-            second_station.matched_network = True
+            remaining_stations.remove(second_station)
 
-            first_station = combined_station
+            stations_to_check.put(combined_station)
+            remaining_stations.append(combined_station)
 
-        combined_stations.append(first_station)
+            stations_to_check.task_done()
+
+            break
+        else:
+            combined_stations.append(first_station)
+            stations_to_check.task_done()
 
     return combined_stations
 
 
 def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station]:
     def osm_ids_match(first_station: Station, second_station: Station) -> bool:
-        if (first_osm := first_station.osm_id.all()) and (second_osm := second_station.osm_id.all()):
-            if set(first_osm) & set(second_osm):
-                return True
-
-        return False
+        return set(first_station.osm_id.all()) & set(second_station.osm_id.all())
 
     def ocm_ids_match(first_station: Station, second_station: Station) -> bool:
-        if (first_ocm := first_station.ocm_id.all()) and (second_ocm := second_station.ocm_id.all()):
-            if set(first_ocm) & set(second_ocm):
-                return True
-
-        return False
+        return set(first_station.ocm_id.all()) & set(second_station.ocm_id.all())
 
     def nrel_ids_match(first_station: Station, second_station: Station) -> bool:
-        if (first_nrel := first_station.nrel_id.all()) and (second_nrel := second_station.nrel_id.all()):
-            if set(first_nrel) & set(second_nrel):
-                return True
+        return set(first_station.nrel_id.all()) & set(second_station.nrel_id.all())
 
-        return False
+    def filter_missing_id(id_type: str):
+        def filter_function(station: Station):
+            attr = getattr(station, id_type)
 
-    all_stations = combine_stations_with_check(all_stations, osm_ids_match)
-    all_stations = combine_stations_with_check(all_stations, ocm_ids_match)
-    all_stations = combine_stations_with_check(all_stations, nrel_ids_match)
+            return attr.all()
+
+        return filter_function
+
+    all_stations = combine_stations_with_check(all_stations, osm_ids_match, [filter_missing_id("osm_id")])
+    all_stations = combine_stations_with_check(all_stations, ocm_ids_match, [filter_missing_id("ocm_id")])
+    all_stations = combine_stations_with_check(all_stations, nrel_ids_match, [filter_missing_id("nrel_id")])
 
     return all_stations
 
@@ -906,18 +937,15 @@ def combine_matched_networked_stations_by_network_ids(all_stations: list[Station
         if not station_networks_match(first_station, second_station):
             return False
 
-        if not (first_network := first_station.network_id.all()):
-            return False
-
-        if not (second_network := second_station.network_id.all()):
-            return False
-
-        if set(map(str.lower, first_network)) & set(map(str.lower, second_network)):
+        if set(map(str.lower, first_station.network_id.all())) & set(map(str.lower, second_station.network_id.all())):
             return True
 
         return False
 
-    return combine_stations_with_check(all_stations, check_network_ids)
+    def filter_missing_network_id(station: Station):
+        return station.network_id.all()
+
+    return combine_stations_with_check(all_stations, check_network_ids, [filter_missing_network_id])
 
 
 def combine_nrel_non_networked_with_unsupported_network_at_same_address(all_stations: list[Station]) -> list[Station]:

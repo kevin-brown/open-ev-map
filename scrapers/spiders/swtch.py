@@ -108,8 +108,13 @@ class SwtchSpider(scrapy.Spider):
         if location["province"] != "MA":
             return
 
+        street_address = location["address"]
+
+        if " " not in street_address:
+            street_address = street_address.replace("-", " ")
+
         address = AddressFeature(
-            street_address=location["address"],
+            street_address=street_address,
             city=location["city"],
             state=location["province"],
             zip_code=location["postalCode"],

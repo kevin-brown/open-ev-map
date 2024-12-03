@@ -872,47 +872,33 @@ def combine_stations_with_check(all_stations: list[Station], check) -> list[Stat
     return combined_stations
 
 
-def station_ids_match(first_station: Station, second_station: Station) -> bool:
-    if (first_osm := first_station.osm_id.get()) and (second_osm := second_station.osm_id.get()):
-        if set(first_osm) & set(second_osm):
-            return True
-
-    if (first_ocm := first_station.ocm_id.get()) and (second_ocm := second_station.ocm_id.get()):
-        if set(first_ocm) & set(second_ocm):
-            return True
-
-    if (first_nrel := first_station.nrel_id.get()) and (second_nrel := second_station.nrel_id.get()):
-        if set(first_nrel) & set(second_nrel):
-            return True
-
-    return False
-
-
 def combine_matched_stations_by_ids(all_stations: list[Station]) -> list[Station]:
-    combined_stations = []
+    def osm_ids_match(first_station: Station, second_station: Station) -> bool:
+        if (first_osm := first_station.osm_id.all()) and (second_osm := second_station.osm_id.all()):
+            if set(first_osm) & set(second_osm):
+                return True
 
-    for station in all_stations:
-        if getattr(station, "matched_ids", False):
-            continue
+        return False
 
-        for other_station in all_stations:
-            if station == other_station:
-                continue
+    def ocm_ids_match(first_station: Station, second_station: Station) -> bool:
+        if (first_ocm := first_station.ocm_id.all()) and (second_ocm := second_station.ocm_id.all()):
+            if set(first_ocm) & set(second_ocm):
+                return True
 
-            if getattr(other_station, "matched_ids", False):
-                continue
+        return False
 
-            if station_ids_match(station, other_station):
-                combined_station = merge_stations(station, other_station)
+    def nrel_ids_match(first_station: Station, second_station: Station) -> bool:
+        if (first_nrel := first_station.nrel_id.all()) and (second_nrel := second_station.nrel_id.all()):
+            if set(first_nrel) & set(second_nrel):
+                return True
 
-                station.matched_ids = True
-                other_station.matched_ids = True
+        return False
 
-                station = combined_station
+    all_stations = combine_stations_with_check(all_stations, osm_ids_match)
+    all_stations = combine_stations_with_check(all_stations, ocm_ids_match)
+    all_stations = combine_stations_with_check(all_stations, nrel_ids_match)
 
-        combined_stations.append(station)
-
-    return combined_stations
+    return all_stations
 
 
 def combine_matched_networked_stations_by_network_ids(all_stations: list[Station]) -> list[Station]:

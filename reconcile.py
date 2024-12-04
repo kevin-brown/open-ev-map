@@ -663,41 +663,15 @@ def filter_out_non_networked(station: Station):
 
 
 def combine_tesla_superchargers(all_stations: list[Station]) -> list[Station]:
-    combined_stations = []
-    tesla_stations = []
+    def check_tesla_distance(first_station, second_station):
+        station_distance = get_station_distance(first_station, second_station)
 
-    for station in all_stations:
-        if station.network != "TESLA_SUPERCHARGER":
-            combined_stations.append(station)
-        else:
-            tesla_stations.append(station)
+        return station_distance.miles < 0.1
 
-    for first_station in tesla_stations:
-        if getattr(first_station, "matched_tesla", False):
-            continue
+    def filter_out_non_tesla_supercharger(station):
+        return station.network == "TESLA_SUPERCHARGER"
 
-        for second_station in tesla_stations:
-            if first_station == second_station:
-                continue
-
-            if getattr(second_station, "matched_tesla", False):
-                continue
-
-            station_distance = get_station_distance(first_station, second_station)
-
-            if station_distance.miles > 0.1:
-                continue
-
-            combined_station = merge_stations(first_station, second_station)
-
-            first_station.matched_tesla = True
-            second_station.matched_tesla = True
-
-            first_station = combined_station
-
-        combined_stations.append(first_station)
-
-    return combined_stations
+    return combine_stations_with_check(all_stations, check_tesla_distance, [filter_out_non_tesla_supercharger])
 
 
 def combine_networked_stations_at_same_address(all_stations: list[Station]) -> list[Station]:

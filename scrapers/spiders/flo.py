@@ -1,5 +1,6 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+import reverse_geocode
 import scrapy
 import shapely
 
@@ -26,7 +27,7 @@ class FloSpider(scrapy.Spider):
                 },
             },
             "filter": {
-                "networkIds": [],
+                "networkIds": [1, 6],
                 "connectors": None,
                 "levels": [],
                 "rates": [],
@@ -123,6 +124,14 @@ class FloSpider(scrapy.Spider):
 
         for park in response_data["parks"]:
             if park["networkId"] not in [1, 6]:
+                continue
+
+            geocode_data = reverse_geocode.get((park["geoCoordinates"]["latitude"], park["geoCoordinates"]["longitude"]))
+
+            if geocode_data["country_code"] != "US":
+                continue
+
+            if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
                 continue
 
             for station in park["stations"]:

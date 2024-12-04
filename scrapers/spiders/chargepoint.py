@@ -1,6 +1,7 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 from scrapers.utils import MAPPER_STATE_ABBR_LONG_TO_SHORT
 
+import reverse_geocode
 import scrapy
 
 import json
@@ -141,6 +142,11 @@ class ChargePointSpider(scrapy.Spider):
         station_list = response.json()["station_list"]
 
         for station in station_list["stations"]:
+            geocode_data = reverse_geocode.get((station["lat"], station["lon"]))
+
+            if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
+                continue
+
             yield scrapy.http.JsonRequest(
                 url=f"https://mc.chargepoint.com/map-prod/v3/station/info?deviceId={station["device_id"]}",
                 method="GET",

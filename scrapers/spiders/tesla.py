@@ -1,7 +1,7 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 
+import reverse_geocode
 import scrapy
-import shapely
 
 import re
 import string
@@ -22,20 +22,13 @@ class TeslaSpider(scrapy.Spider):
     def parse_locations(self, response):
         locations = response.json()
 
-        MA_BOUNDARY = shapely.box(
-            xmin=43.0,
-            xmax=-69.6,
-            ymin=41.0,
-            ymax=-73.6,
-        )
-
         for location in locations:
             if location["open_soon"] == "1":
                 continue
 
-            coordinates = shapely.Point(location["latitude"], location["longitude"])
+            geocode_data = reverse_geocode.get((location["latitude"], location["longitude"]))
 
-            if not MA_BOUNDARY.contains(coordinates):
+            if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
                 continue
 
             charger_types = ["destination charger", "supercharger"]

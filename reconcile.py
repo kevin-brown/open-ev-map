@@ -721,7 +721,7 @@ def combine_networked_stations_at_same_address(all_stations: list[Station]) -> l
     def filter_missing_address(station):
         return station.street_address.all()
 
-    return combine_stations_with_check(all_stations, check_same_address, [filter_missing_address])
+    return combine_stations_with_check(all_stations, check_same_address, [filter_out_non_networked, filter_out_unknown_network, filter_missing_address])
 
 def combine_networked_stations_near_known_address(all_stations: list[Station]) -> list[Station]:
     def check_same_address(first_station: Station, second_station: Station) -> bool:
@@ -744,7 +744,7 @@ def combine_networked_stations_near_known_address(all_stations: list[Station]) -
 
         return True
 
-    return combine_stations_with_check(all_stations, check_same_address)
+    return combine_stations_with_check(all_stations, check_same_address, [filter_out_non_networked, filter_out_unknown_network])
 
 def combine_networked_stations_close_by(all_stations: list[Station]) -> list[Station]:
     def check_close_location(first_station: Station, second_station: Station) -> bool:
@@ -764,7 +764,7 @@ def combine_networked_stations_close_by(all_stations: list[Station]) -> list[Sta
 
         return True
 
-    return combine_stations_with_check(all_stations, check_close_location)
+    return combine_stations_with_check(all_stations, check_close_location, [filter_out_non_networked, filter_out_unknown_network])
 
 def combine_non_networked_stations_at_same_address(all_stations: list[Station]) -> list[Station]:
     def check_same_address(first_station: Station, second_station: Station) -> bool:
@@ -930,7 +930,7 @@ def combine_matched_networked_stations_by_network_ids(all_stations: list[Station
     def filter_missing_network_id(station: Station):
         return station.network_id.all()
 
-    return combine_stations_with_check(all_stations, check_network_ids, [filter_missing_network_id])
+    return combine_stations_with_check(all_stations, check_network_ids, [filter_out_non_networked, filter_out_unknown_network, filter_missing_network_id])
 
 
 def combine_nrel_non_networked_with_unsupported_network_at_same_address(all_stations: list[Station]) -> list[Station]:

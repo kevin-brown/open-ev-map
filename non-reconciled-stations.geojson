@@ -4438,36 +4438,6 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2290
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2291
-                            }
-                        ],
-                        "name": "DC 1",
-                        "network_id": [
-                            {
-                                "value": "DL0120B1GR4V000469",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
                                 "network_id": 2261
                             },
                             {
@@ -15803,75 +15773,6 @@
                                 "value": "0910042001260519947022621423",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.11044,
-                    42.69982
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Center St Lot North Adams",
-                        "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "RED_E",
-                "network_id": [
-                    {
-                        "value": "649",
-                        "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "55 Center Street",
-                            "city": "North Adams",
-                            "state": "MA",
-                            "zip_code": "01247"
-                        },
-                        "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 3068
-                            }
-                        ],
-                        "name": "Center St L2 2",
-                        "network_id": [
-                            {
-                                "value": "0910042001260583398022622035",
-                                "source": {
-                                    "name": "RED_E",
                                     "quality": "ORIGINAL"
                                 }
                             }
@@ -27743,6 +27644,28 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": 3699
+                            }
+                        ],
+                        "name": "L2 1",
+                        "network_id": [
+                            {
+                                "value": "AL0012A1GPCV00560D",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": 3698
                             }
                         ],
@@ -30645,28 +30568,6 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2067
-                            }
-                        ],
-                        "name": "L2 6",
-                        "network_id": [
-                            {
-                                "value": "AL0012A1GPCV00587N",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
                                 "network_id": 2065
                             }
                         ],
@@ -30674,28 +30575,6 @@
                         "network_id": [
                             {
                                 "value": "AL0012A1GPCV00326D",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 2066
-                            }
-                        ],
-                        "name": "L2 8",
-                        "network_id": [
-                            {
-                                "value": "AL0012A1GPCV00416D",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -31454,36 +31333,6 @@
                     }
                 ],
                 "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2285
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2286
-                            }
-                        ],
-                        "name": "DC 1",
-                        "network_id": [
-                            {
-                                "value": "DL0120B1GR4V000414",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
                     {
                         "charging_groups": [
                             {
@@ -34585,6 +34434,173 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.44376,
+                    42.39288
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Sudbury Community Center",
+                        "source": {
+                            "name": "RED_E",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "RED_E",
+                "network_id": [
+                    {
+                        "value": "790",
+                        "source": {
+                            "name": "RED_E",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "40 Fairbank Road",
+                            "city": "Sadbury",
+                            "state": "MA",
+                            "zip_code": "01776"
+                        },
+                        "source": {
+                            "name": "RED_E",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4102
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4103
+                            }
+                        ],
+                        "name": "L2 1",
+                        "network_id": [
+                            {
+                                "value": "AL5038B1GR3V00097R",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4104
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4105
+                            }
+                        ],
+                        "name": "L2 2",
+                        "network_id": [
+                            {
+                                "value": "AL5038B1GR6V00015H",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4100
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4101
+                            }
+                        ],
+                        "name": "L2 3",
+                        "network_id": [
+                            {
+                                "value": "AL5038B1GR3V00128K",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4098
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4099
+                            }
+                        ],
+                        "name": "L2 4",
+                        "network_id": [
+                            {
+                                "value": "AL5038B1GR3V00072H",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.7127,
                     41.976052
                 ]
@@ -34951,8 +34967,6 @@
                 "address": [
                     {
                         "address": {
-                            "street_address": "161 Mechanic Street",
-                            "city": "Bellingham",
                             "state": "MA",
                             "zip_code": "02019"
                         },

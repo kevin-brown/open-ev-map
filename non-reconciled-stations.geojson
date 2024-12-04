@@ -18936,59 +18936,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.054718,
-                    42.45598
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "E Foster St",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "E Foster St Parking",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "242 East Foster Street",
-                            "city": "Melrose",
-                            "state": "MA",
-                            "zip_code": "02176"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/225853"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229700"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
@@ -21302,48 +21249,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/229714"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.059553,
-                    42.466013
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Green St",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "165 Green Street",
-                            "city": "Melrose",
-                            "state": "MA",
-                            "zip_code": "02176"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229699"
                     }
                 ]
             }
@@ -30261,61 +30166,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -70.117726,
-                    41.668588
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Platinum Pebble Boutique Inn",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "network_id": [
-                    {
-                        "value": "6692",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "186 Belmont Road",
-                            "city": "West Harwich",
-                            "state": "MA",
-                            "zip_code": "02671"
-                        },
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [],
-                        "name": "1120108141"
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "1120108213"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.195633,
                     42.33177
                 ]
@@ -34253,6 +34103,57 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.216282,
+                    42.033173
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Station GMC",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "4248",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "2 Chauncy Street",
+                            "city": "Mansfield",
+                            "state": "MA",
+                            "zip_code": "02048"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "AU002001"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.062961,
                     42.158876
                 ]
@@ -36454,59 +36355,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.069895,
-                    42.463455
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Tremont St - Pole 674",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "Tremont St Parking",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "130 Tremont Street",
-                            "city": "Melrose",
-                            "state": "MA",
-                            "zip_code": "02176"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/225855"
-                    },
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/230466"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.154018,
                     42.371893
                 ]
@@ -37442,6 +37290,77 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/123358"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.630517,
+                    42.321795
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "WHALEN CARPORT",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "6439",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "71 King Street",
+                            "city": "Northampton",
+                            "state": "MA",
+                            "zip_code": "01060"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "0013a200418f92f6"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "0013a200418f9307"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "0013a200418f941e"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "0013a200418f943c"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "0013a200418f9447"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "0013a200418f9449"
                     }
                 ]
             }
@@ -38403,6 +38322,61 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/63609"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.489218,
+                    42.195658
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Zoo parking lot",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "4082",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "62 Nash Hill Road",
+                            "city": "Ludlow",
+                            "state": "MA",
+                            "zip_code": "01056"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "QOACQO"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "QOACSS"
                     }
                 ]
             }

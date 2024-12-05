@@ -144,6 +144,9 @@ class ChargePointSpider(scrapy.Spider):
         for station in station_list["stations"]:
             geocode_data = reverse_geocode.get((station["lat"], station["lon"]))
 
+            if geocode_data["country_code"] != "US":
+                continue
+
             if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
                 continue
 

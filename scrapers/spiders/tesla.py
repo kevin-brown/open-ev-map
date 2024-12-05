@@ -28,6 +28,9 @@ class TeslaSpider(scrapy.Spider):
 
             geocode_data = reverse_geocode.get((location["latitude"], location["longitude"]))
 
+            if geocode_data["country_code"] != "US":
+                continue
+
             if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
                 continue
 

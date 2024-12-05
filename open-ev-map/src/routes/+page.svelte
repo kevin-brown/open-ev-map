@@ -3,15 +3,7 @@
 
   import { Marker, MapLibre, Popup } from "svelte-maplibre";
 
-  async function fetchStations() {
-    const response = await fetch(base + '/stations.geojson');
-
-    if (response.ok) {
-      return response.json().then((featureCollection) => featureCollection.features);
-    } else {
-      throw new Error();
-    }
-  }
+  import { fetchStations } from "$lib/stations";
 
   function latLngForStation(station) {
     if (station.geometry.type === "Point") {
@@ -173,7 +165,7 @@
 
         <Popup openOn="click">
             <h3 class="font-bold text-lg">{ firstPropertyValueForDisplay(stationMarker.properties.name) }</h3>
-            <p>{ stationMarker.properties.network }</p>
+            <p>{ stationMarker.properties.network } - <a href="/networks/{stationMarker.properties.network?.toLowerCase()}/stations/{firstPropertyValueForDisplay(stationMarker.properties.network_id)}">details</a></p>
             <p>
               { formatPrimaryStationAddress(stationMarker.properties.address) }
             </p>

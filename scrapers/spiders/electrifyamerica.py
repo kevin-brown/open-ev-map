@@ -15,6 +15,10 @@ class ElectrifyAmericaSpider(OcpiSpider):
         "CHADEMO": "CHADEMO",
     }
 
+    custom_settings = {
+        "DOWNLOAD_DELAY": 1,
+    }
+
     def parse(self, response):
         stations = response.json()
 

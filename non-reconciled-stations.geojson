@@ -22555,6 +22555,113 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.032679,
+                    42.225447
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Herb Chambers Ford of Braintree",
+                        "source": {
+                            "name": "SHELL_MOBILE_COMMERCE",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "network": "FORD_CHARGE",
+                "network_id": [
+                    {
+                        "value": "6706e549c636fa6ed53336a5",
+                        "source": {
+                            "name": "SHELL_MOBILE_COMMERCE",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "75 Granite Street Rte 37, 75 Granite Street",
+                            "city": "Braintree",
+                            "state": "MA",
+                            "zip_code": "02184"
+                        },
+                        "source": {
+                            "name": "SHELL_MOBILE_COMMERCE",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*FPC*EPE_32855235*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*FPC*EPE_32855235*2"
+                            }
+                        ],
+                        "name": "PE_32855235",
+                        "network_id": [
+                            {
+                                "value": "US*FPC*EPE_32855235",
+                                "source": {
+                                    "name": "SHELL_MOBILE_COMMERCE",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*FPC*EPE_32855279*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*FPC*EPE_32855279*2"
+                            }
+                        ],
+                        "name": "PE_32855279",
+                        "network_id": [
+                            {
+                                "value": "US*FPC*EPE_32855279",
+                                "source": {
+                                    "name": "SHELL_MOBILE_COMMERCE",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.122164,
                     42.372607
                 ]
@@ -27681,28 +27788,6 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 3700
-                            }
-                        ],
-                        "name": "L2 3",
-                        "network_id": [
-                            {
-                                "value": "AL0012A1GPCV00547J",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
                                 "network_id": 3701
                             }
                         ],
@@ -30447,6 +30532,28 @@
                         "network_id": [
                             {
                                 "value": "AL0012A1GPCV00423B",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 2072
+                            }
+                        ],
+                        "name": "L2 14",
+                        "network_id": [
+                            {
+                                "value": "AL0012A1GPCV00417E",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -34453,6 +34560,36 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": 4102
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 4103
+                            }
+                        ],
+                        "name": "L2 1",
+                        "network_id": [
+                            {
+                                "value": "AL5038B1GR3V00097R",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": 4104
                             },
                             {
@@ -34811,6 +34948,13 @@
                             "name": "EVGO",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "value": "Target Milford #T1281",
+                        "source": {
+                            "name": "SHELL_MOBILE_COMMERCE",
+                            "quality": "PARTNER"
+                        }
                     }
                 ],
                 "network": "EVGO",
@@ -34820,6 +34964,13 @@
                         "source": {
                             "name": "EVGO",
                             "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "60228",
+                        "source": {
+                            "name": "SHELL_MOBILE_COMMERCE",
+                            "quality": "PARTNER"
                         }
                     }
                 ],
@@ -34835,6 +34986,18 @@
                             "name": "EVGO",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "250 Fortune Boulevard",
+                            "city": "Milford",
+                            "state": "MA",
+                            "zip_code": "01757"
+                        },
+                        "source": {
+                            "name": "SHELL_MOBILE_COMMERCE",
+                            "quality": "PARTNER"
+                        }
                     }
                 ],
                 "charging_points": [
@@ -34846,7 +35009,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": "438789-1"
+                                "network_id": "US*EVG*E120188*1"
                             },
                             {
                                 "ports": [
@@ -34854,16 +35017,39 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": "438789-2"
+                                "network_id": "US*EVG*E120188*2"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*EVG*E438789*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*EVG*E438789*2"
                             }
                         ],
                         "name": "DEVANTE",
                         "network_id": [
                             {
-                                "value": "438789",
+                                "value": "US*EVG*E438789",
                                 "source": {
                                     "name": "EVGO",
                                     "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "US*EVG*E120188",
+                                "source": {
+                                    "name": "SHELL_MOBILE_COMMERCE",
+                                    "quality": "PARTNER"
                                 }
                             }
                         ]
@@ -34876,7 +35062,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": "438788-1"
+                                "network_id": "US*EVG*E120186*1"
                             },
                             {
                                 "ports": [
@@ -34884,16 +35070,92 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": "438788-2"
+                                "network_id": "US*EVG*E120186*2"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*EVG*E438787*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*EVG*E438787*2"
+                            }
+                        ],
+                        "name": "HAL",
+                        "network_id": [
+                            {
+                                "value": "US*EVG*E438787",
+                                "source": {
+                                    "name": "EVGO",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "US*EVG*E120186",
+                                "source": {
+                                    "name": "SHELL_MOBILE_COMMERCE",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*EVG*E120187*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*EVG*E120187*2"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*EVG*E438788*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*EVG*E438788*2"
                             }
                         ],
                         "name": "MACIE",
                         "network_id": [
                             {
-                                "value": "438788",
+                                "value": "US*EVG*E438788",
                                 "source": {
                                     "name": "EVGO",
                                     "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "US*EVG*E120187",
+                                "source": {
+                                    "name": "SHELL_MOBILE_COMMERCE",
+                                    "quality": "PARTNER"
                                 }
                             }
                         ]

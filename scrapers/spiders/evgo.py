@@ -1,6 +1,7 @@
 from scrapers.items import AddressFeature, ChargingPointFeature, ChargingPortFeature, EvseFeature, HardwareFeature, LocationFeature, PowerFeature, SourceFeature, StationFeature
 from scrapers.utils import MAPPER_STATE_ABBR_LONG_TO_SHORT
 
+import reverse_geocode
 import scrapy
 
 
@@ -110,6 +111,14 @@ class EvgoSpider(scrapy.Spider):
         response_data = response.json()
 
         for site in response_data["data"]["getEvgoSitesForMobile"]["edges"]:
+            geocode_data = reverse_geocode.get((site["latitude"], site["longitude"]))
+
+            if geocode_data["country_code"] != "US":
+                continue
+
+            if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
+                continue
+
             yield scrapy.http.JsonRequest(
                 url="https://api.prod.evgo.com/",
                 headers={
@@ -195,7 +204,7 @@ class EvgoSpider(scrapy.Spider):
 
             charging_points.append(ChargingPointFeature(
                 name=charger["chargerName"],
-                network_id=charger["altId"],
+                network_id=f"US*EVG*E{charger["altId"]}",
                 evses=evses,
             ))
 

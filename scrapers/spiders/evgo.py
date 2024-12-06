@@ -189,7 +189,12 @@ class EvgoSpider(scrapy.Spider):
             for evse in charger["evses"]:
                 charging_ports = []
 
+                connector_id = None
+
                 for connector in evse["connectors"]:
+                    if connector_id is None:
+                        connector_id = int(connector["altId"])
+
                     charging_ports.append(ChargingPortFeature(
                         plug=self.CONNECTOR_TO_PLUG_MAP[connector["connectorType"]],
                         power=PowerFeature(
@@ -197,8 +202,13 @@ class EvgoSpider(scrapy.Spider):
                         ),
                     ))
 
+                if connector_id is not None and connector_id < 2000:
+                    evse_id = f"US*EVG*E{charger["altId"]}*{connector_id}"
+                else:
+                    evse_id = "US*EVG*E" + evse["altId"].replace("-", "*")
+
                 evses.append(EvseFeature(
-                    network_id=evse["altId"],
+                    network_id=evse_id,
                     plugs=charging_ports,
                 ))
 

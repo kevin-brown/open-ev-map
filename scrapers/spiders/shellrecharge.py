@@ -34,6 +34,7 @@ class ShellRechargeSpider(scrapy.Spider):
                     "CPI",
                     "EVC",
                     "EVG",
+                    "FLO",
                     "FL2",
 
                     "PRO",

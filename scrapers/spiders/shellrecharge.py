@@ -15,6 +15,8 @@ class ShellRechargeSpider(scrapy.Spider):
         "CHAdeMO": "CHADEMO",
 
         "Combo Type 2 DC": None,
+        "Domestic type B": None,
+        "Tesla Model-S (oval 5 pin)": "NACS",
     }
 
     def start_requests(self):

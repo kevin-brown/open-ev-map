@@ -2942,13 +2942,6 @@
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
                         }
-                    },
-                    {
-                        "value": "1225 Iyannough Road (The Cape Codder Resort & Spa)",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
                     }
                 ],
                 "network": "SKYCHARGER",
@@ -2958,13 +2951,6 @@
                         "source": {
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "f478a73e-43db-4f4a-b37c-a4d1b5e686cc",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
                         }
                     }
                 ],
@@ -2977,18 +2963,6 @@
                         "source": {
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "1225 Iyannough Road",
-                            "city": "Hyannis",
-                            "state": "MA",
-                            "zip_code": "02601"
-                        },
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
                         }
                     }
                 ],
@@ -3008,8 +2982,7 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ],
-                                "network_id": "US*SKY*E6334036b769d34776391ff4d"
+                                ]
                             }
                         ],
                         "name": "SKY0047"
@@ -3029,8 +3002,7 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ],
-                                "network_id": "US*SKY*E6334036b769d34776391ff55"
+                                ]
                             }
                         ],
                         "name": "SKY0051"
@@ -6811,13 +6783,6 @@
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
                         }
-                    },
-                    {
-                        "value": "400 Chapman St. (Sandri Energy)",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
                     }
                 ],
                 "network": "SKYCHARGER",
@@ -6827,13 +6792,6 @@
                         "source": {
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "0116cbe1-627f-4c73-807f-81d7d609fa5d",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
                         }
                     }
                 ],
@@ -6846,18 +6804,6 @@
                         "source": {
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "400 Chapman Street",
-                            "city": "Greenfield",
-                            "state": "MA",
-                            "zip_code": "01301"
-                        },
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
                         }
                     }
                 ],
@@ -6877,8 +6823,7 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ],
-                                "network_id": "US*SKY*E6334036b769d34776391fef8"
+                                ]
                             }
                         ],
                         "name": "SKY0006"
@@ -10587,13 +10532,6 @@
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
                         }
-                    },
-                    {
-                        "value": "99 Millers Falls Road (FirstLight Power)",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
                     }
                 ],
                 "network": "SKYCHARGER",
@@ -10603,13 +10541,6 @@
                         "source": {
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "7f79c072-8916-4320-b6ab-495de07b5bc0",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
                         }
                     }
                 ],
@@ -10622,18 +10553,6 @@
                         "source": {
                             "name": "EV_CONNECT",
                             "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "99 Millers Falls Road",
-                            "city": "Northfield",
-                            "state": "MA",
-                            "zip_code": "01360"
-                        },
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
                         }
                     }
                 ],
@@ -10653,8 +10572,7 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ],
-                                "network_id": "US*SKY*E6334036b769d34776391fefc"
+                                ]
                             }
                         ],
                         "name": "SKY0009"
@@ -10674,8 +10592,7 @@
                                     {
                                         "plug_type": "J1772"
                                     }
-                                ],
-                                "network_id": "US*SKY*E6334036b769d34776391fefe"
+                                ]
                             }
                         ],
                         "name": "SKY0010"
@@ -17574,6 +17491,48 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.072569,
+                    42.057717
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Copeland Chevrolet",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "ENEL_X",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "955 Pearl Street",
+                            "city": "Brockton",
+                            "state": "MA",
+                            "zip_code": "02301"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/372488"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -72.211283,
                     41.366487
                 ]
@@ -22587,113 +22546,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/229726"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.032679,
-                    42.225447
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Herb Chambers Ford of Braintree",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "network": "FORD_CHARGE",
-                "network_id": [
-                    {
-                        "value": "6706e549c636fa6ed53336a5",
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "75 Granite Street Rte 37, 75 Granite Street",
-                            "city": "Braintree",
-                            "state": "MA",
-                            "zip_code": "02184"
-                        },
-                        "source": {
-                            "name": "SHELL_RECHARGE_GREENLOTS",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*FPC*EPE_32855235*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*FPC*EPE_32855235*2"
-                            }
-                        ],
-                        "name": "PE_32855235",
-                        "network_id": [
-                            {
-                                "value": "US*FPC*EPE_32855235",
-                                "source": {
-                                    "name": "SHELL_RECHARGE_GREENLOTS",
-                                    "quality": "PARTNER"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*FPC*EPE_32855279*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*FPC*EPE_32855279*2"
-                            }
-                        ],
-                        "name": "PE_32855279",
-                        "network_id": [
-                            {
-                                "value": "US*FPC*EPE_32855279",
-                                "source": {
-                                    "name": "SHELL_RECHARGE_GREENLOTS",
-                                    "quality": "PARTNER"
-                                }
-                            }
-                        ]
                     }
                 ]
             }

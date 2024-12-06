@@ -292,6 +292,11 @@ def combine_charging_points_by_id(first_points: list[ChargingPoint], second_poin
 
         combined_points.append(combined_point)
 
+    point_names = set(point.name for point in combined_points if point.name)
+
+    if point_names and len(point_names) < len(combined_points):
+        return combine_charging_points_by_name(combined_points, [])
+
     return combined_points
 
 

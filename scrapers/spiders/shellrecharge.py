@@ -199,6 +199,8 @@ class ShellRechargeSpider(scrapy.Spider):
         evse_plugs = defaultdict(list)
 
         for station_evse in station["evses"]:
+            charging_point_id = None
+
             for connector in station_evse["ports"]:
                 power = PowerFeature(
                     amperage=int(connector["current"]),
@@ -213,6 +215,7 @@ class ShellRechargeSpider(scrapy.Spider):
                 )
 
                 evse_id = station_evse["evseEmaid"]
+                charging_point_id = evse_id.rsplit("*", 1)[0]
 
                 if evse_id not in evse_plugs:
                     evse = EvseFeature(
@@ -227,6 +230,10 @@ class ShellRechargeSpider(scrapy.Spider):
                 name=station_evse["evseDisplayId"],
                 location=parsed_station["location"],
             )
+
+            if charging_point_id:
+                charging_points[station_evse["evseDisplayId"]]["network_id"] = charging_point_id
+
 
         for charging_point_name, evses in charging_point_evses.items():
             charging_points[charging_point_name]["evses"] = evses

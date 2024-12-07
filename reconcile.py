@@ -1274,6 +1274,8 @@ for station in combined_data:
 
                     charging_group["ports"].append(charging_port)
 
+                charging_group["ports"] = sorted(charging_group["ports"], key=lambda p: p["plug_type"])
+
                 charging_point["charging_groups"].append(charging_group)
 
             charging_points.append(charging_point)

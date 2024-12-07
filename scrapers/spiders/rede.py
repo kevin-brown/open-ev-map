@@ -78,9 +78,14 @@ class RedeSpider(scrapy.Spider):
         evses = []
 
         for connector in charging_station["connectors"]:
+            evse_id = str(charging_station["id"])
+
+            if len(charging_station["connectors"]) > 1:
+                evse_id += "*" + str(connector["sequence_number"])
+
             evses.append(
                 EvseFeature(
-                    network_id=connector["id"],
+                    network_id=evse_id,
                     plugs=[
                         ChargingPortFeature(
                             plug=self.CONNECTOR_TYPE_TO_PLUG_TYPE[connector["type"]],
@@ -96,7 +101,7 @@ class RedeSpider(scrapy.Spider):
         charging_point = ChargingPointFeature(
             name=charging_station["name"],
             location=coordinates,
-            network_id=charging_station["ocpp_cbid"],
+            network_id=charging_station["id"],
             evses=evses,
         )
 

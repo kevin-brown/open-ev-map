@@ -30429,48 +30429,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.063085,
-                    42.425772
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Point at 180 Malden",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "180 Eastern Avenue",
-                            "city": "Malden",
-                            "state": "MA",
-                            "zip_code": "02148"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/189269"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.057609,
                     42.357009
                 ]
@@ -32735,6 +32693,61 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.137146,
+                    41.776097
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Somerset Water & Sewer",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "3281",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "3249 County Street",
+                            "city": "Somerset",
+                            "state": "MA",
+                            "zip_code": "02726"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "QQQCGO"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "QQQKOG"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.062885,
                     42.158782
                 ]
@@ -34196,6 +34209,57 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.216282,
+                    42.033173
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Station GMC",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "4248",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "2 Chauncy Street",
+                            "city": "Mansfield",
+                            "state": "MA",
+                            "zip_code": "02048"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "AU002001"
                     }
                 ]
             }

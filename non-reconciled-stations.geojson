@@ -27767,6 +27767,28 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": 3700
+                            }
+                        ],
+                        "name": "L2 3",
+                        "network_id": [
+                            {
+                                "value": "AL0012A1GPCV00547J",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": 3701
                             }
                         ],
@@ -30667,6 +30689,28 @@
                         "network_id": [
                             {
                                 "value": "AL0012A1GPCV00326D",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 2066
+                            }
+                        ],
+                        "name": "L2 8",
+                        "network_id": [
+                            {
+                                "value": "AL0012A1GPCV00416D",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -34217,36 +34261,6 @@
                         "network_id": [
                             {
                                 "value": "DL0120B1GP8C00028V",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 1785
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 1786
-                            }
-                        ],
-                        "name": "DC 3",
-                        "network_id": [
-                            {
-                                "value": "DL0120B1GP6C00028S",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"

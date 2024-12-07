@@ -196,7 +196,10 @@
       <option value="J1772_CABLE;J1772_CABLE">Dual J-1772 (with cable)</option>
       <option value="J1772_COMBO">CCS 1</option>
       <option value="CHADEMO">CHADEMO</option>
+      <option value="NACS">NACS (Tesla)</option>
       <option value="CHADEMO;J1772_COMBO">CCS 1 & CHADEMO</option>
+      <option value="J1772_COMBO;NACS">CCS 1 & NACS</option>
+      <option value="CHADEMO;J1772_COMBO;NACS">CCS 1, NACS, CHADEMO</option>
     </select>
     {#if chargingPoint.charging_groups}
     {#each chargingPoint.charging_groups as chargingGroup}

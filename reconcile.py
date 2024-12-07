@@ -1093,7 +1093,7 @@ def parse_stations(raw_contents):
                 charging_point.location.set(SourcedValue(source_data, charger_location))
 
             if point_network_id := raw_point.get("network_id"):
-                charging_point.network_id.set(SourcedValue(source_data, point_network_id))
+                charging_point.network_id.set(SourcedValue(source_data, str(point_network_id)))
 
             for reference in raw_point.get("references", []):
                 if reference["system"] == "ALTERNATIVE_FUEL_DATA_CENTER":

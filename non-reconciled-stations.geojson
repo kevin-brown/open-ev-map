@@ -23806,13 +23806,6 @@
                             {
                                 "value": "1505",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1505",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -34346,13 +34339,6 @@
                             {
                                 "value": "1214",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1214",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -35601,6 +35587,13 @@
                         ],
                         "name": "DC 2",
                         "network_id": [
+                            {
+                                "value": "1692",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1692",
                                 "source": {
@@ -38903,6 +38896,13 @@
                         ],
                         "name": "L2 4",
                         "network_id": [
+                            {
+                                "value": "3186",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "3186",
                                 "source": {

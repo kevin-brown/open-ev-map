@@ -2724,7 +2724,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6269,
+                                "value": "6269",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -2745,7 +2745,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6270,
+                                "value": "6270",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -2766,7 +2766,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6271,
+                                "value": "6271",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -2787,7 +2787,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6272,
+                                "value": "6272",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -2808,7 +2808,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6273,
+                                "value": "6273",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -4025,7 +4025,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 2634,
+                                "value": "2634",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -4046,7 +4046,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 2635,
+                                "value": "2635",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -4123,7 +4123,7 @@
                         "name": "P5126",
                         "network_id": [
                             {
-                                "value": 10753,
+                                "value": "10753",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -4153,7 +4153,7 @@
                         "name": "P5128",
                         "network_id": [
                             {
-                                "value": 10754,
+                                "value": "10754",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -4438,7 +4438,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2290
+                                "network_id": "1705*1"
                             },
                             {
                                 "ports": [
@@ -4446,13 +4446,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2291
+                                "network_id": "1705*2"
                             }
                         ],
                         "name": "DC 1",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR4V000469",
+                                "value": "1705",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -4468,7 +4468,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2261
+                                "network_id": "1689*1"
                             },
                             {
                                 "ports": [
@@ -4476,13 +4476,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2262
+                                "network_id": "1689*2"
                             }
                         ],
                         "name": "DC 2",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR3V000277",
+                                "value": "1689",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -4830,7 +4830,7 @@
                         "name": "P5142",
                         "network_id": [
                             {
-                                "value": 10306,
+                                "value": "10306",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -4860,7 +4860,7 @@
                         "name": "P5144",
                         "network_id": [
                             {
-                                "value": 10307,
+                                "value": "10307",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -4890,7 +4890,7 @@
                         "name": "P5146",
                         "network_id": [
                             {
-                                "value": 10308,
+                                "value": "10308",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -4920,7 +4920,7 @@
                         "name": "P5149",
                         "network_id": [
                             {
-                                "value": 10309,
+                                "value": "10309",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -6886,7 +6886,7 @@
                         "name": "P5642",
                         "network_id": [
                             {
-                                "value": 10885,
+                                "value": "10885",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -6916,7 +6916,7 @@
                         "name": "P5644",
                         "network_id": [
                             {
-                                "value": 10886,
+                                "value": "10886",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -7026,7 +7026,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7005,
+                                "value": "7005",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7047,7 +7047,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7006,
+                                "value": "7006",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7068,7 +7068,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7007,
+                                "value": "7007",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7089,7 +7089,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7008,
+                                "value": "7008",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7110,7 +7110,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7009,
+                                "value": "7009",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7131,7 +7131,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7010,
+                                "value": "7010",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7152,7 +7152,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7011,
+                                "value": "7011",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7173,7 +7173,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7012,
+                                "value": "7012",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7194,7 +7194,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7013,
+                                "value": "7013",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7215,7 +7215,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7014,
+                                "value": "7014",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7236,7 +7236,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7015,
+                                "value": "7015",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7257,7 +7257,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7016,
+                                "value": "7016",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -7278,7 +7278,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7017,
+                                "value": "7017",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8647,7 +8647,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7083,
+                                "value": "7083",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8668,7 +8668,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7084,
+                                "value": "7084",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8736,7 +8736,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4593,
+                                "value": "4593",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8757,7 +8757,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4594,
+                                "value": "4594",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8778,7 +8778,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4595,
+                                "value": "4595",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8799,7 +8799,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4596,
+                                "value": "4596",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8820,7 +8820,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4597,
+                                "value": "4597",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8841,7 +8841,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4598,
+                                "value": "4598",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8862,7 +8862,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4599,
+                                "value": "4599",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8883,7 +8883,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4600,
+                                "value": "4600",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8904,7 +8904,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4601,
+                                "value": "4601",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -8925,7 +8925,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4859,
+                                "value": "4859",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9035,7 +9035,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4073,
+                                "value": "4073",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9056,7 +9056,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4074,
+                                "value": "4074",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9077,7 +9077,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 4075,
+                                "value": "4075",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9154,7 +9154,7 @@
                         "name": "A4254",
                         "network_id": [
                             {
-                                "value": 10417,
+                                "value": "10417",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -9184,7 +9184,7 @@
                         "name": "A4257",
                         "network_id": [
                             {
-                                "value": 10418,
+                                "value": "10418",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -9294,7 +9294,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6039,
+                                "value": "6039",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9315,7 +9315,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6040,
+                                "value": "6040",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9336,7 +9336,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6041,
+                                "value": "6041",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9357,7 +9357,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6042,
+                                "value": "6042",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9434,7 +9434,7 @@
                         "name": "P5095",
                         "network_id": [
                             {
-                                "value": 10912,
+                                "value": "10912",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -9464,7 +9464,7 @@
                         "name": "P5097",
                         "network_id": [
                             {
-                                "value": 10911,
+                                "value": "10911",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -9533,7 +9533,7 @@
                         "name": "L7835",
                         "network_id": [
                             {
-                                "value": 7351,
+                                "value": "7351",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -9555,7 +9555,7 @@
                         "name": "L7850",
                         "network_id": [
                             {
-                                "value": 7354,
+                                "value": "7354",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -9577,7 +9577,7 @@
                         "name": "L7851",
                         "network_id": [
                             {
-                                "value": 7352,
+                                "value": "7352",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -9599,7 +9599,7 @@
                         "name": "L7852",
                         "network_id": [
                             {
-                                "value": 7353,
+                                "value": "7353",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"
@@ -9709,7 +9709,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6183,
+                                "value": "6183",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9730,7 +9730,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6184,
+                                "value": "6184",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9751,7 +9751,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6185,
+                                "value": "6185",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9772,7 +9772,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6186,
+                                "value": "6186",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9793,7 +9793,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6192,
+                                "value": "6192",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9814,7 +9814,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6193,
+                                "value": "6193",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9835,7 +9835,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6194,
+                                "value": "6194",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9856,7 +9856,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6195,
+                                "value": "6195",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9877,7 +9877,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6196,
+                                "value": "6196",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9898,7 +9898,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6197,
+                                "value": "6197",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9919,7 +9919,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6198,
+                                "value": "6198",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9940,7 +9940,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6199,
+                                "value": "6199",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9961,7 +9961,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6200,
+                                "value": "6200",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -9982,7 +9982,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6201,
+                                "value": "6201",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10003,7 +10003,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6202,
+                                "value": "6202",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10024,7 +10024,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6203,
+                                "value": "6203",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10045,7 +10045,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6204,
+                                "value": "6204",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10066,7 +10066,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6205,
+                                "value": "6205",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10087,7 +10087,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6206,
+                                "value": "6206",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10108,7 +10108,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6207,
+                                "value": "6207",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10129,7 +10129,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6208,
+                                "value": "6208",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10150,7 +10150,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6209,
+                                "value": "6209",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10171,7 +10171,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6210,
+                                "value": "6210",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10192,7 +10192,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6211,
+                                "value": "6211",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10213,7 +10213,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6212,
+                                "value": "6212",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10234,7 +10234,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6213,
+                                "value": "6213",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10255,7 +10255,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6214,
+                                "value": "6214",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10276,7 +10276,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6215,
+                                "value": "6215",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10297,7 +10297,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6216,
+                                "value": "6216",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10318,7 +10318,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6217,
+                                "value": "6217",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10596,7 +10596,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6447,
+                                "value": "6447",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10617,7 +10617,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6448,
+                                "value": "6448",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10638,7 +10638,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6449,
+                                "value": "6449",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -10659,7 +10659,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 6450,
+                                "value": "6450",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -11135,6 +11135,13 @@
                             "name": "EV_GATEWAY",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "value": "Alloy Somerville",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "network": "EV_GATEWAY",
@@ -11159,6 +11166,18 @@
                             "name": "EV_GATEWAY",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "375 Canal Street",
+                            "city": "Somerville",
+                            "state": "MA",
+                            "zip_code": "02145"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "charging_points": [
@@ -11176,7 +11195,7 @@
                         "name": "30238",
                         "network_id": [
                             {
-                                "value": 211,
+                                "value": "211",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -11206,7 +11225,7 @@
                         "name": "30264",
                         "network_id": [
                             {
-                                "value": 235,
+                                "value": "235",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -11537,6 +11556,92 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/61317"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.303308,
+                    41.939159
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Attleboro High School",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EV_GATEWAY",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "1 Blue Pride Way",
+                            "city": "Attleboro",
+                            "state": "MA",
+                            "zip_code": "02703"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "Port 1"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "Port 2"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "Port 3"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "Port 4"
                     }
                 ]
             }
@@ -15021,7 +15126,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2589
+                                "network_id": "1883*1"
                             },
                             {
                                 "ports": [
@@ -15029,13 +15134,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2590
+                                "network_id": "1883*2"
                             }
                         ],
                         "name": "L2 1",
                         "network_id": [
                             {
-                                "value": "AL0038B1GP5C00006S",
+                                "value": "1883",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -15761,13 +15866,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 3068
+                                "network_id": "2244"
                             }
                         ],
                         "name": "Center St L2 2",
                         "network_id": [
                             {
-                                "value": "0910042001260583398022622035",
+                                "value": "2244",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -17388,8 +17493,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.16784,
-                    42.49105
+                    -71.167827,
+                    42.491019
                 ]
             },
             "properties": {
@@ -17398,6 +17503,13 @@
                         "value": "Control Mod",
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "value": "Control Mod",
+                        "source": {
+                            "name": "CHARGE_HUB",
                             "quality": "AGGREGATED"
                         }
                     }
@@ -17415,12 +17527,74 @@
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
                             "quality": "AGGREGATED"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "5 Jericho Road",
+                            "city": "Woburn",
+                            "state": "MA",
+                            "zip_code": "01801"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/334180"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM001"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM002"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM003"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM004"
                     }
                 ]
             }
@@ -20961,7 +21135,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2234
+                                "network_id": "1673*1"
                             },
                             {
                                 "ports": [
@@ -20969,13 +21143,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2235
+                                "network_id": "1673*2"
                             }
                         ],
                         "name": "DC 1",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR3V000075",
+                                "value": "1673",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -20991,7 +21165,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2271
+                                "network_id": "1694*1"
                             },
                             {
                                 "ports": [
@@ -20999,13 +21173,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2272
+                                "network_id": "1694*2"
                             }
                         ],
                         "name": "DC 2",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR4V000335",
+                                "value": "1694",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -21021,7 +21195,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2269
+                                "network_id": "1693*1"
                             },
                             {
                                 "ports": [
@@ -21029,13 +21203,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2270
+                                "network_id": "1693*2"
                             }
                         ],
                         "name": "DC 3",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR4V00065A",
+                                "value": "1693",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -21430,7 +21604,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2025
+                                "network_id": "1511*1"
                             },
                             {
                                 "ports": [
@@ -21438,13 +21612,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2026
+                                "network_id": "1511*2"
                             }
                         ],
                         "name": "DC 1",
                         "network_id": [
                             {
-                                "value": "DL0120B1GP6C00056T",
+                                "value": "1511",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -21460,7 +21634,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2013
+                                "network_id": "1505*1"
                             },
                             {
                                 "ports": [
@@ -21468,13 +21642,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2014
+                                "network_id": "1505*2"
                             }
                         ],
                         "name": "DC 2",
                         "network_id": [
                             {
-                                "value": "DL0120B1GP6C00054R",
+                                "value": "1505",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -23436,6 +23610,13 @@
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
                             "quality": "AGGREGATED"
                         }
+                    },
+                    {
+                        "value": "Hyatt House",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "network": "EV_GATEWAY",
@@ -23451,12 +23632,45 @@
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
                             "quality": "AGGREGATED"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "54 Fourth Avenue",
+                            "city": "Waltham",
+                            "state": "MA",
+                            "zip_code": "02451"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/334206"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "30197"
                     }
                 ]
             }
@@ -24046,7 +24260,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7177,
+                                "value": "7177",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24067,7 +24281,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7178,
+                                "value": "7178",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24088,7 +24302,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7179,
+                                "value": "7179",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24109,7 +24323,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7180,
+                                "value": "7180",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24130,7 +24344,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7181,
+                                "value": "7181",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24151,7 +24365,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7182,
+                                "value": "7182",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24172,7 +24386,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7183,
+                                "value": "7183",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24193,7 +24407,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7184,
+                                "value": "7184",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24214,7 +24428,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7185,
+                                "value": "7185",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -24235,7 +24449,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7186,
+                                "value": "7186",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -25086,7 +25300,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7352,
+                                "value": "7352",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -25107,7 +25321,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7353,
+                                "value": "7353",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -25128,7 +25342,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7354,
+                                "value": "7354",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -25149,7 +25363,7 @@
                         "name": "",
                         "network_id": [
                             {
-                                "value": 7355,
+                                "value": "7355",
                                 "source": {
                                     "name": "EV_LOOP",
                                     "quality": "ORIGINAL"
@@ -27487,7 +27701,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2230
+                                "network_id": "1670*1"
                             },
                             {
                                 "ports": [
@@ -27495,13 +27709,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2231
+                                "network_id": "1670*2"
                             }
                         ],
                         "name": "DC 1",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR3V000097",
+                                "value": "1670",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -27517,7 +27731,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2227
+                                "network_id": "1668*1"
                             },
                             {
                                 "ports": [
@@ -27525,13 +27739,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2228
+                                "network_id": "1668*2"
                             }
                         ],
                         "name": "DC 2",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR3V000086",
+                                "value": "1668",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -27723,13 +27937,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 3699
+                                "network_id": "2826"
                             }
                         ],
                         "name": "L2 1",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00560D",
+                                "value": "2826",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -27745,13 +27959,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 3698
+                                "network_id": "2825"
                             }
                         ],
                         "name": "L2 2",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00549L",
+                                "value": "2825",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -27767,13 +27981,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 3700
+                                "network_id": "2827"
                             }
                         ],
                         "name": "L2 3",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00547J",
+                                "value": "2827",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -27789,13 +28003,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 3701
+                                "network_id": "2828"
                             }
                         ],
                         "name": "L2 4",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00558L",
+                                "value": "2828",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -27811,13 +28025,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 3702
+                                "network_id": "2829"
                             }
                         ],
                         "name": "L2 5",
                         "network_id": [
                             {
-                                "value": "AL0012A1GR3V010612",
+                                "value": "2829",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30307,6 +30521,48 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.063085,
+                    42.425772
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Point at 180 Malden",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "180 Eastern Avenue",
+                            "city": "Malden",
+                            "state": "MA",
+                            "zip_code": "02148"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/189269"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.057609,
                     42.357009
                 ]
@@ -30396,13 +30652,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2064
+                                "network_id": "1538"
                             }
                         ],
                         "name": "L2 1",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00364F",
+                                "value": "1538",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30418,13 +30674,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2215
+                                "network_id": "1658"
                             }
                         ],
                         "name": "L2 10",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPBV00473F",
+                                "value": "1658",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30440,13 +30696,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2216
+                                "network_id": "1659"
                             }
                         ],
                         "name": "L2 11",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPBV00482F",
+                                "value": "1659",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30462,13 +30718,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2214
+                                "network_id": "1657"
                             }
                         ],
                         "name": "L2 12",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPBV00480D",
+                                "value": "1657",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30484,13 +30740,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2074
+                                "network_id": "1548"
                             }
                         ],
                         "name": "L2 13",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00423B",
+                                "value": "1548",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30506,13 +30762,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2072
+                                "network_id": "1546"
                             }
                         ],
                         "name": "L2 14",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00417E",
+                                "value": "1546",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30528,13 +30784,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2068
+                                "network_id": "1542"
                             }
                         ],
                         "name": "L2 15",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00354E",
+                                "value": "1542",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30550,13 +30806,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2075
+                                "network_id": "1549"
                             }
                         ],
                         "name": "L2 16",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00355F",
+                                "value": "1549",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30572,13 +30828,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2071
+                                "network_id": "1545"
                             }
                         ],
                         "name": "L2 2",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00353D",
+                                "value": "1545",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30594,13 +30850,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2070
+                                "network_id": "1544"
                             }
                         ],
                         "name": "L2 3",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00338G",
+                                "value": "1544",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30616,13 +30872,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2073
+                                "network_id": "1547"
                             }
                         ],
                         "name": "L2 4",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00358J",
+                                "value": "1547",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30638,13 +30894,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2069
+                                "network_id": "1543"
                             }
                         ],
                         "name": "L2 5",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00599S",
+                                "value": "1543",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30660,13 +30916,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2067
+                                "network_id": "1541"
                             }
                         ],
                         "name": "L2 6",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00587N",
+                                "value": "1541",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30682,13 +30938,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2065
+                                "network_id": "1539"
                             }
                         ],
                         "name": "L2 7",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00326D",
+                                "value": "1539",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30704,13 +30960,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2066
+                                "network_id": "1540"
                             }
                         ],
                         "name": "L2 8",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPCV00416D",
+                                "value": "1540",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30726,13 +30982,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 2213
+                                "network_id": "1656"
                             }
                         ],
                         "name": "L2 9",
                         "network_id": [
                             {
-                                "value": "AL0012A1GPBV00267G",
+                                "value": "1656",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30795,13 +31051,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 1634
+                                "network_id": "1214"
                             }
                         ],
                         "name": "L2 1",
                         "network_id": [
                             {
-                                "value": "CH000024",
+                                "value": "1214",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30817,13 +31073,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 1712
+                                "network_id": "1276"
                             }
                         ],
                         "name": "L2 2",
                         "network_id": [
                             {
-                                "value": "CH000023",
+                                "value": "1276",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30886,13 +31142,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 1636
+                                "network_id": "1216"
                             }
                         ],
                         "name": "L2 1",
                         "network_id": [
                             {
-                                "value": "CH000026",
+                                "value": "1216",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30908,13 +31164,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 1635
+                                "network_id": "1215"
                             }
                         ],
                         "name": "L2 2",
                         "network_id": [
                             {
-                                "value": "CH000025",
+                                "value": "1215",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30977,13 +31233,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 1714
+                                "network_id": "1278"
                             }
                         ],
                         "name": "L2 1",
                         "network_id": [
                             {
-                                "value": "CH000022",
+                                "value": "1278",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -30999,13 +31255,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 1713
+                                "network_id": "1277"
                             }
                         ],
                         "name": "L2 2",
                         "network_id": [
                             {
-                                "value": "CH000016",
+                                "value": "1277",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -31068,13 +31324,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 1632
+                                "network_id": "1212"
                             }
                         ],
                         "name": "L2 1",
                         "network_id": [
                             {
-                                "value": "CH000018",
+                                "value": "1212",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -31090,13 +31346,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 1633
+                                "network_id": "1213"
                             }
                         ],
                         "name": "L2 2",
                         "network_id": [
                             {
-                                "value": "CH000017",
+                                "value": "1213",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -31477,7 +31733,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2285
+                                "network_id": "1701*1"
                             },
                             {
                                 "ports": [
@@ -31485,13 +31741,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2286
+                                "network_id": "1701*2"
                             }
                         ],
                         "name": "DC 1",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR4V000414",
+                                "value": "1701",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -31507,7 +31763,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2267
+                                "network_id": "1690*1"
                             },
                             {
                                 "ports": [
@@ -31515,43 +31771,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 2268
-                            }
-                        ],
-                        "name": "DC 2",
-                        "network_id": [
-                            {
-                                "value": "DL0120B1GR4V00059D",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2263
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": 2264
+                                "network_id": "1690*2"
                             }
                         ],
                         "name": "DC 3",
                         "network_id": [
                             {
-                                "value": "DL0120B1GR3V000222",
+                                "value": "1690",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -32456,6 +32682,13 @@
                             "name": "EV_GATEWAY",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "value": "Sharon Public School",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "network": "EV_GATEWAY",
@@ -32479,6 +32712,18 @@
                         "source": {
                             "name": "EV_GATEWAY",
                             "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "75 Mountain Street",
+                            "city": "Sharon",
+                            "state": "MA",
+                            "zip_code": "02067"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
                         }
                     }
                 ],
@@ -32505,7 +32750,7 @@
                         "name": "41094",
                         "network_id": [
                             {
-                                "value": 14398,
+                                "value": "14398",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -32535,7 +32780,7 @@
                         "name": "41095",
                         "network_id": [
                             {
-                                "value": 14399,
+                                "value": "14399",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -32584,61 +32829,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/216283"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.137146,
-                    41.776097
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Somerset Water & Sewer",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "network_id": [
-                    {
-                        "value": "3281",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "3249 County Street",
-                            "city": "Somerset",
-                            "state": "MA",
-                            "zip_code": "02726"
-                        },
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [],
-                        "name": "QQQCGO"
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "QQQKOG"
                     }
                 ]
             }
@@ -34216,7 +34406,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 1803
+                                "network_id": "1335*1"
                             },
                             {
                                 "ports": [
@@ -34224,13 +34414,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 1804
+                                "network_id": "1335*2"
                             }
                         ],
                         "name": "DC 1",
                         "network_id": [
                             {
-                                "value": "DL0120B1GPAC00004P",
+                                "value": "1335",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -34246,7 +34436,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 1805
+                                "network_id": "1336*1"
                             },
                             {
                                 "ports": [
@@ -34254,13 +34444,43 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 1806
+                                "network_id": "1336*2"
                             }
                         ],
                         "name": "DC 2",
                         "network_id": [
                             {
-                                "value": "DL0120B1GP8C00028V",
+                                "value": "1336",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "1326*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "1326*2"
+                            }
+                        ],
+                        "name": "DC 3",
+                        "network_id": [
+                            {
+                                "value": "1326",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -34617,7 +34837,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 4102
+                                "network_id": "3188*1"
                             },
                             {
                                 "ports": [
@@ -34625,13 +34845,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 4103
+                                "network_id": "3188*2"
                             }
                         ],
                         "name": "L2 1",
                         "network_id": [
                             {
-                                "value": "AL5038B1GR3V00097R",
+                                "value": "3188",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -34647,7 +34867,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 4104
+                                "network_id": "3189*1"
                             },
                             {
                                 "ports": [
@@ -34655,13 +34875,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 4105
+                                "network_id": "3189*2"
                             }
                         ],
                         "name": "L2 2",
                         "network_id": [
                             {
-                                "value": "AL5038B1GR6V00015H",
+                                "value": "3189",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -34677,7 +34897,7 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 4100
+                                "network_id": "3187*1"
                             },
                             {
                                 "ports": [
@@ -34685,43 +34905,13 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 4101
+                                "network_id": "3187*2"
                             }
                         ],
                         "name": "L2 3",
                         "network_id": [
                             {
-                                "value": "AL5038B1GR3V00128K",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 4098
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 4099
-                            }
-                        ],
-                        "name": "L2 4",
-                        "network_id": [
-                            {
-                                "value": "AL5038B1GR3V00072H",
+                                "value": "3187",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -35361,7 +35551,7 @@
                         "name": "TCA Wallbox 6",
                         "network_id": [
                             {
-                                "value": 18182,
+                                "value": "18182",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -35383,7 +35573,7 @@
                         "name": "TheCAWallbox 4",
                         "network_id": [
                             {
-                                "value": 16422,
+                                "value": "16422",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -35405,7 +35595,7 @@
                         "name": "Wallbox 1",
                         "network_id": [
                             {
-                                "value": 16667,
+                                "value": "16667",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -35427,7 +35617,7 @@
                         "name": "Wallbox 2",
                         "network_id": [
                             {
-                                "value": 16668,
+                                "value": "16668",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -35449,7 +35639,7 @@
                         "name": "Wallbox 3",
                         "network_id": [
                             {
-                                "value": 16419,
+                                "value": "16419",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -35471,7 +35661,7 @@
                         "name": "Wallbox 5",
                         "network_id": [
                             {
-                                "value": 18181,
+                                "value": "18181",
                                 "source": {
                                     "name": "EV_GATEWAY",
                                     "quality": "ORIGINAL"
@@ -35854,7 +36044,7 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 1801
+                                "network_id": "1334*1"
                             },
                             {
                                 "ports": [
@@ -35862,13 +36052,13 @@
                                         "plug_type": "J1772_COMBO"
                                     }
                                 ],
-                                "network_id": 1802
+                                "network_id": "1334*2"
                             }
                         ],
                         "name": "DC 1",
                         "network_id": [
                             {
-                                "value": "DL0120B1GPAC00003N",
+                                "value": "1334",
                                 "source": {
                                     "name": "RED_E",
                                     "quality": "ORIGINAL"
@@ -38823,7 +39013,7 @@
                         "name": "BEV0001",
                         "network_id": [
                             {
-                                "value": 6046,
+                                "value": "6046",
                                 "source": {
                                     "name": "SWTCH_V2",
                                     "quality": "ORIGINAL"

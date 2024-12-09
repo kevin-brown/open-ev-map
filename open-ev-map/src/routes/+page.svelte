@@ -87,7 +87,7 @@
       "SUPERCHARGE": "supercharge.info",
     }
 
-    return SOURCE_NAME_DISPLAY[sourceName];
+    return SOURCE_NAME_DISPLAY[sourceName] || sourceName;
   }
 
   function iconPathForPlugType(plugType: string): string {

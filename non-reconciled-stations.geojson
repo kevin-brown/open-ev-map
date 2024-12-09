@@ -4829,13 +4829,6 @@
                             {
                                 "value": "1705",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1705",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -5749,6 +5742,27 @@
                         }
                     },
                     {
+                        "value": "3rd Floor, Car #8",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "3rd Floor, Car#7",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "4th Floor, Car #1",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "4th Floor, Car #3",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -5920,6 +5934,13 @@
                         }
                     },
                     {
+                        "value": "US*E57*L0910042001260541685022620513",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "US*E57*L0910042001260542075022620613",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -6004,7 +6025,21 @@
                         }
                     },
                     {
+                        "value": "US*E57*L0910042001260556216022620713",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "US*E57*L0910042001260557371022620713",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*E57*L0910042001260557438022620513",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -6334,6 +6369,72 @@
                         "network_id": [
                             {
                                 "value": "0910042001260535213022620613",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*E57*E0910042001260541685022620513*1"
+                            }
+                        ],
+                        "name": "3rd Floor, Car #8",
+                        "network_id": [
+                            {
+                                "value": "0910042001260541685022620513",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*E57*E0910042001260557438022620513*1"
+                            }
+                        ],
+                        "name": "3rd Floor, Car#7",
+                        "network_id": [
+                            {
+                                "value": "0910042001260557438022620513",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*E57*E0910042001260556216022620713*1"
+                            }
+                        ],
+                        "name": "4th Floor, Car #1",
+                        "network_id": [
+                            {
+                                "value": "0910042001260556216022620713",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -8578,6 +8679,13 @@
                         }
                     },
                     {
+                        "value": "80 Francis 2",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "80 Francis 3",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -8603,6 +8711,13 @@
                     },
                     {
                         "value": "US*855*L0910042001280626467222692935",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*855*L0910042001280630335222692923",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -8936,6 +9051,28 @@
                         "network_id": [
                             {
                                 "value": "0910042001280636225222692923",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*855*E0910042001280630335222692923*1"
+                            }
+                        ],
+                        "name": "80 Francis 2",
+                        "network_id": [
+                            {
+                                "value": "0910042001280630335222692923",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"

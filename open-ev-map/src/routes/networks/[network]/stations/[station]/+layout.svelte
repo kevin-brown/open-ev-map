@@ -6,8 +6,6 @@
   function openStreetMapLink(station): string {
     let osmReference = station.properties.references.find((ref) => ref.name == "OPEN_STREET_MAP");
 
-    console.log(osmReference, station.properties);
-
     return osmReference.url;
   }
 

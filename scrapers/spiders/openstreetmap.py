@@ -326,6 +326,8 @@ class OpenStreetMapSpider(scrapy.Spider):
                     )
                 )
 
+                station["network_id"] = self.normalize_ocpi_id(network_id, "L", "US", station["network"])
+
         return station
 
     def parse_charge_point(self, element) -> ChargingPointFeature:
@@ -361,6 +363,8 @@ class OpenStreetMapSpider(scrapy.Spider):
                         system="OCPI",
                     )
                 )
+
+                charging_point["network_id"] = self.normalize_ocpi_id(network_id, "E", "US", charging_point._osm_network)
 
         return charging_point
 

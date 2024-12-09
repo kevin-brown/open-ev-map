@@ -12889,6 +12889,32 @@
                             "quality": "AGGREGATED"
                         }
                     }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
                 ]
             }
         },

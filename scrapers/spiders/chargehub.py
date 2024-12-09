@@ -181,11 +181,30 @@ class ChargeHubSpider(scrapy.Spider):
         yield station
 
     def parse_station_autel(self, location, plug):
-        print(location)
-
         station = self.parse_base_station(location)
 
         station["network"] = "AUTEL"
+
+        charging_points = []
+
+        for plug_type in self.PLUG_CODE_TO_PLUG_TYPE[plug["Code"]]:
+            for port in plug["Ports"]:
+                charging_points.append(
+                    ChargingPointFeature(
+                        evses=[
+                            EvseFeature(
+                                plugs=[
+                                    ChargingPortFeature(
+                                        plug=plug_type,
+                                        power=self.parse_power_for_plug(plug),
+                                    ),
+                                ],
+                            )
+                        ]
+                    )
+                )
+
+        station["charging_points"] = charging_points
 
         yield station
 

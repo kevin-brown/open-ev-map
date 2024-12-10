@@ -59,7 +59,7 @@ class ChargeHubSpider(scrapy.Spider):
             if "state" in geocode_data and geocode_data["state"] != "Massachusetts":
                 continue
 
-            if location["NetString"] not in ["AmpUp", "Tesla", "Autel", "Blink", "Flo", "Shell Recharge", "Ford Charge", "ChargeLab", "ChargeSmartEV", "Red E", "Independent Operators", "Loop", "SWTCH", "TurnOnGreen", "Enel X Way", "Eaton"]:
+            if location["NetString"] not in ["AmpUp", "Tesla", "Autel", "Blink", "Flo", "Shell Recharge", "Ford Charge", "ChargeLab", "ChargeSmartEV", "Red E", "Independent Operators", "Loop", "SWTCH", "TurnOnGreen", "Enel X Way", "Eaton", "EVConnect", "evGateway", "EVgo", "Electrify America"]:
                 print(location["NetString"])
                 continue
 
@@ -88,8 +88,11 @@ class ChargeHubSpider(scrapy.Spider):
             "ChargeLab": self.parse_station_charge_lab,
             "ChargeSmartEV": self.parse_station_charge_smart_ev,
             "Eaton": self.parse_station_eaton,
+            "Electrify America": self.parse_station_electrify_america,
             "Enel X Way": self.parse_station_enel_x,
+            "EVConnect": self.parse_ev_connect,
             "evGateway": self.parse_station_evgateway,
+            "EVgo": self.parse_station_evgo,
             "Flo": self.parse_station_flo,
             "Ford Charge": self.parse_station_ford_charge,
             "Independent Operators": self.parse_station_shell_recharge,
@@ -304,10 +307,58 @@ class ChargeHubSpider(scrapy.Spider):
 
         yield station
 
+    def parse_station_electrify_america(self, location, plug):
+        station = self.parse_base_station(location)
+
+        station["network"] = "ELECTRIFY_AMERICA"
+
+        yield station
+
     def parse_station_enel_x(self, location, plug):
         station = self.parse_base_station(location)
 
         station["network"] = "ENEL_X"
+
+        yield station
+
+    def parse_ev_connect(self, location, plug):
+        station = self.parse_base_station(location)
+
+        if "SKYCHARGER" in station["name"]:
+            station["network"] = "SKYCHARGER"
+            station["name"] = ""
+        else:
+            station["network"] = "EV_CONNECT"
+
+        charging_point_evses = defaultdict(list)
+        charging_points = {}
+
+        for port in plug["Ports"]:
+            point_name = port["displayName"]
+
+            if "Port" in point_name:
+                point_name = ""
+
+            evse_id = f"US*EVC*E{port["netPortId"]}"
+
+            if not port["netPortId"]:
+                evse_id = ""
+
+            charging_point_evses[point_name].append(
+                EvseFeature(
+                    plugs=self.parse_plugs(plug),
+                    network_id=evse_id,
+                )
+            )
+
+            charging_points[point_name] = ChargingPointFeature(
+                name=point_name,
+            )
+
+        for charging_point_name, evses in charging_point_evses.items():
+            charging_points[charging_point_name]["evses"] = evses
+
+        station["charging_points"] = list(charging_points.values())
 
         yield station
 
@@ -339,6 +390,13 @@ class ChargeHubSpider(scrapy.Spider):
             charging_points[charging_point_name]["evses"] = evses
 
         station["charging_points"] = list(charging_points.values())
+
+        yield station
+
+    def parse_station_evgo(self, location, plug):
+        station = self.parse_base_station(location)
+
+        station["network"] = "EVGO"
 
         yield station
 

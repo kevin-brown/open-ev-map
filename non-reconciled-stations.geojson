@@ -3314,6 +3314,18 @@
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "1225 Iyannough Road",
+                            "city": "Hyannis",
+                            "state": "MA",
+                            "zip_code": "02601"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "charging_points": [
@@ -9100,6 +9112,18 @@
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "400 Chapman Street",
+                            "city": "Greenfield",
+                            "state": "MA",
+                            "zip_code": "01301"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "charging_points": [
@@ -13383,6 +13407,18 @@
                             "name": "SHELL_RECHARGE_GREENLOTS",
                             "quality": "PARTNER"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "99 Millers Falls Road",
+                            "city": "Northfield",
+                            "state": "MA",
+                            "zip_code": "01360"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "charging_points": [
@@ -13594,67 +13630,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.145719,
-                    42.688641
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "ACS Development Corporation",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "ACS Development Corporation",
-                        "source": {
-                            "name": "CHARGE_HUB",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "160 Winthrop Avenue",
-                            "city": "Lawrence",
-                            "state": "MA",
-                            "zip_code": "01843"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "160 Winthrop Avenue",
-                            "city": "Lawrence",
-                            "state": "MA",
-                            "zip_code": "01843"
-                        },
-                        "source": {
-                            "name": "CHARGE_HUB",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229704"
                     }
                 ]
             }
@@ -14232,6 +14207,13 @@
                             "name": "EV_GATEWAY",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "value": "Alloy Somerville",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "network": "EV_GATEWAY",
@@ -14255,6 +14237,18 @@
                         "source": {
                             "name": "EV_GATEWAY",
                             "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "375 Canal Street",
+                            "city": "Somerville",
+                            "state": "MA",
+                            "zip_code": "02145"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
                         }
                     }
                 ],
@@ -14806,6 +14800,42 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.303308,
+                    41.939159
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Attleboro High School",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EV_GATEWAY",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "1 Blue Pride Way",
+                            "city": "Attleboro",
+                            "state": "MA",
+                            "zip_code": "02703"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.30305,
                     41.93772
                 ]
@@ -15304,6 +15334,42 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/261674"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.58996,
+                    42.33832
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Bank of America",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "ELECTRIFY_AMERICA",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "190 Boston Post Road West",
+                            "city": "Marlborough",
+                            "state": "MA",
+                            "zip_code": "01752"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ]
             }
@@ -17590,6 +17656,65 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.740168,
+                    42.103228
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Bastien Dental",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EV_CONNECT",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "3 Proprietors Drive Unit 12",
+                            "city": "Marshfield",
+                            "state": "MA",
+                            "zip_code": "02050"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*EVC*E6334036a769d34776391fc1e"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*EVC*E6334036a769d34776391fc1f"
+                            }
+                        ],
+                        "name": "P20411060"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.58621,
                     41.73883
                 ]
@@ -18929,6 +19054,42 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -72.537166,
+                    42.365301
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Campus Plaza - Hadley, MA",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EVGO",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "440 Russell Street # 454",
+                            "city": "Hadley",
+                            "state": "MA",
+                            "zip_code": "01035"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -69.989524,
                     41.852996
                 ]
@@ -19578,48 +19739,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.300714,
-                    42.367131
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Center St Shopping Center",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "21 Center Street",
-                            "city": "Weston",
-                            "state": "MA",
-                            "zip_code": "02493"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229713"
                     }
                 ]
             }
@@ -21289,8 +21408,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.16784,
-                    42.49105
+                    -71.167827,
+                    42.491019
                 ]
             },
             "properties": {
@@ -21299,6 +21418,13 @@
                         "value": "Control Mod",
                         "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "value": "Control Mod",
+                        "source": {
+                            "name": "CHARGE_HUB",
                             "quality": "AGGREGATED"
                         }
                     }
@@ -21316,12 +21442,74 @@
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
                             "quality": "AGGREGATED"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "5 Jericho Road",
+                            "city": "Woburn",
+                            "state": "MA",
+                            "zip_code": "01801"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/334180"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM001"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM002"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM003"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM004"
                     }
                 ]
             }
@@ -23850,6 +24038,63 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.365511,
+                    42.624087
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Element Chelmsford",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EV_CONNECT",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "25 Research Place",
+                            "city": "North Chelmsford",
+                            "state": "MA",
+                            "zip_code": "01863"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.145635,
                     42.673849
                 ]
@@ -25309,67 +25554,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/229708"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.38062,
-                    42.08067
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Franklin Town Hall",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "value": "Franklin Town Hall",
-                        "source": {
-                            "name": "CHARGE_HUB",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "355 East Central Street",
-                            "city": "Franklin",
-                            "state": "MA",
-                            "zip_code": "02038"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "355 East Central Street",
-                            "city": "Franklin",
-                            "state": "MA",
-                            "zip_code": "02038"
-                        },
-                        "source": {
-                            "name": "CHARGE_HUB",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/230644"
                     }
                 ]
             }
@@ -28654,6 +28838,13 @@
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
                             "quality": "AGGREGATED"
                         }
+                    },
+                    {
+                        "value": "Hyatt House",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "network": "EV_GATEWAY",
@@ -28669,12 +28860,45 @@
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
                             "quality": "AGGREGATED"
                         }
+                    },
+                    {
+                        "address": {
+                            "street_address": "54 Fourth Avenue",
+                            "city": "Waltham",
+                            "state": "MA",
+                            "zip_code": "02451"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "references": [
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/334206"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "30197"
                     }
                 ]
             }
@@ -28745,6 +28969,63 @@
                     {
                         "name": "OPEN_STREET_MAP",
                         "url": "https://www.openstreetmap.org/node/11899479952"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.261714,
+                    42.463385
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Jamsan Hotel Management",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EV_CONNECT",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "110 Hartwell Avenue",
+                            "city": "Lexington",
+                            "state": "MA",
+                            "zip_code": "02421"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
                     }
                 ]
             }
@@ -30208,6 +30489,42 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.23413,
+                    42.29523
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Lee Premium Outlets",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "ELECTRIFY_AMERICA",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "150 Premium Outlet Boulevard",
+                            "city": "Lee",
+                            "state": "MA",
+                            "zip_code": "01238"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ]
             }
@@ -32294,6 +32611,42 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/216287"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.03449,
+                    42.01542
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Market Basket",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EVGO",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "352 West Center Street West",
+                            "city": "Bridgewater",
+                            "state": "MA",
+                            "zip_code": "02379"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ]
             }
@@ -37184,6 +37537,42 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.99049,
+                    41.64246
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "PREIT Dartmouth Mall",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "ELECTRIFY_AMERICA",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "200 North Dartmouth Mall Road",
+                            "city": "Dartmouth",
+                            "state": "MA",
+                            "zip_code": "02747"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.157883,
                     42.371072
                 ]
@@ -40952,6 +41341,13 @@
                             "name": "EV_GATEWAY",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "value": "Sharon Public School",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ],
                 "network": "EV_GATEWAY",
@@ -40975,6 +41371,18 @@
                         "source": {
                             "name": "EV_GATEWAY",
                             "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "75 Mountain Street",
+                            "city": "Sharon",
+                            "state": "MA",
+                            "zip_code": "02067"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
                         }
                     }
                 ],
@@ -41038,6 +41446,42 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.018642,
+                    42.485003
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Shops at Saugus",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "EVGO",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "334 Broadway Route 1",
+                            "city": "Saugus",
+                            "state": "MA",
+                            "zip_code": "01906"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
                     }
                 ]
             }
@@ -41653,6 +42097,61 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/43860"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.161294,
+                    42.725018
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Stateline Electrical",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "4667",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "110 Jackson Street",
+                            "city": "Methuen",
+                            "state": "MA",
+                            "zip_code": "01844"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [],
+                        "name": "1EC4-1-2140-00326"
+                    },
+                    {
+                        "charging_groups": [],
+                        "name": "1EC5-1-2204-00033"
                     }
                 ]
             }

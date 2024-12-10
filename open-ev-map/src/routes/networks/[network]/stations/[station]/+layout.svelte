@@ -4,7 +4,12 @@
   }
 
   function openStreetMapLink(station): string {
-    let osmReference = station.properties.references.find((ref) => ref.name == "OPEN_STREET_MAP");
+    let references = station.properties.references || [];
+    let osmReference = references.find((ref) => ref.name == "OPEN_STREET_MAP");
+
+    if (!osmReference) {
+      return "";
+    }
 
     return osmReference.url;
   }

@@ -60,7 +60,9 @@
     console.log(originalStation, editStation);
     console.log(data.station.properties.references);
 
-    let newTags = {};
+    let newTags = {
+      "amenity": "charging_station",
+    };
 
     if (editStation.name) {
       newTags["name"] = editStation.name;
@@ -91,6 +93,15 @@
 
         break;
 
+      case "RED_E":
+        newTags["network"] = "Red E";
+        newTags["network:wikidata"] = "Q131416886";
+
+        newTags["operator"] = "Red E";
+        newTags["operator:wikidata"] = "Q131416886";
+
+        break;
+
       case "TESLA_SUPERCHARGER":
         newTags["network"] = "Tesla Supercharger";
         newTags["network:wikidata"] = "Q17089620";
@@ -110,7 +121,7 @@
 
     if (editStation.address.street_address) {
       let streetParts = editStation.address.street_address.split(" ");
-      newTags["addr:housenumber"] = streetParts.unshift();
+      newTags["addr:housenumber"] = streetParts.shift();
       newTags["addr:street"] = streetParts.join(" ");
     }
 
@@ -143,11 +154,15 @@
       "tesla_destination": 0,
     };
 
+    let capacity = 0;
+
     for (const chargingPoint of editStation.charging_points) {
       for (const chargingGroup of chargingPoint.charging_groups) {
         for (const port of chargingGroup.ports) {
           socketCounts[PLUG_TO_SOCKET[port.plug_type]]++;
         }
+
+        capacity++;
       }
     }
 
@@ -160,6 +175,10 @@
       if (socketCounts[socketName] > 0) {
         newTags[`socket:${socketName}`] = socketCounts[socketName];
       }
+    }
+
+    if (capacity > 0) {
+      newTags["capacity"] = capacity;
     }
 
     if (data.station.properties.references) {
@@ -304,6 +323,7 @@
     <option value="CHARGEPOINT">ChargePoint</option>
     <option value="EVGO">EVgo</option>
     <option value="FLO">Flo</option>
+    <option value="RED_E">Red E</option>
     <option value="TESLA_DESTINATION">Tesla Destination</option>
     <option value="TESLA_SUPERCHARGER">Tesla Supercharger</option>
   </select>
@@ -380,6 +400,7 @@
       <option value="J1772_COMBO">CCS 1</option>
       <option value="CHADEMO">CHADEMO</option>
       <option value="NACS">NACS (Tesla)</option>
+      <option value="J1772_COMBO;J1772_COMBO">Dual CCS 1</option>
       <option value="CHADEMO;J1772_COMBO">CCS 1 & CHADEMO</option>
       <option value="J1772_COMBO;NACS">CCS 1 & NACS</option>
       <option value="CHADEMO;J1772_COMBO;NACS">CCS 1, NACS, CHADEMO</option>

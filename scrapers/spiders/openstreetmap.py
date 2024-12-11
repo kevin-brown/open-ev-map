@@ -115,6 +115,7 @@ class OpenStreetMapSpider(scrapy.Spider):
 
     def network_from_osm_tags(self, tags) -> str:
         OSM_NETWORK_NAME_MAP = {
+            "AmpedUp!": "AMPED_UP",
             "AmpUp": "AMP_UP",
             "Autel": "AUTEL",
             "Blink": "BLINK",
@@ -137,15 +138,21 @@ class OpenStreetMapSpider(scrapy.Spider):
             # Tesla, Inc., currently ambiguous
             "Q478214": None,
 
-            "Q17089620": "TESLA_SUPERCHARGER",
             "Q5176149": "CHARGEPOINT",
+            "Q17089620": "TESLA_SUPERCHARGER",
+            "Q39057719": "BP_PULSE",
+            "Q42717773": "IONITY",
             "Q59773555": "ELECTRIFY_AMERICA",
             "Q61803820": "EVGO",
             "Q62065645": "BLINK",
             "Q64971203": "FLO",
+            "Q104844533": "ELECTRIFY_CANADA",
             "Q105883058": "SHELL_RECHARGE",
             "Q109307156": "SHELL_RECHARGE", # Volta
+            "Q116116836": "ENEL_X",
+            "Q117302781": "EVCS",
             "Q126652985": "EV_CONNECT",
+            "Q131416886": "RED_E",
         }
 
         OSM_OPERATOR_NAME_MAP = {

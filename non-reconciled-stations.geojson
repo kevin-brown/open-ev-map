@@ -2109,59 +2109,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPoint",
-                "coordinates": [
-                    [
-                        -71.126752,
-                        42.242505
-                    ],
-                    [
-                        -71.126707,
-                        42.242507
-                    ]
-                ]
-            },
-            "properties": {
-                "network": "SHELL_RECHARGE",
-                "references": [
-                    {
-                        "name": "OPEN_STREET_MAP",
-                        "url": "https://www.openstreetmap.org/way/1319037288"
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [],
-                        "name": "",
-                        "osm_id": [
-                            {
-                                "value": "node:12207232497",
-                                "source": {
-                                    "name": "OPEN_STREET_MAP",
-                                    "quality": "CURATED"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [],
-                        "name": "",
-                        "osm_id": [
-                            {
-                                "value": "node:12207232498",
-                                "source": {
-                                    "name": "OPEN_STREET_MAP",
-                                    "quality": "CURATED"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.039315,
@@ -5656,6 +5603,13 @@
                         ],
                         "name": "DC 1",
                         "network_id": [
+                            {
+                                "value": "1705",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1705",
                                 "source": {
@@ -21473,18 +21427,6 @@
                                 ]
                             }
                         ],
-                        "name": "CM001"
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
                         "name": "CM002"
                     },
                     {
@@ -26562,6 +26504,13 @@
                         ],
                         "name": "DC 2",
                         "network_id": [
+                            {
+                                "value": "1505",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1505",
                                 "source": {
@@ -38582,13 +38531,6 @@
                             {
                                 "value": "1544",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1544",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -38965,13 +38907,6 @@
                         ],
                         "name": "L2 1",
                         "network_id": [
-                            {
-                                "value": "1216",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
                             {
                                 "value": "1216",
                                 "source": {

@@ -305,7 +305,7 @@
   }
 </style>
 
-<form on:submit|preventDefault={() => promptChanges()}>
+<form on:submit|preventDefault={() => promptChanges()} autocomplete="off">
   <label for="edit-station-name">Name</label>
   <input type="text" bind:value={editStation.name} list="edit-list-station-names" id="edit-station-name" />
 

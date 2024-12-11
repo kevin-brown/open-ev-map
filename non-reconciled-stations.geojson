@@ -5493,7 +5493,7 @@
             "properties": {
                 "name": [
                     {
-                        "value": "2200 West Park Drive",
+                        "value": "2200 WPD - CCLLC",
                         "source": {
                             "name": "AMP_UP",
                             "quality": "ORIGINAL"
@@ -19286,41 +19286,13 @@
                     {
                         "value": "Center St Lot North Adams",
                         "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "Center St Lot North Adams",
-                        "source": {
                             "name": "CHARGE_HUB",
                             "quality": "AGGREGATED"
                         }
                     }
                 ],
                 "network": "RED_E",
-                "network_id": [
-                    {
-                        "value": "649",
-                        "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
                 "address": [
-                    {
-                        "address": {
-                            "street_address": "55 Center Street",
-                            "city": "North Adams",
-                            "state": "MA",
-                            "zip_code": "01247"
-                        },
-                        "source": {
-                            "name": "RED_E",
-                            "quality": "ORIGINAL"
-                        }
-                    },
                     {
                         "address": {
                             "street_address": "55 Center Street",
@@ -19370,13 +19342,6 @@
                         ],
                         "name": "Center St L2 2",
                         "network_id": [
-                            {
-                                "value": "2244",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
                             {
                                 "value": "2244",
                                 "source": {
@@ -21012,6 +20977,67 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -72.621123,
+                    42.108035
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Coburn Elementary School",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "value": "Coburn Elementary School",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "115 Southworth Street",
+                            "city": "West Springfield",
+                            "state": "MA",
+                            "zip_code": "01089"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "115 Southworth Street",
+                            "city": "West Springfield",
+                            "state": "MA",
+                            "zip_code": "01089"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/251307"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.106619,
                     42.412492
                 ]
@@ -21197,6 +21223,18 @@
                     }
                 ],
                 "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "CM001"
+                    },
                     {
                         "charging_groups": [
                             {
@@ -23649,13 +23687,6 @@
                         }
                     },
                     {
-                        "value": "Enel Entrance 3",
-                        "source": {
-                            "name": "ENEL_X_EMOBILITY_US",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
                         "value": "JuiceBox 1",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -23743,13 +23774,6 @@
                         }
                     },
                     {
-                        "value": "US*0BD*L0910042001280611126123723323",
-                        "source": {
-                            "name": "ENEL_X_EMOBILITY_US",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
                         "value": "US*0BD*L0910042001280613463123723323",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -23816,28 +23840,6 @@
                         "network_id": [
                             {
                                 "value": "0910042001280613463123723323",
-                                "source": {
-                                    "name": "ENEL_X_EMOBILITY_US",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "US*0BD*E0910042001280611126123723323*1"
-                            }
-                        ],
-                        "name": "Enel Entrance 3",
-                        "network_id": [
-                            {
-                                "value": "0910042001280611126123723323",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -37813,13 +37815,6 @@
                             {
                                 "value": "1538",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1538",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -38071,6 +38066,13 @@
                         ],
                         "name": "L2 3",
                         "network_id": [
+                            {
+                                "value": "1544",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1544",
                                 "source": {
@@ -38450,6 +38452,13 @@
                         ],
                         "name": "L2 1",
                         "network_id": [
+                            {
+                                "value": "1216",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1216",
                                 "source": {

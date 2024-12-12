@@ -3117,6 +3117,141 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.157596,
+                    42.026856
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "117 Eastman Street \t",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "7194",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "117 Eastman Street",
+                            "city": "South Easton",
+                            "state": "MA",
+                            "zip_code": "02375"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 36581
+                            }
+                        ],
+                        "name": "NNBJNH",
+                        "network_id": [
+                            {
+                                "value": "38284",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 36578
+                            }
+                        ],
+                        "name": "NNBJPN",
+                        "network_id": [
+                            {
+                                "value": "38282",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 36579
+                            }
+                        ],
+                        "name": "QQEGQG",
+                        "network_id": [
+                            {
+                                "value": "38283",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 36580
+                            }
+                        ],
+                        "name": "QQEGSO",
+                        "network_id": [
+                            {
+                                "value": "38285",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.202981,
                     42.360169
                 ]
@@ -8052,141 +8187,6 @@
                                 "value": "0910042001260547731022620613",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.327323,
-                    42.601749
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "300 Apollo ",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "network_id": [
-                    {
-                        "value": "7017",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "300 Apollo Drive",
-                            "city": "Chelmsford",
-                            "state": "MA",
-                            "zip_code": "01824"
-                        },
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 37962
-                            }
-                        ],
-                        "name": "HNPKFBOCBA",
-                        "network_id": [
-                            {
-                                "value": "38775",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 37963
-                            }
-                        ],
-                        "name": "IGRGLMKAHA",
-                        "network_id": [
-                            {
-                                "value": "38778",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 37964
-                            }
-                        ],
-                        "name": "ORLHDGONKQ",
-                        "network_id": [
-                            {
-                                "value": "38776",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 37965
-                            }
-                        ],
-                        "name": "TCNLPEGLFF",
-                        "network_id": [
-                            {
-                                "value": "38777",
-                                "source": {
-                                    "name": "AMP_UP",
                                     "quality": "ORIGINAL"
                                 }
                             }

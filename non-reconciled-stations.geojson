@@ -3252,6 +3252,185 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.573204,
+                    42.278982
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "118 Flanders - CCLLC",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "7197",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "118 Flanders Road",
+                            "city": "Westborough",
+                            "state": "MA",
+                            "zip_code": "01581"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25268
+                            }
+                        ],
+                        "name": "AMPJ-11308080021",
+                        "network_id": [
+                            {
+                                "value": "32856",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25244
+                            }
+                        ],
+                        "name": "AMPJ-11308080026",
+                        "network_id": [
+                            {
+                                "value": "32886",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25263
+                            }
+                        ],
+                        "name": "AMPJ-11308080058",
+                        "network_id": [
+                            {
+                                "value": "32879",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25265
+                            }
+                        ],
+                        "name": "AMPJ-11308080079",
+                        "network_id": [
+                            {
+                                "value": "32892",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25253
+                            }
+                        ],
+                        "name": "AMPJ-11308080098",
+                        "network_id": [
+                            {
+                                "value": "32884",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25249
+                            }
+                        ],
+                        "name": "AMPJ-11308080150",
+                        "network_id": [
+                            {
+                                "value": "32875",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.202981,
                     42.360169
                 ]
@@ -4443,6 +4622,28 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": 35706
+                            }
+                        ],
+                        "name": "AMPJ-11406170100",
+                        "network_id": [
+                            {
+                                "value": "37919",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": 37967
                             }
                         ],
@@ -5430,6 +5631,229 @@
                             }
                         ],
                         "name": "2039"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.584588,
+                    42.284712
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "200 Friberg - CCLLC",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "7199",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "200 Friberg Parkway",
+                            "city": "Westborough",
+                            "state": "MA",
+                            "zip_code": "01581"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25293
+                            }
+                        ],
+                        "name": "AMPJ-11308080002",
+                        "network_id": [
+                            {
+                                "value": "32924",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25299
+                            }
+                        ],
+                        "name": "AMPJ-11308080137",
+                        "network_id": [
+                            {
+                                "value": "32920",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25286
+                            }
+                        ],
+                        "name": "AMPJ-11308080147",
+                        "network_id": [
+                            {
+                                "value": "32897",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25309
+                            }
+                        ],
+                        "name": "AMPJ-11308080152",
+                        "network_id": [
+                            {
+                                "value": "32900",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25320
+                            }
+                        ],
+                        "name": "AMPJ-11308080160",
+                        "network_id": [
+                            {
+                                "value": "32912",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25282
+                            }
+                        ],
+                        "name": "AMPJ-11308080163",
+                        "network_id": [
+                            {
+                                "value": "32918",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25307
+                            }
+                        ],
+                        "name": "AMPJ-11308080181",
+                        "network_id": [
+                            {
+                                "value": "32927",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 25303
+                            }
+                        ],
+                        "name": "AMPJ-11308080198",
+                        "network_id": [
+                            {
+                                "value": "32933",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -8187,6 +8611,141 @@
                                 "value": "0910042001260547731022620613",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.327323,
+                    42.601749
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "300 Apollo ",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "7017",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "300 Apollo Drive",
+                            "city": "Chelmsford",
+                            "state": "MA",
+                            "zip_code": "01824"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 37962
+                            }
+                        ],
+                        "name": "HNPKFBOCBA",
+                        "network_id": [
+                            {
+                                "value": "38775",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 37963
+                            }
+                        ],
+                        "name": "IGRGLMKAHA",
+                        "network_id": [
+                            {
+                                "value": "38778",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 37964
+                            }
+                        ],
+                        "name": "ORLHDGONKQ",
+                        "network_id": [
+                            {
+                                "value": "38776",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 37965
+                            }
+                        ],
+                        "name": "TCNLPEGLFF",
+                        "network_id": [
+                            {
+                                "value": "38777",
+                                "source": {
+                                    "name": "AMP_UP",
                                     "quality": "ORIGINAL"
                                 }
                             }
@@ -20763,6 +21322,368 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.035032,
+                    42.346568
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "City of Boston - V1 Parking Garage",
+                        "source": {
+                            "name": "NOODOE",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "ABM",
+                "network_id": [
+                    {
+                        "value": "66993a47595ef918089eeccd",
+                        "source": {
+                            "name": "NOODOE",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "302 Northern Avenue",
+                            "city": "Boston ",
+                            "state": "MA",
+                            "zip_code": "02210"
+                        },
+                        "source": {
+                            "name": "NOODOE",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164262",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a50",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164267",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a52",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164269",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a53",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164270",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a57",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164276",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a5c",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164278",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a54",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164280",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a59",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164296",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a5b",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164298",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a4e",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164299",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a58",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164303",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a56",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164309",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a55",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164315",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a5a",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164334",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a4f",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164339",
+                        "network_id": [
+                            {
+                                "value": "674b737847ae308df0116a51",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.640756,
                     42.629952
                 ]
@@ -23687,6 +24608,13 @@
                         }
                     },
                     {
+                        "value": "Enel Entrance 3",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "JuiceBox 1",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -23774,6 +24702,13 @@
                         }
                     },
                     {
+                        "value": "US*0BD*L0910042001280611126123723323",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "US*0BD*L0910042001280613463123723323",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -23840,6 +24775,28 @@
                         "network_id": [
                             {
                                 "value": "0910042001280613463123723323",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*0BD*E0910042001280611126123723323*1"
+                            }
+                        ],
+                        "name": "Enel Entrance 3",
+                        "network_id": [
+                            {
+                                "value": "0910042001280611126123723323",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -27188,6 +28145,146 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/229726"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.122895,
+                    42.39159
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Henderson Carriage Building",
+                        "source": {
+                            "name": "BLINK",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "Henderson Carriage Building",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "BLINK",
+                "network_id": [
+                    {
+                        "value": "d0e864cf-fb2a-3dbf-1307-c00000005848",
+                        "source": {
+                            "name": "BLINK",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "2067 Massachusetts Avenue",
+                            "city": "Cambridge",
+                            "state": "MA",
+                            "zip_code": "2140"
+                        },
+                        "source": {
+                            "name": "BLINK",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "2067 Massachusetts Avenue",
+                            "city": "Cambridge",
+                            "state": "MA",
+                            "zip_code": "2140"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "ec7d626f-5a87-3f0b-1307-200000014848"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "d9ac0aa1-4972-3e61-1307-300000146031"
+                            }
+                        ],
+                        "name": "BAE602502",
+                        "network_id": [
+                            {
+                                "value": "US*BLK*EBAE602502",
+                                "source": {
+                                    "name": "BLINK",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "US*BLK*EBAE602502",
+                                "source": {
+                                    "name": "CHARGE_HUB",
+                                    "quality": "AGGREGATED"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "ec7d626f-5a87-3f0b-1307-200000014850"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "d9ac0aa1-4972-3e61-1307-300000146051"
+                            }
+                        ],
+                        "name": "BAE602503",
+                        "network_id": [
+                            {
+                                "value": "US*BLK*EBAE602503",
+                                "source": {
+                                    "name": "BLINK",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "US*BLK*EBAE602503",
+                                "source": {
+                                    "name": "CHARGE_HUB",
+                                    "quality": "AGGREGATED"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -36031,6 +37128,74 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.090595,
+                    42.342509
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Northeastern",
+                        "source": {
+                            "name": "NOODOE",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "ABM",
+                "network_id": [
+                    {
+                        "value": "652cad69dde71156569ab2b6",
+                        "source": {
+                            "name": "NOODOE",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "129 hemenway street",
+                            "city": "Boston",
+                            "state": "MA",
+                            "zip_code": "02115"
+                        },
+                        "source": {
+                            "name": "NOODOE",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": "2164308",
+                        "network_id": [
+                            {
+                                "value": "674b734747ae308df0114ffd",
+                                "source": {
+                                    "name": "NOODOE",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.329805,
                     41.983257
                 ]
@@ -43219,238 +44384,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/258914"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.49896,
-                    42.15986
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Target Milford #T1281",
-                        "source": {
-                            "name": "EVGO",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "Target Milford #T1281",
-                        "source": {
-                            "name": "SHELL_MOBILE_COMMERCE",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "network": "EVGO",
-                "network_id": [
-                    {
-                        "value": "73689",
-                        "source": {
-                            "name": "EVGO",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "60228",
-                        "source": {
-                            "name": "SHELL_MOBILE_COMMERCE",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "250 Fortune Boulevard",
-                            "city": "Milford",
-                            "state": "MA",
-                            "zip_code": "01757"
-                        },
-                        "source": {
-                            "name": "EVGO",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "250 Fortune Boulevard",
-                            "city": "Milford",
-                            "state": "MA",
-                            "zip_code": "01757"
-                        },
-                        "source": {
-                            "name": "SHELL_MOBILE_COMMERCE",
-                            "quality": "PARTNER"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E120188*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E120188*2"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E438789*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E438789*2"
-                            }
-                        ],
-                        "name": "DEVANTE",
-                        "network_id": [
-                            {
-                                "value": "US*EVG*E438789",
-                                "source": {
-                                    "name": "EVGO",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "US*EVG*E120188",
-                                "source": {
-                                    "name": "SHELL_MOBILE_COMMERCE",
-                                    "quality": "PARTNER"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E120186*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E120186*2"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E438787*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E438787*2"
-                            }
-                        ],
-                        "name": "HAL",
-                        "network_id": [
-                            {
-                                "value": "US*EVG*E438787",
-                                "source": {
-                                    "name": "EVGO",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "US*EVG*E120186",
-                                "source": {
-                                    "name": "SHELL_MOBILE_COMMERCE",
-                                    "quality": "PARTNER"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E120187*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E120187*2"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E438788*1"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772_COMBO"
-                                    }
-                                ],
-                                "network_id": "US*EVG*E438788*2"
-                            }
-                        ],
-                        "name": "MACIE",
-                        "network_id": [
-                            {
-                                "value": "US*EVG*E438788",
-                                "source": {
-                                    "name": "EVGO",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "US*EVG*E120187",
-                                "source": {
-                                    "name": "SHELL_MOBILE_COMMERCE",
-                                    "quality": "PARTNER"
-                                }
-                            }
-                        ]
                     }
                 ]
             }

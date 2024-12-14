@@ -5982,13 +5982,6 @@
                             {
                                 "value": "1689",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1689",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -31733,6 +31726,467 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.527709,
+                        42.042295
+                    ],
+                    [
+                        -72.527674,
+                        42.042303
+                    ],
+                    [
+                        -72.527641,
+                        42.042314
+                    ],
+                    [
+                        -72.527601,
+                        42.042319
+                    ],
+                    [
+                        -72.527572,
+                        42.042321
+                    ],
+                    [
+                        -72.52753,
+                        42.042333
+                    ],
+                    [
+                        -72.527503,
+                        42.042344
+                    ],
+                    [
+                        -72.527428,
+                        42.042356
+                    ],
+                    [
+                        -72.52739,
+                        42.042364
+                    ],
+                    [
+                        -72.52656,
+                        42.042362
+                    ]
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-01",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-02",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-03",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-04",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-05",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-06",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-07",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-08",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-09",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "MAYBURY EV MAYBURYEV-10",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "network": "CHARGEPOINT",
+                "network_id": [
+                    {
+                        "value": "US*CPI*L16770951",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16770961",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16770981",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16770991",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16771011",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16771031",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16771051",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16771461",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16771491",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    },
+                    {
+                        "value": "US*CPI*L16771661",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "90 Denslow Road",
+                            "city": "East Longmeadow",
+                            "state": "MA",
+                            "zip_code": "01028"
+                        },
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "PARTNER"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16771491*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-01",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16771491",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16771661*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-02",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16771661",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16771461*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-03",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16771461",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16770951*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-04",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16770951",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16770961*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-05",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16770961",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16770981*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-06",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16770981",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16770991*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-07",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16770991",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16771011*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-08",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16771011",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16771031*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-09",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16771031",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "CHADEMO"
+                                    },
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ],
+                                "network_id": "US*CPI*E16771051*1"
+                            }
+                        ],
+                        "name": "MAYBURY EV MAYBURYEV-10",
+                        "network_id": [
+                            {
+                                "value": "US*CPI*E16771051",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "PARTNER"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -71.265166,
@@ -38980,6 +39434,13 @@
                             {
                                 "value": "1538",
                                 "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "1538",
+                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -39289,13 +39750,6 @@
                         ],
                         "name": "L2 5",
                         "network_id": [
-                            {
-                                "value": "1543",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
                             {
                                 "value": "1543",
                                 "source": {
@@ -39679,13 +40133,41 @@
                     {
                         "value": "Pride State St",
                         "source": {
+                            "name": "RED_E",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "Pride State St",
+                        "source": {
                             "name": "CHARGE_HUB",
                             "quality": "AGGREGATED"
                         }
                     }
                 ],
                 "network": "RED_E",
+                "network_id": [
+                    {
+                        "value": "296",
+                        "source": {
+                            "name": "RED_E",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
                 "address": [
+                    {
+                        "address": {
+                            "street_address": "700 State Street",
+                            "city": "Springfield",
+                            "state": "MA",
+                            "zip_code": "01109"
+                        },
+                        "source": {
+                            "name": "RED_E",
+                            "quality": "ORIGINAL"
+                        }
+                    },
                     {
                         "address": {
                             "street_address": "700 State Street",
@@ -39716,6 +40198,13 @@
                             {
                                 "value": "1203",
                                 "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "1203",
+                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -39735,6 +40224,13 @@
                         ],
                         "name": "L2 10",
                         "network_id": [
+                            {
+                                "value": "1210",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1210",
                                 "source": {
@@ -39760,6 +40256,13 @@
                             {
                                 "value": "1204",
                                 "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "1204",
+                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -39779,6 +40282,13 @@
                         ],
                         "name": "L2 3",
                         "network_id": [
+                            {
+                                "value": "1205",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1205",
                                 "source": {
@@ -39804,6 +40314,13 @@
                             {
                                 "value": "1206",
                                 "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "1206",
+                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -39823,6 +40340,13 @@
                         ],
                         "name": "L2 5",
                         "network_id": [
+                            {
+                                "value": "1207",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1207",
                                 "source": {
@@ -39848,6 +40372,13 @@
                             {
                                 "value": "1279",
                                 "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "1279",
+                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -39867,6 +40398,13 @@
                         ],
                         "name": "L2 7",
                         "network_id": [
+                            {
+                                "value": "1208",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1208",
                                 "source": {
@@ -39892,6 +40430,13 @@
                             {
                                 "value": "1211",
                                 "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "1211",
+                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -39911,6 +40456,13 @@
                         ],
                         "name": "L2 9",
                         "network_id": [
+                            {
+                                "value": "1209",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "1209",
                                 "source": {
@@ -40714,13 +41266,6 @@
                         ],
                         "name": "DC 1",
                         "network_id": [
-                            {
-                                "value": "1701",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
                             {
                                 "value": "1701",
                                 "source": {
@@ -44002,13 +44547,6 @@
                         ],
                         "name": "L2 1",
                         "network_id": [
-                            {
-                                "value": "3188",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
                             {
                                 "value": "3188",
                                 "source": {
@@ -47421,6 +47959,141 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/216293"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.286606,
+                    42.302058
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Whole Foods Market Wellesley",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "SHELL_RECHARGE",
+                "network_id": [
+                    {
+                        "value": "6816",
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "442 Washington Street",
+                            "city": "Wellesley",
+                            "state": "MA",
+                            "zip_code": "2482"
+                        },
+                        "source": {
+                            "name": "SHELL_RECHARGE_GREENLOTS",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "192482V"
+                            }
+                        ],
+                        "name": "192482V",
+                        "network_id": [
+                            {
+                                "value": "192482V",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "192507V"
+                            }
+                        ],
+                        "name": "192507V",
+                        "network_id": [
+                            {
+                                "value": "192507V",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "192509V"
+                            }
+                        ],
+                        "name": "192509V",
+                        "network_id": [
+                            {
+                                "value": "192509V",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "22LB-04"
+                            }
+                        ],
+                        "name": "22LB-04",
+                        "network_id": [
+                            {
+                                "value": "22LB-04",
+                                "source": {
+                                    "name": "SHELL_RECHARGE_GREENLOTS",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }

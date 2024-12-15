@@ -25945,6 +25945,48 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.064269,
+                    42.467523
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Franklin  St",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "200 Franklin Street",
+                            "city": "Melrose",
+                            "state": "MA",
+                            "zip_code": "02176"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/229705"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -72.6124,
                     42.59699
                 ]
@@ -28138,146 +28180,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/229726"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.122895,
-                    42.39159
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Henderson Carriage Building",
-                        "source": {
-                            "name": "BLINK",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "Henderson Carriage Building",
-                        "source": {
-                            "name": "CHARGE_HUB",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "BLINK",
-                "network_id": [
-                    {
-                        "value": "d0e864cf-fb2a-3dbf-1307-c00000005848",
-                        "source": {
-                            "name": "BLINK",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "2067 Massachusetts Avenue",
-                            "city": "Cambridge",
-                            "state": "MA",
-                            "zip_code": "2140"
-                        },
-                        "source": {
-                            "name": "BLINK",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "address": {
-                            "street_address": "2067 Massachusetts Avenue",
-                            "city": "Cambridge",
-                            "state": "MA",
-                            "zip_code": "2140"
-                        },
-                        "source": {
-                            "name": "CHARGE_HUB",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "ec7d626f-5a87-3f0b-1307-200000014848"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "d9ac0aa1-4972-3e61-1307-300000146031"
-                            }
-                        ],
-                        "name": "BAE602502",
-                        "network_id": [
-                            {
-                                "value": "US*BLK*EBAE602502",
-                                "source": {
-                                    "name": "BLINK",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "US*BLK*EBAE602502",
-                                "source": {
-                                    "name": "CHARGE_HUB",
-                                    "quality": "AGGREGATED"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "ec7d626f-5a87-3f0b-1307-200000014850"
-                            },
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "d9ac0aa1-4972-3e61-1307-300000146051"
-                            }
-                        ],
-                        "name": "BAE602503",
-                        "network_id": [
-                            {
-                                "value": "US*BLK*EBAE602503",
-                                "source": {
-                                    "name": "BLINK",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "US*BLK*EBAE602503",
-                                "source": {
-                                    "name": "CHARGE_HUB",
-                                    "quality": "AGGREGATED"
-                                }
-                            }
-                        ]
                     }
                 ]
             }
@@ -32537,13 +32439,6 @@
                             "name": "AMP_UP",
                             "quality": "ORIGINAL"
                         }
-                    },
-                    {
-                        "value": "MGM FLOOR 7",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
                     }
                 ],
                 "network": "AMP_UP",
@@ -32571,13 +32466,6 @@
                     },
                     {
                         "value": "6792",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    },
-                    {
-                        "value": "6794",
                         "source": {
                             "name": "AMP_UP",
                             "quality": "ORIGINAL"
@@ -32805,28 +32693,6 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 36698
-                            }
-                        ],
-                        "name": "DKLPMORBKF",
-                        "network_id": [
-                            {
-                                "value": "38356",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
                                 "network_id": 36641
                             }
                         ],
@@ -32871,28 +32737,6 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 36701
-                            }
-                        ],
-                        "name": "ETSKOIEFBS",
-                        "network_id": [
-                            {
-                                "value": "38352",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
                                 "network_id": 36684
                             }
                         ],
@@ -32900,28 +32744,6 @@
                         "network_id": [
                             {
                                 "value": "38348",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 36699
-                            }
-                        ],
-                        "name": "HCIIDGOIOO",
-                        "network_id": [
-                            {
-                                "value": "38354",
                                 "source": {
                                     "name": "AMP_UP",
                                     "quality": "ORIGINAL"
@@ -32981,50 +32803,6 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
-                                "network_id": 36700
-                            }
-                        ],
-                        "name": "IGFIDDBSCM",
-                        "network_id": [
-                            {
-                                "value": "38353",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 36697
-                            }
-                        ],
-                        "name": "IGTIBTHBAK",
-                        "network_id": [
-                            {
-                                "value": "38351",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
                                 "network_id": 36644
                             }
                         ],
@@ -33032,28 +32810,6 @@
                         "network_id": [
                             {
                                 "value": "38326",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 36696
-                            }
-                        ],
-                        "name": "IPIBGQQDND",
-                        "network_id": [
-                            {
-                                "value": "38357",
                                 "source": {
                                     "name": "AMP_UP",
                                     "quality": "ORIGINAL"
@@ -33296,28 +33052,6 @@
                         "network_id": [
                             {
                                 "value": "38331",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 36695
-                            }
-                        ],
-                        "name": "SIHTGKAOAC",
-                        "network_id": [
-                            {
-                                "value": "38355",
                                 "source": {
                                     "name": "AMP_UP",
                                     "quality": "ORIGINAL"
@@ -48094,6 +47828,67 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.06341,
+                    42.464485
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Whole Foods Parking Lot",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "value": "Whole Foods Parking Lot",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "880 Main Street",
+                            "city": "Melrose",
+                            "state": "MA",
+                            "zip_code": "02176"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "880 Main Street",
+                            "city": "Melrose",
+                            "state": "MA",
+                            "zip_code": "02176"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/225856"
                     }
                 ]
             }

@@ -1,8 +1,7 @@
 <script lang="ts">
-  import { base } from "$app/paths";
-
   import { Marker, MapLibre, Popup } from "svelte-maplibre";
 
+  import { firstPropertyValueForDisplay, formatPrimaryStationAddress } from "$lib/formatters";
   import { fetchStations } from "$lib/stations";
 
   function latLngForStation(station) {
@@ -14,92 +13,6 @@
   }
 
   let stationRequest = fetchStations();
-
-  function firstPropertyValueForDisplay(propertyValue) {
-    if (!propertyValue) {
-      return "";
-    }
-
-    if (propertyValue.length < 1) {
-      return "";
-    }
-
-    return propertyValue[0].value;
-  }
-
-  function formatStationAddress(stationAddress) {
-    if (!stationAddress) {
-      return "";
-    }
-
-    let address = "";
-
-    if (stationAddress.street_address) {
-      address += stationAddress.street_address;
-    }
-
-    if (stationAddress.city) {
-      if (address) {
-        address += ", ";
-      }
-
-      address += stationAddress.city;
-    }
-
-    if (stationAddress.state) {
-      if (address) {
-        address += ", ";
-      }
-
-      address += stationAddress.state;
-    }
-
-    if (stationAddress.zip_code) {
-      if (address) {
-        address += " ";
-      }
-
-      address += stationAddress.zip_code;
-    }
-
-    return address;
-  }
-
-  function formatPrimaryStationAddress(stationAddresses) {
-    if (!stationAddresses) {
-      return "";
-    }
-
-    if (stationAddresses.length < 1) {
-      return "";
-    }
-
-    return formatStationAddress(stationAddresses[0].address)
-  }
-
-  function formatSourceName(sourceName: string): string {
-    const SOURCE_NAME_DISPLAY = {
-      "ALTERNATIVE_FUELS_DATA_CENTER": "Alternative Fuels Data Center",
-      "ELECTRIC_ERA": "Electric Era",
-      "ELECTRIFY_AMERICA": "Electrify America",
-      "OPEN_CHARGE_MAP": "Open Charge Map",
-      "OPEN_STREET_MAP": "OpenStreetMap",
-      "SUPERCHARGE": "supercharge.info",
-    }
-
-    return SOURCE_NAME_DISPLAY[sourceName] || sourceName;
-  }
-
-  function iconPathForPlugType(plugType: string): string {
-    const PLUG_TYPE_MAP = {
-      'CHADEMO': 'chademo',
-      'J1772': 'j1772',
-      'J1772_COMBO': 'j1772-combo',
-      'NACS': 'nacs',
-    }
-
-    return base + '/icons/plug-' + PLUG_TYPE_MAP[plugType] + '.svg';
-  }
 
   function stationMarkerColor(station): string {
     if (!station.properties.references) {
@@ -139,10 +52,38 @@
     return "red";
   }
 
-  function* chunks<T>(arr: T[], n: number): Generator<T[], void> {
-    for (let i = 0; i < arr.length; i += n) {
-      yield arr.slice(i, i + n);
+  function plugsForStation(station): string[] {
+    if (!station.properties.charging_points) {
+      return [];
     }
+
+    return station.properties.charging_points.flatMap((point) => {
+      if (!point.charging_groups) {
+        return [];
+      }
+
+      return point.charging_groups.flatMap((group) => {
+        if (!group.ports) {
+          return [];
+        }
+
+        return group.ports.map((port) => port.plug_type);
+      });
+    }).filter((value: string, index: number, array: string[]) => array.indexOf(value) === index);
+  }
+
+  function osmUrlForStation(station): string | null {
+    if (!station.properties.references) {
+      return null;
+    }
+
+    for (let reference of station.properties.references) {
+      if (reference.name == "OPEN_STREET_MAP") {
+        return reference.url;
+      }
+    }
+
+    return null;
   }
 </script>
 
@@ -169,100 +110,20 @@
             <p>
               { formatPrimaryStationAddress(stationMarker.properties.address) }
             </p>
-            {#if stationMarker.properties.name?.length > 1}
-            <h4 class="font-bold">
-              Names
-            </h4>
-            <ul class="list-disc px-4">
-              {#each stationMarker.properties.name as name}
-              <li>
-                {name.value}<br />
-                <span class="italic">from <a href={name.source.url} class="underline" target="_blank">{formatSourceName(name.source.name)}</a></span>
-              </li>
-              {/each}
-            </ul>
+            <p>
+              { stationMarker.properties.charging_points?.length || 0 } stations
+            </p>
+            {@const plugs = plugsForStation(stationMarker) }
+            {#if plugs?.length > 0}
+            <p>
+              Plugs: { plugs.join(", ") }
+            </p>
             {/if}
-            {#if stationMarker.properties.address?.length > 1}
-            <h4 class="font-bold">
-              Addresses
-            </h4>
-            <ul class="list-disc px-4">
-              {#each stationMarker.properties.address as address}
-              <li>
-                {formatStationAddress(address.address)}<br />
-                <span class="italic">from <a href={address.source.url} class="underline" target="_blank">{formatSourceName(address.source.name)}</a></span>
-              </li>
-              {/each}
-            </ul>
-            {/if}
-            {#if stationMarker.properties.charging_points?.length > 0}
-            <h4 class="font-bold">
-              Charging Points
-            </h4>
-            <div class="grid-cols-1 grid-cols-2 grid-cols-3"></div>
-            <div class="grid grid-cols-{Math.min(stationMarker.properties.charging_points.length, 3)} gap-4">
-              {#each stationMarker.properties.charging_points as chargingPoint}
-              <div>
-                <table class="border">
-                  <thead>
-                    <tr>
-                      <td colspan={Math.min(chargingPoint.charging_groups.length, 4)}>
-                        {chargingPoint.name}
-                        {#if chargingPoint.network_id?.length > 0}
-                        {#if chargingPoint.name}<br />{/if}
-                        ({firstPropertyValueForDisplay(chargingPoint.network_id)})
-                        {/if}
-                      </td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {#each chunks(chargingPoint.charging_groups, 4) as chargingGroupsChunk}
-                    <tr>
-                      {#each chargingGroupsChunk as chargingGroup}
-                      <td class="border">
-                        <table class="border">
-                          {#if chargingGroup.network_id}
-                          <thead>
-                            <tr>
-                              <td colspan={Math.min(chargingGroup.ports.length, 4)} class="border-b">
-                                {chargingGroup.network_id}
-                              </td>
-                            </tr>
-                          </thead>
-                          {/if}
-                          <tbody>
-                            {#each chunks(chargingGroup.ports, 4) as groupPortsChunk}
-                            <tr>
-                              {#each groupPortsChunk as chargingPort}
-                              <td class="border">
-                                <img src={iconPathForPlugType(chargingPort.plug_type)} alt={chargingPort.plug_type} height="50px" width="50px" class="mx-auto" />
-                              </td>
-                              {/each}
-                            </tr>
-                            {/each}
-                          </tbody>
-                        </table>
-                      </td>
-                      {/each}
-                    </tr>
-                    {/each}
-                  </tbody>
-                </table>
-              </div>
-              {/each}
-            </div>
-            {/if}
-            {#if stationMarker.properties.references?.length > 0}
-            <h4 class="font-bold">
-              Sources
-            </h4>
-            <ul class="list-disc px-4">
-              {#each stationMarker.properties.references as reference}
-              <li>
-                <a href={reference.url} class="underline" target="_blank">{formatSourceName(reference.name)}</a>
-              </li>
-              {/each}
-              </ul>
+            {@const osmUrl = osmUrlForStation(stationMarker) }
+            {#if osmUrl}
+            <p>
+              <a href={osmUrl}>[OSM]</a>
+            </p>
             {/if}
         </Popup>
       </Marker>

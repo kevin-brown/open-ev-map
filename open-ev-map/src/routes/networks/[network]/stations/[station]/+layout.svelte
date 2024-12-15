@@ -1,7 +1,5 @@
 <script lang="ts">
-  function stationName(station): string {
-    return station.properties.name && station.properties.name.length > 0 ? station.properties.name[0].value : "";
-  }
+  import { firstPropertyValueForDisplay } from "$lib/formatters";
 
   function openStreetMapLink(station): string {
     let references = station.properties.references || [];
@@ -17,7 +15,11 @@
   export let data;
 </script>
 
-<h2>{stationName(data.station)}</h2>
+<svelte:head>
+  <title>{firstPropertyValueForDisplay(data.station.properties.name)} - Open EV Map</title>
+</svelte:head>
+
+<h2>{firstPropertyValueForDisplay(data.station.properties.name)}</h2>
 {data.station.properties.network} <a href={openStreetMapLink(data.station)}>Open Street Map</a>
 
 <slot></slot>

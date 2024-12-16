@@ -393,10 +393,9 @@
     <label for={'edit-station-charging-points-' + idx + '-ports'}>Ports</label>
     <select id={'edit-station-charging-points-' + idx + '-ports'} value={portLayoutForChargingPoint(chargingPoint)} on:change={(e) => setPortLayoutForChargingPoint(idx, e.target.value)}>
       <option value="">Unknown</option>
-      <option value="J1772">J-1772</option>
-      <option value="J1772_CABLE">J-1772 (with cable)</option>
+      <option value="J1772">J-1772 (with cable)</option>
       <option value="J1772_SOCKET">J-1772 (socket only)</option>
-      <option value="J1772_CABLE;J1772_CABLE">Dual J-1772 (with cable)</option>
+      <option value="J1772;J1772">Dual J-1772 (with cable)</option>
       <option value="J1772_COMBO">CCS 1</option>
       <option value="CHADEMO">CHADEMO</option>
       <option value="NACS">NACS (Tesla)</option>

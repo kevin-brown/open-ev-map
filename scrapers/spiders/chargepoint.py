@@ -101,7 +101,7 @@ class ChargePointSpider(scrapy.Spider):
     def parse_map_data(self, response):
         response_data = response.json()["map_data"]
 
-        for summary in response_data.get("blobs"):
+        for summary in response_data.get("blobs", []):
             port_count = sum(list(summary.get("port_count", {}).values()))
             bounds = summary["bounds"]
 
@@ -141,7 +141,7 @@ class ChargePointSpider(scrapy.Spider):
     def parse_station_list(self, response):
         station_list = response.json()["station_list"]
 
-        for station in station_list["stations"]:
+        for station in station_list.get("stations", []):
             geocode_data = reverse_geocode.get((station["lat"], station["lon"]))
 
             if geocode_data["country_code"] != "US":

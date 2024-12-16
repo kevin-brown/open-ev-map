@@ -11,6 +11,7 @@ class ChargeHubSpider(scrapy.Spider):
     name = "chargehub"
 
     PLUG_CODE_TO_PLUG_TYPE = {
+        4: ["CHADEMO"],
         5: ["J1772_CABLE"],
         6: ["J1772_COMBO"],
         7: ["NACS"],
@@ -538,6 +539,9 @@ class ChargeHubSpider(scrapy.Spider):
         charging_points = []
 
         for port in plug["Ports"]:
+            if "netPortId" not in port:
+                continue
+
             network_id = port["netPortId"].split("_")[0]
 
             charging_points.append(

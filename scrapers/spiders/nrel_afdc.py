@@ -15,6 +15,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
         "ABM": "ABM",
         "AMPED_UP": "AMPED_UP",
         "AMPUP": "AMP_UP",
+        "AUTEL": "AUTEL",
         "Blink Network": "BLINK",
         "CHARGELAB": "CHARGE_LAB",
         "ChargePoint Network": "CHARGEPOINT",

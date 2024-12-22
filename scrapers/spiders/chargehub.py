@@ -128,8 +128,13 @@ class ChargeHubSpider(scrapy.Spider):
             longitude=location["Long"],
         )
 
+        street_address = location["Street"]
+
+        if location["StreetNo"]:
+            street_address = location["StreetNo"] + " " + street_address
+
         address = AddressFeature(
-            street_address=f"{location["StreetNo"]} {location["Street"]}",
+            street_address=street_address,
             city=location["City"],
             state=location["prov_state"],
             zip_code=location["Zip"],

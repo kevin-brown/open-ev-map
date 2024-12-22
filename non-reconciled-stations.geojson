@@ -62,6 +62,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.447926,
+                    42.555024
+                ]
+            },
+            "properties": {
+                "network": "CHARGEPOINT",
+                "references": [
+                    {
+                        "name": "OPEN_STREET_MAP",
+                        "url": "https://www.openstreetmap.org/node/2732723645"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.394243,
                     42.456869
                 ]
@@ -4635,28 +4654,6 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 37967
-                            }
-                        ],
-                        "name": "AMPJ-11406170287",
-                        "network_id": [
-                            {
-                                "value": "37918",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
                     }
                 ]
             }
@@ -5982,13 +5979,6 @@
                             {
                                 "value": "1689",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1689",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -6363,28 +6353,6 @@
                     }
                 ],
                 "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": "24ed34f8-6d1d-4cd0-af88-3170efdd28ac**1"
-                            }
-                        ],
-                        "name": "",
-                        "network_id": [
-                            {
-                                "value": "24ed34f8-6d1d-4cd0-af88-3170efdd28ac",
-                                "source": {
-                                    "name": "CHARGE_HUB",
-                                    "quality": "AGGREGATED"
-                                }
-                            }
-                        ]
-                    },
                     {
                         "charging_groups": [
                             {
@@ -14084,6 +14052,48 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -70.917573,
+                    42.576876
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Abiomed, Inc",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "22 Cherry Hill Drive",
+                            "city": "Danvers",
+                            "state": "MA",
+                            "zip_code": "01923"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/251681"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.430141,
                     42.441386
                 ]
@@ -14546,6 +14556,28 @@
                     }
                 ],
                 "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 27249
+                            }
+                        ],
+                        "name": "24000120",
+                        "network_id": [
+                            {
+                                "value": "21645",
+                                "source": {
+                                    "name": "EV_GATEWAY",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
                     {
                         "charging_groups": [
                             {
@@ -15770,7 +15802,21 @@
                         }
                     },
                     {
+                        "value": "Bass Pro - Station 1A",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "Bass Pro - Station 2A Replacement",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "Bass Pro - Station 2B",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -15792,6 +15838,13 @@
                     },
                     {
                         "value": "Bass Pro - Station 4A",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "Bass Pro - Station 4B",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -15841,6 +15894,34 @@
                     },
                     {
                         "value": "Cinema - Station 3A_replacement",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "Cinema - Station 3B",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "Cinema - Station 4A",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "Cinema - Station 4B",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "Cinema - Station 5A",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -15952,6 +16033,20 @@
                         }
                     },
                     {
+                        "value": "MBTA - Station 1A",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "MBTA - Station 1B",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "MBTA - Station 2A",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -15981,6 +16076,13 @@
                     },
                     {
                         "value": "MBTA - Station 4B",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "MBTA - Station 5A",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -16064,6 +16166,13 @@
                         }
                     },
                     {
+                        "value": "VIP - Station 1B",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "VIP - Station 2B",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -16092,6 +16201,13 @@
                         }
                     },
                     {
+                        "value": "VIP - Station 5A",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "VIP - Station 5B Replacement",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -16103,6 +16219,20 @@
                 "network_id": [
                     {
                         "value": "US*6E7*L0910042001110541897020697323",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001150529598320690119",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001150530032320690219",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -16123,7 +16253,35 @@
                         }
                     },
                     {
+                        "value": "US*6E7*L0910042001150532017320690219",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001150532078320690119",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001150532829320690219",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "US*6E7*L0910042001150533608320690219",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001150533719320690119",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -16165,6 +16323,13 @@
                         }
                     },
                     {
+                        "value": "US*6E7*L0910042001150539884320690219",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
                         "value": "US*6E7*L0910042001150540073320690119",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
@@ -16194,6 +16359,20 @@
                     },
                     {
                         "value": "US*6E7*L0910042001150546444320690119",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001150550424320690119",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001150551541320690119",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -16236,6 +16415,27 @@
                     },
                     {
                         "value": "US*6E7*L0910042001260534386122691813",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001260548021122695513",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001260548674122695513",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*6E7*L0910042001260549449122695513",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -16483,6 +16683,28 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": "US*6E7*E0910042001150532829320690219*1"
+                            }
+                        ],
+                        "name": "Bass Pro - Station 1A",
+                        "network_id": [
+                            {
+                                "value": "0910042001150532829320690219",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": "US*6E7*E0910042001280643166323691127*1"
                             }
                         ],
@@ -16490,6 +16712,28 @@
                         "network_id": [
                             {
                                 "value": "0910042001280643166323691127",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001260548674122695513*1"
+                            }
+                        ],
+                        "name": "Bass Pro - Station 2B",
+                        "network_id": [
+                            {
+                                "value": "0910042001260548674122695513",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -16556,6 +16800,28 @@
                         "network_id": [
                             {
                                 "value": "0910042001150554621320690119",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001150530032320690219*1"
+                            }
+                        ],
+                        "name": "Bass Pro - Station 4B",
+                        "network_id": [
+                            {
+                                "value": "0910042001150530032320690219",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -16710,6 +16976,94 @@
                         "network_id": [
                             {
                                 "value": "0910042001280642386323691123",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001150533719320690119*1"
+                            }
+                        ],
+                        "name": "Cinema - Station 3B",
+                        "network_id": [
+                            {
+                                "value": "0910042001150533719320690119",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001150539884320690219*1"
+                            }
+                        ],
+                        "name": "Cinema - Station 4A",
+                        "network_id": [
+                            {
+                                "value": "0910042001150539884320690219",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001150532078320690119*1"
+                            }
+                        ],
+                        "name": "Cinema - Station 4B",
+                        "network_id": [
+                            {
+                                "value": "0910042001150532078320690119",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001150529598320690119*1"
+                            }
+                        ],
+                        "name": "Cinema - Station 5A",
+                        "network_id": [
+                            {
+                                "value": "0910042001150529598320690119",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -17055,6 +17409,50 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": "US*6E7*E0910042001150532017320690219*1"
+                            }
+                        ],
+                        "name": "MBTA - Station 1A",
+                        "network_id": [
+                            {
+                                "value": "0910042001150532017320690219",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001150551541320690119*1"
+                            }
+                        ],
+                        "name": "MBTA - Station 1B",
+                        "network_id": [
+                            {
+                                "value": "0910042001150551541320690119",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": "US*6E7*E0910042001150558636320690119*1"
                             }
                         ],
@@ -17150,6 +17548,28 @@
                         "network_id": [
                             {
                                 "value": "0910042001150546444320690119",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001150550424320690119*1"
+                            }
+                        ],
+                        "name": "MBTA - Station 5A",
+                        "network_id": [
+                            {
+                                "value": "0910042001150550424320690119",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -17407,6 +17827,28 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": "US*6E7*E0910042001260549449122695513*1"
+                            }
+                        ],
+                        "name": "VIP - Station 1B",
+                        "network_id": [
+                            {
+                                "value": "0910042001260549449122695513",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": "US*6E7*E0910042001260534386122691813*1"
                             }
                         ],
@@ -17480,6 +17922,28 @@
                         "network_id": [
                             {
                                 "value": "0910042001260550944022691727",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*6E7*E0910042001260548021122695513*1"
+                            }
+                        ],
+                        "name": "VIP - Station 5A",
+                        "network_id": [
+                            {
+                                "value": "0910042001260548021122695513",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -18329,6 +18793,48 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/63711"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.90753,
+                    41.89222
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Boston - Automotion",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "TURN_ON_GREEN",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "15 Wareham Street",
+                            "city": "Middleborough",
+                            "state": "MA",
+                            "zip_code": "02346"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/320981"
                     }
                 ]
             }
@@ -20890,368 +21396,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.035032,
-                    42.346568
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "City of Boston - V1 Parking Garage",
-                        "source": {
-                            "name": "NOODOE",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "ABM",
-                "network_id": [
-                    {
-                        "value": "66993a47595ef918089eeccd",
-                        "source": {
-                            "name": "NOODOE",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "302 Northern Avenue",
-                            "city": "Boston ",
-                            "state": "MA",
-                            "zip_code": "02210"
-                        },
-                        "source": {
-                            "name": "NOODOE",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164262",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a50",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164267",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a52",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164269",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a53",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164270",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a57",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164276",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a5c",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164278",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a54",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164280",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a59",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164296",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a5b",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164298",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a4e",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164299",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a58",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164303",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a56",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164309",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a55",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164315",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a5a",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164334",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a4f",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164339",
-                        "network_id": [
-                            {
-                                "value": "674b737847ae308df0116a51",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.640756,
                     42.629952
                 ]
@@ -22722,6 +22866,92 @@
                     {
                         "value": "Deerfield Leary Lot",
                         "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AUTEL",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "None 55c North Main Street",
+                            "city": "South Deerfield",
+                            "state": "MA",
+                            "zip_code": "01373"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772_COMBO"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.608264,
+                    42.477919
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Deerfield Leary Lot",
+                        "source": {
                             "name": "ALTERNATIVE_FUEL_DATA_CENTER",
                             "quality": "AGGREGATED"
                         }
@@ -23156,6 +23386,78 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/259806"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.054718,
+                    42.45598
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "E Foster St",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "value": "E Foster St Parking",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "value": "East Foster Street Parking",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "242 East Foster Street",
+                            "city": "Melrose",
+                            "state": "MA",
+                            "zip_code": "02176"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "242 East Foster Street",
+                            "city": "Melrose",
+                            "state": "MA",
+                            "zip_code": "02176"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/225853"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/229700"
                     }
                 ]
             }
@@ -25524,6 +25826,70 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.451798,
+                    42.300088
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Framingham Plaza Shopping Center",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "SHELL_RECHARGE",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "19 Temple Street",
+                            "city": "Framingham",
+                            "state": "MA",
+                            "zip_code": "01702"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "2QIJ-01"
+                            }
+                        ],
+                        "name": "2QIJ-01"
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "2QIJ-02"
+                            }
+                        ],
+                        "name": "2QIJ-02"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.43988,
                     42.29934
                 ]
@@ -25557,48 +25923,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/325212"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.064269,
-                    42.467523
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Franklin  St",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "200 Franklin Street",
-                            "city": "Melrose",
-                            "state": "MA",
-                            "zip_code": "02176"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/229705"
                     }
                 ]
             }
@@ -30108,6 +30432,273 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.568093,
+                    42.275253
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "LG Energy Solutions Vertech Inc",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "7242",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "155 Flanders Road",
+                            "city": "Westborough",
+                            "state": "MA",
+                            "zip_code": "01581"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38761
+                            }
+                        ],
+                        "name": "AMPJ-11406170014",
+                        "network_id": [
+                            {
+                                "value": "39350",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38758
+                            }
+                        ],
+                        "name": "AMPJ-11406170059",
+                        "network_id": [
+                            {
+                                "value": "39347",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38760
+                            }
+                        ],
+                        "name": "AMPJ-11406170118",
+                        "network_id": [
+                            {
+                                "value": "39349",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38756
+                            }
+                        ],
+                        "name": "AMPJ-11406170141",
+                        "network_id": [
+                            {
+                                "value": "39345",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38757
+                            }
+                        ],
+                        "name": "AMPJ-11406170144",
+                        "network_id": [
+                            {
+                                "value": "39346",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38762
+                            }
+                        ],
+                        "name": "AMPJ-11406170207",
+                        "network_id": [
+                            {
+                                "value": "39351",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38765
+                            }
+                        ],
+                        "name": "AMPJ-11406170250",
+                        "network_id": [
+                            {
+                                "value": "39354",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38763
+                            }
+                        ],
+                        "name": "AMPJ-11406170251",
+                        "network_id": [
+                            {
+                                "value": "39352",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38764
+                            }
+                        ],
+                        "name": "AMPJ-11406170254",
+                        "network_id": [
+                            {
+                                "value": "39353",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 38759
+                            }
+                        ],
+                        "name": "AMPJ-11406170271",
+                        "network_id": [
+                            {
+                                "value": "39348",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -72.560136,
                     42.054413
                 ]
@@ -30644,6 +31235,48 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.60885,
+                    42.47804
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Leary Parking Lot",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AUTEL",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "59 North Main Street",
+                            "city": "Deerfield",
+                            "state": "MA",
+                            "zip_code": "01373"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/371494"
                     }
                 ]
             }
@@ -31599,6 +32232,13 @@
                             "name": "AMP_UP",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "value": "MGM FLOOR 7",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
                     }
                 ],
                 "network": "AMP_UP",
@@ -31626,6 +32266,13 @@
                     },
                     {
                         "value": "6792",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "6794",
                         "source": {
                             "name": "AMP_UP",
                             "quality": "ORIGINAL"
@@ -31853,6 +32500,28 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": 36698
+                            }
+                        ],
+                        "name": "DKLPMORBKF",
+                        "network_id": [
+                            {
+                                "value": "38356",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": 36641
                             }
                         ],
@@ -31897,6 +32566,28 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": 36701
+                            }
+                        ],
+                        "name": "ETSKOIEFBS",
+                        "network_id": [
+                            {
+                                "value": "38352",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": 36684
                             }
                         ],
@@ -31904,6 +32595,28 @@
                         "network_id": [
                             {
                                 "value": "38348",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 36699
+                            }
+                        ],
+                        "name": "HCIIDGOIOO",
+                        "network_id": [
+                            {
+                                "value": "38354",
                                 "source": {
                                     "name": "AMP_UP",
                                     "quality": "ORIGINAL"
@@ -31963,6 +32676,50 @@
                                         "plug_type": "J1772"
                                     }
                                 ],
+                                "network_id": 36700
+                            }
+                        ],
+                        "name": "IGFIDDBSCM",
+                        "network_id": [
+                            {
+                                "value": "38353",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 36697
+                            }
+                        ],
+                        "name": "IGTIBTHBAK",
+                        "network_id": [
+                            {
+                                "value": "38351",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
                                 "network_id": 36644
                             }
                         ],
@@ -31970,6 +32727,28 @@
                         "network_id": [
                             {
                                 "value": "38326",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 36696
+                            }
+                        ],
+                        "name": "IPIBGQQDND",
+                        "network_id": [
+                            {
+                                "value": "38357",
                                 "source": {
                                     "name": "AMP_UP",
                                     "quality": "ORIGINAL"
@@ -32212,6 +32991,28 @@
                         "network_id": [
                             {
                                 "value": "38331",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 36695
+                            }
+                        ],
+                        "name": "SIHTGKAOAC",
+                        "network_id": [
+                            {
+                                "value": "38355",
                                 "source": {
                                     "name": "AMP_UP",
                                     "quality": "ORIGINAL"
@@ -36476,74 +37277,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.090595,
-                    42.342509
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Northeastern",
-                        "source": {
-                            "name": "NOODOE",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "ABM",
-                "network_id": [
-                    {
-                        "value": "652cad69dde71156569ab2b6",
-                        "source": {
-                            "name": "NOODOE",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "129 hemenway street",
-                            "city": "Boston",
-                            "state": "MA",
-                            "zip_code": "02115"
-                        },
-                        "source": {
-                            "name": "NOODOE",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ]
-                            }
-                        ],
-                        "name": "2164308",
-                        "network_id": [
-                            {
-                                "value": "674b734747ae308df0114ffd",
-                                "source": {
-                                    "name": "NOODOE",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.329805,
                     41.983257
                 ]
@@ -36712,97 +37445,6 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/359977"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.215486,
-                    41.639759
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Ocean Mist Beach Hotel & Suites",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "network_id": [
-                    {
-                        "value": "3923",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "97 South Shore Drive",
-                            "city": "South Yarmouth",
-                            "state": "MA",
-                            "zip_code": "02664"
-                        },
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 8189
-                            }
-                        ],
-                        "name": "QOIKAM",
-                        "network_id": [
-                            {
-                                "value": "9536",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 8191
-                            }
-                        ],
-                        "name": "QOIKKM",
-                        "network_id": [
-                            {
-                                "value": "9556",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
                     }
                 ]
             }
@@ -37976,6 +38618,99 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.862812,
+                    42.058545
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Place Motor Ford",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "value": "Place Motor Ford",
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "RED_E",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "19 Thompson Road",
+                            "city": "Webster",
+                            "state": "MA",
+                            "zip_code": "01570"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "address": {
+                            "street_address": "19 Thompson Road",
+                            "city": "Webster",
+                            "state": "MA",
+                            "zip_code": "01570"
+                        },
+                        "source": {
+                            "name": "CHARGE_HUB",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/351683"
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1256*1"
+                            },
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1256*2"
+                            }
+                        ],
+                        "name": "L2 1",
+                        "network_id": [
+                            {
+                                "value": "1256",
+                                "source": {
+                                    "name": "CHARGE_HUB",
+                                    "quality": "AGGREGATED"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -70.117726,
                     41.668588
                 ]
@@ -38415,13 +39150,6 @@
                             {
                                 "value": "1657",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1657",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -38528,13 +39256,6 @@
                         ],
                         "name": "L2 16",
                         "network_id": [
-                            {
-                                "value": "1549",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
                             {
                                 "value": "1549",
                                 "source": {
@@ -38647,13 +39368,6 @@
                             {
                                 "value": "1543",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "1543",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -38673,13 +39387,6 @@
                         ],
                         "name": "L2 6",
                         "network_id": [
-                            {
-                                "value": "1541",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
                             {
                                 "value": "1541",
                                 "source": {
@@ -38705,6 +39412,13 @@
                             {
                                 "value": "1539",
                                 "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
+                            {
+                                "value": "1539",
+                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -38724,13 +39438,6 @@
                         ],
                         "name": "L2 8",
                         "network_id": [
-                            {
-                                "value": "1540",
-                                "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
                             {
                                 "value": "1540",
                                 "source": {
@@ -40293,48 +41000,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.105418,
-                    42.553034
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Reading Animal Clinic",
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "1312 Main Street",
-                            "city": "Reading",
-                            "state": "MA",
-                            "zip_code": "01867"
-                        },
-                        "source": {
-                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
-                            "quality": "AGGREGATED"
-                        }
-                    }
-                ],
-                "references": [
-                    {
-                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
-                        "url": "https://afdc.energy.gov/stations#/station/251372"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -70.303775,
                     41.699132
                 ]
@@ -40347,12 +41012,26 @@
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
                         }
+                    },
+                    {
+                        "value": "Recycle Shed Right EVSE1-NISSAN",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
                     }
                 ],
                 "network": "ENEL_X",
                 "network_id": [
                     {
                         "value": "US*3B9*L0910042001110535164020699219",
+                        "source": {
+                            "name": "ENEL_X_EMOBILITY_US",
+                            "quality": "ORIGINAL"
+                        }
+                    },
+                    {
+                        "value": "US*3B9*L0910042001110556060020698824",
                         "source": {
                             "name": "ENEL_X_EMOBILITY_US",
                             "quality": "ORIGINAL"
@@ -40389,6 +41068,28 @@
                         "network_id": [
                             {
                                 "value": "0910042001110535164020699219",
+                                "source": {
+                                    "name": "ENEL_X_EMOBILITY_US",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "US*3B9*E0910042001110556060020698824*1"
+                            }
+                        ],
+                        "name": "Recycle Shed Right EVSE1-NISSAN",
+                        "network_id": [
+                            {
+                                "value": "0910042001110556060020698824",
                                 "source": {
                                     "name": "ENEL_X_EMOBILITY_US",
                                     "quality": "ORIGINAL"
@@ -41579,6 +42280,188 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/216283"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.137146,
+                    41.776097
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Somerset Water & Sewer",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "network_id": [
+                    {
+                        "value": "3281",
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "3249 County Street",
+                            "city": "Somerset",
+                            "state": "MA",
+                            "zip_code": "02726"
+                        },
+                        "source": {
+                            "name": "AMP_UP",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 7682
+                            }
+                        ],
+                        "name": "QQQCGO",
+                        "network_id": [
+                            {
+                                "value": "11480",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": 7681
+                            }
+                        ],
+                        "name": "QQQKOG",
+                        "network_id": [
+                            {
+                                "value": "11508",
+                                "source": {
+                                    "name": "AMP_UP",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.14307,
+                    42.653477
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "South Church Parking Lot",
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "network": "CHARGE_LAB",
+                "network_id": [
+                    {
+                        "value": "fa3aabc8-de27-45eb-bfdb-215e0149e3b0",
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "41 Central Street",
+                            "city": "Andover",
+                            "state": "MA",
+                            "zip_code": "01810"
+                        },
+                        "source": {
+                            "name": "CHARGE_LAB",
+                            "quality": "ORIGINAL"
+                        }
+                    }
+                ],
+                "charging_points": [
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1"
+                            }
+                        ],
+                        "name": "SC-01",
+                        "network_id": [
+                            {
+                                "value": "8e876326-bd3d-43f8-8c6d-fd684b0c2b4d",
+                                "source": {
+                                    "name": "CHARGE_LAB",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "charging_groups": [
+                            {
+                                "ports": [
+                                    {
+                                        "plug_type": "J1772"
+                                    }
+                                ],
+                                "network_id": "1"
+                            }
+                        ],
+                        "name": "SC-02",
+                        "network_id": [
+                            {
+                                "value": "8d8507fa-4964-4f4b-aa33-e9d7f334d992",
+                                "source": {
+                                    "name": "CHARGE_LAB",
+                                    "quality": "ORIGINAL"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -42963,75 +43846,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.216282,
-                    42.033173
-                ]
-            },
-            "properties": {
-                "name": [
-                    {
-                        "value": "Station GMC",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "network": "AMP_UP",
-                "network_id": [
-                    {
-                        "value": "4248",
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "address": [
-                    {
-                        "address": {
-                            "street_address": "2 Chauncy Street",
-                            "city": "Mansfield",
-                            "state": "MA",
-                            "zip_code": "02048"
-                        },
-                        "source": {
-                            "name": "AMP_UP",
-                            "quality": "ORIGINAL"
-                        }
-                    }
-                ],
-                "charging_points": [
-                    {
-                        "charging_groups": [
-                            {
-                                "ports": [
-                                    {
-                                        "plug_type": "J1772"
-                                    }
-                                ],
-                                "network_id": 13818
-                            }
-                        ],
-                        "name": "NLHPHR",
-                        "network_id": [
-                            {
-                                "value": "21075",
-                                "source": {
-                                    "name": "AMP_UP",
-                                    "quality": "ORIGINAL"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.082789,
                     42.130704
                 ]
@@ -43408,13 +44222,6 @@
                             {
                                 "value": "3188",
                                 "source": {
-                                    "name": "RED_E",
-                                    "quality": "ORIGINAL"
-                                }
-                            },
-                            {
-                                "value": "3188",
-                                "source": {
                                     "name": "CHARGE_HUB",
                                     "quality": "AGGREGATED"
                                 }
@@ -43479,6 +44286,13 @@
                         ],
                         "name": "L2 3",
                         "network_id": [
+                            {
+                                "value": "3187",
+                                "source": {
+                                    "name": "RED_E",
+                                    "quality": "ORIGINAL"
+                                }
+                            },
                             {
                                 "value": "3187",
                                 "source": {
@@ -45460,6 +46274,59 @@
                     {
                         "name": "ALTERNATIVE_FUELS_DATA_CENTER",
                         "url": "https://afdc.energy.gov/stations#/station/322845"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.069895,
+                    42.463455
+                ]
+            },
+            "properties": {
+                "name": [
+                    {
+                        "value": "Tremont St - Pole 674",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    },
+                    {
+                        "value": "Tremont St Parking",
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "network": "AMP_UP",
+                "address": [
+                    {
+                        "address": {
+                            "street_address": "130 Tremont Street",
+                            "city": "Melrose",
+                            "state": "MA",
+                            "zip_code": "02176"
+                        },
+                        "source": {
+                            "name": "ALTERNATIVE_FUEL_DATA_CENTER",
+                            "quality": "AGGREGATED"
+                        }
+                    }
+                ],
+                "references": [
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/225855"
+                    },
+                    {
+                        "name": "ALTERNATIVE_FUELS_DATA_CENTER",
+                        "url": "https://afdc.energy.gov/stations#/station/230466"
                     }
                 ]
             }

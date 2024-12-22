@@ -17,6 +17,10 @@ class EnelXSpider(scrapy.Spider):
 
     handle_httpstatus_list = [200, 401]
 
+    custom_settings = {
+        "DOWNLOAD_DELAY": 1,
+    }
+
     AUTH_HEADERS = {
         "Authorization": "Basic YXBwLWVnbzp5dnI0bjZ3MWM0eHpsZnNn",
         "userid": "guest@guest.com",

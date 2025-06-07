@@ -26,6 +26,7 @@ class EvGatewaySpider(scrapy.Spider):
         "IEC_62196_T1": "J1772_CABLE",
         "IEC_62196_T1_COMBO": "J1772_COMBO",
         "CHADEMO": "CHADEMO",
+        "NACS_DC": "NACS",
     }
 
     def start_requests(self):

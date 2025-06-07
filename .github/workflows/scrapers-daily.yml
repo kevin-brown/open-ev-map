@@ -19,15 +19,24 @@ jobs:
           - electricera
           - electrifyamerica
           - enelx
+          - energy5
           - evconnect
+          - evconnect_chargesmartev
           - evgateway
+          - evgateway_chargesmartev
+          - evgateway_siements
           - evgo
           - evloop
+          - evpassport
+          - greenspot
           - flo
           - openstreetmap
+          - powerchargeev
           - rivian
           - shellrecharge
+          - skycharger
           - supercharge
+          - zeplug
     steps:
       - name: Checkout scraper repository
         uses: actions/checkout@v4

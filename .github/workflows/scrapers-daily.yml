@@ -2,7 +2,7 @@ name: Daily Scrapers
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # Runs every day at 5:00
+    - cron: '0 6,18 * * *'  # Runs every day at 6:00 and 18:00
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 env:

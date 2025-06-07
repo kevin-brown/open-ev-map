@@ -53,17 +53,22 @@ class ShellRechargeSpider(scrapy.Spider):
                 continue
 
             if station["cpoId"] == "GRL":
-                yield self.parse_station_greenlots(station)
+                # yield self.parse_station_greenlots(station)
+                pass
             elif station["cpoId"] == "CPI":
-                yield self.parse_station_chargepoint(station)
+                # yield self.parse_station_chargepoint(station)
+                pass
             elif station["cpoId"] == "EVC":
                 yield self.parse_station_evconnect(station)
             elif station["cpoId"] == "EVG":
-                yield self.parse_station_evgo(station)
+                # yield self.parse_station_evgo(station)
+                pass
             elif station["cpoId"] in ["FLO", "FL2"]:
-                yield self.parse_station_flo(station)
+                # yield self.parse_station_flo(station)
+                pass
             elif station["cpoId"] == "PRO":
-                yield self.parse_station_ford_pro(station)
+                # yield self.parse_station_ford_pro(station)
+                pass
             else:
                 print(station)
                 raise
@@ -130,6 +135,9 @@ class ShellRechargeSpider(scrapy.Spider):
             "EV Connect": "EV_CONNECT",
             "SKYCHARGER": "SKYCHARGER",
             "ChargeSmart EV": "CHARGESMART_EV",
+            "InCharge Energy": "INCHARGE_ENERGY",
+            "SynergEV": "SYNERGEV",
+            "bp pulse": "BP_PULSE",
         }
 
         parsed_station["network"] = NETWORK_MAP[station["networkOperator"]["name"]]

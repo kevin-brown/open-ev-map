@@ -14,7 +14,14 @@ jobs:
     strategy:
       matrix:
         scraper:
+          - electricera
+          - electrifyamerica
+          - evgo
+          - evloop
           - openstreetmap
+          - rivian
+          - shellrecharge
+          - supercharge
     steps:
       - name: Checkout scraper repository
         uses: actions/checkout@v4

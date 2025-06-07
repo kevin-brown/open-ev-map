@@ -170,6 +170,7 @@ class OpenStreetMapSpider(scrapy.Spider):
 
             "AmpUp": "AMP_UP",
             "ChargePoint": "CHARGEPOINT",
+            "Chargepoint": "CHARGEPOINT",
             "Shell Recharge Solutions": "SHELL_RECHARGE",
         }
 

@@ -107,6 +107,7 @@ FEEDS = {
 }
 
 NREL_API_KEY = os.getenv("NREL_API_KEY")
+RED_E_ACCESS_TOKEN = os.getenv("RED_E_ACCESS_TOKEN")
 
 try:
     from scrapers.local_settings import *

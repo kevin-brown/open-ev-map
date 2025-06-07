@@ -8,6 +8,7 @@ on:
 env:
   SCRAPED_DATA_DIR: '${{ github.workspace }}/scraped_data'
   NREL_API_KEY: ${{ secrets.NREL_API_KEY }}
+  RED_E_ACCESS_TOKEN: ${{ secrets.RED_E_ACCESS_TOKEN }}
 
 jobs:
   scrape:
@@ -34,6 +35,7 @@ jobs:
           - nrel_afdc
           - openstreetmap
           - powerchargeev
+          - rede
           - rivian
           - shellrecharge
           - skycharger

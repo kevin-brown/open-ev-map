@@ -13,6 +13,7 @@ class RedeSpider(scrapy.Spider):
         "CCS A": "J1772_COMBO",
         "CCS B": "J1772_COMBO",
         "CHADEMO": "CHADEMO",
+        "NACS": "NACS",
     }
 
     def start_requests(self):

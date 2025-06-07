@@ -9,8 +9,12 @@ env:
   SCRAPED_DATA_DIR: '${{ github.workspace }}/scraped_data'
 
 jobs:
-  openstreetmap:
+  scrape:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        scraper:
+          - openstreetmap
     steps:
       - name: Checkout scraper repository
         uses: actions/checkout@v4
@@ -31,11 +35,11 @@ jobs:
 
       - name: Run scraper
         run: |
-          pipenv run scrapy crawl openstreetmap
+          pipenv run scrapy crawl ${{ matrix.scraper }}
 
       - name: Upload scraped data
         uses: actions/upload-artifact@v4
         with:
-          name: openstreetmap
-          path: ${{ env.SCRAPED_DATA_DIR }}/openstreetmap.json
+          name: ${{ matrix.scraper }}-data
+          path: ${{ env.SCRAPED_DATA_DIR }}/${{ matrix.scraper }}.json
           if-no-files-found: error

@@ -103,7 +103,7 @@ class NoodoeSpider(scrapy.Spider):
             },
             callback=self.parse_locations,
         )
-    
+
     def parse_locations(self, response):
         locations = response.json()["data"]["mapQuery"]["regionLocations"]
 
@@ -175,7 +175,10 @@ class NoodoeSpider(scrapy.Spider):
 
         full_state, zip_code = state_zip.rsplit(" ", 1)
 
-        state = MAPPER_STATE_ABBR_LONG_TO_SHORT[full_state]
+        if len(full_state) > 2:
+            state = MAPPER_STATE_ABBR_LONG_TO_SHORT[full_state]
+        else:
+            state = full_state
 
         return {
             "street_address": street_address,

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 env:
-  SCRAPY_DATA_DIR: '${{ github.workspace }}/scrapy_data'
+  SCRAPED_DATA_DIR: '${{ github.workspace }}/scraped_data'
 
 jobs:
   openstreetmap:
@@ -37,5 +37,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: openstreetmap
-          path: ${{ env.SCRAPY_DATA_DIR }}/openstreetmap.json
+          path: ${{ env.SCRAPED_DATA_DIR }}/openstreetmap.json
           if-no-files-found: error

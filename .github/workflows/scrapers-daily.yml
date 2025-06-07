@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 env:
-  SCRAPY_DATA_DIR: './scrapy_data'
+  SCRAPY_DATA_DIR: '${{ github.workspace }}/scrapy_data'
 
 jobs:
   openstreetmap:

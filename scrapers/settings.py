@@ -1,3 +1,4 @@
+import os
 import pathlib
 import sys
 
@@ -89,10 +90,12 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 4
 
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
+FEED_ROOT = os.getenv("SCRAPED_DATA_DIR", (pathlib.Path(__file__) / ".." / ".." / "scraped_data").resolve().as_posix())
+
 if "-a" not in sys.argv:
-    feeds_path = (pathlib.Path(__file__) / ".." / ".." / "scraped_data").resolve().as_posix() + "/%(name)s.json"
+    feeds_path = FEED_ROOT + "/%(name)s.json"
 else:
-    feeds_path = (pathlib.Path(__file__) / ".." / ".." / "scraped_data").resolve().as_posix() + "/%(name)s/%(time)s.json"
+    feeds_path = FEED_ROOT + "/%(name)s/%(time)s.json"
 
 FEEDS = {
     feeds_path: {

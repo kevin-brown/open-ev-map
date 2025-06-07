@@ -106,6 +106,8 @@ FEEDS = {
     }
 }
 
+NREL_API_KEY = os.getenv("NREL_API_KEY")
+
 try:
     from scrapers.local_settings import *
 except ImportError:

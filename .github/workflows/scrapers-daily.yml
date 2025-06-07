@@ -7,6 +7,7 @@ on:
 
 env:
   SCRAPED_DATA_DIR: '${{ github.workspace }}/scraped_data'
+  NREL_API_KEY: ${{ secrets.NREL_API_KEY }}
 
 jobs:
   scrape:
@@ -30,6 +31,7 @@ jobs:
           - evpassport
           - greenspot
           - flo
+          - nrel_afdc
           - openstreetmap
           - powerchargeev
           - rivian

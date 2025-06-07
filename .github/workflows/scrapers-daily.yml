@@ -1,0 +1,41 @@
+name: Daily Scrapers
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # Runs every day at 5:00
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+env:
+  SCRAPY_DATA_DIR: './scrapy_data'
+
+jobs:
+  openstreetmap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scraper repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pipenv
+
+      - name: Set up pipenv
+        run: |
+          pip install --upgrade pipenv wheel
+
+      - name: Install dependencies
+        run: |
+          pipenv install --dev
+
+      - name: Run scraper
+        run: |
+          pipenv run scrapy crawl openstreetmap
+
+      - name: Upload scraped data
+        uses: actions/upload-artifact@v4
+        with:
+          name: openstreetmap
+          path: ${{ env.SCRAPY_DATA_DIR }}/openstreetmap.json
+          if-no-files-found: error

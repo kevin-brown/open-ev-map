@@ -62,6 +62,10 @@ class RedeSpider(scrapy.Spider):
 
     def parse_charging_station(self, response):
         charging_station = response.json()["data"]
+
+        if not charging_station:
+            return
+
         site = charging_station["site"]
 
         address = AddressFeature(

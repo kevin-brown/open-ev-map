@@ -127,7 +127,7 @@ class EvGatewaySpider(scrapy.Spider):
 
             has_operative_port = False
 
-            for station in location["stations"]:
+            for station in location.get("stations", []):
                 for port in station.get("ports", []):
                     if port["status"] not in ["Inoperative"]:
                         has_operative_port = True

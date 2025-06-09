@@ -13,6 +13,7 @@ class ChargePointSpider(scrapy.Spider):
     CONNECTOR_TYPE_TO_PLUG_TYPE_MAP = {
         "J1772": "J1772_CABLE",
         "CCS1": "J1772_COMBO",
+        "CCS2": None,
         "CHAdeMO": "CHADEMO",
         "NACS": "NACS",
         "NACS (Tesla)": "NACS",

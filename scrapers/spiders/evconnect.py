@@ -17,6 +17,7 @@ class EvConnectSpider(scrapy.Spider):
         "CCS": "J1772_COMBO",
         "CCS2": None,
         "CHADEMO": "CHADEMO",
+        "NACS": "NACS",
     }
 
     def start_requests(self):

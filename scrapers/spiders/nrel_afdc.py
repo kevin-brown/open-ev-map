@@ -40,6 +40,7 @@ class NrelAlternativeFuelDataCenterSpider(scrapy.Spider):
         "Tesla": "TESLA_SUPERCHARGER",
         "Tesla Destination": "TESLA_DESTINATION",
         "TURNONGREEN": "TURN_ON_GREEN",
+        "VIALYNK": "VIALYNK",
         "Volta": "VOLTA",
     }
 
